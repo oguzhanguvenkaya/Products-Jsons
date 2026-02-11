@@ -1,0 +1,39 @@
+{
+  "sku": "700466",
+  "last_updated": "2026-02-04T14:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Lindo Cam, Lake Ve Parlak Yüzey Temizleyici (1:10 Konsantre) - 4,54 L",
+    "brand": "FRA-BER",
+    "barcode": "8027486809424",
+    "group": "glass_cleaner",
+    "sub_type": "glass_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:35:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:35:00Z",
+    "template_fields": {
+      "function": "Cam + Lake + Parlak Yüzey Temizleyici",
+      "concentration": "1:10 Konsantre",
+      "volume": "4,54 L",
+      "scent": "Hoş koku",
+      "dilution_range": "1:10 - 1:45"
+    },
+    "content": {
+      "how_to_use": "1. Seyreltme: Yüzeyin kirlilik derecesine göre 900ml suya 100ml Lindo koyarak seyreltin.\n2. Püskürtme: Temizlenecek yüzeye püskürtün.\n3. Silme: Kuru bir bezle silin.\n4. Sonuç: Kristal netliğinde ve ışıltılı görünüm.",
+      "when_to_use": "Cam, kristal, cilalı, boyalı cam ve plastik yüzeylerde hızlı ve etkili temizlik için kullanılır. Her kullanımda kristal netliğinde sonuç verir.",
+      "target_surface": "Cam, kristal, cilalı yüzeyler, boyalı cam, plastik yüzeyler",
+      "why_this_product": "• Çok amaçlı - cam, lake ve parlak yüzeyler\n• Yüksek konsantrasyon - 45 litreye kadar seyreltme\n• Hoş koku bırakır\n• Koruyucu etki - yüzeyi temizlerken korur"
+    },
+    "faq": [
+      {"question": "Maksimum seyreltme oranı nedir?", "answer": "Hafif kirlilik için 1:45 oranına kadar seyreltilebilir. Yoğun kirlilik için 1:10 önerilir."},
+      {"question": "Plastik yüzeylerde güvenli mi?", "answer": "Evet, cam ve plastik yüzeylerde güvenle kullanılabilir."},
+      {"question": "4,54 L ne kadar süre yeter?", "answer": "Seyreltme oranına bağlı olarak 45-205 lt kullanıma hazır ürün elde edilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

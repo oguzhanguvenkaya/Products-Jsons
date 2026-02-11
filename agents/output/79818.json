@@ -1,0 +1,42 @@
+{
+  "sku": "79818",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR X2 FABRICS&LEATHER Deri Ve Kumaş Temizleyici Konsantre - 4,54 lt",
+    "brand": "INNOVACAR",
+    "barcode": "8027486803316",
+    "group": "interior_cleaner",
+    "sub_type": "fabric_leather_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Deri", "Kumaş", "Alcantara"],
+      "concentrate": true,
+      "dilution_ratio": "Saf - 1:1",
+      "finish": "Doğal/Mat",
+      "ph_level": 9.5,
+      "consumption": "100 ml/araç",
+      "volume_lt": 4.54
+    },
+    "content": {
+      "how_to_use": "1. Ağır Kirli Yüzey: Yüzeydeki toz ve kalıntıları süpürgeyle alın, ürünü seyreltmeden doğrudan püskürtün, yumuşak fırça ile köpük oluşana kadar ovalayın, nemli mikrofiber ile silin.\n2. Hafif/Rutin Temizlik: Ürünü 1:1 oranında su ile seyreltin, doğrudan yüzeye püskürtün, önce nemli ardından kuru mikrofiber bez ile silin.\n3. İpucu: Uygulama sonrası SC2 Dressing veya SC4 Tex Coat ile yüzeyin korunması önerilir.",
+      "when_to_use": "Profesyonel detailing stüdyolarında, otomobil iç mekanında koltuk, direksiyon, emniyet kemeri, halı, tavan gibi yüzeylerde, yoğun kullanım için ekonomik seçenek olarak kullanılır.",
+      "target_surface": "Deri, suni deri, kumaş koltuk, direksiyon, emniyet kemeri, halı, tavan döşemesi, kolçaklar",
+      "why_this_product": "• Profesyonel boy - 4,54 lt ekonomik format\n• Bitkisel lipid bariyer teknolojisi\n• Enzim katkılı - organik kir ve protein çözümü\n• Koku giderici - hijyenik ve konforlu iç mekan"
+    },
+    "faq": [
+      {"question": "500 ml versiyonundan farkı nedir?", "answer": "Aynı formül, profesyonel kullanım için ekonomik hacim."},
+      {"question": "Kaç araç temizlenir?", "answer": "Ortalama 100 ml/araç tüketimle yaklaşık 45 araç iç mekan temizliği yapılabilir."},
+      {"question": "Seramik kaplama öncesi kullanılabilir mi?", "answer": "Evet, koruyucu ürünler öncesi yüzeyi hazır hale getirir."},
+      {"question": "Alcantara yüzeylerde güvenli mi?", "answer": "Evet, Alcantara dahil tüm modern döşeme malzemelerinde güvenlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79407"]}
+  }
+}

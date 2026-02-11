@@ -1,0 +1,44 @@
+{
+  "sku": "22.746.281.001",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA 300 Süper Ağır Çizik Giderici Kalın Pasta - 250 ml",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "heavy_cut_compound"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "cut_level": 10,
+      "finish_level": 6,
+      "machine_compatibility": ["Rotary", "Orbital"],
+      "silicone_free": true,
+      "filler_free": true,
+      "dusting_level": "Low",
+      "grit_removal": "P1200+",
+      "volume_ml": 250,
+      "made_in": "Almanya"
+    },
+    "content": {
+      "how_to_use": "1. Uygulama öncesinde araç yüzeyini detaylıca yıkayın ve gerekirse kil temizliği yapın.\n2. Hassas trimleri Q1 Tapes maskeleme bantları ile maskeleyin.\n3. Ped seçimi: Maksimum kesim için kuzu postu keçe veya Menzerna Kırmızı ağır kesim sünger.\n4. Makineyi düşük devirde (800-1000 rpm) başlatarak ürünü yüzeye yayın.\n5. Devri 1500-1800 rpm'e çıkararak yağlı şeffaf film oluşana kadar çalışın.\n6. Yumuşak mikrofiber bezle kalıntıları silin ve sonucu kontrol edin.",
+      "when_to_use": "Ağır boya restorasyonu, zımpara sonrası düzeltme (P1200+) ve en inatçı çiziklerin giderilmesi için kullanılır. Özellikle sert Alman araç verniklerinde etkilidir.",
+      "target_surface": "Otomotiv boyası, sert vernikler, tüm boya tipleri",
+      "why_this_product": "• Maksimum 10/10 aşındırma gücü - en zorlu kusurları giderir\n• Silikonsuz ve dolgu içermez - gördüğünüz sonuç gerçektir\n• P1200 ve üstü zımpara izlerini rekor sürede yok eder\n• Düşük tozuma - temiz çalışma ortamı"
+    },
+    "faq": [
+      {"question": "Menzerna 300 silikon içeriyor mu?", "answer": "Hayır, silikonsuz ve dolgu maddesi içermeyen formüle sahiptir. Boya atölyeleri için güvenlidir."},
+      {"question": "Hangi polisaj makineleriyle kullanabilirim?", "answer": "Hem Rotary hem de Orbital polisaj makineleriyle uyumludur."},
+      {"question": "Hangi zımpara izlerini giderir?", "answer": "P1200 ve üstü (kuzu postu keçe ile) zımpara izlerini etkili şekilde giderir."},
+      {"question": "Sonrasında hangi ürünü kullanmalıyım?", "answer": "Menzerna 2500, SF3500 veya 3800 gibi hare gidericilerle devam edebilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": ["22.828.281.001", "22.992.281.001"], "use_with": [], "accessories": [], "alternatives": ["22.200.281.001", "22.203.261.001"]}
+  }
+}

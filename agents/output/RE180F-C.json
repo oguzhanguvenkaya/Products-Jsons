@@ -1,0 +1,43 @@
+{
+  "sku": "RE180F-C",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Orbital Ara Kesim İnce Pasta Süngeri (Kırmızı) - 175mm",
+    "brand": "MG PS",
+    "barcode": "8683492660123",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Medium Cut",
+      "color": "Kırmızı",
+      "diameter_mm": 175,
+      "base_diameter_mm": 155,
+      "height_mm": 25,
+      "machine_compatibility": ["Orbital"],
+      "cell_structure": "Open Cell",
+      "hardness": "Medium"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 155mm orbital tabanlığa takın.\n2. Orta kesim pasta (Menzerna 2200, 2500) damlatın.\n3. Düşük devirde başlatarak ürünü yüzeye yayın.\n4. Orta devirde çapraz geçişlerle çalışın.\n5. Yağlı film oluşana kadar işleme devam edin.\n6. Mikrofiber ile silin ve sonucu kontrol edin.",
+      "when_to_use": "Orta dereceli çizik ve kusurların giderilmesinde, ağır kesim sonrası ara adım olarak, hafif zımpara izlerinin düzeltilmesinde kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, tüm boya tipleri",
+      "why_this_product": "• Dengeli kesim ve parlaklık performansı\n• Açık gözenekli yapı ile homojen ürün dağılımı\n• 25mm yükseklik ile uzun ömürlü kullanım\n• Orbital makineler için optimize edilmiş"
+    },
+    "faq": [
+      {"question": "Kırmızı ped ne için kullanılır?", "answer": "Ara kesim (medium cut) pasta işlemleri için kullanılır. Orta dereceli çizikler ve kusurlar için idealdir."},
+      {"question": "Hangi pastalarla kullanılır?", "answer": "Menzerna 2200, 2500 ve One Step Polish 3in1 gibi orta kesim pastaları ile kullanılır."},
+      {"question": "Gri ped sonrası kullanılmalı mı?", "answer": "Evet, ağır kesim (gri) ped sonrası ara adım olarak kullanılabilir."},
+      {"question": "Taban çapı nedir?", "answer": "Taban çapı 155mm, yüzey çapı 175mm'dir."}
+    ],
+    "relations": {"use_before": ["GPRO180F-C", "GE180F-C"], "use_after": ["GRY180F-C"], "use_with": ["22.828.281.001", "22.992.281.001"], "accessories": [], "alternatives": ["RE150F-C"]}
+  }
+}

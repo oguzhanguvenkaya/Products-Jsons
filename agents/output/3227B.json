@@ -1,0 +1,22 @@
+{
+  "sku": "3227B",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Softy Mitt Yumuşak Tüylü Araç Yıkama Eldiveni (Siyah) - 20x16 cm", "brand": "KLIN", "barcode": "8809512170650", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "20x16 cm", "type": "Soft Long Pile", "color": "Siyah", "inner_sponge_mm": 14, "weight_gr": 240, "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Araç üzerinde ön yıkama yaparak tazyikli su ile durulayın.\n2. Eldiveni şampuanlı kovaya daldırıp köpürtün.\n3. Yüzeyde yağ gibi akarak kaygan hareketlerle yıkayın.\n4. Sık sık temiz su kovasında durulayın.\n5. 40°C'de yıkayıp asarak kurutun.",
+      "when_to_use": "En hassas yüzeylerde çiziksiz yıkama, premium araç bakımı ve seramik/PPF kaplamalı araçlar için kullanılır.",
+      "target_surface": "Hassas boyalar, seramik kaplamalı yüzeyler, premium araçlar",
+      "why_this_product": "• Premium kalite ultra soft ve narin mikrofiber\n• Geliştirilmiş 14mm iç destek süngeri\n• Ergonomik iç parmak haznesi ve esnek bilek kavraması\n• Hem eldiven hem ped olarak kullanım"
+    },
+    "faq": [
+      {"question": "HD versiyondan farkı nedir?", "answer": "Softy Mitt siyah renkte, HD versiyon açık bej renkte ve kir tespiti daha kolay."},
+      {"question": "Neden siyah renk tercih edilmiş?", "answer": "Siyah renk kirlerin gizlenmesine neden olabilir, ancak profesyonel görünüm sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["3227I-HD", "Q2M-STE"]}
+  }
+}

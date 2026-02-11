@@ -1,0 +1,42 @@
+{
+  "sku": "Q2M-RWYA1000M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM RestartWash Seramik Kaplama PPF Yenileyici Asidik Şampuan - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661397",
+    "group": "car_shampoo",
+    "sub_type": "decon_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "6 (Hafif Asidik)",
+      "iron_remover": true,
+      "alkaline_neutralizer": true,
+      "dilution_ratio": "1:500",
+      "safe_on_ceramic_coatings": true,
+      "hydrophobic_restore": true,
+      "consumption_ml_per_car": 25
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Aracı gölgede durulayın, yüzeyi soğutun.\n2. Seyreltme: Kova için 20-30 ml; köpük tabancası için 30 ml ürünü 500 ml suyla karıştırın.\n3. Uygulama: Köpüğü/şampuanı yüzeye bolca yayın.\n4. Bekleme: 2 dakika çalışmasına izin verin; kurumasına müsaade etmeyin.\n5. Fırçalama: Yumuşak eldivenle düz hatlarda yıkayın.\n6. Durulama: Basınçlı suyla iyice durulayın, SilkDryer ile kurulayın.",
+      "when_to_use": "Seramik/grafen kaplama yenileme, PPF ve vinil bakımında kalıntı giderme, demir tozu temizliği, kaplamanın orijinal hidrofobisini geri getirmek için kullanılır.",
+      "target_surface": "Seramik kaplama, grafen kaplama, PPF, vinil film, wax/sealant kaplı boya, jant, lastik, plastik trim",
+      "why_this_product": "• pH 6 asidik formül alkali kalıntıları nötralize eder\n• Demir + balata tozunu çözerek derin arındırma\n• Kaplamayı soymadan performansı geri getirir\n• Temizlik + dekontaminasyon tek adımda"
+    },
+    "faq": [
+      {"question": "RestartWash yeni hidrofobik katman ekler mi?", "answer": "Hayır, mevcut kaplamanın hidrofobik özelliklerini geri getirir; ekstra tabaka oluşturmaz."},
+      {"question": "Wax veya sealant uygulamalı araçlarda güvenli mi?", "answer": "Evet, formül koruyucu tabakayı soymadan kalıntıları temizler."},
+      {"question": "Köpük tabancasında doğru oran nedir?", "answer": "30 ml ürünü 500 ml suyla karıştırıp yüzeye püskürtün."},
+      {"question": "Ne sıklıkla kullanmalıyım?", "answer": "Her 4-6 yıkamada bir veya hidrofobi azaldığında kullanmanız önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-RWYA500M"]}
+  }
+}

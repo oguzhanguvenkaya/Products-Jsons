@@ -1,0 +1,22 @@
+{
+  "sku": "700888",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Lega Acido Jant Temizleyici Ve Kireç Çözücü (1:5 Konsantre) - 25 kg", "brand": "FRA-BER", "barcode": "8027486812950", "group": "contaminant_solvers", "sub_type": "water_spot_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Karbon Kiri / Kireç / Fren Tozu", "ph_level": "Asidik", "concentrate": true, "dilution_ratio": {"manual": "1:3 - 1:5", "automatic": "10-30 ml/araç"}, "weight_kg": 25},
+    "content": {
+      "how_to_use": "1. Manuel kullanım için 1:3 ila 1:5 oranında seyreltin.\n2. Otomatik yıkamacılarda 10-30 ml/araç dozajında kullanın.\n3. Seyreltilmiş ürünü jant yüzeyine uygulayın.\n4. Birkaç dakika bekletin, kurumasına izin vermeyin.\n5. Bol su ile durulayın.",
+      "when_to_use": "Otomatik yıkama hatları, profesyonel yıkamacılar ve filo bakımı için ekonomik endüstriyel paket.",
+      "target_surface": "Tüm jant türleri",
+      "why_this_product": "• Yüksek temizleme gücüne sahip asitli deterjan\n• Karbon kirleri üzerinde olağanüstü etki\n• Jantların ilk günkü parlaklığını sağlar\n• 25 kg endüstriyel paket - yüksek ekonomi"
+    },
+    "faq": [
+      {"question": "Ne kadar seyretmeliyim?", "answer": "Manuel kullanımda 1:3 ila 1:5, otomatik sistemlerde 10-30 ml/araç dozajı önerilir."},
+      {"question": "Kaç araç için yeterli?", "answer": "1:5 seyreltme ve ortalama 150 ml/araç tüketimle yaklaşık 800+ araç için yeterlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

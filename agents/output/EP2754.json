@@ -1,0 +1,44 @@
+{
+  "sku": "EP2754",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Little Pup Taze Nane Araç Kokusu (Minty Fresh)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843614",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Taze Nane",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 13.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "3D Yavru Köpek Figürü (Yeşil)",
+      "collection": "Little Pup"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Evcil hayvan sahipleri ve ferah bir atmosfer yaratmak isteyenler için idealdir. Nane kokusunun canlandırıcı etkisi.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Sevimli yeşil yavru köpek figürü\n• Canlandırıcı taze nane aroması\n• 45 güne kadar kalıcı etki\n• Evcil hayvanlar için de güvenli"
+    },
+    "faq": [
+      {"question": "Little Pup serisi nedir?", "answer": "Evcil hayvan sahiplerine özel, sevimli yavru köpek figürü tasarımına sahip araç kokusu serisi."},
+      {"question": "Taze nane kokusu nasıl?", "answer": "Canlandırıcı ve ferahlatıcı nane notalarıyla enerji verici bir deneyim sunar."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Evcil hayvanlar için güvenli mi?", "answer": "Evet, alkol ve toksik madde içermeyen formülüyle hem insanlar hem evcil hayvanlar için güvenlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0808", "EP0101", "EP0309"]}
+  }
+}

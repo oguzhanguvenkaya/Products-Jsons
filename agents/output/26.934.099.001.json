@@ -1,0 +1,23 @@
+{
+  "sku": "26.934.099.001",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MENZERNA Rotary Polisaj Makineleri Matkap için Dayanıklı Ped Destek Disk Tabanlık - 75mm", "brand": "MENZERNA", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 75, "compatible_device": ["Rotary M14", "Matkap"], "material": "Metal + PVC", "color": "Kırmızı", "thread_size": "M14"},
+    "content": {
+      "how_to_use": "1. Makineyi veya matkabı kapatın.\n2. M14 dişe tabanlığı vidalayın.\n3. Sıkıca sabitleyin.\n4. 3 inç ped takarak test edin.",
+      "when_to_use": "Dar alanlar, detay çalışmaları ve matkap ile polisaj uygulamaları için 75mm kompakt tabanlık kullanılır.",
+      "target_surface": "M14 dişli rotary makineler ve matkap ucu aparatı",
+      "why_this_product": "• 75mm (3 inç) kompakt boyut\n• Matkap ile kullanıma uygun\n• Dar alanlarda detay çalışması\n• Esnek ve güvenli kenarlar"
+    },
+    "faq": [
+      {"question": "Matkap ile nasıl kullanılır?", "answer": "Matkap ucu aparatı (M14 adaptör) ile birlikte kullanılarak matkabınızı mini polisaj makinesine dönüştürebilirsiniz."},
+      {"question": "Hangi işler için uygundur?", "answer": "Far polisajı, ayna köşeleri, jant detayları ve dar bölgelerde polisaj için idealdir."},
+      {"question": "En küçük Menzerna tabanlık bu mu?", "answer": "Evet, 75mm Menzerna tabanlık serisinin en küçük boyutudur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["26.931.099.001"]}
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sku": "418080",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX XFE 7-15 150 Orbital Çift Tabanlı Polisaj Makinesi Seti",
+    "brand": "FLEX",
+    "barcode": "8683492660871",
+    "group": "polisher_machine",
+    "sub_type": "da_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 710,
+      "orbit_mm": 15,
+      "backing_plate_supported_mm": [125, 150],
+      "max_pad_diameter_mm": 175,
+      "speed_range_rpm": "1500-4500",
+      "oscillation_speed_rpm": "3000-9000",
+      "weight_kg": 2.4,
+      "features": ["Serbest dönüş", "15mm salınım", "Çift tabanlık seti", "Hologramsız finisaj", "VR elektronik"]
+    },
+    "content": {
+      "how_to_use": "1. İşe göre 125mm veya 150mm tabanlık seçin ve takın.\n2. Uygun polisaj pedini monte edin.\n3. Hız kadranından devir ayarlayın (1500-4500 rpm).\n4. Cila/pasta uygulayıp düşük devirde yayın.\n5. Çapraz hareketlerle çalışarak hologramları giderin.\n6. Rotary sonrası finisaj için idealdir.",
+      "when_to_use": "Rotary makine sonrası hologram giderme, ikinci aşama finisaj işlemleri, hafif çizik giderme ve profesyonel parlaklık için kullanılır.",
+      "target_surface": "Araç boyası, hassas boyalar, vernik, marin yüzeyler",
+      "why_this_product": "• 15mm salınım - geniş etki alanı ve verimlilik\n• Çift tabanlık seti (125mm + 150mm) - esneklik\n• Serbest dönüş - hologramsız finisaj\n• Düşük yüzey ısısı - hassas boyalar için güvenli"
+    },
+    "faq": [
+      {"question": "Rotary makine yerine kullanılabilir mi?", "answer": "DA/orbital makineler ağır çizik gidermede rotary kadar etkili değildir. Ancak hafif-orta çizikler ve finisaj için mükemmeldir. İdeal kullanım rotary sonrası ikinci aşamadır."},
+      {"question": "125mm ve 150mm tabanlık ne zaman kullanılır?", "answer": "125mm dar alanlar ve küçük paneller için, 150mm geniş paneller ve hızlı kaplama için tercih edilir."},
+      {"question": "Hologram yapar mı?", "answer": "Hayır, serbest dönüşlü orbital sistem hologram bırakmaz. Aksine rotary sonrası oluşan hologramları gidermek için idealdir."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": ["373680", "406813"],
+      "use_with": ["487953", "492361", "22828.281.001"],
+      "accessories": ["487953", "492361"],
+      "alternatives": ["533021", "SGGF181"]
+    }
+  }
+}

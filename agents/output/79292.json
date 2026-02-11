@@ -1,0 +1,23 @@
+{
+  "sku": "79292",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR D2 CHECK Alkol Bazlı Yüzey Temizleyici Konsantre - 500 ml", "brand": "INNOVACAR", "barcode": "8027486798131", "group": "contaminant_solvers", "sub_type": "oil_degreaser"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Polisaj Yağı / Filler / Silikon", "chemical_base": "Alkol", "function": "Boya hatalarını ortaya çıkarır (Inspection Spray)", "features": "Yavaş buharlaşma, leke bırakmaz", "ph_level": 9.0, "consumption_ml_per_car": 50, "concentrate": true, "dilution_ratio": "1:3 - 1:5"},
+    "content": {
+      "how_to_use": "1. Kaplama öncesi temizlik için mikrofiber beze 2-3 sprey uygulayın.\n2. Yüzeyi dairesel olmayan hareketlerle silin.\n3. Ürünün yüzeyde kurumamasına dikkat edin.\n4. Cila sonrası kontrol için 1:3 - 1:5 oranında seyreltin.\n5. Seyreltik ürünü mikrofiber bez yardımıyla uygulayın, temiz bezle kurulayın.",
+      "when_to_use": "Seramik ve nano kaplama öncesi yüzey hazırlığında, cila sonrası yüzey kontrolünde (hare ve iz tespiti), kaplama hatalarının düzeltilmesinde kullanılır.",
+      "target_surface": "Boya, cam, plastik, seramik kaplamalı yüzeyler",
+      "why_this_product": "• IPA'lara göre daha uzun çalışma süresi\n• Kaplama öncesi ideal yüzey hazırlığı\n• Cila sonrası ince izleri ortaya çıkarır\n• Yüzeyde kalıntı bırakmaz"
+    },
+    "faq": [
+      {"question": "Doğrudan yüzeye püskürtebilir miyim?", "answer": "Hayır, mikrofiber bez üzerine uygulayın ve sonra yüzeyi silin."},
+      {"question": "Seyreltme oranı nedir?", "answer": "Kaplama öncesi saf, hafif temizlik için 1:3 ila 1:5 oranında seyreltilebilir."},
+      {"question": "Seramik kaplama üzerinde güvenli mi?", "answer": "Evet, hassas yüzeylerle uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-PYA1000M"]}
+  }
+}

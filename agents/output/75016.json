@@ -1,0 +1,23 @@
+{
+  "sku": "75016",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Lustradry Susuz Yüzey Temizleyici ve Parlatıcı - 750 ml", "brand": "FRA-BER", "barcode": "8027486748914", "group": "paint_protection_quick", "sub_type": "quick_detailer"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"waterless_wash_capability": true, "contains_sio2": true, "features": ["Susuz temizlik", "3-ü 1 arada", "SiO² koruma", "İz bırakmaz"]},
+    "content": {
+      "how_to_use": "1. Panel Bazlı Çalışın: Küçük bir panel veya bölge seçin.\n2. Püskürtün: Şişeyi çalkalayın, yüzeye ~15 cm mesafeden ürünü bolca sıkın.\n3. Kirleri Çözün: Ürünün kiri yumuşatması için birkaç saniye bekleyin.\n4. Çift Bez Yöntemi: Bez 1 (nemli) ile yatay tek yönlü hareketle kiri kaldırın, Bez 2 (kuru) ile parlak bitiş yapın.\n5. Son Kontrol: Optik kontrol yapın; gerekirse adımı tekrarlayın.",
+      "when_to_use": "Su kısıtlaması olan bölgelerde detaylı bakım için, kuş pisliği ve lokal kirleri anında gidermek için, etkinlik veya satış öncesi hızlı touch-up temizlik için kullanılır.",
+      "target_surface": "Araç boyası, cam, parlak plastik",
+      "why_this_product": "• Susuz temizlik - su kısıtlı lokasyonlarda ideal\n• 3-ü 1 arada: Temizler, parlatır, SiO² koruma sağlar\n• Yüksek kayganlık ile çizik riski düşük\n• İz bırakmayan formül"
+    },
+    "faq": [
+      {"question": "Çamurlu yüzeylerde kullanılabilir mi?", "answer": "Kalın çamur veya tortu varsa önce basınçlı suyla ön yıkama yapmanız önerilir, aksi halde mikro çizik riski oluşabilir."},
+      {"question": "Çift bez yöntemi nedir?", "answer": "Birinci nemli bezle kiri kaldırırsınız, ikinci kuru bezle parlak bitiş yaparsınız."},
+      {"question": "SiO² koruma süresi ne kadar?", "answer": "SiO² katkılı formül kısa süreli hidrofobik koruma sağlar, düzenli kullanımla sürdürülebilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79301"]}
+  }
+}

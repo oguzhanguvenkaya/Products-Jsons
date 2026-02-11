@@ -1,0 +1,39 @@
+{
+  "sku": "81671901",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK Pro Lid - IK 1.5/2 Tank Uyumlu Karışım Hazırlama ve Saklama Kapağı",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685033178",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "compatibility": "IK 1.5/2 litre tanklar",
+      "dosage_marks": true,
+      "storage_capability": true,
+      "accessory_type": "Karışım hazırlama kapağı"
+    },
+    "content": {
+      "how_to_use": "1. IK sprey şişesinin pompasını çıkarın.\n2. IK Pro Lid kapağını takın.\n3. Üzerindeki dozaj çizgilerine göre kimyasal ve su ekleyin.\n4. Karışımı saklayın veya pompayı takarak kullanın.\n5. Artan karışımı etkisini kaybetmeden saklayın.",
+      "when_to_use": "Kimyasal karışım hazırlama ve saklama ihtiyacı olan her ortamda, otomotiv detailing, temizlik ve dezenfeksiyon işlemlerinde kullanılır.",
+      "target_surface": "IK 1.5 ve 2 litre tanklar (aksesuar)",
+      "why_this_product": "• Entegre ölçüm işaretleri ile hassas dozaj\n• Artan karışımları güvenle saklama imkanı\n• Ürün ve su tasarrufu\n• IK sprey şişeleriyle tam uyumluluk"
+    },
+    "faq": [
+      {"question": "Hangi IK ürünleriyle uyumlu?", "answer": "IK 1.5 litre ve 2 litre tanklarla uyumludur."},
+      {"question": "Karışımlar ne kadar süre saklanabilir?", "answer": "Karışımlar etkisini kaybetmeden güvenli şekilde saklanabilir. Süre kullanılan kimyasala bağlıdır."},
+      {"question": "Dozaj işaretleri var mı?", "answer": "Evet, üzerinde dozaj çizgileri bulunur, hassas ve doğru oranlarda karışım hazırlanmasını sağlar."},
+      {"question": "Pompa yerine mi kullanılır?", "answer": "Saklama ve karışım hazırlama için pompa yerine takılır. Kullanım sırasında pompa takılarak sprey yapılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["81671", "81675", "81676"], "accessories": [], "alternatives": []}
+  }
+}

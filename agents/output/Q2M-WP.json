@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-WP",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Wash Pad Çift Yüzlü Araç Yıkama Eldiveni - Washpad Mikrofiber Eldiven", "brand": "GYEON", "barcode": "8809432671053", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"type": "Çift Taraflı (Uzun/Kısa Lif)", "features": "Q²M RestartWash ile uyumlu"},
+    "content": {
+      "how_to_use": "1. Uzun tüylü lif ile yüzeydeki kirlenmeyi doğrudan lifte toplayın.\n2. Kısa tüylü tarafla güvenli bir şekilde çıkarın.\n3. Hem ped hem de eldiven olarak kullanılabilir.\n4. Yıkama sonrası temiz su ile durulayın.",
+      "when_to_use": "Güvenli ve verimli araç yıkama rutini, Q²M RestartWash ile birlikte kullanım için tasarlanmıştır.",
+      "target_surface": "Araç boya yüzeyleri",
+      "why_this_product": "• Çift taraflı tasarım - uzun ve kısa lif kombinasyonu\n• Q²M RestartWash ile mükemmel uyum\n• Kirletici maddelerin güvenli uzaklaştırılması\n• Hem ped hem eldiven olarak kullanım"
+    },
+    "faq": [
+      {"question": "Smoothie EVO'dan farkı nedir?", "answer": "Wash Pad çift taraflı (uzun/kısa lif) yapıda, Smoothie EVO üç farklı elyaf teknolojisi içerir."},
+      {"question": "Sadece ped olarak mı kullanılır?", "answer": "Hayır, hem ped hem de eldiven olarak kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-STE"]}
+  }
+}

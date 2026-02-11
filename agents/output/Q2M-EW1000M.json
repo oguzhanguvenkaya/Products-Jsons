@@ -1,0 +1,41 @@
+{
+  "sku": "Q2M-EW1000M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM ECO Wash Seramik Katkılı Susuz Yıkama Yüzey Temizleyici - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8809432677833",
+    "group": "car_shampoo",
+    "sub_type": "rinseless_wash"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "Nötr",
+      "contains_sio2": true,
+      "waterless_dilution": "1:10 - 1:15",
+      "rinseless_dilution": "1:150 - 1:256",
+      "dry_aid_dilution": "1:20",
+      "safe_on_ceramic_coatings": true
+    },
+    "content": {
+      "how_to_use": "1. Susuz Yıkama: 1:10-1:15 seyreltme, paneli bolca ıslatın, 30 sn bekletin, plush mikrofiber ile düz hatlar çizerek silin.\n2. Durulamasız Yıkama: 12 L su + 50-80 ml ürün, WashPad veya 6-8 adet mikrofiberi solüsyona daldırın, panel panel temizleyin.\n3. Kurutma Yardımcısı: 1:20 seyreltme, ıslak panele 2-3 fıs, SilkDryer ile kaydırarak kurulayın.",
+      "when_to_use": "Su kısıtlamalı bölgelerde (apartman otoparkı, garaj, etkinlik alanı), seramik kaplama bakımında parlaklık takviyesi, show & shine etkinliklerinde hızlı toz alma için kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, wax, cam, plastik trim",
+      "why_this_product": "• 3-in-1: Susuz yıkama, durulamasız yıkama, kurutma yardımcısı\n• SiO² aşılı parlaklık ve su iticilik\n• Sıfır akıntı, çevre dostu\n• 1 L konsantreyle 250 L hazır çözelti (rinseless)"
+    },
+    "faq": [
+      {"question": "Çok kirli (çamurlu) araçta susuz yıkama güvenli mi?", "answer": "Hayır. Çamur ve ağır film önce basınçlı ön yıkama veya geleneksel yöntemle uzaklaştırılmalıdır; ECO Wash hafif-orta kir için idealdir."},
+      {"question": "Seyreltmeyi hazırla-kullan mı yapmalıyım?", "answer": "Hazırladığınız çözeltinin performansı 2-3 hafta stabildir; serin ve gölgede saklayın."},
+      {"question": "ECO Wash mevcut wax/seramik kaplamayı aşındırır mı?", "answer": "pH nötr formül kaplamayı bozmaz, aksine SiO² katkısıyla hidrofobiyi yeniler."},
+      {"question": "Kışın soğuk havada kullanabilir miyim?", "answer": "Evet; 0°C'nin üzerindeki sıcaklıklarda güvenle uygulayabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-EW500M"]}
+  }
+}

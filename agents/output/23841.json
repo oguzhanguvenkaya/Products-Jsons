@@ -1,0 +1,49 @@
+{
+  "sku": "23841",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA TOP TEC 10 Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916066995",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 9.9,
+      "capacity_usable_lt": 5.0,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "Köpük nozul (110° püskürtme açısı)",
+      "seal_type": "EPDM",
+      "pump_material": "PP",
+      "safety_valve": true,
+      "shoulder_strap": true,
+      "hose_length_m": 1.4,
+      "gun_length_cm": 45.5,
+      "spray_angle_degrees": 110,
+      "foam_density_adjustable": true,
+      "chemical_resistance": ["Alkaliler", "Ketonlar", "Alkoller"],
+      "color": "Siyah/Beyaz"
+    },
+    "content": {
+      "how_to_use": "1. Köpük yapıcı kimyasalı geniş huni açıklığından hazneye doldurun.\n2. Kapağı sıkıca kapatın ve pompayı çalışma basıncına (max 3 bar) ulaştırın.\n3. 45.5 cm plastik tabanca ve 110° köpük nozulunu kullanın.\n4. Köpük yoğunluğunu plastik ara parça ile ayarlayın (keçe diski çıkarılarak).\n5. Kullanım sonrası hazneyi ve 1.4 m hortumu temiz su ile durulayın.",
+      "when_to_use": "İnatçı kirlerin temizliği, araç yıkama, cam ve duvar temizliği, endüstriyel zemin/tuvalet/banyo temizliği, kamyon/römork/iş makinesi yıkama işlemlerinde kullanılır.",
+      "target_surface": "Araç gövdeleri, camlar, duvarlar, endüstriyel zeminler, kamyon ve iş makineleri, banyo ve tuvalet yüzeyleri",
+      "why_this_product": "• 10 litre hazne ile 5 litre köpük çalışma kapasitesi\n• 110° geniş açılı güçlü köpük püskürtme\n• Ayarlanabilir köpük yoğunluğu\n• EPDM conta ile alkali ve keton dayanımı"
+    },
+    "faq": [
+      {"question": "Köpük yoğunluğu nasıl ayarlanır?", "answer": "Memeyi sökün, keçe diskini çıkarın ve şemaya göre gerekli plastik ayırıcıyı uygulayın."},
+      {"question": "EPDM conta hangi kimyasallarla uyumlu?", "answer": "Alkali ürünler, ketonlar (aseton dahil), alkoller ve %5'e kadar asetik asit çözeltileri ile uyumludur."},
+      {"question": "TEC 10 modelinden farkı nedir?", "answer": "TOP TEC 10 köpük yapıcı özelliktedir ve 110° püskürtme açısına sahiptir. TEC 10 ise sıvı atım yapar."},
+      {"question": "Püskürtme açısı nedir?", "answer": "110° geniş açılı püskürtme ile geniş yüzeyleri hızlı ve etkili bir şekilde köpükle kaplayabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["23822", "23817"]}
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "sku": "EF1919",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Sedir Ağacı Araç Kokusu (Cedarwood) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186841115",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Sedir Ağacı",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Doğal ve rahatlatıcı bir atmosfer yaratmak isteyen kullanıcılar için idealdir. Doğa severler için mükemmel.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Doğanın huzur veren sedir ağacı aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• Stresi azaltan rahatlatıcı etki"
+    },
+    "faq": [
+      {"question": "Sedir ağacı kokusu nasıl?", "answer": "Doğal, güçlü ve huzur veren bir aroma. Orman esintisi yaşatır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Erkeksi mi?", "answer": "Odunsu yapısıyla daha erkeksi bir profile sahip olmakla birlikte unisex kullanılabilir."},
+      {"question": "Doğa severler için mi?", "answer": "Evet, doğanın enerjisini ve huzurunu yaşam alanlarına taşımak isteyenler için idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF1818", "EF1212", "EF0606"]}
+  }
+}

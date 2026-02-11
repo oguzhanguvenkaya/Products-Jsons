@@ -1,0 +1,83 @@
+{
+  "sku": "Q2-LCR500M",
+  "product_name": "Gyeon Q² Leather Coat Redefined Deri Yüzeyler Için Bakım ve Koruma - 400 ml",
+  "barcode": "Q2-LCR500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:23:56.848Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/leathercoat-redefined/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q² LEATHERCOAT REDEFINED - GYEON",
+      "content_length": 11546,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2-leather-coat",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q² LeatherCoat | SiO₂ Leather Sealant",
+      "content_length": 34456,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2-leathercoat",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² LeatherCoat | Silica-Based Leather Protectant — Polished Bliss",
+      "content_length": 14724,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanandshiny.co.uk/products/gyeon-q2-leathercoat-400ml",
+      "domain": "cleanandshiny.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q2 LeatherCoat 400ml | FREE UK Delivery Available",
+      "content_length": 8140,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.justcarcare.co.uk/products/gyeon-q2-leather-coat-redefined-500ml",
+      "domain": "justcarcare.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² Leather Coat Redefined 500ml | Protective Leather Coating &ndash; Just Car Care",
+      "content_length": 11015,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://clean-garage.com/gyeon-q2-leathercoat-redefined-500ml-easy-to-use-leather-coating/",
+      "domain": "clean-garage.com",
+      "language": "en",
+      "page_title": "Gyeon Q2 LeatherCoat Redefined 500ml | Easy To Use Leather Coating | The Clean Garage",
+      "content_length": 14014,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

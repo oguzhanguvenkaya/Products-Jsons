@@ -1,0 +1,42 @@
+{
+  "sku": "SGGC055",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Tornador Detaylı Temizlik Tabancası Boncuklu - 1000 ml",
+    "brand": "SGCB",
+    "barcode": "6973086161184",
+    "group": "polisher_machine",
+    "sub_type": "tornador"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "tornador_cleaning_gun",
+      "power_source": "Pneumatic",
+      "air_pressure_psi": 90,
+      "air_pressure_bar": 6.2,
+      "rpm": 8000,
+      "tank_capacity_ml": 1000,
+      "material": "HDPE + Alüminyum",
+      "features": ["Çift yönlü mandal", "Seyreltme göstergesi", "Bilya sistemi", "Yedek parça dahil"]
+    },
+    "content": {
+      "how_to_use": "1. Hazneye temizlik sıvısını doldurun (seyreltme göstergesine dikkat edin).\n2. Kompresör hava hattına bağlayın (6.2 bar / 90 psi).\n3. Hava/sıvı oranını mandal ile ayarlayın.\n4. Temizlenecek yüzeye tutarak tetiği çekin.\n5. Fırça ucu ile koltuk, halı ve trim yüzeylerini ovun.\n6. Kullanım sonrası temiz su ile sistemi yıkayın.",
+      "when_to_use": "Araç iç mekan detaylı temizliği, kumaş koltuk, paspas, tavan döşemesi, plastik trim ve kalorifer ızgara temizliği için kullanılır.",
+      "target_surface": "Kumaş, halı, paspas, plastik trim, tavan döşemesi, fitil kenarları",
+      "why_this_product": "• 1 litre geniş hazne kapasitesi\n• 8000 rpm güçlü dönüş\n• Fırçalı uç ile derinlemesine temizlik\n• Yedek bilya ve hortum dahil"
+    },
+    "faq": [
+      {"question": "Solvent bazlı temizleyiciler kullanılabilir mi?", "answer": "Hayır, solvent ve asit bazlı, yanıcı temizleyiciler için uygun değildir."},
+      {"question": "Hangi kompresör gerekli?", "answer": "Minimum 90 psi (6.2 bar) basınç sağlayan kompresör gereklidir."},
+      {"question": "Yedek parça bulunur mu?", "answer": "Evet, kutu içerisinde 1 adet yedek bilya ve 1 adet yedek kılcal hortum bulunmaktadır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

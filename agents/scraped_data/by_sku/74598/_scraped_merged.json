@@ -1,0 +1,23 @@
+{
+  "sku": "74598",
+  "product_name": "Fra-Ber Brillant Plastik Vinil Ahşap Için Koruyucu Cila",
+  "barcode": "74598",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:12:31.621Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/lucida-cruscotti-professionale-auto-brilliant?variant=43698062655696",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Fra-Ber Brilliant Professional Car Dashboard Polish",
+      "content_length": 41780,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

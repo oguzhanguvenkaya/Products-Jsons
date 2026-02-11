@@ -1,0 +1,44 @@
+{
+  "sku": "26.909.099.001",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA Hare Hologram Giderici Cila Süngeri 2li Paket (Yeşil) - 95mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Finish",
+      "color": "Yeşil",
+      "diameter_mm": 95,
+      "base_diameter_mm": 75,
+      "machine_compatibility": ["Rotary", "Orbital"],
+      "hardness": "Soft",
+      "washable": true,
+      "safety_edge": true,
+      "pack_quantity": 2
+    },
+    "content": {
+      "how_to_use": "1. Mini/spot polisaj makinenize 75mm tabanlık takın.\n2. Pedi tabanlığa yerleştirin ve düzgün oturduğundan emin olun.\n3. Ped yüzeyine hare giderici cila damlatın.\n4. Düşük devirde hafif basınçla dar alanlarda çalışın.\n5. Spot ışıkla kontrol ederek hare kalıp kalmadığını görün.\n6. Kullanım sonrası pedleri ılık suyla yıkayın.",
+      "when_to_use": "Dar alanlarda polisaj sonrası hare ve hologram gideriminde, A direkleri ve kenar bölgelerinde son kat parlaklık için, spot düzeltme işlemlerinde kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, dar alanlar, köşeler, hassas bölgeler",
+      "why_this_product": "• 2'li paket ile kesintisiz çalışma imkanı\n• 95mm çapı ile dar alanlara erişim\n• Yumuşak yapısı ile hare bırakmaz\n• Menzerna Final Finish serisine optimize edilmiş"
+    },
+    "faq": [
+      {"question": "Bu ped hangi cilalarla kullanılır?", "answer": "Final Finish 3000, 3500, 3800 ile optimize edilmiştir."},
+      {"question": "Hangi tabanlık boyutu gerekir?", "answer": "75mm (3 inç) çapında tabanlık diskleri ile uyumludur."},
+      {"question": "Sarı ped sonrası kullanılmalı mı?", "answer": "Evet, orta kesim (sarı ped) sonrası son kat olarak kullanılarak hare giderilir."},
+      {"question": "Koruma ürünleri öncesi gerekli mi?", "answer": "Evet, wax veya sealant uygulaması öncesinde bu ped ile son kat parlatma önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": ["26.907.099.001", "26.908.099.001"], "use_with": ["22.992.281.001"], "accessories": ["26.931.099.001"], "alternatives": ["GPRO060"]}
+  }
+}

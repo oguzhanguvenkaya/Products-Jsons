@@ -1,0 +1,52 @@
+{
+  "sku": "SGGF190",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Orbital Polisaj Makinesi 3\"/75mm 710W",
+    "brand": "SGCB",
+    "barcode": "6973086162303",
+    "group": "polisher_machine",
+    "sub_type": "da_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 710,
+      "voltage": 220,
+      "orbit_mm": 12,
+      "backing_plate_supported_mm": [75],
+      "speed_range_rpm": "2000-5000",
+      "speed_levels": 6,
+      "weight_kg": 2.3,
+      "cable_length_m": 3,
+      "features": ["Kompakt tasarım", "Bakır kaplama motor", "Dijital hız kontrolü", "Dar alanlar için"]
+    },
+    "content": {
+      "how_to_use": "1. 75mm tabanlık ve mini ped takın.\n2. 6 kademeli dijital hız kadranından devir seçin.\n3. Az miktarda cila uygulayın.\n4. Dar alana veya bölgesel onarıma odaklanın.\n5. 12mm salınım ile hologramsız finisaj elde edin.\n6. Detay alanlarında hassas çalışma yapın.",
+      "when_to_use": "Dar alanlar, köşeler, ayna kapakları, bölgesel onarımlar ve detay finisaj işlemleri için kullanılır. Büyük orbital makinelerin tamamlayıcısı olarak idealdir.",
+      "target_surface": "Araç boyası - dar alanlar, köşeler, detay bölgeleri, mermer, ahşap",
+      "why_this_product": "• 75mm kompakt tabanlık - dar alanlara erişim\n• 12mm salınım - yüksek kontrol\n• 710W bakır motor - dayanıklılık\n• Ekonomik fiyat"
+    },
+    "faq": [
+      {"question": "125mm modelden farkı nedir?", "answer": "75mm model dar alanlar ve detay çalışmaları için tasarlanmıştır. 125mm model geniş paneller için daha verimlidir."},
+      {"question": "FLEX XFE 7-12 80 ile karşılaştırması?", "answer": "SGCB daha ekonomik bir alternatiftir. FLEX premium VR elektronik ve daha gelişmiş titreşim kontrolü sunarken, SGCB benzer işlevselliği uygun fiyata sağlar."},
+      {"question": "Spot onarımlar için uygun mu?", "answer": "Evet, 75mm tabanlık ve kompakt tasarım spot çizik onarımları ve bölgesel düzeltmeler için idealdir."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": ["SGGF181-57", "22828.281.001"],
+      "accessories": ["SGGF181-57"],
+      "alternatives": ["447129"]
+    }
+  }
+}

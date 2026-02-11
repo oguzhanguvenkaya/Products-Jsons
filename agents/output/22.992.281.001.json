@@ -1,0 +1,117 @@
+{
+  "sku": "22.992.281.001",
+  "last_updated": "2026-02-04T13:20:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "MENZERNA 3800 Süper Hare Giderici Cila - 250 ml",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "super_finishing_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:20:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna Super Finish Plus 3800, boya düzeltme sanatının son ve en kritik adımı için tasarlanmış, ultra ince bir final cilasıdır. Temel amacı, önceki polisaj adımlarından kalan son makine izlerini, hologramları, hareleri ve P3000 seviyesindeki en ince zımpara izlerini dahi kalıcı olarak yok etmektir. Formülündeki ultra ince ve homojen mikro aşındırıcılar sayesinde boya yüzeyini mükemmelleştirerek, inanılmaz bir derinlik, yansıma ve 'Show Car' kalitesinde ıslak bir parlaklık kazandırır.",
+        "extracted_specs": {
+          "cut_level": 2,
+          "finish_level": 10,
+          "silicone_free": true,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "abrasive_type": "diminishing",
+          "grit_removal": "P3000",
+          "gloss_level": "Show Car Finish"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Hare ve hologram giderme", "Show car hazırlığı", "Hassas ve koyu renk boyalar", "Koruma öncesi son adım"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": ["Menzerna 3500"]
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 2,
+        "finish_level": 10,
+        "silicone_free": true,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "abrasive_type": "diminishing",
+        "grit_removal": "P3000",
+        "machine_compatibility": ["rotary", "orbital"],
+        "recommended_pads": ["Menzerna Yeşil Final Pedi", "Ultra yumuşak sünger ped"]
+      },
+      "content": {
+        "use_cases": ["Show car hazırlığı", "Hare ve hologram giderme", "Koyu renk boyalar", "Koruma öncesi final"],
+        "benefits": ["Show Car kalitesinde parlaklık", "Ultra ince aşındırıcılar", "P3000 izlerini giderir", "Derin ıslak görünüm"]
+      },
+      "faq": [],
+      "related_products": ["Menzerna 3500", "GYEON Q²M Prep"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:20:00Z",
+    "template_fields": {
+      "cut_level": 2,
+      "finish_level": 10,
+      "machine_compatibility": ["rotary", "orbital"],
+      "recommended_pad_types": ["finishing_foam_pad", "ultra_soft_foam_pad"],
+      "dusting_level": null,
+      "working_time": null,
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "abrasive_type": "diminishing",
+      "safe_for_soft_paint": true,
+      "wipe_off_ease": null,
+      "grit_removal": "P3000",
+      "gloss_level": "Show Car Finish"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Önceki polisaj adımlarından sonra yüzeyin temiz olduğundan emin olun. En iyi sonuçlar için yüzey serin olmalıdır.\n2. Makine & Ped Seçimi: Rotary ve Orbital polisaj makineleriyle kullanılabilir.\n   - Önerilen Ped: Menzerna Yeşil Final Pedi veya ultra yumuşak sünger ped\n3. Ürün Miktarı: Pede 1-2 nohut tanesi büyüklüğünde ürün yeterlidir. Az ürün, çok geçiş prensibi.\n4. Uygulama: Makineyi düşük hızda çalıştırın.\n   - Rotary: Kademe 1-2\n   - Orbital: Kademe 2-3\n5. Çalışma: Çok hafif basınçla, yavaş ve düzenli hareketlerle çalışın. Yağlı bir film oluşana kadar devam edin.\n6. Temizlik: Ultra yumuşak mikrofiber bezle hafifçe silin.\n7. Kontrol: Yansıma kontrolü yapın - ayna gibi bir yüzey görmelisiniz.\n8. Pro-Tip: Koyu renk araçlarda sonucu güneş ışığında kontrol edin.",
+      "when_to_use": "Boya düzeltme işleminin son ve en kritik adımı olarak kullanılır. Önceki polisaj adımlarından kalan son makine izlerini, hologramları ve hareleri yok etmek için idealdir. P3000 seviyesindeki en ince zımpara izlerini giderebilir. Show car hazırlığı, fuar ve yarışma öncesi maksimum parlaklık arayanlar için vazgeçilmezdir. Özellikle siyah gibi koyu renkli ve hassas boyalarda mükemmel sonuçlar verir. Koruma (wax/sealant) öncesi son adım olarak ideal zemin hazırlar.",
+      "target_surface": "Tüm vernik tipleri, koyu renkli boyalar, hassas yüzeyler, show car kalitesi aranan araçlar",
+      "why_this_product": "• Show Car kalitesinde ıslak parlaklık - fuar ve yarışma standartlarında bitiş.\n• Ultra ince ve homojen mikro aşındırıcılar - en hassas yüzeylerde bile güvenli.\n• P3000 zımpara izlerini bile giderir - boya düzeltmenin son noktası.\n• 2/10 kesim ile 10/10 parlaklık - minimum müdahale, maksimum parlaklık.\n• Silikonsuz formül - koruma ürünleri için ideal zemin."
+    },
+    "faq": [
+      {
+        "question": "Show Car parlaklığı ne demektir?",
+        "answer": "Show Car parlaklığı, fuar ve yarışma standartlarında, mümkün olan en derin, en ıslak ve en kusursuz yansıma anlamına gelir. Menzerna 3800, bu seviyede bir bitiş sağlamak için özel olarak formüle edilmiştir."
+      },
+      {
+        "question": "P3000 zımpara izlerini gerçekten giderir mi?",
+        "answer": "Evet, ultra ince aşındırıcı partikülleri sayesinde P3000 seviyesindeki en ince zımpara izlerini bile kalıcı olarak yok edebilir."
+      },
+      {
+        "question": "Koyu renk araçlarda nasıl sonuç verir?",
+        "answer": "Menzerna 3800, özellikle siyah gibi koyu renkli boyalarda mükemmel sonuçlar verir. En ufak kusurları bile gösteren bu yüzeylerde derin, ayna gibi bir parlaklık sağlar."
+      },
+      {
+        "question": "3500 ile 3800 hangisini seçmeliyim?",
+        "answer": "Sert verniklerde daha fazla düzeltme gerekiyorsa 3500, maksimum parlaklık ve show car bitişi için 3800 tercih edilmelidir. Çoğu durumda 3500 sonrası 3800 ile final yapılabilir."
+      },
+      {
+        "question": "Koruma öncesi kullanmalı mıyım?",
+        "answer": "Evet, wax veya sealant uygulamasından önce 3800 ile final yapmak, korumanın altında maksimum parlaklık ve yansıma sağlar. Silikonsuz formülü koruma ürünlerinin tutunmasını engellemez."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

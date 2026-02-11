@@ -1,0 +1,23 @@
+{
+  "sku": "SGGD285",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Mat Clamp Plastik Paspas Tutacağı Asma Aparatı - 4 Adet", "brand": "SGCB", "barcode": "6973086160231", "group": "storage_accessories", "sub_type": "holder_clamp"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "ABS + Paslanmaz Çelik", "quantity": 4, "max_load_kg": 10, "wall_mountable": true},
+    "content": {
+      "how_to_use": "1. Vidaları ve dübelleri kullanarak duvara monte edin.\n2. Paslanmaz çelik yayı açarak paspası sıkıştırın.\n3. Kaymaz diş tasarımı paspasın yerinde kalmasını sağlar.\n4. Kuruduktan sonra paspası kolayca çıkarın.",
+      "when_to_use": "Araç yıkama ve detailing merkezlerinde araç paspaslarını asarak kurutmak ve saklamak için kullanılır.",
+      "target_surface": "Duvar, alet tahtası",
+      "why_this_product": "• 304 paslanmaz çelik yay - güçlü elastiklik\n• Kaymaz diş tasarımı - paspas kaymaz\n• 10 kg'a kadar taşıma kapasitesi\n• 4 adet set - vida ve dübel dahil"
+    },
+    "faq": [
+      {"question": "Ağır paspasları tutar mı?", "answer": "Evet, 10 kg'a kadar ağırlık taşıyabilir."},
+      {"question": "Paslanır mı?", "answer": "Hayır, 304 paslanmaz çelik yay kullanılmıştır."},
+      {"question": "Set kaç adet içerir?", "answer": "4 adet aparat, vidalar ve dübellerle birlikte gelir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

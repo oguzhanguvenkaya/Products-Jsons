@@ -1,0 +1,42 @@
+{
+  "sku": "75140",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 25 lt",
+    "brand": "FRA-BER",
+    "barcode": null,
+    "group": "interior_cleaner",
+    "sub_type": "tire_dressing"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Lastik"],
+      "solvent_based": true,
+      "finish": "Parlak",
+      "water_resistant": true,
+      "duration": "3-4 hafta",
+      "concentrate": false,
+      "volume_lt": 25
+    },
+    "content": {
+      "how_to_use": "1. Püskürtücü, fırça veya sünger hazırlayın.\n2. Temiz ve kuru lastik yüzeyine ürünü doğrudan uygulayın.\n3. Eşit şekilde yayarak tüm yüzeyi kaplayın.\n4. Kurumasını bekleyin.\n5. Not: Suda seyreltilmez, saf olarak kullanılır.",
+      "when_to_use": "Profesyonel oto yıkama merkezlerinde uzun süreli parlaklık için, filo araçlarında yüksek hacimli lastik bakımında, showroom araçlarında uzun süreli estetik için, premium detailing hizmetlerinde kullanılır.",
+      "target_surface": "Araç lastikleri, kauçuk yüzeyler",
+      "why_this_product": "• Uzun süreli etki - 3-4 hafta boyunca kalıcı parlaklık\n• Yıkamaya dayanıklı formül - parlaklık etkisi uzun süre korunur\n• Su itici özellik - lastikleri olumsuz hava koşullarından korur\n• Profesyonel boy - 25 litre ile yoğun kullanım"
+    },
+    "faq": [
+      {"question": "Su ile seyreltilir mi?", "answer": "Hayır, solvent bazlı olduğu için suda seyreltilmez, doğrudan saf olarak kullanılır."},
+      {"question": "Parlaklık ne kadar sürer?", "answer": "Yaklaşık 3-4 hafta boyunca kalıcı bir parlaklık etkisi sağlar."},
+      {"question": "Nasıl uygulanır?", "answer": "Püskürtücü, fırça veya sünger kullanılarak doğrudan lastiklere uygulanır."},
+      {"question": "Yıkamaya dayanıklı mı?", "answer": "Evet, yıkamaya dayanıklı formülü sayesinde parlaklık etkisi uzun süre korunur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["71706"]}
+  }
+}

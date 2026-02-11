@@ -1,0 +1,44 @@
+{
+  "sku": "GPRO060",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Hare/Hologram Giderici Cila Süngeri Flat (Sarı) 60 mm",
+    "brand": "MG PS",
+    "barcode": "8683492660482",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Finish",
+      "color": "Sarı",
+      "diameter_mm": 60,
+      "base_diameter_mm": 55,
+      "height_mm": 15,
+      "form": "Flat",
+      "machine_compatibility": ["Nano/Mini"],
+      "cell_structure": "Open Cell",
+      "hardness": "Medium-Soft"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 55mm nano/mini tabanlığa takın.\n2. Hare giderici cila damlatın.\n3. Düşük devirde başlatarak dar alanda çalışın.\n4. Hafif basınçla çapraz geçişlerle çalışın.\n5. Spot ışıkla hare kontrolü yapın.\n6. Kullanım sonrası pedi yıkayın.",
+      "when_to_use": "Dar alanlarda hare ve hologram gideriminde, spot parlatma işlemlerinde, A direkleri ve köşelerde son kat uygulamalarında kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, dar alanlar, köşeler, kenarlar",
+      "why_this_product": "• Flat (düz) tasarım ile tam temas\n• Orta-yumuşak doku ile güvenli parlatma\n• Kompakt 60mm boyut ile dar alanlara erişim\n• Ekonomik fiyat ile tek adet satış"
+    },
+    "faq": [
+      {"question": "Sarı 60mm ped ne için kullanılır?", "answer": "Dar alanlarda hare ve hologram giderimi ile son kat parlaklık için kullanılır."},
+      {"question": "BUR060 sonrası kullanılmalı mı?", "answer": "Evet, ağır kesim (bordo) sonrası son kat olarak kullanılır."},
+      {"question": "Hangi cilalarla kullanılır?", "answer": "Final Finish serisi ve hare giderici cilalar ile kullanılır."},
+      {"question": "Hangi tabanlık gerekir?", "answer": "55mm nano/mini tabanlıklarla uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": ["BUR060", "GRY6555"], "use_with": ["22.992.281.001"], "accessories": [], "alternatives": ["GPRO100F-C"]}
+  }
+}

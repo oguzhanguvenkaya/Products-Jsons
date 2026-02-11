@@ -1,0 +1,45 @@
+{
+  "sku": "81678",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Pompa 2 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102188",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.9,
+      "capacity_usable_lt": 1.25,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "Yelpaze tipi köpük nozul",
+      "chemical_resistance": ["Asitler", "Köpük yapıcılar", "pH nötr"],
+      "foam_adjustable": true,
+      "safety_valve": true,
+      "compressor_connection": true,
+      "valve_type": "Schrader (üniversal)",
+      "weight_net_kg": 0.56
+    },
+    "content": {
+      "how_to_use": "1. Kimyasalı haznedeki 'max' işaretine kadar doldurun.\n2. Kapağı sıkıca kapatın.\n3. Manuel pompalama veya hava kompresörü (Schrader valf) ile basınçlandırın.\n4. Köpük yoğunluğunu ayarlamak için uygun aparatı seçin.\n5. Tetik kilidini açın ve yüzeye doğru köpüğü püskürtün.\n6. Kullanım sonrası basıncı boşaltın ve temiz su ile durulayın.",
+      "when_to_use": "Yoğun kullanım gerektiren profesyonel detailing işlemlerinde, sürekli köpük uygulaması gereken alanlarda, araç ön yıkama ve kar köpüğü uygulamalarında, HVAC sistem temizliğinde kullanılır.",
+      "target_surface": "Araç dış yüzeyi, kumaş koltuklar, halılar, döşemeler, HVAC serpantinleri",
+      "why_this_product": "• Hem manuel hem kompresör bağlantılı çift basınçlandırma\n• Schrader tipi üniversal valf - lastik şişirme kompresörleriyle uyumlu\n• Kuru, yoğun ve uzun kalıcı köpük üretimi\n• 3 farklı köpük yoğunluğu ayarı"
+    },
+    "faq": [
+      {"question": "Standart IK FOAM PRO 2'den farkı nedir?", "answer": "Plus versiyonu hava kompresörü bağlantı özelliğine sahiptir, böylece manuel pompalamaya gerek kalmadan hızlı basınçlandırma yapılabilir."},
+      {"question": "Hangi kompresörlerle uyumlu?", "answer": "Schrader tipi üniversal valf sayesinde lastik şişirme kompresörleri gibi yaygın cihazlarla uyumludur."},
+      {"question": "Alkali kimyasallarla kullanılabilir mi?", "answer": "Hayır, sodyum hidroksit, çamaşır suyu ve aseton gibi alkali/keton içerikli kimyasallar ürüne zarar verir."},
+      {"question": "Maksimum basınç nedir?", "answer": "3 bar (43.5 psi) basınca ayarlı emniyet valfi ile güvenli kullanım sağlanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81676", "82676"]}
+  }
+}

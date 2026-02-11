@@ -1,0 +1,23 @@
+{
+  "sku": "74062",
+  "product_name": "Fra-Ber Nanotech Koruyucu ve Parlatıcı Hızlı Cila Vişne Kokulu (1:200 Konsantre) - 1000 ml",
+  "barcode": "74062",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:12:28.719Z",
+  "sources": [
+    {
+      "url": "https://www.fra-ber.it/en/car-wash-detergents/waxes/nanotech-self-cherry/",
+      "domain": "fra-ber.it",
+      "language": "en",
+      "page_title": "Nanotech Self Cherry by Fra-Ber",
+      "content_length": 9476,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    }
+  ]
+}

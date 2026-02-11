@@ -1,0 +1,35 @@
+{
+  "sku": "26900.224.012",
+  "product_name": "Menzerna Soft Cut Premium Yeşil Hare Giderici Cila Süngeri 150 mm",
+  "barcode": "26900.224.012",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:37:17.448Z",
+  "sources": [
+    {
+      "url": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/soft-cut-foam-pad",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Soft Cut Foam Pad",
+      "content_length": 7198,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gbdetailing.com/products/menzerna-foam-pad-green-soft-cut-150mm-6",
+      "domain": "gbdetailing.com",
+      "language": "en",
+      "page_title": "Menzerna Foam Pad - Green Soft Cut 150mm 6&quot;\n &ndash; GB Detailing",
+      "content_length": 2829,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

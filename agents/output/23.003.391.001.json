@@ -1,0 +1,96 @@
+{
+  "sku": "23.003.391.001",
+  "last_updated": "2026-02-04T13:25:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "MENZERNA Metal Polish Metal Krom, Çelik Parlatıcı - 125 gr",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "metal_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:25:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "MENZERNA Metal Polish, metal objeler için eşsiz bir parlatma çözümüdür. Paslanmaz çelikten alüminyuma, kromdan pirince, bakırdan gümüşe ve hatta plastik materyallere kadar geniş bir yelpazede kullanılabilir. Araç egzozlarından radyatör ızgaralarına, şık jantlardan evinizdeki sıhhi tesisat parçalarına kadar birçok alanda parlaklık kazandırabilir.",
+        "extracted_specs": {
+          "target_surface": "Metal/Chrome/Steel",
+          "application_method": ["hand", "machine"],
+          "cut_level": "Medium",
+          "silicone_free": true
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Metal parlatma", "Krom parlatma", "Çelik parlatma", "Alüminyum parlatma", "Egzoz parlatma", "Jant parlatma"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "target_surface": ["Metal", "Chrome", "Steel", "Aluminium", "Brass", "Copper", "Silver", "Plastic"],
+        "application_method": ["hand", "machine"],
+        "cut_level": "Medium",
+        "silicone_free": true
+      },
+      "content": {
+        "use_cases": ["Araç egzozları", "Radyatör ızgaraları", "Jantlar", "Sıhhi tesisat parçaları", "Krom aksesuarlar"],
+        "benefits": ["Geniş kullanım alanı", "Kullanıcı dostu", "Ekonomik", "Kalıcı sonuçlar", "Doğal formül"]
+      },
+      "faq": [],
+      "related_products": []
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:25:00Z",
+    "template_fields": {
+      "target_surface": "Metal/Chrome/Steel/Aluminium/Brass/Copper/Silver/Plastic",
+      "application_method": ["hand", "machine"],
+      "cut_level": "Medium",
+      "silicone_free": true
+    },
+    "content": {
+      "how_to_use": "1. Yüzey Hazırlığı: Metal yüzeyi toz ve kirden arındırın.\n2. Elle Uygulama: Mikrofiber bir beze az miktarda MENZERNA Metal Polish sürün.\n3. Makineyle Uygulama: Küçük bir polisaj makinasının süngeri üzerine az miktarda ürün sürün.\n4. Uygulama: Ürünü dairesel hareketlerle uygulayarak metal yüzeylerde derinlemesine temizlik sağlayın.\n5. Parlatma: Yüzey parlamaya başlayana kadar devam edin.\n6. Temizlik: Temiz bir mikrofiber bezle artık kalan ürünü silin.\n7. Kontrol: Metal yüzeylerin nasıl parladığını görün!",
+      "when_to_use": "Metal objeler matlaştığında veya istenmeyen lekelerle kaplandığında kullanılır. Paslanmaz çelik, alüminyum, krom, pirinç, bakır ve gümüş yüzeylerde parlaklık kazandırmak için idealdir. Araç egzozları, radyatör ızgaraları, jantlar ve evdeki sıhhi tesisat parçalarında kullanılabilir.",
+      "target_surface": "Paslanmaz çelik, alüminyum, krom, pirinç, bakır, gümüş, plastik materyaller",
+      "why_this_product": "• Geniş kullanım alanı - metal türlerinin çoğunda etkili tek ürün.\n• Yoğun formül - az miktarda ürünle büyük sonuçlar.\n• Kalıcı parlaklık - uzun süreli etki.\n• Silikonsuz formül - zararlı birikimler bırakmaz.\n• Elle veya makineyle uygulama - kullanıcı dostu."
+    },
+    "faq": [
+      {
+        "question": "Hangi metallerde kullanılabilir?",
+        "answer": "Paslanmaz çelik, alüminyum, krom, pirinç, bakır ve gümüş gibi birçok metal türünde kullanılabilir. Ayrıca bazı plastik materyallerde de etkilidir."
+      },
+      {
+        "question": "Araç egzozunda kullanabilir miyim?",
+        "answer": "Evet, araç egzozlarında, radyatör ızgaralarında ve jantlarda güvenle kullanılabilir. Matlaşan metal parçaları ilk günkü parlaklığına kavuşturur."
+      },
+      {
+        "question": "Elle mi yoksa makineyle mi kullanmalıyım?",
+        "answer": "Her iki yöntemle de kullanılabilir. Küçük alanlar için elle mikrofiber bezle, geniş alanlar için küçük polisaj makinesi ile uygulama yapabilirsiniz."
+      },
+      {
+        "question": "Ne kadar ürün kullanmalıyım?",
+        "answer": "Yoğun formülü sayesinde az miktarda ürün yeterlidir. Parmak ucu büyüklüğünde ürünle başlayıp gerekirse ekleyebilirsiniz."
+      },
+      {
+        "question": "Parlaklık ne kadar süre dayanır?",
+        "answer": "Uygulama sonrası kalıcı parlaklık sağlar. Normal kullanım koşullarında uzun süre etkisini korur. Gerektiğinde uygulamayı tekrarlayabilirsiniz."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

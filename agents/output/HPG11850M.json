@@ -1,0 +1,43 @@
+{
+  "sku": "HPG11850M",
+  "last_updated": "2026-02-04T14:40:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Q1 Yüksek Performans Maskeleme Bantı Yeşil - 18mm x 50 metre",
+    "brand": "Q1 TAPES",
+    "barcode": "5023555110258",
+    "group": "masking_tapes",
+    "sub_type": "high_performance_tape"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:40:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:40:00Z",
+    "template_fields": {
+      "width": "18 mm",
+      "length": "50 metre",
+      "color": "Yeşil",
+      "adhesive_type": "Özel formül",
+      "temperature_resistance": "110°C (30 dk)",
+      "uv_resistance": "3 gün",
+      "water_resistant": true,
+      "wet_sanding_safe": true,
+      "transparent_appearance": true
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi temiz ve kuru hale getirin.\n2. Bantı gergin şekilde uygulayın.\n3. Kavisli yüzeylerde esnetin ve şekil verin.\n4. Islak zımpara sırasında bant yerinde kalır.\n5. Boya sonrası 45° açıyla çekin.",
+      "when_to_use": "Zorlu projeler, ıslak zımpara uygulaması ve su bazlı boyalar için özel olarak tasarlanmıştır. Kavisli ve düz olmayan yüzeylerde üstün performans sağlar.",
+      "target_surface": "Boyalı yüzeyler, kavisli paneller, düz olmayan yüzeyler",
+      "why_this_product": "• Islak zımpara uyumlu - su direnci\n• 3 gün UV dayanımı - dış mekan çalışmaları\n• Yüksek esneklik - kavisli yüzeylerde mükemmel uyum\n• Saydam görünüm - maskeleme sırasında kolay takip"
+    },
+    "faq": [
+      {"question": "Sarı banttan farkı nedir?", "answer": "Yeşil bant özel olarak ıslak zımpara, su bazlı boyalar ve zorlu projeler için tasarlanmıştır. Daha yüksek su direnci ve esnekliğe sahiptir."},
+      {"question": "Dış mekanda kullanılabilir mi?", "answer": "Evet, 3 gün UV dayanımı sayesinde dış mekanda güvenle kullanılabilir."},
+      {"question": "Kavisli yüzeylerde nasıl performans gösterir?", "answer": "Özel esneme kapasitesi sayesinde kavisli ve düz olmayan yüzeylere mükemmel uyum sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

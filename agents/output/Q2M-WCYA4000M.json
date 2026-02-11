@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-WCYA4000M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM WetCoat Nano Boya Koruma - 4000 ml", "brand": "GYEON", "barcode": "8683492661458", "group": "paint_protection_quick", "sub_type": "spray_rinse_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"application_method": "Spray & Rinse", "application_area": "Profesyonel/Galon", "durability_weeks": 12, "hydrophobic": true, "sio2_percent": 5, "consumption_ml": 80, "applications_per_bottle": 50, "features": ["Galon boyut", "Profesyonel kullanım", "SiO² teknoloji", "pH 2-11 dayanım"]},
+    "content": {
+      "how_to_use": "1. Aracınızı pH-nötr şampuan ile yıkayın ve durulayın.\n2. Yüzey soğuk ve ıslak kalmalı.\n3. Şişeyi çalkalayın ve yaklaşık 15 cm mesafeden her panele 1-2 fıs uygulayın.\n4. Yüzeyde fazla bekletmeden basınçlı suyla durulayın.\n5. Mikrofiber havluyla kurulayın.",
+      "when_to_use": "Haftalık bakım yıkamalarında son adım olarak, seramik kaplama bakımında, mobil detailing ve filo hizmetlerinde yüksek hacimli kullanım için idealdir.",
+      "target_surface": "Araç boyası, cam, jant, plastik trim, metal, PPF, vinil",
+      "why_this_product": "• 4000 ml galon boyut - 49-56 uygulama kapasitesi\n• %5 SiO² ile 12 haftaya kadar koruma\n• Profesyonel detaycılar ve filo hizmetleri için ekonomik\n• pH 2-11 arası yıkamalara dayanıklı"
+    },
+    "faq": [
+      {"question": "4000 ml ile kaç araç yapılabilir?", "answer": "Ortalama 80 ml/araç tüketimle 49-56 araç uygulaması yapılabilir."},
+      {"question": "500 ml ve 1000 ml versiyonlardan farkı nedir?", "answer": "Sadece ambalaj boyutu farkı vardır, formül aynıdır. 4L versiyon profesyonel kullanım için daha ekonomiktir."},
+      {"question": "Seramik kaplama üzerine uygulanabilir mi?", "answer": "Evet, kaplamayı tazeler ve boncuklama etkisini geri kazandırır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-WYA1000M", "Q2M-WYA500M"]}
+  }
+}

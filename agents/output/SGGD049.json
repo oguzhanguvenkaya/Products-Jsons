@@ -1,0 +1,37 @@
+{
+  "sku": "SGGD049",
+  "last_updated": "2026-02-04T14:50:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Wheel Detail Brush Jant Detay Fırçası",
+    "brand": "SGCB",
+    "barcode": "6973086162563",
+    "group": "brushes",
+    "sub_type": "wheel_brush"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:50:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:50:00Z",
+    "template_fields": {
+      "bristle_type": "Yumuşak, pürüzsüz kıl",
+      "flexibility": "Yüksek",
+      "handle_design": "Ergonomik",
+      "safe_for": ["Jant", "Krom", "Boyalı yüzeyler"]
+    },
+    "content": {
+      "how_to_use": "1. Jantı ıslatın ve jant temizleyici püskürtün.\n2. Esnek fırçayı dar alanlara sokun.\n3. Yumuşak kıllarla güvenli temizlik yapın.\n4. Bol suyla durulayın.",
+      "when_to_use": "Jant detay temizliğinde dar ve ulaşılması zor bölgeler için kullanılır. Yumuşak kılları sayesinde hassas jant yüzeylerinde güvenle uygulanır.",
+      "target_surface": "Jant içleri, spoke araları, jant kenarları, balatalar arası",
+      "why_this_product": "• Esnek tasarım - dar noktalara kolayca ulaşır\n• Yumuşak kıllar - çizik oluşturmaz\n• Ergonomik sap - uzun kullanımda konfor\n• Dayanıklı yapı - uzun ömürlü"
+    },
+    "faq": [
+      {"question": "GYEON Wheel Brush ile farkı nedir?", "answer": "SGCB daha ekonomik alternatiftir. Her ikisi de kaliteli jant fırçasıdır."},
+      {"question": "Sert kirlerde yeterli mi?", "answer": "Yumuşak kıllar hassas yüzeyler içindir. Çok sert kir için önce kimyasal temizleyici ile bekletin."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

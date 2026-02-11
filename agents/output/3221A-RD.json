@@ -1,0 +1,22 @@
+{
+  "sku": "3221A-RD",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Wash Mitt Mikrofiber Araç Yıkama Eldiveni (Kırmızı)", "brand": "KLIN", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "20x18 cm", "type": "Duo (Eldiven ve Ped olarak kullanım)", "inner_sponge_mm": 14, "weight_gr": 240, "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Aracı tazyikli su ile ön yıkama yapın.\n2. Eldiveni su ve şampuan dolu kovaya daldırıp köpürtün.\n3. Yumuşak hareketlerle, fazla baskı uygulamadan yüzeyi yıkayın.\n4. Eldiveni sık sık temiz su kovasında durulayın.\n5. Yıkama sonrası aracı bol su ile durulayın.",
+      "when_to_use": "Araç yıkama, seramik kaplamalı araçlar, motosiklet, tekne ve yat bakımı için kullanılır.",
+      "target_surface": "Araç boya yüzeyleri, cam, motosiklet, marin",
+      "why_this_product": "• Çift fonksiyonlu tasarım - eldiven ve ped modu\n• 14 mm iç sünger tabakası - yüksek köpük üretimi\n• CCS teknolojisi - paketten çıkarıp anında kullanım\n• Ergonomik iç parmak hazneleri"
+    },
+    "faq": [
+      {"question": "Eldiven mi ped mi olarak kullanılmalı?", "answer": "İsterseniz iç parmak haznelerini kullanarak eldiven, isterseniz katlanarak ped olarak kullanabilirsiniz."},
+      {"question": "Hangi renk seçenekleri var?", "answer": "Kırmızı ve Mavi renk seçenekleri mevcuttur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-STE", "3227I-HD"]}
+  }
+}

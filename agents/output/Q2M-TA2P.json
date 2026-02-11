@@ -1,0 +1,19 @@
+{
+  "sku": "Q2M-TA2P",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Tire Applicator Lastik Parlatıcı Sünger Blok 2'li", "brand": "GYEON", "barcode": null, "group": "applicators", "sub_type": "tire_applicator"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"quantity": "2 adet", "type": "Sünger blok", "purpose": "Lastik parlatıcı uygulaması"},
+    "content": {
+      "how_to_use": "1. Lastik parlatıcıyı süngere damlatın.\n2. Lastik yan yüzeyine eşit şekilde sürün.\n3. Kurumaya bırakın veya fazlasını silin.",
+      "when_to_use": "Lastik parlatıcı, jel ve koruyucu ürünlerin uygulanmasında kullanılır.",
+      "target_surface": "Lastik yan yüzeyleri",
+      "why_this_product": "• GYEON lastik ürünleri ile uyumlu\n• Ergonomik blok tasarım\n• 2'li paket"
+    },
+    "faq": [{"question": "TireExpress ile kullanılır mı?", "answer": "Evet, GYEON TireExpress dahil tüm lastik bakım ürünleriyle kullanılabilir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

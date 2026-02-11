@@ -1,0 +1,23 @@
+{
+  "sku": "492361",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX BP-M D75 - PXE 80 İçin Cırtlı Tabanlık 75 mm / 3 inc", "brand": "FLEX", "barcode": "4030293222144", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 75, "compatible_device": ["FLEX PXE 80"], "attachment_type": "Velcro", "material": "PU", "hardness": "Orta"},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın.\n2. Eski tabanlığı döndürerek sökün.\n3. Yeni BP-M D75 tabanlığı özel dişli yuvasına takın.\n4. Sıkıca vidalayın.\n5. Uygun 3 inç pedi takarak test edin.",
+      "when_to_use": "Detaylı ve orta ölçekli yüzeylerde hassas polisaj için kullanılır. Tamponlar, kapı panelleri ve hassas yüzeylerde geniş çalışma imkanı sunar.",
+      "target_surface": "FLEX PXE 80 nano polisaj makinesi",
+      "why_this_product": "• Sadece PXE 80 ile tam uyum\n• 75mm (3 inç) geniş boyut\n• Titreşimi azaltarak dengeli çalışma\n• Orta boy detay alanları için ideal"
+    },
+    "faq": [
+      {"question": "PXE 80 için en büyük tabanlık bu mu?", "answer": "Evet, 75mm FLEX PXE 80 için mevcut en büyük tabanlık boyutudur."},
+      {"question": "Hangi işler için uygundur?", "answer": "Tampon kenarları, kapı panelleri ve orta boyutlu detay alanlarında hassas polisaj için idealdir."},
+      {"question": "Titreşim nasıl?", "answer": "Orta sertlikteki PU yapısı titreşimi azaltarak konforlu çalışma sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["492353", "509248"]}
+  }
+}

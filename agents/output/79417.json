@@ -1,0 +1,23 @@
+{
+  "sku": "79417",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR SC1 SEALANT Hızlı Hidrofobik Nano Koruma - 500 ml", "brand": "INNOVACAR", "barcode": "8027486799350", "group": "paint_protection_quick", "sub_type": "spray_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"durability_months_single": 4, "durability_months_with_maintenance": 8, "consumption_ml": 30, "cure_time_hours": 7, "features": ["Güçlü kimyasal direnç", "Seramik etkisi", "Nano koruma", "İpeksi kayganlık"]},
+    "content": {
+      "how_to_use": "1. Aracı SP1 Prewash ve S2 Foamy ile yıkayın, dekontaminasyon yapın.\n2. Araç tamamen kuru olmalıdır.\n3. Düşük tüylü mikrofiber beze 2-3 sprey SC1 Sealant sıkın.\n4. Criss-Cross yöntemiyle (önce yatay, sonra dikey) yüzeye eşit yayın.\n5. Orta/uzun tüylü mikrofiber bezle dairesel hareketlerle fazlalığı silin.\n6. 7 saat kürleşme bekleyin.",
+      "when_to_use": "Cila sonrası yüzeyin korunmasında, seramik kaplama sonrası bakım katmanı olarak ve hızlı etkili dış koruma isteyenler için kullanılır.",
+      "target_surface": "Araç boyası, tüm dış yüzeyler",
+      "why_this_product": "• 4-8 aya kadar uzun süreli koruma\n• Nano koruma ve moleküler film teknolojisi\n• Asit/alkali yıkamalara karşı direnç\n• İpeksi kayganlık ve görsel parlaklık"
+    },
+    "faq": [
+      {"question": "W1 Quick Detailer ile birlikte kullanılabilir mi?", "answer": "Evet, uygulamadan 20 dakika sonra W1 ile yüzeyi destekleyebilirsiniz."},
+      {"question": "Koruma süresi nasıl uzatılır?", "answer": "Her 3 yıkamada bir H2O Coat ile bakım yapıldığında koruma 8 aya kadar uzar."},
+      {"question": "Seramik kaplama ile uyumlu mu?", "answer": "Evet, seramik kaplamalı yüzeyler için de uygundur ve mevcut korumayı destekler."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["79304", "79301"], "accessories": [], "alternatives": ["700096", "79295"]}
+  }
+}

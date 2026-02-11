@@ -1,0 +1,45 @@
+{
+  "sku": "81671",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK MULTI PRO 2 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 2 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102072",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.9,
+      "capacity_usable_lt": 1.5,
+      "max_pressure_bar": 2.5,
+      "flow_rate_lpm": 0.50,
+      "nozzle_type": "Ayarlanabilir konik + Fan tipi nozul",
+      "nozzle_count": 2,
+      "chemical_resistance": ["Dezenfektanlar", "pH nötr ürünler", "Asitler"],
+      "safety_valve": true,
+      "content_identification": true,
+      "weight_net_kg": 0.56
+    },
+    "content": {
+      "how_to_use": "1. Asit veya nötr kimyasalı hazneye doldurun (max çizgiyi aşmayın).\n2. Kapağı sıkıca kapatın ve pompa kolunu kullanarak basınçlandırın.\n3. Yüzeye uygun konik veya fan nozulu seçin.\n4. Emniyet kilidini açın ve eşit dağılımla püskürtün.\n5. İş bitince basıncı emniyet valfiyle düşürün.\n6. Hazneyi boşaltıp temiz su ile durulayın.",
+      "when_to_use": "Otomotiv detailing (jant, lastik, motor bölgesi), endüstriyel bakım ve temizlik, dezenfeksiyon işlemleri, haşere kontrolü, inşaat temizliği ve HVAC bakım uygulamalarında kullanılır.",
+      "target_surface": "Jantlar, lastikler, motor bölgesi, endüstriyel ekipmanlar, HVAC sistemleri",
+      "why_this_product": "• Asitlere karşı yüksek dayanıklılık\n• 2.5 bar emniyet valfi ile güvenli kullanım\n• Çift nozul seçeneği (konik + fan)\n• Renk kodlu içerik tanımlama sistemi"
+    },
+    "faq": [
+      {"question": "Köpük yapıcı mı?", "answer": "Hayır, sıvı atım yapan basınçlı pompadır. Köpük için IK FOAM PRO serisi önerilir."},
+      {"question": "Alkali kimyasallarla kullanılabilir mi?", "answer": "Hayır, alkali ve ketonlar için uygun değildir. Alkali için IK ALK serisi önerilir."},
+      {"question": "81675 modelinden farkı nedir?", "answer": "81671 (MULTI PRO 2) 2.5 bar basınçlıdır. 81675 (MULTI PRO 2 360°) ise 360 derece atım özelliğine sahiptir."},
+      {"question": "Hangi sektörlerde kullanılır?", "answer": "Otomotiv, endüstriyel temizlik, dezenfeksiyon, haşere kontrolü, inşaat ve HVAC sektörlerinde kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81675"]}
+  }
+}

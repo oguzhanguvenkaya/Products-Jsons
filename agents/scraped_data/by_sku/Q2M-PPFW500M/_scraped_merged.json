@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-PPFW500M",
+  "product_name": "Gyeon Q²m Ppf Wash Ppf Folyo Kaplı Araçlara Özel Yıkama Şampuanı - 500 ml -Demir Tozu Sökücü",
+  "barcode": "Q2M-PPFW500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:19:31.445Z",
+  "sources": [
+    {
+      "url": "https://autolab.bg/en/product/3892/gyeon-q2m-ppf-wash-500ml.html",
+      "domain": "autolab.bg",
+      "language": "en",
+      "page_title": "GYEON Q2M PPF Wash 500ml",
+      "content_length": 13180,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://gyeon.de/GYEON-QM-PPF-Wash-500-ml",
+      "domain": "gyeon.de",
+      "language": "en",
+      "page_title": "GYEON Q²M PPF Wash 500 ml - Gyeon.de | Buy Premium Car Care Products",
+      "content_length": 11226,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-ppf-wash-400ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M PPF Wash 500ml | CARZILLA",
+      "content_length": 12551,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-ppf-wash-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Wash 500ml | Product",
+      "content_length": 12065,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.justcarcare.co.uk/products/gyeon-q2m-ppf-wash",
+      "domain": "justcarcare.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M PPF Wash | Vinyl &amp; PPF Car Shampoo &ndash; Just Car Care",
+      "content_length": 8618,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://thecleangarage.uk/gyeon-q2m-ppf-wash-500ml-cleans-decontaminates-ppf-vinyl/",
+      "domain": "thecleangarage.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Wash 500ml | Cleans Decontaminates PPF &amp; Vinyl",
+      "content_length": 12538,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "sku": "IF0453",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Elma Tarçın Araç Kokusu (Apple Cinnamon) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843164",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Elma Tarçın",
+      "durability_days": 45,
+      "dimensions_mm": "85x145x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Winter Edition"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Kış aylarının sıcaklığını ve lezzetli atmosferini yaşatmak isteyenler için idealdir. Ev, araba, ofis veya tekne gibi her ortamda mükemmel uyum sağlar.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Tatlı elma ve baharatlı tarçın notalarının kış sıcaklığı\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• Şık ve fonksiyonel tasarım"
+    },
+    "faq": [
+      {"question": "Elma tarçın kokusu nasıl?", "answer": "Tatlı elma ve baharatlı tarçın notalarının dengeli birleşimi, kışın sıcak atmosferini yansıtır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Sadece kışın mı kullanılır?", "answer": "Her mevsim kullanılabilir ancak özellikle kış aylarında sıcak ve huzurlu bir atmosfer yaratır."},
+      {"question": "Tarçın kokusu çok baskın mı?", "answer": "Hayır, elma ve tarçın dengeli bir armoni oluşturur, rahatsız etmeden keyifli bir koku sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0101", "EF1655", "IF0909"]}
+  }
+}

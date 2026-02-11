@@ -1,0 +1,44 @@
+{
+  "sku": "SC1515",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Kötü Koku Giderici Dolap Asma Kart (Odour Neutraliser)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186841573",
+    "group": "fragrance",
+    "sub_type": "odor_eliminator"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Koku Nötralize Edici",
+      "durability_days": 45,
+      "dimensions_mm": "80x178x10",
+      "weight_g": 20.0,
+      "material": "EVA Termo-Plastik",
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Scented Card"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Kötü kokunun yoğun olduğu alana (araç, dolap, mutfak, banyo) asın.\n3. Ürün kötü kokuları maskelemek yerine tamamen nötralize eder.\n4. Klima çıkışı veya hava akışı olan yerlerde daha etkili çalışır.\n5. Etkisi azaldığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Kötü kokuları kalıcı olarak gidermek isteyenler için idealdir. Sigara, yemek, küf ve diğer istenmeyen kokuları tamamen nötralize eder.",
+      "target_surface": "Araç içi, dolap içi, mutfak, banyo, ayakkabılık, çöp kovası yakını",
+      "why_this_product": "• Kokuları maskelemez, tamamen nötralize eder\n• EVA termo-plastik teknolojisi ile 45 güne kadar kalıcı etki\n• Kontrollü koku salınım teknolojisi\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Koku giderici nasıl çalışır?", "answer": "Kötü kokuları maskelemek yerine moleküler düzeyde nötralize ederek tamamen ortadan kaldırır."},
+      {"question": "Hangi kokuları giderir?", "answer": "Sigara, yemek, küf, ter ve diğer istenmeyen kokuları etkili şekilde nötralize eder."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku giderme performansı sağlar."},
+      {"question": "Diğer Scented Card ürünlerinden farkı nedir?", "answer": "Diğerleri ortama hoş koku katarken, bu ürün öncelikle kötü kokuları nötralize etmeye odaklanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["SC2201", "SC2508"], "accessories": [], "alternatives": []}
+  }
+}

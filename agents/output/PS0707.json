@@ -1,0 +1,44 @@
+{
+  "sku": "PS0707",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Okyanus Araç Asma Koku (Ocean) - 30 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "5450188580064",
+    "group": "fragrance",
+    "sub_type": "hanging_card"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Okyanus",
+      "durability_days": 30,
+      "dimensions_mm": "80x187x3",
+      "weight_g": 11.0,
+      "material": "Kağıt/Selüloz",
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Paper (Asma Kart)"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Aracınızın dikiz aynasına veya uygun bir yere asın.\n3. Koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 30 gün) yenisiyle değiştirin.",
+      "when_to_use": "Deniz havasının ferahlığını yaşamak isteyenler için idealdir. Okyanusun temiz ve tuzlu esintisini hissettirir.",
+      "target_surface": "Araç dikiz aynası, ev/ofis asma noktaları",
+      "why_this_product": "• Okyanusun temiz ve taze havası\n• 30 güne kadar kalıcı etki\n• Asma kart - kolay kullanım\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Little Joe Paper serisi nedir?", "answer": "Asma kart formatında, 30 gün kalıcılık sunan araç kokusu serisi."},
+      {"question": "Okyanus kokusu nasıl?", "answer": "Deniz havasını anımsatan doğal, taze ve ferahlatıcı bir aroma."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 30 gün etkili koku salınımı sağlar."},
+      {"question": "Vent clip modellerden farkı nedir?", "answer": "Asma kart formatında, klimaya takılmak yerine aynaya veya uygun yere asılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["PS0101", "PS0821", "75228"]}
+  }
+}

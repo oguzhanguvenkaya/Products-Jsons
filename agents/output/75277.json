@@ -1,0 +1,42 @@
+{
+  "sku": "75277",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Double Skin Kumaş Koruyucu Su İtici Sprey - 600 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486751433",
+    "group": "interior_cleaner",
+    "sub_type": "fabric_protector"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Kumaş", "Tekstil"],
+      "water_repellent": true,
+      "oil_repellent": true,
+      "nanotechnology": true,
+      "breathable": true,
+      "coverage_m2": "10-25",
+      "volume_ml": 600
+    },
+    "content": {
+      "how_to_use": "1. Kullanmadan önce çalkalayın.\n2. Ürünü 15-20 cm mesafeden kumaş yüzeyine püskürtün.\n3. Kumaş ürünü emdikten sonra uygulamayı tekrarlayın.\n4. İkinci ve üçüncü uygulama ilk uygulama kuruduktan sonra yapılırsa daha uzun süreli etki sağlar.\n5. Uygulamadan sonra kumaşlar ütülenebilir.",
+      "when_to_use": "Araç kumaş koltukları ve döşemelerinde, ev ve iş yerlerindeki kumaş yüzeylerde, su ve yağ sıçramalarına karşı koruma gereken tekstillerde, koltuk ve halılarda leke önleme için kullanılır.",
+      "target_surface": "Araç kumaş koltukları, halılar, döşemeler, ev tekstilleri, iş yeri kumaş yüzeyleri",
+      "why_this_product": "• Nanoteknolojik formül - kumaş liflerine sızdırmazlık özelliği kazandırır\n• Su ve yağ itici - kirin liflerin içine yerleşmesini engeller\n• Nefes alabilir film - ekstra ince tabaka kumaşın doğal yapısını korur\n• Geniş kapsama - tek şişe ile 10-25 m² kumaş koruması"
+    },
+    "faq": [
+      {"question": "Kaç m² kumaş korur?", "answer": "Kumaşın emicilik ve gözenekliliğine bağlı olarak 10 ila 25 m² kumaş koruması sağlar."},
+      {"question": "Uygulamadan sonra ütü yapılabilir mi?", "answer": "Evet, uygulamadan sonra kumaşlar ütülenebilir."},
+      {"question": "Kaç kat uygulama gerekir?", "answer": "Uzun süreli etki için 2-3 kat uygulama önerilir, her kat kuruduktan sonra sonraki kat yapılmalıdır."},
+      {"question": "Deri yüzeylerde kullanılabilir mi?", "answer": "Hayır, bu ürün sadece kumaş ve tekstil yüzeyler için tasarlanmıştır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

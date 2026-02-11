@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-PWE4040C",
+  "product_name": "Gyeon Q²m Polishwipe Evo Lazer Kesim Çift Yönlü Cila Bezi - 40X40 cm",
+  "barcode": "Q2M-PWE4040C",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:22:09.265Z",
+  "sources": [
+    {
+      "url": "https://slickshifts.co.uk/products/gyeon-q2m-polishwipe-microfibre-cloth",
+      "domain": "slickshifts.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Accessories Polish Wipe EVO Microfibre Cloth &ndash; Slick-Shifts",
+      "content_length": 31114,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cadetailing.co.uk/products/gyeon-q-m-polishwipe-evo-40x40-cm",
+      "domain": "cadetailing.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M PolishWipe - Premium Polishing Towel for Detailing",
+      "content_length": 26605,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailing.com/products/gyeon-q2m-polishwipe-evo-towel-40-x-40-cm",
+      "domain": "detailing.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M PolishWipe EVO Towel - 40 x 40 cm — Detailing.com",
+      "content_length": 17688,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

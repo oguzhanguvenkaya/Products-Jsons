@@ -1,0 +1,59 @@
+{
+  "sku": "26908.099.001",
+  "product_name": "Menzerna Ince Kesim Ara Kat Pasta Süngeri 2li Paket (Sarı) - 95MM",
+  "barcode": "26908.099.001",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:35:29.837Z",
+  "sources": [
+    {
+      "url": "https://www.springriver.eu/menzerna-medium-cut-foam-pad-yellow-95-mm.html",
+      "domain": "springriver.eu",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/menzerna-medium-cut-foam-pad-yellow.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Medium Cut Foam Pad Yellow | Menzerna Polishing Pad",
+      "content_length": 13179,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.thepolishingshop.co.uk/medium-cut-foam-pad-95mm-yellow-menzerna-premium-415507",
+      "domain": "thepolishingshop.co.uk",
+      "language": "en",
+      "page_title": "Medium Cut Foam Pad yellow Menzerna Premium | The Polishing Shop",
+      "content_length": 4347,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/soft-cut-foam-pad",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Soft Cut Foam Pad",
+      "content_length": 7198,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

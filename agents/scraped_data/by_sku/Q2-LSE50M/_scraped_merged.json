@@ -1,0 +1,71 @@
+{
+  "sku": "Q2-LSE50M",
+  "product_name": "Gyeon Q² Leather Shield Evo Deri Aksamlar Için Koruyucu Seramik Kaplama - 50 ml",
+  "barcode": "Q2-LSE50M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:28:37.230Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/leathershield-evo/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q² LEATHERSHIELD EVO - GYEON",
+      "content_length": 11789,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-leathershield-evo",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² LeatherShield EVO | CARZILLA",
+      "content_length": 19626,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autogeek.net/gyeon-q2-leather-shield.html",
+      "domain": "autogeek.net",
+      "language": "en",
+      "page_title": "GYEON Q2 Leather Shield EVO | Autogeek.net",
+      "content_length": 8751,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailing.com/products/gyeon-q2-leather-shield-50-ml",
+      "domain": "detailing.com",
+      "language": "en",
+      "page_title": "Gyeon Q² Leather Shield EVO - 50 ml — Detailing.com",
+      "content_length": 18019,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://esotericcarcare.com/products/gyeon-q2-leathershield-evo",
+      "domain": "esotericcarcare.com",
+      "language": "en",
+      "page_title": "Gyeon Q2 LeatherShield EVO | Interior Leather Ceramic Coating\n&ndash; Esoteric Car Care",
+      "content_length": 23625,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-BPYA1000M",
+  "product_name": "Gyeon Q²m Bathe+ Plus Seramik Bazlı Ph Nötr Cilalı Oto Şampuanı 1000 ml -Su Itici Araç Yıkama",
+  "barcode": "Q2M-BPYA1000M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:25:38.205Z",
+  "sources": [
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-bathe-plus",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Bathe+ - Maintenance Shampoo For Quartz Coatings — Polished Bliss",
+      "content_length": 12684,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeonusa.com/products/q-m-bathe",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q²M Bathe+ | Gyeon Quartz USA",
+      "content_length": 7202,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.goldlabelcarcare.co.uk/products/gyeon-q2m-bathe-plus-shampoo",
+      "domain": "goldlabelcarcare.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Bathe Plus Ceramic Shampoo — Gold Label Car Care and Detailing Supplies",
+      "content_length": 33109,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

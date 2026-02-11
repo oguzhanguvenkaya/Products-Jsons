@@ -1,0 +1,38 @@
+{
+  "sku": "78615",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Marta Laurel Bay Oda Kokusu - 250 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486791569",
+    "group": "fragrance",
+    "sub_type": "spray_perfume"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Laurel Bay",
+      "volume_ml": 250,
+      "made_in": "İtalya",
+      "collection": "Marta La Farfalla Spray"
+    },
+    "content": {
+      "how_to_use": "1. Kullanmadan önce şişeyi hafifçe çalkalayın.\n2. Ortama 2-3 kez püskürtün.\n3. Kötü kokuları anında giderir ve taze bir atmosfer yaratır.\n4. Gerektiğinde tekrarlayın.",
+      "when_to_use": "Temiz ve taze bir atmosfer yaratmak isteyenler için idealdir. Deniz ve otsu notalarla yeşil ve canlandırıcı bir deneyim.",
+      "target_surface": "Araç içi, ev odaları, ofis, hava ortamı",
+      "why_this_product": "• Deniz ve otsu notalarla yeşil, canlandırıcı parfüm\n• Temiz ve taze odanın etkisi\n• Uzun süreli kalıcı etki\n• 250 ml premium boy"
+    },
+    "faq": [
+      {"question": "Marta La Farfalla Spray serisi nedir?", "answer": "FRA-BER'in 250 ml premium sprey formatında, uzun süreli etkiye sahip özel olarak seçilmiş kokularla İtalya'da üretilen serisi."},
+      {"question": "Laurel Bay kokusu nasıl?", "answer": "Deniz ve otsu notalar içeren yeşil, canlandırıcı bir parfüm - temiz ve taze bir atmosfer yaratır."},
+      {"question": "Diğer Marta spreyleri hangileri?", "answer": "Arab Opulence, Golden Arabia gibi farklı koku seçenekleri mevcuttur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["78608", "78610", "76389"]}
+  }
+}

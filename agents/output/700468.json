@@ -1,0 +1,64 @@
+{
+  "sku": "700468",
+  "last_updated": "2026-02-04T14:20:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Cream Leather Deri Bakım Ve Koruyucu Parfümlü - 4,54 lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486809448",
+    "group": "leather_care",
+    "sub_type": "leather_conditioner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:20:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr"
+      }
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:20:00Z",
+    "template_fields": {
+      "function": "Besleme ve Nemlendirme",
+      "scent": "Black Orchid (Siyah Orkide)",
+      "ph_level": "Nötr (pH 7.29)",
+      "volume": "4,54 lt",
+      "suitable_surfaces": ["Doğal Deri", "Suni Deri (Sky)", "Vinil"],
+      "features": ["Çatlamayı önler", "Esneklik kazandırır", "Görünmez koruyucu film"]
+    },
+    "content": {
+      "how_to_use": "1. Temizlik: Deri yüzeyi temiz ve kuru hale getirin.\n2. Uygulama: Ürünü mikrofiber veya aplikatör bez ile ince bir tabaka halinde yayın.\n3. Emilim: 5-10 dakika emilmesini bekleyin.\n4. Silme: Fazla ürünü temiz mikrofiber ile silin.\n5. Tamponlama: Parlaklık istiyorsanız yumuşak bezle hafifçe tamponlayın.",
+      "when_to_use": "Kurumuş, sertleşmiş veya yorgun görünümlü deri yüzeylerde besleyici bakım için kullanılır. Düzenli kullanımda deri yaşlanmasını geciktirir, çatlama ve soyulmayı önler.",
+      "target_surface": "Deri koltuklar, direksiyon, vites topuzu, kapı panelleri, doğal/suni deri ve vinil yüzeyler",
+      "why_this_product": "• 4,54 lt profesyonel ekonomi boyut\n• Besleyici ve nemlendirici - esneklik ve yumuşaklık kazandırır\n• Koruyucu film tabakası - çatlama ve sertleşmeye karşı koruma\n• Black Orchid kokusu - lüks ve zarif atmosfer\n• pH nötr (7.29) - düzenli kullanımda güvenli"
+    },
+    "faq": [
+      {
+        "question": "Temizlik yapmadan uygulanabilir mi?",
+        "answer": "Önce deriyi temizlemek önerilir. Kirli yüzeye uygulandığında kir tabakasını kapatır ve temizliği zorlaştırır."
+      },
+      {
+        "question": "Black Orchid kokusu kalıcı mı?",
+        "answer": "Uygulama sonrası birkaç gün hoş koku devam eder. Zamanla azalır ancak deri bakım etkisi devam eder."
+      },
+      {
+        "question": "Suni deri (Sky) yüzeylerde güvenli mi?",
+        "answer": "Evet, doğal deri, suni deri (Sky) ve vinil yüzeylerde güvenle kullanılabilir."
+      },
+      {
+        "question": "Ne sıklıkla kullanmalıyım?",
+        "answer": "Normal koşullarda ayda 1 kez yeterlidir. Kuruyan veya çatlama riski olan derilerde 2 haftada bir önerilebilir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

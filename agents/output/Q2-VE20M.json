@@ -1,0 +1,41 @@
+{
+  "sku": "Q2-VE20M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q View EVO Cam Su İtici Seramik Seti - 20 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661014",
+    "group": "ceramic_coating",
+    "sub_type": "glass_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 24,
+      "durability_km": 50000,
+      "speed_threshold": "50 km/s",
+      "kit_contents": ["Repel (Kaplama)", "GlassPolish (Temizleyici)"],
+      "ph_tolerance": "2-11",
+      "alcohol_tolerant": true
+    },
+    "content": {
+      "how_to_use": "1. Aracı yıkayın, camları kil ve demir tozundan arındırın, yüzey kuru ve serin olsun.\n2. Q²M GlassPolish'i aplikatöre dairesel hareketle uygulayın.\n3. İnce film kalınca Q²M Prep veya alkol ile silin.\n4. Q² Repel EVO'yu süet beze damlatın, 30x30 cm'lik alanlarda dairesel hareketle yayın.\n5. Ön camda ekstra kalınlık için 5 dk sonra ikinci kat uygulayın (opsiyonel).\n6. Nemli mikrofiberle hafifçe silerek homojen yüzey oluşturun.\n7. Aracı 12 saat kuru ortamda, mümkünse >15°C'de bırakın.",
+      "when_to_use": "Yağmurlu ve gece sürüşlerinde net görüş, buz-kar tutmama ve kendi kendini temizleyen cam yüzeyi için kullanılır.",
+      "target_surface": "Ön, yan ve arka camlar; yan aynalar; motosiklet kask vizörü (polikarbonat test edilmeli)",
+      "why_this_product": "• 24 ay / 50.000 km dayanım (ön cam), 36 aya kadar (yan cam)\n• 50 km/s'den itibaren silecek ihtiyacı azalır\n• Buz ve kar tutmama\n• Tam alkol toleransı"
+    },
+    "faq": [
+      {"question": "Uygulamadan hemen sonra yağmura yakalanırsam ne olur?", "answer": "İlk 12 saat içinde su teması olursa kürleşme yavaşlar; gerekirse ön camda tek kat yenileyin."},
+      {"question": "Silecek kauçuklarına da uygulamalı mıyım?", "answer": "İnce bir tabaka kauçuk esnemesini azaltmaz ve su kaydırıcılığı artırır; aşırı uygulamadan kaçının."},
+      {"question": "Cam filmi (tint) üzerinde güvenli mi?", "answer": "İç yüzeyde kullanmayın; sadece dış cama uygulayın."},
+      {"question": "Tüm camlarda aynı anda mı çalışmalıyım?", "answer": "Evet; GlassPolish sonra Repel sıralı ilerleyin, büyük camlarda bölgesel çalışmak uygulamayı kolaylaştırır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-PYA500M"], "accessories": [], "alternatives": ["79296"]}
+  }
+}

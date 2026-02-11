@@ -1,0 +1,40 @@
+{
+  "sku": "Q2-LSE50M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q Leather Shield EVO Deri Seramik Kaplama - 50 ml",
+    "brand": "GYEON",
+    "barcode": "8809432677574",
+    "group": "ceramic_coating",
+    "sub_type": "leather_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 18,
+      "durability_km": 30000,
+      "finish_effect": "Mat (Orjinal Görünüm)",
+      "application_surface": "Deri Döşeme",
+      "consumption_ml_per_cabin": 35
+    },
+    "content": {
+      "how_to_use": "1. Deriyi süpürün, Q²M LeatherCleaner Natural/Strong ile temizleyip tamamen kurutun.\n2. Aplikatör bloğunu süet bezle sarın.\n3. 6-8 damla LeatherShield EVO damlatın.\n4. 40x40 cm alanı yatay, sonra dikey geçişlerle ince film hâlinde kaplayın.\n5. 5-10 dk içinde terleme izleri oluşabilir; boş süetle hafifçe seviyelendirin.\n6. Kabin 12 saat toz/sudan uzak kalsın; 7 gün deterjan kullanmayın.\n7. İkinci kat için 1 saat sonra ince kat uygulayın (opsiyonel).",
+      "when_to_use": "Deri koltuklarda UV, leke ve boya transferine (jean lekesi) karşı koruma için kullanılır. OEM mat dokuyu korur.",
+      "target_surface": "Nappa, yarı anilin, kaplamalı deri koltuklarda; direksiyon ve kapı döşemelerinde",
+      "why_this_product": "• 18 ay / 30.000 km dayanım\n• Orijinal mat finish - parlaklık eklemez\n• Jean boyası ve sıvı transferini önler\n• Gözenekleri tıkamaz, nefes alabilir yapı"
+    },
+    "faq": [
+      {"question": "Kaplamadan sonra koltuklar kaygan olur mu?", "answer": "Hayır. LeatherShield EVO mat dokuyu korur, sürtünmeyi gözle fark edilir şekilde değiştirmez."},
+      {"question": "Açık gözenekli anilin deride kullanabilir miyim?", "answer": "Önerilmez; bu tip derilerde LeatherCoat REDEFINED kullanın."},
+      {"question": "Bir koltukta yüksek parmak izi/parlama kaldı, çözümü?", "answer": "20 dk içinde fark ederseniz kuru süetle hafifçe seviyelendirin; geç kaldıysanız aynı bölgeyi yeniden uygulayıp anında eşitleyin."},
+      {"question": "Kürleşme sürecinde aracı kullanabilir miyim?", "answer": "4 saat sonra kısa sürüşler mümkün, ancak ilk 12 saat kapalı pencere, düşük temas önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

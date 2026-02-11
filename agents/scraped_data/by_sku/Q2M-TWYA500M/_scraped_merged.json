@@ -1,0 +1,71 @@
+{
+  "sku": "Q2M-TWYA500M",
+  "product_name": "Gyeon Q²m Towelwash Mikrofiber Bez Havlu Eldiven Keçe Ped Yıkama Şampuanı - 500 ml",
+  "barcode": "Q2M-TWYA500M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:27:41.385Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/towelwash/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M TOWELWASH - Gyeon",
+      "content_length": 10853,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-towel-wash",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Towel Wash | Microfibre Detergent",
+      "content_length": 33491,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/TowelWash-P1514/500-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Glass - 500 ml - Detailed Image",
+      "content_length": 15106,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-towel-wash-detergent-500ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Towel Wash &amp; Pad Detergent 500ml | CARZILLA",
+      "content_length": 11503,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.in2detailing.co.uk/products/gyeon-q2m-towel-wash-500-ml?variant=39414806741071",
+      "domain": "in2detailing.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Towel Wash - 500 ml\n&ndash; in2Detailing",
+      "content_length": 31842,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

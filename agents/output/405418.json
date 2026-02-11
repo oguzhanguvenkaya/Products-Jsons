@@ -1,0 +1,24 @@
+{
+  "sku": "405418",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX VC 21 L MC Islak Kuru Sanayi Tipi Elektrikli Süpürge 1000W 20 Litre - Toz Emici Hava Üfleyici", "brand": "FLEX", "barcode": "4030293171657", "group": "storage_accessories", "sub_type": "work_gear"},
+  "notes": {"sub_type_review": "work_gear olarak işaretli ancak vacuum_cleaner olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"power_w": 1000, "capacity_lt": 20, "liquid_capacity_lt": 11, "vacuum_pa": 21000, "flow_rate_lpm": 3600, "weight_kg": 7.4, "dimensions_mm": "430x380x506", "wet_dry": true, "blower_function": true},
+    "content": {
+      "how_to_use": "1. Uygun filtreyi (ıslak veya kuru) takın.\n2. Elektrik prizine bağlayın.\n3. El aletleri için dahili prize takarak senkronize kullanın.\n4. Hava üfleme için hortumu çıkış portuna bağlayın.\n5. Manuel filtre temizleme ile performansı koruyun.",
+      "when_to_use": "Atölye ve depo temizliği, araç içi detaylı temizlik, şantiyelerde ve endüstriyel alanlarda kullanılır. Hem ıslak hem kuru temizlik ve hava üfleme için idealdir.",
+      "target_surface": "Tüm zeminler, ıslak ve kuru atıklar, toz",
+      "why_this_product": "• Hem ıslak hem kuru kullanım\n• 21.000 Pa yüksek vakum gücü\n• Hava üfleyici fonksiyonu\n• Dahili cihaz prizi - el aletleriyle senkronize\n• 20 litre geniş kapasite\n• Şamandıra valfi - sıvıda güvenli"
+    },
+    "faq": [
+      {"question": "Sıvı çekebilir mi?", "answer": "Evet, 11 litreye kadar sıvı kapasitesi ve şamandıra valfi ile güvenle sıvı çeker."},
+      {"question": "Hava üfleyici ne işe yarar?", "answer": "Yüzeydeki tozları ve kirleri üfleyerek temizleme imkanı sağlar."},
+      {"question": "El aletleri ile senkronize çalışır mı?", "answer": "Evet, dahili cihaz prizi sayesinde zımpara ve testere gibi aletlerle otomatik açma/kapama yapar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["481491", "532024"]}
+  }
+}

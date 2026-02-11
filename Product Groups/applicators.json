@@ -1,0 +1,867 @@
+{
+  "metadata": {
+    "group_id": "applicators",
+    "group_name": "El Uygulama Pedleri ve Süngerler",
+    "total_products": 15,
+    "description": "Seramik, wax, cila, lastik parlatıcı ve iç bakım ürünlerinin manuel uygulanması için kullanılan sünger, mikrofiber ve süet aplikatörler.",
+    "sub_types": [
+      {
+        "id": "applicator_pad",
+        "name": "Uygulama Pedi",
+        "description": "Wax, sealant ve kaplama uygulamaları için köpük veya mikrofiber ped"
+      },
+      {
+        "id": "tire_applicator",
+        "name": "Lastik Aplikatörü",
+        "description": "Lastik jeli ve parlatıcı uygulaması için özel ped"
+      },
+      {
+        "id": "coating_applicator",
+        "name": "Kaplama Aplikatörü",
+        "description": "Seramik kaplama uygulaması için hassas süet/mikrofiber aplikatör"
+      },
+      {
+        "id": "cleaning_sponge",
+        "name": "Temizlik Süngeri",
+        "description": "Genel temizlik amaçlı yumuşak sünger"
+      },
+      {
+        "id": "scrub_pad",
+        "name": "Ovalama Pedi",
+        "description": "İnatçı kirlere yönelik ovalama ve temizleme pedi"
+      },
+      {
+        "id": "wash_sponge",
+        "name": "Yıkama Süngeri",
+        "description": "Araç yıkama için büyük gözenekli yumuşak sünger"
+      }
+    ],
+    "template_fields": {
+      "material": "Malzeme (Foam, Microfiber, Süet, Melamin)",
+      "shape": "Şekil (Yuvarlak, Elips, Dikdörtgen, Parmak Cep)",
+      "intended_use": "Kullanım alanı (Wax, Seramik, Lastik, Deri, İç Bakım)",
+      "size": "Boyut (cm veya mm)",
+      "reusable": "Yeniden kullanılabilir (true/false)",
+      "features": "Özel özellikler"
+    }
+  },
+  "products": [
+    {
+      "sku": "SGGD188-02",
+      "barcode": "8683492660789",
+      "template": {
+        "group": "applicators",
+        "sub_type": "applicator_pad",
+        "fields": {
+          "material": "Foam (Köpük)",
+          "shape": "Yuvarlak",
+          "intended_use": [
+            "Wax",
+            "Cila",
+            "Boya Koruma"
+          ],
+          "size": "105 mm",
+          "reusable": true,
+          "features": "Ergonomik kalın yapı",
+          "diameter": "105 mm",
+          "type": "El uygulama pedi"
+        }
+      },
+      "content": {
+        "short_description": "SGCB Hand Wax Sponge, 105 mm yuvarlak el uygulama pediyle cila, wax ve boya koruma işlemlerinde ergonomik tasarım ve yumuşak köpük yapısıyla mükemmel sonuç sağlar. 2’li paket!",
+        "full_description": "SGCB Hand Wax Sponge - Cila, boya koruma, wax uygulamaları için kalın el pedi.\r\n\r\nBüyüklük: 105 mm\r\nPaket İçeriği: 2 Adet\r\n\r\n• YÜKSEK KALİTELİ MALZEME YAPISI\r\nBirinci sınıf köpük sünger ile özenle üretilmiştir.\r\nYumuşak ve pürüzsüz, ancak boya yüzeyini ve cilayı uygulamak için mükemmeldir!\r\n\r\n• AKILLI VE ERGONOMİK TASARIM\r\nYan/Kenar presleme teknikleri kullanılmıştır\r\nUzun Ömür ve Dayanıklı Uygulama Sağlar.\r\nİnsan Elinin Özellikleri ve Boyutları Gibi Tasarlanmıştır, Tutması ve Kontrol Etmesi Kolay ve Kullanışlıdır, Böylece İşlerinizi Daha Verimli Bir Şekilde Bitirebilirsiniz!\r\n\r\n• ÇOK AMAÇLI KULLANIM\r\nEvrensel Versiyon ve Farklı Kişiler Tarafından Çok Sevilen, Özellikle Araba Severler İçin Gerekli Bir Araç!\r\nEsas Olarak Araba Cilalama, Araba Boyası, İç Temizlik, Deri Koltuk, Plastik, Tekerlek, Seramik vb. İçin Kullanılır.",
+        "how_to_use": "1. Ürünü pede damlatın veya yüzeye püskürtün.\n2. Dairesel hareketlerle yüzeye yayın.\n3. Eşit tabaka oluşturun.",
+        "when_to_use": "Wax, sealant ve koruma ürünlerinin el ile uygulanması için kullanılır.",
+        "target_surface": "Boyalı yüzeyler, vernik",
+        "why_this_product": "• 105mm yuvarlak tasarım\n• Kolay kavrama\n• Ekonomik"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Yıkanabilir mi?",
+          "answer": "Evet, ılık su ve şampuanla yıkanabilir."
+        }
+      ],
+      "price": 14000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGGD188-02_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "3229",
+      "barcode": "8809512170667",
+      "template": {
+        "group": "applicators",
+        "sub_type": "applicator_pad",
+        "fields": {
+          "material": "Microfiber Plush",
+          "intended_use": [
+            "Nano Koruma",
+            "Cila",
+            "İç Bakım"
+          ],
+          "size": "12x10 cm",
+          "reusable": true,
+          "features": "Ultra yumuşak, çizmez",
+          "quantity": "2 adet",
+          "type": "Peluş aplikatör",
+          "purpose": "Nano koruma uygulaması"
+        }
+      },
+      "content": {
+        "short_description": "KLIN Dünya’nın En İyi Dayanıklı Mikrofiber Araç Yıkama Eldivenleri Pedleri Türkiye Yetkili Dağıtıcı MTS Kimya. Satın Al. Orijinal Ürün. Hızlı Kargo.",
+        "full_description": "Softy Serisi; KLIN Korea ürün ailesinin belki de en heyecan verici ürün serilerinden biridir. Softy Serisi yıkama eldiveni, yıkama pedi ve aplikatörleri ULTRA yumuşaktır. Uygun yöntemlerin kullanıldığı her Softy Serisi, elinize alır almaz oyunun kurallarını değiştirir. İlk dokunuşta sizi kendisine aşık edecektir.\r\n\r\n2’li paket olarak satılan Softy Serisi Aplikatör çok yönlü bir araçtır. Tüm boyalı yüzeylerde cila uygulaması, seramik kaplama uygulaması, deri/trim koruma işlemleri, küçük nokta cilalama veya tekerlekler ve kapı içi plastikler gibi küçük alanlar için uygulama pedi olarak kullanılır. Hatta yıkama işlemlerinde bile ulaşılması güç, dar alanlar için kullanabilirsiniz. Ultra yumuşak, dayanıklı ve güvenlidir.\r\n\r\nKLIN KOREA ‘nın en son mikrofiber teknolojisi ile üretilmiştir. Benzersiz CCS* özelliği ile ürün paketlenmeden ön yıkama yapılmış ve paketten çıkartıp anında kullanıma hazır hale getirilmiştir. Uzun süreler özelliği bozulmadan kullanım imkânı verir. Otomotiv, motor, marin, havacılık gibi farklı alanlarda güvenle kullanılabilir.\r\n\r\nÖlçü ve Renkler:\r\n• 12x10 cm – Turkuaz\r\n• Paket içerisinde 2 adet aynı renkli aplikatör bulunur.\r\n\r\nTeknik Özellikler:\r\n• Birinci Kalite Kore Menşei Mikrofiber\r\n• Hav bırakmayan iplik\r\n• Contaminent Control System (CCS) – Kirlilik Kontrol Sistemi\r\n\r\nYıkama Önerisi:\r\nÇamaşır Makinesi – Duru su veya mikrofiber şampuanı ile maksimum 40 derece. Sıkma yapılmamalı. Asarak kurutulmalı. Yumuşatıcı, çamaşır suyu ve benzer temizleyiciler kullanılmamalı. Beyaz ve renkli diğer ürünlerden ayrı yıkama yapılmalı.",
+        "how_to_use": "1. Nano koruma ürününü aplikatöre damlatın.\n2. İnce ve eşit tabaka halinde yüzeye yayın.\n3. Fazla ürün kullanmayın.",
+        "when_to_use": "Nano seramik kaplamalar, sealant ve ince koruma tabakası uygulamalarında kullanılır.",
+        "target_surface": "Boyalı yüzeyler, cam, tüm pürüzsüz yüzeyler",
+        "why_this_product": "• Peluş yumuşak doku\n• Eşit yayılım sağlar\n• 2'li ekonomik paket"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Seramik kaplama için uygun mu?",
+          "answer": "Evet, nano seramik kaplamalar için idealdir."
+        }
+      ],
+      "price": 29000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/3229_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "3224M",
+      "barcode": "8809512170506",
+      "template": {
+        "group": "applicators",
+        "sub_type": "applicator_pad",
+        "fields": {
+          "material": "Microfiber",
+          "shape": "Parmak Cep",
+          "intended_use": [
+            "Jant",
+            "Trim",
+            "Dar Alanlar"
+          ],
+          "reusable": true,
+          "features": "Hassas detay çalışması için parmağa takılır",
+          "quantity": "6 adet",
+          "type": "Parmak aplikatör",
+          "design": "Parmağa geçmeli"
+        }
+      },
+      "content": {
+        "short_description": "KLIN KOREA Dünya’nın En Büyük Mikrofiber Bez Üreticisi Ürünleri Türkiye’de. Yetkili Dağıtıcı MTS Kimya’dan İncele Satın Al. Aynı Gün Ücretsiz Kargo.",
+        "full_description": "KLIN Parmak Aplikatörü ile boyayı bozma veya yüzeylere zarar verme korkusu olmadan tüm hassas parçalara veya dar noktalara kolayca uygulama yapabilirsiniz. Ellerinizi kirletmeden basit şekilde uygulama yapmak için idealdir. Birkaç parmağa güzelce oturur ve daha sonra kullanılmak üzere güzelce temizlenir.\r\n\r\nBu çok işlevli parmak aplikatörler, seramik kaplamaların, trim koruyucuların, wax/boya koruma ürünlerinin hassas bir şekilde uygulanmasını sağlar. Çok amaçlı ve ergonomiktir. Hem iç hem dış yüzey uygulamaları için uygundur.\r\n\r\nKLIN KOREA ‘nın en son mikrofiber teknolojisi ile üretilmiştir. Benzersiz CCS* özelliği ile ürün paketlenmeden ön yıkama yapılmış ve paketten çıkartıp anında kullanıma hazır hale getirilmiştir. Uzun süreler özelliği bozulmadan kullanım imkânı verir. Otomotiv, motor, marin, havacılık gibi farklı alanlarda güvenle kullanılabilir.\r\n\r\nÖlçü ve Renkler:\r\n• 8.5x7 cm – Beyaz\r\n• Paket içerisinde 6 adet aynı renkli aplikatör bulunur.\r\n\r\nTeknik Özellikler:\r\n• Birinci Kalite Kore Menşei Mikrofiber\r\n• Hav bırakmayan iplik\r\n• Contaminent Control System (CCS) – Kirlilik Kontrol Sistemi\r\n\r\nYıkama Önerisi:\r\nÇamaşır Makinesi – Duru su veya mikrofiber şampuanı ile maksimum 40 derece. Sıkma yapılmamalı. Asarak kurutulmalı. Yumuşatıcı, çamaşır suyu ve benzer temizleyiciler kullanılmamalı. Beyaz ve renkli diğer ürünlerden ayrı yıkama yapılmalı.",
+        "how_to_use": "1. Aplikatörü parmağınıza geçirin.\n2. Ürünü aplikatöre damlatın.\n3. Hassas bölgelere kontrollü uygulama yapın.",
+        "when_to_use": "Dar alanlar, köşeler ve hassas bölgelerde koruma ürünü uygulaması için kullanılır.",
+        "target_surface": "Dar alanlar, köşeler, hassas bölgeler",
+        "why_this_product": "• Parmağa geçmeli tasarım\n• Hassas kontrol\n• 6'lı ekonomik paket"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi alanlarda kullanılır?",
+          "answer": "Dar köşeler, amblem çevreleri, pervaz kenarları gibi hassas alanlarda."
+        }
+      ],
+      "price": 38000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/3224M_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "3235",
+      "barcode": "8809512170704",
+      "template": {
+        "group": "applicators",
+        "sub_type": "applicator_pad",
+        "fields": {
+          "material": "Dual Foam (Siyah/Turuncu)",
+          "intended_use": [
+            "Wax (Siyah)",
+            "Pasta (Turuncu)"
+          ],
+          "reusable": true,
+          "features": "İki farklı sertlikte yüzey",
+          "quantity": "2 adet",
+          "type": "Çift taraflı sünger",
+          "design": "Dual face"
+        }
+      },
+      "content": {
+        "short_description": "KLIN Dünya’nın En İyi Dayanıklı Mikrofiber Araç Yıkama Eldivenleri Pedleri Türkiye Yetkili Dağıtıcı MTS Kimya. Satın Al. Orijinal Ürün. Hızlı Kargo.",
+        "full_description": "KLIN KLIN Dual Çift Taraflı Sünger Aplikatör, adını her iki ucunda bulunan süngerlerin farklı yoğunluktaki köpük yapısından dolayı almıştır. Farklı ürünlerle kombine edilebilir ve kolayca elle uygulanabilir.\r\n\r\nSiyah kısmı yumuşaktır. Wax, boya koruma, katı cila gibi yüzeyde aşındırma gerektirmeyen uygulamalar için idealdir. Turuncu kısmı ile daha yoğun sünger yapılıdır. Aşındırma gerektiren pasta işlemleri ya da bölgesel işlemlerde kullanılabilir.\r\n\r\nKLIN KOREA ‘nın en son sünger teknolojisi ile üretilmiştir. Benzersiz CCS* özelliği ile ürün paketten çıkartıp anında kullanıma hazır hale getirilmiştir. Uzun süreler özelliği bozulmadan kullanım imkânı verir. Otomotiv, motor, marin, havacılık gibi farklı alanlarda güvenle kullanılabilir.\r\n\r\nÖlçü ve Renkler:\r\n• Yükseklik: 3,5cm – Çap: 9cm\r\n• Paket içerisinde 2 adet aplikatör bulunur.\r\n\r\nTeknik Özellikler:\r\n• Birinci Kalite Kore Menşei Sünger\r\n• Turuncu kısım 60 PPI\r\n• Siyah kısım 80 PPI\r\n• Contaminent Control System (CCS) – Kirlilik Kontrol Sistemi\r\n\r\nYıkama Önerisi:\r\nElde, bol su ile temizleyin. Çamaşır suyu, yumuşatıcı gibi kimyasallar kullanmayın.",
+        "how_to_use": "1. İhtiyaca göre uygun tarafı seçin.\n2. Ürünü uygulayın.\n3. Her iki taraf kirlenince değiştirin.",
+        "when_to_use": "Wax, sealant ve koruma ürünlerinin uygulanmasında kullanılır. Çift taraf ile daha uzun kullanım.",
+        "target_surface": "Boyalı yüzeyler, plastik trimler",
+        "why_this_product": "• Çift taraflı kullanım\n• Ekonomik\n• 2'li paket"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Her iki taraf da kullanılır mı?",
+          "answer": "Evet, bir taraf kirlenince diğer tarafla devam edilebilir."
+        }
+      ],
+      "price": 35000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/3235_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "ACC-SPG-2",
+      "barcode": "8683492660932",
+      "template": {
+        "group": "applicators",
+        "sub_type": "tire_applicator",
+        "fields": {
+          "material": "Foam",
+          "shape": "Elips",
+          "intended_use": [
+            "Lastik Parlatıcı"
+          ],
+          "reusable": true,
+          "features": "Ele oturan ergonomik yapı",
+          "type": "Lastik parlatma süngeri",
+          "quantity": "1 adet"
+        }
+      },
+      "content": {
+        "short_description": "KLIN KOREA Dünya’nın En Büyük Mikrofiber Bez Üreticisi Ürünleri Türkiye’de. Yetkili Dağıtıcı MTS Kimya’dan İncele Satın Al. Aynı Gün Ücretsiz Kargo.",
+        "full_description": "KLIN Tire Aplikatör, elips şekliyle mükemmel kavrama özelliğine sahip, dayanıklı, çift katman süngerli lastik parlatıcı uygulama aplikatörüdür. Parlatma uygulamasını hızla ve kolayca yapmanızı sağlar. Ellerinizi temiz tutar. Tekrar tekrar kullanıma uygundur.\r\nDikkat! Sıcak yüzeylerde kullanmayın. Asidik ve kimyasal bazlı ürünler süngere zarar verebilir.\r\n\r\nÖlçü ve Renkler:\r\n• Yükseklik: 7,2 cm – En: 4 cm\r\n• Paket içerisinde 1 adet aplikatör bulunur.\r\n\r\nTeknik Özellikler:\r\n• Birinci Kalite Kore Menşei Çift Katmanlı Sünger\r\n• Contaminent Control System (CCS) – Kirlilik Kontrol Sistemi\r\n\r\nYıkama Önerisi:\r\nElde, bol su ile temizleyin. Çamaşır suyu, yumuşatıcı gibi kimyasallar kullanmayın.",
+        "how_to_use": "1. Lastik parlatıcıyı süngere damlatın.\n2. Lastik yan yüzeyine eşit şekilde sürün.\n3. Kurumaya bırakın.",
+        "when_to_use": "Lastik parlatıcı, lastik jeli ve koruyucu ürünlerin uygulanmasında kullanılır.",
+        "target_surface": "Lastik yan yüzeyleri",
+        "why_this_product": "• Elips tasarım - kavraması kolay\n• Lastik konturu ile uyumlu\n• Ekonomik"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Yıkanabilir mi?",
+          "answer": "Evet, lastik parlatıcı kalıntıları suyla temizlenebilir."
+        }
+      ],
+      "price": 10000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/ACC-SPG-2_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGGD190",
+      "barcode": "4713435112564",
+      "template": {
+        "group": "applicators",
+        "sub_type": "cleaning_sponge",
+        "fields": {
+          "material": "Melamin",
+          "intended_use": [
+            "Leke Çıkarma",
+            "Plastik Temizliği"
+          ],
+          "reusable": false,
+          "features": "Sadece su ile çalışır, kimyasal gerektirmez",
+          "type": "Melamin sünger",
+          "function": "Leke silgi",
+          "chemical_free": true
+        }
+      },
+      "content": {
+        "short_description": "SGCB Magic Sponge sihirli sünger, yüksek yoğunluklu melamin yapısı ile sadece suyla zorlu lekeleri çıkarır. Kimyasal gerektirmez, çizmez ve ev ile araç temizliği için idealdir!",
+        "full_description": "SGCB Magic Cleaning Sponge - Sihirli Sünger, sadece su ile kullanımda çizik bırakmayan formülüyle temizlikte devrim yaratıyor. Yüksek yoğunluklu melamin köpükten üretilen bu sünger, kimyasal madde kullanmadan zor lekeleri kolayca çıkarır; evler, arabalar ve hassas yüzeyler için mükemmeldir.<br><br>Boyut: 90*70*35 mm<br>Paket İçeriği: 1 Adet<br><br>Ürün Özellikleri:<br>• Ekstra Kalın Tasarım – Standart süngerlerin iki katı yoğunlukta olup daha uzun süreli kullanım sağlar.<br>• Evrensel Temizleme Gücü – Deri, mermer, paslanmaz çelik, duvarlar ve daha fazlasında etkilidir.<br>• Kimyasal İçermez ve Güvenlidir – Sadece suya ihtiyaç duyar; sert aşındırıcılar veya aşındırıcı temizleyiciler içermez.<br>• Çok Çeşitli Seçenekler – Özel temizlik için Orijinal, Ekstra Dayanıklı veya Mutfak için özel seçeneklerden birini seçin.<br>• Hassas Ama Etkili – Çizmez formülü, derinlemesine yerleşmiş kiri çıkarırken yüzeyleri korur.<br><br>Neden Bu Süngeri Seçmelisiniz?<br>• Çevre Dostu – Daha yeşil bir ev için kimyasal temizleyicilere olan bağımlılığı azaltır.<br>• Zaman Kazandırır – Islatma veya ovma gerektirmeden lekeleri anında siler.<br>• Profesyonel Sonuçlar – Yüksek kaliteli yüzeylerde iz bırakmadan parlaklık sağlar.<br><br>En İyi Kullanım Yöntemleri<br>• Hassas Yüzeyler (Deri/Mermer) – Süngeri nemlendirin, dairesel hareketlerle nazikçe silin.<br>• Zor lekeler için (mutfak yağı/çizikler) – Hafif basınç uygulayarak kiri çıkarın.<br>•  Bakım – Kullanımdan sonra durulayın ve ömrünü uzatmak için kurutun.",
+        "how_to_use": "1. Süngeri suyla ıslatın.\n2. Hafif basınçla lekeyi ovalayın.\n3. Silinerek temizlenir, kimyasal gerekmez.",
+        "when_to_use": "Plastik, deri ve vinil yüzeylerde inatçı lekelerin kimyasalsız temizliği için kullanılır.",
+        "target_surface": "Plastik, vinil, deri, sert yüzeyler",
+        "why_this_product": "• Kimyasalsız temizlik\n• İnatçı lekeleri çıkarır\n• Melamin teknolojisi"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Boyalı yüzeyde kullanılır mı?",
+          "answer": "Boyalı yüzeylerde dikkatli olun, melamin aşındırıcı olabilir. Önce test edin."
+        }
+      ],
+      "price": 6000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGGD190_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGGD296",
+      "barcode": "6973086161092",
+      "template": {
+        "group": "applicators",
+        "sub_type": "tire_applicator",
+        "fields": {
+          "material": "Foam",
+          "shape": "Saplı Fırça/Sünger",
+          "intended_use": [
+            "Lastik Parlatıcı"
+          ],
+          "size": "31 cm",
+          "reusable": true,
+          "features": "Elleri kirletmeden uygulama sağlayan saplı tasarım",
+          "type": "Lastik uygulama aparatı",
+          "design": "PRO serisi",
+          "ergonomic": true
+        }
+      },
+      "content": {
+        "short_description": "SGCB Tire Sponge PRO, çift işlevli sünger ve fırça tasarımıyla lastik parlatıcı ve cila uygulamasını kolaylaştırır. Profesyonel parlaklık ve detaylı temizlik için ideal!",
+        "full_description": "SGCB Tire Sponge PRO - Çok Fonksiyonlu Lastik Parlatıcı Sünger; profesyonel lastik ve jant bakımı için çok yönlü özel olarak tasarlanmış bir lastik parlatıcı uygulama aparatıdır. Yüksek kaliteli sünger ile dayanıklı fırçayı bir araya getirerek, lastik parlatıcı, cila ve diğer detaylandırma ürünlerini uygulamak için mükemmeldir. Çift işlevli tasarımı, verimli uygulama ve eşit dağılım sağlayarak profesyonel sonuçlar sunar. Lastikler, jant göbekleri ve diğer detaylı alanlar için uygun olan bu sünger fırça, pürüzsüz ve parlak bir yüzey elde etmek için idealdir.<br><br>Boyut: 310*80*35 mm<br>Renk: Siyah sünger ve siyah/kırmızı sap<br>Malzeme: Poliüretan sünger/ABS sap<br><br>Toplamda 310 mm uzunluğa sahip olan bu uygulama aparatı, kullanıcıya rahat bir tutuş ve uygulama esnasında mükemmel kontrol sağlar. Süngerin genişliği 90 mm, uzunluğu 140 mm ve kalınlığı ise 30 mm'dir. Bu ölçüler, lastik yüzeyinin geniş bir alanını kapsayabilmesini ve uygulamanın hızlı ve verimli bir şekilde tamamlanmasını sağlar.<br><br>Ürün Özellikleri:<br>• Çift İşlevli Tasarım: Çok yönlü kullanım için yüksek kaliteli süngeri dayanıklı bir fırça ile birleştirir.<br>• Verimli Uygulama: Lastik parlatıcı, balmumu ve diğer detaylandırma ürünlerini uygulamak için mükemmeldir.<br>• Profesyonel Sonuçlar: Eşit dağılım ve pürüzsüz bir sonuç sağlar.<br>• Dayanıklı Yapı: Uzun ömürlü performans için birinci sınıf malzemelerden üretilmiştir.<br>• Detaylandırma için ideal: Lastikler, tekerlek göbekleri ve aracın diğer detaylı alanları için uygundur.<br><br>Kullanım Talimatları:<br>• Uygulamadan önce lastik veya tekerlek göbeğinin yüzeyini iyice temizleyin.<br>• SGCB Çok Fonksiyonlu Lastik Parlatıcı Sünger Fırçası'nı kullanarak lastik parlatıcıyı veya cilayı eşit bir şekilde uygulayın.<br>• Parlak ve pürüzsüz bir sonuç elde etmek için yüzeyi nazikçe parlatın.<br>• Kullanım ömrünü uzatmak için sünger fırçayı kullandıktan sonra serin ve kuru bir yerde saklayın.",
+        "how_to_use": "1. Lastik parlatıcıyı aparata uygulayın.\n2. Lastik yan yüzeyine sürün.\n3. Eşit kaplama sağlayın.",
+        "when_to_use": "Lastik parlatıcı ve jel uygulamalarında profesyonel sonuç için kullanılır.",
+        "target_surface": "Lastik yan yüzeyleri",
+        "why_this_product": "• PRO serisi - profesyonel kalite\n• Ergonomik tasarım\n• Eşit uygulama"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Normal süngerden farkı nedir?",
+          "answer": "PRO serisi daha ergonomik ve dayanıklıdır, profesyonel kullanım için tasarlanmıştır."
+        }
+      ],
+      "price": 75000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGGD296_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "11075-RE",
+      "barcode": "8683492660505",
+      "template": {
+        "group": "applicators",
+        "sub_type": "applicator_pad",
+        "fields": {
+          "material": "Foam",
+          "intended_use": [
+            "Wax",
+            "Deri Bakım",
+            "Vinil"
+          ],
+          "color": "Kırmızı",
+          "reusable": true,
+          "type": "Çok amaçlı el aplikatörü"
+        }
+      },
+      "content": {
+        "short_description": "MG PADS Avrupa Üretim Rotary Orbital Pasta Hare Hologram Süngerleri Cila Pedleri Türkiye Dağıtıcısı MTS Kimya’dan Satın Alın. Orijinal Ürün Garantisi.",
+        "full_description": "Wax/Cila/Deri bakım/Plastik-Vinil uygulamaları için sünger el pedi.<br><br>Dayanıklı, açık gözenekli sünger.<br><br>Büyüklük: 110x75 mm<br><br>Renk: Kırmızı",
+        "how_to_use": "1. Ürünü aplikatöre uygulayın.\n2. Yüzeye eşit şekilde yayın.\n3. Gerekirse farklı ürünlerle kullanın.",
+        "when_to_use": "Wax, sealant, koruma ürünleri ve iç mekan bakım ürünlerinin uygulanmasında kullanılır.",
+        "target_surface": "Çok amaçlı - boya, plastik, deri",
+        "why_this_product": "• Çok amaçlı kullanım\n• Ergonomik tasarım\n• Kırmızı renk - kolay takip"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi ürünlerle kullanılır?",
+          "answer": "Wax, sealant, deri bakım ve plastik bakım ürünleriyle kullanılabilir."
+        }
+      ],
+      "price": 14000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/11075-RE_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "Q2M-CA2P",
+      "barcode": "8809432671046",
+      "template": {
+        "group": "applicators",
+        "sub_type": "coating_applicator",
+        "fields": {
+          "material": "Süet + Mikrofiber",
+          "intended_use": [
+            "Seramik Kaplama"
+          ],
+          "reusable": true,
+          "features": "Çift yüzeyli (Süet tarafı seramik, mikrofiber tarafı silim)",
+          "quantity": "2 adet",
+          "design": "Çift taraflı",
+          "purpose": "Seramik kaplama uygulaması"
+        }
+      },
+      "content": {
+        "short_description": "GYEON QM Coating Applicator: Çift taraflı seramik uygulama pedi, 2'li paket. Hassas ve kolay uygulama için idealdir. MTS Kimya güvencesiyle orijinal ürün, aynı gün kargo.",
+        "full_description": "GYEON Q²M Coating Applicator, kaplama işlemleri için özel olarak tasarlanmıştır. Çift taraflı yapısı sayesinde bir yüzeyde süetin ipeksi yumuşaklığı sunarken, diğer yüzeyde kısa tüylü mikrofiber özellik sağlar. İki yüzeyin arasında ideal yumuşaklıkta bir sünger bulunmaktadır.<br><br>Süet yüzeyin altındaki deri tabaka, seramik kaplama malzemesinin süngere sızmasını önleyerek ürün tüketimini azaltır ve yayılımını artırır.<br><br>GYEON Q²M Coating Applicator, keskin veya dikişli kenarlara sahip olmadığından yüzeye zarar verme riski bulunmamaktadır. Geniş boyutuyla uygulama süresini kısaltır ve hem amatörler hem de profesyoneller tarafından güvenle kullanılabilir.<br><br>Ürünün tüm yüzeylerini kullandığınızda, ürün çevresine Suede EVO sararak seramik takozu olarak kullanmaya devam edebilirsiniz. Bu sayede, seramik kaplama ürün tüketiminiz de azalacaktır.<br><br>PAKET: 2'li / 10'lu",
+        "how_to_use": "1. Seramik kaplamayı aplikatöre damlatın.\n2. Çapraz hareketlerle ince tabaka halinde yüzeye yayın.\n3. 3-5 dakika bekleyin ve mikrofiber ile silin.",
+        "when_to_use": "GYEON seramik kaplama ürünlerinin uygulanmasında kullanılır. Çift taraflı tasarım uzun kullanım sağlar.",
+        "target_surface": "Boyalı yüzeyler - seramik kaplama uygulaması",
+        "why_this_product": "• GYEON seramik kaplamalar için özel\n• Çift taraflı - uzun kullanım\n• Eşit ve ince tabaka sağlar\n• 2'li paket"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "Q2M-CA10P"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Tek kullanımlık mı?",
+          "answer": "Çift taraflı olduğu için 2 uygulama yapılabilir. Sonra değiştirilmeli."
+        },
+        {
+          "question": "10'lu paket var mı?",
+          "answer": "Evet, Q2M-CA10P 10'lu paket olarak mevcuttur."
+        }
+      ],
+      "price": 55000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/Q2M-CA2P_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://carzilla.ca/products/gyeon-q-m-coating-applicator-2-pack",
+        "cleaned_content_1": "GYEON Q²M Coating Applicator w/ Plastic Barrier\n\nBrand: Gyeon\n\nPrice: $16.00 CAD (2-Pack) / $65.00 CAD (10-Pack)\n\nBarcode (2-Pack): 8809432671046\nBarcode (10-Pack): 8809432671077\n\n3%+ Discount with 3+ of the Same Item\n\nGYEON Coating Applicator w/ Plastic Barrier\n\nDEDICATED SOFT COATING APPLICATOR\n\nDesigned entirely for coating application in mind, the Q²M Coating Applicator are our takes in soft sponge applicator. Its double-sided structure offers a suede side for precise application and a short hair microfiber style on the other side. No sharp edges, no risk of damage.\n\nPRECISE AND HANDY\n\nQ²M CoatingApplicator has been designed to allow both enthusiast and professional, a safer and faster coating application on all types of surfaces. 2 types of high-quality microfibres are seamlessly wrapped around a high-density sponge for maximum precision and safety.\n\nSuede on one side, short pile microfiber on the other.\n\nImages:\n- //carzilla.ca/cdn/shop/products/gyeon_Q2M-Coating-Applicator_3000.png?v=1612358683&width=1800",
+        "url_2": "https://www.cleanandshiny.co.uk/products/gyeon-q2m-coating-applicator-2-pack",
+        "cleaned_content_2": "Gyeon Q2M Coating Applicator 2 Pack\n\nBrand: Gyeon\nSKU: GYMCA00002010\n\nPrice: £10.00\n\nStock: Sold out\n\nQ2M COATING APPLICATOR\n\nDEDICATED SOFT COATING APPLICATOR\n\nDesigned entirely for coating application in mind, the Q²M Coating Applicator are our takes in soft sponge applicator. Its double sided structure offers a suede side for precise application and a short hair microfiber style on the other side. No sharp edges, no risk of damage.\n\nPRECISE AND HANDY\n\nQ²M CoatingApplicator has been designed to allow both enthusiast and professional, a safer and faster coating application on all types of surfaces. 2 types of high quality microfibres are seamlessly wrapped around a high density sponge for maximum precision and safety. The applicator is offered in 2 or 10 pack version.\n\nImages:\n- //www.cleanandshiny.co.uk/cdn/shop/products/gyeon-q2m-coating-applicator-pack-of-2.jpg?v=1615990676&width=1119",
+        "url_3": "https://www.detailedimage.com/Gyeon-M91/Coating-Applicator-2-Pack-P2461/",
+        "cleaned_content_3": "Gyeon Coating Applicator 2 Pack\n\nPrice: $14.99\n\nQuantity Discounts: 2+ at $13.99 (7% savings)\n\nProduct Information:\n- Soft sponge applicator\n- Double-sided, suede construction\n- Two-pack\n- Product Code: GY-1046\n\nCustomer Reviews: 100% of customers said that they would buy this item again (Based upon 1 rating)\n\nProduct Description:\n\nThe Gyeon Coating Applicator 2 Pack is a soft applicator designed for easy coating application. It is double sided and very soft to ensure safe applications. It offers a suede side for precise application and a short hair microfiber style on the other side. There are no rough edges and virtually no risk of damage. It comes in a two-pack, so you have multiple applicators for each coating application.\n\nMeasures: 5\" x 3\" x 1.25\"\n\nFrom The Label:\n\nProduct Description:\nThe perfect size and shape to effectively apply ceramic coatings to painted surfaces. Two types microfibre allow you to adjust to the characteristics of the paintwork. Even application on complex shaped panels.\n\nDo not reuse.\n\nCustomer Reviews:\n\nReviewed by Jon G. on 5/9/2024 (DI Verified Purchase) - Would buy again: Yes\nThese are roughly twice the size of the pads that come with Gyeon MOHS kits. One side is the suede and the other is the terry.\n\nImages:\n-",
+        "url_4": "https://www.carclean.com/en/gyeon-q2m-coating-applicator-2-pack.html",
+        "cleaned_content_4": "Q²M Coating Applicator - 2-pack\n\nBrand: GYEON\nArt. nr. GY-CA-2-pack\n\nRating: 5.0 (5 reviews)\n\nPrice: € 13.99\n\nIn stock\n\nProduct Features:\n- 2-pack zachte applicators om coating aan te brengen\n- Heeft twee verschillende zijdes\n- Geen scherpe randen\n- Maximale precisie en veiligheid\n\nDescription:\n\nDe Gyeon Q²M Coating Applicator - 2-pack is een set van 2 zachte applicators die speciaal ontwikkeld zijn om coatings aan te brengen. De applicator heeft twee zijdes, een suède kant voor een precieze toepassing en een normale, hooggsm laagpolige microvezel (zoals de Q²M BaldWipe) aan de andere kant. De applicator heeft geen scherpe randen, hierdoor heb je geen kans op beschadigingen.\n\nDe Q²M Coating Applicator is ontworpen om zowel enthousiaste als professionele gebruikers te helpen om op een veiligere en snellere manier een coating op alle soorten oppervlakken aan te kunnen brengen. Twee soorten microvezels van hoge kwaliteit zijn naadloos gewikkeld rond een spons met hoge dichtheid voor maximale precisie en veiligheid.\n\nSpecifications:\n- Product number: GY-CA-2-pack\n- 2-pack applicators\n\nCustomer Reviews:\n\nMakkelijk in gebruik - Frank - 16/05/2025\nGebruikt om fabriccoat op de stoelen aan te brengen, met de suède zijde. Neemt het product goed op, makkelijk aan te brengen (uitwrijven met handschoen). Werkt perfect!\n\nDe beste applicator - A M - 24/03/2025\nGebruik 1tje voor de graphene lak coating aan te brengen, de ander voor de gyeon fabric coating om de stoelen en matjes te coaten. Toppers!\n\nFijne applicator - Mick - 23/03/2025\nHet is een fijne applicator die goed in de hand ligt en het product goed evenredig verspreidt. Zelf heb ik verschillende Gyeon coatings aangebracht met deze applicator. Voor mij is het ook een plus dat de applicator vierkant is, handig voor hoekjes.\n\nImages:\n-",
+        "url_5": "https://www.in2detailing.co.uk/products/gyeon-q2m-coating-applicator?variant=39670052520015",
+        "cleaned_content_5": "Gyeon Q2M Coating Applicator (Choice of Pack Size)\n\nBrand: Gyeon\n\nAvailable: In Stock\n\nPrice: £10.00 (Pack of 2) / £51.00 (Pack of 10)\n\nDEDICATED SOFT COATING APPLICATOR\n\nDesigned entirely for coating application in mind, the Q²M Coating Applicator are our takes in soft sponge applicator. Its double sided structure offers a suede side for precise application and a short hair microfiber style on the other side. No sharp edges, no risk of damage.\n\nPRECISE AND HANDY\n\nQ²M CoatingApplicator has been designed to allow both enthusiast and professional, a safer and faster coating application on all types of surfaces. 2 types of high quality microfibres are seamlessly wrapped around a high density sponge for maximum precision and safety. The applicator is offered in 2 or 10 pack version.\n\nImages:\n- //www.in2detailing.co.uk/cdn/shop/products/ACN1vfW4_800x_0d551abf-bd18-4c7e-9fcd-5cb604c380e6_2048x2048.jpg?v=1636044035\n- //www.in2detailing.co.uk/cdn/shop/products/NohmWD1E_500x_c850755d-a330-425d-b2a4-7daa26f099f8_2048x2048.jpg?v=1636044034",
+        "url_6": "https://www.theultimatefinish.co.uk/products/gyeon-q2m-coating-applicator.aspx",
+        "cleaned_content_6": "Gyeon Q²M Coating Applicator (Pack of 2 or 10)\n\nBrand: GYEON\nProduct code: GCA2\n\nSelected Size: 10 Pack / 2 Pack\n\nAwaiting Stock\n\nPrecision Tool for Flawless Coating Application!\n\nAchieve streak-free, professional-grade results with the GYEON Q²M Coating Applicator—a dual-sided, high-density sponge tool designed specifically for ceramic coatings, sealants, and protective treatments. Its suede + short-pile microfiber design ensures even spreading, zero absorption, and no sharp edges, making it the safest choice for paint, wheels, glass, and trim.\n\nPerfect for enthusiasts and detailers, this applicator eliminates waste and simplifies coating application—whether you're working on a daily driver or show car.\n\nWhy Choose GYEON Q²M Coating Applicator?\n\n- Dual-Sided Design – Suede side for precision | Microfiber side for smooth leveling.\n- Zero Product Absorption – Inner liner prevents soaking, saving coating material.\n- No Sharp Edges – Rounded shape prevents scratches on delicate surfaces.\n- Multi-Surface Use – Perfect for paint, glass, wheels, and trim coatings.\n- Pro Efficiency – Available in 2-pack (DIY) or 10-pack (professional).\n\nFeatures:\n- High-Density Sponge Core – For controlled, even application.\n- Seamless Microfiber Wrap – No loose fibers or shedding.\n- Compact & Ergonomic – Fits comfortably in hand for extended use.\n- Reusable – Clean with GYEON Q²M Prep for multiple applications.\n\nSpecification:\n- Top: Suede (for precise application)\n- Bottom: Short-pile microfiber (for smoothing)\n- Compatible with all GYEON coatings (Q² Syncro, Skin, etc.)\n- Sealants, wheel coatings, and glass treatments\n\nHow To Use:\n- Prime the Applicator – Apply 2-3 drops of coating to the suede side.\n- Spread Thinly – Use crosshatch motions for even coverage.\n- Level with Microfiber Side – Buff gently to eliminate high spots.\n- Clean After Use – Rinse with isopropyl alcohol or GYEON Prep.\n\nPro Tip: For large panels, work in 2x2 ft sections—the suede side ensures no puddling or waste.\n\nAvailable Sizes: 2 Pack or 10 Pack\n\nImages:\n-"
+      }
+    },
+    {
+      "sku": "Q2M-CA10P",
+      "barcode": "8809432671077",
+      "template": {
+        "group": "applicators",
+        "sub_type": "coating_applicator",
+        "fields": {
+          "material": "Süet + Mikrofiber",
+          "intended_use": [
+            "Seramik Kaplama"
+          ],
+          "quantity": 10,
+          "reusable": true,
+          "design": "Çift taraflı",
+          "purpose": "Seramik kaplama uygulaması",
+          "professional": true
+        }
+      },
+      "content": {
+        "short_description": "GYEON QM Coating Applicator: Çift taraflı seramik uygulama pedi, 10'lu paket. Etkili ve pratik uygulama için idealdir. MTS Kimya güvencesiyle orijinal ürün, aynı gün kargo.",
+        "full_description": "GYEON Q²M Coating Applicator, kaplama işlemleri için özel olarak tasarlanmıştır. Çift taraflı yapısı sayesinde bir yüzeyde süetin ipeksi yumuşaklığı sunarken, diğer yüzeyde kısa tüylü mikrofiber özellik sağlar. İki yüzeyin arasında ideal yumuşaklıkta bir sünger bulunmaktadır.<br><br>Süet yüzeyin altındaki deri tabaka, seramik kaplama malzemesinin süngere sızmasını önleyerek ürün tüketimini azaltır ve yayılımını artırır.<br><br>GYEON Q²M Coating Applicator, keskin veya dikişli kenarlara sahip olmadığından yüzeye zarar verme riski bulunmamaktadır. Geniş boyutuyla uygulama süresini kısaltır ve hem amatörler hem de profesyoneller tarafından güvenle kullanılabilir.<br><br>Ürünün tüm yüzeylerini kullandığınızda, ürün çevresine Suede EVO sararak seramik takozu olarak kullanmaya devam edebilirsiniz. Bu sayede, seramik kaplama ürün tüketiminiz de azalacaktır.<br><br>PAKET: 2'li / 10'lu",
+        "how_to_use": "1. Seramik kaplamayı aplikatöre damlatın.\n2. Çapraz hareketlerle ince tabaka halinde yüzeye yayın.\n3. 3-5 dakika bekleyin ve mikrofiber ile silin.",
+        "when_to_use": "Profesyonel atölyeler için ekonomik 10'lu paket. GYEON seramik kaplamalar için ideal.",
+        "target_surface": "Boyalı yüzeyler - seramik kaplama uygulaması",
+        "why_this_product": "• 10'lu profesyonel paket\n• Ekonomik toplu alım\n• Çift taraflı tasarım\n• GYEON seramik kaplamalar için"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "Q2M-CA2P"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Kaç araç için yeterli?",
+          "answer": "Araç başına 2-3 aplikatör kullanımıyla 3-5 araç için yeterlidir."
+        }
+      ],
+      "price": 270000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/Q2M-CA10P_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "Q2M-CAP10P",
+      "barcode": "8809432677239",
+      "template": {
+        "group": "applicators",
+        "sub_type": "coating_applicator",
+        "fields": {
+          "material": "Süet + Mikrofiber",
+          "intended_use": [
+            "Seramik Kaplama"
+          ],
+          "quantity": 10,
+          "reusable": true,
+          "features": "Ekonomik versiyon, çift taraflı",
+          "design": "Çift taraflı Light",
+          "purpose": "Hafif kaplama uygulaması"
+        }
+      },
+      "content": {
+        "short_description": "GYEON QM Coating Applicator: Çift taraflı seramik uygulama pedi, 10'lu paket. Etkili ve pratik uygulama için idealdir. MTS Kimya güvencesiyle orijinal ürün, aynı gün kargo.",
+        "full_description": "GYEON Q²M Coating Applicator Light Çift Taraflı Seramik Boya Yüzey Uygulama Pedi – 10'lu Paket\r\n\r\n\r\nSeramik Kaplama Uygulamaları İçin Geliştirilmiş Mikrofiber Aplikatör | Çift Yüzeyli Yapı | Maksimum Hassasiyet\r\n\r\n\r\nPROFESYONELLERİN TERCİHİ: SERAMİK UYGULAMADA YENİ STANDART\r\n\r\nGYEON Q²M Coating Applicator Light, seramik kaplama uygulamaları sırasında kusursuz kontrol, hassasiyet ve yüzey güvenliği sağlamak amacıyla özel olarak geliştirilmiş profesyonel mikrofiber aplikatördür.\r\nHer biri elde tutulması kolay ergonomik yapıda olan bu aplikatörler, seramik kaplamaların homojen, iz bırakmayan ve minimum ürün israfı ile uygulanmasına olanak tanır.\r\n\r\n\r\nAKILLI TASARIM: ÇİFT TARAFLI YAPI, TEK ÜRÜNDE 2 AVANTAJ\r\nÜrünün her iki yüzeyi farklı mikrofiber dokudadır:\r\n\r\n• İnce taraf, daha az emilimle kaplamanın yüzeye eşit yayılmasını sağlar.\r\n• Kalın havlı taraf, özellikle girintili çıkıntılı bölgelerde maksimum temas sunar.\r\n• Bu çift taraflı yapı sayesinde farklı yüzey yapılarında tek aplikatör ile maksimum uyum elde edilir.\r\n\r\n\r\nKAPLAMALARA VE BOYA YÜZEYİNE \u00100 GÜVENLİ\r\n\r\nGYEON aplikatörleri, özellikle seramik kaplama ürünleri (Q² MOHS, Q² Pure, Q² CanCoat Pro vs.) için formüle edilmiştir.\r\nYumuşak kenar yapısı sayesinde boyada çizik oluşturmaz. Ayrıca ürün kürleştikten sonra sertleştiği için tekrar kullanımı önerilmez.\r\n\r\n\r\nTEKNİK ÖZELLİKLER\r\n\r\n• Boyut: 87 mm (yaklaşık)\r\n• Kullanım Alanı Seramik kaplama, nano kaplama\r\n• Yapı: Çift taraflı mikrofiber yüzey\r\n• Esneklik: 4/10\r\n• Tek kullanımlık\r\n• Uygulama Uyumu: Tüm GYEON kaplamalar + diğer markalar\r\n• Ambalaj: 10 adet/paket\r\n\r\n\r\nNASIL KULLANILIR?\r\n\r\n• Aplikatörü kutudan çıkarın.\r\n• Seramik kaplama şişesinden birkaç damla ürünü aplikatörün uygun yüzeyine damlatın.\r\n• Yüzeye dikey ve yatay hareketlerle eşit şekilde uygulayın.\r\n• Her uygulama için ayrı aplikatör kullanın.\r\n• Kaplama sonrası sertleştiği için yeniden kullanılması önerilmez.\r\n\r\n\r\nKULLANIM ALANLARI:\r\n\r\n• Otomobil dış yüzey kaplamaları\r\n• Detailing stüdyolarında seramik uygulama\r\n• CanCoat, Q² Mohs, Q² Pure, Q² One EVO gibi ürünlerle tam uyum\r\n• Profesyonel veya amatör kullanıcılar için güvenli çözüm\r\n\r\n\r\nNEDEN GYEON Q²M COATING APPLICATOR LIGHT?\r\n\r\n• Seramik kaplama ürününü eşit yayar\r\n• İz ve dalga bırakmaz\r\n• Maksimum kontrol ve hassasiyet sunar\r\n• Hem düz hem kıvrımlı yüzeylere uygundur\r\n• Tek kullanımlık – her uygulamada hijyenik kullanım",
+        "how_to_use": "1. Kaplama ürününü aplikatöre damlatın.\n2. İnce ve eşit tabaka halinde yüzeye yayın.\n3. Talimatlarına göre bekleyin ve silin.",
+        "when_to_use": "Hafif seramik kaplamalar, sealant ve koruma ürünlerinin uygulanmasında kullanılır. Light versiyon daha ince uygulama sağlar.",
+        "target_surface": "Boyalı yüzeyler, cam, plastik",
+        "why_this_product": "• Light versiyon - ince uygulama\n• 10'lu profesyonel paket\n• Çift taraflı tasarım\n• Sealant ve hafif kaplamalar için"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "Q2M-CA10P"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Normal Coating Applicator ile farkı nedir?",
+          "answer": "Light versiyon daha ince ve hassas uygulama için tasarlanmıştır. Sealant ve hafif kaplamalar için idealdir."
+        }
+      ],
+      "price": 170000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/Q2M-CAP10P_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://gyeon.co/product/coating-applicator/",
+        "cleaned_content_1": "Q²M COATING APPLICATOR\n\nExterior / Accessories\n\nDedicated soft coating applicator.\n\nThe Q²M Coating Applicator is designed specifically for ceramic coating application, offering a safe, precise and efficient way to apply coatings to all exterior surfaces. Its construction focuses on accuracy, comfort and reduced product waste during application.\n\nProduct image:\n\nHOW TO USE\n\n01. Choose the appropriate applicator size depending on the surface.\n02. Apply coating directly onto the suede or short nap side of the applicator.\n03. Spread evenly over the surface using overlapping motions.\n04. Monitor saturation and replace when needed.\n05. Dispose or clean according to the coating used.\n\nFREQUENTLY ASKED QUESTIONS\n\n01. What makes Q²M Coating Applicator different from regular sponge applicators?\nIt features an inner liner that prevents coating from soaking into the foam, improving efficiency.\n\n02. Why does it have two different surfaces?\nOne side uses suede for precise coating application, the other uses short hair microfibre for controlled spreading.\n\n03. Is it safe on all exterior surfaces?\nYes, it has no sharp edges and is designed for safe use on all surfaces to be coated, inside and out.\n\n04. Are different sizes available?\nYes, it is available in Light and Large versions depending on the working area.\n\n05. Is it suitable for professional use?\nYes, it is designed for both enthusiasts and professional detailers.",
+        "url_2": "https://www.detailedimage.com/Gyeon-M91/Coating-Applicator-2-Pack-P2461/",
+        "cleaned_content_2": "Gyeon Coating Applicator 2 Pack\n\nPrice: $14.99\n\nQuantity Discounts:\n- 2+: $13.99 (7% savings)\n\nProduct Information:\n- Soft sponge applicator\n- Double-sided, suede construction\n- Two-pack\n- Product Code: GY-1046\n\nProduct Description:\nThe Gyeon Coating Applicator 2 Pack is a soft applicator designed for easy coating application. It is double sided and very soft to ensure safe applications. It offers a suede side for precise application and a short hair microfiber style on the other side. There are no rough edges and virtually no risk of damage. It comes in a two-pack, so you have multiple applicators for each coating application.\n\nMeasures: 5\" x 3\" x 1.25\"\n\nFrom The Label:\nThe perfect size and shape to effectively apply ceramic coatings to painted surfaces. Two types microfibre allow you to adjust to the characteristics of the paintwork. Even application on complex shaped panels.\n\nDo not reuse.\n\nCustomer Reviews:\n100% of customers said that they would buy this item again (Based upon 1 rating)\n\nReviewed by Jon G. on 5/9/2024 (DI Verified Purchase)\nWould they buy this item again? Yes\nThese are roughly twice the size of the pads that come with Gyeon MOHS kits. One side is the suede and the other is the terry.",
+        "url_3": "https://carzilla.ca/products/gyeon-q-m-coating-applicator-2-pack",
+        "cleaned_content_3": "GYEON Q²M Coating Applicator w/ Plastic Barrier\n\nBrand: Gyeon\n\nOptions:\n- 2-Pack: $16.00 CAD\n- 10-Pack: $65.00 CAD\n\n3%+ Discount with 3+ of the Same Item\n\nVariant details:\n- 2-Pack: SKU 3595, Barcode 8809432671046\n- 10-Pack: SKU 3596, Barcode 8809432671077\n\nGYEON Coating Applicator w/ Plastic Barrier\n\nDEDICATED SOFT COATING APPLICATOR\n\nDesigned entirely for coating application in mind, the Q²M Coating Applicator are our takes in soft sponge applicator. Its double-sided structure offers a suede side for precise application and a short hair microfiber style on the other side. No sharp edges, no risk of damage.\n\nPRECISE AND HANDY\n\nQ²M Coating Applicator has been designed to allow both enthusiast and professional, a safer and faster coating application on all types of surfaces. 2 types of high-quality microfibres are seamlessly wrapped around a high-density sponge for maximum precision and safety.\n\nSuede on one side, short pile microfiber on the other.",
+        "url_4": "https://www.carcareproducts.com.au/products/gyeon-q2m-suede-applicators-10x10-10-pack",
+        "cleaned_content_4": "Gyeon Q2M Suede EVO Applicators 10x10 (10 pack)\n\nBrand: GYEON\nSKU: 116071\nPrice: $14.99 (Tax included)\n\nAvailability: In Stock\nSame Day Dispatch on orders before 12pm\n\nProduct images:\n-\n-\n\nDescription:\nGYEON Q2M Suede Applicator Cloths are soft, lint free and perfect in application of your favourite GYEON ceramic coating. Each cloth is composed of a synthetic microfibre material that is ultra-soft and ideal suited to application of coatings for paint and glass. It's recommended you use this in combination with GYEON Foam Applicator Blocks.\n\nProduct Features and Benefits:\n- Soft and absorbent microfiber suede material\n- Gentle on paint, won't scratch or damage the surface\n- Efficiently removes water and residue for a streak-free finish\n- Durable and long-lasting, even after multiple washes\n\nThe Gyeon Q2M Suede Applicator Cloth is an essential tool for any car enthusiast or professional detailer. This high-quality suede cloth is specifically designed for the application of Gyeon quartz coatings, ensuring that your coatings are applied evenly and with minimal wastage.\n\nThe suede material of this applicator cloth is ultra-soft and gentle on your vehicle's surface, so you can be confident that you're not causing any damage or scratching to your paintwork. It also has a high absorption rate, meaning that it can hold a large amount of product, making the application process quicker and more efficient.\n\nEach towel measures 10cm X 10cm square in a 10 pack.\n\nHow to use:\n1. Make sure the surface of your vehicle is clean and dry before you start the application process. This will help ensure that the coating adheres properly to the surface and provides the best possible protection.\n2. Apply a small amount of your chosen Gyeon quartz coating onto the suede applicator cloth. You don't need to use a lot of product - a little goes a long way!\n3. Apply the coating to the surface of your vehicle in a thin, even layer. Use light pressure and work in small sections to ensure that the coating is applied evenly.\n4. Allow the coating to cure for the recommended time. The curing time will vary depending on the specific Gyeon quartz coating that you are using, so be sure to check the instructions on the product label.\n5. Buff off any residue using a clean microfiber towel. Use a gentle circular motion to remove any excess product and bring out the shine in your vehicle's surface.\n6. After use, wash the applicator cloth with warm water and allow it to air dry. This will help keep the suede material soft and ready for the next application."
+      }
+    },
+    {
+      "sku": "Q2M-MFAE",
+      "barcode": "8809432674870",
+      "template": {
+        "group": "applicators",
+        "sub_type": "applicator_pad",
+        "fields": {
+          "material": "Microfiber",
+          "shape": "Parmak Cep",
+          "intended_use": [
+            "Jant",
+            "İç Trim",
+            "Deri"
+          ],
+          "reusable": true,
+          "features": "Ergonomik cep tasarımı",
+          "design": "Parmak tip",
+          "version": "EVO"
+        }
+      },
+      "content": {
+        "short_description": "GYEON QM MF Applicator EVO: Parmak tip uygulama aplikatörü, 2'li paket. Hassas ve pratik kullanım için idealdir.",
+        "full_description": "GYEON Q²M MF Applicator EVO, kaplama işlemlerini hızlandırmak, kıvrımlı veya karmaşık panellere mükemmel bir şekilde uygulamak için tasarlanmış çok amaçlı bir parmak uygulama aplikatörüdür. Yüksek kaliteli mikro elyafa sarılmış yumuşak bir süngerle mükemmel uyum sağlar. Üst kısmındaki cep mükemmel tutuş sağlar ve işlevselliğini arttırır.<br><br>Bu çok işlevli parmak aplikatörler, seramik kaplamaların, trim koruyucuların, deri koruyucuların, wax/boya koruma ürünlerinin hassas bir şekilde uygulanmasını sağlar. Jelkot, plastik, deri, metal ve ahşap yüzeyler üzerinde kullanılması uygundur. Çok amaçlı ve ergonomiktir. Hem iç hem dış yüzey uygulamaları için kullanılabilir.<br><br>GYEON Q²M MF EVO Aplikatörü, 2'li paket olarak satılmaktadır.<br><br>BOYUT: 120x95x25 mm<br><br>Yıkama Önerisi:<br>Çamaşır Makinesi – Duru su veya mikrofiber şampuanı ile maksimum 40 derece. Sıkma yapılmamalı. Asarak kurutulmalı. Yumuşatıcı, çamaşır suyu ve benzer temizleyiciler kullanılmamalı. Beyaz ve renkli diğer ürünlerden ayrı yıkama yapılmalı.<br>",
+        "how_to_use": "1. Parmağınızı aplikatör cebine sokun.\n2. Ürünü mikrofiber yüzeye uygulayın.\n3. Hassas bölgelere kontrollü uygulama yapın.",
+        "when_to_use": "Sealant, wax ve koruma ürünlerinin hassas bölgelere uygulanmasında kullanılır. Mikrofiber yüzey eşit dağılım sağlar.",
+        "target_surface": "Boyalı yüzeyler, hassas bölgeler, köşeler",
+        "why_this_product": "• Parmak tip tasarım - hassas kontrol\n• Mikrofiber yüzey - eşit dağılım\n• EVO gelişmiş versiyon"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Yıkanabilir mi?",
+          "answer": "Evet, mikrofiber olduğu için ılık su ve şampuanla yıkanabilir."
+        }
+      ],
+      "price": 60000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/Q2M-MFAE_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://gyeon.de/GYEON-QM-MF-Applicator-EVO-2-pieces",
+        "cleaned_content_1": "GYEON Q²M MF Applicator EVO 2 pieces\n\nSKU: Q2MMFAPP\n\n- Application pad for care products, wax, cleaners, coatings, and more\n- 2-pack in a reusable bag\n- Safely holds on two or three fingers\n- Washable and reusable\n\nCategory: Applikator, Microfiber\n\nPrice: 14,00 € (7,00 € per 1 Unit) incl. 19% VAT, plus shipping costs\n\nAvailability: Already re-ordered\n\nDescription:\nThe Gyeon Q²M Microfiber Applicator EVO has been designed to accelerate the coating process and enable uniform application on all types and sizes of components, no matter how hard-to-reach or complex the surface is.\n\nIt is versatile and suitable for use with coatings, dressings, gels, or waxes.\n\nHigh-quality microfibers wrapped around a soft sponge ensure a perfect fit to the shape of the surface to be coated, regardless of the material, such as paint, trims, glass, leather, gelcoat, or marine wood.\n\nThe grip pocket on the top provides a secure hold and enhances functionality.\n\nImages:\n\nReviews:\nThere are no reviews yet.",
+        "url_2": "https://www.carclean.com/nl/gyeon-q2m-mf-applicator-evo-2-pack.html",
+        "cleaned_content_2": "Q²M MF Applicator EVO 2-pack\n\nMerk: GYEON\nArt. nr.: GYMFAPEVO\nBeoordeling: 5.0 (3)\n\nPrijs: € 14,99\nBeschikbaarheid: Op voorraad\n\n- Microvezel applicators voor het aanbrengen van coatings\n- Verbeterde stof\n- Geschikt voor lak, trims, leer, gelcoat en hout\n- Bevat 2 Q²M MF Applicators\n\nBeschrijving:\nVeilige en zachte microvezel applicator pads\n\nMet de perfecte maat en ergonomische vorm kun je snel en gelijkmatig coatings, sealants of trim-/lederconditioners aanbrengen. Ontworpen voor gebruik op alle oppervlakken: autolak, gelcoat, trim, velgen, leer, metaal of hout. Q²M MF Applicator EVO heeft een verbeterde stof die zorgt voor een luxueus gevoel en moeiteloos gebruik.\n\nMaak kennis met de ultieme partner voor het aanbrengen van je favoriete producten!\n\nMet de Q²M MF Applicators krijg je de perfecte tools in handen om je voertuig te laten stralen. Deze applicatorpads zullen je helpen om snel en gemakkelijk de gewenste producten aan te brengen. De zachte en veilige microvezel zorgt ervoor dat je oppervlakken worden beschermd terwijl je een gelijkmatige en professionele afwerking bereikt.\n\nDe veelzijdigheid van deze pads is ongeëvenaard. Of je nu je auto, boot, motor of andere waardevolle bezittingen wilt behandelen, de Q²M MF Applicator pads zijn geschikt voor alle oppervlakken. Laat je creativiteit de vrije loop en breng moeiteloos coatings, sealants of conditioners aan op elke gewenste plek. Voor het beste resultaat bij het aanbrengen van lakcoating, kun je vertrouwen op de Q²M CoatingApplicator.\n\nSpecificaties:\nArtikelnummer: GYMFAPEVO\nFormaat: 120 x 95 x 25 mm\n2-pack\n\nReviews (3 beoordelingen, 5.0 gemiddeld):\n\nTop product - Zit heel fijn in de hand, kan ook in kleine hoekjes komen. Heel handig\nKevin - 03/10/2025\n\ngemakkelijk - de Q²M MF Applicator past perfect in mijn hand en is zeer gemakkelijk te gebruiken om de Q² TRIM EVO precies aan te brengen en de trims te volgen zonder de lak aan te raken.\nClaude - 03/10/2025\n\nFijne applicator - Gebruik bijna alles naar tevredenheid van Gyeon. Dus ook voor deze applicator gekozen. Omdat ik een auto met wat hoger dak heb. Werkt dat met deze applicator wat makkelijker omdat je je hand vlak kan houden en toch een goede grip hebt.\nMB - 18/12/2024\n\nImages:",
+        "url_3": "https://www.detailedimage.com/Gyeon-M91/MF-Applicator-P1848/2-pack-S1/",
+        "cleaned_content_3": "Gyeon MF Applicator - 2 pack\n\nPrice: $15.99\nQuantity Discount: 2+ units at $14.99 (6% savings)\n\nAvailable Sizes: 2 pack\n\nProduct Information:\n- Great coating applicator!\n- Foam core wrapped in microfiber\n- Comes in a 2 pack!\n- Product Code: GY-6001\n\nProduct Description:\nThe Gyeon MF Applicator is a top-notch applicator to help you apply your Gyeon coatings or virtually any other coating! When applying a coating, it is important to keep the application as thin as possible to avoid streaking and excessive removal. If you do not have a good applicator, you can be left with an uneven application or worse, your applicator can soak up and waste lots of expensive product. The Gyeon MF Applicator is made of a high-quality microfiber that is wrapped around a soft sponge. This ensures perfect adjustment to the shape of the car, allowing you to provide a nice, thin and even application every time. The pocket on the top side fits your fingers, which provides a great grip and easy maneuverability. Best yet, these come in a two pack so you will always have an extra on hand! If you are looking for a high-quality applicator, the Gyeon MF Applicator is one to keep in your detailing repertoire!\n\nFrom The Label - Product Description:\nSafe and soft microfibre coating applicator pads. Perfect size and ergonomic shape allow quick and even coating application. Designed for use on all surfaces: automotive and marine paint, gelcoat, trim, rims, leather, metal or wood.\n\nWhen used with paint coatings, the applicator may only be used once.\n\nCustomer Reviews:\n100% of customers said that they would buy this item again (Based upon 2 ratings)\n\nReviewed by Frank P. on 11/1/2020 (DI Verified Purchase)\nWould they buy this item again? Yes\nExpensive but well worth the price. I will always use these applicators.\n\nReviewed by Edward R. on 8/17/2019 (DI Verified Purchase)\nWould they buy this item again? Yes\nThe best applicator for ceramics coating. Very soft. Easy to apply BUT need to be disposed after. Otherwise they will be crystalized\n\nImages:",
+        "url_4": "https://www.polishedbliss.co.uk/products/gyeon-q2m-mf-applicators",
+        "cleaned_content_4": "Gyeon Q²M MF Applicators\n\nBrand: Gyeon\nPrice: £10.50\nAvailability: 18 in stock, ready to be shipped\n\nWe Say:\nGyeon Q²M MF Applicators feature a soft, dense, 80:20 (polyester:polyamide) microfibre weave and a finger pocket. The uniform nature of this weave enables thin and even product application on almost all automotive surfaces, making Gyeon Q²M MF Applicators perfect for a variety of detailing duties. The finger pocket is a neat addition that improves their comfort and performance further, and helps to prevent them from being accidentally dropped during use.\n\nKey Features:\nDiameter/Length: 128 mm (Approximate Value)\nFlexibility: 8/10 (Compared To Others)\nWashable: Yes (Hand Or Machine)\n\nDescription:\nGyeon Q²M MF Applicators are designed to speed up the quartz coating application process and facilitate perfectly even coverage on all automotive surfaces, both inside and out. A high quality microfibre outer wrapped around a soft sponge core ensures perfect adjustment to the shape of the work area, while the pocket on the top provides added comfort and security. When used with quartz coatings, Gyeon Q²M MF Applicators should be discarded after use.\n\nSpecification:\nConstruction: 80% polyester, 20% polyamide (colour may vary)\nFlexibility: 8\nSize: Pack of 2\nWashable: Yes (hand or machine)\n\nHow To Use:\nDiscard after use (if used to apply a quartz coating) or else: (i) wash in a washing machine at a low temperature (40°C) using a non-biological liquid detergent (avoid soap powders and detergents containing bleach or fabric softeners); (ii) allow to dry naturally on a line or tumble dry on a cool heat setting (avoid radiators and other sources of high heat), and; (iii) store in a dry, dust-free environment while not in use (lidded plastic storage boxes are ideal in this respect).",
+        "url_5": "https://carzilla.ca/products/gyeon-q-mf-applicator-2-pack",
+        "cleaned_content_5": "GYEON Q²M MF Applicator EVO 2 Pack\n\nBrand: Gyeon\nPrice: $18.00 CAD\nBarcode: 8809432678076\n\nSuperb maintenance products for outstanding detailing performance\n\nThe Q²M MF Applicator is a highly demanded aid for coating application on large, hardly accessible or complex shaped surfaces. Is it paint, leather, trim, gelcoat or marine wood, the high quality microfibre applicator will allow an even and smooth surface coverage. The ergonomic shape improves grip and prevents the applicator from falling on the ground.\n\nBOX CONTAINS: 2 MF APPLICATORS\n\nAVAILABLE SIZES: 120X95X25 MM\n\nSOFT AND ERGONOMIC\nThe new Q²M MF Applicator has been designed to speed up the coating process and allow perfectly even coverage on all types of large or complex panels. High quality microfibre wrapped around a soft sponge ensures perfect adjustment to the shape of the coated area. The pocket on the top side provides great grip and increases functionality. The applicator is offered as a 2-pack."
+      }
+    },
+    {
+      "sku": "Q2M-TA2P",
+      "barcode": "8809432670988",
+      "template": {
+        "group": "applicators",
+        "sub_type": "tire_applicator",
+        "fields": {
+          "material": "Foam",
+          "shape": "Kavisli Blok",
+          "intended_use": [
+            "Lastik Parlatıcı"
+          ],
+          "reusable": true,
+          "features": "Lastik yanağına tam oturan kavisli yapı",
+          "quantity": "2 adet",
+          "type": "Sünger blok",
+          "purpose": "Lastik parlatıcı uygulaması"
+        }
+      },
+      "content": {
+        "short_description": "GYEON QM Tire Applicator: Büyük boy lastik parlatıcı sünger, 2'li paket. Etkili ve pratik uygulama için idealdir. MTS Kimya güvencesiyle orijinal ürün, aynı gün kargo.",
+        "full_description": "GYEON Q²M Tire Applicator, dayanıklı tutma bölümü ve kavisli sünger yapısı sayesinde tüm lastiklerde etkili ve mükemmel bir uygulama sağlar. Q²M Tire ya da Q²M TireExpress lastik parlatıcılarını, minimum efor ve ürün sarfiyatı ile ellerinizi kirletmeden lastiklerinize uygulayabilirsiniz.\r\n\r\nGYEON Q²M Tire Applicator, yoğun gözenekli süngeri ve büyük boyutu ile tüm araç lastiklerinde yüksek performans ve kullanım kolaylığı sunar. Lastik parlatıcınızı homojen bir şekilde uygulamanızda en büyük destekçiniz olur.\r\n\r\nKUTU İÇERİĞİ:\r\n2 Adet Lastik Aplikatörü - BÜYÜK",
+        "how_to_use": "1. Lastik parlatıcıyı süngere damlatın.\n2. Lastik yan yüzeyine eşit şekilde sürün.\n3. Kurumaya bırakın veya fazlasını silin.",
+        "when_to_use": "Lastik parlatıcı, jel ve koruyucu ürünlerin uygulanmasında kullanılır.",
+        "target_surface": "Lastik yan yüzeyleri",
+        "why_this_product": "• GYEON lastik ürünleri ile uyumlu\n• Ergonomik blok tasarım\n• 2'li paket"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "TireExpress ile kullanılır mı?",
+          "answer": "Evet, GYEON TireExpress dahil tüm lastik bakım ürünleriyle kullanılabilir."
+        }
+      ],
+      "price": 30000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/Q2M-TA2P_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://gyeon.co/product/tire-applicator/",
+        "cleaned_content_1": "# Q²M TIRE APPLICATOR\n\n## Exterior / Accessories\n\n### Tyre dressing applicators\n\nQ²M Tire Applicator is designed to make tyre dressing application precise, clean and efficient. Its curved foam shape and firm grip allow controlled work on all tyre profiles, from low profile sport tyres to high wall SUV rubber.\n\n## Tyre dressing applicators\n\nThe applicator's high density foam spreads tyre dressings evenly without excessive product use. Its ergonomic shape supports accurate application across the entire tyre sidewall, helping achieve a uniform finish while minimising waste.\n\n### What makes Q²M TIRE APPLICATOR so special?\n\nCurved foam shape for precise tyre dressing application\n\n## TECHNICAL DETAILS\n\nBOX CONTAINS: 2 Tire Applicator - SMALL or LARGE\n\n## HOW TO USE\n\n01. Choose the applicator size appropriate for the tyre profile.\n02. Apply tyre dressing directly onto the foam surface.\n03. Spread evenly across the tyre sidewall.\n04. Use controlled pressure for uniform coverage.\n05. Rinse or replace applicator after use if required.\n\n## FREQUENTLY ASKED QUESTIONS\n\n01. What is Q²M Tire Applicator used for?\nApplying tyre dressings evenly and precisely.\n\n02. Why are two sizes available?\nSmall is suited for low profile tyres, Large for high wall tyres.\n\n03. Does it waste product?\nNo, the foam structure helps distribute dressing efficiently.\n\n04. Is it comfortable to use?\nYes, the applicator offers a firm grip and ergonomic shape.\n\n05. Can it be reused?\nYes, with proper cleaning after use.\n\n## Recommended Pairing\n\n- Q² TIRE - 500 ML - World's first SiO2 based tire sealant.\n- Q²M TIRE EXPRESS - 500 ML / 1000 ML / 4000 ML - The quick and easy way to make your tyres look clean and fresh.\n- Q²M TIRE CLEANER - 500 ML / 1000 ML / 4000 ML - Strong and effective tyre and rubber cleaner.\n- Q²M TIREBRUSH - Chemical resistant stiff-hair brush to clean all rubber surfaces.",
+        "url_2": "https://www.detailingexpress.com.tr/urun/gyeon-q%C2%B2m-tire-applicator-lastik-parlatici-sunger-buyuk-boy-2li-paket/",
+        "cleaned_content_2": "# Gyeon Q²M Tire Applicator Lastik Parlatıcı Sünger Büyük Boy 2'li Paket\n\nGYEON Q²M Tire Applicator, dayanıklı tutma bölümü ve kavisli sünger yapısı sayesinde tüm lastiklerde etkili ve mükemmel bir uygulama sağlar. Q²M Tire ya da Q²M TireExpress lastik parlatıcılarını, minimum efor ve ürün sarfiyatı ile ellerinizi kirletmeden lastiklerinize uygulayabilirsiniz.\n\nBARKOD: 8690000027927\n\nStok kodu: 5331548\n\nMarka: Gyeon\n\nFiyat: 359,17₺\n\nStok: 10 adet stokta\n\n## Ürün Açıklaması\n\nGYEON Q²M Tire Applicator, dayanıklı tutma bölümü ve kavisli sünger yapısı sayesinde tüm lastiklerde etkili ve mükemmel bir uygulama sağlar. Q²M Tire ya da Q²M TireExpress lastik parlatıcılarını, minimum efor ve ürün sarfiyatı ile ellerinizi kirletmeden lastiklerinize uygulayabilirsiniz.\n\nGYEON Q²M Tire Applicator, yoğun gözenekli süngeri ve büyük boyutu ile tüm araç lastiklerinde yüksek performans ve kullanım kolaylığı sunar. Lastik parlatıcınızı homojen bir şekilde uygulamanızda en büyük destekçiniz olur.\n\nKUTU İÇERİĞİ:\n2 Adet Lastik Aplikatörü – BÜYÜK\n\n## Müşteri Yorumları\n\nHenüz değerlendirme yapılmamıştır.",
+        "url_3": "https://www.gsfcarparts.com/products/q-m-tire-applicator-large-pack-of-2-brngtialrg2",
+        "cleaned_content_3": "# GYEON - Q²M Tire Applicator - Large, Pack of 2\n\nPart: BRNGTIALRG2\n\nIn Stock\n\nPrice: £6.50\n\n## Description\n\nElevate your tyre maintenance routine with the GYEON Q²M Tire Applicator, a meticulously crafted tool designed to deliver precision and ease in tyre dressing application. Available in a convenient large size and packaged in sets of two.\n\n**Features:**\n\n- **Precision Application:** Designed for even and efficient tyre dressing application across different tyre types.\n- **Durable Design:** Made from high-quality materials, ensuring longevity and repeated use.\n- **User-Friendly:** Easy to handle with a strong grip and curved foam shape for effective coverage.\n- **Versatile Use:** Suitable for low-profile sport tyres and high-wall SUV tyres, offering broad applicability.\n- **Enhanced Maintenance:** Maintains tyres' pristine appearance, contributing to overall vehicle aesthetics.\n\nThe Q²M Tire Applicator is engineered for optimal performance with its strong grip and curved foam shape, ensuring that you can apply your chosen tyre dressing evenly and effectively across the tyre's surface.\n\n## Info\n\n- Brand: GYEON\n- Quantity: Pack of 2\n- Smooth Application: Ensures uniform tyre dressing on all types.\n- Sturdy Build: Crafted for durability and repeated use.\n- Comfort Grip: Ergonomic foam shape for easy handling.\n- Universal Fit: Ideal for sport and SUV tyres.\n- Keeps Tyres Fresh: Helps maintain a clean, polished look.",
+        "url_4": "https://www.birklean.co.uk/products/gyeon-q2m-tire-applicator-2-pack",
+        "cleaned_content_4": "# GYEON Q2M Tire Applicator (Pack of 2)\n\nBrand: GYEON\n\nSize: Large\n\nVariants: Small - £4.50 / Large - £6.50\n\nPrice: £6.50 (Save 8%)\n\nStock: In stock\n\n## Description\n\n**TYRE DRESSING APPLICATORS**\nQ²M Tire Applicators come in two sizes – small and large – each with a different dedication. No matter if you need to coat low profile sport tyres or high wall SUV rubber, there is a solution ready. With its strong grip and curved foam shape, it allows you to work in every area effectively and precisely.\n\nBOX CONTAINS: 2 Tire Applicator\n\n**PRECISE AND EFFICIENT**\nWith its curved shape and high-density foam, applying tire dressing becomes a child's play! It helps spread the dressing in a more uniform way with no waste.",
+        "url_5": "https://carzilla.ca/products/gyeon-q-m-tire-applicators",
+        "cleaned_content_5": "# GYEON Q²M Tire Applicators\n\nBrand: Gyeon\n\nVariants:\n- Small 2 Pack - $6.00 CAD (SKU: 3646, Barcode: 8809432670971)\n- Large 2 Pack - $7.00 CAD (SKU: 3647, Barcode: 8809432670988)\n\n3%+ Discount with 3+ of the Same Item\n\n## TYRE DRESSING APPLICATORS\n\nQ²M Tire Applicators come in two sizes – small and large – each with a different dedication. No matter if you need to coat low profile sport tyres or high wall SUV rubber, there is a solution ready. With its strong grip and curved foam shape, it allows you to work in every area effectively and precisely.\n\n## PRECISE AND EFFICIENT\n\nWith its curved shape and high-density foam, applying tire dressing becomes a child's play! It helps spread the dressing in a more uniform way with no waste.",
+        "url_6": "https://www.carcareproducts.com.au/products/gyeon-q2m-tire-applicator-small-2-pack",
+        "cleaned_content_6": "# Gyeon Q2M Tire Applicator (2 Pack)\n\nBrand: GYEON\n\nSKU: 116129\n\nPrice: $8.99 AUD\n\nVariants: Small / Large\n\n## Description\n\nGyeon Q²M Tire Applicators come in two sizes – small and large – each with a different dedication. No matter if you need to coat low profile sport tyres or high wall SUV rubber, there is a solution ready. With its strong grip and curved foam shape, it allows you to work in every area effectively and precisely.\n\n### Features & Benefits\n\n- Soft, durable foam construction for even and streak-free application\n- Ergonomic handle for comfortable grip and control\n- Precision-cut foam contours to tire sidewalls for maximum coverage\n- Compatible with all Gyeon tire coatings and most other tire dressings\n- Reusable and easy to clean\n\nThe Gyeon Q2M Tire Applicator is a must-have tool for anyone looking to get the most out of their tire coatings. Made from high-quality foam, this applicator provides even and streak-free application of your favorite tire coatings, ensuring maximum coverage and a long-lasting shine. The precision-cut foam contours perfectly to your tire sidewalls, making it easy to apply the coating exactly where you want it.\n\nThe ergonomic handle provides a comfortable grip and ultimate control, while the durable foam construction ensures long-lasting use. This applicator is also compatible with all Gyeon tire coatings and most other tire dressings, making it a versatile tool for any detailing enthusiast. And when you're done, simply rinse the applicator under running water and let it air dry for easy cleaning and reuse."
+      }
+    },
+    {
+      "sku": "Q2M-SPE",
+      "barcode": "8809432676225",
+      "template": {
+        "group": "applicators",
+        "sub_type": "scrub_pad",
+        "fields": {
+          "material": "Foam/Microfiber",
+          "intended_use": [
+            "Deri Temizliği",
+            "Plastik Temizliği"
+          ],
+          "reusable": true,
+          "features": "İç temizlik için ovma özelliği",
+          "version": "EVO",
+          "purpose": "Deri ve plastik temizliği",
+          "safe_for": [
+            "Deri",
+            "Plastik",
+            "Vinil"
+          ]
+        }
+      },
+      "content": {
+        "short_description": "GYEON QM Scrubpad EVO: Deri ve plastikler için çift taraflı temizlik aplikatörü, etkili ve pratik temizlik sağlar.",
+        "full_description": "GYEON Q²M ScrubPad EVO Deri ve Plastik Temizlik Aplikatörü – Çift Taraflı - 8x10 cm\r\n\r\nÇift Taraflı Tasarım | Çizmez Yapı | Deri ve Plastik İçin İdeal\r\n\r\n\r\nDERİ VE İÇ MEKÂN TEMİZLİĞİNDE KUSURSUZ SONUÇ\r\n\r\nGYEON Q²M ScrubPad EVO, araç iç mekânındaki deri yüzeyler, plastik parçalar ve trim bölgelerindeki kirleri etkili ve güvenli bir şekilde temizlemek üzere özel olarak geliştirilmiş, çift taraflı temizlik aplikatörüdür.\r\nGYEON kalitesi ve ergonomik tasarımı sayesinde araç içerisindeki dar, kıvrımlı ve ulaşılması güç alanlarda bile üstün performans sağlar.\r\n\r\n\r\nÇİFT TARAFLI ETKİ, ÜST DÜZEY TEMİZLİK PERFORMANSI\r\n\r\nScrubPad EVO, benzersiz çift taraflı tasarımı sayesinde farklı kir türlerine tek ürünle çözüm sunar:\r\n• Beyaz Mikrofiber Yüz:\r\nDeri yüzeylerdeki yağ, kir ve inatçı lekeleri hassas ve derinlemesine temizler. Plastik ve trim bölgelerde birikmiş kirleri söker, yüzeyleri orijinal görünümüne kavuşturur.\r\n• Siyah Sünger Yüz:\r\nAraç içindeki toz, tüy ve hafif kirleri kolayca toplar. Yüzeylere yapışmış partikülleri zahmetsizce temizler ve bakım ürünlerini uygulamak için ideal bir yüzey sağlar.\r\n\r\n\r\nERGONOMİK TASARIM, UZUN ÖMÜRLÜ YAPI\r\n• Ergonomik formu ve kompakt boyutuyla (8x10 cm) araç içindeki dar alanlarda kolay hareket eder.\r\n• Sentetik premium malzemeden üretilmiştir, uzun ömürlü kullanım sağlar.\r\n• Tekrar tekrar yıkanabilir ve ilk günkü performansını korur.\r\n\r\n\r\nTEKNİK ÖZELLİKLER\r\n• Boyut: 8 x 10 cm\r\n• Malzeme: Sentetik mikrofiber ve özel yapılı köpük\r\n• Tasarım: Çift taraflı (deri/plastik yüzeyi + toz toplama yüzeyi)\r\n• Temizlik Tipi: Derin temizlik, hassas yüzeyler, toz ve kir toplama\r\n• Kullanım Alanı: Deri, plastik, vinil, iç mekân trim ve konsol yüzeyleri\r\n• Dayanıklılık: 100+ kez yıkanabilir, uzun ömürlü yapı\r\n\r\n\r\nÖNE ÇIKAN AVANTAJLARI\r\n\r\n• Araç içindeki derinlemesine temizlik işlemlerini çizik ve iz riski olmadan gerçekleştirir.\r\n• Fırça ve diğer sert ürünlere kıyasla daha ergonomik ve güvenli bir alternatif sunar.\r\n• Çift yüzey yapısıyla farklı ihtiyaçları tek üründe çözer.\r\n• Ulaşılması zor kıvrım ve derz bölgelerine rahat erişim sağlar.\r\n• Araç iç yüzeylerine zarar vermeyen, yüksek kaliteli ve güvenilir malzemelerden üretilmiştir.\r\n\r\n\r\nNASIL KULLANILIR?\r\n\r\n• Ürün veya temizleyiciyi direkt olarak aplikatöre püskürtün.\r\n• Temizlik işlemine başlamadan önce yüzeyi nazikçe silin veya dairesel hareketlerle ovun.\r\n• Deri ve plastik yüzeylerde beyaz yüzü, toz alma ve bakım uygulamalarında siyah yüzü kullanın.\r\n• Kirlendikçe temiz suyla durulayın ve kurumaya bırakın.\r\n\r\n\r\nYIKAMA VE BAKIM ÖNERİSİ\r\n\r\n• Maksimum 30°C sıcaklıkta çamaşır makinesinde veya elde yıkayın.\r\n• GYEON TowelWash ya da sadece duru su ile temizleyin.\r\n• Çamaşır suyu, yumuşatıcı veya diğer agresif kimyasallar kullanmayın.\r\n• Sıkma işlemi yapmadan asarak doğal şekilde kurumaya bırakın.\r\n• Diğer renkli ürünlerden ayrı olarak yıkayın.\r\n\r\nPRO-TIP:\r\n\r\nScrubPad EVO aplikatörü, hafif nemli olarak deri yüzeylere uygulandığında maksimum temizlik sağlar. Ayrıca siyah sünger yüzü kuru hâlde toz alma ve bakım ürünleri uygulama aşamasında da rahatlıkla kullanabilirsiniz.\r\n\r\n\r\nNEDEN GYEON Q²M SCRUBPAD EVO?\r\n\r\n?? Deri ve plastik yüzeylerde üstün temizleme gücü\r\n?? Çizmez ve zarar vermez yapı\r\n?? Dar alanlarda ve kıvrımlı yüzeylerde ergonomik kullanım kolaylığı\r\n?? Çift yüzeyiyle çok yönlü kullanım imkânı\r\n?? Yıkanabilir ve tekrar kullanılabilir uzun ömürlü malzeme kalitesi\r\n\r\nGYEON Q²M ScrubPad EVO ile araç iç mekân temizliğinizi daha kolay, hızlı ve profesyonel hale getirin.",
+        "how_to_use": "1. Temizleyici püskürtün.\n2. Scrubpad ile dairesel hareketlerle ovalayın.\n3. Kirli köpüğü mikrofiber ile toplayın.\n4. Gerekirse tekrarlayın.",
+        "when_to_use": "Deri koltuklar ve plastik yüzeylerde derin temizlik için kullanılır. LeatherCleaner ile birlikte idealdir.",
+        "target_surface": "Deri, plastik, vinil yüzeyler",
+        "why_this_product": "• EVO gelişmiş versiyon\n• Deri ve plastikte güvenli\n• Derin temizlik gücü\n• Ergonomik tasarım"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Deri yüzeye zarar verir mi?",
+          "answer": "Hayır, deri için güvenli tasarlanmıştır. Hafif basınçla kullanın."
+        },
+        {
+          "question": "Fırça yerine mi kullanılır?",
+          "answer": "Evet, fırçaya alternatif olarak veya tamamlayıcı olarak kullanılabilir."
+        }
+      ],
+      "price": 35000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/Q2M-SPE_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Uygulama Aplikatörleri",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://autolab.bg/en/product/4420/gyeon-q2m-scrubpad-evo.html",
+        "cleaned_content_1": "GYEON Q2M ScrubPad EVO\n\nPrice: €8.00 / 15.65лв.\n\nCode: GYQ2MSPEVO\n\nWeight: 0.200 Kgs\n\nAvailability: In stock\n\nQ²M ScrubPad EVO is a double-sided cleaning pad measuring 8x10cm, used for effective and safe treatment of car interiors.\n\nProduct Images:\n-\n-\n-\n\nBrand Website:\n\nDetailed description:\n\nQ²M ScrubPad EVO is a double-sided cleaning pad measuring 8x10cm, designed for effective and safe treatment of car interiors. The white side is ideal for cleaning leather or removing dirt from plastic parts. The black, foamy side collects dust effectively. The fully synthetic materials used to make the Q²M ScrubPad EVO remain as good as new even after repeated use. The size and shape are convenient for cleaning intricately shaped items or crevices.",
+        "url_2": "https://www.ahifi.com/cleaning-applicator-gyeon-q2m-scrubpad-evo-8-x10-cm.html",
+        "cleaned_content_2": "Cleaning applicator Gyeon Q2M ScrubPad EVO (8 x10 cm)\n\n(3 assessments)\n\nCleaning applicator, 8 x 10 cm\n\nPrice: 7,90 EUR\n\nCatalog number: G37437\n\nAvailability: In stock (142 pcs)\n\nProduct Images:\n-\n-\n\nDescription:\n\nThe Gyeon Q²M ScrubPad EVO is a double-sided cleaning tool for vehicle interiors. The white side is ideal for cleaning leather or removing built-up dirt on plastic trim. The black foam side effectively collects dust. Fully synthetic materials stay like new after many uses. The size and shape are suitable for cleaning intricately shaped elements or crevices in the interior of cars.\n\nMain features:\n- Double cleaning applicator for the interior.\n- White/black color.\n- Dimensions: 8 x 10 cm.\n- Price for 1 pc.\n- Made in South Korea.\n\nAbout the brand:\n\nThe Gyeon brand (pronounced \"jion\") comes from South Korea, where several global brands dealing with high-quality and innovative car cosmetics were created. South Koreans are known to be very precise and hardworking, and these qualities are perfectly reflected in the products of this brand. This car cosmetic offers advanced technologies at competitive prices. Gyeon develops and manufactures almost every product in its own laboratory and factory in South Korea with the help of the best scientists and experts in the field of car care. They support this process with in-depth research, intensive testing and an obsessive desire to improve everything they do. This approach results in exceptional products in terms of quality, durability and ease of use. Gyeon has always been unique and always strives to be one step ahead. Today, Gyeon is sold on 6 continents and in more than 100 countries around the world.\n\nSpecifications:\n| Catalog number | G37437 |\n| Brand | Gyeon |\n| Links | Official web presentation:  |\n\nEvaluation: Overall rating 100% - 3 customers rated (3x 5-star)",
+        "url_3": "https://carzilla.ca/products/gyeon-q2m-scrub-pad-evo",
+        "cleaned_content_3": "GYEON Q²M Scrub Pad EVO\n\nPrice: $11.99 CAD\n\nBrand: Gyeon\n\nBarcode: 8809432676225\n\nAvailability: In stock\n\n3%+ Discount with 3+ of the Same Item\n\nProduct Images:\n-\n-\n\nDescription:\n\nEFFICIENT INTERIOR CLEANING TOOL.\n\nQ²M ScrubPad EVO is a double-sided cleaning tool for vehicle interiors. The white side is perfect for cleaning leather or removing dirt deposits from plastic trim. The black, foamy side collects dust efficiently. Fully synthetic materials remain as new after many uses. The size and shape are convenient for cleaning complex-shaped elements or crevices.\n\nSIZES: 8x10 CM",
+        "url_4": "https://www.cleanyourcar.co.uk/gyeon-q2m-scrub-pad-evo",
+        "cleaned_content_4": "GYEON - Q²M ScrubPad EVO\n\nProduct Code: GYMSPE0000030\n\nBrand: GYEON\n\nPrice: £6.50 (Ex VAT: £5.42)\n\nAvailability: 12 In Stock. Order now for delivery on Tuesday, 10th February. (Select Next Day Delivery at checkout.)\n\nProduct Images:\n-\n-\n-\n\nDescription:\n\nThe Gyeon Q²M ScrubPad EVO is a double-sided cleaning pad for vehicle interiors. The white side is perfect for cleaning surfaces such as leather and plastics, providing a deep clean and the ability to remove ingrained dirt and grime with ease. The black side is a soft foam and great for collecting dust. The Scrub Pad is fully synthetic, and its size and shape make it easy to reach all areas with ease.\n\nSize: 8x10cm\n\nUse it with: GYEON - Q²M Leather Cleaner Natural"
+      }
+    },
+    {
+      "sku": "SGGD004",
+      "barcode": "6973086162440",
+      "template": {
+        "group": "applicators",
+        "sub_type": "wash_sponge",
+        "fields": {
+          "sub_type": "pump_sprayer",
+          "capacity_liters": null,
+          "chemical_resistance": null,
+          "max_pressure_bar": null,
+          "pressure_relief_valve": null,
+          "nozzle_types": null,
+          "compressed_air_connection": null,
+          "spare_seals_included": null,
+          "spray_pattern_adjustable": null,
+          "function": "Araç Yıkama Süngeri",
+          "material": "Poliüretan köpük",
+          "dimensions": "200 x 125 x 45 mm",
+          "color": "Siyah",
+          "scratch_safe": true
+        }
+      },
+      "content": {
+        "short_description": "SGCB Araç Yıkama Süngeri, yüksek su emici dayanıklı poliüretan yapısıyla çizmeden temizlik sağlar. Geniş yüzeyiyle hızlı ve zahmetsiz oto yıkama için ideal sünger!",
+        "full_description": "SGCB Araç Yıkama Süngeri 20cm (Siyah) – Yüksek Su Emici Dayanıklı Oto Temizlik Süngeri\r\n\r\nSGCB araç yıkama süngeri, aracınızın boyasına zarar vermeden etkili temizlik sağlayan, yüksek su ve şampuan emici özelliğe sahip dayanıklı bir yıkama süngeridir. Poliüretan köpük yapısı sayesinde uzun ömürlü kullanım sunar ve en zorlu temizlik işlemlerinde bile formunu korur. Profesyonel detaycılar kadar günlük kullanıcılar tarafından da güvenle tercih edilebilir.\r\n\r\nYumuşak yapısı ve geniş yüzeyiyle, araç yıkama sürecini hem hızlı hem de zahmetsiz hale getirir. Büyük hacimli su emme kapasitesi, tek seferde geniş alanların temizlenmesine imkan tanır. Ürün sıkıldığında anında eski formuna döner; esneklik ve direnç açısından yüksek performans sunar.\r\n\r\n\r\nÜrün Özellikleri\r\n\r\n• Boyut: 200 x 125 x 45 mm\r\nDaha hızlı ve kapsamlı temizlik için geniş yüzeyli tasarım\r\n\r\n• Dayanıklı Malzeme:\r\nYüksek kaliteli poliüretan köpük sayesinde yırtılma ve kopmaya karşı uzun ömürlü kullanım\r\n\r\n•Yüksek Verimlilik:\r\nÇizmeden temizlik sağlar, kiri ve lekeleri zahmetsizce uzaklaştırır\r\n\r\n• Kolay Kullanım:\r\nErgonomik yapısı sayesinde ele kolay oturur, tutuşu rahattır\r\n\r\n• Çok Yönlü Kullanım:\r\nOtomobiller, SUV’ler, kamyonlar, motosikletler, bisikletler ve tekneler dahil tüm araç tiplerine uygundur\r\n\r\nNeden SGCB Araç Yıkama Süngerini Seçmelisiniz?\r\n\r\n• Çizik bırakmaz, güvenli temizlik sunar\r\n• Yoğun su tutma kapasitesiyle verimli kullanım sağlar\r\n• Yırtılmaya dayanıklı yapısıyla uzun ömürlüdür\r\n• Amatör ve profesyonel kullanıcılar için uygundur\r\n• Tüm araç dış yüzeylerinde yüksek performanslı temizlik sağlar\r\n\r\n\r\nSGCB Car Wash Sponge, araç yüzey temizliğinde maksimum hassasiyet ve performans isteyen kullanıcılar için tasarlandı. Geniş yüzeyi ve esnek yapısıyla suyu hapseder, kiri söker ve boyaya zarar vermez. Dayanıklı ve ergonomik yapısı sayesinde aracınızı temizlemek artık çok daha kolay.\r\n\r\nAracınız için en güvenli ve verimli temizlik deneyimi SGCB araç yıkama süngeri ile başlar!",
+        "how_to_use": "1. Süngeri bol su ve şampuan ile ıslatın.\n2. Aracınızı üstten aşağıya doğru yıkamaya başlayın.\n3. Kirli bölgelerde süngeri sık sık durulayın.\n4. Kullanım sırasında bezleri sık sık kontrol edin - kir birikimini önleyin.\n5. Yıkama sonrası süngeri temiz suyla durulayıp serin yerde kurutun.",
+        "when_to_use": "Araç dış yüzeylerinin köpüklü yıkaması için kullanın. Geniş yüzeyi sayesinde hızlı ve verimli temizlik sağlar.",
+        "target_surface": "Otomobil, SUV, kamyon, motosiklet, bisiklet, tekne dış yüzeyleri",
+        "why_this_product": "• Yüksek su ve şampuan emici özellik\n• Çizmeden güvenli temizlik\n• Dayanıklı poliüretan köpük yapısı\n• Geniş yüzey - hızlı temizlik\n• Ergonomik tutma kolaylığı"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Boyaya zarar verir mi?",
+          "answer": "Hayır, yumuşak yapısı sayesinde çizmeden güvenli temizlik sağlar."
+        },
+        {
+          "question": "Sünger formunu korur mu?",
+          "answer": "Evet, sıkıldığında anında eski formuna döner, esneklik ve direnç açısından yüksek performans sunar."
+        },
+        {
+          "question": "Hangi araçlarda kullanılabilir?",
+          "answer": "Otomobiller, SUV'ler, kamyonlar, motosikletler, bisikletler ve tekneler dahil tüm araç tiplerine uygundur."
+        },
+        {
+          "question": "Nasıl temizlenir?",
+          "answer": "Kullanım sonrası temiz suyla iyice durulayın ve serin yerde kurutun."
+        }
+      ],
+      "price": 18000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/SGGD004_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Mikrofiber Ürünler",
+        "sub_cat2": "Yıkama Eldivenleri ve Süngerleri"
+      }
+    }
+  ]
+}

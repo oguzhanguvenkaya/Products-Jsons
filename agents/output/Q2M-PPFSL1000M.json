@@ -1,0 +1,24 @@
+{
+  "sku": "Q2M-PPFSL1000M",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM PPF Slip PPF Folyo Montaj Yapıştırma Sıvısı Yoğun Konsantre - 1000 ml", "brand": "GYEON", "barcode": "8809432677857", "group": "ppf_tools", "sub_type": "ppf_install_solution"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"function": "Kayganlaştırıcı ve Yapıştırıcı", "concentrate": true, "dilution_ratio": "1:100", "low_foam": true, "alcohol_content": true, "compatibility": ["TPU", "TPH", "Vinil"]},
+    "content": {
+      "how_to_use": "1. Püskürtme şişenizi temiz su ile doldurun ve ihtiyaca göre PPF Slip ekleyin (1L suya 10-20ml).\n2. Uygulama yapılacak paneli GYEON Q²M Prep ile tamamen yağdan arındırın.\n3. Hem panele hem de folyonun yapışkan tarafına bolca sıvı püskürtün.\n4. Folyoyu yüzeye yerleştirin ve kaydırarak hizalayın.\n5. PPF raglesi ile merkezden dışa doğru sıvıyı tahliye edin.\n6. Kavisli kenarlarda yapışmanın başladığından emin olun.",
+      "when_to_use": "PPF, vinil wrap ve renk değişim folyosu uygulamalarında kullanılır. Folyonun yüzeyde kaymasını ve yeniden konumlandırılmasını sağlar.",
+      "target_surface": "Araç boyası, cam, parlak plastikler, PPF yapışkan yüzeyi",
+      "why_this_product": "• 1:100 yüksek konsantrasyon - son derece ekonomik\n• Düşük köpük formülü - bebek şampuanlarının aksine kabarcık oluşturmaz\n• Hafif alkol içeriği - kavislerde yapışmayı hızlandırır\n• Tüm PPF türleriyle (TPU, TPH, Vinil) uyumlu"
+    },
+    "faq": [
+      {"question": "Neden bebek şampuanı yerine PPF Slip kullanmalıyım?", "answer": "Bebek şampuanları boya, krem ve yumuşatıcılar içerir. Bu maddeler folyo yapıştırıcısının performansını düşürebilir ve sararmaya neden olabilir. PPF Slip saf ve yapıştırıcı dostu formüle sahiptir."},
+      {"question": "Hangi seyreltme oranını kullanmalıyım?", "answer": "Genel kullanım için 1:100 idealdir. Sıcak havalarda veya karmaşık panellerde 1:50'ye kadar düşürebilirsiniz."},
+      {"question": "Cam filminde kullanılabilir mi?", "answer": "PPF Slip öncelikli olarak PPF yapıştırıcıları için formüle edilmiştir. Cam filmleri için üreticinin kendi montaj solüsyonunu kullanmak en güvenlidir."},
+      {"question": "Artan sıvıyı saklayabilir miyim?", "answer": "Evet, seyreltilmiş solüsyonu kapalı bir şişede birkaç hafta boyunca saklayabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-PPFSL4000M"]}
+  }
+}

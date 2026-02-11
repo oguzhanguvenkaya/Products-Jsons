@@ -1,0 +1,25 @@
+{
+  "sku": "Q2M-CCE",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Clay Coarse EVO Agresif Yüzey Temizleyici Kil Hamuru - 100 gr -Kimyasala Dayanıklı", "brand": "GYEON", "barcode": "8809432678038", "group": "contaminant_solvers", "sub_type": "iron_remover"},
+  "notes": {"sub_type_review": "iron_remover olarak işaretli ancak clay_bar olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"material": "Polybutene reçine", "weight_gr": 100, "hardness": "4/10", "chemical_resistant": true, "cars_per_bar": "3-4", "working_temp_c": "5-30"},
+    "content": {
+      "how_to_use": "1. Aracı yıkayın, durulayın. Tar/Iron dekontaminasyonu yaptıysanız iyice durulayın.\n2. Kili 4-6 parçaya bölün, ılık suda yumuşatın, disk şekline getirin.\n3. Yüzeyi bolca Q²M ClayLube ile ıslatın.\n4. Hafif baskı ile düz hatlarda ileri-geri hareket edin; pütür hissi kaybolana dek devam edin.\n5. Kili sık sık katlayın; kirli yüzeyi içe hapsedin.\n6. Panel bitince yüzeyi su ile çalkalayın veya köpüklü şampuanla yıkayın.",
+      "when_to_use": "Ağır katmanlı kontaminasyonlar, sprey boya ve inşaat tozu, reçine lekeleri, jant yüzeyleri, polisaj öncesi hazırlık için kullanılır.",
+      "target_surface": "Boya, cam, jant, parlak plastik",
+      "why_this_product": "• Kimyasal direnç - Iron/Tar ile birlikte kullanılabilir\n• Hızlı sonuç - dekontaminasyon süresini %50 kısaltır\n• 100 gr - 3-4 araç için yeterli\n• Polybutene reçine - uzun ömürlü"
+    },
+    "faq": [
+      {"question": "Kil boyada iz bırakır mı?", "answer": "Coarse versiyon hafif matlaşma yapabilir; bu izler polisajla kolayca giderilir."},
+      {"question": "Q²M Iron ile aynı anda kullanabilir miyim?", "answer": "Evet. Kil kimyasal olarak çözünmez; Iron hem kaydırıcı hem kir çözücü işlevi görür."},
+      {"question": "Düşürdüğüm kil parçasını tekrar kullanabilir miyim?", "answer": "Hayır. Yere düşen kil partiküller toplar ve boyaya zarar verebilir."},
+      {"question": "Yumuşak boyalı araçta güvenli mi?", "answer": "Ağır kontaminasyon varsa kullanılabilir; polisaj planlıyorsanız ideal çözümdür."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-CLR500M"], "accessories": [], "alternatives": ["MGPS-2019KM", "MGPS-2019KH"]}
+  }
+}

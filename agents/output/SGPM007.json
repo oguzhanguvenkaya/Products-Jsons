@@ -1,0 +1,23 @@
+{
+  "sku": "SGPM007",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Keçeli Ragle 10 Cm (Sert PE)", "brand": "SGCB", "barcode": "6973086165359", "group": "ppf_tools", "sub_type": "squeegee"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"material": "PE + Keçe", "hardness": "Orta", "angle": 85, "felt_type": "3M Yapışkanlı", "dimensions": {"length_cm": 10.4, "width_cm": 7.5, "thickness_cm": 0.5}},
+    "content": {
+      "how_to_use": "1. Keçeli ragleyi PPF veya folyo üzerine yerleştirin.\n2. Keçe tarafı yüzeye temas etmelidir.\n3. Orta basınçla merkezden kenarlara çekin.\n4. Keçe aşındığında SGPM008 yedek keçe ile değiştirin.",
+      "when_to_use": "PPF, folyo, cam filmi ve duvar kağıdı uygulamalarında kullanılır. Kuru uygulama ve hassas yüzeylerde çizilmeyi önler.",
+      "target_surface": "Hassas PPF yüzeyleri, mat filmler, çizilebilir yüzeyler",
+      "why_this_product": "• 3M yapışkanlı değiştirilebilir keçe\n• Çizilmeyi önleyen yumuşak keçe kenarları\n• Kuru uygulamaya uygun\n• Aşınmaya dayanıklı, uzun ömürlü"
+    },
+    "faq": [
+      {"question": "Keçe aşındığında ne yapmalıyım?", "answer": "SGPM008 yedek keçe kiti ile kolayca değiştirebilirsiniz."},
+      {"question": "TPU raglelerden farkı nedir?", "answer": "Keçe kaplama sayesinde daha hassas yüzeylerde çizilme riski olmadan çalışabilirsiniz."},
+      {"question": "Kuru uygulamada kullanılabilir mi?", "answer": "Evet, keçe sayesinde hem ıslak hem kuru uygulamada etkilidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": ["SGPM008"], "alternatives": ["SGPM004"]}
+  }
+}

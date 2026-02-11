@@ -1,0 +1,41 @@
+{
+  "sku": "701801",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Neve Yoğun Köpüklü Araç Yıkama Şampuanı Cilalı Parfümlü Oto Köpüğü - 1 lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486821808",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "10.35 (Alkali)",
+      "foam_thickness": "Kar Etkisi",
+      "dilution_foam_lance": "1:2 - 1:12",
+      "dilution_pump": "1:25 - 1:50",
+      "scent": "Çiçek Aroması",
+      "safe_on_ceramic_coatings": true
+    },
+    "content": {
+      "how_to_use": "1. Köpük Uygulaması: Aracın altından başlayarak ürünü yatay şeritler halinde püskürtün.\n2. Bekleme: Köpüğün kirleri çözmesi için 1-2 dk bekleyin.\n3. Durulama: Üstten aşağı yüksek basınçlı suyla yatay hareketle durulayın.",
+      "when_to_use": "Haftalık bakım veya ağır kirli araçlarda ön yıkama köpüğü olarak, temassız yıkama, kar köpüğü efekti istenen yıkamalarda kullanılır.",
+      "target_surface": "Tüm araç boyaları, seramik kaplama, wax, motosiklet, karavan, kamyon",
+      "why_this_product": "• Kalın kar etkili köpük yüzeye yapışır\n• Mikro çizik riskini azaltır\n• Fosfat ve sodyum hidroksit içermez\n• Çiçek aroması ile hoş yıkama deneyimi"
+    },
+    "faq": [
+      {"question": "Seramik kaplamalara zarar verir mi?", "answer": "Hayır, wax ve seramik kaplamalara zarar vermez."},
+      {"question": "Köpük tabancası için seyreltme oranı nedir?", "answer": "1:2 ile 1:12 arasında, kir yoğunluğuna göre ayarlanır."},
+      {"question": "Kurutmaya bırakılabilir mi?", "answer": "Hayır, köpüğü sıcak yüzeyde veya güneş altında kurumaya bırakmayın."},
+      {"question": "Hangi araç türlerinde kullanılabilir?", "answer": "Otomobil, motosiklet, karavan, kamyon ve ticari araçlarda kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["71490"]}
+  }
+}

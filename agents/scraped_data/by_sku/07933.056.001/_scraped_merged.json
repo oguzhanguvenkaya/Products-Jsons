@@ -1,0 +1,59 @@
+{
+  "sku": "07933.056.001",
+  "product_name": "Menzerna M5 Süper Parlatıcı Katı Cila Beyaz Değerli Metaller Paslanmaz Çelik Boyalı Yüzey Parlatıcı",
+  "barcode": "07933.056.001",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:41:39.372Z",
+  "sources": [
+    {
+      "url": "https://eickelit.com/en/menzerna-m5-super-finish-compound-sku-300-m5.html",
+      "domain": "eickelit.com",
+      "language": "en",
+      "page_title": "Menzerna M5 | Super-Finish Compound | Hard Metals &amp; Paints",
+      "content_length": 7260,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://watchmakershop.com/products/menzerna-polishing-paste-m5-for-stainless-steel-precious-metals-and-lacquer-0-500-kg",
+      "domain": "watchmakershop.com",
+      "language": "en",
+      "page_title": "Menzerna polishing paste M5 for stainless steel, precious metals and l\n&ndash; WatchmakerShop.com",
+      "content_length": 3986,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/menzerna-m5-precious-metal-super-finish",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "Menzerna M5 Precious Metal Super Finish | CARZILLA",
+      "content_length": 6775,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://msdistributorspr.com/products/m5-super-finishing-paste-compound",
+      "domain": "msdistributorspr.com",
+      "language": "en",
+      "page_title": "M5 Super Finishing Paste Compound",
+      "content_length": 23980,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

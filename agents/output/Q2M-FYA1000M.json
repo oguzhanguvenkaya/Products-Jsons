@@ -1,0 +1,42 @@
+{
+  "sku": "Q2M-FYA1000M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Foam Araç Ön Yıkama Şampuanı Konsantre - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661243",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "Nötr (~7)",
+      "concentrate": true,
+      "dilution_ratio": "1:5 - 1:15",
+      "foam_thickness": "1 cm+",
+      "dwell_time_seconds": 60,
+      "safe_on_ceramic_coatings": true,
+      "consumption_ml_per_car": 50
+    },
+    "content": {
+      "how_to_use": "1. Seyreltme: Köpük yapıcı için 1:5 (kış, ağır kir) veya 1:15 (yaz, hafif kir) oranında karışım hazırlayın.\n2. Uygulama: Aracı gölgede, ıslatmadan tüm yüzeye köpük püskürtün.\n3. Bekleme: 60 saniye kirin çözülmesini bekleyin; kurumasına izin vermeyin.\n4. Durulama: Basınçlı suyla aşağıdan yukarıya, sonra yukarıdan aşağıya yıkayın.\n5. Devam: El yıkamasına geçin veya lokal kirleri hedefleyin.",
+      "when_to_use": "Haftalık bakımda temassız ön yıkama, kışın tuzlu yol filmi çözme, yazın böcek kalıntısı yumuşatma, seramik kaplama bakımında çizik önleme için kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, PPF, wax, cam, plastik trim",
+      "why_this_product": "• 1 cm'ye varan kalın kar köpüğü ile maksimum temas süresi\n• pH nötr formül kaplamaya zarar vermez\n• Tek durulamada kirin büyük kısmı çıkar\n• Fosfat ve NTA içermez, biyolojik olarak parçalanabilir"
+    },
+    "faq": [
+      {"question": "Q²M Foam kaplamayı matlaştırır mı?", "answer": "Hayır, pH nötr yapısı kaplamayı etkilemez; parlaklığı korur."},
+      {"question": "Sert suda köpük performansı düşer mi?", "answer": "Minimum; formül su sertliğinden bağımsız yoğun köpük üretir."},
+      {"question": "Kışın oranı nasıl ayarlamalıyım?", "answer": "Ağır tuz ve çamurda 1:5; yazın hafif tozda 1:15 yeterlidir."},
+      {"question": "Köpüğü 5 dk bekletsem daha iyi temizler mi?", "answer": "Hayır, 1 dk'dan uzun bekletmek kuruma riskini artırır; maksimum 60 sn önerilir."}
+    ],
+    "relations": {"use_before": ["Q2M-BYA1000M"], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-FYA4000M"]}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sku": "GPRO180F",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Rotary Hare/Hologram Giderici Cila Süngeri (Sarı) - 180 mm",
+    "brand": "MG PS",
+    "barcode": "8683492660345",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Finish",
+      "color": "Sarı",
+      "diameter_mm": 180,
+      "base_diameter_mm": 150,
+      "height_mm": 30,
+      "machine_compatibility": ["Rotary"],
+      "cell_structure": "Open Cell",
+      "hardness": "Medium-Soft"
+    },
+    "content": {
+      "how_to_use": "1. Pedi rotary tabanlığa takın.\n2. Hare giderici cila damlatın.\n3. Düşük devirde başlatarak ürünü yüzeye yayın.\n4. Orta devirde çapraz geçişlerle çalışın.\n5. Spot ışıkla kontrol ederek hare kalıp kalmadığını görün.\n6. Kullanım sonrası pedi yıkayın.",
+      "when_to_use": "Polisaj sonrası hare ve hologram gideriminde, son kat parlaklık uygulamalarında, koruyucu ürün öncesi yüzey hazırlığında rotary makine ile kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, tüm boya tipleri",
+      "why_this_product": "• Orta-yumuşak doku ile güvenli parlatma\n• 30mm yükseklik ile uzun ömürlü kullanım\n• Avrupa üretimi yüksek kalite\n• Rotary makinelerin gücünden tam faydalanma"
+    },
+    "faq": [
+      {"question": "Sarı rotary ped ne için kullanılır?", "answer": "Hare ve hologram giderimi ile son kat parlaklık için kullanılır."},
+      {"question": "GRY180F veya RE180F sonrası kullanılmalı mı?", "answer": "Evet, ağır kesim veya orta kesim sonrası son kat olarak kullanılır."},
+      {"question": "GPRO200F'den farkı nedir?", "answer": "GPRO180F 180mm çap ile standart işlerde, GPRO200F 200mm çap ile daha geniş panellerde kullanılır."},
+      {"question": "Hangi cilalarla kullanılır?", "answer": "Final Finish serisi ve hare giderici cilalar ile kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": ["GRY180F", "RE180F"], "use_with": ["22.992.281.001", "22.992.261.001"], "accessories": [], "alternatives": ["GPRO200F", "GPRO160F"]}
+  }
+}

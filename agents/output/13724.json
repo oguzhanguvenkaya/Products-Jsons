@@ -1,0 +1,44 @@
+{
+  "sku": "13724",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml",
+    "brand": "EPOCA",
+    "barcode": "8003916100330",
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_ml": 630,
+      "output_per_spray_ml": 1.3,
+      "nozzle_type": "Ayarlanabilir (sis/jet)",
+      "seal_type": "NBR",
+      "spray_360_degree": true,
+      "graduated_scale": true,
+      "suction_tube_material": "EVA + AISI paslanmaz filtre ucu",
+      "chemical_resistance": ["Su bazlı deterjanlar", "Dezenfektanlar", "Düşük oranlı alkol"],
+      "color": "Beyaz/Beyaz"
+    },
+    "content": {
+      "how_to_use": "1. Kimyasalı üretici reçetesine göre seyreltip şişeye doldurun (skala sayesinde hassasiyet).\n2. Nozulu ayarlayın: ince sis için saat yönü; jet için tersine çevirin.\n3. Şişeyi dikey/yan/ters konumda tutarak hedef yüzeye uygulayın (360° özelliği).\n4. Ürün değiştirirken tetik-hatları suyla kısa flush yapın.\n5. Serin, kuru ve güneş görmeyen ortamda, dik konumda muhafaza edin.",
+      "when_to_use": "Sanitasyon ve dezenfeksiyon, endüstriyel temizlik, tarım ve bahçe, reklam ve signage, otomotiv detay uygulamalarında kullanılır.",
+      "target_surface": "Yüzeyler, ekipmanlar, bitkiler, vitrin/levhalar, araç yüzeyleri",
+      "why_this_product": "• 360° her açıdan kesintisiz püskürtme\n• Sabit 1.3 ml/atış ile tekrarlanabilir doz\n• Mist/jet arası hızlı geçiş\n• Şeffaf, dereceli şişe ile doğru seyreltme"
+    },
+    "faq": [
+      {"question": "360 derece püskürtme nasıl çalışır?", "answer": "Kıvrılabilir EVA emiş hortumu ve AISI paslanmaz ağırlıklı filtre ucu sayesinde şişe ters çevrilse bile püskürtme yapabilirsiniz."},
+      {"question": "NBR conta hangi kimyasallarla uyumlu?", "answer": "Su bazlı deterjanlar, dezenfektanlar ve düşük oranlı alkol (%5'e kadar) ile uyumludur."},
+      {"question": "Hangi kimyasallar önerilmez?", "answer": "Ketonlar (aseton vb.), aromatik hidrokarbonlar, klorlu çözücüler ve aşındırıcı oksitleyiciler NBR contaya zarar verir."},
+      {"question": "1 litre model var mı?", "answer": "Evet, EP01 serisi 1 litre kapasiteli EPDM ve VITON contalı modeller mevcuttur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["12922", "12918"]}
+  }
+}

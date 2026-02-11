@@ -1,0 +1,22 @@
+{
+  "sku": "700482",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Ko Iron Demir Tozu Sökücü Ve Jant Temizleyici - 750 ml", "brand": "FRA-BER", "barcode": "8027486809585", "group": "contaminant_solvers", "sub_type": "wheel_iron_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Demir Tozu / Balata Tozu / Rail Kirleri", "reaction_color": "Mor", "ph_level": "Hafif asidik olmayan", "gel_form": true, "odor": "Kiraz", "acid_free": true, "volume_ml": 750, "dwell_time_min": "2-5"},
+    "content": {
+      "how_to_use": "1. Soğuk yüzey üzerinde çalışın; araç gölgede olmalı.\n2. Şişeyi çalkalayın, yüzeye 15-20 cm mesafeden homojen köpük tabakası sıkın.\n3. 2-5 dakika mor renge dönene kadar bekleyin; kurumasına izin vermeyin.\n4. İnatçı kirde yumuşak fırça ile mekanik destek verin.\n5. Bol su veya yüksek basınçlı suyla tamamen arındırın.",
+      "when_to_use": "Jantlarda fren tozu ve metalik kir temizliği, kaporta ve cam yüzeylerde demir partikül dekontaminasyonu, kil öncesi hazırlık için kullanılır.",
+      "target_surface": "Jant, kaporta, cam, plastik kaplama",
+      "why_this_product": "• Asit içermez - tüm jant tiplerine güvenli\n• Jel köpük tetik - dikey yüzeylerde akmaz\n• Düşük sülfür kokusu + kiraz aroması\n• Morlaşan reaksiyon göstergesi"
+    },
+    "faq": [
+      {"question": "Asitli mi?", "answer": "Hayır, asit içermeyen formülü çelik, alaşım, krom ve cilalı jantlarda güvenlidir."},
+      {"question": "Kokusu nasıl?", "answer": "Düşük sülfür kokulu, kiraz aroması sayesinde atölye içinde konforlu kullanım sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["700210", "Q2M-IWCR500M"]}
+  }
+}

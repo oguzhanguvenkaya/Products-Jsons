@@ -1,0 +1,39 @@
+{
+  "sku": "700743",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Kimyasala Dayanıklı Basınçlı Pompa - 2 lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486811618",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 2.0,
+      "chemical_resistance": ["Alkaliler", "Alkoller", "Aseton"],
+      "application_area": "Gıda işletmeleri, dezenfeksiyon",
+      "weight_net_kg": null
+    },
+    "content": {
+      "how_to_use": "1. Alkali veya alkol bazlı kimyasalı hazneye doldurun.\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın.\n3. Nozulu ihtiyaca göre ayarlayın.\n4. Yüzeye eşit şekilde köpük veya sıvı uygulayın.\n5. Kullanım sonrası hazneyi temiz su ile durulayın.",
+      "when_to_use": "Gıda işleme tesislerinde temizlik ve dezenfeksiyon işlemlerinde, hayvansal/bitkisel/mineral yağ temizliğinde, protein ve kan kalıntısı gideriminde kullanılır.",
+      "target_surface": "Gıda işleme ekipmanları, mutfak yüzeyleri, endüstriyel alanlar",
+      "why_this_product": "• Alkali, alkol ve aseton uyumluluğu\n• Gıda işletmeleri için tasarlanmış\n• 2 litre kapasite\n• İtalyan FRA-BER kalitesi"
+    },
+    "faq": [
+      {"question": "Gıda endüstrisinde güvenle kullanılabilir mi?", "answer": "Evet, gıda işleme tesislerinde temizlik ve dezenfeksiyon için özel olarak tasarlanmıştır."},
+      {"question": "Hangi kimyasallarla uyumlu?", "answer": "Alkali, alkol ve aseton bazlı maddelerle uyumludur. Hayvansal yağlar, mineral yağlar, proteinler ve kan kalıntıları için idealdir."},
+      {"question": "Köpük yapıcı mı?", "answer": "Köpük püskürtücü olarak kullanılabilir, alkali bazlı köpük yapıcı kimyasallarla uyumludur."},
+      {"question": "Asitlerle kullanılabilir mi?", "answer": "Asitler için özel modeller önerilir. Bu ürün alkali ve alkol dayanımlıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81676", "18810"]}
+  }
+}

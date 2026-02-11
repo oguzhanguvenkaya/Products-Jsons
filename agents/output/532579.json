@@ -1,0 +1,45 @@
+{
+  "sku": "532579",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX HG 650 Profesyonel Sıcak Hava Tabancası 2000W - LCD Ekran Değişken Isı Hız Ayarlı",
+    "brand": "FLEX",
+    "barcode": "4030293264199",
+    "group": "polisher_machine",
+    "sub_type": "heat_gun"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "heat_gun",
+      "power_source": "Corded",
+      "power_watt": 2000,
+      "voltage": 230,
+      "temperature_range_c": "50-650",
+      "temperature_step_c": 10,
+      "airflow_l_min": "250-500",
+      "airflow_levels": 2,
+      "cable_length_m": 4,
+      "weight_g": 700,
+      "features": ["LCD ekran", "Sabit sıcaklık teknolojisi", "4 nozul dahil", "Koruyucu tutamak"]
+    },
+    "content": {
+      "how_to_use": "1. Uygun nozulu takın (düz, reflektörlü veya redüktörlü).\n2. LCD ekrandan istenen sıcaklığı ayarlayın (50-650°C).\n3. Hava akış hızını seçin (250 veya 500 l/dk).\n4. Isınmasını bekleyin ve yüzeye tutun.\n5. Boya/film sökerken yavaş hareketlerle ilerleyin.\n6. Kullanım sonrası soğumasını bekleyerek saklayın.",
+      "when_to_use": "PPF ve cam filmi sökme/uygulama, boya ve vernik sökümü, yapışkan temizleme, plastik şekillendirme, lehimleme ve sıkışmış parça gevşetme işlemlerinde kullanılır.",
+      "target_surface": "PPF film, cam filmi, boya, yapışkan, plastik, metal bağlantılar",
+      "why_this_product": "• 2000W güçlü ısıtma\n• LCD ekranlı hassas sıcaklık kontrolü\n• 50-650°C geniş ısı aralığı\n• 4 farklı nozul dahil"
+    },
+    "faq": [
+      {"question": "PPF sökümünde hangi sıcaklık kullanılır?", "answer": "PPF sökümünde genellikle 80-120°C arası düşük sıcaklık kullanılır. Yüksek sıcaklık boyaya zarar verebilir."},
+      {"question": "Ne kadar sürede ısınır?", "answer": "Hızlı ısınma özelliği sayesinde saniyeler içinde kullanıma hazır hale gelir."},
+      {"question": "Nozullar nasıl değiştirilir?", "answer": "Cihaz soğukken nozul vidalanarak veya geçmeli olarak takılır/çıkarılır. 4 farklı nozul kutu içeriğinde dahildir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

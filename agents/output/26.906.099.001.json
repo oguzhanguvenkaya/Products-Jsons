@@ -1,0 +1,40 @@
+{
+  "sku": "26.906.099.001",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA Krater Kuzu Yünü Polisaj Keçesi 230mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "wool_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Heavy Cut",
+      "material": "Kuzu Yünü",
+      "diameter_mm": 230,
+      "machine_compatibility": ["Rotary"],
+      "design": "Krater/Petek"
+    },
+    "content": {
+      "how_to_use": "1. Keçeyi 230mm rotary tabanlığa takın.\n2. Heavy Cut pasta ile yüzeye az miktarda ürün damlatın.\n3. Düşük devirde başlayarak ürünü yüzeye yayın.\n4. Devri artırarak geniş panellerde çapraz geçişlerle çalışın.\n5. Krater yapı sayesinde ısı kontrolü sağlanır.\n6. Fırça ile düzenli temizleyin.",
+      "when_to_use": "Geniş panellerde ağır boya restorasyonunda, profesyonel atölye kullanımında, zımpara sonrası düzeltme ve derin çizik gideriminde kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, geniş düz paneller",
+      "why_this_product": "• 230mm geniş çap ile hızlı alan kaplama\n• Krater/petek yapı ile ısı kontrolü\n• Kuzu yünü ile maksimum kesim gücü\n• Rotary makineler için profesyonel çözüm"
+    },
+    "faq": [
+      {"question": "Krater yapı ne avantaj sağlar?", "answer": "Krater/petek yapı, polisaj sırasında ısının dağılmasını sağlayarak yüzeyin aşırı ısınmasını önler."},
+      {"question": "Bu keçe hangi makinelerle kullanılır?", "answer": "230mm çapı ile profesyonel rotary polisaj makinelerinde kullanılır."},
+      {"question": "Geniş panellerde avantajı nedir?", "answer": "Büyük çapı sayesinde kaput, tavan gibi geniş panellerde hızlı çalışma imkanı sunar."},
+      {"question": "Hangi pastalarla kullanılır?", "answer": "Heavy Cut serisi pastalarla en iyi performansı verir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["22.746.281.001", "22.200.281.001"], "accessories": [], "alternatives": ["26.915.099.001"]}
+  }
+}

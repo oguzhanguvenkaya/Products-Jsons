@@ -1,0 +1,59 @@
+{
+  "sku": "Q2M-SPE",
+  "product_name": "GYEON Q2M Scrubpad Evo Deri ve Plastikler İçin Çift Taraflı Temizlik Aplikatörü",
+  "barcode": "Q2M-SPE",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:22:46.322Z",
+  "sources": [
+    {
+      "url": "https://autolab.bg/en/product/4420/gyeon-q2m-scrubpad-evo.html",
+      "domain": "autolab.bg",
+      "language": "en",
+      "page_title": "GYEON Q2M ScrubPad EVO",
+      "content_length": 12967,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.ahifi.com/cleaning-applicator-gyeon-q2m-scrubpad-evo-8-x10-cm.html",
+      "domain": "ahifi.com",
+      "language": "en",
+      "page_title": "Cleaning applicator Gyeon Q2M ScrubPad EVO (8 x10 cm) - Ahifi.store",
+      "content_length": 7545,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-scrub-pad-evo",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Scrub Pad EVO | CARZILLA",
+      "content_length": 7133,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-scrub-pad-evo",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON - Q²M ScrubPad EVO",
+      "content_length": 32279,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

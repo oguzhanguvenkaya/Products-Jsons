@@ -1,0 +1,29 @@
+{
+  "sku": "7.001.056.001",
+  "last_updated": "2026-02-04T15:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Menzerna 439T Kesici Katı Cila Yeşil Paslanmaz Çelik Alüminyum Pirinç Parlatıcı – 1100 Gr",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "industrial_products",
+    "sub_type": "interior_detailer"
+  },
+  "notes": {"sub_type_review": "Template'de 'interior_detailer' olarak işaretli. Doğrusu 'solid_compound' veya 'metal_polish' olmalı."},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:00:00Z",
+    "template_fields": {"type": "Kesici Katı Cila", "color": "Yeşil", "weight": "1100 gr", "target_material": ["Paslanmaz çelik", "Alüminyum", "Pirinç"], "abrasiveness": "Ağır"},
+    "content": {
+      "how_to_use": "1. Parlatma keçesi veya fırçayı hazırlayın.\n2. Katı cilayı dönen yüzeye sürün.\n3. Metal parçayı orta-yüksek basınçla parlatın.\n4. Derin çizikler ve oksidasyon giderilene kadar devam edin.",
+      "when_to_use": "Paslanmaz çelik, alüminyum ve pirinç yüzeylerde derin çizik, oksidasyon ve zımpara izlerini gidermek için kullanılır.",
+      "target_surface": "Paslanmaz çelik, alüminyum, pirinç, metal yüzeyler",
+      "why_this_product": "• Geniş uygulama yelpazesi - çoklu metal uyumu\n• Ağır kesicilik - derin çizikleri giderir\n• Portakal kabuğu görünümünü ortadan kaldırır\n• Fırçaya kolay sarılır"
+    },
+    "faq": [
+      {"question": "Paslanmaz çelikte güvenli mi?", "answer": "Evet, paslanmaz çelik için özel olarak formüle edilmiştir."},
+      {"question": "Hangi kusurları giderir?", "answer": "Derin çizikler, dairesel izler, portakal kabuğu görünümü, oksidasyon ve zımpara izleri."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

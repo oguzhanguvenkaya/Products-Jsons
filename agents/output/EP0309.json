@@ -1,0 +1,44 @@
+{
+  "sku": "EP0309",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Little Pup Tatlı Araç Kokusu (Sweet Snuggles)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843591",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Tatlı Şeftali",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 13.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "3D Yavru Köpek Figürü (Pembe)",
+      "collection": "Little Pup"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Evcil hayvan sahipleri ve tatlı bir atmosfer yaratmak isteyenler için idealdir. Şeftali ve meyve notalarının sıcak kokusu.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Sevimli pembe yavru köpek figürü\n• Tatlı şeftali ve meyve aroması\n• 45 güne kadar kalıcı etki\n• Evcil hayvanlar için de güvenli"
+    },
+    "faq": [
+      {"question": "Little Pup serisi nedir?", "answer": "Evcil hayvan sahiplerine özel, sevimli yavru köpek figürü tasarımına sahip araç kokusu serisi."},
+      {"question": "Sweet Snuggles kokusu nasıl?", "answer": "Tatlı şeftali ve taze meyve notalarının sıcak ve keyifli birleşimi."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Evcil hayvanlar için güvenli mi?", "answer": "Evet, alkol ve toksik madde içermeyen formülüyle hem insanlar hem evcil hayvanlar için güvenlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EP0101", "EP2754", "EP2455"]}
+  }
+}

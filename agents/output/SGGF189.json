@@ -1,0 +1,52 @@
+{
+  "sku": "SGGF189",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Rotary Yüksek Torklu Polisaj Makinesi 75mm 710W",
+    "brand": "SGCB",
+    "barcode": "6973086162297",
+    "group": "polisher_machine",
+    "sub_type": "corded_rotary_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 710,
+      "voltage": 220,
+      "backing_plate_supported_mm": [75],
+      "speed_range_rpm": "800-2700",
+      "speed_levels": 6,
+      "spindle_thread": "M14",
+      "weight_kg": 2.4,
+      "cable_length_m": 3,
+      "features": ["Kompakt tasarım", "Çift dişli redüktör", "Spot onarım için ideal", "Titreşim önleme"]
+    },
+    "content": {
+      "how_to_use": "1. 75mm tabanlık ve küçük ped takın.\n2. Spot onarım yapılacak bölgeyi belirleyin.\n3. 6 kademeli hız kadranından uygun devir seçin.\n4. Az miktarda pasta uygulayarak küçük alanda çalışın.\n5. Çizik veya kusur giderildikten sonra çevresini blend edin.\n6. Mikrofiber bezle temizleyin.",
+      "when_to_use": "Spot onarımlar, dar ve ulaşılması zor alanlar, küçük panel düzeltmeleri, ayna kapakları ve köşe detayları için kullanılır.",
+      "target_surface": "Araç boyası - dar alanlar, ayna kapakları, kapı köşeleri, tampon detayları",
+      "why_this_product": "• 75mm kompakt tabanlık - dar alanlara erişim\n• 710W güç - küçük ama etkili\n• Çift dişli redüktör - düşük devirde yüksek tork\n• Spot onarımlar için ideal boyut"
+    },
+    "faq": [
+      {"question": "150mm model yerine ne zaman tercih edilmeli?", "answer": "Ayna kapakları, kapı köşeleri, tampon kenarları gibi dar alanlarda ve spot çizik onarımlarında 75mm model tercih edilmelidir."},
+      {"question": "Büyük panellerde kullanılabilir mi?", "answer": "Teknik olarak mümkün olsa da verimsizdir. Büyük paneller için 125mm veya 150mm tabanlıklı makineler önerilir."},
+      {"question": "Hangi pedler uyumludur?", "answer": "75mm (3 inç) çapında M14 dişli tabanlık ve buna uygun küçük polisaj pedleri kullanılır."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": ["SGGF181-57", "22746.281.001"],
+      "accessories": ["SGGF181-57"],
+      "alternatives": []
+    }
+  }
+}

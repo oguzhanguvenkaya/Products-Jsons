@@ -1,0 +1,40 @@
+{
+  "sku": "516112",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX FS 140 Set PXE 80 İçin Esnek Uzatma Aparatı Seti",
+    "brand": "FLEX",
+    "barcode": "4030293236370",
+    "group": "polisher_machine",
+    "sub_type": "polisher_accessory"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "accessory_type": "extension_shaft",
+      "compatible_machine": "PXE 80",
+      "shaft_length_cm": 140,
+      "max_speed_rpm": 6000,
+      "kit_contents": ["Esnek uzatma mili", "12x Konik sünger (3 sertlik)", "12x Silindirik sünger (3 sertlik)", "L-BOXX çanta"],
+      "features": ["Aparatsız montaj", "Hızlı değişim sistemi", "140cm esneklik"]
+    },
+    "content": {
+      "how_to_use": "1. PXE 80 makineye aparatsız olarak takın.\n2. Konik veya silindirik süngeri ucuna yerleştirin.\n3. Dar alana veya ulaşılması zor bölgeye yönlendirin.\n4. Makineyi çalıştırarak polisaj yapın.\n5. Sünger değişimi için uç tutucuyu kullanın.",
+      "when_to_use": "Ulaşılması zor alanlar, dar köşeler, motor bölmesi, jant arkaları ve detay polisaj işlemleri için PXE 80 ile birlikte kullanılır.",
+      "target_surface": "Araç boyası - dar ve ulaşılması zor alanlar",
+      "why_this_product": "• 140cm esnek mil - maksimum erişim\n• Aparatsız montaj - hızlı kurulum\n• 24 adet sünger dahil\n• PXE 80 ile mükemmel uyum"
+    },
+    "faq": [
+      {"question": "Başka makinelerle kullanılabilir mi?", "answer": "Hayır, bu aparat sadece FLEX PXE 80 nano polisaj makinesi için tasarlanmıştır."},
+      {"question": "Konik ve silindirik sünger farkı nedir?", "answer": "Konik süngerler dar köşeler ve V şekilli alanlara, silindirik süngerler düz dar yüzeylere uygundur."},
+      {"question": "Maksimum hız ne kadar?", "answer": "Esnek mil 6000 rpm'e kadar güvenle çalışabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["418102"], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sku": "PU140F-C",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Orbital Ekstra Hare/Hologram Giderici Thinline Sünger (Mor) - 140mm",
+    "brand": "MG PS",
+    "barcode": "8683492660581",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Ultra Finish",
+      "color": "Mor",
+      "diameter_mm": 140,
+      "base_diameter_mm": 130,
+      "features": "Thinline (İnce yapı)",
+      "machine_compatibility": ["Orbital"],
+      "cell_structure": "Open Cell",
+      "hardness": "Medium-Hard"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 130mm orbital tabanlığa takın.\n2. Ultra hare giderici cila damlatın.\n3. Düşük devirde başlatarak ürünü yüzeye yayın.\n4. Hafif basınçla çapraz geçişlerle çalışın.\n5. Spot ışıkla kontrol ederek hare kalıp kalmadığını görün.\n6. Kullanım sonrası pedi yıkayın.",
+      "when_to_use": "Polisaj sonrası ultra ince hare ve hologram gideriminde, showroom parlaklığı gerektiren son kat uygulamalarında, koyu renkli araçlarda hassas parlatmada kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, koyu renkli boyalar, hassas yüzeyler",
+      "why_this_product": "• İnce yapı (Thinline) ile hassas kontrol\n• Performansı artırılmış ultra hare giderici formül\n• Açık gözenekli yapı ile homojen ürün dağılımı\n• Kompakt boyut ile detay çalışmalarına uygun"
+    },
+    "faq": [
+      {"question": "Thinline ne anlama geliyor?", "answer": "Thinline, sünger kalınlığının inceltildiği anlamına gelir. Bu sayede daha hassas kontrol ve detay çalışması yapılabilir."},
+      {"question": "PU150F-C'den farkı nedir?", "answer": "PU140F-C daha ince yapıya sahiptir ve daha kompakt alanlarda çalışmak için idealdir."},
+      {"question": "Koyu renkli araçlarda kullanılır mı?", "answer": "Evet, özellikle koyu renkli araçlarda görülen mikro çizikleri ve hareyi tamamen gidermek için tasarlanmıştır."},
+      {"question": "Hangi cilalarla kullanılır?", "answer": "Final Finish serisi ve ultra hare giderici cilalar ile kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": ["GRY150F-C", "RE150F-C", "GPRO150F-C"], "use_with": ["22.992.281.001"], "accessories": [], "alternatives": ["PU150F-C"]}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sku": "81774",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK HC 1,5 Solvent ve Petrol Türevi Kimyasal Dayanımlı Basınçlı Pompa 1.5 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685101747",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_liters": 1.5,
+      "usable_capacity_liters": 1.0,
+      "chemical_resistance": ["Solvent", "Petroleum", "Oil", "pH Neutral"],
+      "pressure_bar": 2.5,
+      "flow_rate": "0.50 l/dk",
+      "nozzle_type": "Ayarlanabilir Universal",
+      "weight_g": 460,
+      "made_in": "İspanya"
+    },
+    "content": {
+      "how_to_use": "1. Geniş ağızdan kimyasalı doldurun (max 1L).\n2. Kapağı sıkıca kapatın ve basınç pompasını çalıştırın.\n3. 2.5 bar basınca ulaştığında emniyet valfi devreye girer.\n4. Nozulu ayarlayın ve püskürtmeye başlayın.\n5. İşlem bittiğinde basınç düşürme valfini kullanın.",
+      "when_to_use": "Fren/balata temizliği, zift/katran lekesi çıkarma, silikon sökme, yağ giderme, yağlama işlemleri ve endüstriyel kaplama uygulamaları için idealdir.",
+      "target_surface": "Metal yüzeyler, araç parçaları, endüstriyel ekipman, ahşap/mobilya",
+      "why_this_product": "• Solvent ve petrol türevi kimyasallara maksimum dayanım\n• 2.5 bar basınç kapasitesi\n• Emniyet valfli güvenli kullanım\n• Kolay dolum için geniş ağız"
+    },
+    "faq": [
+      {"question": "HC serisi ne anlama geliyor?", "answer": "HC (Heavy Chemical) serisi solvent, yağ ve petrol türevi ağır kimyasallara dayanıklı özel malzemelerle üretilmiştir."},
+      {"question": "Hangi kimyasallarla kullanılabilir?", "answer": "Solvent bazlı ürünler, yağlar, petrol yan ürünleri ve pH nötr ürünlerle tam uyumludur."},
+      {"question": "Alkali temizleyicilerle kullanılabilir mi?", "answer": "Hayır, alkali ve ketonlar ile kullanımı önerilmez. MULTI serisi tercih edilmelidir."},
+      {"question": "Kaç litre doldurabilirim?", "answer": "Toplam kapasite 1.5L, kullanılabilir kapasite 1L'dir (basınç için boşluk gerekir)."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

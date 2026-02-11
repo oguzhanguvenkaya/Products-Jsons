@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-IWCR4000M",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Iron Wheel Cleaner REDEFINED Jant Temizleyici Demir Tozu Balata Tozu Çözücü - 4000 ml", "brand": "GYEON", "barcode": "8683492661311", "group": "contaminant_solvers", "sub_type": "wheel_iron_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Demir Tozu / Balata Tozu / Jant Kiri", "ph_level": "Nötr (pH 7)", "gel_form": true, "odor": "Muz", "dwell_time_min": "1-2", "consumption_ml_per_car": 100, "working_temp_c": "5-25", "volume_ml": 4000},
+    "content": {
+      "how_to_use": "1. Jantların soğuk ve önceden durulanmış olduğundan emin olun.\n2. Jant ve fren kaliperine bolca sıkın.\n3. 1-2 dakika formülün kirleri çözmesini bekleyin.\n4. Ağır kir için WheelBrush veya WheelMitt ile nazikçe fırçalayın.\n5. Yüksek basınçlı suyla tam durulayın.",
+      "when_to_use": "Profesyonel detay stüdyoları, yıkamacılar ve endüstriyel bakım için ekonomik 4 litrelik paket.",
+      "target_surface": "Alaşım jant, çelik jant, kaplamalı jant, fren kaliperi",
+      "why_this_product": "• 4 litrelik profesyonel ambalaj - yaklaşık 40 araç için yeterli\n• Jel formül - akmaz\n• pH nötr - tüm jant kaplamalarında güvenli\n• Hoş muz kokusu"
+    },
+    "faq": [
+      {"question": "Kaç araç için yeterli?", "answer": "100 ml/araç tüketimle yaklaşık 40 araç için yeterlidir."},
+      {"question": "Bidondan sprey şişeye nasıl aktarılır?", "answer": "Küçük porsiyonlar halinde 500 ml veya 1000 ml sprey şişelere aktararak kullanabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-IWCR500M", "Q2M-IWCR1000M"]}
+  }
+}

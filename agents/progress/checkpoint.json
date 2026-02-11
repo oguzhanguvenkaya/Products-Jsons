@@ -1,0 +1,85 @@
+{
+  "last_updated": "2026-02-05T12:00:00Z",
+  "session_id": "batch_22_spray_bottles_complete",
+  "status": "in_progress",
+
+  "statistics": {
+    "total_products": 622,
+    "total_categories": 23,
+    "products_with_urls": 274,
+    "processed": 523,
+    "failed": 0,
+    "skipped": 0,
+    "pending": 99
+  },
+
+  "phase_status": {
+    "data_analysis": "completed",
+    "url_scraping": "pilot_completed",
+    "enrichment": "in_progress",
+    "relations": "not_started",
+    "validation": "not_started"
+  },
+
+  "category_progress": {
+    "abrasive_polishes": {"total": 40, "processed": 40, "status": "completed"},
+    "product_sets": {"total": 2, "processed": 2, "status": "completed"},
+    "marin_products": {"total": 5, "processed": 5, "status": "completed"},
+    "leather_care": {"total": 6, "processed": 6, "status": "completed"},
+    "clay_products": {"total": 7, "processed": 7, "status": "completed"},
+    "glass_cleaner": {"total": 7, "processed": 7, "status": "completed"},
+    "masking_tapes": {"total": 7, "processed": 7, "status": "completed"},
+    "brushes": {"total": 8, "processed": 8, "status": "completed"},
+    "industrial_products": {"total": 11, "processed": 11, "status": "completed"},
+    "applicators": {"total": 14, "processed": 14, "status": "completed"},
+    "ppf_tools": {"total": 15, "processed": 15, "status": "completed"},
+    "storage_accessories": {"total": 19, "processed": 19, "status": "completed"},
+    "products_contaminant_solvers": {"total": 29, "processed": 29, "status": "completed"},
+    "microfiber": {"total": 31, "processed": 31, "status": "completed"},
+    "products_spare_part": {"total": 32, "processed": 32, "status": "completed"},
+    "products_paint_protection": {"total": 34, "processed": 34, "status": "completed"},
+    "products_polisher_machine": {"total": 34, "processed": 34, "status": "completed"},
+    "ceramic_coatings": {"total": 35, "processed": 35, "status": "completed"},
+    "car_shampoo": {"total": 41, "processed": 41, "status": "completed"},
+    "polishing_pad": {"total": 43, "processed": 43, "status": "completed"},
+    "interior_cleaner": {"total": 53, "processed": 47, "status": "completed"},
+    "sprayers_bottles": {"total": 56, "processed": 56, "status": "completed"}
+  },
+
+  "completed_categories": [
+    "abrasive_polishes",
+    "product_sets",
+    "marin_products",
+    "leather_care",
+    "clay_products",
+    "glass_cleaner",
+    "masking_tapes",
+    "brushes",
+    "industrial_products",
+    "applicators",
+    "ppf_tools",
+    "storage_accessories",
+    "products_contaminant_solvers",
+    "microfiber",
+    "products_spare_part",
+    "products_paint_protection",
+    "products_polisher_machine",
+    "ceramic_coatings",
+    "car_shampoo",
+    "polishing_pad",
+    "interior_cleaner",
+    "sprayers_bottles"
+  ],
+
+  "next_category": "fragrance",
+
+  "summary": {
+    "total_enriched_files": 523,
+    "categories_completed": 22,
+    "categories_remaining": 1,
+    "sub_type_issues_flagged": 38,
+    "notes": "22 kategori tamamlandı. sprayers_bottles kategorisi tamamlandı: pump_sprayer, foaming_pump_sprayer, trigger_sprayer, dispenser_bottle sub_type'ları. IK SPRAYERS, EPOCA, FRA-BER, SGCB, GYEON markaları işlendi. VITON (asit), EPDM (alkali/alkol), NBR (su bazlı) conta tipleri ayrıştırıldı. Son kategori: fragrance (93 ürün)."
+  },
+
+  "last_error": null
+}

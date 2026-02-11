@@ -1,0 +1,23 @@
+{
+  "sku": "MGPS-6031B-P",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MG PS Mikrofiber El Kil Pedi 12x9 cm (Kırmızı) - Süngerli Clay Pad Sponge Block", "brand": "MG PS", "barcode": "8683492661700", "group": "microfiber", "sub_type": "microfiber_cloth"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "12x9x3 cm", "color": "Kırmızı (kil) / Siyah (mikrofiber)", "material": "İnce-grade kauçuk-polimer kil + 320 GSM mikrofiber", "body": "Yoğun hücreli PU sünger", "durability": "40-50 araç"},
+    "content": {
+      "how_to_use": "1. Aracı pH-nötr şampuanla yıkayıp durulayın.\n2. GYEON Q²M Clay Lube'u 1:25 oranında sulandırıp paneli ıslatın.\n3. Kil yüzeyini hafif baskıyla ileri-geri ve çapraz hareketlerle gezdirin.\n4. Yüzey pürüzsüzleşince mikrofiber tarafla fazla kaydırıcıyı silin.\n5. Pedi nötr pH şampuanla yıkayın ve havadar ortamda kurutun.",
+      "when_to_use": "Polisaj, wax veya seramik kaplama öncesi yüzey hazırlığı, reçine/yol kiri/metal tozu temizliği ve PPF/seramik kaplama öncesi dekontaminasyon için kullanılır.",
+      "target_surface": "Boyalı sac, vernik, cam, krom, pürüzsüz plastik",
+      "why_this_product": "• Çift yüzlü tasarım - kil + mikrofiber\n• 12×9 cm geniş çalışma alanı\n• Ergonomik sünger çekirdek - avuç içi uyumlu\n• Yıkanabilir - 40-50 araç dayanım"
+    },
+    "faq": [
+      {"question": "Boyaya zarar verir mi?", "answer": "Hayır, doğru kaydırıcıyla kullanıldığında mikro çizik oluşturmaz, vernik için güvenlidir."},
+      {"question": "Kaç kez kullanabilirim?", "answer": "Bakımla ortalama 40-50 araç detayına kadar dayanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-CLR500M"], "accessories": [], "alternatives": []},
+    "notes": {"sub_type_review": "Bu ürün 'microfiber_cloth' olarak kategorize edilmiş ancak aslında bir kil pedi (clay pad). 'clay_products' kategorisine ait olabilir."}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-WD4040C",
+  "product_name": "Gyeon Q²m Waffle Dryer Petek Dokulu Cam Silme Bezi ve Yüzey Kurulama Havlusu - 40X40 cm",
+  "barcode": "Q2M-WD4040C",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:21:54.999Z",
+  "sources": [
+    {
+      "url": "https://www.carclean.com/en/gyeon-q2m-waffle-dryer-evo-40x40-cm.html",
+      "domain": "carclean.com",
+      "language": "en",
+      "page_title": "GYEON Q²M Waffle Dryer EVO 40x40 cm – High-quality, lint-free drying",
+      "content_length": 9283,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.de/GYEON-QM-WaffleDryer",
+      "domain": "gyeon.de",
+      "language": "en",
+      "page_title": "GYEON Q²M WaffleDryer - Gyeon.de | Buy Premium Car Care Products &amp; Ce",
+      "content_length": 10980,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://autojoy.shop/products/gy-q2m-waffledryer-evo",
+      "domain": "autojoy.shop",
+      "language": "en",
+      "page_title": "GYEON Q²M WaffleDryer EVO 40x40cm | Autojoy detailing store &ndash; Autojoy Baltic",
+      "content_length": 15350,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

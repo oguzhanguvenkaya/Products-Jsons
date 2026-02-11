@@ -1,0 +1,41 @@
+{
+  "sku": "70778",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bersolux Cilalı Köpüklü Manuel Araç Yıkama Şampuanı - 1000 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486810604",
+    "group": "car_shampoo",
+    "sub_type": "ph_neutral_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "6.1 (Nötr)",
+      "wax_content": true,
+      "hydrophobic": true,
+      "dilution_ratio": "1:50",
+      "foam_level": "high",
+      "consumption_ml_per_liter": "20-40"
+    },
+    "content": {
+      "how_to_use": "1. Bir kovaya 1 litre suya karşılık 20-40 ml Bersolux dökün (yaklaşık 3-6 kapak).\n2. Karışımı homojen hale getirmek için karıştırın.\n3. Temiz bir sünger, eldiven veya fırça ile araca yukarıdan aşağıya doğru uygulayın.\n4. Bol su ile durulayın ve aracı kurulayın.",
+      "when_to_use": "Manuel araç yıkamalarında, çift kova yöntemiyle detaylı temizlikte, parlaklık ve su iticilik etkisi istenen yıkamalarda kullanılır.",
+      "target_surface": "Mat, parlak, metalik veya PPF kaplı tüm araç boyaları",
+      "why_this_product": "• pH nötr yapı (6.1) tüm yüzeylere uygun\n• Wax katkısı ile parlaklık ve dolgu etkisi\n• Kaygan ve yoğun köpük çizik riskini azaltır\n• Konsantre formül - 1 L ile 50 L çözelti"
+    },
+    "faq": [
+      {"question": "Mat boyalarda kullanabilir miyim?", "answer": "Evet, pH nötr yapısı mat, parlak, metalik veya PPF kaplı yüzeylere uygundur."},
+      {"question": "Sıcak yüzeylerde kullanabilir miyim?", "answer": "Hayır, güneş altında veya ısınmış yüzeylere uygulamayın, ürünü yüzeyde kurutmayın."},
+      {"question": "Köpük tabancasında kullanılabilir mi?", "answer": "Evet, 1:24 - 1:49 oranında seyreltilerek köpüklü pompa veya sprey ile de uygulanabilir."},
+      {"question": "Su iticilik etkisi ne kadar sürer?", "answer": "Wax katkısı sayesinde yıkama sonrası geçici su iticilik sağlar, kalıcı koruma için ayrı kaplama önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["70616"]}
+  }
+}

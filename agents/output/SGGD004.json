@@ -1,0 +1,40 @@
+{
+  "sku": "SGGD004",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Araç Yıkama Süngeri 20cm (Siyah) – Yüksek Su Emici Dayanıklı Oto Temizlik Sünger",
+    "brand": "SGCB",
+    "barcode": "6973086162440",
+    "group": "wash_accessories",
+    "sub_type": "wash_sponge"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Araç Yıkama Süngeri",
+      "material": "Poliüretan köpük",
+      "dimensions": "200 x 125 x 45 mm",
+      "color": "Siyah",
+      "scratch_safe": true
+    },
+    "content": {
+      "how_to_use": "1. Süngeri bol su ve şampuan ile ıslatın.\n2. Aracınızı üstten aşağıya doğru yıkamaya başlayın.\n3. Kirli bölgelerde süngeri sık sık durulayın.\n4. Kullanım sırasında bezleri sık sık kontrol edin - kir birikimini önleyin.\n5. Yıkama sonrası süngeri temiz suyla durulayıp serin yerde kurutun.",
+      "when_to_use": "Araç dış yüzeylerinin köpüklü yıkaması için kullanın. Geniş yüzeyi sayesinde hızlı ve verimli temizlik sağlar.",
+      "target_surface": "Otomobil, SUV, kamyon, motosiklet, bisiklet, tekne dış yüzeyleri",
+      "why_this_product": "• Yüksek su ve şampuan emici özellik\n• Çizmeden güvenli temizlik\n• Dayanıklı poliüretan köpük yapısı\n• Geniş yüzey - hızlı temizlik\n• Ergonomik tutma kolaylığı"
+    },
+    "faq": [
+      {"question": "Boyaya zarar verir mi?", "answer": "Hayır, yumuşak yapısı sayesinde çizmeden güvenli temizlik sağlar."},
+      {"question": "Sünger formunu korur mu?", "answer": "Evet, sıkıldığında anında eski formuna döner, esneklik ve direnç açısından yüksek performans sunar."},
+      {"question": "Hangi araçlarda kullanılabilir?", "answer": "Otomobiller, SUV'ler, kamyonlar, motosikletler, bisikletler ve tekneler dahil tüm araç tiplerine uygundur."},
+      {"question": "Nasıl temizlenir?", "answer": "Kullanım sonrası temiz suyla iyice durulayın ve serin yerde kurutun."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

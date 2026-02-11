@@ -1,0 +1,23 @@
+{
+  "sku": "74062",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Nanotech Hızlı Cila Vişne Kokulu (1:100) - 1000 ml", "brand": "FRA-BER", "barcode": "8027486816781", "group": "paint_protection_quick", "sub_type": "rinse_wax_concentrate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"concentrate": true, "dilution_ratio": "1:100", "scent": "Vişne", "features": ["Nanoteknoloji", "Hızlı kuruma", "Su itici etki", "İpeksi dokunuş"]},
+    "content": {
+      "how_to_use": "1. 1 litre suya 10-20 ml Nanotech ürünü ekleyin.\n2. Elde edilen solüsyonu temiz ve ıslak yüzeye sprey şişe veya basınçlı pompa ile uygulayın.\n3. Uygulama sonrası birkaç saniye bekleyin.\n4. Bol su ile durulayın ve ardından kurulayın.",
+      "when_to_use": "Araç yıkama sonrası hızlı ve lekesiz kurutma sağlamak için, tek adımda koruma ve parlaklık etkisi için, yoğun araç yıkama operasyonlarında zaman tasarrufu için kullanılır.",
+      "target_surface": "Araç boyası, tüm dış yüzeyler",
+      "why_this_product": "• Nanoteknoloji ile seramik benzeri su itici tabaka\n• 1:100 konsantre formül - ekonomik kullanım\n• Hızlı kuruma ve parlaklık\n• Hoş vişne kokusu"
+    },
+    "faq": [
+      {"question": "Ne kadar seyreltilmelidir?", "answer": "Standart kullanımda 1:100 oranında (10-20 ml ürün / 1 litre su) seyreltilir."},
+      {"question": "Köpük tabancası ile kullanılabilir mi?", "answer": "Evet, köpük tabancası için 1:3'e kadar konsantre kullanılabilir (gerçek seyreltme 1:15-1:60 arası)."},
+      {"question": "Yüzey kuru olmalı mı?", "answer": "Hayır, ürün ıslak yüzeye uygulanır ve ardından durlanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["71331", "70545"]}
+  }
+}

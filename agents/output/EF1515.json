@@ -1,0 +1,43 @@
+{
+  "sku": "EF1515",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Kötü Koku Giderici Araç Kokusu (Odour Neutraliser)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186841719",
+    "group": "fragrance",
+    "sub_type": "odor_eliminator"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Koku Nötralize Edici",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Standard (Vent Clip)"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Aracınızın klima peteğine klips yardımıyla takın.\n3. Ürün kötü kokuları maskelemek yerine tamamen nötralize eder.\n4. Klima açıkken daha etkili çalışır.\n5. Etkisi azaldığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Kötü kokuları kalıcı olarak gidermek isteyenler için idealdir. Sigara, yemek, küf ve diğer istenmeyen kokuları tamamen nötralize eder.",
+      "target_surface": "Araç klima peteği",
+      "why_this_product": "• Kokuları maskelemez, tamamen nötralize eder\n• 45 güne kadar kalıcı etki\n• Eğlenceli Little Joe figür tasarımı\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Koku giderici nasıl çalışır?", "answer": "Kötü kokuları maskelemek yerine moleküler düzeyde nötralize ederek tamamen ortadan kaldırır."},
+      {"question": "Hangi kokuları giderir?", "answer": "Sigara, yemek, küf, ter, çöp ve diğer istenmeyen kokuları etkili şekilde nötralize eder."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku giderme performansı sağlar."},
+      {"question": "Normal Little Joe'dan farkı nedir?", "answer": "Normal Little Joe ortama hoş koku katarken, bu ürün öncelikle kötü kokuları nötralize etmeye odaklanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["ED1515", "SC1515"]}
+  }
+}

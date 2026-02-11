@@ -1,0 +1,23 @@
+{
+  "sku": "SGPM008",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Ragle Keçesi 10 Cm (10 Adet)", "brand": "SGCB", "barcode": "6973086165366", "group": "ppf_tools", "sub_type": "consumable"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"material": "3M Yapışkanlı Keçe", "quantity": 10, "compatibility": "10 cm standart ragleler", "dimensions": {"length_cm": 10, "width_cm": 3.5, "thickness_cm": 0.17}},
+    "content": {
+      "how_to_use": "1. Eski keçeyi ragleden sökün.\n2. Ragle yüzeyini temizleyin.\n3. Yeni keçenin yapışkan tarafındaki koruyucuyu kaldırın.\n4. Keçeyi ragleye hizalayarak yapıştırın.\n5. Sıkıca bastırarak sabitlenmesini sağlayın.",
+      "when_to_use": "SGPM007 Keçeli Ragle'nin keçesi aşındığında veya deforme olduğunda değiştirmek için kullanılır.",
+      "target_surface": "10 cm standart ragle yüzeyi",
+      "why_this_product": "• 10'lu ekonomik paket\n• 3M yapışkanlı - kolay montaj\n• Aşınmaya dayanıklı yüksek kaliteli keçe\n• Uzun ömürlü kullanım"
+    },
+    "faq": [
+      {"question": "Hangi ragleyle uyumlu?", "answer": "SGPM007 Keçeli Ragle dahil 10 cm standart tüm raglelerle uyumludur."},
+      {"question": "Bir keçe ne kadar dayanır?", "answer": "Kullanım yoğunluğuna bağlı olarak aşınana kadar uzun süre kullanılabilir."},
+      {"question": "Yapıştırması zor mu?", "answer": "3M yapışkan sayesinde koruyucuyu kaldırıp ragleye yapıştırmak yeterlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["SGPM007"], "accessories": [], "alternatives": []}
+  }
+}

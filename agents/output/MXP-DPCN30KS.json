@@ -1,0 +1,38 @@
+{
+  "sku": "MXP-DPCN30KS",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MTS KİMYA MX-PRO DIAMOND Plus Seramik Kaplama 30 ml – Kutu Set",
+    "brand": "MX-PRO",
+    "barcode": "8683489680943",
+    "group": "ceramic_coating",
+    "sub_type": "paint_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 48,
+      "hardness": "9H",
+      "contact_angle": 110,
+      "multi_surface": true
+    },
+    "content": {
+      "how_to_use": "1. Araç yüzeyini iyice yıkayın ve dekontaminasyon yapın.\n2. Polisaj ile yüzeyi hazırlayın, yüzey hazırlayıcı ile silin.\n3. Uygulama takozunu süet bezle sarın, 3-4 damla ürün damlatın.\n4. Criss-cross yöntemiyle ince film oluşturun.\n5. 1-2 dk sonra temiz mikrofiber bezle silin.\n6. 12 saat kuru ortamda bekletin, 7 gün yıkamayın.",
+      "when_to_use": "Araç, jant, far, trim, plastik ve krom parçalarda uzun süreli 9H sertlik ve koruma için kullanılır.",
+      "target_surface": "Araç boyası, jantlar, farlar, trim, plastik aksamlar, krom parçalar",
+      "why_this_product": "• 9H sertlik + maksimum esneklik\n• 48 aya kadar dayanım\n• Kristalize 3 boyutlu cam kaplama\n• Çok yüzeyli kullanım - boya, jant, far, trim"
+    },
+    "faq": [
+      {"question": "Neden Diamond Plus en uzun dayanımlı?", "answer": "9H sertliğinin yanında yüksek esnekliğe sahip kristalize formülü sayesinde 48 aya kadar koruma sağlar."},
+      {"question": "Jantlarda kullanılabilir mi?", "answer": "Evet, jant, far, trim ve krom parçalarda güvenle kullanılabilir."},
+      {"question": "Profesyonel uygulama gerekli mi?", "answer": "Profesyoneller tarafından uygulanması önerilmektedir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["MXP-DPCN50KS"]}
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sku": "Q2M-TB",
+  "product_name": "Gyeon Tirebrush Dayanıklı Lastik/davlumbaz Temizlik Fırçası",
+  "barcode": "Q2M-TB",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:27:14.073Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/tire-brush/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M TIREBRUSH - GYEON",
+      "content_length": 9424,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://themicrofibershop.com/products/gyeon-q-m-tire-brush",
+      "domain": "themicrofibershop.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M Tire Brush\n &ndash; The Microfiber Shop",
+      "content_length": 10842,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-tire-brush",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Tire Brush | CARZILLA",
+      "content_length": 7116,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Tire-P1418/400-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Tire - 500 ml - Detailed Image",
+      "content_length": 15137,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

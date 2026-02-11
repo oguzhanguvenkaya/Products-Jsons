@@ -1,0 +1,23 @@
+{
+  "sku": "26.931.099.001",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MENZERNA Polisaj Dayanıklı Tabanlığı (Kırmızı) - 123mm", "brand": "MENZERNA", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 123, "compatible_device": ["Rotary M14"], "material": "Metal + PVC", "color": "Kırmızı", "thread_size": "M14"},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı M14 dişten sökerek çıkarın.\n3. Yeni Menzerna tabanlığı M14 dişe vidalayın.\n4. Sıkıca sabitleyin.\n5. 5 inç ped takarak test edin.",
+      "when_to_use": "M14 dişli rotary polisaj makinelerinde 5 inç pedlerle çalışma için kullanılır.",
+      "target_surface": "M14 dişli tüm rotary polisaj makineleri",
+      "why_this_product": "• Birinci sınıf cırt yüzey - güçlü kavrama\n• Esnek kenarlar - boya güvenliği\n• Premium malzeme - uzun ömür\n• Kırmızı renk - profesyonel görünüm"
+    },
+    "faq": [
+      {"question": "148mm versiyondan farkı nedir?", "answer": "123mm versiyon 5 inç (125mm) pedlerle kullanılır, daha kompakt çalışma alanı sunar."},
+      {"question": "Matkap ile kullanılabilir mi?", "answer": "M14 adaptör ile matkap kullanımı mümkündür, ancak profesyonel makineler önerilir."},
+      {"question": "Hangi sektörlerde kullanılır?", "answer": "Otomotiv, motosiklet, mobilya ve marin sektörlerinde kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["26.935.099.001", "SGGD051"]}
+  }
+}

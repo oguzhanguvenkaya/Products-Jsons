@@ -1,0 +1,38 @@
+{
+  "sku": "MXP-CCN50KS",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MTS KİMYA MX-PRO CRYSTAL Seramik Kaplama - 50ml",
+    "brand": "MX-PRO",
+    "barcode": "8683489680929",
+    "group": "ceramic_coating",
+    "sub_type": "paint_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 36,
+      "contact_angle": "110°",
+      "technology": "Cam Seramik (SiO2)",
+      "kit_included": true
+    },
+    "content": {
+      "how_to_use": "1. Aracı yıkayın, gerekirse kil ve polisaj yapın.\n2. Yüzeyi Prep veya IPA ile yağdan arındırın.\n3. Uygulama takozuna süet sarın, ürünü damlatın.\n4. Dikey-yatay geçişlerle homojen film oluşturun.\n5. 15-30 sn sonra terleme görünce mikrofiber ile silin.\n6. 12 saat kapalı ortamda bekletin; ilk 7 gün yıkama yapmayın.",
+      "when_to_use": "Kolay uygulama, yüksek parlaklık ve kimyasal direnci yüksek seramik koruma için kullanılır. Hem profesyoneller hem amatörler için uygun.",
+      "target_surface": "Araç boyası, vernik",
+      "why_this_product": "• 36 aya kadar dayanım\n• 110° boncuklama açısı\n• Yüksek parlaklık ve derinlik\n• Anti-statik ve UV koruma"
+    },
+    "faq": [
+      {"question": "Kolay uygulama mı?", "answer": "Evet, hem profesyoneller hem de uygulamaya yeni başlamış kişiler tarafından kullanılabilir."},
+      {"question": "Minör çiziklere karşı koruma sağlar mı?", "answer": "Evet, oluşturduğu sert tabaka ile araç boyanızı minör çiziklere karşı korur."},
+      {"question": "Bakım rutini nedir?", "answer": "Önerilen yıkama ve bakım rutinleri uygulandığında 36 aya kadar performans gösterir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["MXP-CCN30KS", "MXP-DPCN50KS"]}
+  }
+}

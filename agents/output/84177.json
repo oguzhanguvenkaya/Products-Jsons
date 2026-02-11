@@ -1,0 +1,41 @@
+{
+  "sku": "84177",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK MULTI TR 1 360 Derece Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685000514",
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_liters": 1.0,
+      "chemical_resistance": ["Alkaline", "Alcohol", "Disinfectants", "pH Neutral"],
+      "features": "360° derece atım, şeffaf seviye göstergesi",
+      "nozzle_type": "Ayarlanabilir Konik",
+      "weight_g": 180,
+      "made_in": "İspanya"
+    },
+    "content": {
+      "how_to_use": "1. Kullanılacak kimyasalı şişeye doldurun.\n2. İçerik kartını (kırmızı/yeşil) takın.\n3. Nozulu ihtiyaca göre ayarlayın (konik/fan).\n4. Ergonomik tetiği kullanarak her açıdan püskürtün.\n5. 360° sistemi sayesinde baş aşağı bile kullanabilirsiniz.",
+      "when_to_use": "Cam filmi, PPF ve kaplama uygulamalarında, araç iç/dış temizliğinde, hızlı cila uygulamalarında ve dezenfeksiyon işlemlerinde kullanın.",
+      "target_surface": "Cam, boya, plastik, araç iç yüzeyleri, genel temizlik yüzeyleri",
+      "why_this_product": "• 360° derece atım - baş aşağı bile çalışır\n• Alkali ve alkol bazlı kimyasallara dayanıklı\n• Ergonomik tetik tasarımı\n• Seviye göstergeli yarı saydam hazne"
+    },
+    "faq": [
+      {"question": "360° sistem ne işe yarar?", "answer": "Şişeyi her açıda tutarak püskürtme yapabilirsiniz, baş aşağı bile çalışır."},
+      {"question": "Hangi kimyasallarla kullanılabilir?", "answer": "Alkali bazlı temizleyiciler, dezenfektanlar, pH nötr ürünler ve alkol bazlı kimyasallarla uyumludur."},
+      {"question": "Asitli ürünlerle kullanılabilir mi?", "answer": "Sınırlı uyumluluk vardır - maksimum %5 sulandırılmış asit içeren ürünlerle kullanılabilir."},
+      {"question": "Neden IK tercih etmeliyim?", "answer": "İspanya üretimi yüksek kaliteli malzeme, uzun ömürlü kullanım ve profesyonel performans sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["84173"]}
+  }
+}

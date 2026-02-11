@@ -1,0 +1,23 @@
+{
+  "sku": "81771871",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "IK MULTI Nozzle Kit Basınçlı Pompa Bakım Seti", "brand": "IK SPRAYERS", "barcode": "8414685032607", "group": "spare_part", "sub_type": "nozzle_kit"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"compatible_device": ["IK MULTI 1.5", "IK MULTI 6", "IK MULTI 9", "IK MULTI 12"], "quantity": 1},
+    "content": {
+      "how_to_use": "1. Pompa tabancasını sökün.\n2. Eski nozzle parçasını çıkarın.\n3. Yeni nozzle kit parçalarını takın.\n4. Tabancayı tekrar monte edin.\n5. Test püskürtmesi yaparak ayar kontrolü yapın.",
+      "when_to_use": "Püskürtme düzeni bozulduğunda, nozzle tıkandığında veya damlama oluştuğunda değiştirilmelidir.",
+      "target_surface": "IK MULTI serisi basınçlı pompa makineleri",
+      "why_this_product": "• Orijinal IK yedek parçası\n• Püskürtme performansını yeniler\n• Kimyasala dayanıklı yapı\n• Hassas püskürtme kontrolü"
+    },
+    "faq": [
+      {"question": "Hangi IK modellerle uyumlu?", "answer": "IK MULTI 1.5, 6, 9 ve 12 litre kapasiteli basınçlı pompalarla uyumludur."},
+      {"question": "Püskürtme tipi değiştirilebilir mi?", "answer": "Evet, nozzle sayesinde jet ve fan püskürtme arasında geçiş yapılabilir."},
+      {"question": "Montaj için özel alet gerekir mi?", "answer": "Hayır, el ile kolayca monte edilebilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81676800"]}
+  }
+}

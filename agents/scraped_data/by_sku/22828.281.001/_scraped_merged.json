@@ -1,0 +1,47 @@
+{
+  "sku": "22828.281.001",
+  "product_name": "Menzerna 2500 Medium Cut Polish Orta Der. Çizik Gid. Pasta 250ml",
+  "barcode": "22828.281.001",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:23:42.206Z",
+  "sources": [
+    {
+      "url": "https://macsautodetailing.co.uk/products/menzerna-2500-classic-medium-cut-polish-1-litre",
+      "domain": "macsautodetailing.co.uk",
+      "language": "en",
+      "page_title": "Menzerna 2500 Classic Medium Cut Polish 1 Litre\n&ndash; Macs Auto Detailing",
+      "content_length": 4240,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.justcarcare.co.uk/products/menzerna-medium-cut-polish-2500",
+      "domain": "justcarcare.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Medium Cut Polish 2500 | Moderately Deep Scratches &ndash; Just Car Care",
+      "content_length": 9869,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Menzerna-M10/Power-Finish-PF-2500-PO203-P649/16-oz-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Menzerna Medium Cut Polish MC 2500 - 8 oz - Detailed Image",
+      "content_length": 16109,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

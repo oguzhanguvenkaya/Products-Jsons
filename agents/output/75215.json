@@ -1,0 +1,23 @@
+{
+  "sku": "75215",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Lustratouch Boya Koruyucu ve Parlatıcı (3in1) - 750 ml", "brand": "FRA-BER", "barcode": "8027486750849", "group": "paint_protection_quick", "sub_type": "spray_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"application_method": "Spray & Wipe", "contains_sio2": true, "features": ["3-ü 1 arada etki", "Antistatik film", "Hidrofobik koruma", "Siyah orkide kokusu"]},
+    "content": {
+      "how_to_use": "1. Araç temizlenip durulanmış olmalı; yüzey serin ve gölgede olmalıdır.\n2. Şişeyi çalkalayın, panel başına 2-3 fıs püskürtün veya mikrofiber beze sıkın.\n3. Dairesel hareketlerle yüzeye eşit dağıtın.\n4. Durulamasız Metot: Bezi temiz tarafına çevirip parlatın; kuruma iz bırakmaz.\n5. Durulamalı Metot (isteğe bağlı): Ürünü tüm araca püskürtüp suyla durulayın.",
+      "when_to_use": "Yıkama sonrası hızlı glaze/wax adımı yerine, showroom veya teslimat öncesi son dokunuş işlemlerinde, plastik ve metal trimlerde UV solmasını önlemek amacıyla kullanılır.",
+      "target_surface": "Araç boyası, vernik, plastik trim, alüminyum parçalar",
+      "why_this_product": "• 3-ü 1 arada etki: Korur, parlatır ve güçlü su direnci kazandırır\n• Ayna yansımalı parlaklık ve antistatik film\n• Tüm yüzeylerde güvenli: Boya, vernik, plastik trim, alüminyum"
+    },
+    "faq": [
+      {"question": "Durulamalı ve durulamasız metot arasındaki fark nedir?", "answer": "Durulamasız metot daha yoğun parlaklık sağlar, durulamalı metot ise daha hızlıdır ve geniş yüzeylerde kullanışlıdır."},
+      {"question": "Plastik parçalarda iz bırakır mı?", "answer": "Hayır, formülü plastik yüzeylerde iz veya leke bırakmadan parlaklık ve koruma sağlar."},
+      {"question": "Kaç farklı yüzeyde kullanılabilir?", "answer": "Boya, vernik, plastik trim ve alüminyum parçalar dahil tüm dış yüzeylerde güvenle kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79295"]}
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "sku": "MGPS-6009P",
+  "last_updated": "2026-02-04T14:30:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Kil Bezi 30x30 cm (Kırmızı) - Clay Towel Cloth Yüzey Temizleme Kili",
+    "brand": "MG PS",
+    "barcode": "8683492661670",
+    "group": "clay_products",
+    "sub_type": "clay_cloth"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:30:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:30:00Z",
+    "template_fields": {
+      "size": "30x30 cm",
+      "grade": "Orta (Medium)",
+      "color": "Kırmızı kenar / Siyah polimer yüzey",
+      "material": "Kauçuk-polimer kil kaplama + 320 gsm mikrofiber",
+      "durability": "60+ araç"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Yüzeyi yıkayın ve bol miktarda kaydırıcı püskürtün.\n2. Bezi Katlayın: Polimer yüzey dışa bakacak şekilde katlayın.\n3. Uygulama: Hafif basınçla yüzeyde ileri-geri kaydırın.\n4. Kaydırıcı: Sürekli kaydırıcı ekleyin.\n5. Kontrol: Yüzey pürüzsüzlüğünü kontrol edin.\n6. Temizlik: Kirlenince durulayıp kaldığınız yerden devam edin.",
+      "when_to_use": "Geniş panellerde hızlı dekontaminasyon için kullanılır. Reçine, asfalt sisi, metal tozu ve endüstriyel kirleri saniyeler içinde söker.",
+      "target_surface": "Boyalı sac, vernik, cam, krom, pürüzsüz plastik",
+      "why_this_product": "• 30x30 cm geniş yüzey - en geniş kil temas alanı\n• 4 kata kadar daha uzun ömür - 60+ araç\n• Düşse bile durulayıp devam edin\n• 320 gsm mikrofiber sırt - kaliteli yapı"
+    },
+    "faq": [
+      {"question": "Kil bar'dan ne farkı var?", "answer": "Daha geniş yüzey, daha uzun ömür (60+ araç), düşürme toleransı ve kompakt depolama avantajları."},
+      {"question": "Her iki taraf da kullanılır mı?", "answer": "Hayır, sadece polimer kaplı yüzey (siyah) kil işlevi görür. Mikrofiber sırt kavrama içindir."},
+      {"question": "Nasıl saklanır?", "answer": "Temizledikten sonra kendi kutusunda veya hava alan bir torbada, düz halde saklayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

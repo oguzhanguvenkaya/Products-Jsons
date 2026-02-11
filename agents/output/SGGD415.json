@@ -1,0 +1,22 @@
+{
+  "sku": "SGGD415",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Çok İşlevli Pasta Cila Duvar Standı Paslanmaz Çelik (5 Gözlü Borulu Kancalı)", "brand": "SGCB", "barcode": "6973086165922", "group": "storage_accessories", "sub_type": "wall_stand"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "Paslanmaz Çelik", "capacity": "5 şişe gözü + 1 boru + 2 kanca", "wall_mountable": true, "portable": false},
+    "content": {
+      "how_to_use": "1. Duvara veya delikli alet panosuna montaj yapın.\n2. Litrelik polisaj ürünlerini 5 ayrı göze yerleştirin.\n3. Mikrofiber bezleri ve havluları 10cm boruda saklayın.\n4. Püskürtücüler ve aksesuarları 2 kancaya asın.",
+      "when_to_use": "Detay merkezleri, oto yıkamalar, tamirhaneler ve boyahanelerde polisaj ekipmanları ve aksesuarların düzenli saklanması için kullanılır.",
+      "target_surface": "Duvar, delikli alet panosu",
+      "why_this_product": "• Paslanmaz çelik - korozyona ve darbelere dayanıklı\n• 5 kauçuk kaplamalı şişe gözü\n• 10cm boru + 2 kanca - çok fonksiyonlu askı sistemi\n• Sprey şişeler, bezler ve aksesuarlar için ideal"
+    },
+    "faq": [
+      {"question": "SGGD416 ile farkı nedir?", "answer": "Bu model askı yerine boru ve kanca sistemi sunar, bez ve havlu saklamak için daha uygundur."},
+      {"question": "Kaç kg taşır?", "answer": "Paslanmaz çelik yapısı sayesinde yüksek ağırlıklara dayanıklıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGGD416"]}
+  }
+}

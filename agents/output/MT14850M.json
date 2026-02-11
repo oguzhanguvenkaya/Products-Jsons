@@ -1,0 +1,40 @@
+{
+  "sku": "MT14850M",
+  "last_updated": "2026-02-04T14:40:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Q1 Premium Maskeleme Bantı Sarı - 48mm x 50 metre",
+    "brand": "Q1 TAPES",
+    "barcode": "5023555108286",
+    "group": "masking_tapes",
+    "sub_type": "premium_tape"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:40:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:40:00Z",
+    "template_fields": {
+      "width": "48 mm",
+      "length": "50 metre",
+      "color": "Sarı",
+      "adhesive_type": "Doğal kauçuk bazlı",
+      "material": "Birinci sınıf krepon kağıdı",
+      "temperature_resistance": "110°C (30 dk), 90°C (60 dk)",
+      "residue_free": true
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi temiz ve kuru hale getirin.\n2. Bantı gergin şekilde uygulayın.\n3. Kenarları bastırarak yapıştırın.\n4. Boya sonrası 45° açıyla çekin.",
+      "when_to_use": "En geniş maskeleme alanları, büyük panel kenarları ve maskeleme kağıdı sabitleme için ideal. Geniş kapı kenarları ve tavan çizgilerinde tercih edilir.",
+      "target_surface": "Boyalı yüzeyler, vernik, maskeleme kağıdı, koruyucu film",
+      "why_this_product": "• 48mm en geniş format - maksimum kapsama\n• 110°C sıcaklık dayanımı\n• Yapışkan izi bırakmaz\n• Maskeleme kağıdı sabitlemede ideal"
+    },
+    "faq": [
+      {"question": "En geniş bant bu mu?", "answer": "Evet, Q1 Premium serisinin en geniş bantıdır (48mm)."},
+      {"question": "Büyük maskeleme kağıtlarıyla kullanılır mı?", "answer": "Evet, geniş maskeleme kağıtlarını sabitlemek için idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["MT11850M", "MT12450M", "MT13650M"]}
+  }
+}

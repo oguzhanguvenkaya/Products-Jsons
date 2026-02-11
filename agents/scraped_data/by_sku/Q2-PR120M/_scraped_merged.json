@@ -1,0 +1,71 @@
+{
+  "sku": "Q2-PR120M",
+  "product_name": "Gyeon Q2 Primer 120 ml",
+  "barcode": "Q2-PR120M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:37:28.926Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/primer/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q² PRIMER - Gyeon",
+      "content_length": 10750,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Primer-P1476/120-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Primer - 120 ml - Detailed Image",
+      "content_length": 14720,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2-primer#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² Primer - Finishing Polish &amp; Silica-Based Primer — Polished Bliss",
+      "content_length": 11361,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.mycarcleaning.co.uk/products/gyeon-q2-primer",
+      "domain": "mycarcleaning.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2 Primer",
+      "content_length": 3958,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.professionaldetailingproducts.com/products/gyeon-q2-primer-120ml",
+      "domain": "professionaldetailingproducts.com",
+      "language": "en",
+      "page_title": "Gyeon Q2 Primer - 120mL\n &ndash; PDP",
+      "content_length": 3195,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "sku": "81678",
+  "product_name": "İK Sprayers Ik Foam Pro 2+ Köpük Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınç",
+  "barcode": "81678",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:16:25.319Z",
+  "sources": [
+    {
+      "url": "https://www.detailstore.com.au/products/ik-foam-pro-2-2-plus-hand-pump-sprayer",
+      "domain": "detailstore.com.au",
+      "language": "en",
+      "page_title": "IK Foam Pro 2+ (2 Plus) Hand Pump Sprayer\n&ndash; The Detail Store",
+      "content_length": 8546,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://adamspolishes.com/products/adams-ik-e-foam-pro-2-sprayer",
+      "domain": "adamspolishes.com",
+      "language": "en",
+      "page_title": "Adam&#39;s iK E Foam Pro 2 Sprayer",
+      "content_length": 12588,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carpro-us.com/brushes-bottles-applicators/ik-foam-pro-2-foaming-1-5l-sprayer/",
+      "domain": "carpro-us.com",
+      "language": "en",
+      "page_title": "IK FOAM Pro 2+ Foaming 1.5L Sprayer",
+      "content_length": 17071,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://theragcompany.com/products/ik-foam-pro-2-plus-sprayer",
+      "domain": "theragcompany.com",
+      "language": "en",
+      "page_title": "iK Foam Pro 2+ Sprayer | The Rag Company",
+      "content_length": 12684,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.iksprayers.com/en/ik-foam-pro-2-81676.html",
+      "domain": "iksprayers.com",
+      "language": "en",
+      "page_title": "IK FOAM Pro 2 - Profesional Sprayers - Foam Sprayers",
+      "content_length": 8392,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

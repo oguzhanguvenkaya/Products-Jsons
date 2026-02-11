@@ -1,0 +1,44 @@
+{
+  "sku": "78761",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Marta La Farfalla Cinnamon Kelebek Şekilli Oto Kokusu",
+    "brand": "FRA-BER",
+    "barcode": "8027486793020",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Tarçın",
+      "design": "Kelebek (Patentli)",
+      "made_in": "İtalya",
+      "collection": "Marta La Farfalla",
+      "notes": {
+        "top": "Acı portakal, narenciye vurguları, tarçın",
+        "middle": "Portakal çiçeği, hindistan cevizi",
+        "base": "Tarçın kabuğu, zencefil kökü, vanilya, fava tonka, vetiver"
+      }
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Aracınızın havalandırma deliklerine yerleştirin.\n3. Havalandırma sistemini açın.\n4. Fan ayarları ile kokunun yayılmasını kademeli olarak ayarlayabilirsiniz.",
+      "when_to_use": "Keskin ve uzun süre kalıcı bir koku arayanlar için idealdir. Güçlü ve kararlı bir kişilik yansıtır.",
+      "target_surface": "Araç kliması havalandırma delikleri",
+      "why_this_product": "• Baharatların arketipi tarçın\n• Güçlü ve kararlı koku profili\n• Patentli kelebek tasarımı\n• Uzun süreli kalıcılık"
+    },
+    "faq": [
+      {"question": "Marta La Farfalla serisi nedir?", "answer": "FRA-BER'in patentli kelebek şekilli, geniş koku yayılımı sağlayan araç kokusu serisi."},
+      {"question": "Cinnamon kokusu nasıl?", "answer": "Tarçının keskin ve yoğun aroması, portakal çiçeği ve vanilya notalarıyla zenginleştirilmiş."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Aylar sonra bile hafif bir koku yaymaya devam eder."},
+      {"question": "Çok yoğun mu?", "answer": "Keskin ama dengeli salınım ile rahatsız etmeden keyif verici yoğunlukta."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["75229", "75228"]}
+  }
+}

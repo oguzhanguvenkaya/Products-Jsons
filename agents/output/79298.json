@@ -1,0 +1,47 @@
+{
+  "sku": "79298",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR SC2 DRESSING Plastik Trim Yenileyici Ve Deri Koruyucu - 500 ml",
+    "brand": "INNOVACAR",
+    "barcode": "8027486798193",
+    "group": "interior_cleaner",
+    "sub_type": "plastic_dressing"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Plastik", "Vinil", "Kauçuk", "Deri"],
+      "sio2_content": true,
+      "siloxane_content": true,
+      "uv_protection": true,
+      "heat_resistant": true,
+      "hydrophobic": true,
+      "finish": "Mat/Doğal",
+      "protection_duration": "5 ay",
+      "curing_time": "7 saat",
+      "consumption": "50 ml/araç",
+      "ph_level": 6.5,
+      "volume_ml": 500
+    },
+    "content": {
+      "how_to_use": "1. Yüzey hazırlığı: Uygulama öncesi yüzey temizlenmeli ve dekontamine edilmelidir.\n2. Düşük tüylü mikrofiber bez veya aplikatöre 2-3 sprey SC2 uygulayın.\n3. Sağdan sola (yatay) ve ardından yukarıdan aşağıya (dikey) olarak tüm yüzeye uygulayın.\n4. İkinci kat (isteğe bağlı): Yaklaşık 20 dakika sonra parlaklık ve renk derinliği artırmak için ikinci kat uygulanabilir.\n5. Ürün 7 saat içinde tamamen aktif hale gelir, bu süre boyunca yüzey yıkanmamalıdır.",
+      "when_to_use": "Araç iç trim parçalarında, dış plastik yüzeylerde, motor bölmesi plastik parçalarında, kapı contaları ve vinil kaplamalarda, deri yüzeylerde koruma ve yenileme için kullanılır.",
+      "target_surface": "Ön göğüs, kapı panelleri, direksiyon, deri parçalar, tampon, yan aynalar, cam çerçeveleri, motor bölmesi plastikleri",
+      "why_this_product": "• Kuvars benzeri SiO² koruma - hidrofobik kalkan oluşturur\n• UV ve yüksek ısıya dayanıklı formül\n• 5 aya kadar kalıcılık\n• Mat ve doğal görünüm - silikonumsu değil"
+    },
+    "faq": [
+      {"question": "Parlaklık verir mi?", "answer": "Hayır, mat ve doğal görünüm sağlar, silikonumsu parlaklık oluşturmaz."},
+      {"question": "Koruma süresi ne kadar?", "answer": "5 aya kadar kalıcılık sağlar."},
+      {"question": "Lastik sırtında kullanılabilir mi?", "answer": "Hayır, lastik sırtına (yol ile temas eden kısımlar) uygulamayınız."},
+      {"question": "Seyreltilerek kullanılabilir mi?", "answer": "Saf olarak maksimum performans sağlar. Bakım temizliği için 1:5 oranına kadar seyreltilerek hafif etkili bakım ürünü olarak kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["74598"]}
+  }
+}

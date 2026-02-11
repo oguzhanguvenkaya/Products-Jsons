@@ -1,0 +1,43 @@
+{
+  "sku": "81676",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK FOAM PRO 2 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102089",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.9,
+      "capacity_usable_lt": 1.25,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "Yelpaze tipi köpük nozul",
+      "chemical_resistance": ["Asitler", "Köpük yapıcılar", "pH nötr"],
+      "foam_adjustable": true,
+      "safety_valve": true,
+      "weight_net_kg": 0.56
+    },
+    "content": {
+      "how_to_use": "1. Kimyasalı haznedeki 'max' işaretine kadar doldurun.\n2. Kapağı sıkıca kapatın ve pompayı 15-20 kez basınçlandırın.\n3. Köpük yoğunluğunu ayarlamak için uygun aparatı seçin (turuncu: ıslak, gri: orta, yeşil: kuru).\n4. Tetik kilidini açın ve yüzeye doğru köpüğü püskürtün.\n5. Kullanım sonrası basıncı boşaltın ve temiz su ile durulayın.",
+      "when_to_use": "Araç ön yıkamasında kar köpüğü (snow foam) uygulamalarında, döşeme ve halıların köpükle temizliğinde, profesyonel temizlik ve dezenfeksiyon işlemlerinde, HVAC sistem temizliğinde kullanılır.",
+      "target_surface": "Araç dış yüzeyi, kumaş koltuklar, halılar, döşemeler, HVAC serpantinleri",
+      "why_this_product": "• Kuru, yoğun ve uzun kalıcı köpük üretimi\n• 3 farklı köpük yoğunluğu ayarı (ıslak/orta/kuru)\n• Asit ve kimyasallara dayanıklı contalar\n• 60 yıllık İspanya kalitesi - IK markası güvencesi"
+    },
+    "faq": [
+      {"question": "Alkali kimyasallarla kullanılabilir mi?", "answer": "Hayır, sodyum hidroksit, çamaşır suyu ve aseton gibi alkali/keton içerikli kimyasallar ürüne zarar verir."},
+      {"question": "Köpük aparatları arasındaki fark nedir?", "answer": "Turuncu: geniş kapsama için ıslak köpük, Gri: genel kullanım için orta köpük, Yeşil: ıslatmadan temizlik için kuru köpük."},
+      {"question": "Bakım nasıl yapılır?", "answer": "Her kullanımdan sonra basıncı boşaltın, su ile temizleyin. Keçe filtreleri düzenli kontrol edin, hareketli parçaları yağlayın."},
+      {"question": "IPA (izopropil alkol) kullanılabilir mi?", "answer": "Sınırlı kullanım mümkün, ancak köpük oluşturmaya gerek olmadığı için bu ürün önerilmez."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81678", "81776"]}
+  }
+}

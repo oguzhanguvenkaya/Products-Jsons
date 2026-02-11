@@ -1,0 +1,44 @@
+{
+  "sku": "GRY6555",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Pasta Süngeri 65/55 mm 5'li Paket (Gri) - Mini Polisaj",
+    "brand": "MG PS",
+    "barcode": "8683492660420",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Heavy Cut",
+      "color": "Gri",
+      "diameter_mm": 65,
+      "base_diameter_mm": 55,
+      "height_mm": 15,
+      "machine_compatibility": ["Nano/Mini"],
+      "cell_structure": "Open Cell",
+      "hardness": "Hard",
+      "pack_quantity": 5
+    },
+    "content": {
+      "how_to_use": "1. Pedi 55mm nano/mini tabanlığa takın.\n2. Ağır kesim pasta damlatın.\n3. Düşük devirde başlatarak dar alanda çalışın.\n4. Çapraz geçişlerle ürünü işleyin.\n5. Ped kirlendikçe 5'li paketteki yedeklerle değiştirin.\n6. Kullanım sonrası pedleri yıkayın.",
+      "when_to_use": "Dar alanlarda ağır çizik gideriminde, A direkleri ve ayna köşelerinde, spot düzeltme işlemlerinde, mini polisaj makineleri ile kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, dar alanlar, köşeler, kenarlar",
+      "why_this_product": "• 5'li paket ile kesintisiz çalışma\n• Sert yapı ile maksimum kesim gücü\n• Kompakt boyut ile dar alanlara erişim\n• Nano/Mini makineler için optimize edilmiş"
+    },
+    "faq": [
+      {"question": "5'li paket ne avantaj sağlar?", "answer": "Ped kirlendikçe değiştirilerek kesintisiz çalışma sağlanır, temizlik sırasında zaman kaybedilmez."},
+      {"question": "Hangi tabanlık boyutu gerekir?", "answer": "55mm (2.2 inç) nano/mini tabanlıklarla uyumludur."},
+      {"question": "Hangi makinelerle kullanılır?", "answer": "Nano ve mini polisaj makineleri ile kullanılır."},
+      {"question": "Finish versiyonu var mı?", "answer": "Evet, GPRO060 sarı finish süngeri dar alanlarda hare giderimi için kullanılabilir."}
+    ],
+    "relations": {"use_before": ["GPRO060"], "use_after": [], "use_with": ["22.746.281.001", "22.200.281.001"], "accessories": [], "alternatives": ["BUR060", "26.913.099.001"]}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "26908.099.001",
+    "product_name": "Menzerna Ince Kesim Ara Kat Pasta Süngeri 2li Paket (Sarı) - 95MM",
+    "barcode": "26908.099.001",
+    "url": "https://www.springriver.eu/menzerna-medium-cut-foam-pad-yellow-95-mm.html",
+    "url_index": 0,
+    "domain": "springriver.eu",
+    "scraped_at": "2026-02-07T22:35:21.719Z",
+    "scrape_duration_ms": 486,
+    "http_status": 403,
+    "content_type": "text/html",
+    "content_length_bytes": 75697,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "403 - Forbidden",
+    "raw_markdown": "bg_error_lines\n\ncircle_dots\n\n# 403 - Forbidden\n\nAccess to this page is forbidden.\n\nclouds_shape",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": true
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_0_springriver.eu.html"
+  }
+}

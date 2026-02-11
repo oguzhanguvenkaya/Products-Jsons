@@ -1,0 +1,19 @@
+{
+  "sku": "ACC-SPG-2",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Tire Elips Lastik Parlatma Süngeri - 1 Adet", "brand": "KLIN", "barcode": null, "group": "applicators", "sub_type": "tire_applicator"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"shape": "Elips", "type": "Lastik parlatma süngeri", "quantity": "1 adet"},
+    "content": {
+      "how_to_use": "1. Lastik parlatıcıyı süngere damlatın.\n2. Lastik yan yüzeyine eşit şekilde sürün.\n3. Kurumaya bırakın.",
+      "when_to_use": "Lastik parlatıcı, lastik jeli ve koruyucu ürünlerin uygulanmasında kullanılır.",
+      "target_surface": "Lastik yan yüzeyleri",
+      "why_this_product": "• Elips tasarım - kavraması kolay\n• Lastik konturu ile uyumlu\n• Ekonomik"
+    },
+    "faq": [{"question": "Yıkanabilir mi?", "answer": "Evet, lastik parlatıcı kalıntıları suyla temizlenebilir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

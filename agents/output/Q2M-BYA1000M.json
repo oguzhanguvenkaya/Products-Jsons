@@ -1,0 +1,44 @@
+{
+  "sku": "Q2M-BYA1000M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Bathe PH Nötr Cilalı Oto Şampuanı - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661168",
+    "group": "car_shampoo",
+    "sub_type": "ph_neutral_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "6 (Nötr)",
+      "concentrate": true,
+      "dilution_ratio": "1:500",
+      "foam_level": "high",
+      "lubricity_level": "9/10",
+      "contains_sio2_or_wax": false,
+      "safe_on_ceramic_coatings": true,
+      "safe_on_ppf_wrap": true,
+      "consumption_ml_per_car": 20
+    },
+    "content": {
+      "how_to_use": "1. Çift Kova Yöntemi: 20 ml Bathe'i 12 L sıcak suya ekleyin ve eldivenle köpürtün.\n2. Köpük Yapıcı Pompa: 1 L suya 30 ml karıştırıp paneli kaplayın.\n3. Foam Lance: 1 L hazneye 40 ml ekleyin, aracı kalın köpükle sarın.\n4. Yıkama: Eldivenle üstten alta panel panel geçin; her panel sonrası durulayın.\n5. Durulama: Düşük basınçla temiz su, ardından SilkDryer havluyla kurulayın.",
+      "when_to_use": "Haftalık bakım yıkamalarında, seramik kaplı veya wax'lı araçların koruma katmanına zarar vermeden güvenli temizlik için kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, PPF folyo, wax, metalik trimler, jant, cam",
+      "why_this_product": "• 9/10 kayganlık skoru ile çiziksiz yıkama garantisi\n• pH nötr formül koruma katmanlarını bozmaz\n• 1:500 konsantrasyon ile 50+ yıkama ekonomisi\n• Jel polimer yapısı inatçı film kirini hızla çözer"
+    },
+    "faq": [
+      {"question": "Sıcak panelde kullanabilir miyim?", "answer": "Hayır; önce yüzeyin soğumasını bekleyin, aksi halde jel film kuruyup leke bırakabilir."},
+      {"question": "Wax veya sealant katmanımı soyar mı?", "answer": "pH nötr formül korumaları bozmaz, aksine parlaklığı canlandırır."},
+      {"question": "Köpük lance seyreltme oranı farklı mı olmalı?", "answer": "1:25 oranında (40 ml şampuan / 1 L su) yoğun köpük sağlar; duruma göre 1:20'ye çekilebilir."},
+      {"question": "Mat boya ve mat PPF'de iz bırakır mı?", "answer": "Bırakmaz; mat yüzeyleri parlatmadan temizler, su lekesi oluşturmaz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-FYA1000M"], "accessories": [], "alternatives": ["Q2M-BYA500M", "Q2M-BYA4000M"]}
+  }
+}

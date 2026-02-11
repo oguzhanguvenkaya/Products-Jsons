@@ -1,0 +1,29 @@
+{
+  "sku": "22.202.260.001",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA YENİ 400 Ağır Çizik Giderici Kalın Pasta - 1 Kg",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "heavy_cut_compound"
+  },
+  "notes": {"size_variant": "1 Kg versiyon - aynı formül, ekonomik profesyonel boyut"},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"cut_level": 8, "finish_level": 8, "machine_compatibility": ["rotary", "orbital"], "silicone_free": true, "bodyshop_safe": true, "filler_free": true, "dusting_level": "Low"},
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini detaylıca yıkayın. Hassas trimleri maskeleme bantları ile koruyun.\n2. Ped Seçimi: Kuzu postu keçe veya Sert Sünger Ped.\n3. Uygulama: Makineyi düşük hızda başlatarak pastayı yayın, ardından hızı artırın.\n4. Çalışma: Şeffaf film kalana kadar çalışın.\n5. Temizlik: Mikrofiber bezle silin.",
+      "when_to_use": "Zımpara izlerini hızlıca ortadan kaldırmak, tek adımda hem çizik gidermek hem parlaklık elde etmek için kullanılır.",
+      "target_surface": "Otomotiv boyası, sert ve orta sertlikte vernikler",
+      "why_this_product": "• 8/8 kesim/parlaklık dengesi\n• Düşük tozuma, geliştirilmiş yayılım\n• Silikonsuz formül\n• 1 Kg profesyonel boyut - yoğun atölye kullanımı için ekonomik"
+    },
+    "faq": [
+      {"question": "1 Kg hangi kullanım için ideal?", "answer": "Yoğun atölye kullanımı ve profesyonel işler için ekonomik boyuttur."},
+      {"question": "Diğer boyutlarla aynı formül mü?", "answer": "Evet, 250 ml ve 1 lt ile aynı YENİ 400 formülüdür."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

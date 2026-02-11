@@ -1,0 +1,112 @@
+{
+  "sku": "22.029.261.001",
+  "last_updated": "2026-02-04T13:20:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "MENZERNA 3000 Standart Hare Giderici Cila - 1 lt",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "finishing_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:20:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna Final Finish 3000, detailing dünyasının klasik ve güvenilir final cilasıdır. İki aşamalı bir polisaj işleminin mükemmel son adımı olarak tasarlanan bu ürün, formülündeki özenle seçilmiş ince aşındırıcılar sayesinde hare, hologram, puslanma ve hafif dairesel çizikleri kusursuzca giderir. Boya yüzeyini mükemmelleştirerek ardında son derece parlak, pürüzsüz ve yansımalı bir yüzey bırakır. Silikon ve dolgu maddesi içermeyen dürüst yapısıyla, koruma öncesi ideal zemini hazırlayan, her profesyonelin ve detailing meraklısının setinde bulunması gereken temel bir üründür.",
+        "extracted_specs": {
+          "cut_level": 3,
+          "finish_level": 9,
+          "silicone_free": true,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "abrasive_type": "diminishing"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Hologram ve pus giderme", "Tüm boya tipleri", "Tek adımda parlatma", "Koruma öncesi son adım"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": ["Menzerna 3500", "Menzerna 3800"]
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 3,
+        "finish_level": 9,
+        "silicone_free": true,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "abrasive_type": "diminishing",
+        "machine_compatibility": ["rotary", "orbital"],
+        "recommended_pads": ["Menzerna Yeşil Final Pedi", "MG PADS Mavi Cila Süngeri"]
+      },
+      "content": {
+        "use_cases": ["Hologram giderme", "Pus giderme", "Final parlaklığı", "Koruma öncesi hazırlık"],
+        "benefits": ["Klasik ve güvenilir formül", "Tüm boya tiplerinde güvenli", "Yüksek parlaklık", "Silikonsuz"]
+      },
+      "faq": [],
+      "related_products": ["Menzerna 3500", "Menzerna 3800", "Menzerna 2500"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:20:00Z",
+    "template_fields": {
+      "cut_level": 3,
+      "finish_level": 9,
+      "machine_compatibility": ["rotary", "orbital"],
+      "recommended_pad_types": ["finishing_foam_pad", "polishing_foam_pad"],
+      "dusting_level": null,
+      "working_time": null,
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "abrasive_type": "diminishing",
+      "safe_for_soft_paint": true,
+      "wipe_off_ease": null
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Önceki polisaj adımından sonra yüzeyin temiz olduğundan emin olun.\n2. Makine & Ped Seçimi: Rotary ve Orbital polisaj makineleriyle kullanılabilir.\n   - Önerilen Ped: Menzerna Yeşil Final Pedi veya MG PADS Mavi Cila Süngeri\n3. Ürün Miktarı: Pede 2-3 nohut tanesi büyüklüğünde ürün uygulayın.\n4. Uygulama: Makineyi düşük-orta hızda çalıştırın.\n   - Rotary: Kademe 2-3\n   - Orbital: Kademe 3-4\n5. Çalışma: Düzenli hareketlerle yüzeyde çalışın. Şeffaf bir film oluşana kadar devam edin.\n6. Temizlik: Yumuşak mikrofiber bezle kalıntıları silin ve parlaklığı kontrol edin.\n7. Pro-Tip: Çift ped yöntemi ile uzun süreli işlemlerde tutarlı sonuçlar elde edin.",
+      "when_to_use": "İki aşamalı polisaj işleminin son adımı olarak kullanılır. Agresif pasta işlemleri sonrası yüzeyde kalan hareleri, hologramları ve puslu görünümü gidermek için idealdir. Yumuşak, orta sert ve çizilmeye dirençli tüm vernik tiplerinde güvenle kullanılabilir. Sadece çok hafif kusurları olan araçlarda tek adımda parlatma için de uygundur. Wax veya sealant öncesi ideal zemini hazırlar.",
+      "target_surface": "Tüm vernik tipleri - yumuşak, orta sert ve çizilmeye dirençli boyalar",
+      "why_this_product": "• Detailing dünyasının klasik ve güvenilir final cilası - her profesyonelin setinde olmalı.\n• 3/10 kesim ile 9/10 parlaklık - etkili hare giderme ve yüksek bitiş kalitesi.\n• Tüm boya tiplerinde güvenli - yumuşaktan serte her vernikte harika sonuçlar.\n• Fiyat/performans dengesi mükemmel - ekonomik ve etkili çözüm.\n• Silikonsuz formül - koruma öncesi ideal zemin."
+    },
+    "faq": [
+      {
+        "question": "Menzerna 3000 tüm boya tiplerinde kullanılabilir mi?",
+        "answer": "Evet, yumuşak, orta sert ve çizilmeye dirençli tüm vernik tiplerinde güvenle kullanılabilir ve harika sonuçlar verir."
+      },
+      {
+        "question": "3000 ile 3500/3800 arasındaki fark nedir?",
+        "answer": "Menzerna 3000 klasik ve ekonomik bir final cilasıdır (9/10 parlaklık). 3500 sert vernikler için premium formüle sahiptir (10/10). 3800 ise show car seviyesinde ultra bitiş sağlar. Standart işler için 3000, premium sonuçlar için 3500/3800 tercih edilebilir."
+      },
+      {
+        "question": "Tek başına düzeltme yapabilir mi?",
+        "answer": "Sadece çok hafif kusurları olan, iyi durumdaki araçlarda tek adımda parlaklığı ve canlılığı geri kazandırmak için kullanılabilir. Orta ve ağır kusurlarda önce daha agresif pasta gerekir."
+      },
+      {
+        "question": "Koruma öncesi kullanmalı mıyım?",
+        "answer": "Evet, 3000 ile final yapmak wax veya sealant için ideal bir zemin hazırlar. Silikonsuz formülü koruma ürünlerinin daha iyi tutunmasını ve daha parlak görünmesini sağlar."
+      },
+      {
+        "question": "Neden 'klasik' olarak adlandırılıyor?",
+        "answer": "Menzerna 3000, yıllardır profesyoneller ve hobiciler tarafından güvenle kullanılan, kanıtlanmış performansa sahip bir üründür. Güvenilir sonuçları ve ekonomik fiyatıyla detailing dünyasının temel taşlarından biridir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

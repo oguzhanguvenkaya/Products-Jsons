@@ -1,0 +1,40 @@
+{
+  "sku": "SGGC091",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Tornador Foam Gun Hava Girişli Köpük Tabancası - 1000 ml",
+    "brand": "SGCB",
+    "barcode": "6973086161214",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_ml": 1000,
+      "body_material": "Alüminyum",
+      "connection_type": "Hava kompresörü",
+      "foam_heads": 3,
+      "volume_scale": true
+    },
+    "content": {
+      "how_to_use": "1. Köpük yapıcı şampuanı hazneye doldurun (ölçek işaretlerini kullanın).\n2. Tornador Foam Gun'u hava kompresörüne bağlayın.\n3. İstediğiniz köpük yoğunluğu ve genişliği için 3 başlıktan birini seçin.\n4. Araca veya yüzeye köpük uygulayın.\n5. Kullanım sonrası temiz su ile durulayın.",
+      "when_to_use": "Basınçlı yıkama makinesine gerek kalmadan köpüklü araç yıkama işlemlerinde, profesyonel ve hobi kullanıcılar tarafından kullanılır.",
+      "target_surface": "Araç dış yüzeyi, motosiklet, tüm dış yüzeyler",
+      "why_this_product": "• Basınçlı yıkama makinesine gerek kalmadan köpüklü yıkama\n• 3 farklı başlık ile farklı köpük yoğunluk ve genişliği\n• Alüminyum gövde ile dayanıklılık\n• Ergonomik tasarım"
+    },
+    "faq": [
+      {"question": "Basınçlı yıkama makinesi gerekli mi?", "answer": "Hayır, sadece hava kompresörüne bağlayarak köpüklü yıkama yapabilirsiniz."},
+      {"question": "Kaç farklı başlık var?", "answer": "3 farklı başlık ile farklı yoğunluk ve genişlikte köpük atabilirsiniz."},
+      {"question": "Hem profesyoneller hem hobi kullanıcıları için mi?", "answer": "Evet, kullanımı kolay yapısı ile hem profesyonel hem de meraklılar tarafından kullanılabilir."},
+      {"question": "Hazne kapasitesi ne kadar?", "answer": "1000ml kapasiteye sahip olup tek bir araç için yeterlidir. Hazne üzerinde ölçek bulunmaktadır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGGD135"]}
+  }
+}

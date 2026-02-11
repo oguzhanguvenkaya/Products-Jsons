@@ -1,0 +1,23 @@
+{
+  "sku": "79301",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR W1 QUICK DETAILER Yüzey Koruyucu - 500 ml", "brand": "INNOVACAR", "barcode": "8027486798223", "group": "paint_protection_quick", "sub_type": "quick_detailer"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"function": "Temizlik ve Koruma", "consumption_ml": 40, "cure_time_hours": 7, "features": ["İz bırakmaz", "Nanoteknoloji uyumlu", "3 etki bir arada", "Siyah orkide kokusu"]},
+    "content": {
+      "how_to_use": "1. Ürünü doğrudan kuru veya ıslak yüzeye 2-3 kez püskürtün veya mikrofiber beze sıkın.\n2. Mikrofiber bez ile dairesel hareketlerle yüzeye yayın.\n3. Temiz bir bezle son parlatma işlemini yapın.\n4. Ürün kuruma yapmadan silin.\n5. Maksimum etki için 7 saat bekleyin.",
+      "when_to_use": "Kurutma öncesi ıslak yüzeylerde, kurulanmış araçlarda son kat parlaklık için, iç mekan plastik yüzeylerde ve önemli etkinlik veya teslimat öncesinde hızlı parlatma için kullanılır.",
+      "target_surface": "Araç boyası, iç mekan plastikleri, cam yüzeyleri - hem dış hem iç yüzeylerde",
+      "why_this_product": "• 3 etki bir arada: Temizler, parlatır ve korur\n• Nanoteknoloji dostu - seramik kaplamalarla uyumlu\n• Leke ve iz giderici - kireç lekeleri ve taze çizgilere karşı etkili\n• İpeksi dokunuş ve renk derinliği sağlar"
+    },
+    "faq": [
+      {"question": "Seyreltme gerekir mi?", "answer": "Hayır, ürün saf olarak kullanılır, seyreltme gerekmez."},
+      {"question": "Koruma etkisi ne zaman oluşur?", "answer": "Tam koruma etkisi uygulamadan 7 saat sonra oluşur."},
+      {"question": "İç mekanda kullanılabilir mi?", "answer": "Evet, iç mekan plastik yüzeylerde temizlik ve bakım amacıyla kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["79304", "79417"], "accessories": [], "alternatives": ["Q2M-QDYA500M"]}
+  }
+}

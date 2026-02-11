@@ -1,0 +1,24 @@
+{
+  "sku": "Q2M-WYA1000M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM WetCoat Nano Boya Koruma - 1000 ml", "brand": "GYEON", "barcode": "8683492661441", "group": "paint_protection_quick", "sub_type": "spray_rinse_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"application_method": "Spray & Rinse", "surface_state": "Wet", "durability_weeks": 12, "hydrophobic": true, "consumption_ml": 80, "sio2_content_percent": 5, "ph_resistance": "2-11", "temp_range_c": "5-35"},
+    "content": {
+      "how_to_use": "1. Aracınızı pH-nötr şampuan ile yıkayın ve durulayın.\n2. Yüzey soğuk ve ıslak kalmalı - kurulamayın.\n3. Şişeyi çalkalayın, yaklaşık 15 cm mesafeden her panele 1-2 fıs uygulayın.\n4. Maksimum 5 saniye içinde basınçlı suyla durulayın - ürünün kurumasına izin vermeyin.\n5. Temiz mikrofiber havlu ile kurulayın.",
+      "when_to_use": "Haftalık bakım yıkamalarında son adım olarak, seramik kaplama bakımında hidrofobi tazelemek için ve tek ürünle tüm dış yüzeylerde (boya, cam, jant, plastik trim) hızlı koruma sağlamak için kullanılır.",
+      "target_surface": "Araç boyası, cam, jant, plastik trim, metal, PPF, vinil kaplama",
+      "why_this_product": "• SiO² teknolojili ilk spray & rinse seramik bazlı hızlı cila\n• 12 haftaya kadar koruma - pH 2-11 arası yıkamalara dayanıklı\n• Yoğun hidrofobi - 90° üzeri temas açısı ile su boncuklanması\n• Tüm araç 2 dakikada korunur - püskürt, durula, bitir"
+    },
+    "faq": [
+      {"question": "WetCoat kuru yüzeyde kullanılabilir mi?", "answer": "Hayır, ürün sadece ıslak ve soğuk yüzeylerde kullanılmalıdır. Kuru yüzeyde kalıntı ve lekelenme riski oluşur."},
+      {"question": "Camlarda kullanabilir miyim?", "answer": "Evet, özellikle yan ve arka camlarda etkili yağmur itici görevi görür. Ön camda 2-3 hafta koruma sağlar."},
+      {"question": "Seramik kaplama üzerine uygulanabilir mi?", "answer": "Evet, kaplamayı tazeler ve boncuklama etkisini geri kazandırır. Koruyucu üst katman görevi görür."},
+      {"question": "Ürünü bez ile yaymam gerekir mi?", "answer": "Hayır, gerekli değildir. Su ile aktifleşen formülü sayesinde yüzeye eşit şekilde yayılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-WYA500M", "Q2M-WCYA4000M"]}
+  }
+}

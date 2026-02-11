@@ -1,0 +1,37 @@
+{
+  "sku": "SGGD045",
+  "last_updated": "2026-02-04T14:50:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Interior Detail Brush İç Mekan Detay Fırçası",
+    "brand": "SGCB",
+    "barcode": "6973086162181",
+    "group": "brushes",
+    "sub_type": "detail_brush"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:50:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:50:00Z",
+    "template_fields": {
+      "bristle_type": "Yumuşak, pürüzsüz kıl",
+      "flexibility": "Esnek",
+      "handle_design": "Ergonomik",
+      "safe_for": ["Plastik", "Deri", "Alcantara", "Kumaş"]
+    },
+    "content": {
+      "how_to_use": "1. İç mekan temizleyici püskürtün.\n2. Fırça ile dar alanlara girin.\n3. Dairesel hareketlerle kiri sökün.\n4. Mikrofiber ile silin.",
+      "when_to_use": "Araç iç mekanında havalandırma ızgaraları, dikiş araları, düğme çevreleri ve dar girintilerin temizliği için kullanılır.",
+      "target_surface": "Havalandırma ızgaraları, gösterge paneli, düğmeler, dikiş araları, kapı cepleri",
+      "why_this_product": "• Esnek tasarım - dar alanlara erişim\n• Yumuşak kıllar - hassas yüzeylerde güvenli\n• Ergonomik sap - konforlu kullanım\n• Çok amaçlı - iç mekanın her yerinde"
+    },
+    "faq": [
+      {"question": "Deri yüzeylerde güvenli mi?", "answer": "Evet, yumuşak kıllar deri yüzeylere zarar vermez. Hafif basınçla kullanın."},
+      {"question": "Wheel Detail Brush ile farkı nedir?", "answer": "Interior Brush iç mekan için optimize edilmiştir, daha yumuşak kıllara sahiptir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

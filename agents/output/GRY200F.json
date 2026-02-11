@@ -1,0 +1,43 @@
+{
+  "sku": "GRY200F",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Rotary Ağır Kesim Kalın Pasta Süngeri (Gri) - 200 mm",
+    "brand": "MG PS",
+    "barcode": "8683492660222",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Heavy Cut",
+      "color": "Gri",
+      "diameter_mm": 200,
+      "base_diameter_mm": 200,
+      "height_mm": 30,
+      "machine_compatibility": ["Rotary"],
+      "cell_structure": "Open Cell",
+      "hardness": "Hard"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 200mm rotary tabanlığa takın.\n2. Ağır kesim pasta (Menzerna 300, 400, 1000) damlatın.\n3. Düşük devirde (800-1000 rpm) başlayarak ürünü yüzeye yayın.\n4. Devri artırarak çapraz geçişlerle geniş panellerde çalışın.\n5. Yağlı film oluşana kadar işleme devam edin.\n6. Mikrofiber ile silin ve sonucu kontrol edin.",
+      "when_to_use": "Geniş panellerde (kaput, tavan) ağır boya restorasyonunda, zımpara sonrası düzeltmede, derin çizik ve kusurların hızlı giderilmesinde kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, sert ve yumuşak tüm boya tipleri",
+      "why_this_product": "• 200mm geniş çap ile büyük panellerde verimlilik\n• Sert yapısı ile maksimum kesim gücü\n• 30mm yükseklik ile uzun ömürlü kullanım\n• Avrupa üretimi yüksek kalite"
+    },
+    "faq": [
+      {"question": "200mm ped ne için kullanılır?", "answer": "Kaput, tavan gibi geniş panellerde hızlı ve verimli polisaj için kullanılır."},
+      {"question": "Hangi tabanlık gerekir?", "answer": "200mm rotary tabanlık diskleri ile uyumludur."},
+      {"question": "Daha küçük alternatifleri var mı?", "answer": "Evet, GRY180F (180mm) ve GRY160F (160mm) rotary süngerler alternatif olarak kullanılabilir."},
+      {"question": "Hangi pastalarla kullanılır?", "answer": "Menzerna 300, 400, 1000 ve Cut Force Pro gibi ağır kesim pastaları ile kullanılır."}
+    ],
+    "relations": {"use_before": ["RE200F", "GPRO200F"], "use_after": [], "use_with": ["22.746.281.001", "22.200.281.001", "22.203.261.001"], "accessories": [], "alternatives": ["GRY180F", "GRY160F"]}
+  }
+}

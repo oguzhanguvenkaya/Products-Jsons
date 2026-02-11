@@ -1,0 +1,23 @@
+{
+  "sku": "532024",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX VC 6 L MC Elektrikli Omuz Askılı El Süpürgesi 6 Litre 1200W - 4 Başlıklı Taşınabilir Tekerlekli", "brand": "FLEX", "barcode": "4030293215641", "group": "storage_accessories", "sub_type": "work_gear"},
+  "notes": {"sub_type_review": "work_gear olarak işaretli ancak vacuum_cleaner olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"power_w": 1200, "capacity_lt": 6, "wheeled": true, "shoulder_strap": true, "head_count": 4},
+    "content": {
+      "how_to_use": "1. Elektrik prizine takın.\n2. Uygun başlığı seçin (4 farklı seçenek).\n3. Omuz askısı veya tekerlekli gövde ile taşıyın.\n4. Dar alanlarda el süpürgesi olarak kullanın.\n5. İşlem sonrası kablo ve hortumu saklayın.",
+      "when_to_use": "Araç içi detaylı temizlik, atölye ve depo temizliği, mobilya ve marin uygulamaları için kullanılır.",
+      "target_surface": "Araç koltukları, döşemeler, atölye zeminleri, toz ve kuru atıklar",
+      "why_this_product": "• 1200W güçlü motor\n• 6 litre geniş hazne\n• Omuz askısı + tekerlekli tasarım\n• 4 farklı başlık dahil\n• Kompakt ve taşınabilir"
+    },
+    "faq": [
+      {"question": "Akülü mü?", "answer": "Hayır, 1200W elektrikli modeldir."},
+      {"question": "481491 ile farkı nedir?", "answer": "Bu model kablolu elektrikli, 481491 kablosuz akülüdür. Bu model daha yüksek güç (1200W) sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["481491", "405418"]}
+  }
+}

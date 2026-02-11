@@ -1,0 +1,19 @@
+{
+  "sku": "3229",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Softy Peluş Nano Koruma Aplikatörü 2'li Paket", "brand": "KLIN", "barcode": null, "group": "applicators", "sub_type": "applicator_pad"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"quantity": "2 adet", "type": "Peluş aplikatör", "purpose": "Nano koruma uygulaması"},
+    "content": {
+      "how_to_use": "1. Nano koruma ürününü aplikatöre damlatın.\n2. İnce ve eşit tabaka halinde yüzeye yayın.\n3. Fazla ürün kullanmayın.",
+      "when_to_use": "Nano seramik kaplamalar, sealant ve ince koruma tabakası uygulamalarında kullanılır.",
+      "target_surface": "Boyalı yüzeyler, cam, tüm pürüzsüz yüzeyler",
+      "why_this_product": "• Peluş yumuşak doku\n• Eşit yayılım sağlar\n• 2'li ekonomik paket"
+    },
+    "faq": [{"question": "Seramik kaplama için uygun mu?", "answer": "Evet, nano seramik kaplamalar için idealdir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

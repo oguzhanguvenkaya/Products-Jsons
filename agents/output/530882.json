@@ -1,0 +1,23 @@
+{
+  "sku": "530882",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX İkili Makine, Akü, Pasta Duvar Askı Aparatı - Metal", "brand": "FLEX", "barcode": "4030293247222", "group": "storage_accessories", "sub_type": "wall_stand"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "Toz Boyalı Çelik", "capacity": "2 makine + akü + şarj cihazı + pasta/cila", "wall_mountable": true, "portable": false, "mounting_points": 6},
+    "content": {
+      "how_to_use": "1. 6 vida bağlantı noktasını kullanarak duvara monte edin.\n2. 2 polisaj makinesini kenar korumalı bölmelere yerleştirin.\n3. Akü ve şarj cihazını özel bölmelerine koyun.\n4. Küçük boy pasta/cila ürünlerini alt kısma yerleştirin.\n5. Kabloları düzenli şekilde sarın.",
+      "when_to_use": "Polisaj makineleri, akü, şarj cihazı ve pasta ürünlerini düzenli saklamak için kullanılır. Boyahane, detailing merkezi ve atölyelerde yer tasarrufu sağlar.",
+      "target_surface": "Duvar",
+      "why_this_product": "• 2 makine + akü + pasta kapasitesi\n• Kenar korumalı yapı - çizilmelere karşı koruma\n• 6 vida bağlantı noktası - sağlam sabitleme\n• Tüm FLEX ve diğer marka makinelerle uyumlu"
+    },
+    "faq": [
+      {"question": "Hangi makinelerle uyumlu?", "answer": "Tüm FLEX rotary ve orbital polisaj makineleri (PE, XCE, XFE serisi) ve diğer markalarla uyumludur."},
+      {"question": "Akü bölmesi dahil mi?", "answer": "Evet, akü, şarj cihazı ve ufak boy pasta ürünleri için özel bölmeler mevcuttur."},
+      {"question": "530883 ile farkı nedir?", "answer": "Bu model akü ve pasta bölmelerini de içerir, 530883 sadece makine tutucudur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["530883"]}
+  }
+}

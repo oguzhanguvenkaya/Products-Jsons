@@ -1,0 +1,40 @@
+{
+  "sku": "84170",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK MULTI TR 1 Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685000477",
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_lt": 1.0,
+      "nozzle_type": "Ayarlanabilir konik nozul",
+      "chemical_resistance": ["Dezenfektanlar", "pH nötr ürünler", "Alkoller"],
+      "content_identification": true,
+      "weight_net_g": 180
+    },
+    "content": {
+      "how_to_use": "1. Kimyasalı şişeye doldurun.\n2. Tetik başlığını sıkıca kapatın.\n3. Nozulu ayarlayarak ince sis veya jet atım seçin.\n4. Yüzeye 15-20 cm mesafeden püskürtün.\n5. Kullanım sonrası nozulu temiz tutun.",
+      "when_to_use": "İnşaat temizliğinde, dezenfeksiyon işlemlerinde, endüstriyel bakımda, otomotiv detailing ve HVAC uygulamalarında, küçük yüzeylerde ve dar alanlarda izole çalışmalarda kullanılır.",
+      "target_surface": "Küçük yüzeyler, dar alanlar, araç iç mekanı, HVAC ekipmanları, genel temizlik alanları",
+      "why_this_product": "• Ergonomik tetik tasarımı\n• Agresif kimyasallara dayanıklı malzeme\n• İçerik tanımlama sistemi (Kırmızı-Yeşil kart)\n• Seviye göstergeli yarı saydam hazne"
+    },
+    "faq": [
+      {"question": "Hangi kimyasallarla uyumlu?", "answer": "Dezenfektanlar, pH nötr ürünler ve alkollerle uyumludur. Seyreltilmiş asitler (%5'e kadar) sınırlı kullanılabilir."},
+      {"question": "Alkali ve ketonlarla kullanılabilir mi?", "answer": "Hayır, alkali ve ketonlar için uygun değildir. Bu kimyasallar için IK ALK serisi önerilir."},
+      {"question": "İçerik tanımlama sistemi nedir?", "answer": "Kırmızı ve yeşil kartlar ile şişe içeriğini tanımlayabilir, farklı kimyasalları kolayca ayırt edebilirsiniz."},
+      {"question": "Köpük yapıcı mı?", "answer": "Hayır, bu bir sıvı püskürtücüdür. Köpük için IK FOAM serisi önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["84177", "84173"]}
+  }
+}

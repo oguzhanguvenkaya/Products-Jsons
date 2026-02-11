@@ -1,0 +1,23 @@
+{
+  "sku": "487953",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX XCE/XFE Orbital Polisaj Makineleri Uyumlu Velcro Taban 125mm", "brand": "FLEX", "barcode": "4030293219526", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 125, "compatible_device": ["FLEX XCE", "FLEX XFE"], "attachment_type": "Velcro", "material": "Esnek PU"},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın ve fişten çekin.\n2. Eski tabanlığı sökün (3 vida).\n3. Yeni tabanlığı kutu içindeki vidalarla monte edin.\n4. Sıkıca vidalayın.\n5. Test çalıştırması yaparak salınım kontrolü yapın.",
+      "when_to_use": "Mevcut tabanlık aşındığında, cırt yüzeyi zayıfladığında veya titreşim arttığında yedek tabanlık değişimi yapılmalıdır.",
+      "target_surface": "FLEX XCE ve XFE orbital polisaj makineleri",
+      "why_this_product": "• XCE/XFE makinelerle %100 uyum\n• Esnek PU malzeme - titreşim azaltır\n• Güçlü Velcro yüzey\n• 10 mm yükseklik - stabil polisaj"
+    },
+    "faq": [
+      {"question": "Hangi makinelerle uyumlu?", "answer": "FLEX XFE 7-15 125, XCE 8 125 18.0-EC ve XCE 10-8 125 modelleri ile uyumludur."},
+      {"question": "Kutu içeriğinde ne var?", "answer": "1 adet velcro tabanlık ve 3 adet montaj vidası içerir."},
+      {"question": "150mm pedler takılır mı?", "answer": "Hayır, bu 125mm tabanlıktır. 150mm pedler için 487988 kodlu tabanlığı kullanın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["487988"]}
+  }
+}

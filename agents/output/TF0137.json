@@ -1,0 +1,43 @@
+{
+  "sku": "TF0137",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Kurutma Makinesi Vanilya Koku Kapsülü 2'li Paket",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186840101",
+    "group": "fragrance",
+    "sub_type": "laundry_scent"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Vanilya (Vanilla Blossom)",
+      "quantity": 2,
+      "uses_per_capsule": 20,
+      "total_uses": 40,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Tumble Fresh"
+    },
+    "content": {
+      "how_to_use": "1. Kapsülü ambalajından çıkarın.\n2. Kurutma makinesine, doğrudan tambur içine yerleştirin.\n3. Çamaşırlarınızla birlikte standart programda çalıştırın.\n4. Kapsül etkisi her kurutmada kademeli olarak azalır.\n5. 20 kurutma sonunda yeni kapsül ile değiştirin.",
+      "when_to_use": "Çamaşırlarınıza sıcak ve rahatlatıcı bir vanilya kokusu katmak istediğinizde kullanın. Her kurutma döngüsünde aktif hale gelir.",
+      "target_surface": "Kurutma makinesi tamburu, tüm çamaşır türleri",
+      "why_this_product": "• Türkiye'de türünün ilk örneği\n• Her bir kapsül 20 kurutmaya kadar etkili\n• Tatlı vanilya ve çiçeksi notalar\n• Ekstra çamaşır spreyi gerektirmez"
+    },
+    "faq": [
+      {"question": "Little Joe Koku Kapsülü nasıl çalışır?", "answer": "Kurutma döngüsünde ısı ile aktif hale gelir ve çamaşırlara kalıcı koku bırakır."},
+      {"question": "Vanilya kokusu nasıl?", "answer": "Tatlı vanilya, kremsi sıcaklık ve çiçeksi ferahlıkla harmanlanmış yumuşak bir aroma."},
+      {"question": "Kaç kurutma boyunca etkili?", "answer": "Her kapsül 20 kurutmaya kadar etkilidir, 2'li pakette toplam 40 kurutma."},
+      {"question": "Hassas ciltler için uygun mu?", "answer": "Evet, toksik ve alkol içermeyen formülü hassas ciltlere uygundur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["TF1138", "TF2136"]}
+  }
+}

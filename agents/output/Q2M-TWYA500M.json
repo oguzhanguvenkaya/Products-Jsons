@@ -1,0 +1,44 @@
+{
+  "sku": "Q2M-TWYA500M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM TowelWash Mikrofiber Bez Havlu Eldiven Keçe Ped Yıkama Şampuanı - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661427",
+    "group": "car_shampoo",
+    "sub_type": "towel_wash"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "7 (Nötr)",
+      "softener_free": true,
+      "fragrance_free": true,
+      "dye_free": true,
+      "low_foam": true,
+      "biodegradable": true,
+      "max_wash_temp": 40,
+      "consumption_ml_per_wash": 30,
+      "washes_per_bottle": 16
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Bez ve pedleri çırparak gevşek artıkları uzaklaştırın.\n2. Dozaj: Standart suda 30 ml, yumuşak suda 10 ml ürünü deterjan gözüne dökün.\n3. Makine Yıkama: 30-40°C, düşük devir (1000 rpm altı) program seçin.\n4. Durulama: Ek durulama gerekmez; formül kalıntı bırakmaz.\n5. Kurutma: Havada asarak veya düşük ısıda tamburlayarak kurutun; yumuşatıcı kullanmayın.",
+      "when_to_use": "Mikrofiber bezlerin, polisaj pedlerinin, yün eldivenlerin ve detailing aksesuarlarının bakımında kullanılır.",
+      "target_surface": "Mikrofiber bez, kurulama havlusu, yıkama eldiveni, polisaj pedi, keçe, aplikatör",
+      "why_this_product": "• Sıfır yumuşatıcı, koku ve boya; kalıntı bırakmaz\n• Wax, yağ ve pasta artıklarını çözer\n• %100 biyolojik olarak parçalanabilir\n• Düşük köpük teknolojisi HE makinelerde sorunsuz durulama sağlar"
+    },
+    "faq": [
+      {"question": "Normal çamaşır deterjanı yerine neden TowelWash kullanmalıyım?", "answer": "Klasik deterjanlardaki yumuşatıcılar ve parfümler lif gözeneklerini tıkar, emiciliği düşürür; TowelWash kalıntı bırakmadan temizler."},
+      {"question": "Sıcak suyla yıkayabilir miyim?", "answer": "40°C üzeri sıcaklık poliamid lifleri bozabilir; maksimum 40°C kullanın."},
+      {"question": "Yün eldivenlerde güvenli mi?", "answer": "Evet, nötr pH sayesinde doğal yün liflerine zarar vermez."},
+      {"question": "Renkli mikrofiberlerde solma yapar mı?", "answer": "Boya içermediği için renk atmasına veya lekelenmeye neden olmaz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["701422"]}
+  }
+}

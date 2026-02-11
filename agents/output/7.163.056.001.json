@@ -1,0 +1,29 @@
+{
+  "sku": "7.163.056.001",
+  "last_updated": "2026-02-04T15:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Menzerna P14F Orta Kesici Katı Cila Beyaz Alüminyum Pirinç Paslanmaz Tek Adım Parlatıcı – 1300 Gr",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "industrial_products",
+    "sub_type": "interior_detailer"
+  },
+  "notes": {"sub_type_review": "Template'de 'interior_detailer' olarak işaretli. Doğrusu 'solid_compound' veya 'metal_polish' olmalı."},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:00:00Z",
+    "template_fields": {"type": "Orta Kesici Katı Cila (Tek Adım)", "color": "Beyaz", "weight": "1300 gr", "target_material": ["Alüminyum", "Pirinç", "Paslanmaz çelik", "Tüm metaller"]},
+    "content": {
+      "how_to_use": "1. Parlatma keçesi veya fırçayı hazırlayın.\n2. Katı cilayı dönen yüzeye sürün.\n3. Metal yüzeyi tek aşamada parlatın.\n4. Pürüzsüz ve homojen sonuç elde edin.",
+      "when_to_use": "Tüm metal yüzeylerde tek aşamada kesim ve parlaklık için kullanılır. Çizik, fırça izi, zımpara izi ve oksidasyonu giderir.",
+      "target_surface": "Alüminyum, pirinç, paslanmaz çelik, tüm metal yüzeyler",
+      "why_this_product": "• Tek adımda mükemmel sonuç\n• Geniş metal uyumu\n• Kesim + parlaklık tek üründe\n• Pürüzsüz ve homojen yüzey"
+    },
+    "faq": [
+      {"question": "Tek adım yeterli mi?", "answer": "Evet, çoğu metal uygulamasında tek adımda kesim ve parlaklık sağlar."},
+      {"question": "Hangi kusurları giderir?", "answer": "Çizikler, fırça izleri, zımpara izleri, oksidasyon ve diğer yüzey hasarları."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

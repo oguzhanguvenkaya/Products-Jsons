@@ -1,0 +1,59 @@
+{
+  "sku": "20144.261.001",
+  "product_name": "Menzerna Likit Matlaştırıcı Pasta - 1 Lt",
+  "barcode": "20144.261.001",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:39:42.023Z",
+  "sources": [
+    {
+      "url": "https://www.killerbrands.co.uk/products/menzerna-liquid-matt-1-litre",
+      "domain": "killerbrands.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Liquid Matt Fluid Sanding Cream - 1 Litre",
+      "content_length": 8733,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/menzerna-liquid-matt.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Liquid Matt | Sanding Polishing Car Abrasive Heavy Compound",
+      "content_length": 13120,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://motorsportandspares.com/products/menzerna-liquid-matt-1-litre",
+      "domain": "motorsportandspares.com",
+      "language": "en",
+      "page_title": "Menzerna Liquid Matt - 1 Litre",
+      "content_length": 10518,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Menzerna-M10/Liquid-Matt-Surface-Prep-P868/1-L-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gtechniq C4 Permanent Trim Restorer - 15 ml - Detailed Image",
+      "content_length": 15413,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

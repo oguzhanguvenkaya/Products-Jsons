@@ -1,0 +1,32 @@
+{
+  "version": "2.0",
+  "last_updated": "2026-02-04T13:10:00Z",
+  "total_failed": 0,
+  "total_partial": 0,
+
+  "failed": [],
+  "partial": [],
+
+  "recovery_queue": [],
+
+  "schema_reference": {
+    "failed_entry": {
+      "sku": "string - ürün kodu",
+      "timestamp": "ISO8601 - hata zamanı",
+      "phase": "scraping | enriching | relations",
+      "error_type": "token_limit | timeout | parse_error | validation_error | url_failure | unknown",
+      "error_message": "string - hata detayı",
+      "retry_count": "number - kaç kez denendi",
+      "can_retry": "boolean - tekrar denenebilir mi",
+      "last_output_file": "string | null - kısmi çıktı varsa dosya yolu"
+    },
+    "partial_entry": {
+      "sku": "string - ürün kodu",
+      "timestamp": "ISO8601 - durma zamanı",
+      "completed_phases": "array - tamamlanan fazlar",
+      "current_phase": "string - durduğu faz",
+      "output_file": "string - mevcut çıktı dosyası",
+      "resume_instructions": "string - devam etmek için yapılacaklar"
+    }
+  }
+}

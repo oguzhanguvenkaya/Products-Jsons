@@ -1,0 +1,99 @@
+{
+  "sku": "Q2M-GP120M",
+  "last_updated": "2026-02-04T13:30:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "GYEON QM Glass Polish Cam Pastası - 120 ml",
+    "brand": "GYEON",
+    "barcode": "8809973750415",
+    "group": "abrasive_polish",
+    "sub_type": "glass_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:30:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "GYEON Q²M Glass Polish, her türlü otomotiv cam yüzeyinde bulunan inatçı lekeleri, su kireç izlerini, bulanıklığı, hafif silecek izlerini ve çizikleri etkili bir şekilde gidermek için tasarlanmış, kullanımı kolay bir cam pastası ve temizleyicisidir. Cam yüzeylerin saydamlığını ve optik netliğini artırırken, aynı zamanda parlak bir bitiş sunar. Özel formülü, sadece cam temizliği yapmakla kalmaz, aynı zamanda içerdiği aktif bileşenler sayesinde Gyeon cam su kaydırıcı kaplamaları için mükemmel bir yüzey hazırlayıcı ve bağlayıcı görevi görür.",
+        "extracted_specs": {
+          "target_surface": "Glass",
+          "cut_level": 1,
+          "cleaning_power": 10,
+          "dusting_level": "Very Low"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Cam leke giderme", "Su kireç izleri temizleme", "Silecek izi giderme", "Cam kaplama öncesi hazırlık"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "target_surface": "Glass",
+        "cut_level": 1,
+        "cleaning_power": 10,
+        "dusting_level": "Very Low",
+        "machine_compatibility": ["rotary", "orbital", "hand"]
+      },
+      "content": {
+        "use_cases": ["Cam leke giderme", "Kireç izi temizleme", "Silecek izi giderme", "Cam kaplama hazırlığı"],
+        "benefits": ["Etkili leke giderme", "Bağlayıcı ajan içerir", "Düşük tozlanma", "Elle veya makineyle kullanım"]
+      },
+      "faq": [],
+      "related_products": ["GYEON Q² QuickView", "GYEON Q² View EVO"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:30:00Z",
+    "template_fields": {
+      "target_surface": "Glass",
+      "cut_level": 1,
+      "cleaning_power": 10,
+      "machine_compatibility": ["rotary", "orbital", "hand"],
+      "dusting_level": "Very Low",
+      "function": "Glass Cleaning & Preparation"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Cam yüzeyini kaba kirlerden arındırın. Kuru ve serin olduğundan emin olun.\n2. Uygulama Yöntemi: Elle veya polisaj makinesi ile kullanılabilir.\n   - Elle: Aplikatör veya yumuşak bez üzerine ürün alın\n   - Makine: Küçük cam polisaj pedi kullanın (düşük devir)\n3. Ürün Miktarı: Az miktarda ürün yeterlidir.\n4. Çalışma: Dairesel veya düz hareketlerle cam yüzeyinde çalışın.\n5. Leke Odaklı: İnatçı lekelerde daha yoğun çalışın.\n6. Temizlik: Temiz mikrofiber cam bezi ile kalıntıları silin.\n7. Kaplama Hazırlığı: Cam kaplama uygulanacaksa yüzeyin tamamen temiz olduğundan emin olun.",
+      "when_to_use": "Otomotiv cam yüzeylerinde inatçı su kireç izleri, mineral birikintileri ve bulanıklık varsa kullanılır. Hafif silecek izlerini ve çizikleri gidermek için de etkilidir. GYEON Q² QuickView veya Q² View EVO gibi cam kaplamaları öncesi mükemmel yüzey hazırlığı sağlar. Camların saydamlığını ve optik netliğini artırmak isteyen herkes için idealdir.",
+      "target_surface": "Otomotiv ön cam, yan camlar, arka cam (renkli/filmli camlar hariç)",
+      "why_this_product": "• Maksimum temizleme gücü - inatçı kireç ve su izlerini zahmetsizce giderir.\n• Cam kaplama için bağlayıcı ajan içerir - kaplama tutunmasını artırır.\n• Çok yönlü kullanım - elle veya makineyle uygulanabilir.\n• Düşük tozlanma - temiz çalışma ortamı.\n• Optik netlik artışı - camların saydamlığını yükseltir."
+    },
+    "faq": [
+      {
+        "question": "Renkli veya filmli camlarda kullanılabilir mi?",
+        "answer": "Hayır, renkli veya cam filmi bulunan yüzeylerde kullanılması önerilmez. Sadece şeffaf dış cam yüzeylerde kullanılmalıdır."
+      },
+      {
+        "question": "Cam kaplama öncesi mutlaka kullanmalı mıyım?",
+        "answer": "GYEON Q² QuickView veya Q² View EVO gibi cam kaplamaları öncesi kesinlikle önerilir. Bağlayıcı ajan içerdiğinden kaplamanın yüzeye daha iyi tutunmasını sağlar."
+      },
+      {
+        "question": "Derin çizikleri giderir mi?",
+        "answer": "Sadece hafif silecek izleri ve yüzeysel çizikleri giderir (1/10 kesim gücü). Derin çizikler için profesyonel cam onarımı gerekebilir."
+      },
+      {
+        "question": "Elle mi makineyle mi daha iyi sonuç alırım?",
+        "answer": "Her iki yöntem de etkilidir. Küçük alanlar ve hafif lekeler için elle uygulama yeterlidir. Geniş alanlar ve inatçı lekeler için polisaj makinesi ile daha hızlı sonuç alırsınız."
+      },
+      {
+        "question": "Ne sıklıkla kullanmalıyım?",
+        "answer": "Kireç ve leke birikimi durumuna göre değişir. Genellikle 3-6 ayda bir veya cam kaplama yenileme öncesi kullanılması önerilir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

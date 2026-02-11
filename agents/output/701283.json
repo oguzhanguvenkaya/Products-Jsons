@@ -1,0 +1,72 @@
+{
+  "sku": "701283",
+  "last_updated": "2026-02-04T14:10:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER WC KEM Taşınabilir Tuvaletler, Karavanlar ve Tekneler İçin Gider Temizleyici ve Açıcı – 1 Lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486816798",
+    "group": "marin_products",
+    "sub_type": "interior_detailer"
+  },
+  "notes": {
+    "sub_type_review": "Template'de 'interior_detailer' olarak işaretli. Doğrusu 'toilet_cleaner' veya 'sanitation_product' olmalı - bu tuvalet temizleyici ve gider açıcı."
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:10:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr"
+      }
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:10:00Z",
+    "template_fields": {
+      "function": "Toilet Cleaner & Digestant",
+      "concentration": "Konsantre",
+      "volume": "1000 ml",
+      "dosage": "75 ml / 10 lt tank kapasitesi",
+      "eco_friendly": true,
+      "harmful_ingredients_free": ["Formaldehit", "Fosfat", "EDTA", "NTA"],
+      "target_use": ["Portatif tuvaletler", "Karavanlar", "Tekneler", "Otobüsler", "Trenler"]
+    },
+    "content": {
+      "how_to_use": "1. Dozaj: Her 10 litre atık tankı kapasitesi için 75 ml WC Kem ekleyin.\n2. Su Ekleme: Ardından 2 litre temiz su ilave ederek homojen dağılım sağlayın.\n3. Kullanım: Ürünü seyreltmeden, doğrudan kullanın.\n4. Periyodik Uygulama: Her boşaltım sonrası veya düzenli aralıklarla uygulayın.",
+      "when_to_use": "Portatif tuvaletler, karavanlar, motokaravanlar, tekneler ve kimyasal atık tuvaletlerde atık parçalama, koku giderme ve gider açma için kullanılır.",
+      "target_surface": "Ev tipi tuvaletler, portatif tuvalet kabinleri, karavan/motokaravan tuvaletleri, tekne tuvaletleri, otobüs/tren tuvaletleri",
+      "why_this_product": "• Parçalayıcı ve ayrıştırıcı - katı atık ve tuvalet kağıdını hızla çözer\n• Koku ve gaz oluşumunu minimuma indirir\n• Konsantre formül - her damladan maksimum verim\n• Formaldehit içermez - güvenli kullanım\n• Geniş kullanım alanı - tüm kimyasal tuvalet sistemleri"
+    },
+    "faq": [
+      {
+        "question": "Dozaj oranı nedir?",
+        "answer": "Her 10 litre tank kapasitesi için 75 ml WC Kem kullanın. Ardından 2 litre temiz su ekleyin."
+      },
+      {
+        "question": "Seyreltmek gerekiyor mu?",
+        "answer": "Hayır, ürünü doğrudan seyreltmeden kullanın. Konsantre formüldür, maksimum etki için saf kullanılmalıdır."
+      },
+      {
+        "question": "Tıkanmayı önler mi?",
+        "answer": "Evet, atık maddeleri ve tuvalet kağıdını hızla çözerek giderlerin açık kalmasını sağlar ve tıkanma riskini azaltır."
+      },
+      {
+        "question": "Formaldehit içeriyor mu?",
+        "answer": "Hayır, formaldehit, fosfat, EDTA ve NTA içermeyen çevre dostu bir formüle sahiptir."
+      },
+      {
+        "question": "Ne sıklıkla kullanmalıyım?",
+        "answer": "En iyi sonuç için her boşaltım sonrası veya düzenli periyotlarla (haftada 1-2 kez yoğun kullanımda) uygulayın."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

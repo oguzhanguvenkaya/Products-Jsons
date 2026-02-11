@@ -1,0 +1,35 @@
+{
+  "sku": "22200.261.001",
+  "product_name": "Menzerna Heavy Cut Compound 400 Green Line 1 Lt",
+  "barcode": "22200.261.001",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:38:32.817Z",
+  "sources": [
+    {
+      "url": "https://www.menzerna.com/car-care/car-polish/products/details/heavy-cut-compound-400-green-line",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Heavy Cut Compound 400 GREEN LINE",
+      "content_length": 9453,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Menzerna-M10/Fast-Gloss-400-Compound-P688/8-oz-S2/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Menzerna Heavy Cut Compound 400 - 8 oz - Detailed Image",
+      "content_length": 18895,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

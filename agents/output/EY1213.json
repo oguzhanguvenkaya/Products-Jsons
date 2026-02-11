@@ -1,0 +1,44 @@
+{
+  "sku": "EY1213",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Little Joya Bahar Araç Kokusu (Springtime)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186840552",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Bahar Çiçekleri",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 9.7,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "3D Joya Figürü",
+      "collection": "Little Joya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Baharın tazeliğini ve çiçeklerin zarif kokusunu yaşamak isteyenler için idealdir. İlkbaharın neşesi ve enerjisini taşır.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Zarif 3D Joya figürü tasarımı\n• Bahar çiçeklerinin taze ve zarif aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Little Joya serisi nedir?", "answer": "Zarif 3D Joya figürü tasarımına sahip, estetik ve işlevsel araç kokusu serisi."},
+      {"question": "Bahar kokusu nasıl?", "answer": "Çiçeklerin büyüleyici ve hafif aromasıyla taze ve canlı bir atmosfer yaratır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Hangi çiçekler var?", "answer": "İlkbahar çiçeklerinin genel zarif ve ferah kokusunu yansıtır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF1313", "IY1401", "EY2409"]}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sku": "73575",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Mega Conc Shiuma Güçlü Ön Yıkama Köpüğü (1:80 Konsantre) - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486734856",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "application_area": "Ağır Vasıta / Otomobil",
+      "grease_remover": true,
+      "dilution_manual": "1:50 (kaporta), 1:10 (jant)",
+      "self_service_ml_per_car": "80-160",
+      "volume_kg": 25
+    },
+    "content": {
+      "how_to_use": "1. Manuel Uygulama: Kaporta için 1:50 (%2), jantlar için 1:10 (%9) seyreltme.\n2. Self-servis Sistemler: Araç başı 80-160 ml kullanın.\n3. Aracın tamamına uygulayın, 1-2 dk bekletin.\n4. Yüksek basınçlı suyla iyice durulayın.",
+      "when_to_use": "Otomobil, kamyon ve endüstriyel taşıtların yoğun kirli dış yüzeylerinin temizliğinde, yağ ve gres birikimlerinin giderilmesinde kullanılır.",
+      "target_surface": "Otomobil, kamyon, endüstriyel taşıtlar, jant, motor",
+      "why_this_product": "• Yüksek köpüklü konsantre formül\n• Çift katmanlı etki - yüzeyde köpük bariyeri oluşturur\n• Yağ ve gres tabakalarını hızla çözer\n• 1:80 konsantre - ekonomik kullanım"
+    },
+    "faq": [
+      {"question": "Ağır vasıtalarda ne oranda kullanmalıyım?", "answer": "Kamyon ve TIR için 1:35 oranı önerilir, yoğun kirde 1:10'a kadar artırılabilir."},
+      {"question": "Jant temizliği için uygun mu?", "answer": "Evet, 1:10 oranında seyreltilerek jant ve motor temizliğinde etkili sonuç verir."},
+      {"question": "Self-servis sistemlerde nasıl kullanılır?", "answer": "Araç başı 80-160 ml hesabıyla sisteme entegre edilir."},
+      {"question": "Boyaya zarar verir mi?", "answer": "Doğru seyreltme oranlarında kullanıldığında boyaya zarar vermez."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "sku": "26900.224.010",
+  "product_name": "Menzerna Heavy Cut Premium Kırmızı Pasta Süngeri 150mm",
+  "barcode": "26900.224.010",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:34:17.489Z",
+  "sources": [
+    {
+      "url": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/heavy-cut-foam-pad",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Heavy Cut Foam Pad",
+      "content_length": 7409,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://intercash.pro/en/menzerna/5478-menzerna-foam-pad-heavy-cut-diam-150-mm-4260063012280.html",
+      "domain": "intercash.pro",
+      "language": "en",
+      "page_title": "Menzerna Foam Pad Heavy Cut - diam 150 mm",
+      "content_length": 42111,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/menzerna-heavy-cut-foam-pad-red.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Heavy Cut Foam Car Machine Polishing Pad Red",
+      "content_length": 13086,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.springriver.eu/menzerna-heavy-cut-foam-pad-150mm.html",
+      "domain": "springriver.eu",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.carcare24.eu/en/menzerna-heavy-cut-polishing-foam-pad-red-150mm.html",
+      "domain": "carcare24.eu",
+      "language": "en",
+      "page_title": "MENZERNA HEAVY CUT POLISHING FOAM PAD RED 150MM",
+      "content_length": 8487,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

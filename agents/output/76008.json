@@ -1,0 +1,22 @@
+{
+  "sku": "76008",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Toglimoscerini Sinek Böcek Sökücü Sprey - 750 ml", "brand": "FRA-BER", "barcode": "8027486758371", "group": "contaminant_solvers", "sub_type": "bug_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Sinek / Kuş Pisliği", "ph_level": "Alkali (10.5)", "features": "Protein bazlı kirleri çözer", "volume_ml": 750, "ready_to_use": true},
+    "content": {
+      "how_to_use": "1. Yüzeye eşit şekilde püskürtün.\n2. Birkaç saniye bekletin.\n3. Su ile durulayın.\n4. Kurumuş böcekler için yüksek basınçlı su ve/veya bir sünger kullanın.",
+      "when_to_use": "Uzun yol sonrası tampon, ayna ve farlardaki sinek ve böcek kalıntılarını temizlemek için kullanılır.",
+      "target_surface": "Boya, krom, plastik parçalar",
+      "why_this_product": "• Zararlı kimyasallar kullanmadan etkili temizlik\n• Boyaya, kromaja ve plastiğe zarar vermez\n• Hem profesyonel hem bireysel kullanıma uygun"
+    },
+    "faq": [
+      {"question": "Boyaya zarar verir mi?", "answer": "Hayır, özel olarak boya, krom ve plastiğe zarar vermeyecek şekilde formüle edilmiştir."},
+      {"question": "Kurumuş sinekler için nasıl kullanılır?", "answer": "Yüksek basınçlı su ve/veya yumuşak sünger ile birlikte kullanarak kurumuş kalıntıları temizleyebilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-BGYA500M", "Q2M-BGYA1000M"]}
+  }
+}

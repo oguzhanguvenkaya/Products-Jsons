@@ -1,0 +1,23 @@
+{
+  "sku": "509248",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX BP-M D50 - PXE 80 İçin Cırtlı Tabanlık 50 mm / 2 inc", "brand": "FLEX", "barcode": "4030293232761", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 50, "compatible_device": ["FLEX PXE 80"], "attachment_type": "Velcro", "material": "PU", "hardness": "Orta"},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın.\n2. Eski tabanlığı döndürerek sökün.\n3. Yeni BP-M D50 tabanlığı özel dişli yuvasına takın.\n4. Sıkıca vidalayın.\n5. Uygun 2 inç pedi takarak test edin.",
+      "when_to_use": "Dar ve orta ölçekli yüzeylerde hassas polisaj için kullanılır. PXE 80 kutu setinde bulunmaz, ekstra yedek parça olarak temin edilir.",
+      "target_surface": "FLEX PXE 80 nano polisaj makinesi",
+      "why_this_product": "• Sadece PXE 80 ile tam uyum\n• 50mm (2 inç) orta boyut\n• Orta sertlikte PU yapı\n• Detaylı ve orta ölçekli alanlar için ideal"
+    },
+    "faq": [
+      {"question": "PXE 80 set içeriğinde var mı?", "answer": "Hayır, bu tabanlık harici olarak satılır. Kutu setinde farklı boyutlar bulunur."},
+      {"question": "30mm ve 75mm'den farkı nedir?", "answer": "50mm orta boyutuyla hem dar hem de biraz daha geniş alanlarda çalışma esnekliği sunar."},
+      {"question": "Uyumlu ped boyutu nedir?", "answer": "2 inç (50-55mm) çapındaki mini polisaj pedleri ile kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["492353", "492361"]}
+  }
+}

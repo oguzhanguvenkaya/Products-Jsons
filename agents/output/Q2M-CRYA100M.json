@@ -1,0 +1,46 @@
+{
+  "sku": "Q2M-CRYA100M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "sub_type_issue": {
+    "flagged": true,
+    "current_group": "ceramic_coating",
+    "current_sub_type": "single_layer_coating",
+    "suggested_group": "paint_protection",
+    "suggested_sub_type": "spray_sealant",
+    "reason": "Bu ürün bir seramik kaplama DEĞİL, seramik bakım spreyi / nano ciladır."
+  },
+  "product_info": {
+    "title": "GYEON QM Cure REDEFİNED Araç Boya Koruma Ve Bakım Spreyi - 100 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661212",
+    "group": "ceramic_coating",
+    "sub_type": "single_layer_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_weeks": 6,
+      "application_method": "Sprey",
+      "sio2_content": "Yüksek",
+      "consumption_ml_per_car": 30
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyin toz ve kirden arındırılmış olduğunu kontrol edin.\n2. Mikrofiber bez üzerine 2-3 fıs sıkın.\n3. Dairesel veya düz geçişlerle ince film oluşturun.\n4. Kuru bezin temiz yüzeyiyle parlaklık çıkana dek hafifçe silin.\n5. Islak seçenek: Durulama sonrası ıslak panele 1 fıs sıkın, SilkDryer ile kurulayın.",
+      "when_to_use": "Taze seramik kaplama stabilizasyonu, haftalık bakım detayı veya kaplamasız araçlarda hızlı nano koruma için kullanılır.",
+      "target_surface": "Boya, jant, cam, plastik trim",
+      "why_this_product": "• SiO² destekli formül - gerçek nano koruma\n• 6 hafta koruma ekler\n• Su lekesi riskini azaltır\n• Islak veya kuru yüzeyde uygulanabilir"
+    },
+    "faq": [
+      {"question": "Uygulama sonrası yağmur yağarsa ne olur?", "answer": "1 saat içinde ıslanmazsa tam bağlanır; erken ıslanırsa paneli kurutup yeniden uygulayın."},
+      {"question": "Wax veya sealant üzerinde kullanabilir miyim?", "answer": "Evet; mevcut korumayı bozmaz, ekstra kayganlık ekler."},
+      {"question": "Ne sıklıkla yenilemeliyim?", "answer": "4-6 haftada bir veya hidrofobinin zayıfladığını gördüğünüzde."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

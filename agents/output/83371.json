@@ -1,0 +1,45 @@
+{
+  "sku": "83371",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Pompa 12 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102249",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 15,
+      "capacity_usable_lt": 12,
+      "max_pressure_bar": 6.0,
+      "hose_length_m": 4.0,
+      "tank_material": "INOX (Paslanmaz Çelik)",
+      "nozzle_type": "Konik ve yelpaze nozul",
+      "pressure_gauge": true,
+      "safety_valve": true,
+      "chemical_resistance": ["Alkol bazlı çözeltiler", "Seyreltilmiş asitler", "pH nötr"],
+      "weight_net_kg": 5.0
+    },
+    "content": {
+      "how_to_use": "1. Kayma sıvısı veya slip çözeltisini hazneye doldurun (max 12L).\n2. Manuel pompalama ile basınçlandırın (manometre ile 6 bar'a kadar).\n3. Konik veya yelpaze nozulu ihtiyaca göre seçin.\n4. 4 metre spiral hortum ile geniş alanlarda rahatça çalışın.\n5. Uzun süreli perde şeklinde püskürtme ile folyo uygulayın.\n6. Kullanım sonrası pompayı boşaltıp temiz su ile durulayın.",
+      "when_to_use": "PPF (boya koruma filmi), cam filmi, araç kaplama (wrapping) ve otomotiv detaylandırma uygulamalarında kullanılır.",
+      "target_surface": "PPF folyo, cam filmi, araç kaplamaları, geniş cam yüzeyleri",
+      "why_this_product": "• INOX paslanmaz çelik gövde ile maksimum dayanıklılık\n• 12 litre kapasite - uzun süreli kesintisiz çalışma\n• Manometre ile hassas basınç kontrolü\n• 4 metre spiral hortum - geniş hareket kabiliyeti\n• 6 bar emniyet valfi ile güvenli profesyonel kullanım"
+    },
+    "faq": [
+      {"question": "PPF uygulamasında neden tercih edilmeli?", "answer": "12 litre kapasite, basınç kaybı olmadan sürekli püskürtme ve INOX gövde ile profesyonel PPF uygulamalarında ideal performans sağlar."},
+      {"question": "Hangi kimyasallarla uyumlu?", "answer": "Alkol bazlı çözeltiler, %5'e kadar seyreltilmiş asidik sıvılar ve pH nötr ürünlerle uyumludur."},
+      {"question": "Hortum uzunluğu yeterli mi?", "answer": "Standart 4 metre spiral hortum gelir. Opsiyonel olarak 6 metre düz hortum aksesuarı da mevcuttur."},
+      {"question": "Manometre ne işe yarar?", "answer": "Çalışma basıncını anlık olarak gösterir, böylece optimum ve güvenli basınçta çalışabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

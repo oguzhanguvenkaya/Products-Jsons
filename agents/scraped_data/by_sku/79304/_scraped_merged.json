@@ -1,0 +1,83 @@
+{
+  "sku": "79304",
+  "product_name": "Fraber Innovacar Innovacar H2O Coat Anlık Hidrofobik Güçlendirici 1l",
+  "barcode": "79304",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:15:41.707Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/innovacar-h2o-coat",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "INNOVACAR H2O Coat 1L | CARZILLA",
+      "content_length": 7970,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://rentek.ie/products/innovacar-ds-scale-1l-copy-1",
+      "domain": "rentek.ie",
+      "language": "en",
+      "page_title": "InnovaCar H20 Coat 1L ( 79304 )\n &ndash; RenTek Distribution",
+      "content_length": 21164,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailingmania.lv/en/products/innovacar-h2o-coat-1l---nano-wax-water-repellent",
+      "domain": "detailingmania.lv",
+      "language": "en",
+      "page_title": "Making sure you&#39;re not a bot!",
+      "content_length": 1449,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://h2oautodetailsupply.com/products/innovacar-h2o-coat",
+      "domain": "h2oautodetailsupply.com",
+      "language": "en",
+      "page_title": "INNOVACAR H2O COAT &ndash; H2O AUTO DETAIL SUPPLY",
+      "content_length": 22302,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autopia.ie/product/innovacar-h20-coat/",
+      "domain": "autopia.ie",
+      "language": "en",
+      "page_title": "Autopia Professional Detailing Products",
+      "content_length": 6961,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://thehouseofrags.com/products/h2o-coat",
+      "domain": "thehouseofrags.com",
+      "language": "en",
+      "page_title": "INNOVACAR H2O COAT &ndash; The House Of Rags",
+      "content_length": 21170,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

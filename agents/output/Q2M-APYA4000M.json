@@ -1,0 +1,41 @@
+{
+  "sku": "Q2M-APYA4000M",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM APC Çok Amaçlı Genel Yüzey Temizleyici - 4000 ml -Konsantre Leke Çıkarıcı Yağ Çözücü",
+    "brand": "GYEON",
+    "barcode": "8683492661151",
+    "group": "interior_cleaner",
+    "sub_type": "interior_apc"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Plastik", "Vinil", "Kumaş", "Kauçuk", "Metal"],
+      "concentrate": true,
+      "dilution_ratio": "1:15 - 1:1",
+      "ph_level": 12,
+      "consumption": "150 ml/araç",
+      "volume_ml": 4000
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi soğutun ve gevşek kirleri durulayın.\n2. Göreve uygun seyreltme oranı seçin (iç trim 1:15, motor 1:5, ağır kir 1:1).\n3. Sprey veya köpük aparatıyla yüzeye püskürtün.\n4. Detay fırçası veya Q²M Brush ile hafifçe fırçalayın.\n5. Maks. 1-2 dk bekletin, kurumasına izin vermeyin.\n6. Basınçlı suyla durulayın veya nemli bezle silin.\n7. Gerekirse işlemi tekrarlayın.",
+      "when_to_use": "Motor bölmesi yağ temizliğinde, çamurluk ve teker kemeri temizliğinde, plastik iç trimlerde nikotin ve leke gidermede, kumaş koltuk ve paspaslarda nokta temizliğinde, jant ve lastik ön yıkamasında kullanılır.",
+      "target_surface": "Motor bölmesi, plastik trimler, vinil yüzeyler, kumaş döşemeler, kauçuk contalar, jant, lastik, metal aksam",
+      "why_this_product": "• Esnek seyreltme - 1:15'ten 1:1'e kadar göreve özel ayarlanabilir güç\n• Profesyonel boy - 4000 ml ile 260+ litre hazır çözelti elde edilir\n• Çok yönlü kullanım - iç ve dış tüm yüzeylerde tek şişe çözümü\n• Kaplama dostu - aroma ve boya içermez, kalıntı bırakmaz"
+    },
+    "faq": [
+      {"question": "APC boyalı yüzeyde cilayı söker mi?", "answer": "Doğru seyreltme (1:10 ve üstü) kullanıldığında wax ve kaplamaya zarar vermez."},
+      {"question": "Buharlı temizleyiciyle kullanılabilir mi?", "answer": "Evet, 1:15 oranlı solüsyonu buhar tankına ekleyebilirsiniz."},
+      {"question": "Kumaş koltukta renk solması yapar mı?", "answer": "Önce gizli bir bölgede 1:15 oranla test yapın, sonra kullanın."},
+      {"question": "Konsantre ürünü direkt kullanabilir miyim?", "answer": "Sadece ağır motor kirlerinde kısa bekleme süresiyle 1:1 kullanın, ardından hemen durulayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-APYA1000M"]}
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "sku": "Q2-VE20M",
+  "product_name": "Gyeon Q² View Evo Cam Su Itici Yağmur Kaydırıcı Seramik Kaplama - 20 ml",
+  "barcode": "Q2-VE20M",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:38:50.176Z",
+  "sources": [
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/gyeon-q2-view-evo.aspx?variant=7070",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q&#178; View EVO (20ml) Windscreen Coating",
+      "content_length": 14964,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2-view-evo#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² View EVO - Ultra-Hydrophobic Glass Coating System — Polished Bliss",
+      "content_length": 11867,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autogeek.net/gyeon-view.html",
+      "domain": "autogeek.net",
+      "language": "en",
+      "page_title": "GYEON Q2 View EVO 20 mL bottle | Autogeek.net",
+      "content_length": 9902,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/view-evo/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q² VIEW EVO - GYEON",
+      "content_length": 11959,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

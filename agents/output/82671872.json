@@ -1,0 +1,23 @@
+{
+  "sku": "82671872",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "IK PRO HANDLE INOX Basınçlı Pompa Püskürtme Kolu", "brand": "IK SPRAYERS", "barcode": "8414685032638", "group": "spare_part", "sub_type": "handle"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"material": "INOX (Paslanmaz Çelik)", "compatible_device": ["IK Basınçlı Pompalar"]},
+    "content": {
+      "how_to_use": "1. Hortumu handle'a bağlayın.\n2. Nozulu takın.\n3. Pompayı basınçlandırın.\n4. Tetiği çekerek püskürtün.\n5. Kullanım sonrası temiz su ile durulayın.",
+      "when_to_use": "IK basınçlı pompalarda profesyonel püskürtme uygulamaları için paslanmaz çelik tutma kolu kullanılır.",
+      "target_surface": "Tüm IK profesyonel püskürtme sistemleri",
+      "why_this_product": "• Paslanmaz çelik (INOX) gövde\n• Ergonomik tasarım - uzun süreli konfor\n• Kimyasallara dayanıklı\n• Kolay temizlenebilir yüzey"
+    },
+    "faq": [
+      {"question": "Neden paslanmaz çelik?", "answer": "INOX yapı uzun ömürlü kullanım, korozyon direnci ve kolay temizlik sağlar."},
+      {"question": "Hangi pompalarla uyumlu?", "answer": "Tüm IK profesyonel basınçlı pompa sistemleri ile uyumludur."},
+      {"question": "Gıda sektöründe kullanılabilir mi?", "answer": "Evet, hijyenin önemli olduğu gıda, dezenfeksiyon ve HVAC sistemlerinde kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

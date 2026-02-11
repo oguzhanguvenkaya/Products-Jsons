@@ -1,0 +1,43 @@
+{
+  "sku": "26.914.099.001",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA Premium Orbital Kuzu Yünü Polisaj Keçesi 140 mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "wool_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Heavy Cut",
+      "material": "Kuzu Yünü",
+      "diameter_mm": 140,
+      "machine_compatibility": ["Orbital"],
+      "foam_interface": true,
+      "short_pile": true,
+      "safety_edge": true,
+      "hook_and_loop": true
+    },
+    "content": {
+      "how_to_use": "1. Pedi orbital makinenize (125-130mm tabanlık) takın.\n2. Heavy Cut pasta ile yüzeye az miktarda ürün damlatın.\n3. Düşük devirde başlayarak ürünü yüzeye yayın.\n4. Devri artırarak çapraz geçişlerle çalışın.\n5. Fırça veya basınçlı hava ile pedi düzenli temizleyin.\n6. Gerekirse yedek ped ile değiştirerek devam edin.",
+      "when_to_use": "Orbital makinelerle ağır çizik gideriminde, zımpara izlerinin hızlı düzeltilmesinde, derin yüzey kusurlarının giderilmesinde kullanılır. Heavy Cut 400, 1000 pastalarla optimize edilmiştir.",
+      "target_surface": "Otomotiv boyası, vernik, sert vernikler, far plastikleri",
+      "why_this_product": "• Kısa tüylü kuzu yünü ile hızlı ve olağanüstü çizik giderme\n• Köpük ara katman ile yüzeye tam uyum\n• Orbital makineler için özel optimizasyon\n• Dayanıklı yapı ile uzun ömürlü kullanım"
+    },
+    "faq": [
+      {"question": "Bu keçe hangi pastalarla kullanılır?", "answer": "Heavy Cut Compound 1000, Heavy Cut Compound 400 ve Heavy Cut Compound 400 GREEN LINE için optimize edilmiştir."},
+      {"question": "Rotary makinelerde kullanılabilir mi?", "answer": "Hayır, bu keçe özellikle orbital (DA) polisaj makineleri için tasarlanmıştır."},
+      {"question": "Nasıl temizlenir?", "answer": "Fırça veya basınçlı hava kullanarak kolayca temizlenebilir."},
+      {"question": "Köpük ara katman ne işe yarar?", "answer": "Köpük ara katman, keçenin yüzeye daha iyi uyum sağlamasını ve homojen basınç dağılımını sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["22.200.281.001", "22.746.281.001"], "accessories": ["26.935.099.001"], "alternatives": ["26.915.099.001", "KP160-22L"]}
+  }
+}

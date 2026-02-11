@@ -1,0 +1,22 @@
+{
+  "sku": "SGPM003",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Sağ Açılı Trapez Mıknatıslı TPU Ragle 6,5 Cm", "brand": "SGCB", "barcode": "6973086165311", "group": "ppf_tools", "sub_type": "squeegee"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"material": "TPU", "hardness": "Orta", "angle": 85, "magnet": true, "shape": "Sağ Açılı Trapez", "dimensions": {"length_cm": 6.5, "top_width_cm": 7.5, "bottom_width_cm": 3, "thickness_cm": 0.6}},
+    "content": {
+      "how_to_use": "1. Sağ açılı trapez şekli sayesinde cam filmi kenarlarında çalışın.\n2. Sunroof, yan ve arka cam kenarlarında kullanın.\n3. 85 derece açıyla sıvı tahliyesi yapın.\n4. Fitil kenarlarında hassas çalışma için dar ucu kullanın.",
+      "when_to_use": "Ön, arka, yan ve sunroof cam filmi uygulamalarında kullanılır. Özellikle cam kenarları ve fitil çevrelerinde idealdir.",
+      "target_surface": "Cam filmi kenarları, sunroof, fitil çevreleri, köşe dönüşleri",
+      "why_this_product": "• Sağ açılı trapez tasarım - cam filmi için özel\n• Dar ve geniş uç kombinasyonu\n• Fitil kenarlarında hassas çalışma\n• Mıknatıslı TPU yapı"
+    },
+    "faq": [
+      {"question": "Bu ragle neden cam filmi için özel?", "answer": "Sağ açılı trapez tasarımı, cam kenarlarında ve fitil çevrelerinde hassas çalışma imkanı sağlar."},
+      {"question": "PPF uygulamasında da kullanılabilir mi?", "answer": "Evet, köşe dönüşleri ve dar alanlarda PPF uygulamasında da etkilidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGPM002"]}
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-TE500M",
+  "product_name": "Gyeon Q²m Tire Express Lastik Parlatıcı ve Koruyucu - 500 ml -Su Bazlı Jel Oto Lastik Cilası",
+  "barcode": "Q2M-TE500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:25:29.269Z",
+  "sources": [
+    {
+      "url": "https://gyeonusa.com/products/q-m-tire-express",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q²M Tire Express | Gyeon Quartz USA",
+      "content_length": 6956,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q-m-tire-express",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Tire Express | Easy-Apply Tyre Dressing",
+      "content_length": 34153,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://cardetail.ie/products/tire-express",
+      "domain": "cardetail.ie",
+      "language": "en",
+      "page_title": "TIRE EXPRESS GYEON IRELAND\n &ndash; Car Detail Longmile",
+      "content_length": 3252,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autopia.ie/product/gyeon-q2m-tire-express/",
+      "domain": "autopia.ie",
+      "language": "en",
+      "page_title": "Autopia Professional Detailing Products",
+      "content_length": 6710,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-tire-express-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Tire Express 500ml | Product",
+      "content_length": 12052,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carspa.mu/products/gyeon-q2m-tyre-express-500ml",
+      "domain": "carspa.mu",
+      "language": "en",
+      "page_title": "Gyeon Q2M Tire Express 500ml",
+      "content_length": 6458,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

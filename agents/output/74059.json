@@ -1,0 +1,23 @@
+{
+  "sku": "74059",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Lustrawax Nano Teknoloji Konsantre Koruyucu Cila - 1 lt", "brand": "FRA-BER", "barcode": "8027486816828", "group": "paint_protection_quick", "sub_type": "spray_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"durability_weeks": 6, "dilution_ratio": "Saf - 1:25", "uv_active": true, "cure_time_hours": 3, "features": ["UV-aktif nano formül", "Patentli teknoloji", "6 hafta koruma", "Esnek seyreltme"]},
+    "content": {
+      "how_to_use": "1. İlk/Mevsimlik Uygulama (Foam Lance): 1:1 seyreltme (500 ml ürün + 500 ml su), temiz soğuk araca püskürtün, 60 sn bekleyin, bol suyla durulayın.\n2. Şişe ile Detay Bakım: 1:10 seyreltme (90 ml ürün + 910 ml su), sprey-mikrofiber ile panel panel uygulayın.\n3. Sık Bakım: 20-40 ml ürün + 5L su, sulama kabı ile uygulayın.\n4. Maksimum Koruma: Saf uygulayın, 3 saat kür bekleyin.",
+      "when_to_use": "Showroom teslimatı veya sergi araçlarında maksimum parlaklık için, asit yağmuru ve yoğun UV alan iklimlerde boya koruması için, deniz kenarı bölgelerde tuz koruması için kullanılır.",
+      "target_surface": "Araç boyası, vernik, plastik, alüminyum",
+      "why_this_product": "• Patentli UV-aktif nano formül\n• 6 haftaya kadar koruma\n• Asit yağmuru, tuz, güneş solmasına karşı bariyer\n• Esnek seyreltme: Saf - 1:25 arası"
+    },
+    "faq": [
+      {"question": "UV-aktif ne demek?", "answer": "Formül UV ışığıyla aktive olur ve 3 saat içinde tam sertleşir, bu sayede maksimum koruma sağlar."},
+      {"question": "Seyreltme oranları nedir?", "answer": "Saf uygulanabildiği gibi 1:25'e kadar sulandırılabilir. Amaç ve uygulama yöntemine göre değişir."},
+      {"question": "Kürleşme süresi nedir?", "answer": "Tam koruyucu film uygulamadan 3 saat sonra optimum sertliğe ulaşır. Bu süre içinde yüzeyi yağmurdan koruyun."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["75215"]}
+  }
+}

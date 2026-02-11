@@ -1,0 +1,41 @@
+{
+  "sku": "701040",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER MULTIFORCE Çok Amaçlı Güçlü Yağ Ve Kir Temizleyici Sprey - 650 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486814411",
+    "group": "interior_cleaner",
+    "sub_type": "interior_apc"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Plastik", "Kumaş", "Metal"],
+      "application_method": "Sprey (Ready-to-use)",
+      "cleaning_power": "High",
+      "form": "Konsantre Köpük",
+      "dilution_option": "Saf - 1:10",
+      "volume_ml": 650
+    },
+    "content": {
+      "how_to_use": "1. Çok Ağır Yağ/Endüstriyel Kir: Soğuk yüzeye püskürt, 60 sn beklet, fırçala veya bezle sil, bol suyla durula.\n2. Genel Araç Dışı Bakım: 1:3 (250 ml + 750 ml su) seyreltin, püskürtün, 1 dk bekleyin, sünger/fırça ile durulayın.\n3. Hafif Kir & Ev APC: 1:10 (90 ml + 910 ml su) seyreltin, püskürtün, silin.",
+      "when_to_use": "Motor, teker içi, şasi, vinç, forklift temizliğinde, kapı eşiği, pedal kutusu, kauçuk paspas, bagaj boşluğunda, barbekü ızgarası, davlumbaz filtresi, bisiklet zincirinde kullanılır.",
+      "target_surface": "Motor bölmesi, sanayi ekipmanı, jant, lastik, zemin, kamp ocağı, barbekü, açık hava mobilyası",
+      "why_this_product": "• Yoğun yağ çözücü güç - motor bölmesi ve sanayi ekipmanında birikmiş yağ-kir tabakasını hızla parçalar\n• Köpük tetik & dikey tutunma - dik yüzeyde akmadan uzun temas süresi\n• Antikorozif yenileme - temizlik sonrası yüzeyi paslanmaya karşı tamponlar\n• Esnek seyreltme - saf kullanımdan 1:10'a kadar"
+    },
+    "faq": [
+      {"question": "Boyalı yüzeylerde güvenli mi?", "answer": "Boyalı yüzeylerde ön test önerilir, genel olarak plastik, metal ve kauçukta güvenlidir."},
+      {"question": "Ev temizliğinde kullanılabilir mi?", "answer": "Evet, 1:10 seyreltme ile mutfak davlumbazı, barbekü gibi alanlarda kullanılabilir."},
+      {"question": "Tekne temizliğinde uygun mu?", "answer": "Evet, tekne sintinesi ve zincir dolabı gibi yağlı alanlarda etkilidir."},
+      {"question": "Antikorozif özellik ne anlama geliyor?", "answer": "Temizlik sonrası metal yüzeyleri paslanmaya karşı tamponlar, taze metal parlaklığı kazandırır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

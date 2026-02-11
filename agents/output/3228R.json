@@ -1,0 +1,22 @@
+{
+  "sku": "3228R",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Softy Wash Pad Yumuşak Tüylü Araç Yıkama Padi (Kırmızı) - 22x14 cm", "brand": "KLIN", "barcode": "8809512170643", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "22x14 cm", "type": "Soft Long Pile Pad", "color": "Kırmızı", "inner_sponge_mm": 14, "weight_gr": 280, "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Araç üzerinde ön yıkama yaparak tazyikli su ile durulayın.\n2. Pedi şampuanlı kovaya daldırıp köpürtün.\n3. Yüzeyde yağ gibi akarak kaygan hareketlerle yıkayın.\n4. Sık sık temiz su kovasında durulayın.\n5. 40°C'de yıkayıp asarak kurutun.",
+      "when_to_use": "En hassas yüzeylerde çiziksiz yıkama, premium araç bakımı ve detay yıkama işlemleri için kullanılır.",
+      "target_surface": "Hassas boyalar, premium araçlar",
+      "why_this_product": "• Premium kalite ultra soft ve peluş mikrofiber\n• Geliştirilmiş 14mm iç destek süngeri\n• Yüzeyde yağ gibi kayarak ekstra yoğun köpük oluşturur\n• Düz pad formatı - ergonomik kullanım"
+    },
+    "faq": [
+      {"question": "Softy Mitt'ten farkı nedir?", "answer": "Wash Pad düz pad formatında, Mitt eldiven formatında. Kullanım tercihinize göre seçebilirsiniz."},
+      {"question": "Hangi renkler mevcut?", "answer": "Softy Wash Pad kırmızı renkte mevcuttur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["3227B", "3225A-BL"]}
+  }
+}

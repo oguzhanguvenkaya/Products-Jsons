@@ -1,0 +1,44 @@
+{
+  "sku": "18810",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA A-TYPE 1.5 PRO Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.8 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916066360",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.86,
+      "capacity_usable_lt": 1.5,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "Ayarlanabilir",
+      "seal_type": "EPDM",
+      "chemical_resistance": ["Alkaliler", "Ketonlar", "Alkoller", "Silikon bazlı kimyasallar"],
+      "safety_valve": true,
+      "pump_material": "PP",
+      "weight_net_kg": null
+    },
+    "content": {
+      "how_to_use": "1. Alkali veya alkol bazlı kimyasalı hazneye doldurun (max çizgiyi aşmayın).\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın (max 3 bar).\n3. Nozulu ihtiyaca göre ayarlayın.\n4. Yüzeye eşit şekilde püskürtün.\n5. İş bitince emniyet valfi ile basıncı tahliye edin.\n6. Hazneyi boşaltıp temiz su ile durulayın.",
+      "when_to_use": "Endüstriyel temizlik, inşaat ve şantiye temizlikleri, otomotiv detailing (APC, çok amaçlı temizleyiciler), HVAC bakım ve genel dezenfeksiyon uygulamalarında kullanılır.",
+      "target_surface": "Zeminler, ekipmanlar, araç yüzeyleri, HVAC sistemleri, endüstriyel malzemeler",
+      "why_this_product": "• EPDM conta ile alkali ve alkol bazlı kimyasallara yüksek dayanım\n• 3 bar emniyet valfi ile güvenli kullanım\n• Dereceli görüş şeridi ile kolay seviye takibi\n• İtalyan tasarım ve üretim kalitesi"
+    },
+    "faq": [
+      {"question": "EPDM conta hangi kimyasallarla uyumlu?", "answer": "Alkali ürünler, ketonlar (aseton dahil), alkoller, silikon bazlı kimyasallar ve %5'e kadar asetik asit çözeltileri ile uyumludur."},
+      {"question": "Hangi kimyasallar önerilmez?", "answer": "Aromatik hidrokarbonlar, yağlar, petrol türevleri ve yüksek konsantrasyonlu mineral asitler EPDM contaya zarar verir."},
+      {"question": "VITON contalı modelden farkı nedir?", "answer": "VITON asitlere dayanıklıyken, EPDM alkalilere ve ketonlara dayanıklıdır. Kullanacağınız kimyasala göre seçim yapılmalıdır."},
+      {"question": "Köpük yapıcı mı?", "answer": "Hayır, bu model sıvı atım içindir. Köpük için A-TYPE 1.5 PRO Foamer modeli mevcuttur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["18802", "81777"]}
+  }
+}

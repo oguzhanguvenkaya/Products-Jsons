@@ -1,0 +1,45 @@
+{
+  "sku": "Q2M-PYA4000M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "sub_type_issue": {
+    "flagged": true,
+    "current_group": "ceramic_coating",
+    "current_sub_type": "single_layer_coating",
+    "suggested_group": "surface_prep",
+    "suggested_sub_type": "panel_wipe",
+    "reason": "Bu ürün bir seramik kaplama DEĞİL, kaplama öncesi yüzey hazırlayıcı IPA bazlı temizleyicidir."
+  },
+  "product_info": {
+    "title": "GYEON QM Prep Seramik PPF Folyo Kaplama Öncesi Yüzey Hazırlayıcı ve Temizleyici - 4000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661366",
+    "group": "ceramic_coating",
+    "sub_type": "single_layer_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "ipa_content": ">50%",
+      "anti_static": true,
+      "consumption_ml_per_car": 100
+    },
+    "content": {
+      "how_to_use": "1. Yüzey kuru, serin ve gölgede olmalı.\n2. Q²M Prep'i panel başına eşit miktarda sıkın; 15-30 sn bekleyin.\n3. Temiz BaldWipe/PolishWipe mikrofiberle tek yönlü silin.\n4. Yağsız, pürüzsüz ve izsiz yüzeyi ışık altında inceleyin.\n5. Kaplama, PPF veya wax'ı 15 dk içinde uygulayın.",
+      "when_to_use": "Seramik kaplama, PPF folyo veya wax uygulaması öncesi yüzeyi polisaj yağlarından ve kalıntılardan arındırmak için kullanılır.",
+      "target_surface": "Boya, cam, plastik, jant, metal, PPF - tüm dış/iç paneller",
+      "why_this_product": "• Yüksek IPA (>%50) ile derin yağ sökme\n• Anti-statik etki - toz tutulumunu azaltır\n• Kaplama yapışmasını maksimize eder\n• 4000 ml ile ~36-40 araç hazırlığı"
+    },
+    "faq": [
+      {"question": "Sıcak panelde kullanabilir miyim?", "answer": "Tavsiye edilmez; ürün buharlaşmadan silmek zorlaşır, iz riski artar."},
+      {"question": "Mat boya veya mat PPF'de güvenli mi?", "answer": "Evet; matlaştırmaz, parlak lekeler oluşturmaz."},
+      {"question": "Prep sonrası ne kadar sürede kaplama yapmalıyım?", "answer": "En geç 15-20 dk içinde; toz ve parmak izi oluşmadan kaplamaya geçin."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-PYA500M"]}
+  }
+}

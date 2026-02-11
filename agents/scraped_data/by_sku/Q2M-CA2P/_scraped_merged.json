@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-CA2P",
+  "product_name": "Gyeon Q2M Coating Applicator 2-Pack",
+  "barcode": "Q2M-CA2P",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:41:20.730Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/gyeon-q-m-coating-applicator-2-pack",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Coating Applicator w/ Plastic Barrier | CARZILLA",
+      "content_length": 7911,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.cleanandshiny.co.uk/products/gyeon-q2m-coating-applicator-2-pack",
+      "domain": "cleanandshiny.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Coating Applicator 2 Pack",
+      "content_length": 5155,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Coating-Applicator-2-Pack-P2461/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Coating Applicator 2 Pack - Detailed Image",
+      "content_length": 11836,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carclean.com/en/gyeon-q2m-coating-applicator-2-pack.html",
+      "domain": "carclean.com",
+      "language": "en",
+      "page_title": "Gyeon Q²M Coating Applicator 2-pack – safe &amp; precise application",
+      "content_length": 8846,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.in2detailing.co.uk/products/gyeon-q2m-coating-applicator?variant=39670052520015",
+      "domain": "in2detailing.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Coating Applicator (Choice of Pack Size)\n&ndash; in2Detailing",
+      "content_length": 28841,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/gyeon-q2m-coating-applicator.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q&#178;M Coating Applicator (Pack of 2) | Sealant Applicator",
+      "content_length": 13270,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-CLR500M",
+  "product_name": "Gyeon Q²m Clay Lube Redefined Kil Kaydırıcı Yoğun Konsantre - 500 ml",
+  "barcode": "Q2M-CLR500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:28:25.360Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/claylube-redefined/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M CLAYLUBE REDEFINED - GYEON",
+      "content_length": 11066,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-clay-lube-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Clay Lube REDEFINED 500mL | Product",
+      "content_length": 13239,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-clay-lube-redefined",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Clay Lube REDEFINED 500ml Super Concentrated 1:25 | CARZILLA",
+      "content_length": 11548,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailing.com/products/gyeon-q-m-clay-lube-redefined-500-ml",
+      "domain": "detailing.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M Clay Lube Redefined - 500 ml — Detailing.com",
+      "content_length": 19508,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://clean-garage.com/gyeon-q2m-clay-lube-redefined-500ml-decon-lubricant/",
+      "domain": "clean-garage.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M Clay Lube Redefined 500ml | Decon Lubricant | The Clean Garage",
+      "content_length": 14022,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://esotericcarcare.com/products/gyeon-q2m-claylube",
+      "domain": "esotericcarcare.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M ClayLube\n&ndash; Esoteric Car Care",
+      "content_length": 22339,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

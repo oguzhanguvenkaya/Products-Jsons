@@ -1,0 +1,40 @@
+{
+  "sku": "84174",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK HC TR 1 Solvent ve Petrol Türevi Kimyasal Dayanımlı Sprey Şişe 1 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685000484",
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.0,
+      "chemical_resistance": ["Solvent", "Petrol türevleri", "Yağ çözücüler"],
+      "seal_type": "Solvent dayanımlı",
+      "trigger_material": "PP",
+      "weight_net_kg": null
+    },
+    "content": {
+      "how_to_use": "1. Solvent veya petrol bazlı kimyasalı şişeye doldurun.\n2. Tetik başlığını sıkıca kapatın.\n3. Nozulu ayarlayarak ince sis veya jet atım seçin.\n4. Yüzeye 15-20 cm mesafeden püskürtün.\n5. Kullanım sonrası nozulu temiz tutun.",
+      "when_to_use": "Fren balata temizliği, silikon giderme, zift ve katran temizliği, boya öncesi yüzey hazırlığı ve motor temizliğinde kullanılır.",
+      "target_surface": "Metal yüzeyler, motor bölmesi, fren aksamı, endüstriyel ekipman",
+      "why_this_product": "• Solvent ve petrol türevi kimyasallara tam dayanıklılık\n• IK kalitesi ile güvenilir tetik mekanizması\n• Ayarlanabilir nozul ile hassas uygulama\n• Profesyonel endüstriyel kullanım için ideal"
+    },
+    "faq": [
+      {"question": "Hangi kimyasallarla kullanılabilir?", "answer": "Solvent, petrol türevleri, yağ çözücüler, fren temizleyiciler ve silikon gidericilerle uyumludur."},
+      {"question": "Asit veya alkali kimyasallarla kullanılır mı?", "answer": "Hayır, bu ürün özellikle solvent ve petrol bazlı kimyasallar için tasarlanmıştır. Asit için IK MULTI PRO serisi önerilir."},
+      {"question": "Nozul ayarlanabilir mi?", "answer": "Evet, ince sis ve düz jet arasında ayarlanabilir nozula sahiptir."},
+      {"question": "HC TR serisinin avantajı nedir?", "answer": "Özel conta yapısı sayesinde solvent ve petrol bazlı agresif kimyasallarda sızıntı yapmadan güvenle kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81774"]}
+  }
+}

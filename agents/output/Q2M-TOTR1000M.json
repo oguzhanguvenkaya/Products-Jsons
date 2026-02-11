@@ -1,0 +1,24 @@
+{
+  "sku": "Q2M-TOTR1000M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "sub_type_flag": "ISSUE: Bu ürün Wax/Cila ÇÖZÜCÜ - koruma ürünü değil, surface_prep/wax_remover kategorisinde olmalı",
+  "product_info": {"title": "GYEON QM Total Remover Balmumu Wax Cila Çözücü Koruma Sökücü - 1000 ml", "brand": "GYEON", "barcode": "8809973750835", "group": "paint_protection_quick", "sub_type": "spray_wipe_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"consumption_ml": 100, "applications_per_bottle": 10, "ph": "Nötr", "dwell_time_seconds": "30-90", "mat_safe": true, "ppf_safe": true, "features": ["Tam katman sökücü", "1L profesyonel boyut", "Polisajsız düzeltme", "Hızlı etki"]},
+    "content": {
+      "how_to_use": "1. Ön Hazırlık: Aracı pH-nötr şampuanla ön yıkayın, yüzey ıslak bırakılmalı.\n2. Püskürt & Yay: Şişeyi çalkalayın, panel başına bolca püskürtün. Q²M SilkMitt EVO ile hafifçe yayın.\n3. Bekletme: 30-90 sn arası reaksiyona bırakın. Kurumasına izin vermeyin.\n4. Durulama: Basınçlı suyla paneli iyice durulayın.\n5. Kontrol: Kalan beading varsa tekrarlayın veya Q²M Prep ile son pas geçin.",
+      "when_to_use": "Yeni araç teslimatında fabrika mumunu sökmek için, kaplama yenileme ve garanti işlerinde, mat boya high-spot düzeltmesinde, PPF ve vinil hazırlığında kullanılır.",
+      "target_surface": "Araç boyası, cam, plastik, PPF, mat vernik",
+      "why_this_product": "• 1 litre ile yaklaşık 10 araç işleme kapasitesi\n• Eski seramik, sealant, wax ve fabrika mumlarını söker\n• pH-nötr, boya ve mat güvenli\n• Polisaj gerekmeden high-spot düzeltme"
+    },
+    "faq": [
+      {"question": "500 ml versiyonundan farkı nedir?", "answer": "Sadece ambalaj boyutu farkı vardır, formül aynıdır. 1L versiyon profesyonel kullanım için daha ekonomiktir."},
+      {"question": "Mat/satin boyada iz bırakır mı?", "answer": "Hayır, aşındırıcı içermez; mat dokuyu parlatmaz."},
+      {"question": "Uygulama sonrası hemen kaplama yapılabilir mi?", "answer": "Hayır, Total Remover'dan sonra panel Q²M Prep ile silinmeli ve tamamen kurulanmalıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-TOTR500M"]}
+  }
+}

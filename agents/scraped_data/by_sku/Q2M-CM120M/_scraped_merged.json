@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-CM120M",
+  "product_name": "Gyeon Q2M Compound 120 ml",
+  "barcode": "Q2M-CM120M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:40:08.563Z",
+  "sources": [
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-compound#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Compound - Fast-Acting Cutting Compound — Polished Bliss",
+      "content_length": 10406,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/compound/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M COMPOUND - Gyeon",
+      "content_length": 10712,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-compound-plus-redefined",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Compound+ REDEFINED | CARZILLA",
+      "content_length": 9091,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q-m-compound",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Compound Plus | Heavy Cut Compounding Paste",
+      "content_length": 32943,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://whitewatersolution.com/gyeon/polishing/",
+      "domain": "whitewatersolution.com",
+      "language": "en",
+      "page_title": "Gyeon Polishing: Unveil Your Car&#039;s True Radiance - White Water Solution",
+      "content_length": 4883,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Primer-P1476/120-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Primer - 120 ml - Detailed Image",
+      "content_length": 14720,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

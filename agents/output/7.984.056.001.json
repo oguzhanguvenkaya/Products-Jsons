@@ -1,0 +1,28 @@
+{
+  "sku": "7.984.056.001",
+  "last_updated": "2026-02-04T15:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Menzerna P175 Süper Parlatıcı Katı Cila Sarı Çok Amaçlı Yüzey Parlatıcı – 1400 Gr",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "industrial_products",
+    "sub_type": "interior_apc"
+  },
+  "notes": {"sub_type_review": "Template'de 'interior_apc' olarak işaretli. Doğrusu 'solid_compound' veya 'super_finish_polish' olmalı."},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:00:00Z",
+    "template_fields": {"type": "Süper Parlatıcı Katı Cila", "color": "Sarı", "weight": "1400 gr", "target_material": "Çok amaçlı / Evrensel", "finish_level": "Süper"},
+    "content": {
+      "how_to_use": "1. Parlatma keçesi veya fırçayı hazırlayın.\n2. Katı cilayı dönen yüzeye sürün.\n3. Final parlatma yapın.\n4. Süper parlaklık elde edin.",
+      "when_to_use": "Tüm yüzeylerde süper parlaklık için final aşama olarak kullanılır. Çok amaçlı evrensel formül.",
+      "target_surface": "Tüm yüzeyler, çok amaçlı",
+      "why_this_product": "• Süper parlaklık seviyesi\n• Evrensel kullanım\n• Final aşama için ideal\n• 1400 gr ekonomik boyut"
+    },
+    "faq": [
+      {"question": "En parlak sonuç için mi?", "answer": "Evet, süper parlatıcı kategorisinde en yüksek parlaklık seviyesini sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

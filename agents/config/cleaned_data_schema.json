@@ -1,0 +1,72 @@
+{
+  "version": "1.0",
+  "description": "Schema for cleaned scraped data - noise removed, product content only",
+
+  "cleaned_file_schema": {
+    "filename": "{SKU}.json",
+    "location": "agents/cleaned_data/",
+
+    "fields": {
+      "sku": "string - Urun SKU'su",
+      "product_name": "string - Urun adi (Turkce)",
+      "barcode": "string - Urun barkodu",
+      "total_sources": "number - Basarili temizlenen kaynak sayisi",
+      "cleaned_at": "string - ISO 8601 timestamp",
+      "sources": {
+        "type": "array",
+        "description": "Her URL icin temizlenmis icerik",
+        "items": {
+          "url": "string - Kaynak URL",
+          "domain": "string - Domain adi",
+          "language": "string - Sayfa dili (en, de, tr, vb.)",
+          "page_title": "string - HTML sayfa basligi",
+          "cleaned_content": "string - Navigasyon/footer/reklam gurultusunden arindirilmis, sadece urunle ilgili temiz metin"
+        }
+      }
+    }
+  },
+
+  "cleaning_rules": {
+    "remove": [
+      "Site navigasyon menuleri, breadcrumb'lar",
+      "Header/footer linkleri ve site haritasi",
+      "Sepet, hesap, giris/kayit UI elemanlari",
+      "Cookie uyarilari, popup metinleri",
+      "Reklam ve banner icerikleri",
+      "Kategori listeleri, filtre elemanlari",
+      "Sosyal medya linkleri ve paylasim butonlari",
+      "Yasal bilgiler, copyright metinleri",
+      "Form alanlari (iletisim, yorum yazma vb.)",
+      "Bos satirlar ve gereksiz bosluklar"
+    ],
+    "keep": [
+      "Urun adi ve marka bilgisi",
+      "Urun aciklamasi ve detaylari",
+      "Teknik ozellikler ve spesifikasyonlar",
+      "Kullanim talimatlari",
+      "SSS (FAQ) bolumu",
+      "Urun degerlendirmeleri/yorumlar",
+      "Iliskili urun onerileri",
+      "Gorsel URL'leri",
+      "Fiyat ve stok bilgisi",
+      "Uyari ve sertifika bilgileri"
+    ]
+  },
+
+  "example": {
+    "sku": "Q2M-BYA1000M",
+    "product_name": "Gyeon Q²m Bathe Ph Nötr Cilalı Oto Şampuanı - 1000 ml",
+    "barcode": "Q2M-BYA1000M",
+    "total_sources": 6,
+    "cleaned_at": "2026-02-08T12:00:00.000Z",
+    "sources": [
+      {
+        "url": "https://gyeon.co/product/bathe-2/",
+        "domain": "gyeon.co",
+        "language": "en",
+        "page_title": "Q²M BATHE - Gyeon",
+        "cleaned_content": "Navigasyon ve footer gurultusunden arindirilmis, sadece urunle ilgili temiz metin..."
+      }
+    ]
+  }
+}

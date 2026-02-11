@@ -1,0 +1,45 @@
+{
+  "sku": "GPRO6555",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "sub_type_flag": "ISSUE: Bu ürün polisher_machine kategorisinde olmamalı - polishing_pad kategorisinde olmalı (mini polisaj süngeri)",
+  "product_info": {
+    "title": "MG PS Hare Giderici Cila Süngeri 65/55 mm 5'li Paket (Sarı) - Mini Polisaj Makinesi Uyumlu",
+    "brand": "MG PS",
+    "barcode": "8683492660444",
+    "group": "polisher_machine",
+    "sub_type": "mini_polishing_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "mini_polishing_pad",
+      "pad_type": "finishing",
+      "base_diameter_mm": 55,
+      "surface_diameter_mm": 65,
+      "height_mm": 15,
+      "hardness": "Medium-Soft",
+      "cell_structure": "Open",
+      "color": "Yellow",
+      "pack_quantity": 5,
+      "compatible_machine": "Nano/Mini polisher"
+    },
+    "content": {
+      "how_to_use": "1. Süngeri mini/nano polisaj makinesinin tabanlığına takın.\n2. Hare giderici veya cila ürünü uygulayın.\n3. Makineyi düşük devirde başlatarak ürünü yayın.\n4. Orta devirde çalışarak hare ve hologramları giderin.\n5. Kalıntıları yumuşak mikrofiber ile silin.",
+      "when_to_use": "Mini polisaj makinesi ile dar alanlar, köşeler ve detay bölgelerde pasta sonrası hare/hologram giderme ve final cila için kullanılır.",
+      "target_surface": "Araç boyası - dar alanlar, köşeler, ayna kenarları, kapı kolları",
+      "why_this_product": "• 65/55mm - daha geniş çalışma alanı\n• Orta-yumuşak doku - hare giderme\n• Açık gözenekli yapı\n• 5'li ekonomik paket"
+    },
+    "faq": [
+      {"question": "45/35mm versiyondan farkı nedir?", "answer": "65/55mm versiyon daha geniş yüzey alanı sunar. 45/35mm daha dar köşeler için uygundur."},
+      {"question": "Pasta işlemi için kullanılabilir mi?", "answer": "Orta-yumuşak dokusu nedeniyle ağır pasta yerine hafif pasta ve cila işlemleri için uygundur."},
+      {"question": "Gri süngerle birlikte nasıl kullanılır?", "answer": "Önce gri sert sünger ile pasta, ardından sarı yumuşak sünger ile hare giderme yapılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["418102"], "accessories": [], "alternatives": ["GPRO4535", "GPRO045"]}
+  }
+}

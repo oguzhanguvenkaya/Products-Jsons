@@ -1,0 +1,35 @@
+{
+  "sku": "23003.391.001",
+  "product_name": "Menzerna Cream Tube Metal Polish Metal Parlatıcı 125 Gr",
+  "barcode": "23003.391.001",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:26:32.542Z",
+  "sources": [
+    {
+      "url": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/metal-polish",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Metal Polish",
+      "content_length": 7443,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.exceldetailingsupplies.co.uk/products/menzerna-metal-polishing-cream",
+      "domain": "exceldetailingsupplies.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Metal Polishing Cream",
+      "content_length": 2741,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

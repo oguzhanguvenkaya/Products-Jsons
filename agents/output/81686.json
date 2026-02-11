@@ -1,0 +1,44 @@
+{
+  "sku": "81686",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK FOAM Pro 2 Alkali KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102331",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 2.0,
+      "capacity_usable_lt": 1.25,
+      "max_pressure_bar": 3.0,
+      "flow_rate_lpm": 0.70,
+      "nozzle_type": "Fan yayılımlı köpük nozulu",
+      "foam_types": 3,
+      "chemical_resistance": ["Alkaliler", "pH nötr ürünler"],
+      "safety_valve": true,
+      "weight_net_kg": 0.56
+    },
+    "content": {
+      "how_to_use": "1. Alkali bazlı köpük yapıcı kimyasalı hazneye doldurun (max 1.25L).\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın (3 bar).\n3. Köpük türünü seçin: Yeşil (kuru), Gri (orta), Turuncu (ıslak).\n4. Güvenlik kilidini açın ve yüzeye köpük püskürtün.\n5. Kullanım sonrası basıncı boşaltın ve temiz su ile durulayın.",
+      "when_to_use": "Profesyonel temizlik ve dezenfeksiyon işlemlerinde, otomotiv detailing uygulamalarında, endüstriyel bakımda, gıda işleme alanlarında hijyen uygulamalarında kullanılır.",
+      "target_surface": "Araç dış yüzeyi, kumaş koltuklar, halılar, gıda işleme alanları, endüstriyel ekipmanlar",
+      "why_this_product": "• Alkali ve nötr yüzey aktif kimyasallarla ideal uyumluluk\n• 3 farklı köpük türü (kuru, orta, ıslak)\n• Fan tipi köpük nozulu ile geniş kapsama\n• 3 bar emniyet valfi ile güvenli kullanım"
+    },
+    "faq": [
+      {"question": "Standart IK FOAM PRO 2'den farkı nedir?", "answer": "ALK versiyonu özellikle alkali kimyasallarla kullanım için optimize edilmiştir. Alkali ve nötr yüzey aktif ürünlerle ideal performans sağlar."},
+      {"question": "Asitli ürünlerle kullanılabilir mi?", "answer": "Hayır, asitli ürünler için standart IK FOAM PRO 2 veya IK MULTI PRO serisi önerilir."},
+      {"question": "Köpük yoğunluğu nasıl ayarlanır?", "answer": "Yeşil aparat kuru köpük, gri aparat orta köpük, turuncu aparat ıslak köpük üretir."},
+      {"question": "Hangi sektörlerde kullanılır?", "answer": "Profesyonel temizlik, dezenfeksiyon, otomotiv detailing, endüstriyel bakım ve gıda işleme hijyeni alanlarında kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81676"]}
+  }
+}

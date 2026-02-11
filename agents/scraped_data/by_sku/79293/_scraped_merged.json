@@ -1,0 +1,71 @@
+{
+  "sku": "79293",
+  "product_name": "Fra-Ber Innovacar Innovacar D3 Tar Yağlı Artıklar, Katran, Asfalt ve Mumlar Için Yağ Çözücü",
+  "barcode": "79293",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:15:20.840Z",
+  "sources": [
+    {
+      "url": "https://thehouseofrags.com/products/d3-tar",
+      "domain": "thehouseofrags.com",
+      "language": "en",
+      "page_title": "INNOVACAR D3 TAR 500ml &ndash; The House Of Rags",
+      "content_length": 21984,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://ledakcijas.lv/en/products/copy-of-bezudens-mazgasanas-lidzeklis-fra-ber-lustradry-750ml",
+      "domain": "ledakcijas.lv",
+      "language": "en",
+      "page_title": "Bitumen and glue remover - INNOVACAR D3 TAR 500ml",
+      "content_length": 10108,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailingmania.lv/en/products/innovacar-d3-tar-500ml---tar-and-glue-remover",
+      "domain": "detailingmania.lv",
+      "language": "en",
+      "page_title": "Making sure you&#39;re not a bot!",
+      "content_length": 1449,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://jmproducts.be/en/products/innovacar-d3-tar",
+      "domain": "jmproducts.be",
+      "language": "en",
+      "page_title": "Innovacar D3 Tar | Tar, Resin &amp;amp; Glue Remover for Cars\n &ndash; JMProducts",
+      "content_length": 7093,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://en.innovacar.it/products/sciogli-catrame-e-rimuovi-resina-auto-d3-tar",
+      "domain": "en.innovacar.it",
+      "language": "en",
+      "page_title": "Car Resin and Tar Remover: D3 Tar Innovacar - INNOVACAR",
+      "content_length": 19844,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

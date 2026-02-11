@@ -1,0 +1,29 @@
+{
+  "sku": "12.001.056.001",
+  "last_updated": "2026-02-04T15:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Menzerna GW18 Kesici Katı Cila Bej Plastik Kompozit Boyalı Yüzey Parlatıcı – 1150 Gr",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "industrial_products",
+    "sub_type": "interior_detailer"
+  },
+  "notes": {"sub_type_review": "Template'de 'interior_detailer' olarak işaretli. Doğrusu 'solid_compound' olmalı - bu endüstriyel katı cila."},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:00:00Z",
+    "template_fields": {"type": "Kesici Katı Cila (Gloss Wax)", "color": "Bej", "weight": "1150 gr", "target_material": ["Plastik", "Kompozit", "Boyalı yüzey"], "heat_buildup": "Düşük"},
+    "content": {
+      "how_to_use": "1. Parlatma fırçasını hazırlayın.\n2. Katı cilayı dönen fırçaya sürün.\n3. Plastik/kompozit yüzeyi parlatın.\n4. Düşük ısı oluşumu sayesinde uzun süre çalışabilirsiniz.",
+      "when_to_use": "Plastik ve kompozit yüzeylerde çizik ve kusurları hızla gidermek için kullanılır. Taşlama ve zımpara izlerini ortadan kaldırır.",
+      "target_surface": "Plastik, kompozit, boyalı yüzeyler, akrilik",
+      "why_this_product": "• Hızlı kesim - çizikleri hızla giderir\n• Düşük ısı oluşumu - yüzeyi yakmaz\n• Fırçaya kolay sarılır\n• Yüksek parlaklık sağlar"
+    },
+    "faq": [
+      {"question": "Plastik eritir mi?", "answer": "Hayır, düşük ısı oluşumu özelliği sayesinde plastik yüzeyleri yakmaz."},
+      {"question": "GW16 ile farkı nedir?", "answer": "GW18 kesici, GW16 ise parlatıcıdır. Önce GW18, sonra GW16 kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": ["12.002.056.001"], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

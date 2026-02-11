@@ -1,0 +1,42 @@
+{
+  "sku": "70640",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Tri-Foam Sarı Renkli, Cilalı Ön Yıkama Şampuanı (1:80 Konsantre) - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486706402",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "foam_color": "Sarı",
+      "gloss_enhancer": true,
+      "scented": true,
+      "dilution_dosatron": "1:50 - 1:100",
+      "dilution_foam_lance": "1:9 - 1:12",
+      "consumption_per_car_g": 30,
+      "volume_kg": 25
+    },
+    "content": {
+      "how_to_use": "1. Püskürtücü/Dosatron: Suda %1-2 seyreltin.\n2. Köpük Mızrağı: 1:9 ile 1:12 oranında seyreltme.\n3. Pompa: Araç başı 30 gr kullanın.\n4. Basınçlı Yıkayıcı: 10-20 su ile seyreltin ve çözeltiyi emmeye devam edin.\n5. İyice durulayın.",
+      "when_to_use": "Görsel renkli köpük efekti istenen yıkamalarda, köpük yapıcılarla kullanımda, aktif ve kokulu köpük oluşturmak için kullanılır.",
+      "target_surface": "Araç kaporta, tüm araç yüzeyleri",
+      "why_this_product": "• Sarı renkli görsel etki yaratır\n• Kaportaya uzun süre yapışır\n• Oldukça kokulu ve aktif köpük oluşturur\n• Mavi ve yeşil renk seçenekleri de mevcuttur"
+    },
+    "faq": [
+      {"question": "Renk araçta iz bırakır mı?", "answer": "Hayır, durulama sonrası renk tamamen gider."},
+      {"question": "Başka renk seçenekleri var mı?", "answer": "Evet, mavi ve yeşil renk seçenekleri mevcuttur."},
+      {"question": "Köpük tabancasında seyreltme oranı nedir?", "answer": "1:9 ile 1:12 oranında seyreltilir."},
+      {"question": "25 kg ile kaç yıkama yapılabilir?", "answer": "Araç başı 30 gr hesabıyla yaklaşık 830 yıkama yapılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["71180"]}
+  }
+}

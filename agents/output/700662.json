@@ -1,0 +1,39 @@
+{
+  "sku": "700662",
+  "last_updated": "2026-02-04T14:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR 0 AMMONIA Amonyaksız Cam Temizleyici Konsantre - 4,54 lt",
+    "brand": "INNOVACAR",
+    "barcode": "8027486810901",
+    "group": "glass_cleaner",
+    "sub_type": "glass_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:35:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:35:00Z",
+    "template_fields": {
+      "function": "Cam + Yüzey Temizleyici",
+      "concentration": "Konsantre",
+      "volume": "4,54 lt",
+      "ammonia_free": true,
+      "dilution": "1:10 - 1:20"
+    },
+    "content": {
+      "how_to_use": "1. Seyreltme: 1:10 ile 1:20 arasında su ile seyreltin.\n2. Püskürtme: Cam veya yüzeye eşit şekilde püskürtün.\n3. Silme: Temiz mikrofiber ile tek yönde silin.\n4. Tamponlama: Kuru bezle parlatın.",
+      "when_to_use": "Profesyonel atölyeler ve yoğun kullanım için ekonomik endüstriyel boyut. Araç iç ve dış camları ile sert yüzeylerde çiziksiz temizlik sağlar.",
+      "target_surface": "Camlar, sert plastik, aynalar, pano, vinil yüzeyler",
+      "why_this_product": "• 4,54 lt endüstriyel boyut - profesyonel kullanım için\n• 1:10-1:20 seyreltme ile 45-90 lt kullanıma hazır ürün\n• Amonyaksız güvenli formül\n• Çift etki - cam ve yüzey temizliği"
+    },
+    "faq": [
+      {"question": "500 ml ile farkı nedir?", "answer": "Aynı formül, endüstriyel ekonomi boyut. Profesyonel atölyeler için uygundur."},
+      {"question": "Kaç araca yeter?", "answer": "1:15 seyreltme ile yaklaşık 70 lt kullanıma hazır ürün elde edilir - yüzlerce araç."},
+      {"question": "Depolama koşulları nedir?", "answer": "Serin, kuru yerde, doğrudan güneş ışığından uzakta saklayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["700396"]}
+  }
+}

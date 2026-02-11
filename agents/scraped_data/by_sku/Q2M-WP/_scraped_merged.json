@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-WP",
+  "product_name": "Gyeon Q2M Washpad",
+  "barcode": "Q2M-WP",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:28:03.880Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/washpad-evo/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M WASHPAD EVO - GYEON",
+      "content_length": 9094,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-washpad",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M WashPad | Product",
+      "content_length": 12770,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-wash-pad",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON -  Q²M WashPad",
+      "content_length": 33016,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

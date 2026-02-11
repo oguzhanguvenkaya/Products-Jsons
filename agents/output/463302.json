@@ -1,0 +1,46 @@
+{
+  "sku": "463302",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "sub_type_flag": "ISSUE: Bu ürün polisher_machine kategorisinde olmamalı - LED kalem feneri/aydınlatma ürünü",
+  "product_info": {
+    "title": "FLEX SF 150-P LED Detailing El Cep Feneri 140 Lümen - Kalem Tipi Kontrol Işık",
+    "brand": "FLEX",
+    "barcode": "4030293206793",
+    "group": "polisher_machine",
+    "sub_type": "work_light"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "pen_inspection_light",
+      "power_source": "Battery",
+      "battery_type": "2x AAA 1.5V",
+      "lumen": 140,
+      "color_temperature_k": 4500,
+      "beam_angle_range": "10-70°",
+      "range_m": 70,
+      "runtime_hours": 2,
+      "weight_g": 56,
+      "ip_rating": "IP54",
+      "features": ["CREE XPG-R5 LED", "Ayarlanabilir fokus", "Manyetik tutucu", "Kalem tipi"]
+    },
+    "content": {
+      "how_to_use": "1. Pil kapağını açın ve 2 adet AAA pil takın.\n2. Açma düğmesine basarak feneri çalıştırın.\n3. Fokus halkasını döndürerek ışık açısını ayarlayın (10-70°).\n4. Kontrol edilecek yüzeye yaklaştırarak hologram, çizik ve kusurları tespit edin.\n5. Manyetik aparat ile metal yüzeylere sabitleyebilirsiniz.",
+      "when_to_use": "Polisaj sonrası boya kontrolü, hologram ve çizik tespiti, detailing kalite kontrolü ve dar alanlarda yüzey incelemesi için kullanılır.",
+      "target_surface": "Araç boyası, vernik, tüm parlak yüzeyler",
+      "why_this_product": "• 4500K renk sıcaklığı - gerçek renk analizi\n• 140 lümen - ince çizikleri görünür kılar\n• Ayarlanabilir 10-70° fokus\n• Sadece 56gr - cep feneri boyutunda"
+    },
+    "faq": [
+      {"question": "Piller dahil mi?", "answer": "Evet, kutu içerisinde 2 adet AAA 1.5V alkali pil dahildir."},
+      {"question": "Su geçirmez mi?", "answer": "IP54 koruma sınıfıyla toz ve sıçramalara karşı korumalıdır ancak su altında kullanılamaz."},
+      {"question": "DWL 2500'den farkı nedir?", "answer": "SF 150-P kalem tipi kompakt fener olup spot kontrol içindir. DWL 2500 ise geniş alan aydınlatması için tasarlanmış profesyonel çalışma lambasıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["486728", "530375"]}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sku": "26.900.224.010",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA Ağır Kesim Pasta Süngeri (Kırmızı) - 150mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Heavy Cut",
+      "color": "Kırmızı",
+      "diameter_mm": 150,
+      "base_diameter_mm": 130,
+      "machine_compatibility": ["Rotary", "Orbital"],
+      "hardness": "Hard",
+      "washable": true,
+      "safety_edge": true
+    },
+    "content": {
+      "how_to_use": "1. Pedi tabanlık diskine takın ve düzgün oturduğundan emin olun.\n2. Ped yüzeyine kalın pasta (Menzerna 300, 400, 1000) damlatın.\n3. Makineyi düşük devirde başlatarak ürünü yüzeye yayın.\n4. Devri artırarak panel bazlı çalışın, çapraz geçişlerle uygulayın.\n5. Ped kirlendikçe fırça ile temizleyin veya yedek ped kullanın.\n6. Kullanım sonrası pedi ılık suyla yıkayın ve kurutun.",
+      "when_to_use": "Ağır boya restorasyonunda, zımpara sonrası düzeltmede, derin çizik ve kusurların giderilmesinde kullanılır. Super Heavy Cut 300, Heavy Cut 400, Heavy Cut 1000 pastalarla birlikte ideal performans sunar.",
+      "target_surface": "Otomotiv boyası, vernik, sert vernikler, far plastikleri",
+      "why_this_product": "• Sert yapısı ile maksimum kesim gücü sağlar\n• Güvenlik kenarı destek diskinden kaynaklanan hasarı önler\n• Yıkanabilir ve uzun ömürlü tasarım\n• Orijinal Menzerna pastalarla optimize edilmiş performans"
+    },
+    "faq": [
+      {"question": "Bu ped hangi Menzerna pastalarla kullanılır?", "answer": "Super Heavy Cut 300, Heavy Cut 400, Heavy Cut 1000 ve Universal Paste AS 30 ile kullanım için optimize edilmiştir."},
+      {"question": "Rotary ve Orbital makinelerde kullanılabilir mi?", "answer": "Evet, hem rotary hem de orbital (DA) polisaj makineleriyle uyumludur."},
+      {"question": "Ped temizlenebilir mi?", "answer": "Evet, kullanım sonrası fırça ile temizlenebilir veya ılık suyla yıkanabilir."},
+      {"question": "Taban çapı nedir?", "answer": "Taban çapı 130mm, yüzey çapı 150mm'dir. 5 inç (125-130mm) tabanlıklarla uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": ["26.900.224.011", "26.900.224.012"], "use_with": ["22.746.281.001", "22.200.281.001"], "accessories": ["26.935.099.001"], "alternatives": ["GRY150F-C", "GRY180F-C"]}
+  }
+}

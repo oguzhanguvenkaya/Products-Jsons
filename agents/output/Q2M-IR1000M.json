@@ -1,0 +1,24 @@
+{
+  "sku": "Q2M-IR1000M",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Iron REDEFINED Demir Tozu Sökücü - 1000 ml", "brand": "GYEON", "barcode": "8683492661038", "group": "contaminant_solvers", "sub_type": "iron_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Demir Tozu / Balata Tozu", "reaction_color": "Mor", "ph_level": "Nötr (pH 7)", "gel_form": true, "odor": "Şekerli Muz", "consumption_ml_per_car": 150, "dwell_time_min": "2-3", "features": "Jant ve kaporta güvenli, kil kaydırıcı olarak kullanılabilir"},
+    "content": {
+      "how_to_use": "1. Aracın serin, gölgede ve yıkanmış olduğundan emin olun (ön durulama yeterli).\n2. Şişeyi çalkalayın, yüzeye 15 cm mesafeden bolca püskürtün.\n3. 2-3 dakika mor renk oluşumunu izleyin; kurumasına izin vermeyin.\n4. İnatçı jant kirlerinde yumuşak fırça, karoserde mikrofiberle hafifçe yayabilirsiniz.\n5. Basınçlı suyla artığı tamamen durulayın.\n6. Yüzey hâlâ pütürlü hissediyorsa kil bara geçin.",
+      "when_to_use": "İlk yıkamada kimyasal arındırma, detaylı jant bakımı, boya yüzeyi demir dekontaminasyonu, yeni araç teslimatı için kullanılır.",
+      "target_surface": "Boya, jant, cam, plastik, trim, krom, alüminyum",
+      "why_this_product": "• pH nötr - hassas metallerde güvenli\n• Jel formül - dikey yüzeylerde akmaz\n• Muz aroması - kötü kokuya son\n• Kil kaydırıcı olarak da kullanılabilir"
+    },
+    "faq": [
+      {"question": "Boya koruma / wax üzerindeki etkisi nedir?", "answer": "Hafifçe zayıflatabilir; kimyasal dekontaminasyon sonrası korumayı yenilemeniz önerilir."},
+      {"question": "Metalik trim ve çıtalarda güvenli mi?", "answer": "Evet, pH nötr yapısı sayesinde krom, alüminyum ve paslanmaz çelik yüzeylerde leke bırakmaz."},
+      {"question": "Ürün kurursa ne yapmalıyım?", "answer": "Serin ortamda çalışın; kuruduysa bol su ve mikrofiberle kalıntıyı çözerek durulayın."},
+      {"question": "Kil bara kaydırıcı olarak nasıl kullanılır?", "answer": "Yüzeye Iron püskürtüp ıslak haldeyken kimyasala dayanıklı kil barı nazikçe gezdirin, ardından durulayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-IR500M", "Q2M-IR4000M", "79291"]}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-GWE4040",
+  "product_name": "Gyeon Q²m Glasswipe Evo Cam Temizlik Bezi - 40X40 cm",
+  "barcode": "Q2M-GWE4040",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:23:29.478Z",
+  "sources": [
+    {
+      "url": "https://gyeon.de/GYEON-QM-GlassWipe-EVO-40-x-40-cm",
+      "domain": "gyeon.de",
+      "language": "en",
+      "page_title": "GYEON Q²M GlassWipe EVO 40 x 40 cm - Gyeon.de | Buy Premium Car Care",
+      "content_length": 10632,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-glass-wipe-evo-40x40cm",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Glass Wipe EVO 40x40cm | Product",
+      "content_length": 12464,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-glass-wipe-evo",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON - Q²M GlassWipe EVO",
+      "content_length": 31397,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

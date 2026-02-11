@@ -1,0 +1,39 @@
+{
+  "sku": "76386",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bean Glamour Blister Uzun Süre Etkili Oto Kokusu",
+    "brand": "FRA-BER",
+    "barcode": "8027486762040",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Glamour (Beyaz Çiçek/Bourbon Vanilya)",
+      "design": "Bean (Fasulye)",
+      "made_in": "İtalya",
+      "collection": "Bean"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma kanallarına yerleştirin.\n3. Havalandırma sistemini açın.\n4. Koku zayıfladığında yenisiyle değiştirin.\n5. Doğrudan güneş ışığından uzakta saklayın.",
+      "when_to_use": "Şıklık ve zarafeti önemseyenler için idealdir. Beyaz çiçeklerin ve Bourbon Vanilya'nın büyüleyici birleşimi.",
+      "target_surface": "Araç kliması havalandırma kanalları",
+      "why_this_product": "• Beyaz çiçeklerin zarif kokusu\n• İnce Bourbon Vanilya özü\n• Sofistike ve etkileyici atmosfer\n• Uzun süre kalıcı etki"
+    },
+    "faq": [
+      {"question": "Bean Glamour kokusu nasıl?", "answer": "Beyaz çiçeklerin ve ince Bourbon Vanilya özünün büyüleyici, şık ve zarif birleşimi."},
+      {"question": "Kimler için uygun?", "answer": "Şıklığı ve zarafeti önemseyen, sofistike koku arayanlar için."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Aylar boyunca kalıcı etki sağlar."},
+      {"question": "Nasıl saklanır?", "answer": "Açılmamış şekilde, oda sıcaklığında ve doğrudan güneş ışığından uzakta."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["78156", "76385", "76384"]}
+  }
+}

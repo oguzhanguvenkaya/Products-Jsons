@@ -1,0 +1,43 @@
+{
+  "sku": "Q2M-LCN500M",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Leather Cleaner Natural Modern Napa Yarı Anilin Derilere Özel Temizleyici - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809432677802",
+    "group": "interior_cleaner",
+    "sub_type": "leather_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Nappa Deri", "Yarı Anilin Deri", "Kaplamalı Deri", "Perforeli Deri"],
+      "ph_level": "Nötr",
+      "finish": "Tam Mat",
+      "silicone_free": true,
+      "wax_free": true,
+      "consumption": "100 ml/araç",
+      "dilution_ratio": "Saf veya 1:1",
+      "volume_ml": 500
+    },
+    "content": {
+      "how_to_use": "1. Koltuk dikişleri ve havalandırma delikleri dâhil tüm döşemeyi iyice süpürün.\n2. İsteğe bağlı: Sprey şişeye 1:1 oranında su ekleyerek ekstra köpük elde edin.\n3. 40×40 cm'lik alan seçin, temizleyiciyi yüzeye ve ped/fırçaya püskürtün.\n4. Hafif basınçla ileri-geri hareketlerle köpürtüp kiri çözün.\n5. Havlu #1 ile kirli köpükleri silin, Havlu #2 (nemli) ile artıkları toplayın.\n6. Havlu #3 (kuru) ile yüzeyi kurulayın ve mat dokuyu kontrol edin.\n7. Deri tamamen kuruduktan sonra LeatherShield EVO veya LeatherCoat uygulayabilirsiniz.",
+      "when_to_use": "LeatherShield EVO veya LeatherCoat uygulaması öncesi yüzey hazırlığında, aylık deri bakımında, hafif kirlenmiş lüks iç mekânlarda, boya transferi ve hafif sararma gidermede kullanılır.",
+      "target_surface": "Nappa deri, yarı anilin deri, kaplamalı deri, perforeli deri koltuklar, direksiyon, kapı panelleri",
+      "why_this_product": "• pH-nötr formül - hassas nappa ve yarı anilin derilerde güvenli\n• Sıfır kalıntı - kaplama tutunması için ideal temiz yüzey\n• Mat fabrika görünümü - parlatmaz, orijinal dokuyu korur\n• GYEON kaplama sistemi ile optimize edilmiş formül"
+    },
+    "faq": [
+      {"question": "Perforeli deri koltuklarda deliklere zarar verir mi?", "answer": "Hayır, köpük formu deliklerden akmaz; ilk havluyla hafifçe silmek yeterlidir."},
+      {"question": "Mevcut LeatherShield kaplamasını söker mi?", "answer": "Düzenli bakım dozunda (100 ml/araç) kaplamayı etkilemez; sadece yüzey kirini çözer."},
+      {"question": "Deriyi kurutur mu?", "answer": "pH-nötr formül deri nem dengesine zarar vermez; uzun vadeli koruma için sonrasında LeatherCoat önerilir."},
+      {"question": "Vinil döşemede kullanılabilir mi?", "answer": "Vinil yüzeylerde temizlik sağlar ancak asıl etkisi gerçek deride optimize edilmiştir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-LCN1000M"]}
+  }
+}

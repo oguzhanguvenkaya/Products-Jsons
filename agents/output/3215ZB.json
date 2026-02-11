@@ -1,0 +1,22 @@
+{
+  "sku": "3215ZB",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Çok Amaçlı Lazer Kesim Çift Taraflı Cila Bezi 320 GSM - 2'li Paket - 40x40 cm", "brand": "KLIN", "group": "microfiber", "sub_type": "buffing_cloth"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "40x40 cm", "gsm": 320, "quantity": 2, "type": "Dual Pile (Çift Taraflı)", "edge_type": "Lazer Kesim", "material_blend": "Polyester/Polyamide", "color": "Gri", "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Uzun tüylü peluş tarafı ile cila/boya koruma uygulamalarını silin.\n2. Kısa tarafı ile wax gibi yağlı ürünlerin son silme işlemini yapın.\n3. 40°C'de mikrofiber şampuanıyla yıkayın, asarak kurutun.",
+      "when_to_use": "Cila silme, boya koruma silimi, wax silme ve çeşitli silim işlemleri için çok amaçlı kullanım.",
+      "target_surface": "Dış paneller, cila/wax uygulanan yüzeyler",
+      "why_this_product": "• Çift taraflı farklı tüy uzunlukları - çok yönlü kullanım\n• Gerçek 320 GSM premium yapı\n• Lazer kesim kenarlar - güvenli silim\n• CCS ön yıkama - paketten çıkıp anında kullanım"
+    },
+    "faq": [
+      {"question": "İki tarafın farkı nedir?", "answer": "Uzun tüylü peluş taraf cila/koruma silimi için, kısa taraf wax gibi yağlı ürünlerin son silimi için idealdir."},
+      {"question": "Buffing King ile farkı nedir?", "answer": "Buffing King 1000 GSM tek tip, bu bez 320 GSM çift taraflı farklı tüy uzunluğunda."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["3215D", "Q2M-PWE4040C"]}
+  }
+}

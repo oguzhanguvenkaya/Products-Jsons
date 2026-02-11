@@ -1,0 +1,42 @@
+{
+  "sku": "LE3620",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Aşk Serisi 2li Paket Şekerli Meyve Araç Kokusu (Candy Kisses)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843652",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Şekerli Meyve/Candy",
+      "durability_days": 45,
+      "quantity": 2,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Love Edition"
+    },
+    "content": {
+      "how_to_use": "1. Ürünleri ambalajından çıkarın.\n2. Her iki parçayı araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenileriyle değiştirin.",
+      "when_to_use": "Tatlı ve neşeli bir atmosfer yaratmak isteyenler için idealdir. Şeker ve meyve kokularının eğlenceli birleşimi.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Tatlı şeker ve meyve aromalarının neşeli birleşimi\n• 2'li paket ekonomik avantaj\n• Aşk serisi özel tasarım\n• 45 güne kadar kalıcı etki"
+    },
+    "faq": [
+      {"question": "Candy Kisses kokusu nasıl?", "answer": "Tatlı şeker ve meyve kokularının hoş ve neşeli birleşimi, keyifli bir atmosfer yaratır."},
+      {"question": "Neden 2'li paket?", "answer": "Aşk serisine özel tasarım, hem ekonomik hem de dekoratif bir seçenek sunar."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Her bir parça ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Çocuklar için uygun mu?", "answer": "Evet, tatlı meyve kokusu çocuklar için de güvenli ve keyiflidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["LE3739", "LE3801", "IF2939"]}
+  }
+}

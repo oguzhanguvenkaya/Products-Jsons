@@ -1,0 +1,23 @@
+{
+  "sku": "492353",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX BP-M D30 - PXE 80 İçin Cırtlı Tabanlık 30 mm / 1 inc", "brand": "FLEX", "barcode": "4030293222120", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 30, "compatible_device": ["FLEX PXE 80"], "attachment_type": "Velcro", "material": "PU", "hardness": "Orta"},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın.\n2. Eski tabanlığı döndürerek sökün.\n3. Yeni BP-M D30 tabanlığı özel dişli yuvasına takın.\n4. Sıkıca vidalayın.\n5. Uygun 1 inç pedi takarak test edin.",
+      "when_to_use": "Dar alanlar, kenar bölgeler ve ince detay çalışmalarında maksimum kontrol için 30mm kompakt tabanlık kullanılır.",
+      "target_surface": "FLEX PXE 80 nano polisaj makinesi",
+      "why_this_product": "• Sadece PXE 80 ile tam uyum\n• 30mm (1 inç) kompakt boyut\n• Orta sertlikte PU yapı\n• Detaylı polisaj için ideal"
+    },
+    "faq": [
+      {"question": "Başka makinelerde kullanılır mı?", "answer": "Hayır, özel dişli yuvası nedeniyle sadece FLEX PXE 80 ile uyumludur."},
+      {"question": "En küçük tabanlık bu mu?", "answer": "Evet, FLEX PXE 80 için mevcut en küçük tabanlık 30mm'dir."},
+      {"question": "Hangi işler için uygundur?", "answer": "Far kenarları, ayna köşeleri ve dar detay alanlarında hassas polisaj için idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["509248", "492361"]}
+  }
+}

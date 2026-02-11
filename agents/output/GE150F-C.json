@@ -1,0 +1,42 @@
+{
+  "sku": "GE150F-C",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Orbital Cila/Boya Koruma Süngeri (Yeşil) - 150mm",
+    "brand": "MG PS",
+    "barcode": "8683492660185",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Protection/Wax",
+      "color": "Yeşil",
+      "diameter_mm": 150,
+      "base_diameter_mm": 130,
+      "machine_compatibility": ["Orbital"],
+      "cell_structure": "Open Cell",
+      "hardness": "Soft"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 130mm orbital tabanlığa takın.\n2. Wax veya boya koruma ürününü pede damlatın.\n3. Düşük devirde başlayarak ürünü yüzeye yayın.\n4. Hafif basınçla çapraz geçişlerle çalışın.\n5. İnce ve homojen bir tabaka bırakarak sonlandırın.\n6. Kullanım sonrası pedi yıkayın.",
+      "when_to_use": "Polisaj sonrası son kat koruma uygulamalarında, wax ve sealer uygulamalarında, Power Protect Ultra 2in1 ve Power Lock kullanımında tercih edilir.",
+      "target_surface": "Otomotiv boyası, vernik, tüm boya tipleri",
+      "why_this_product": "• Yumuşak yapısı ile koruma ürünlerini homojen yayar\n• Güvenlik kenarı ile destek diskinden koruma\n• Yıkanabilir ve uzun ömürlü\n• Menzerna koruma ürünleri ile mükemmel uyum"
+    },
+    "faq": [
+      {"question": "Yeşil ped ne için kullanılır?", "answer": "Wax, sealer ve boya koruma ürünlerinin uygulanması için kullanılır. Kesim yapmaz, sadece koruyucu tabaka oluşturur."},
+      {"question": "Hangi ürünlerle kullanılır?", "answer": "Menzerna Power Lock, Sealing Wax ve Power Protect Ultra 2in1 gibi koruma ürünleri ile kullanılır."},
+      {"question": "GE180F-C'den farkı nedir?", "answer": "GE150F-C 150mm çap ile standart orbital makinelerde kullanılır, GE180F-C ise 175mm çap ile daha geniş alanlarda etkilidir."},
+      {"question": "Taban çapı nedir?", "answer": "Taban çapı 130mm, yüzey çapı 150mm'dir."}
+    ],
+    "relations": {"use_before": [], "use_after": ["GRY150F-C", "RE150F-C", "GPRO150F-C"], "use_with": ["22.956.281.001", "22.957.281.001"], "accessories": [], "alternatives": ["GE180F-C"]}
+  }
+}

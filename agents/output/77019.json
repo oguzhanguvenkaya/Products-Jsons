@@ -1,0 +1,40 @@
+{
+  "sku": "77019",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Deep Alkaline Ağır Zemin Yüzey Temizliği İçin Konsantre Deterjan (1:50 Konst) - 5 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486768233",
+    "group": "interior_cleaner",
+    "sub_type": "heavy_duty_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Zemin", "Atölye", "Ağır Kirli Yüzeyler"],
+      "concentrate": true,
+      "dilution_ratio": "1:4 - 1:266",
+      "ph_level": 13.3,
+      "weight_kg": 5
+    },
+    "content": {
+      "how_to_use": "1. Uygulama yapılacak zemini kontrol edin, yüzeyin alkaliye dayanıklı olduğundan emin olun.\n2. Gerekirse ön test için görünmeyen bir alanda deneme yapın.\n3. Kova, tank veya otomat içine uygun oranlarda seyreltin.\n4. Çözeltiyi yüzeye uygulayın, zemin fırçası veya mop ile ovun.\n5. Temizlik sonrası bol su ile durulayın.\n6. Köpük fazlaysa \"NO FOAM\" ürününü ekleyin.",
+      "when_to_use": "Fabrika, depo, garaj ve üretim sahası gibi yoğun zemin kirine maruz kalan alanlarda, gözenekli karo döşemelerin temizliğinde, inşaat sonrası temizlikte kullanılır.",
+      "target_surface": "Mikro gözenekli karo, fabrika zemini, atölye zemini, garaj zemini (mermer ve kireçtaşında kullanılmaz)",
+      "why_this_product": "• Yüksek alkali formül (pH 13.3) - inatçı yağ, gres ve zemin kirlerine karşı maksimum çözünürlük\n• Gözenekli zemin uyumlu - gözenek içine hapsolmuş kirleri yüzeye çıkarır\n• Endüstriyel kullanıma uygun - zemin yıkama otomatları ile uyumlu\n• Ekonomik konsantre - 1 L ile 50 L'e kadar hazır çözelti"
+    },
+    "faq": [
+      {"question": "Mermer zeminde kullanılabilir mi?", "answer": "Hayır, mermer, kireçtaşı ve linolyum gibi alkaliye hassas yüzeylerde kullanılmamalıdır."},
+      {"question": "Zemin otomatı ile uyumlu mu?", "answer": "Evet, ıslak temizlik makineleri ve zemin yıkama otomatları ile mükemmel çalışır."},
+      {"question": "İnşaat sonrası temizlik için ne kadar seyreltilmeli?", "answer": "Aşırı kirli zeminlerde 1:4-1:8 oranında seyreltme önerilir."},
+      {"question": "Köpük sorunu olursa ne yapılmalı?", "answer": "NO FOAM ürünü eklenerek köpük azaltılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

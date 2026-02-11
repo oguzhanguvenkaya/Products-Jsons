@@ -1,0 +1,42 @@
+{
+  "sku": "20102",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA 2000 Profesyonel Kimyasal Dayanımlı Basınçlı Pompa 2 Litre - Kırmızı/Beyaz (NBR)",
+    "brand": "EPOCA",
+    "barcode": "8003916130085",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 2.0,
+      "capacity_usable_lt": 1.8,
+      "nozzle_type": "Ayarlanabilir (sis - jet, ~7m menzil)",
+      "seal_type": "NBR",
+      "pump_material": "Çinko Kaplı Demir",
+      "continuous_spray_lock": true,
+      "color": "Kırmızı/Beyaz"
+    },
+    "content": {
+      "how_to_use": "1. Su bazlı kimyasalı şeffaf hazneye doldurun.\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın.\n3. Nozulu ayarlayın: ince sis veya düz jet (max 7m).\n4. Sürekli püskürtme için patentli kilitleme sistemini kullanın.\n5. Kullanım sonrası hazneyi temiz su ile durulayın.",
+      "when_to_use": "Genel temizlik, dezenfeksiyon, araç yıkama ve bahçe sulama işlemlerinde, su bazlı ve agresif olmayan ürünlerle kullanılır.",
+      "target_surface": "Araç yüzeyleri, bahçe bitkileri, genel temizlik alanları, endüstriyel ekipmanlar",
+      "why_this_product": "• 2 litre geniş kapasite\n• Paslanmaya karşı çinko kaplı demir pompa çubuğu\n• Patentli sürekli püskürtme kilidi\n• 7 metreye kadar jet atış mesafesi"
+    },
+    "faq": [
+      {"question": "NBR conta hangi kimyasallarla uyumlu?", "answer": "Su bazlı deterjanlar ve agresif olmayan ürünlerle uyumludur."},
+      {"question": "Çinko kaplı pompa çubuğunun avantajı nedir?", "answer": "Paslanmaya karşı korumalıdır ve uzun ömürlü dayanıklılık sağlar."},
+      {"question": "Asit veya alkali ile kullanılabilir mi?", "answer": "Hayır, NBR conta asit ve alkalilerle uyumlu değildir. Bunlar için VITON veya EPDM contalı modeller önerilir."},
+      {"question": "Sürekli püskürtme kilidi nedir?", "answer": "Patentli bir tasarım sayesinde pompa kolu sürekli basılı konumda kalır, uzun süreli uygulamalarda el yorgunluğunu azaltır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["20009", "19976", "19956"]}
+  }
+}

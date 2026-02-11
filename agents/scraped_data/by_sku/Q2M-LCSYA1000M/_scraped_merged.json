@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-LCSYA1000M",
+  "product_name": "Gyeon Q²m Leathercleaner Strong Güçlü Deri Temizleyici - 1000 ml -Mat Görünüm Deri Koltuk Temizleme",
+  "barcode": "Q2M-LCSYA1000M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:31:05.597Z",
+  "sources": [
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q-m-leather-cleaner-strong",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q² Leather Cleaner Strong | Deep Leather Cleaner",
+      "content_length": 34512,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-qm-leather-cleaner-strong-500ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Leather Cleaner Strong Light Stain Remover | CARZILLA",
+      "content_length": 15649,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Leather-Cleaner-P1515/500-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Leather Cleaner Strong - 500 ml - Detailed Image",
+      "content_length": 15992,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://thecleangarage.uk/gyeon-leather-cleaner-strong-500ml-pre-coating-leather-cleaner/",
+      "domain": "thecleangarage.uk",
+      "language": "en",
+      "page_title": "Gyeon Leather Cleaner Strong 500ml | Pre-Coating Leather Cleaner",
+      "content_length": 13486,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-leather-cleaner-strong-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Leather Cleaner Strong (500ml) | Product",
+      "content_length": 12329,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/leathercleaner-strong/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M LEATHERCLEANER STRONG - GYEON",
+      "content_length": 11329,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

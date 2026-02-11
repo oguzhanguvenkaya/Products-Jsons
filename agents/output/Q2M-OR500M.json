@@ -1,0 +1,44 @@
+{
+  "sku": "Q2M-OR500M",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM OdorRemover Kötü Koku Giderici Sprey - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809973750798",
+    "group": "fragrance",
+    "sub_type": "odor_eliminator"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Organik Koku Nötralize Edici",
+      "volume_ml": 500,
+      "consumption_ml_per_car": 35,
+      "ph_level": "~7 (nötr)",
+      "effect_duration_months": 3,
+      "alcohol_free": true,
+      "voc_free": true,
+      "child_pet_safe": true,
+      "made_in": "Güney Kore"
+    },
+    "content": {
+      "how_to_use": "1. İç mekânı vakumlayın ve yüzeyleri mikrofiber bezle silin.\n2. Şişeyi iyice çalkalayın.\n3. Kötü kokunun yoğun olduğu bölgeye ve genel alana 10-15 sprey yapın.\n4. Kumaş ve döşemelerde yüzeyi hafifçe havalandırarak ürünü yedirin.\n5. Kapıları kapalı tutarak 30-60 dk kurumaya bırakın.\n6. Kullanmadan önce 5 dk havalandırın.\n7. Şiddetli kokularda 48 saat sonra ikinci uygulama yapın.",
+      "when_to_use": "Profesyonel seviyede koku giderme gereken durumlarda idealdir. Sigara, evcil hayvan, gıda ve küf kaynaklı kokular için etkilidir.",
+      "target_surface": "Kumaş, halı, döşeme, hava kanalları, sert yüzeyler, klima üniteleri",
+      "why_this_product": "• Kaynağında yok etme - maskelemez, giderir\n• %100 doğal ve alkolsüz formül\n• 2-3 ay kalıcı etki\n• Tek şişe ile 12-15 araç"
+    },
+    "faq": [
+      {"question": "GYEON OdorRemover nasıl çalışır?", "answer": "Aktif partiküller kötü kokuyu kimyasal olarak kapsüller ve tamamen ortadan kaldırır - maskelemez, yok eder."},
+      {"question": "Kumaşta leke yapar mı?", "answer": "Hayır, su bazlı ve pH-nötr formül boya ve döşemeye zarar vermez."},
+      {"question": "Evcil hayvan kokularını giderir mi?", "answer": "Evet, bakterileri kimyasal olarak etkisizleştirip kalıcı ferahlık sağlar."},
+      {"question": "Kaç araç için yeterli?", "answer": "500 ml şişe 12-15 araç veya 50 m² alan için yeterlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-ID500M"], "accessories": [], "alternatives": ["79415", "74436"]}
+  }
+}

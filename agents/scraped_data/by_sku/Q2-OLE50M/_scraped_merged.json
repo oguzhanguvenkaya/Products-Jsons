@@ -1,0 +1,47 @@
+{
+  "sku": "Q2-OLE50M",
+  "product_name": "Gyeon Q2 One Evo Light Box 50 ml",
+  "barcode": "Q2-OLE50M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:35:58.297Z",
+  "sources": [
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/One-Evo-P2587/50-ml-S2/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon One Evo - 50 ml - Detailed Image",
+      "content_length": 14465,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-one-evo-lightbox-30ml-50ml-100ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² One EVO Lightbox | CARZILLA",
+      "content_length": 28407,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeonusa.com/products/q-one-evo",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q² One EVO | Gyeon Quartz USA",
+      "content_length": 7217,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

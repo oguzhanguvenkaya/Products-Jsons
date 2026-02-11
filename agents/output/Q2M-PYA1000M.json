@@ -1,0 +1,24 @@
+{
+  "sku": "Q2M-PYA1000M",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Prep Seramik PPF Folyo Kaplama Öncesi Yüzey Hazırlayıcı ve Temizleyici - 1000 ml", "brand": "GYEON", "barcode": "8683492661359", "group": "contaminant_solvers", "sub_type": "oil_degreaser"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Yağ / Cila Kalıntısı / Parmak İzi", "chemical_base": "Alkol / IPA", "function": "Yüzeyi çıplaklaştırır ve yağdan arındırır", "safe_surfaces": ["Boya", "Cam", "Plastik", "PPF", "Metal"], "features": "Antistatik, kalıntı bırakmaz", "ipa_ratio_percent": 50, "consumption_ml_per_car": 100, "working_temp_c": "5-35"},
+    "content": {
+      "how_to_use": "1. Yüzeyin kuru, serin ve gölgede olduğundan emin olun.\n2. Q²M Prep'i panel başına eşit miktarda püskürtün ve 15-30 saniye bekleyin.\n3. Temiz BaldWipe/PolishWipe mikrofiber ile tek yönlü silin.\n4. Yağsız, pürüzsüz ve izsiz yüzeyi ışık altında kontrol edin.\n5. Kaplama, PPF veya wax uygulamasını 15 dakika içinde yapın.",
+      "when_to_use": "Seramik kaplama, PPF folyo veya wax/sealant uygulaması öncesi yüzey hazırlığı için kullanılır. Polisaj sonrası yağ kalıntılarını temizlemek için idealdir.",
+      "target_surface": "Boya, cam, plastik, jant, metal, PPF",
+      "why_this_product": "• Tek adımda yağ sökümü + antistatik etki\n• %50+ IPA ile standart IPA'dan çok daha etkili\n• Tüm yüzeylerde güvenli - iz bırakmaz\n• 1 şişe ile 8-10 tam araç hazırlığı"
+    },
+    "faq": [
+      {"question": "Sıcak panelde kullanabilir miyim?", "answer": "Tavsiye edilmez; ürün buharlaşmadan silmek zorlaşır ve iz riski artar."},
+      {"question": "Mat boya veya mat PPF'de güvenli mi?", "answer": "Evet; matlaştırmaz, parlak lekeler oluşturmaz."},
+      {"question": "Prep sonrası ne kadar sürede kaplama yapmalıyım?", "answer": "En geç 15-20 dakika içinde; toz ve parmak izi oluşmadan kaplamaya geçin."},
+      {"question": "İç mekânda kullanabilir miyim?", "answer": "Evet; piano black plastik, metal trim ve camda yağ izlerini güvenle temizler."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79292"]}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "sku": "Q2M-BL",
+  "last_updated": "2026-02-04T14:50:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Wheel Brush Mikrofiber Jant Fırçası Büyük Boy 46 cm",
+    "brand": "GYEON",
+    "barcode": "8809432675556",
+    "group": "brushes",
+    "sub_type": "wheel_brush"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:50:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:50:00Z",
+    "template_fields": {
+      "size": "Büyük Boy",
+      "length": "46 cm",
+      "material": "Mikrofiber",
+      "safe_for": ["Jant", "Krom", "Boyalı yüzeyler"],
+      "flexibility": "Yüksek"
+    },
+    "content": {
+      "how_to_use": "1. Jantı ıslatın ve jant temizleyici püskürtün.\n2. Fırçayı jant iç kısmına sokun.\n3. Yukarı-aşağı ve döndürme hareketi yapın.\n4. Dar alanlara ulaşmak için fırçayı esnetin.\n5. Bol suyla durulayın.",
+      "when_to_use": "Büyük jantlar (20 inch+) ve derin jant iç kısımlarının temizliği için kullanılır. SUV, pickup ve lüks araç jantları için ideal.",
+      "target_surface": "Büyük jant iç kısımları, derin jant yuvaları, kampana",
+      "why_this_product": "• 46 cm büyük boy - 20+ inch jantlar için ideal\n• Derin jant içlerine ulaşır\n• Mikrofiber malzeme - çizmez, güvenli\n• Esnek yapı - dar alanlara ulaşır"
+    },
+    "faq": [
+      {"question": "Orta boy ile farkı nedir?", "answer": "Büyük boy (46 cm) 20+ inch ve derin jantlar için, orta boy (38 cm) standart jantlar için uygundur."},
+      {"question": "SUV jantlarında kullanılabilir mi?", "answer": "Evet, SUV ve pickup gibi büyük jantlı araçlar için özellikle tasarlanmıştır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-BM"]}
+  }
+}

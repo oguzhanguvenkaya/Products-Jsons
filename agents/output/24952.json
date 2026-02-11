@@ -1,0 +1,43 @@
+{
+  "sku": "24952",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR)",
+    "brand": "EPOCA",
+    "barcode": "8003916040933",
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_ml": 600,
+      "trigger_output_ml": 2.2,
+      "nozzle_type": "Ayarlanabilir (sis - jet)",
+      "seal_type": "NBR",
+      "body_material": "HDPE",
+      "dilution_scale": true,
+      "protective_base": true,
+      "color": "Beyaz/Siyah"
+    },
+    "content": {
+      "how_to_use": "1. Şişeyi ml ve % ölçek çizgilerini kullanarak doğru oranlarda doldurun.\n2. Kapağı kapatıp içeriği hafifçe çalkalayın.\n3. Nozulu ayarlayın: ince sis için daraltın, jet için genişletin.\n4. Tetiğe basarak yüzeye eşit şekilde püskürtün.\n5. Kullanım bitince şişeyi boşaltıp durulayın, dik ve serin yerde saklayın.",
+      "when_to_use": "Sanitasyon ve dezenfeksiyon, endüstriyel temizlik, otomotiv detailing, tarım ve bahçe, laboratuvar ve üretim alanlarında kullanılır.",
+      "target_surface": "Yüzeyler, ekipmanlar, bitkiler, araç iç mekanı, camlar",
+      "why_this_product": "• Hassas dozaj: 2.2 ml sabit atış\n• Ml ve % seyreltme ölçekleri\n• Mist-Jet arası ayarlanabilir nozul\n• Koruyucu tabanlık ile stabilite"
+    },
+    "faq": [
+      {"question": "NBR conta hangi kimyasallarla uyumlu?", "answer": "Su bazlı deterjanlar, düşük oranlı alkoller ve ılık su ile uyumludur. Ketonlar ve aromatik hidrokarbonlar önerilmez."},
+      {"question": "Ölçek işaretleri ne işe yarar?", "answer": "Hem ml hem de % seyreltme ölçekleri bulunur, hızlı ve hatasız karışım hazırlamanızı sağlar."},
+      {"question": "Koruyucu tabanlık ne avantaj sağlar?", "answer": "Şişeyi zeminden izole eder, devrilme riskini azaltır ve tabanı aşınmadan korur."},
+      {"question": "Basınçlı pompa mı?", "answer": "Hayır, el tipi tetikli sprey şişedir. Basınçlı pompa için A-TYPE 1.5 PRO serisi önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

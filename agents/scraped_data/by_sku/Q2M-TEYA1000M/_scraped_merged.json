@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-TEYA1000M",
+  "product_name": "Gyeon Q²m Tire Express Lastik Parlatıcı ve Koruyucu - 1000 ml -Su Bazlı Jel Oto Lastik Cilası",
+  "barcode": "Q2M-TEYA1000M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:31:28.199Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/gyeon-qm-tire-express-400ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Tire Express | CARZILLA",
+      "content_length": 15398,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q-m-tire-express",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Tire Express | Easy-Apply Tyre Dressing",
+      "content_length": 34167,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/tire-express/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M TIRE EXPRESS - GYEON",
+      "content_length": 10967,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

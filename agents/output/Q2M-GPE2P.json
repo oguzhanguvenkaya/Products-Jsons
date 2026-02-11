@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-GPE2P",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM GlassPack EVO Cam Temizlik Bezi Seti 2'li", "brand": "GYEON", "barcode": "8809432675716", "group": "microfiber", "sub_type": "kit"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"kit_contents": ["GlassWipe EVO", "BaldWipe EVO"], "size": "40x40 cm", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. GlassWipe EVO'yu cam temizleyici ile kullanarak camları silin ve parlatın.\n2. BaldWipe EVO'yu koruma uygulamalarını silme ve yüzey temizleme için kullanın.\n3. 30°C'de Towelwash ile yıkayın, asarak kurutun.",
+      "when_to_use": "Cam yüzeylerin temizlik, koruma ve bakım uygulamaları için ekonomik ve yüksek performanslı set olarak kullanılır.",
+      "target_surface": "Cam, ayna, koruma uygulanan yüzeyler",
+      "why_this_product": "• Waffle ve düz dokuma kombinasyonu\n• GlassWipe EVO 390 GSM - kusursuz cam temizliği\n• BaldWipe EVO - çok amaçlı koruma silimi\n• Ekonomik 2'li paket"
+    },
+    "faq": [
+      {"question": "Set içeriği nedir?", "answer": "GlassWipe EVO x1 ve BaldWipe EVO x1 toplam 2 bez."},
+      {"question": "InteriorPack ile farkı nedir?", "answer": "GlassPack sadece cam ve koruma odaklı, InteriorPack tüm iç aksam için kapsamlı set."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-GLA500M"], "accessories": [], "alternatives": ["Q2M-IPE4P"]}
+  }
+}

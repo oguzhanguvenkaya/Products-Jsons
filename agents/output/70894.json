@@ -1,0 +1,41 @@
+{
+  "sku": "70894",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Brilliant Drakar Antistatik Konsol Ve İç Plastik Temizleyici Parlatıcı Parfümlü - 600 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486708949",
+    "group": "interior_cleaner",
+    "sub_type": "plastic_dressing"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Plastik", "Vinil", "Ahşap"],
+      "finish": "Parlak",
+      "anti_static": true,
+      "scent": "Drakar",
+      "form": "Aerosol",
+      "volume_ml": 600
+    },
+    "content": {
+      "how_to_use": "1. Şişeyi iyice çalkalayın.\n2. Ürünü dik konumda tutarak, yüzeye yaklaşık 20 cm mesafeden püskürtün.\n3. Birkaç saniye bekleyin.\n4. Temiz ve kuru bir mikrofiber bez ile yayarak silin.\n5. Kurumasını bekleyin.",
+      "when_to_use": "Gösterge panelleri, kapı içleri, torpido ve plastik kaplamalarda parlaklık sağlamak için, tekne iç mekanlarında koruma ve görsel tazelik için, sık temas edilen bölgelerde tozlanmayı azaltmak için kullanılır.",
+      "target_surface": "Gösterge panelleri, kapı içleri, torpido, plastik kaplamalar, ahşap trimler, vinil yüzeyler",
+      "why_this_product": "• Antistatik etki - toz birikimini önler, yüzeyleri daha uzun süre temiz tutar\n• Koruyucu film tabakası - plastik parçaların eskimesini ve çatlamasını önler\n• Maskülen Drakar kokusu - araç içinde sofistike bir atmosfer yaratır\n• Kullanıma hazır aerosol format - kolay uygulama, hızlı kuruma"
+    },
+    "faq": [
+      {"question": "Doğrudan güneş altında kullanılabilir mi?", "answer": "Hayır, uygulama sırasında doğrudan güneş ışığından kaçının."},
+      {"question": "Ahşap yüzeylerde güvenli mi?", "answer": "Evet, ahşap yüzeylerde doğal görünümü bozmadan etkili parlaklık sağlar."},
+      {"question": "Kaç farklı koku seçeneği var?", "answer": "Brilliant serisi Vanilya ve Drakar olmak üzere iki farklı koku seçeneğine sahiptir."},
+      {"question": "Tekne iç mekanlarında kullanılabilir mi?", "answer": "Evet, tekne iç mekanlarındaki ahşap ve plastik yüzeylerde koruma ve görsel tazelik sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["74598"]}
+  }
+}

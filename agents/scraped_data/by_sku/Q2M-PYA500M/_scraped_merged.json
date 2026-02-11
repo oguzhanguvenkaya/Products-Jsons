@@ -1,0 +1,71 @@
+{
+  "sku": "Q2M-PYA500M",
+  "product_name": "Gyeon Q²m Prep Seramik Ppf Folyo Kaplama Öncesi Yüzey Hazırlayıcı ve Temizleyici - 500 ml",
+  "barcode": "Q2M-PYA500M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:39:53.787Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/prep/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M PREP - Gyeon",
+      "content_length": 10897,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cadetailing.co.uk/products/gyeon-q-m-prep-500-ml",
+      "domain": "cadetailing.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Prep - Surface Prep for Coating Application",
+      "content_length": 32851,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.goldlabelcarcare.co.uk/products/gyeon-q2m-prep",
+      "domain": "goldlabelcarcare.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Prep — Gold Label Car Care and Detailing Supplies",
+      "content_length": 32479,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-prep-500ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Prep | CARZILLA",
+      "content_length": 17138,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-prep#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Prep - Alcohol-Based Panel Wipe — Polished Bliss",
+      "content_length": 13151,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

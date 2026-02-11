@@ -1,0 +1,40 @@
+{
+  "sku": "71675",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Lava Interni B Genel Amaçlı Detaylı Araç Temizleyici - 5 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486716630",
+    "group": "interior_cleaner",
+    "sub_type": "fabric_cleaner_concentrate"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Kumaş", "Halı", "Plastik"],
+      "concentrate": true,
+      "dilution_ratio": "1:25 - 1:50",
+      "compatible_equipment": ["Tornador", "Vakum Makinesi", "Manuel"],
+      "weight_kg": 5
+    },
+    "content": {
+      "how_to_use": "1. Seyreltme: Püskürtücü ile 1:25 - 1:50 oranında seyreltin.\n2. Uygulama: Temizlenecek yüzeye bolca püskürtün.\n3. Fırçalama: Yumuşak fırça veya bez ile kirleri çözün.\n4. Silme: Mikrofiber bez ile köpüğü ve kiri alın.\n5. Ekstraksiyon (Opsiyonel): Emiş makinesi ile derin temizlik yapın.",
+      "when_to_use": "En inatçı kirleri tüm kumaşlardan ve araç içlerinden temizlemek için kullanılır. Hem manuel hem de otomatik ekstraksiyon sistemleriyle uyumludur.",
+      "target_surface": "Kumaş koltuklar, halılar, paspaslar, plastik iç trimler, araç içi döşemeler",
+      "why_this_product": "• Sadece kimyasal etkisi ile kiri çözme yeteneği\n• Hoş koku bırakma özelliği - derinlemesine temizler ve parfümlendirir\n• Organik kalıntıları gidererek daha uzun süreli temizlik\n• Hem profesyonel hem ev kullanımı için ideal"
+    },
+    "faq": [
+      {"question": "Tornador ile kullanılabilir mi?", "answer": "Evet, tornador ve diğer ekstraksiyon sistemleriyle mükemmel uyum sağlar."},
+      {"question": "Plastik yüzeylerde de etkili mi?", "answer": "Evet, kumaş, halı ve plastik tüm iç yüzeylerde kullanılabilir."},
+      {"question": "Ne kadar seyreltilmeli?", "answer": "Püskürtücü ile 1:25 - 1:50 oranında seyreltme önerilir."},
+      {"question": "Koku giderici etkisi var mı?", "answer": "Evet, organik kir moleküllerini parçalayarak güçlü koku kontrolü sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["73378"]}
+  }
+}

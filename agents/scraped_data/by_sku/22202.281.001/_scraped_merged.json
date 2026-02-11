@@ -1,0 +1,83 @@
+{
+  "sku": "22202.281.001",
+  "product_name": "Menzerna Yeni 400 Fast Gloss - Çizik Çıkarıcı Pasta 250ml.",
+  "barcode": "22202.281.001",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:32:26.946Z",
+  "sources": [
+    {
+      "url": "https://www.polishedbliss.co.uk/products/menzerna-heavy-cut-compound-400-fg400",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Heavy Cut Compound 400 (FG400) - Aggressive Compound — Polished Bliss",
+      "content_length": 10488,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/menzerna-heavy-cut-compound-400",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "Menzerna - Heavy Cut Compound 400 | FG400 | Mernzerna Polishes",
+      "content_length": 34449,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://intercash.pro/en/menzerna/6517-menzerna-cut-force-pro-250-ml-polish-compound-and-finition.html",
+      "domain": "intercash.pro",
+      "language": "en",
+      "page_title": "Menzerna Cut Force Pro 250 ML Polish / Compound and Finition",
+      "content_length": 40714,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Menzerna-M10/Fast-Gloss-400-Compound-P688/32-oz-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Menzerna Heavy Cut Compound 400 - 32 oz - Detailed Image",
+      "content_length": 18732,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autogeek.net/menzerna-fast-gloss-fg400.html",
+      "domain": "autogeek.net",
+      "language": "en",
+      "page_title": "Menzerna Heavy Cut Compound 400 | Autogeek.net",
+      "content_length": 9027,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cadetailing.co.uk/products/menzerna-heavy-cut-compound",
+      "domain": "cadetailing.co.uk",
+      "language": "en",
+      "page_title": "Menzerna 400 Heavy Cut Compound – High-Performance Polishing",
+      "content_length": 28802,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

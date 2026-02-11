@@ -1,0 +1,1825 @@
+{
+  "metadata": {
+    "group_id": "spare_part",
+    "group_name": "Yedek Parça ve Tamir Kitleri",
+    "total_products": 32,
+    "description": "Polisaj makineleri ve basınçlı pompalar için bakım kitleri, yedek kömürler, tabanlıklar (backing plates), nozullar, hortumlar ve tetik mekanizmaları.",
+    "source_files": [
+      "622_template_mapping.csv",
+      "pasted_content_2.txt",
+      "best50.csv"
+    ],
+    "sub_types": [
+      {
+        "id": "backing_plate",
+        "name": "Taban Plakası",
+        "description": "Polisaj pedini makineye bağlayan cırt/vidalı adaptör plaka"
+      },
+      {
+        "id": "trigger_head",
+        "name": "Tetik Başlığı",
+        "description": "Sprey şişe ve pompa için yedek tetik mekanizması"
+      },
+      {
+        "id": "maintenance_kit",
+        "name": "Bakım Kiti",
+        "description": "Makine bakım ve periyodik onarım parçaları seti"
+      },
+      {
+        "id": "carbon_brush",
+        "name": "Karbon Fırça",
+        "description": "Elektrikli motor için yedek karbon fırça seti"
+      },
+      {
+        "id": "repair_part",
+        "name": "Onarım Parçası",
+        "description": "Makine ve ekipman onarımı için yedek parça"
+      },
+      {
+        "id": "hose",
+        "name": "Hortum",
+        "description": "Basınçlı yıkama makinesi ve pompa yedek hortumu"
+      },
+      {
+        "id": "nozzle_kit",
+        "name": "Nozul Kiti",
+        "description": "Farklı püskürtme açılarına sahip nozul seti"
+      },
+      {
+        "id": "nozzle",
+        "name": "Nozul",
+        "description": "Basınçlı yıkama makinesi için tek yedek püskürtme nozulu"
+      },
+      {
+        "id": "trigger_gun",
+        "name": "Tetik Tabancası",
+        "description": "Basınçlı yıkama makinesi için yedek tetik tabancası"
+      },
+      {
+        "id": "handle",
+        "name": "Sap/Tutamak",
+        "description": "Ekipman yedek sap, tutamak ve ergonomik kol"
+      },
+      {
+        "id": "battery",
+        "name": "Akü",
+        "description": "Akülü ekipmanlar için uyumlu yedek lityum batarya"
+      },
+      {
+        "id": "charger",
+        "name": "Şarj Cihazı",
+        "description": "Akülü ekipmanlar için yedek şarj ünitesi"
+      },
+      {
+        "id": "extension_kit",
+        "name": "Uzatma Kiti",
+        "description": "Ekipman erişim mesafesini artıran uzatma aparatları seti"
+      }
+    ]
+  },
+  "products": [
+    {
+      "sku": "336807",
+      "barcode": "4030293129054",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "carbon_brush",
+        "fields": {
+          "compatible_device": "FLEX PE 8-4, XFE 7-12",
+          "part_type": "Motor Kömürü",
+          "quantity": 2
+        }
+      },
+      "content": {
+        "short_description": "FLEX Rotary ve Orbital Polisaj Makinesi Yedek Kömür Takımı L48, düşük kıvılcım ve uzun ömürlü kullanım sağlar. Orijinal karbon kömür ile motor performansınızı ilk günkü gibi yenileyin.",
+        "full_description": "Orijinal FLEX karbon kömür ile motor performansınızı yenileyin!\r\n\r\nFLEX L48 Yedek Kömür Takımı, rotary ve orbital polisaj makineleri için geliştirilmiş orijinal yedek karbon kömür setidir. Düşük kıvılcım, yüksek dayanıklılık ve uzun servis ömrü ile makinenizin performansını ilk günkü haline getirir.\r\n\r\nMotorun tekleme, durma veya güç kaybı gibi sorunları genellikle aşınmış kömürlerden kaynaklanır. Orijinal FLEX kömür takımı ile makinenizin gücünü ve verimliliğini geri kazanın.\r\n\r\nÖne Çıkan Özellikler\r\nOrijinal FLEX Üretimi – Maksimum uyumluluk ve güvenilirlik\r\nDüşük Kıvılcım Teknolojisi – Daha az aşınma ve daha uzun kullanım ömrü\r\nYüksek Dayanıklılık – Profesyonel kullanım için uzun servis süresi\r\nKolay Değiştirilebilir – Basit montaj ile hızlı bakım imkanı\r\nMotor Performansını Artırır – Durma ve tekleme sorunlarını giderir\r\nKompakt Ölçüler – 6 mm x 9 mm x 15 mm boyutlarında set\r\n\r\nTeknik Özellikler\r\n• Ürün Kodu: 336807\r\n• Boyutlar: 6 mm x 9 mm x 15 mm\r\n• Adet: 2 (çift olarak satılır)\r\n• Malzeme: Yüksek kaliteli karbon\r\n• Not: Kömür yuvaları ayrı satılmaktadır\r\n\r\nUyumlu FLEX Makineleri\r\n• PE 8-4 80\r\n• XFE 7-12 80\r\n• L 3709 115/125\r\n• L 800 / 801\r\n• LE 9-10\r\n\r\nUyumlu Diğer Markalar\r\n(Satın almadan önce makinenizin teknik özelliklerini kontrol ediniz.)\r\n• FLEX\r\n• DeWalt\r\n• Black &amp; Decker\r\n• Bosch\r\n\r\nNeden Orijinal FLEX Kömür Takımı Kullanmalısınız?\r\n• Aşınmış kömürler motor gücünü düşürür ve durmaya neden olabilir.\r\n• Orijinal kömür seti, motorun verimini artırır ve makinenizin ömrünü uzatır.\r\n• Yan sanayi ürünleri performans kaybına ve daha hızlı aşınmaya yol açabilir.\r\n\r\nMaksimum performans ve güvenilirlik için FLEX orijinal yedek parçalarını tercih edin!",
+        "how_to_use": "1. Makineyi kapatın ve fişten çekin.\n2. Kömür kapağını tornavidayla açın.\n3. Eski kömürü çıkarın.\n4. Yeni kömürü yerine takın.\n5. Kapağı sıkıca kapatın.\n6. Makineyi test edin.",
+        "when_to_use": "Motor kömürleri aşındığında veya makine performansı düştüğünde, motor çalışırken kıvılcım oluştuğunda yedek kömür değişimi yapılmalıdır.",
+        "target_surface": "FLEX L48 serisi polisaj makineleri",
+        "why_this_product": "• Orijinal FLEX yedek parçası\n• Uzun ömürlü karbon yapı\n• Motor performansını yeniler\n• Garantili uyumluluk"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "399647"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi FLEX makinelerle uyumlu?",
+          "answer": "L48 kodlu motor kömürü, uyumlu FLEX polisaj makineleri için tasarlanmıştır."
+        },
+        {
+          "question": "Ne zaman değiştirilmeli?",
+          "answer": "Motor kömürleri aşındığında (genellikle 200-500 saat kullanım sonrası) veya kıvılcım artışı fark edildiğinde değiştirilmelidir."
+        },
+        {
+          "question": "Orijinal yedek parça mı?",
+          "answer": "Evet, FLEX orijinal fabrika çıkışlı yedek motor kömürüdür."
+        }
+      ],
+      "price": 85000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/336807_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "399647",
+      "barcode": "4030293169920",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "carbon_brush",
+        "fields": {
+          "compatible_device": "FLEX PE 14-2, XFE 7-15",
+          "part_type": "Motor Kömürü",
+          "quantity": 2
+        }
+      },
+      "content": {
+        "short_description": "FLEX Rotary ve Orbital Polisaj Makinesi Yedek Kömür Takımı K96, düşük kıvılcım ve yüksek dayanım sunar. Orijinal yedek parça ile motor performansını yenileyin, uzun ömürlü kullanım sağlayın.",
+        "full_description": "Motor performansını yenileyen orijinal FLEX karbon kömür takımı!\r\n\r\nFLEX K96 Yedek Kömür Takımı, rotary ve orbital polisaj makinelerinizin motor performansını yeniden kazandırmak için geliştirilmiş orijinal FLEX karbon kömür setidir. Düşük kıvılcım, yüksek dayanıklılık ve uzun servis ömrü sağlayarak profesyonel kullanım için maksimum verimlilik sunar.\r\n\r\nAşınmış kömürler genellikle motorun tekleme, durma veya güç kaybına neden olur. Orijinal FLEX kömür takımı ile makinenizin ilk günkü gücünü geri kazanın!\r\n\r\nÖne Çıkan Özellikler\r\nOrijinal FLEX Üretimi – Maksimum uyumluluk ve güvenilirlik\r\nDüşük Kıvılcım Teknolojisi – Daha az aşınma ve daha uzun kullanım ömrü\r\nYüksek Kaliteli Karbon Malzeme – Profesyonel kullanım için uzun servis süresi\r\nKolay Montaj – Hızlı ve pratik değişim imkanı\r\nMotor Performansını Yeniler – Tekleme, durma ve güç kaybı sorunlarını giderir\r\nKompakt Ölçüler – 6,3 mm x 8 mm x 14 mm boyutunda set\r\n\r\nTeknik Özellikler\r\n• Ürün Kodu: 399647\r\n• Boyutlar: 6,3 mm x 8 mm x 14 mm\r\n• Adet: 2 (çift olarak satılır)\r\n• Malzeme: Yüksek kaliteli karbon\r\n• Not: Kömür yuvaları ayrı satılmaktadır\r\n\r\nUyumlu FLEX Makineleri\r\n• PE 14-1 180\r\n• PE 14-2 150\r\n• PE 14-3 125\r\n• XFE 7-15 150\r\n• L 1503 VR\r\n• L 3410\r\n• WST 700 VV Plus\r\n• WST 1000 FV\r\n• LD 15-10 125\r\n• SE 14-2 125\r\n• WST 700\r\n\r\nUyumlu Diğer Markalar\r\n(Satın almadan önce makinenizin teknik özelliklerini kontrol ediniz.)\r\n• FLEX\r\n• DeWalt\r\n• Black &amp; Decker\r\n• Bosch\r\n\r\nNeden Orijinal FLEX Kömür Takımı Kullanmalısınız?\r\n• Aşınmış kömürler motor verimini düşürür ve arızalara yol açabilir.\r\n• Orijinal karbon kömür, motorun ömrünü uzatır ve tam performans sağlar.\r\n• Yan sanayi ürünleri performans kaybına ve erken aşınmaya neden olabilir.\r\n\r\nMaksimum performans ve uzun ömür için FLEX orijinal yedek parçalarını tercih edin!",
+        "how_to_use": "1. Makineyi kapatın ve fişten çekin.\n2. Kömür kapağını tornavidayla açın.\n3. Eski kömürü çıkarın.\n4. Yeni kömürü yerine takın.\n5. Kapağı sıkıca kapatın.\n6. Makineyi test edin.",
+        "when_to_use": "Motor kömürleri aşındığında veya makine performansı düştüğünde, motor çalışırken kıvılcım oluştuğunda yedek kömür değişimi yapılmalıdır.",
+        "target_surface": "FLEX K96 serisi polisaj makineleri",
+        "why_this_product": "• Orijinal FLEX yedek parçası\n• Uzun ömürlü karbon yapı\n• Motor performansını yeniler\n• Garantili uyumluluk"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "336807"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi FLEX makinelerle uyumlu?",
+          "answer": "K96 kodlu motor kömürü, uyumlu FLEX polisaj makineleri için tasarlanmıştır."
+        },
+        {
+          "question": "Ne zaman değiştirilmeli?",
+          "answer": "Motor kömürleri aşındığında (genellikle 200-500 saat kullanım sonrası) veya kıvılcım artışı fark edildiğinde değiştirilmelidir."
+        },
+        {
+          "question": "Orijinal yedek parça mı?",
+          "answer": "Evet, FLEX orijinal fabrika çıkışlı yedek motor kömürüdür."
+        }
+      ],
+      "price": 75000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/399647_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "81676800",
+      "barcode": "8414685032546",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "maintenance_kit",
+        "fields": {
+          "compatible_device": [
+            "IK FOAM 1.5",
+            "IK FOAM PRO 2"
+          ],
+          "kit_contents": [
+            "Nozzle",
+            "Keçe"
+          ],
+          "quantity": 1
+        }
+      },
+      "content": {
+        "short_description": "IK FOAM 1,5 ve FOAM PRO 2 için yedek nozzle ve keçe kiti ile püskürtücünüzün performansını koruyun. 3 parçalık set sayesinde kesintisiz, güçlü ve etkili köpük püskürtme!",
+        "full_description": "IK FOAM 1,5 ve FOAM PRO 2 için Yedek Köpük Yapıcı Nozzle ve Keçe Kiti - 3 Parça<br><br>Püskürtücünüzü her zaman hazır tutmak ve işinizi daha verimli yapmanızı sağlayacak yedek köpük yapıcı nozzle ve keçe kiti.<br><br>Bu kit, yoğun kullanım nedeniyle en fazla aşınma ve yıpranmaya maruz kalan nozzle parçaları değiştirerek iş aletinizi her zaman hazır tutmanıza yardımcı olur. Ürününüzün kârlılığını artırın, daha yüksek püskürtücü performansı elde edin ve daha etkili uygulamalar sağlayın.<br><br>- 1233 Köpük Yapıcı Keçe – 81776313x 2 adet (Toplam 20 Keçe)<br>- 1227 Köpük Yapıcı Nozzle – 81776602x 1 adet<br><br>IK SPRAYER Hakkında:<br>IK, farklı sektörlerdeki her türlü püskürtme ihtiyacını karşılayan ürünler sunan, alanında uzmanlaşmış, İspanya üretimi, yüksek malzeme kaliteli, sektörün lider markalarındandır.IK, ürünlerinin kalitesini her zaman ilk sıraya koyar. Ekipman ihtiyacınız olduğunda IK ürünlerinin en büyük yardımcınız olacağına emin olabilirsiniz!<br><br>Tekrar tekrar arızalanan ucuz şişeleri, kalitesiz sürekli delinen plastikleri ve atmayan püskürtücüleri kullanmaktan vazgeçin. Bugün IK 'ya geçin!<br>",
+        "how_to_use": "1. Pompayı sökülerek iç parçalara erişin.\n2. Aşınmış nozzle parçasını çıkarın.\n3. Yeni nozzle kitini yerine takın.\n4. Pompayı tekrar monte edin.\n5. Test püskürtmesi yaparak kontrol edin.",
+        "when_to_use": "Köpük kalitesi düştüğünde, pompa tıkandığında veya püskürtme düzensizleştiğinde nozzle kit değişimi önerilir.",
+        "target_surface": "IK FOAM serisi köpük pompası makineleri",
+        "why_this_product": "• Orijinal IK yedek parçası\n• Köpük kalitesini yeniler\n• Kimyasala dayanıklı\n• Kolay montaj"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "81771871"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi IK modellerle uyumlu?",
+          "answer": "IK FOAM 1.5, IK FOAM 9 ve IK FOAM PRO serisi köpük pompaları ile uyumludur."
+        },
+        {
+          "question": "Kit içeriğinde neler var?",
+          "answer": "Nozzle, conta ve gerekli bağlantı parçaları içerir."
+        },
+        {
+          "question": "Ne sıklıkla değiştirilmeli?",
+          "answer": "Kullanım yoğunluğuna bağlı olarak genellikle 6-12 ayda bir kontrol edilmelidir."
+        }
+      ],
+      "price": 42000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/81676800_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "81771871",
+      "barcode": "8414685032539",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "nozzle_kit",
+        "fields": {
+          "compatible_device": [
+            "IK MULTI 1.5",
+            "IK MULTI PRO 2"
+          ],
+          "kit_contents": [
+            "Ayarlanabilir Nozzle",
+            "Açılı Nozzle"
+          ],
+          "quantity": 1
+        }
+      },
+      "content": {
+        "short_description": "IK FOAM 1,5 ve FOAM PRO 2 için yedek nozzle ve keçe kiti ile püskürtücünüzün performansını koruyun. 2 parçalık set sayesinde kesintisiz, güçlü ve etkili köpük püskürtme!",
+        "full_description": "IK MULTI 1.5 ve MULTI PRO 2 için Yedek Nozzle Kiti - 2 Parça<br><br>Püskürtücünüzü her zaman hazır tutmak ve işinizi daha verimli yapmanızı sağlayacak yedek nozzle kiti.<br><br>Bu kit, yoğun kullanım nedeniyle en fazla aşınma ve yıpranmaya maruz kalan nozzle parçaları değiştirerek iş aletinizi her zaman hazır tutmanıza yardımcı olur. Ürününüzün kârlılığını artırın, daha yüksek püskürtücü performansı elde edin ve daha etkili uygulamalar sağlayın.<br><br>- M12 Ayarlanabilir Universal Nozzle– 81771601 x 1 adet<br>- M18 Açılı Sıvı Nozzle – 81771602 x 1 adet<br><br>IK SPRAYER Hakkında:<br>IK, farklı sektörlerdeki her türlü püskürtme ihtiyacını karşılayan ürünler sunan, alanında uzmanlaşmış, İspanya üretimi, yüksek malzeme kaliteli, sektörün lider markalarındandır.IK, ürünlerinin kalitesini her zaman ilk sıraya koyar. Ekipman ihtiyacınız olduğunda IK ürünlerinin en büyük yardımcınız olacağına emin olabilirsiniz!<br><br>Tekrar tekrar arızalanan ucuz şişeleri, kalitesiz sürekli delinen plastikleri ve atmayan püskürtücüleri kullanmaktan vazgeçin. Bugün IK 'ya geçin!",
+        "how_to_use": "1. Pompa tabancasını sökün.\n2. Eski nozzle parçasını çıkarın.\n3. Yeni nozzle kit parçalarını takın.\n4. Tabancayı tekrar monte edin.\n5. Test püskürtmesi yaparak ayar kontrolü yapın.",
+        "when_to_use": "Püskürtme düzeni bozulduğunda, nozzle tıkandığında veya damlama oluştuğunda değiştirilmelidir.",
+        "target_surface": "IK MULTI serisi basınçlı pompa makineleri",
+        "why_this_product": "• Orijinal IK yedek parçası\n• Püskürtme performansını yeniler\n• Kimyasala dayanıklı yapı\n• Hassas püskürtme kontrolü"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "81676800"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi IK modellerle uyumlu?",
+          "answer": "IK MULTI 1.5, 6, 9 ve 12 litre kapasiteli basınçlı pompalarla uyumludur."
+        },
+        {
+          "question": "Püskürtme tipi değiştirilebilir mi?",
+          "answer": "Evet, nozzle sayesinde jet ve fan püskürtme arasında geçiş yapılabilir."
+        },
+        {
+          "question": "Montaj için özel alet gerekir mi?",
+          "answer": "Hayır, el ile kolayca monte edilebilir."
+        }
+      ],
+      "price": 45000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/81771871_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "81771874",
+      "barcode": "8414685032614",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "maintenance_kit",
+        "fields": {
+          "compatible_device": [
+            "IK MULTI 1.5",
+            "IK PRO 2"
+          ],
+          "kit_contents": [
+            "Valf",
+            "Conta",
+            "O-ring"
+          ],
+          "quantity": 6
+        }
+      },
+      "content": {
+        "short_description": "IK MULTI ve PRO 2 modelleri için 6 parçalık yedek bakım kiti ile püskürtücünüzün ömrünü uzatın. Kolay montaj, maksimum performans!",
+        "full_description": "IK MULTI-FOAM 1.5 ve PRO 2 Şişeler için Bakım Kiti - 6 Parça\r\n\r\nPüskürtücünüzü her zaman hazır tutmak ve ömrünü uzatmak için bakım kitleri.\r\nBu kitler, yoğun kullanım nedeniyle en fazla aşınma ve yıpranmaya maruz kalan parçaları değiştirerek iş aletinizi her zaman hazır tutmanıza yardımcı olur. Ürününüzün kârlılığını artırın, daha yüksek püskürtücü performansı elde edin ve daha etkili uygulamalar sağlayın.\r\n\r\n- CHAMBER VALVE N. 165 x 1 adet\r\n- ROUND GASKET Ø15 N. 603 x 1 adet\r\n- ROUND GASKET AN-5 N. 607 x 1 adet\r\n- ROUND GASKET N. 098 x 1 adet\r\n- ROUND GASKET N. 1269 x 1 adet\r\n- SHAFT WITH JOINT N. 1285 x 1 adet\r\n\r\nIK SPRAYER Hakkında:\r\nIK, farklı sektörlerdeki her türlü püskürtme ihtiyacını karşılayan ürünler sunan, alanında uzmanlaşmış, İspanya üretimi, yüksek malzeme kaliteli, sektörün lider markalarındandır.IK, ürünlerinin kalitesini her zaman ilk sıraya koyar. Ekipman ihtiyacınız olduğunda IK ürünlerinin en büyük yardımcınız olacağına emin olabilirsiniz!\r\n\r\nTekrar tekrar arızalanan ucuz şişeleri, kalitesiz sürekli delinen plastikleri ve atmayan püskürtücüleri kullanmaktan vazgeçin. Bugün IK 'ya geçin!",
+        "how_to_use": "1. Pompayı boşaltın ve sökülerek parçalarına ayırın.\n2. Aşınmış contaları ve parçaları tespit edin.\n3. Bakım setindeki yeni parçalarla değiştirin.\n4. Pompayı tekrar monte edin.\n5. Sızdırmazlık testi yapın.",
+        "when_to_use": "Pompa sızdırıyor, basınç kaybı yaşanıyor veya püskürtme performansı düştüğünde periyodik bakım için kullanılır.",
+        "target_surface": "IK MULTI ve FOAM 1.5 litre kapasiteli pompalar",
+        "why_this_product": "• 6 parçalık komple bakım seti\n• Orijinal IK yedek parçaları\n• Pompa ömrünü uzatır\n• Ekonomik bakım çözümü"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "82671874"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Set içeriğinde neler var?",
+          "answer": "Contalar, O-ringler ve gerekli sızdırmazlık parçaları dahil 6 adet bakım parçası içerir."
+        },
+        {
+          "question": "Ne sıklıkla bakım yapılmalı?",
+          "answer": "Yoğun kullanımda 3-6 ayda bir, normal kullanımda yılda bir bakım önerilir."
+        },
+        {
+          "question": "Büyük pompalarla uyumlu mu?",
+          "answer": "Hayır, bu set sadece 1.5 litre kapasiteli modeller içindir. Büyük pompalar için 82671874 kodlu seti kullanın."
+        }
+      ],
+      "price": 35000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/81771874_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "82671874",
+      "barcode": "8414685032607",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "maintenance_kit",
+        "fields": {
+          "compatible_device": [
+            "IK MULTI 6/9/12",
+            "IK MULTI PRO 9/12"
+          ],
+          "kit_contents": [
+            "Conta",
+            "Bilezik",
+            "Valf"
+          ],
+          "quantity": 9
+        }
+      },
+      "content": {
+        "short_description": "Pompa yedek parça, şişe yedek parça, Aside dayanıklı sprey şişe, basınçlı sprey püskürtücü, kimyasala dayanıklı şişe, solvente dayanıklı şişe, köpük yapan pompa, köpük yapıcı şişe, alkali dayanıklı pompa, IK sprey, IK köpük, IK pompa, IK sprayerS",
+        "full_description": "IK MULTI 6-9-12 ve MULTI PRO 9-12 için Yedek Bakım Kiti - 9 Parça\r\n\r\nPüskürtücünüzü her zaman hazır tutmak ve işinizi daha verimli yapmanızı sağlayacak yedek conta, bilezik ve valf kiti.\r\n\r\nBu kit, yoğun kullanım nedeniyle en fazla aşınma ve yıpranmaya maruz kalan plastik parçaları (conta, bilezik ve valf) değiştirerek iş aletinizi her zaman hazır tutmanıza yardımcı olur. Ürününüzün kârlılığını artırın, daha yüksek püskürtücü performansı elde edin ve daha etkili uygulamalar sağlayın.\r\n\r\n- Round joint AN-8 nº 614 - 22316908 x 4 adet\r\n- Round joint AN-16 n.º 259 - 22316916 x 1 adet\r\n- Round joint AN-30 nº 609 - 22316930 x 1 adet\r\n- Collar seal nº 613 - 83811314 x 1 adet\r\n- Chamber valve nº 165 - 838053141 x 1 adet\r\n- Round gasket AN-5 nº 607 - 22316905 x 1 adet\r\n\r\nIK SPRAYER Hakkında:\r\nIK, farklı sektörlerdeki her türlü püskürtme ihtiyacını karşılayan ürünler sunan, alanında uzmanlaşmış, İspanya üretimi, yüksek malzeme kaliteli, sektörün lider markalarındandır.IK, ürünlerinin kalitesini her zaman ilk sıraya koyar. Ekipman ihtiyacınız olduğunda IK ürünlerinin en büyük yardımcınız olacağına emin olabilirsiniz!\r\n\r\nTekrar tekrar arızalanan ucuz şişeleri, kalitesiz sürekli delinen plastikleri ve atmayan püskürtücüleri kullanmaktan vazgeçin. Bugün IK 'ya geçin!",
+        "how_to_use": "1. Pompayı boşaltın ve sökülerek parçalarına ayırın.\n2. Aşınmış contaları ve parçaları tespit edin.\n3. Bakım setindeki 9 parça ile değiştirin.\n4. Pompayı tekrar monte edin.\n5. Basınç ve sızdırmazlık testi yapın.",
+        "when_to_use": "Pompa sızdırıyor, basınç kaybı yaşanıyor veya püskürtme performansı düştüğünde periyodik bakım için kullanılır.",
+        "target_surface": "IK MULTI 6, 9 ve 12 litre kapasiteli basınçlı pompalar",
+        "why_this_product": "• 9 parçalık komple bakım seti\n• Büyük kapasite pompalar için\n• Orijinal IK yedek parçaları\n• Profesyonel kullanım için ideal"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "81771874"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Set içeriğinde neler var?",
+          "answer": "Contalar, O-ringler, valfler ve gerekli sızdırmazlık parçaları dahil 9 adet bakım parçası içerir."
+        },
+        {
+          "question": "Hangi pompalarla uyumlu?",
+          "answer": "IK MULTI 6, 9 ve 12 litre kapasiteli büyük basınçlı pompalarla uyumludur."
+        },
+        {
+          "question": "Küçük pompalarda kullanılır mı?",
+          "answer": "Hayır, 1.5 litre pompalar için 81771874 kodlu seti kullanın."
+        }
+      ],
+      "price": 62000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/82671874_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "487953",
+      "barcode": "4030293219519",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 125,
+          "compatible_device": [
+            "FLEX XCE",
+            "FLEX XFE"
+          ],
+          "attachment_type": "Velcro",
+          "material": "Esnek PU"
+        }
+      },
+      "content": {
+        "short_description": "FLEX XCE/XFE 125 mm velcro taban, orbital polisaj makineleri için ideal yedek parça. Esnek PU yapısı ve özel vidalama sistemiyle uzun ömürlü, güvenli ve dengeli polisaj deneyimi sağlar.",
+        "full_description": "Dayanıklı, esnek ve kolay değiştirilebilir yedek taban!\r\n\r\nFLEX XCE ve XFE orbital polisaj makineleri için özel olarak tasarlanmış Velcro taban, yüksek kaliteli esnek PU malzeme yapısı sayesinde uzun ömürlü kullanım ve mükemmel yüzey teması sağlar. 125 mm çapı ve 10 mm yüksekliği, dar ve detaylı alanlarda hassas polisaj için ideal bir çözüm sunar.Kutu içeriğinde yer alan özel vidalama sistemi (3 adet) ile kolay ve güvenli montaj yapılabilir. Polisaj süngerlerinin güçlü şekilde sabitlenmesini sağlayan Velcro yüzey, hızlı sünger değişimine olanak tanır.\r\n\r\nÖne Çıkan Özellikler\r\n125 mm Çapında Kompakt Tasarım – Detaylı alanlarda optimum performans\r\nEsnek PU Malzeme – Titreşim kontrolü ve düzgün yüzey teması sağlar\r\n10 mm Yükseklik – Stabil ve dengeli polisaj imkanı\r\nKolay Montaj – Özel vidalama sistemiyle pratik değişim\r\nVelcro Yüzey – Polisaj süngerlerini hızlı ve güvenli şekilde sabitler\r\nUzun Ömürlü ve Dayanıklı – Profesyonel kullanım için ideal yapı\r\n\r\nNeden FLEX Velcro Taban?\r\n• XCE/XFE orbital polisaj makineleriyle \u00100 uyumludur\r\n• Titreşimi azaltarak daha konforlu çalışma sağlar\r\n• Hızlı sünger değişimi ve güçlü tutuş için optimize edilmiştir\r\n• Boyahane, oto detailing ve hassas yüzey uygulamaları için ideal\r\n\r\nUyumlu FLEX Makineleri\r\n• XFE 7-15 150\r\n• XFE 15 150 18.0-EC\r\n• XCE 8 125 18.0-EC\r\n• XCE 10-8 125\r\n\r\nTeknik Özellikler\r\n• Çap: 125 mm\r\n• Yükseklik: 10 mm\r\n• Materyal: Esnek PU\r\n• Montaj: Özel vidalama (3 adet kutu içerisinde)\r\n• Adet: 1\r\n\r\nFLEX ile Dar ve Detaylı Alanlarda Hassas Polisaj\r\nMükemmel polisaj için üç şey gerekir: doğru makine, doğru sünger ve doğru taban.\r\nFLEX XCE/XFE Velcro Taban, kompakt ölçüsü ve esnek yapısıyla dar ve detaylı yüzeylerde optimum performans sağlar.\r\n\r\nKompakt boyut + güçlü sabitleme + esnek yapı = Profesyonel polisaj deneyimi!",
+        "how_to_use": "1. Makineyi kapatın ve fişten çekin.\n2. Eski tabanlığı sökün (3 vida).\n3. Yeni tabanlığı kutu içindeki vidalarla monte edin.\n4. Sıkıca vidalayın.\n5. Test çalıştırması yaparak salınım kontrolü yapın.",
+        "when_to_use": "Mevcut tabanlık aşındığında, cırt yüzeyi zayıfladığında veya titreşim arttığında yedek tabanlık değişimi yapılmalıdır.",
+        "target_surface": "FLEX XCE ve XFE orbital polisaj makineleri",
+        "why_this_product": "• XCE/XFE makinelerle %100 uyum\n• Esnek PU malzeme - titreşim azaltır\n• Güçlü Velcro yüzey\n• 10 mm yükseklik - stabil polisaj"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "487988"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "FLEX XFE 7-15 125, XCE 8 125 18.0-EC ve XCE 10-8 125 modelleri ile uyumludur."
+        },
+        {
+          "question": "Kutu içeriğinde ne var?",
+          "answer": "1 adet velcro tabanlık ve 3 adet montaj vidası içerir."
+        },
+        {
+          "question": "150mm pedler takılır mı?",
+          "answer": "Hayır, bu 125mm tabanlıktır. 150mm pedler için 487988 kodlu tabanlığı kullanın."
+        }
+      ],
+      "price": 160000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/487953_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "487988",
+      "barcode": "4030293219533",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 150,
+          "compatible_device": [
+            "FLEX XCE",
+            "FLEX XFE"
+          ],
+          "attachment_type": "Velcro",
+          "material": "Esnek PU",
+          "height_mm": 10
+        }
+      },
+      "content": {
+        "short_description": "FLEX XCE/XFE orbital polisaj makineleri için uyumlu 150 mm Velcro taban, esnek PU malzeme ve özel vidalama sistemiyle dayanıklı ve güvenli kullanım sağlar. Profesyoneller için ideal.",
+        "full_description": "Dayanıklı, esnek ve kolay değiştirilebilir yedek taban!\r\n\r\nFLEX XCE ve XFE orbital polisaj makineleri için özel olarak tasarlanmış Velcro taban, yüksek kaliteli esnek PU malzeme yapısı sayesinde uzun ömürlü ve güvenilir kullanım sunar. 150 mm çapı ve 10 mm yüksekliği ile hassas polisaj uygulamaları için ideal bir yüzey sağlar.\r\nKutu içeriğinde yer alan özel vidalama sistemi (3 adet) ile kolay montaj imkanı sunar. Detaylı, orta ve geniş yüzeylerde optimum performans için geliştirilmiştir.\r\n\r\nÖne Çıkan Özellikler\r\n150 mm Çapında Uyumlu Tasarım – XCE ve XFE makineler için birebir uyum\r\nEsnek PU Malzeme – Daha iyi yüzey teması ve titreşim kontrolü\r\n10 mm Yükseklik – Stabil ve dengeli polisaj için ideal yapı\r\nKolay Montaj – Özel vidalama sistemi sayesinde pratik değişim\r\nVelcro Yüzey – Polisaj süngerlerini hızlı ve güvenli şekilde sabitler\r\nDayanıklı ve Uzun Ömürlü – Profesyonel kullanım için yüksek kalite standartları\r\n\r\nNeden FLEX Velcro Taban?\r\n• XCE/XFE orbital polisaj makineleriyle \u00100 uyum\r\n• Titreşimi azaltarak daha rahat çalışma sağlar\r\n• Kolay sünger değişimi için güçlü Velcro yüzey\r\n• Profesyonel detailing ve boyahane uygulamalarında ideal çözüm\r\n\r\nUyumlu FLEX Makineleri\r\n• XFE 7-15 150\r\n• XFE 15 150 18.0-EC\r\n• XCE 8 125 18.0-EC\r\n• XCE 10-8 125\r\n\r\nTeknik Özellikler\r\n• Çap: 150 mm\r\n• Yükseklik: 10 mm\r\n• Materyal: Esnek PU\r\n• Montaj: Özel vidalama (3 adet kutu içerisinde)\r\n• Adet: 1\r\n\r\nFLEX ile Mükemmel Yüzey Sonuçları\r\nMükemmel bir polisaj için üç şey gerekir: doğru makine, doğru sünger ve doğru taban.\r\nFLEX XCE/XFE Velcro Taban, esnek ve dayanıklı yapısıyla orbital polisaj makinelerinizde optimum performans sağlar.\r\n\r\nKolay montaj + güçlü sabitleme + esnek yapı = Profesyonel polisaj deneyimi!",
+        "how_to_use": "1. Makineyi kapatın ve fişten çekin.\n2. Eski tabanlığı sökün (3 vida).\n3. Yeni tabanlığı kutu içindeki vidalarla monte edin.\n4. Sıkıca vidalayın.\n5. Test çalıştırması yaparak salınım kontrolü yapın.",
+        "when_to_use": "Mevcut tabanlık aşındığında, cırt yüzeyi zayıfladığında veya titreşim arttığında yedek tabanlık değişimi yapılmalıdır.",
+        "target_surface": "FLEX XCE ve XFE orbital polisaj makineleri",
+        "why_this_product": "• XCE/XFE makinelerle %100 uyum\n• 150 mm çap - geniş yüzey çalışması\n• Esnek PU malzeme - titreşim azaltır\n• Profesyonel detailing için ideal"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "487953"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "FLEX XFE 7-15 150, XFE 15 150 18.0-EC, XCE 8 125 18.0-EC ve XCE 10-8 125 modelleri ile uyumludur."
+        },
+        {
+          "question": "125mm tabanlıktan farkı nedir?",
+          "answer": "150mm tabanlık daha geniş yüzeylerde çalışma imkanı sunar, daha büyük pedlerle kullanılır."
+        },
+        {
+          "question": "Montaj için alet gerekir mi?",
+          "answer": "Evet, kutu içindeki vidaları sıkmak için standart bir tornavida gerekir."
+        }
+      ],
+      "price": 145000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/487988_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "492353",
+      "barcode": "4030293222120",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 30,
+          "compatible_device": [
+            "FLEX PXE 80"
+          ],
+          "attachment_type": "Velcro",
+          "material": "PU",
+          "hardness": "Orta"
+        }
+      },
+      "content": {
+        "short_description": "FLEX BP-M D30, yalnızca FLEX PXE 80 ile uyumlu 30 mm cırtlı tabanlık. Orta sertlikte PU malzeme, hassas polisaj ve detay işlemleri için ideal profesyonel destek diski.",
+        "full_description": "Dar ve detaylı alanlarda hassas polisaj için ideal yedek tabanlık!\r\n\r\nFLEX BP-M D30, yalnızca FLEX PXE 80 polisaj makinesi ile uyumlu, özel dişli yuvasına sahip, orta sertlikte cırtlı ped destek diskidir. İnce PU tabaka yapısı, detaylı alanlarda hassas çalışma imkanı sunar ve pedlerin güçlü şekilde sabitlenmesini sağlar.\r\n\r\n1 inç (30 mm) çapındaki kompakt boyutu sayesinde, özellikle dar alanlar, kenar bölgeler ve ince detay çalışmalarında maksimum kontrol sağlar.\r\n\r\nÖne Çıkan Özellikler\r\nSadece FLEX PXE 80 ile Uyumludur – Özel dişli yuvası sayesinde tam uyum\r\nOrta Sertlikte Yapı – Hem hassas hem de etkili polisaj için ideal denge\r\nİnce PU Tabaka – Daha iyi yüzey teması ve titreşim azaltma\r\nVelcro (Cırtlı) Yüzey – Pedleri güvenli ve hızlı sabitler\r\nKompakt Boyut – Detaylı yüzeyler ve dar alanlarda kullanım kolaylığı\r\nYüksek Kaliteli Malzeme – Uzun ömürlü ve dayanıklı yapı\r\nNeden FLEX BP-M D30 Tabanlık?\r\n\r\n• Detaylı polisaj işlemleri için 30 mm kompakt ölçü\r\n• PXE 80 nano polisaj makinesiyle tam uyumluluk\r\n• Titreşimi azaltarak konforlu çalışma sağlar\r\n• Ped değişimini kolaylaştıran güçlü Velcro yüzey\r\n\r\nTeknik Özellikler\r\n• Çap: 30 mm / 1 inç\r\n• Malzeme: PU (Poliüretan)\r\n• Sertlik: Orta\r\n• Adet: 1\r\n• Ürün Kodu: 492353\r\n\r\nFLEX ile Detaylı Alanlarda Hassas Çalışma\r\nMükemmel bir yüzey için üç şey gerekir: doğru makine, doğru ped ve doğru tabanlık.\r\nFLEX BP-M D30, dar alanlar ve hassas yüzeylerde PXE 80 polisaj makinesiyle maksimum performans sağlar.\r\n\r\nKompakt tasarım + güçlü sabitleme + esnek kullanım = Profesyonel detay polisajı!",
+        "how_to_use": "1. Makineyi kapatın.\n2. Eski tabanlığı döndürerek sökün.\n3. Yeni BP-M D30 tabanlığı özel dişli yuvasına takın.\n4. Sıkıca vidalayın.\n5. Uygun 1 inç pedi takarak test edin.",
+        "when_to_use": "Dar alanlar, kenar bölgeler ve ince detay çalışmalarında maksimum kontrol için 30mm kompakt tabanlık kullanılır.",
+        "target_surface": "FLEX PXE 80 nano polisaj makinesi",
+        "why_this_product": "• Sadece PXE 80 ile tam uyum\n• 30mm (1 inç) kompakt boyut\n• Orta sertlikte PU yapı\n• Detaylı polisaj için ideal"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "509248",
+          "492361"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Başka makinelerde kullanılır mı?",
+          "answer": "Hayır, özel dişli yuvası nedeniyle sadece FLEX PXE 80 ile uyumludur."
+        },
+        {
+          "question": "En küçük tabanlık bu mu?",
+          "answer": "Evet, FLEX PXE 80 için mevcut en küçük tabanlık 30mm'dir."
+        },
+        {
+          "question": "Hangi işler için uygundur?",
+          "answer": "Far kenarları, ayna köşeleri ve dar detay alanlarında hassas polisaj için idealdir."
+        }
+      ],
+      "price": 75000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/492353_1.webp",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "509248",
+      "barcode": "4030293232761",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 50,
+          "compatible_device": [
+            "FLEX PXE 80"
+          ],
+          "attachment_type": "Velcro",
+          "material": "PU",
+          "hardness": "Orta"
+        }
+      },
+      "content": {
+        "short_description": "FLEX BP-M D50, yalnızca FLEX PXE 80 ile uyumlu 50 mm cırtlı tabanlık. Orta sertlikte PU malzeme, hassas polisaj ve detay işlemleri için ideal yedek ped destek diski.",
+        "full_description": "Dar ve orta ölçekli yüzeylerde hassas polisaj için ideal yedek tabanlık!\r\n\r\nFLEX BP-M D50, yalnızca FLEX PXE 80 nano polisaj makinesi ile uyumlu özel dişli yuvasına sahip bir yedek tabanlıktır. Orta sertlikte, ince PU tabakalı yapısı sayesinde hassas alanlarda optimum performans sağlar.\r\n\r\n2 inç (50 mm) çapı, özellikle detaylı yüzeyler, kenar bölgeler ve orta boyutlu dar alanlarda etkili çalışmak için ideal bir çözümdür. Bu ürün PXE 80 kutu setinin içeriğinde bulunmaz; ekstra yedek parça olarak temin edilir.\r\n\r\nÖne Çıkan Özellikler\r\nSadece FLEX PXE 80 ile Uyumludur – Özel dişli yuvası sayesinde tam uyum\r\nOrta Sertlikte PU Yapı – Hassas yüzeyler için optimum denge sağlar\r\nVelcro (Cırtlı) Yüzey – Pedleri hızlı ve güvenli sabitleme imkanı\r\n50 mm Kompakt Çap – Dar ve orta ölçekli alanlarda detaylı polisaj için ideal\r\nYüksek Kaliteli Malzeme – Dayanıklı ve uzun ömürlü kullanım\r\nPXE 80 Set İçeriğinde Yoktur – Harici olarak temin edilmesi gereken yedek parça\r\n\r\nNeden FLEX BP-M D50 Tabanlık?\r\n• Dar ve detaylı yüzeylerde daha hassas çalışma sağlar\r\n• PXE 80 nano polisaj makinesiyle \u00100 uyumludur\r\n• Titreşimi azaltarak daha stabil ve konforlu kullanım sunar\r\n• Polisaj süngerlerini kolay ve hızlı değiştirme imkanı verir\r\n\r\nTeknik Özellikler\r\n• Çap: 50 mm / 2 inç\r\n• Malzeme: PU (Poliüretan)\r\n• Sertlik: Orta\r\n• Adet: 1\r\n• Ürün Kodu: 509248\r\n\r\nFLEX ile Orta ve Detaylı Alanlarda Mükemmel Sonuç\r\nMükemmel bir yüzey için üç şey gerekir: doğru makine, doğru ped ve doğru tabanlık.\r\nFLEX BP-M D50, PXE 80 ile orta ölçekli dar alanlarda hassas polisaj işlemleri için ideal çözümdür.\r\n\r\nKompakt tasarım + güçlü sabitleme + esnek kullanım = Profesyonel detay polisajı!",
+        "how_to_use": "1. Makineyi kapatın.\n2. Eski tabanlığı döndürerek sökün.\n3. Yeni BP-M D50 tabanlığı özel dişli yuvasına takın.\n4. Sıkıca vidalayın.\n5. Uygun 2 inç pedi takarak test edin.",
+        "when_to_use": "Dar ve orta ölçekli yüzeylerde hassas polisaj için kullanılır. PXE 80 kutu setinde bulunmaz, ekstra yedek parça olarak temin edilir.",
+        "target_surface": "FLEX PXE 80 nano polisaj makinesi",
+        "why_this_product": "• Sadece PXE 80 ile tam uyum\n• 50mm (2 inç) orta boyut\n• Orta sertlikte PU yapı\n• Detaylı ve orta ölçekli alanlar için ideal"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "492353",
+          "492361"
+        ]
+      },
+      "faq": [
+        {
+          "question": "PXE 80 set içeriğinde var mı?",
+          "answer": "Hayır, bu tabanlık harici olarak satılır. Kutu setinde farklı boyutlar bulunur."
+        },
+        {
+          "question": "30mm ve 75mm'den farkı nedir?",
+          "answer": "50mm orta boyutuyla hem dar hem de biraz daha geniş alanlarda çalışma esnekliği sunar."
+        },
+        {
+          "question": "Uyumlu ped boyutu nedir?",
+          "answer": "2 inç (50-55mm) çapındaki mini polisaj pedleri ile kullanılır."
+        }
+      ],
+      "price": 99000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/509248_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "492361",
+      "barcode": "4030293222144",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 75,
+          "compatible_device": [
+            "FLEX PXE 80"
+          ],
+          "attachment_type": "Velcro",
+          "material": "PU",
+          "hardness": "Orta"
+        }
+      },
+      "content": {
+        "short_description": "FLEX BP-M D75, PXE 80 polisaj makinesi için özel 75 mm cırtlı tabanlık. Orta sert PU yapısı sayesinde hassas detay işlemlerinde stabil ve güvenli polisaj deneyimi sunar.",
+        "full_description": "Detaylı ve orta ölçekli yüzeylerde hassas polisaj için ideal yedek tabanlık!\r\n\r\nFLEX BP-M D75, yalnızca FLEX PXE 80 nano polisaj makinesi ile uyumlu özel dişli yuvasına sahip bir yedek tabanlıktır. Orta sertlikte ve ince PU tabakalı yapısı, titreşimi azaltarak daha dengeli bir çalışma sağlar ve pedlerin yüzeye optimum temasını mümkün kılar.\r\n\r\n3 inç (75 mm) çapı sayesinde orta boy detay alanlarında, tamponlar, kapı panelleri ve hassas yüzeylerde daha geniş bir çalışma imkanı sunar.\r\n\r\nÖne Çıkan Özellikler\r\nSadece FLEX PXE 80 ile Uyumludur – Özel dişli yuvası sayesinde tam uyum\r\nOrta Sertlikte PU Yapı – Hem hassas hem de verimli polisaj için ideal denge\r\nVelcro (Cırtlı) Yüzey – Polisaj süngerlerini hızlı ve güvenli şekilde sabitler\r\n75 mm Çap – Detaylı ve orta ölçekli yüzeylerde maksimum kontrol\r\nTitreşimi Azaltır – Daha dengeli ve konforlu çalışma sağlar\r\nDayanıklı ve Uzun Ömürlü – Profesyonel kullanım için yüksek kalite\r\n\r\nNeden FLEX BP-M D75 Tabanlık?\r\n• PXE 80 nano polisaj makinesiyle \u00100 uyumluluk\r\n• Daha geniş yüzeylerde hassasiyet ve verimliliği bir arada sunar\r\n• Polisaj süngerlerini kolay ve hızlı değiştirmenizi sağlar\r\n• Boyahane, oto detailing ve hassas yüzey işlemleri için ideal çözüm\r\n\r\nTeknik Özellikler\r\n• Çap: 75 mm / 3 inç\r\n• Malzeme: PU (Poliüretan)\r\n• Sertlik: Orta\r\n• Adet: 1\r\n• Ürün Kodu: 492361\r\n\r\nFLEX ile Orta Boy Detaylı Alanlarda Profesyonel Sonuç\r\nMükemmel bir yüzey için üç şey gerekir: doğru makine, doğru ped ve doğru tabanlık.\r\nFLEX BP-M D75, PXE 80 polisaj makinesiyle orta boyutlu detay alanlarında optimum performans sağlar.\r\n\r\nGenişletilmiş çalışma alanı + güçlü sabitleme + esnek kullanım = Profesyonel detay polisajı!",
+        "how_to_use": "1. Makineyi kapatın.\n2. Eski tabanlığı döndürerek sökün.\n3. Yeni BP-M D75 tabanlığı özel dişli yuvasına takın.\n4. Sıkıca vidalayın.\n5. Uygun 3 inç pedi takarak test edin.",
+        "when_to_use": "Detaylı ve orta ölçekli yüzeylerde hassas polisaj için kullanılır. Tamponlar, kapı panelleri ve hassas yüzeylerde geniş çalışma imkanı sunar.",
+        "target_surface": "FLEX PXE 80 nano polisaj makinesi",
+        "why_this_product": "• Sadece PXE 80 ile tam uyum\n• 75mm (3 inç) geniş boyut\n• Titreşimi azaltarak dengeli çalışma\n• Orta boy detay alanları için ideal"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "492353",
+          "509248"
+        ]
+      },
+      "faq": [
+        {
+          "question": "PXE 80 için en büyük tabanlık bu mu?",
+          "answer": "Evet, 75mm FLEX PXE 80 için mevcut en büyük tabanlık boyutudur."
+        },
+        {
+          "question": "Hangi işler için uygundur?",
+          "answer": "Tampon kenarları, kapı panelleri ve orta boyutlu detay alanlarında hassas polisaj için idealdir."
+        },
+        {
+          "question": "Titreşim nasıl?",
+          "answer": "Orta sertlikteki PU yapısı titreşimi azaltarak konforlu çalışma sağlar."
+        }
+      ],
+      "price": 95000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/492361_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGGD166",
+      "barcode": "8683492660864",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": [
+            1,
+            2
+          ],
+          "compatible_device": "Mini Polisaj Makineleri",
+          "quantity": 2
+        }
+      },
+      "content": {
+        "short_description": "SGCB Mini Polisaj Makinesi Tabanlık Seti, 15mm ve 25mm boyutlarında 2 yedek tabanlık içerir. Detaylı polisaj uygulamaları için ideal orijinal yedek parçadır!",
+        "full_description": "Mini Polisaj Makine Aparatı için 2 farklı boyutta yedek tabanlık.<br><br>1\"/ 25mm<br>0.8\" / 15mm",
+        "how_to_use": "1. Mini polisaj makinesini kapatın.\n2. Mevcut tabanlığı sökün.\n3. İhtiyacınıza göre 15mm veya 25mm tabanlığı takın.\n4. Uygun boyutta pedi monte edin.\n5. Test çalıştırması yapın.",
+        "when_to_use": "SGCB mini polisaj makinesi için yedek tabanlık ihtiyacında veya farklı boyut pedlerle çalışmak gerektiğinde kullanılır.",
+        "target_surface": "SGCB mini polisaj makinesi aparatı",
+        "why_this_product": "• 2 farklı boyut: 15mm ve 25mm\n• Orijinal SGCB yedek parçası\n• Detaylı polisaj için ideal\n• Ekonomik set"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Set içeriğinde hangi boyutlar var?",
+          "answer": "1 adet 15mm (0.8 inç) ve 1 adet 25mm (1 inç) tabanlık içerir."
+        },
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "SGCB Mini Polisaj Makine Aparatı ile uyumludur."
+        },
+        {
+          "question": "Pedler dahil mi?",
+          "answer": "Hayır, sadece tabanlıklar dahildir. Pedler ayrı satılır."
+        }
+      ],
+      "price": 55000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGGD166_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGGF181-57",
+      "barcode": "8683492661830",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 125,
+          "compatible_device": "SGCB Orbital",
+          "features": "Delikli/Soğutmalı",
+          "material": "Kauçuk + Sünger + Plastik"
+        }
+      },
+      "content": {
+        "short_description": "SGCB Orbital Polisaj Makinesi Tabanı 125mm, cırtlı ve delikli tasarımıyla pedleri serin tutar, sabit ve dengeli polisaj sağlar. SGCB SGGF181 modeliyle \u00100 uyumludur!",
+        "full_description": "SGCB Orbital Polisaj Makinesi Tabanı 125mm 5” – Cırtlı Delikli Destek Plakası | SGGF181-57\r\n\r\n\r\nSGCB orbital polisaj makinesi tabanı, esnek ve dayanıklı yapısıyla profesyonel parlatma işlemleri için geliştirilmiş yüksek kaliteli bir cırtlı destek tabanıdır. SGCB SGGF181 kodlu orbital polisaj makinesi ile \u00100 uyumludur. Kalın yastıklama köpüğü arayüzü, uygulama sırasında güvenlik ve konfor sağlarken, istikrarlı parlatma performansı sunar.\r\n\r\nSoğutma kanalları ve delikli tasarımı, polisaj pedlerinin ve makinelerin daha uzun süre serin kalmasını sağlar. Cırtlı yüzey yapısı sayesinde pedler sıkıca sabitlenir, merkezde dengede kalır ve kayma yapmaz. Değiştirilebilir ve kolay monte edilebilir özelliği ile kullanıcı dostudur.\r\n\r\n\r\nÜrün Özellikleri\r\n\r\n• Uyumluluk: SGCB SGGF181 kodlu orbital polisaj makineleri ile tam uyumlu\r\n• Ölçü: 125 mm (5 inç)\r\n• Malzeme: Kauçuk astar + yüksek kaliteli sünger + sağlam plastik yapı\r\n• Renk: Siyah / Kırmızı\r\n• Soğutma Kanalları: Ped ve makinenin serin kalmasını sağlayan delikli tasarım\r\n• Yumuşak Kenar Yapısı: Yüzey kıvrımlarında sorunsuz çalışmayı mümkün kılar\r\n• Cırtlı Sistem: Tüm ped türleri ile güçlü uyum ve tutuş sağlar\r\n• Tek Vida Montaj: Ortadan vidalanarak kolayca takılır ve çıkarılır\r\n\r\n\r\nAvantajlar\r\n\r\n• Profesyonel detaylandırma işlemlerinde yüksek performans ve güvenlik sağlar\r\n• Her türlü yüzey eğimine adapte olan esnek yapı\r\n• Polisaj pedlerini merkezde sabit tutarak dengeli dönüş ve tutarlılık sunar\r\n• Soğutucu delikler sayesinde uzun süreli kullanımlarda aşırı ısınma önlenir\r\n• Kolay kurulum ve değişim ile zaman kazandırır\r\n\r\n\r\nSGCB 125mm cırtlı orbital polisaj makinesi tabanı, yüksek hassasiyet gerektiren detaylandırma ve parlatma işlemlerinde profesyonellerin vazgeçilmez yardımcısıdır. Güçlü yapısı ve kullanıcı odaklı tasarımı sayesinde hem güvenli hem de etkili bir polisaj deneyimi sunar.\r\n\r\nMükemmel parlatma sonuçları için SGCB destek tabanını tercih edin – dayanıklılığı ve hassasiyeti bir arada yaşayın!",
+        "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı ortadaki vidayı sökerek çıkarın.\n3. Yeni SGGF181-57 tabanlığı ortadan vidalayarak takın.\n4. Cırtlı pedi takın.\n5. Test çalıştırması yapın.",
+        "when_to_use": "SGCB SGGF181 orbital polisaj makinesinde tabanlık değişimi gerektiğinde veya mevcut tabanlık aşındığında kullanılır.",
+        "target_surface": "SGCB SGGF181 kodlu orbital polisaj makineleri",
+        "why_this_product": "• SGCB SGGF181 ile %100 uyum\n• Delikli tasarım - ped ve makineyi serin tutar\n• Yumuşak kenar yapısı - kıvrımlarda güvenli\n• Tek vida montaj - kolay değişim"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "SGGD051"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Delikli tasarımın avantajı nedir?",
+          "answer": "Soğutma kanalları sayesinde uzun süreli çalışmalarda ped ve makine aşırı ısınmaz."
+        },
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "Sadece SGCB SGGF181 kodlu orbital polisaj makinesi ile uyumludur."
+        },
+        {
+          "question": "Montaj nasıl yapılır?",
+          "answer": "Ortadan tek vida ile monte edilir, özel alet gerektirmez."
+        }
+      ],
+      "price": 105000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/SGGF181-57_1.webp",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGGD051",
+      "barcode": "4713435113660",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 125,
+          "compatible_device": "Rotary M14",
+          "material": "Silikon/Esnek",
+          "thread_size": "M14"
+        }
+      },
+      "content": {
+        "short_description": "SGCB Rotary Esnek Silikon Pad Destek Tabanı 125mm, M14 uyumlu yapısıyla sünger ve keçeleri sabit tutar. Kıvrımlı yüzeylerde güvenli ve dengeli polisaj sağlar!",
+        "full_description": "Birinci sınıf kancalar sayesinde, keçe yada süngerinize daha sıkı yapışır ve sabitler. Makinenin tüm dönme gücünü tamamen keçeye/süngere eşit şekilde dağıtır. Böylece uygulama esnasında asla düşmez. Sizi daha az yorar.<br><br>Destek diskinin kenarları yumuşak ve esnektir. Kıvrımlı araç yüzeylerinde ve konturlarda daha kararlı ve tutarlı şekilde gezinebilir. Cilalı boya yüzeyine zarar vermez, ekstra güvenlidir.<br><br>Güçlendirilmiş dişlisi ve geliştirilmiş döküm teknolojisi ile vida dişi ile destek plakasını sıkıca birleştirir. Vidanın içeride kırılma riskini azaltır.<br>Esnek plastik en üst düzey dayanıklı malzemeden üretilmiştir.<br><br>M14 dişli tüm rotary polisah makineleri için uygundur.<br>Arabalar, Motosikletler, Mobilya, Marin sektörlerinde kullanılabilir.<br><br>Malzeme: Metal + PVC<br>Takım Tutucu Çapı: M14<br>Çap: 5\" / 125 mm<br>Renk: Siyah<br><br>Not: Uzun süreli kullanım için makineyi ani durdurmaktan ve düşürmekten kaçınınız.<br>",
+        "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı M14 dişten sökerek çıkarın.\n3. Yeni SGGD051 tabanlığı M14 dişe vidalayın.\n4. Sıkıca sabitleyin.\n5. Ped takarak test edin.",
+        "when_to_use": "M14 dişli rotary polisaj makinelerinde tabanlık değişimi gerektiğinde, kıvrımlı yüzeylerde güvenli çalışma istendiğinde kullanılır.",
+        "target_surface": "M14 dişli tüm rotary polisaj makineleri",
+        "why_this_product": "• M14 dişli tüm rotary makinelerle uyumlu\n• Esnek silikon kenarlar - boyaya zarar vermez\n• Güçlendirilmiş dişli - kırılma riski düşük\n• Premium malzeme - uzun ömürlü"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "SGGD053",
+          "26.931.099.001"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "M14 dişli tüm rotary polisaj makineleri ile uyumludur."
+        },
+        {
+          "question": "150mm versiyonu var mı?",
+          "answer": "Evet, SGGD053 kodlu 150mm versiyon mevcuttur."
+        },
+        {
+          "question": "Silikon kenarın avantajı nedir?",
+          "answer": "Kıvrımlı yüzeylerde ve konturlarda boya yüzeyine zarar vermeden güvenli çalışma sağlar."
+        }
+      ],
+      "price": 47000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGGD051_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGGD053",
+      "barcode": "6973086160309",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 150,
+          "compatible_device": "Rotary M14",
+          "material": "Silikon/Esnek",
+          "thread_size": "M14"
+        }
+      },
+      "content": {
+        "short_description": "SGCB Rotary Esnek Silikon Pad Destek Tabanı 150mm, M14 uyumlu yapısıyla sünger ve keçeleri sabit tutar. Kıvrımlı yüzeylerde güvenli ve dengeli polisaj sağlar!",
+        "full_description": "Birinci sınıf kancalar sayesinde, keçe yada süngerinize daha sıkı yapışır ve sabitler. Makinenin tüm dönme gücünü tamamen keçeye/süngere eşit şekilde dağıtır. Böylece uygulama esnasında asla düşmez. Sizi daha az yorar.<br><br>Destek diskinin kenarları yumuşak ve esnektir. Kıvrımlı araç yüzeylerinde ve konturlarda daha kararlı ve tutarlı şekilde gezinebilir. Cilalı boya yüzeyine zarar vermez, ekstra güvenlidir.<br><br>Güçlendirilmiş dişlisi ve geliştirilmiş döküm teknolojisi ile vida dişi ile destek plakasını sıkıca birleştirir. Vidanın içeride kırılma riskini azaltır.<br>Esnek plastik en üst düzey dayanıklı malzemeden üretilmiştir.<br><br>M14 dişli tüm rotary polisah makineleri için uygundur.<br>Arabalar, Motosikletler, Mobilya, Marin sektörlerinde kullanılabilir.<br><br>Malzeme: Metal + PVC<br>Takım Tutucu Çapı: M14<br>Çap: 6\" / 150 mm<br>Renk: Siyah<br><br>Not: Uzun süreli kullanım için makineyi ani durdurmaktan ve düşürmekten kaçınınız.<br><br>",
+        "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı M14 dişten sökerek çıkarın.\n3. Yeni SGGD053 tabanlığı M14 dişe vidalayın.\n4. Sıkıca sabitleyin.\n5. Ped takarak test edin.",
+        "when_to_use": "M14 dişli rotary polisaj makinelerinde geniş yüzey çalışması için 150mm tabanlık kullanılır.",
+        "target_surface": "M14 dişli tüm rotary polisaj makineleri",
+        "why_this_product": "• M14 dişli tüm rotary makinelerle uyumlu\n• 150mm geniş çap - daha hızlı çalışma\n• Esnek silikon kenarlar - güvenli uygulama\n• Premium malzeme - profesyonel kalite"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "SGGD051",
+          "26.935.099.001"
+        ]
+      },
+      "faq": [
+        {
+          "question": "125mm versiyondan farkı nedir?",
+          "answer": "150mm versiyon daha geniş pedlerle çalışma imkanı sunar, geniş yüzeylerde daha hızlı sonuç alınır."
+        },
+        {
+          "question": "Arabalar, motosikletler ve mobilyada kullanılır mı?",
+          "answer": "Evet, otomotiv, motosiklet, mobilya ve marin sektörlerinde kullanılabilir."
+        },
+        {
+          "question": "Ani durdurma makinaya zarar verir mi?",
+          "answer": "Evet, uzun ömürlü kullanım için makineyi ani durdurmaktan ve düşürmekten kaçının."
+        }
+      ],
+      "price": 49000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGGD053_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "26.935.099.001",
+      "barcode": "4260063015267",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 148,
+          "compatible_device": "Rotary M14",
+          "material": "Metal+PVC",
+          "color": "Kırmızı",
+          "thread_size": "M14"
+        }
+      },
+      "content": {
+        "short_description": "Menzerna Pasta Cila Aksesuarlarını Yetkili Türkiye Dağıtıcısı MTS Kimya Güvencesi ile Satın Alın. Vadesiz Taksit İmkanı. Orijinal Ürün. Hızlı Kargo.",
+        "full_description": "Birinci sınıf cırtlı yüzeyi sayesinde, keçe yada süngerinize daha sıkı yapışır ve sabitler. Makinenin tüm dönme gücünü tamamen keçeye/süngere eşit şekilde dağıtır. Böylece uygulama esnasında asla düşmez. Sizi daha az yorar.<br><br>YUMUŞAK, ESNEK VE GÜVENİLİR UYGULAMALAR<br>Destek diskinin kenarları yumuşak ve esnektir. Kıvrımlı araç yüzeylerinde ve konturlarda daha kararlı ve tutarlı şekilde gezinebilir. Cilalı boya yüzeyine zarar vermez, ekstra güvenlidir.<br><br>PREMIUM MALZEME VE GELİŞMİŞ TEKNOLOJİ<br>Güçlendirilmiş dişlisi ve geliştirilmiş döküm teknolojisi ile vida dişi ile destek plakasını sıkıca birleştirir. Vidanın içeride kırılma riskini azaltır.<br>Esnek plastik en üst düzey dayanıklı malzemeden üretilmiştir.<br>Not: Uzun süreli kullanım için makineyi ani durdurmaktan ve düşürmekten kaçınınız.<br><br>ÇOK AMAÇLI UYGULAMA<br>M14 dişli tüm rotary polisah makineleri için uygundur.<br>Arabalar, Motosikletler, Mobilya, Marin sektörlerinde kullanılabilir.<br><br>Malzeme: Metal + PVC<br>Takım Tutucu Çapı: M14<br>Çap: 6\" / 148 mm<br>Renk: Kırmızı",
+        "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı M14 dişten sökerek çıkarın.\n3. Yeni Menzerna tabanlığı M14 dişe vidalayın.\n4. Sıkıca sabitleyin.\n5. 6 inç ped takarak test edin.",
+        "when_to_use": "M14 dişli rotary polisaj makinelerinde profesyonel polisaj uygulamaları için kullanılır.",
+        "target_surface": "M14 dişli tüm rotary polisaj makineleri",
+        "why_this_product": "• Birinci sınıf cırtlı yüzey - sıkı kavrama\n• Esnek kenarlar - kıvrımlarda güvenli\n• Güçlendirilmiş dişli teknolojisi\n• Kırmızı renk - profesyonel görünüm"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "26.931.099.001",
+          "SGGD053"
+        ]
+      },
+      "faq": [
+        {
+          "question": "148mm boyutun avantajı nedir?",
+          "answer": "6 inç (150mm) pedlerle optimum uyum sağlar, kenar taşması olmadan dengeli çalışma sunar."
+        },
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "M14 dişli tüm rotary polisaj makineleri ile uyumludur."
+        },
+        {
+          "question": "Menzerna orijinal mi?",
+          "answer": "Evet, Menzerna orijinal aksesuarıdır, Türkiye distribütörü MTS Kimya güvencesiyle satılır."
+        }
+      ],
+      "price": 72000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/26935.099.001_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://motodox.de/Menzerna-Premium-backing-pad-148mm-damped-for-180-mm-pads-M14",
+        "cleaned_content_1": "[\n\n](#main-wrapper) [\nSkip to search\n\n](#search-header) [\n\n](#mainNavigation)\n\nAccept all\n\nConfiguration\n\nReject\n\nHow we use cookies and other data\n\nBy selecting \"Accept all\", you give us permission to use the following services on our website: Strictly necessary cookies, YouTube, Vimeo, ReCaptcha, Google Analytics, Google Ads, Google Tag Manager, Meta Pixel, Meta Pixel, PayPal Express Checkout und Ratenzahlung. You can change the settings at any time (fingerprint icon in the bottom left corner). For further details, please see Individual configuration* and our *Privacy notice*.\n\n[Imprint](https://motodox.de/Imprint)\n[Privacy](https://motodox.de/Privacy)\n\nData privacy settings\n\nThe settings you specify here are stored in the \"local storage\" of your device. The settings will be remembered for the next time you visit our online shop. You can change these settings at any time (fingerprint icon in the bottom left corner).\n\nFor more information on cookie lifetime and required essential cookies, please see the *Privacy notice*.\n\n[Imprint](https://motodox.de/Imprint)\n[Privacy](https://motodox.de/Privacy)\n\nSelect/Deselect all\n\nStrictly necessary cookies\n\nStrictly necessary cookies are those that enable the basic functions of a website. Without them, the\nwebsite will not work properly.\n\n[\nFurther information\n\n](#)\n\nTo view YouTube contents on this website,\nyou need to consent to the transfer of data and storage of third-party cookies by\nYouTube (Google).\n\nThis allows us to improve your user experience and to make our\nwebsite better and more interesting.\n\nWithout your consent, no data will be transferred to YouTube.\nHowever, you will also not be able to use the YouTube services on this website.\n\nDescription:\n\nEmbedding videos\n\nProcessing company:\n\nGoogle Inc.\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy?hl=en)\n\nVimeo\n\n[\nFurther information\n\n](#)\n\nTo view Vimeo contents on this website, you need to consent to the\ntransfer of data and storage of third-party cookies by Vimeo..\n\nThis allows us to improve your user\nexperience and to make our website better and more interesting.\n\nWithout your consent, no data will\nbe transferred to Vimeo. However, you will also not be able to use the Vimdeo services on this website.\n\nDescription:\n\nEmbedding videos\n\nProcessing company:\n\nVimeo\n\nTerms of use:\n\n[\n\n](https://vimeo.com/privacy)\n\nReCaptcha\n\n[\nFurther information\n\n](#)\n\nTo submit forms on this page, you need to consent to the transfer of data and storage of third-party cookies by Google.\nWith your consent, reCAPTCHA, a Google service to avoid spam messages via contact forms, will be embedded.\nThis service allows us to provide our customers with a safe way to contact us via online forms. At the same time, the service prevents spam bots from compromising our services.\nAfter you gave your permission, you might be asked to answer a security prompt to send the form.\nIf you do not consent, unfortunately you cannot use the form. Please contact us in a different way.\n\nDescription:\n\nStopping spam bots\n\nProcessing company:\n\nGoogle Inc.\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nGoogle Analytics\n\n[\nFurther information\n\n](#)\n\nThis is a web analysis service. It allows the user to measure advertising return on investment (ROI) and track user behavior. Data collected: anonymized IP address, date and time of visit, usage data, click path, app updates, browser information, device information, JavaScript support, pages visited, referrer URL, location information, purchase activity, widget interactions.\n\nDescription:\n\nGoogle Analytics Tracking\n\nProcessing company:\n\nGoogle Ireland Limited\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nGoogle Ads\n\n[\nFurther information\n\n](#)\n\nThis is an advertising service. This service can be used to display personalized or non-personalized advertising to users. With Google Ads Conversion Tracking, we can measure our advertising success in the Google advertising network. We place advertisements in the Google advertising network so that our offers can be found more easily. We try to optimize our advertising as much as possible. Also to keep advertising costs as low as possible. This is reflected in our prices.\n\nDescription:\n\nGoogle Ads Remarketing\n\nProcessing company:\n\nGoogle Ireland Limited\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nGoogle Tag Manager\n\n[\nFurther information\n\n](#)\n\nThis is a tag management system. The Google Tag Manager allows tags to be integrated centrally via a user interface. Tags are small sections of code that can track activities. Script codes from other tools are integrated via the Google Tag Manager. The Tag Manager makes it possible to control when a specific tag is triggered.\n\nDescription:\n\nUsage of Google functionalities\n\nProcessing company:\n\nGoogle Ireland Limited\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nMeta Pixel\n\n[\nFurther information\n\n](#)\n\nTo send data to Meta, you need to consent to the transfer of data and storage of third-party cookies by Meta.. This allows us to improve your user experience and to make our website better and more interesting.\n\nDescription:\n\nMeta Conversion-Tracking\n\nProcessing company:\n\nMeta Platforms Ireland Limited\n\nTerms of use:\n\n[\n\n](https://www.facebook.com/privacy/policy/)\n\nMeta Pixel\n\n[\nFurther information\n\n](#)\n\nTo send data to Meta, you need to consent to the transfer of data and storage of third-party cookies by Meta.. This allows us to improve your user experience and to make our website better and more interesting.\n\nDescription:\n\nMeta Conversion-Tracking\n\nProcessing company:\n\nMeta Platforms Ireland Limited\n\nTerms of use:\n\n[\n\n](https://www.facebook.com/privacy/policy/)\n\nPayPal Express Checkout und Ratenzahlung\n\n[\nFurther information\n\n](#)\n\nIn order to unlock offers for extended payment options, in particular express checkout and payment in instalments, we require your consent to the data transfer and storage of third-party cookies of the payment provider PayPal. This allows us to also offer you express checkout and payment by instalments. Without your consent, only the technically necessary data transfer to PayPal will take place, but you will then not be able to use the express checkout or extended offers for payment by instalments on this site.\n\nDescription:\n\nUsing express checkout and Displaying offers for payment in instalments for individual items or your entire purchase.\n\nProcessing company:\n\nPayPal\n\nTerms of use:\n\n[\n\n](https://www.paypal.com/de/webapps/mpp/ua/privacy-full?locale.x=en-GB)\n\nSelect/Deselect all\n\nApply\n\nData privacy settings\n\nWould you like to see these contents? Activate the desired contents for one session only or allow the website to remember these settings. Once you have given your consent, the third-party data can be loaded. For this, third-party cookies might be stored on your device. You can change these settings at any time (fingerprint icon in the bottom left corner). For further details, please see the [Privacy notice](https://motodox.de/Privacy).\n\n[\nFurther information\n](#)\n\n{{headline}}\n{{description}}\n\nAgree for one session\n\nAgree for all sessions\n\n[\n\nEN\n\n](#)\n\n[\nDE\n\n](https://motodox.de/Menzerna-Premium-Stuetzteller-148mm-gedaempft-fuer-180-mm-Pads-M14)\n\n[\nEN\n\n](https://motodox.de/Menzerna-Premium-backing-pad-148mm-damped-for-180-mm-pads-M14)\n\n[\nHändleranforderungen\n](https://motodox.de/Haendleranforderungen_1)\n\n[\nKarriere\n](https://motodox.de/Karriere_3)\n\n[\nContact\n](https://motodox.de/Contact)\n\nChoose your country of delivery to see prices and products for your location.\n\nAustria\n\nBelgium\n\nBulgaria\n\nCyprus\n\nCzech Republic\n\nGermany\n\nDenmark\n\nEstonia\n\nSpain\n\nFinland\n\nFrance\n\nGreece\n\nCroatia\n\nHungary\n\nIreland\n\nItaly\n\nLithuania\n\nLuxembourg\n\nLatvia\n\nMalta\n\nNetherlands\n\nPoland\n\nPortugal\n\nRomania\n\nSweden\n\nSlovenia\n\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n✔\n\nAdditional contact mail (leave blank)*\n\nI totally agree to receive nothing*\n\n[\n\n](https://motodox.de/?a=40268&lang=eng)\n\n[\n\n](https://motodox.de/Menzerna-Polish-Heavy-Cut-Compound-400-250_1)\n\nAdditional contact mail (leave blank)*\n\nI totally agree to receive nothing*\n\n# Menzerna Premium backing pad 148mm, damped, for 180 mm pads M14\n\nSKU:\n20026069\n\n**GTIN:**\n4260063015267\n\n**HAN:**\n26935.099.001\n\n**Category: **\n[\nMenzerna\n](https://motodox.de/?k=9401&lang=eng)\n\n**Manufacturers:**\n[\nMenzerna\n](https://motodox.de/Menzerna-Polishing-Compounds_1)\n\n- 1 piece 148 mm steamed\n\n- Premium backing pad\n\n- Polishing tool for 180mm/7\" pads\n\n- for the maximum of your surface, in different degrees of hardness\n\n- Menzerna\n\n23,90 €\n\nincl. 19% VAT\n\n,\n\nplus\n[\nshipping costs\n\n](https://motodox.de/Shipment?shipping_calculator=0)\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\nAvailable immediately\n\nDelivery time:\n1 - 3 Workdays\n[\n(DE - int. shipments may differ)\n](https://motodox.de/Shipment)\n\nQuestion about item\n\nAdd to basket\n\nLoading...\n\ngrant consent\n\nLoading...\n\ncomponents are loading ...\n\nx\nThis item is not available in your delivery country.\n\nOthers also bought:\n\n[\n\nMenzerna Premium backing pad 123mm, damped, for 150 mm pads M14\n\n19,90 € *\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n](https://motodox.de/Menzerna-Premium-backing-pad-123mm-damped-for-150-mm-pads-M14)\n\n[\n\nMenzerna backing pad for 95 mm pads\n\n12,90 € *\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n](https://motodox.de/Menzerna-backing-pad-for-95-mm-pads)\n\n[\n\nMenzerna Heavy Cut Foam Pad PREMIUM - 95 mm - rot\n\n23,80 € *\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n](https://motodox.de/Menzerna-Heavy-Cut-Foam-Pad-PREMIUM-95-mm-rot)\n\n[\n\nMenzerna Medium Cut Foam Pad - 150 mm - yellow\n\n14,90 € *\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n](https://motodox.de/Menzerna-Medium-Cut-Foam-Pad-150-mm-yellow)\n\n[\n\nNuke Guys - Gamma Dryer XXL - microfiber dryer sheet - 1400 GSM - gray 50 x 80 cm\n\n19,90 € *\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n](https://motodox.de/Nuke-Guys-Gamma-Dryer-XXL-microfiber-dryer-sheet-1400-GSM-gray-50-x-80-cm)\n\n[\n\nMenzerna Autopolitur Heavy Cut Compound 400,\n\n44,90 € *\n\n44,90 € per 1 l\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nSwitzerland\nGreat Britain\n\nOthers\n\n](https://motodox.de/Menzerna-Polish-Heavy-Cut-Compound-400-250)\n\nQuestion about item\n\n×\n\nAdditional contact mail (leave blank)*\n\nI totally agree to receive nothing*\n\nContact data\n\nE-Mail\n\nQuestion about item\n\nYour question\n\nI hereby confirm that I have read and accepted the privacy policy.\n\n([\nRead\n](https://motodox.de/Privacy))\n\nPlease answer the question\n\n×\n\nAbsenden\n\n[\nPlease see our privacy notice\n\n](https://motodox.de/Privacy)\n\nSubmit question",
+        "url_2": "https://menzerna-shop.de/Menzerna-Premium-backing-pad-148mm-damped-for-180-mm-pads-M14",
+        "cleaned_content_2": "[\n\n](#main-wrapper) [\nSkip to search\n\n](#search-header) [\n\n](#mainNavigation)\n\nAccept all\n\nConfiguration\n\nReject\n\nHow we use cookies and other data\n\nBy selecting \"Accept all\", you give us permission to use the following services on our website: YouTube, Vimeo, ReCaptcha, Google Analytics, Google Ads, Google Tag Manager, ADCELL. You can change the settings at any time (fingerprint icon in the bottom left corner). For further details, please see Individual configuration* and our *Privacy notice*.\n\n[Imprint](https://menzerna-shop.de/Imprint)\n[Data protection declaration](https://menzerna-shop.de/Data-protection-declaration)\n\nData privacy settings\n\nThe settings you specify here are stored in the \"local storage\" of your device. The settings will be remembered for the next time you visit our online shop. You can change these settings at any time (fingerprint icon in the bottom left corner).\n\nFor more information on cookie lifetime and required essential cookies, please see the *Privacy notice*.\n\n[Imprint](https://menzerna-shop.de/Imprint)\n[Data protection declaration](https://menzerna-shop.de/Data-protection-declaration)\n\nSelect/Deselect all\n\n[\nFurther information\n\n](#)\n\nTo view YouTube contents on this website,\nyou need to consent to the transfer of data and storage of third-party cookies by\nYouTube (Google).\n\nThis allows us to improve your user experience and to make our\nwebsite better and more interesting.\n\nWithout your consent, no data will be transferred to YouTube.\nHowever, you will also not be able to use the YouTube services on this website.\n\nDescription:\n\nEmbedding videos\n\nProcessing company:\n\nGoogle Inc.\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy?hl=en)\n\nVimeo\n\n[\nFurther information\n\n](#)\n\nTo view Vimeo contents on this website, you need to consent to the\ntransfer of data and storage of third-party cookies by Vimeo..\n\nThis allows us to improve your user\nexperience and to make our website better and more interesting.\n\nWithout your consent, no data will\nbe transferred to Vimeo. However, you will also not be able to use the Vimdeo services on this website.\n\nDescription:\n\nEmbedding videos\n\nProcessing company:\n\nVimeo\n\nTerms of use:\n\n[\n\n](https://vimeo.com/privacy)\n\nReCaptcha\n\n[\nFurther information\n\n](#)\n\nTo submit forms on this page, you need to consent to the transfer of data and storage of third-party cookies by Google.\nWith your consent, reCAPTCHA, a Google service to avoid spam messages via contact forms, will be embedded.\nThis service allows us to provide our customers with a safe way to contact us via online forms. At the same time, the service prevents spam bots from compromising our services.\nAfter you gave your permission, you might be asked to answer a security prompt to send the form.\nIf you do not consent, unfortunately you cannot use the form. Please contact us in a different way.\n\nDescription:\n\nStopping spam bots\n\nProcessing company:\n\nGoogle Inc.\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nGoogle Analytics\n\n[\nFurther information\n\n](#)\n\nThis is a web analysis service. It allows the user to measure advertising return on investment (ROI) and track user behavior. Data collected: anonymized IP address, date and time of visit, usage data, click path, app updates, browser information, device information, JavaScript support, pages visited, referrer URL, location information, purchase activity, widget interactions.\n\nDescription:\n\nGoogle Analytics Tracking\n\nProcessing company:\n\nGoogle Ireland Limited\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nGoogle Ads\n\n[\nFurther information\n\n](#)\n\nThis is an advertising service. This service can be used to display personalized or non-personalized advertising to users. With Google Ads Conversion Tracking, we can measure our advertising success in the Google advertising network. We place advertisements in the Google advertising network so that our offers can be found more easily. We try to optimize our advertising as much as possible. Also to keep advertising costs as low as possible. This is reflected in our prices.\n\nDescription:\n\nGoogle Ads Remarketing\n\nProcessing company:\n\nGoogle Ireland Limited\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nGoogle Tag Manager\n\n[\nFurther information\n\n](#)\n\nThis is a tag management system. The Google Tag Manager allows tags to be integrated centrally via a user interface. Tags are small sections of code that can track activities. Script codes from other tools are integrated via the Google Tag Manager. The Tag Manager makes it possible to control when a specific tag is triggered.\n\nDescription:\n\nUsage of Google functionalities\n\nProcessing company:\n\nGoogle Ireland Limited\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nADCELL\n\n[\nFurther information\n\n](#)\n\nIhnen wird relevante Werbung angezeigt und Ihr Surfverhalten dient der themenbasierten, nicht personenbezogenen Analyse.\n\nDescription:\n\nAuf dieser Website werden Werbemittel interessensbasiert mit Hilfe von Cookies ausgegeben bzw. Daten zur Steuerung von Werbeeinblendungen gemessen. ADCELL bietet hierzu die Technologie, welche Informationen auf der Basis von Webseitenbesuchern auswertet und danach anwendet. Im Erfolgsfall wird Ihnen dann anstelle von rein zufälligen Werbeanzeigen eher Werbung angezeigt, welche Sie anspricht.\n\nProcessing company:\n\nFirstlead GmbH\n\nTerms of use:\n\n[\n\n](https://www.adcell.de/datenschutz)\n\nSelect/Deselect all\n\nApply\n\nData privacy settings\n\nWould you like to see these contents? Activate the desired contents for one session only or allow the website to remember these settings. Once you have given your consent, the third-party data can be loaded. For this, third-party cookies might be stored on your device. You can change these settings at any time (fingerprint icon in the bottom left corner). For further details, please see the [Privacy notice](https://menzerna-shop.de/Data-protection-declaration).\n\n[\nFurther information\n](#)\n\n{{headline}}\n{{description}}\n\nAgree for one session\n\nAgree for all sessions\n\nChoose your country of delivery to see prices and products for your location.\n\nAustria\n\nBelgium\n\nBulgaria\n\nCyprus\n\nCzech Republic\n\nGermany\n\nDenmark\n\nEstonia\n\nSpain\n\nFinland\n\nFrance\n\nGreece\n\nCroatia\n\nHungary\n\nIreland\n\nItaly\n\nLithuania\n\nLuxembourg\n\nLatvia\n\nMalta\n\nNetherlands\n\nPoland\n\nPortugal\n\nRomania\n\nSweden\n\nSlovenia\n\nSlovakia\n\nAndorra\nUnited Arab Emirates\nAfghanistan\nAntigua and Barbuda\nAnquilla\nAlbania\nArmenia\nNetherlands Antilles\nAngola\nArgentine\nAmerican Samoa\nAustralia\nAruba\nAzerbaijani\nBosnia and Herzegovina\nBarbados\nBangladesh\nBurkina Faso\nBahrain\nBurundi\nBenin\nBermuda\nBrunei\nBolivia\nBrazil\nBahamas\nBhutan\nBouvet Island\nBotswana\nBelarus\nBelize\nCanada\nCocos Islands\nCongo\nCentral African Republic\nCongo\nSwitzerland\nCôte d'Ivoire\nCook Islands\nChile\nCameroon\nChina\nColombia\nCosta Rica\nCuba\nCape Verde\nChristmas Island\nDjibouti\nDominica\nDominican Republic\nAlgeria\nEcuador\nEgypt\nWestern Sahara\nEritrea\nEthiopia\nFiji\nFalkland Islands\nMicronesia\nFaroe Islands\nGabonese Republic\nGrenada\nGeorgia\nGuiana\nGhana\nGibraltar\nGreenland\nGambia\nGuinea\nGuadeloupe\nEquatorial Guinea\nGuatemala\nGuam\nGuinea-Bissau\nGuyana\nHong Kong\nHeard and the McDonald Islands\nHonduras\nHaiti\nIndonesia\nIsrael\nIndia\nIraq\nIran\nIceland\nJamaica\nJordan\nJapan\nKenya\nKyrgyzstan\nCambodia\nKiribati\nComoros\nSaint Kitts and Nevis\nKorea, North\nKorea, South\nKuwait\nCayman Islands\nKazakhstan\nLaos\nLebanon\nSaint Lucia\nLiechtenstein\nSri Lanka\nLiberia\nLesotho\nLibya\nMorocco\nMonaco\nMoldova\nMontenegro\nMadagascar\nMarshall Islands\nMacedonia\nMali\nMyanmar\nMongolia\nMacau\nMariana Islands\nMartinique\nMauritania\nMontserrat\nMauritius\nMaldives\nMalawi\nMexico\nMalaysia\nMozambique\nNamibia\nNew Caledonia\nNiger\nNorfolk Island\nNigeria\nNicaragua\nNorway\nNepal\nNauru\nNiue\nNew Zealand\nOman\nPanama\nPeru\nFrench Polynesia\nPapua New Guinea\nPhilippines\nPakistan\nSaint Pierre and Miquelon\nPitcairn Islands Group\nPuerto Rico\nPalestinian territories\nPalau\nParaguay\nQatar\nRéunion\nSerbia\nRussian Federation\nRwanda\nSaudi Arabia\nSolomon Islands\nSeychelles\nSudan\nSingapore\nSt. Helena\nSvalbard and Jan Mayen Islands\nSierra Leone\nSan Marino\nSenegal\nSomalia\nSuriname\nSao Tome and Principe\nEl Salvador\nSyria\nSwaziland\nTurks and Caicos Islands\nChad\nTogo\nThailand\nTajikistan\nTokelau\nTimor-Leste\nTurkmenistan\nTunisia\nTonga\nTurkey\nTrinidad and Tobago\nTuvalu\nTaiwan\nTanzania\nUkraine\nUganda\nUnited States\nUruguay\nUzbekistan\nVatican City State\nSaint Vincent and the Grenadines\nVenezuela\nBritish Virgin Islands\nVirgin Islands of the United States\nViet Nam\nVanuatu\nWallis and Futuna\nWestern Samoa\nYemen\nMayotte\nSouth Africa\nZambia\nZimbabwe\n\nOthers\n\n✔\n\n[\n\nEN\n\n](#)\n\n[\nDE\n\n](https://menzerna-shop.de/Menzerna-Stuetzteller-fuer-180-mm-Pads)\n\n[\nEN\n\n](https://menzerna-shop.de/Menzerna-Premium-backing-pad-148mm-damped-for-180-mm-pads-M14)\n\n[\nNews\n](https://menzerna-shop.de/Blog)\n\n[\nContact\n](https://detailmate.de/Kontakt)\n\n[\n\n](https://menzerna-shop.de/Menzerna-Banner-red-100x50cm)\n\n[\n\n](https://menzerna-shop.de/Menzerna-Control-Cleaner-5-L_1)\n\n# Menzerna Premium backing pad 148mm, damped, for 180 mm pads M14\n\nSKU:\n20026069\n\n**GTIN:**\n4260063015267\n\n**HAN:**\n26935.099.001\n\n**Category: **\n[\nAccessories\n](https://menzerna-shop.de/accessories)\n\n**Manufacturers:**\n[\nMenzerna\n](https://menzerna-shop.de/Menzerna-Polishing-Compounds_1)\n\n- 1 piece 148 mm steamed\n\n- Premium backing pad\n\n- Polishing tool for 180mm/7\" pads\n\n- for the maximum of your surface, in different degrees of hardness\n\n- Menzerna\n\n23,90 €\n\nincl. 19% VAT\n\n,\n\nplus\n[\nshipping costs\n\n](https://menzerna-shop.de/Shipment?shipping_calculator=0)\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nMalta\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nAndorra\nUnited Arab Emirates\nAfghanistan\nAntigua and Barbuda\nAnquilla\nAlbania\nArmenia\nNetherlands Antilles\nAngola\nArgentine\nAmerican Samoa\nAustralia\nAruba\nAzerbaijani\nBosnia and Herzegovina\nBarbados\nBangladesh\nBurkina Faso\nBahrain\nBurundi\nBenin\nBermuda\nBrunei\nBolivia\nBrazil\nBahamas\nBhutan\nBouvet Island\nBotswana\nBelarus\nBelize\nCanada\nCocos Islands\nCongo\nCentral African Republic\nCongo\nSwitzerland\nCôte d'Ivoire\nCook Islands\nChile\nCameroon\nChina\nColombia\nCosta Rica\nCuba\nCape Verde\nChristmas Island\nDjibouti\nDominica\nDominican Republic\nAlgeria\nEcuador\nEgypt\nWestern Sahara\nEritrea\nEthiopia\nFiji\nFalkland Islands\nMicronesia\nFaroe Islands\nGabonese Republic\nGrenada\nGeorgia\nGuiana\nGhana\nGibraltar\nGreenland\nGambia\nGuinea\nGuadeloupe\nEquatorial Guinea\nGuatemala\nGuam\nGuinea-Bissau\nGuyana\nHong Kong\nHeard and the McDonald Islands\nHonduras\nHaiti\nIndonesia\nIsrael\nIndia\nIraq\nIran\nIceland\nJamaica\nJordan\nJapan\nKenya\nKyrgyzstan\nCambodia\nKiribati\nComoros\nSaint Kitts and Nevis\nKorea, North\nKorea, South\nKuwait\nCayman Islands\nKazakhstan\nLaos\nLebanon\nSaint Lucia\nLiechtenstein\nSri Lanka\nLiberia\nLesotho\nLibya\nMorocco\nMonaco\nMoldova\nMontenegro\nMadagascar\nMarshall Islands\nMacedonia\nMali\nMyanmar\nMongolia\nMacau\nMariana Islands\nMartinique\nMauritania\nMontserrat\nMauritius\nMaldives\nMalawi\nMexico\nMalaysia\nMozambique\nNamibia\nNew Caledonia\nNiger\nNorfolk Island\nNigeria\nNicaragua\nNorway\nNepal\nNauru\nNiue\nNew Zealand\nOman\nPanama\nPeru\nFrench Polynesia\nPapua New Guinea\nPhilippines\nPakistan\nSaint Pierre and Miquelon\nPitcairn Islands Group\nPuerto Rico\nPalestinian territories\nPalau\nParaguay\nQatar\nRéunion\nSerbia\nRussian Federation\nRwanda\nSaudi Arabia\nSolomon Islands\nSeychelles\nSudan\nSingapore\nSt. Helena\nSvalbard and Jan Mayen Islands\nSierra Leone\nSan Marino\nSenegal\nSomalia\nSuriname\nSao Tome and Principe\nEl Salvador\nSyria\nSwaziland\nTurks and Caicos Islands\nChad\nTogo\nThailand\nTajikistan\nTokelau\nTimor-Leste\nTurkmenistan\nTunisia\nTonga\nTurkey\nTrinidad and Tobago\nTuvalu\nTaiwan\nTanzania\nUkraine\nUganda\nUnited States\nUruguay\nUzbekistan\nVatican City State\nSaint Vincent and the Grenadines\nVenezuela\nBritish Virgin Islands\nVirgin Islands of the United States\nViet Nam\nVanuatu\nWallis and Futuna\nWestern Samoa\nYemen\nMayotte\nSouth Africa\nZambia\nZimbabwe\n\nOthers\n\nAvailable immediately\n\nDelivery time:\n1 - 3 Workdays\n[\n(DE - int. shipments may differ)\n](https://menzerna-shop.de/Shipment)\n\nQuestion about item\n\nAdd to basket\n\nLoading...\n\ngrant consent\n\nLoading...\n\ncomponents are loading ...\n\nx\nThis item is not available in your delivery country.\n\nOthers also bought:\n\n[\n\nMenzerna Premium backing pad 123mm, damped, for 150 mm pads M14\n\n19,90 € *\n\n](https://menzerna-shop.de/Menzerna-Premium-backing-pad-123mm-damped-for-150-mm-pads-M14)\n\n[\n\nMenzerna backing pad for 95 mm pads\n\n12,90 € *\n\n](https://menzerna-shop.de/Menzerna-backing-pad-for-95-mm-pads)\n\n[\n\nMenzerna Heavy Cut Premium Pad - 180 mm - red\n\n18,90 € *\n\n](https://menzerna-shop.de/Menzerna-Heavy-Cut-Premium-Pad-180-mm-red_1)\n\n[\n\nMenzerna Soft Cut Premium Pad - 180 mm - green\n\n18,90 € *\n\n](https://menzerna-shop.de/?a=40267&lang=eng)\n\n[\n\nMedium Cut Foam Pad - Premium - 180 mm\n\n18,90 € *\n\n](https://menzerna-shop.de/?a=40266&lang=eng)\n\n[\n\nMenzerna Heavy Cut Foam Pad PREMIUM - 95 mm - rot\n\n23,80 € *\n\n](https://menzerna-shop.de/Menzerna-Heavy-Cut-Foam-Pad-PREMIUM-95-mm-rot)\n\nQuestion about item\n\n×\n\nContact data\n\nE-Mail\n\nQuestion about item\n\nYour question\n\nPlease answer the question\n\n×\n\nAbsenden\n\n[\nPlease see our privacy notice\n\n](https://menzerna-shop.de/Data-protection-declaration)\n\nSubmit question",
+        "url_3": "https://www.springriver.eu/menzerna-premium-backing-plate-148-mm.html",
+        "cleaned_content_3": "bg_error_lines\n\ncircle_dots\n\n# 403 - Forbidden\n\nAccess to this page is forbidden.\n\nclouds_shape",
+        "url_4": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/premium-backing-plate",
+        "cleaned_content_4": "[\nContact\n](/service/contact)\n\n[\nShops\n](/service/dealer-search)\n\n[\nNewsletter\n](/service/newsletter)\n\nEN\n\n[\nDE\n](https://www.menzerna.de/autopflege/zubehoer/polierzubehoer/details/premium-stuetzteller)\n\n[\nEN\n](/car-care/accessories/polishing-accessories/details/premium-backing-plate)\n\n[\nCN\n](https://www.menzerna.com.cn/car-care/accessories/polishing-accessories/%E7%BB%86%E8%8A%82/premium-stuetzteller)\n\n[\n](/)\n\n[\n\n](/service/dealer-search)\n\n[\nContact\n](/service/contact)\n\n[\nShops\n](/service/dealer-search)\n\n[\nNewsletter\n](/service/newsletter)\n\nEN\n\n[\nDE\n](https://www.menzerna.de/autopflege/zubehoer/polierzubehoer/details/premium-stuetzteller)\n\n[\nCN\n](https://www.menzerna.com.cn/car-care/accessories/polishing-accessories/%E7%BB%86%E8%8A%82/premium-stuetzteller)\n\n[\n\nContact\n](tel:+49722291570)\n\n[\n\nShops\n](/service/dealer-search)\n\n[\n\n](#download)\n\n- [Homepage](/)\n- [Car care](/car-care)\n- [Accessories](/car-care/accessories)\n- [Polishing accessories](/car-care/accessories/polishing-accessories)\n- Premium Backing Plate\n\n[Back to the overview](/car-care/accessories/polishing-accessories)\n\n# Premium Backing Plate\n\n## Premium Backing Plate for polishing machines\n\nThe Menzerna Premium Backing Plate is a flexible, high-quality plate with a powerful hook-and-loop underside. It supports safe and comfortable working on corners, edges, and contours. Suitable for all standard polishing machines. The polishing plate is available in three different sizes to match the Menzerna polishing pads.\n\nAccessories\n\n### Processing\n\nRotary\n\n### Volumes\n\n| 75mm/ 3''\n\n| 26934.099.001\n\n| (EU Thread)\n\n| 75mm/ 3''\n\n| 26934.099.133\n\n| (US Thread)\n\n| 123mm/ 5''\n\n| 26931.099.001\n\n| (EU Thread)\n\n| 123mm/ 5''\n\n| 26931.099.133\n\n| (US Thread)\n\n| 148mm/ 6''\n\n| 26935.099.001\n\n| (EU Thread)\n\n| 148mm/ 6''\n\n| 26935.099.133\n\n| (US Thread)\n\n### Optimised for\n\n[\n\nPolishing Adapter for Drilling Machines\n\n](/car-care/accessories/polishing-accessories/details/polishing-adapter-for-drilling-machines)\n\n[\n\nOrbital Wool Pad\n\n](/car-care/accessories/polishing-accessories/details/orbital-wool-pad)\n\n[\n\nHeavy Cut Foam Pad\n\n](/car-care/accessories/polishing-accessories/details/heavy-cut-foam-pad)\n\n[\n\nMedium Cut Foam Pad\n\n](/car-care/accessories/polishing-accessories/details/medium-cut-foam-pad)\n\n[\n\n](https://www.menzerna.com/fileadmin/ns_theme_menzerna/Bilder/Zubehoer/Produktbilder/Produkt_Hintergrund/Polierteller_Menzerna_1100x1100.jpg)\n\n[\n\n](https://www.menzerna.com/fileadmin/ns_theme_menzerna/Bilder/Zubehoer/Produktbilder/Polierwerkzeug/Produkte_freigestellt/menzerna_Stuetzteller.png)\n\n[\n\n](javascript:;)\n\n[Find this product at your local dealer](/service/dealer-search)\n\n## More information\n\n- [Benefits](javascript:;)\n\nBenefits\n\n- Flexible, high-quality polishing plate\n- Powerful and durable hook-and-loop underside\n- Suitable for all polishing pads with a diameter of 95 mm/3.5'', 150 mm/6'', and 180 mm/7''\n\n## Downloads\n\n[\n\nTechnical datasheet Premium Backing Plate\n\n124.37 KB\n\n](/fileadmin/ns_theme_menzerna/Dokumente/Technische_Datenblaetter/Zubehoer/EN/TDB_1_BackingPlate_EN_09.2021.pdf)\n\n## Related products\n\n[\n\nHand Polishing Applicator\n\n](/car-care/accessories/polishing-accessories/details/hand-polishing-applicator)\n\n[\n\nPolishing Adapter for Drilling Machines\n\n](/car-care/accessories/polishing-accessories/details/polishing-adapter-for-drilling-machines)\n\nFAQ\n\n## Questions & answers\n\nDo you have a question? We have the answer. On our FAQ page you will find frequently asked questions with the corresponding answers.\n\n[To the FAQs](/car-care/training-tips/faqs)\n\n[How do I choose the right backing plate?](javascript:;)\n\nBacking plates are used with rotary polishing machines. Menzerna offers [backing plates](/car-care/accessories/polishing-accessories/details/premium-backing-plate) in three sizes, depending on the size of the polishing pad. It’s important to remember that the polishing pad should always be bigger than the backing plate.\n\n[What kinds of polishing machine are there?](javascript:;)\n\nThere are rotary and orbital polishing machines. Orbital polishing machines are divided into fixed and random models.\n\n[What’s the difference between an orbital and a rotary polishing machine?](javascript:;)\n\nThe backing plate of a rotary polishing machine turns in a circle around a fixed point. Rotary machines are ideal for removing deeper cracks in the paint.\nThe backing plate of the orbital polishing machine produces orbital movements, making the orbital machine suitable for single-stage polishing processes, in particular.\n\n[What’s the difference between a normal and a fixed orbital polishing machine?](javascript:;)\n\nThere are two types of orbital polishing machine: random and fixed. The backing plate of a random orbital polishing machine can be turned, while that of a fixed machine cannot.\n\nAlways up to date\n\n## Register for the newsletter now!\n\nSubscribe now to the free Menzerna Newsletter and receive interesting tips and information about polishing.\n\n[To the newsletter](/service/newsletter)\n\n## Premium Backing Plate\n\nBacking Plate in long-lasting Menzerna quality. Perfectly tailored to Menzerna polishing pads and polishes. This professional polishing plate is available in the gauges M14 (EU) and 5/8'' (US), as well as in a range of sizes."
+      }
+    },
+    {
+      "sku": "26.931.099.001",
+      "barcode": "4260063012259",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 123,
+          "compatible_device": "Rotary M14",
+          "color": "Kırmızı",
+          "material": "Metal + PVC",
+          "thread_size": "M14"
+        }
+      },
+      "content": {
+        "short_description": "Menzerna Pasta Cila Aksesuarlarını Yetkili Türkiye Dağıtıcısı MTS Kimya Güvencesi ile Satın Alın. Vadesiz Taksit İmkanı. Orijinal Ürün. Hızlı Kargo.",
+        "full_description": "Birinci sınıf cırt yüzeyi sayesinde, keçe yada süngerinize daha sıkı yapışır ve sabitler. Makinenin tüm dönme gücünü tamamen keçeye/süngere eşit şekilde dağıtır. Böylece uygulama esnasında asla düşmez. Sizi daha az yorar.<br><br>Yumuşak, esnek ve güvenilir uygulamalar;<br>Destek diskinin kenarları yumuşak ve esnektir. Kıvrımlı araç yüzeylerinde ve konturlarda daha kararlı ve tutarlı şekilde gezinebilir. Cilalı boya yüzeyine zarar vermez, ekstra güvenlidir.<br><br>Premium malzeme ve gelişmiş teknoloji;<br>Güçlendirilmiş dişlisi ve geliştirilmiş döküm teknolojisi ile vida dişi ile destek plakasını sıkıca birleştirir. Vidanın içeride kırılma riskini azaltır.<br>Esnek plastik en üst düzey dayanıklı malzemeden üretilmiştir.<br>Not: Uzun süreli kullanım için makineyi ani durdurmaktan ve düşürmekten kaçınınız.<br><br>Çok amaçlı uygulama;<br>M14 dişli tüm rotary polisah makineleri için uygundur.<br>Arabalar, Motosikletler, Mobilya, Marin sektörlerinde kullanılabilir.<br><br>Malzeme: Metal + PVC<br>Takım Tutucu Çapı: M14<br>Çap: 5\" / 123 mm<br>Renk: Kırmızı",
+        "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı M14 dişten sökerek çıkarın.\n3. Yeni Menzerna tabanlığı M14 dişe vidalayın.\n4. Sıkıca sabitleyin.\n5. 5 inç ped takarak test edin.",
+        "when_to_use": "M14 dişli rotary polisaj makinelerinde 5 inç pedlerle çalışma için kullanılır.",
+        "target_surface": "M14 dişli tüm rotary polisaj makineleri",
+        "why_this_product": "• Birinci sınıf cırt yüzey - güçlü kavrama\n• Esnek kenarlar - boya güvenliği\n• Premium malzeme - uzun ömür\n• Kırmızı renk - profesyonel görünüm"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "26.935.099.001",
+          "SGGD051"
+        ]
+      },
+      "faq": [
+        {
+          "question": "148mm versiyondan farkı nedir?",
+          "answer": "123mm versiyon 5 inç (125mm) pedlerle kullanılır, daha kompakt çalışma alanı sunar."
+        },
+        {
+          "question": "Matkap ile kullanılabilir mi?",
+          "answer": "M14 adaptör ile matkap kullanımı mümkündür, ancak profesyonel makineler önerilir."
+        },
+        {
+          "question": "Hangi sektörlerde kullanılır?",
+          "answer": "Otomotiv, motosiklet, mobilya ve marin sektörlerinde kullanılabilir."
+        }
+      ],
+      "price": 56000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/26931.099.001_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/premium-backing-plate",
+        "cleaned_content_1": "Premium Backing Plate\\n\\nPremium Backing Plate for polishing machines\\n\\nThe Menzerna Premium Backing Plate is a flexible, high-quality plate with a powerful hook-and-loop underside. It supports safe and comfortable working on corners, edges, and contours. Suitable for all standard polishing machines. The polishing plate is available in three different sizes to match the Menzerna polishing pads.\\n\\nCategory: Accessories\\n\\nProcessing: Rotary\\n\\nVolumes:\\n75mm / 3\\\" - 26934.099.001 (EU Thread)\\n75mm / 3\\\" - 26934.099.133 (US Thread)\\n123mm / 5\\\" - 26931.099.001 (EU Thread)\\n123mm / 5\\\" - 26931.099.133 (US Thread)\\n148mm / 6\\\" - 26935.099.001 (EU Thread)\\n148mm / 6\\\" - 26935.099.133 (US Thread)\\n\\nOptimised for:\\n- Polishing Adapter for Drilling Machines\\n- Orbital Wool Pad\\n- Heavy Cut Foam Pad\\n- Medium Cut Foam Pad\\n\\nProduct Images:\\n Flexible, high-quality polishing plate\\n- Powerful and durable hook-and-loop underside\\n- Suitable for all polishing pads with a diameter of 95 mm/3.5\\\", 150 mm/6\\\", and 180 mm/7\\\"\\n\\nDownloads:\\nTechnical datasheet Premium Backing Plate (124.37 KB):  - Questions & answers:\\n\\nQ: How do I choose the right backing plate?\\nA: Backing plates are used with rotary polishing machines. Menzerna offers backing plates in three sizes, depending on the size of the polishing pad. It's important to remember that the polishing pad should always be bigger than the backing plate.\\n\\nQ: What kinds of polishing machine are there?\\nA: There are rotary and orbital polishing machines. Orbital polishing machines are divided into fixed and random models.\\n\\nQ: What's the difference between an orbital and a rotary polishing machine?\\nA: The backing plate of a rotary polishing machine turns in a circle around a fixed point. Rotary machines are ideal for removing deeper cracks in the paint. The backing plate of the orbital polishing machine produces orbital movements, making the orbital machine suitable for single-stage polishing processes, in particular.\\n\\nQ: What's the difference between a normal and a fixed orbital polishing machine?\\nA: There are two types of orbital polishing machine: random and fixed. The backing plate of a random orbital polishing machine can be turned, while that of a fixed machine cannot.\\n\\nBacking Plate in long-lasting Menzerna quality. Perfectly tailored to Menzerna polishing pads and polishes. This professional polishing plate is available in the gauges M14 (EU) and 5/8\\\" (US), as well as in a range of sizes.",
+        "url_2": "https://menzerna-shop.de/Menzerna-Premium-backing-pad-123mm-damped-for-150-mm-pads-M14",
+        "cleaned_content_2": "Menzerna Premium backing pad 123mm, damped, for 150 mm pads M14\\n\\nSKU: 20026063\\nGTIN: 4260063012259\\nHAN: 26931.099.001\\nCategory: Accessories\\nManufacturer: Menzerna\\n\\nPrice: 19,90 \\u20ac (incl. 19% VAT, plus shipping costs)\\n\\nAvailability: Available immediately\\nDelivery time: 1 - 3 Workdays (DE - int. shipments may differ)\\n\\nSpecifications:\\n- 1 piece 123 mm steamed\\n- Premium backing pad\\n- Polishing tool for 150mm/6\\\" pads\\n- for the maximum of your surface, in different degrees of hardness\\n- Menzerna\\n\\nProduct Images:\\n",
+        "url_3": "https://maazzo.com/products/menzerna-backing-plates-for-premium-pads",
+        "cleaned_content_3": "Menzerna Backing Plates for Premium Pads\\n\\nBrand: Menzerna\\nPrice: $18.19\\nSizes available: 3\\\", 5\\\"\\n\\nProduct Images:\\n Menzerna Premium pads with their safety edge perfectly Optimized for:\\n- Heavy Cut Foam Pad\\n- Medium Cut Foam Pad\\n- Soft Cut Foam Pad\\n- Wax Foam Pad\\nadapt to the backing plate and prevent damage to the surface.\\n\\n- Menzerna Premium Backing Plate is a high-quality, flexible disc with effective Velcro underside\\n- Supports comfortable, safe working of corners, edges and curvatures\\n- Suitable for all common polishing machines. The Menzerna Premium pads with their safety edge perfectly adapt to the backing plate and prevent damage to the surface."
+      }
+    },
+    {
+      "sku": "26.934.099.001",
+      "barcode": "4260063015243",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "backing_plate",
+        "fields": {
+          "diameter_mm": 75,
+          "compatible_device": "Rotary M14",
+          "color": "Kırmızı",
+          "material": "Metal + PVC",
+          "thread_size": "M14"
+        }
+      },
+      "content": {
+        "short_description": "Menzerna Pasta Cila Aksesuarlarını Yetkili Türkiye Dağıtıcısı MTS Kimya Güvencesi ile Satın Alın. Vadesiz Taksit İmkanı. Orijinal Ürün. Hızlı Kargo.",
+        "full_description": "Birinci sınıf cırt yüzeyi sayesinde, keçe yada süngerinize daha sıkı yapışır ve sabitler. Makinenin tüm dönme gücünü tamamen keçeye/süngere eşit şekilde dağıtır. Böylece uygulama esnasında asla düşmez. Sizi daha az yorar.<br><br>YUMUŞAK, ESNEK VE GÜVENİLİR UYGULAMALAR<br>Destek diskinin kenarları yumuşak ve esnektir. Kıvrımlı araç yüzeylerinde ve konturlarda daha kararlı ve tutarlı şekilde gezinebilir. Cilalı boya yüzeyine zarar vermez, ekstra güvenlidir.<br><br>PREMIUM MALZEME VE GELİŞMİŞ TEKNOLOJİ<br>Güçlendirilmiş dişlisi ve geliştirilmiş döküm teknolojisi ile vida dişi ile destek plakasını sıkıca birleştirir. Vidanın içeride kırılma riskini azaltır.<br>Esnek plastik en üst düzey dayanıklı malzemeden üretilmiştir.<br><br>Not: Uzun süreli kullanım için makineyi ani durdurmaktan ve düşürmekten kaçınınız.<br><br>ÇOK AMAÇLI UYGULAMA<br>M14 dişli tüm rotary polisaj makineleri için uygundur<br>Matkap ucu aparatı ile birlikte kullanılabilir.<br>Arabalar, Motosikletler, Mobilya, Marin sektörlerinde kullanılabilir.<br><br>Malzeme: Metal + PVC<br>Takım Tutucu Çapı: M14<br>Çap: 3\" / 75 mm<br>Renk: Kırmızı",
+        "how_to_use": "1. Makineyi veya matkabı kapatın.\n2. M14 dişe tabanlığı vidalayın.\n3. Sıkıca sabitleyin.\n4. 3 inç ped takarak test edin.",
+        "when_to_use": "Dar alanlar, detay çalışmaları ve matkap ile polisaj uygulamaları için 75mm kompakt tabanlık kullanılır.",
+        "target_surface": "M14 dişli rotary makineler ve matkap ucu aparatı",
+        "why_this_product": "• 75mm (3 inç) kompakt boyut\n• Matkap ile kullanıma uygun\n• Dar alanlarda detay çalışması\n• Esnek ve güvenli kenarlar"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "26.931.099.001"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Matkap ile nasıl kullanılır?",
+          "answer": "Matkap ucu aparatı (M14 adaptör) ile birlikte kullanılarak matkabınızı mini polisaj makinesine dönüştürebilirsiniz."
+        },
+        {
+          "question": "Hangi işler için uygundur?",
+          "answer": "Far polisajı, ayna köşeleri, jant detayları ve dar bölgelerde polisaj için idealdir."
+        },
+        {
+          "question": "En küçük Menzerna tabanlık bu mu?",
+          "answer": "Evet, 75mm Menzerna tabanlık serisinin en küçük boyutudur."
+        }
+      ],
+      "price": 28000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/26934.099.001_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Ped Destek Diskleri Tabanlıklar",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://detailerplace.com/en/product/menzerna-polishing-pad-holder-rotary/",
+        "cleaned_content_1": "Enable JavaScript and cookies to continue",
+        "url_2": "https://www.cleanyourcar.co.uk/menzerna-3-75mm-rotary-backing-plate",
+        "cleaned_content_2": "[Wishlist0](https://www.cleanyourcar.co.uk/index.php?route=account/wishlist)\n\n[Sign Up & Save](javascript:open_popup(51))\n\n[\n](https://www.cleanyourcar.co.uk/)\n\n[Account Login / Register](https://www.cleanyourcar.co.uk/index.php?route=account/login)\n\n[Login](javascript:open_login_popup())\n\n[Register](javascript:open_register_popup())\n\n[\n\n0\n](https://www.cleanyourcar.co.uk/basket)\n\n[Login](javascript:open_login_popup())\n\n[Register](javascript:open_register_popup())\n\n[\n\n** ](https://www.cleanyourcar.co.uk/)\n\n[\n\nPaint Correction ](https://www.cleanyourcar.co.uk/paint-correction)\n\n[\n\nBacking Plates ](https://www.cleanyourcar.co.uk/paint-correction/backing-plates)\n\n[\n\nM14 Rotary Backing Plates ](https://www.cleanyourcar.co.uk/paint-correction/backing-plates/rotary-backing-plates)\n\n[\n\nMenzerna - 3\" (75mm) Rotary Backing Plate ](https://www.cleanyourcar.co.uk/menzerna-3-75mm-rotary-backing-plate)\n\n# Menzerna - 3\" (75mm) Rotary Backing Plate\n\nProduct Code: BP75M\n\nRead Reviews | Ask a question\n\nRead Reviews | Ask a question\n\nTo compliment the new range of machine pads and polishes. Menzerna GmbH have introduced their own branded line in M14 rotary backing plates. These 3.5\" (75mm) backing plates have been developed to work perfectly with the new range of pads.\nRead More\n\n£15.95\n\n[\nMenzerna Polishes\n](https://www.cleanyourcar.co.uk/menzerna-polishes)\n\nQty\n\nAdd to Cart\" class=\"btn btn-cart\" >Add to Cart\n\n** 3 In Stock. Order now for delivery on Tuesday, 10th February. (Select **Next Day Delivery** at checkout.)\n\n[\n](https://www.cleanyourcar.co.uk/gtechniq-w4-citrus-snow-foam)\n\n[Description](#blocks-698616956b746-tab-1)\n\n[Reviews](#blocks-698616956b746-tab-2)\n\n[Q & A's](#blocks-698616956b746-tab-3)\n\n## Menzerna - 3\" (75mm) Rotary Backing Plate\n\nTo compliment the new range of machine pads and polishes. Menzerna GmbH have introduced their own branded line in M14 rotary backing plates. These backing plates have been developed to work perfectly with the new range of pads.\n\nM14 - 75mm Rotary Backing Plate\n\n[Menzerna Polish and Pad Flow Chart](https://www.cleanyourcar.co.uk/images/uploads/menzerna/Flyer Pads_E_2pages.pdf)\n\n### Menzerna - 3\" (75mm) Rotary Backing Plate Reviews",
+        "url_3": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/premium-backing-plate",
+        "cleaned_content_3": "[\nContact\n](/service/contact)\n\n[\nShops\n](/service/dealer-search)\n\n[\nNewsletter\n](/service/newsletter)\n\nEN\n\n[\nDE\n](https://www.menzerna.de/autopflege/zubehoer/polierzubehoer/details/premium-stuetzteller)\n\n[\nEN\n](/car-care/accessories/polishing-accessories/details/premium-backing-plate)\n\n[\nCN\n](https://www.menzerna.com.cn/car-care/accessories/polishing-accessories/%E7%BB%86%E8%8A%82/premium-stuetzteller)\n\n[\n](/)\n\n[\n\n](/service/dealer-search)\n\n[\nContact\n](/service/contact)\n\n[\nShops\n](/service/dealer-search)\n\n[\nNewsletter\n](/service/newsletter)\n\nEN\n\n[\nDE\n](https://www.menzerna.de/autopflege/zubehoer/polierzubehoer/details/premium-stuetzteller)\n\n[\nCN\n](https://www.menzerna.com.cn/car-care/accessories/polishing-accessories/%E7%BB%86%E8%8A%82/premium-stuetzteller)\n\n[\n\nContact\n](tel:+49722291570)\n\n[\n\nShops\n](/service/dealer-search)\n\n[\n\n](#download)\n\n- [Homepage](/)\n- [Car care](/car-care)\n- [Accessories](/car-care/accessories)\n- [Polishing accessories](/car-care/accessories/polishing-accessories)\n- Premium Backing Plate\n\n[Back to the overview](/car-care/accessories/polishing-accessories)\n\n# Premium Backing Plate\n\n## Premium Backing Plate for polishing machines\n\nThe Menzerna Premium Backing Plate is a flexible, high-quality plate with a powerful hook-and-loop underside. It supports safe and comfortable working on corners, edges, and contours. Suitable for all standard polishing machines. The polishing plate is available in three different sizes to match the Menzerna polishing pads.\n\nAccessories\n\n### Processing\n\nRotary\n\n### Volumes\n\n| 75mm/ 3''\n\n| 26934.099.001\n\n| (EU Thread)\n\n| 75mm/ 3''\n\n| 26934.099.133\n\n| (US Thread)\n\n| 123mm/ 5''\n\n| 26931.099.001\n\n| (EU Thread)\n\n| 123mm/ 5''\n\n| 26931.099.133\n\n| (US Thread)\n\n| 148mm/ 6''\n\n| 26935.099.001\n\n| (EU Thread)\n\n| 148mm/ 6''\n\n| 26935.099.133\n\n| (US Thread)\n\n### Optimised for\n\n[\n\nPolishing Adapter for Drilling Machines\n\n](/car-care/accessories/polishing-accessories/details/polishing-adapter-for-drilling-machines)\n\n[\n\nOrbital Wool Pad\n\n](/car-care/accessories/polishing-accessories/details/orbital-wool-pad)\n\n[\n\nHeavy Cut Foam Pad\n\n](/car-care/accessories/polishing-accessories/details/heavy-cut-foam-pad)\n\n[\n\nMedium Cut Foam Pad\n\n](/car-care/accessories/polishing-accessories/details/medium-cut-foam-pad)\n\n[\n\n](https://www.menzerna.com/fileadmin/ns_theme_menzerna/Bilder/Zubehoer/Produktbilder/Produkt_Hintergrund/Polierteller_Menzerna_1100x1100.jpg)\n\n[\n\n](https://www.menzerna.com/fileadmin/ns_theme_menzerna/Bilder/Zubehoer/Produktbilder/Polierwerkzeug/Produkte_freigestellt/menzerna_Stuetzteller.png)\n\n[\n\n](javascript:;)\n\n[Find this product at your local dealer](/service/dealer-search)\n\n## More information\n\n- [Benefits](javascript:;)\n\nBenefits\n\n- Flexible, high-quality polishing plate\n- Powerful and durable hook-and-loop underside\n- Suitable for all polishing pads with a diameter of 95 mm/3.5'', 150 mm/6'', and 180 mm/7''\n\n## Downloads\n\n[\n\nTechnical datasheet Premium Backing Plate\n\n124.37 KB\n\n](/fileadmin/ns_theme_menzerna/Dokumente/Technische_Datenblaetter/Zubehoer/EN/TDB_1_BackingPlate_EN_09.2021.pdf)\n\n## Related products\n\n[\n\nHand Polishing Applicator\n\n](/car-care/accessories/polishing-accessories/details/hand-polishing-applicator)\n\n[\n\nPolishing Adapter for Drilling Machines\n\n](/car-care/accessories/polishing-accessories/details/polishing-adapter-for-drilling-machines)\n\nFAQ\n\n## Questions & answers\n\nDo you have a question? We have the answer. On our FAQ page you will find frequently asked questions with the corresponding answers.\n\n[To the FAQs](/car-care/training-tips/faqs)\n\n[How do I choose the right backing plate?](javascript:;)\n\nBacking plates are used with rotary polishing machines. Menzerna offers [backing plates](/car-care/accessories/polishing-accessories/details/premium-backing-plate) in three sizes, depending on the size of the polishing pad. It’s important to remember that the polishing pad should always be bigger than the backing plate.\n\n[What kinds of polishing machine are there?](javascript:;)\n\nThere are rotary and orbital polishing machines. Orbital polishing machines are divided into fixed and random models.\n\n[What’s the difference between an orbital and a rotary polishing machine?](javascript:;)\n\nThe backing plate of a rotary polishing machine turns in a circle around a fixed point. Rotary machines are ideal for removing deeper cracks in the paint.\nThe backing plate of the orbital polishing machine produces orbital movements, making the orbital machine suitable for single-stage polishing processes, in particular.\n\n[What’s the difference between a normal and a fixed orbital polishing machine?](javascript:;)\n\nThere are two types of orbital polishing machine: random and fixed. The backing plate of a random orbital polishing machine can be turned, while that of a fixed machine cannot.\n\nAlways up to date\n\n## Register for the newsletter now!\n\nSubscribe now to the free Menzerna Newsletter and receive interesting tips and information about polishing.\n\n[To the newsletter](/service/newsletter)\n\n## Premium Backing Plate\n\nBacking Plate in long-lasting Menzerna quality. Perfectly tailored to Menzerna polishing pads and polishes. This professional polishing plate is available in the gauges M14 (EU) and 5/8'' (US), as well as in a range of sizes.",
+        "url_4": "https://www.iclean.at/en/menzerna-backing-plate-75mm",
+        "cleaned_content_4": "[\n\n](#main-wrapper) [\nSkip to search\n\n](#search-header) [\n\n](#mainNavigation)\n\nHow we use cookies and other data\n\nBy selecting \"Accept all\", you give us permission to use the following services on our website: releva.nz Retargeting, releva.nz Retargeting, ReCaptcha, Brevo, Google Analytics 4, Google Ads Conversion Tracking. You can change the settings at any time (fingerprint icon in the bottom left corner). For further details, please see Individual configuration* and our *Privacy notice*.\n\n[Imprint](https://www.iclean.at/en/imprint)\n[Privacy](https://www.iclean.at/en/privacy)\n\nAccept all\n\nConfiguration\n\nReject\n\nData privacy settings\n\nThe settings you specify here are stored in the \"local storage\" of your device. The settings will be remembered for the next time you visit our online shop. You can change these settings at any time (fingerprint icon in the bottom left corner).\n\nFor more information on cookie lifetime and required essential cookies, please see the *Privacy notice*.\n\n[Imprint](https://www.iclean.at/en/imprint)\n[Privacy](https://www.iclean.at/en/privacy)\n\nSelect/Deselect all\n\nreleva.nz Retargeting\n\n[\nFurther information\n\n](#)\n\nThis script helps us, to offer you relevant services and products on other digital platforms.\n\nDescription:\n\nNames of set cookies: dmc-12, dmc-12-r\n\nCookie validity: dmc-12 (2 Jahre), dmc-12-r (2 Jahre)\n\nList of cookie domains: hyj.mobi\n\nPlace of processing: European Union\n\ndmc-12\n\ndyn.: No\n\nExpires: 2 years\n\nStorage type: Cookie\ndmc-12-r\n\ndyn.: Yes\n\nExpires: 2 years\n\nLegal basis:\n\nThe legal basis for the processing of personal data required by Art. 6 I 1 GDPR is specified below.\n\n- Art. 6 Abs. 1 s. 1 lit. f DS-GVO\n\nPlace of processing: European Union\n\nProcessing company:\n\nreleva.nz\n\nTerms of use:\n\n[\n\n](https://releva.nz/datenschutz)\n\nreleva.nz Retargeting\n\n[\nFurther information\n\n](#)\n\nThis script helps us, to offer you relevant services and products on other digital platforms.\n\nDescription:\n\nNames of set cookies: dmc-12, dmc-12-r\n\nCookie validity: dmc-12 (2 Jahre), dmc-12-r (2 Jahre)\n\nList of cookie domains: hyj.mobi\n\nPlace of processing: European Union\n\ndmc-12\n\ndyn.: No\n\nExpires: 2 years\n\nStorage type: Cookie\ndmc-12-r\n\ndyn.: Yes\n\nExpires: 2 years\n\nLegal basis:\n\nThe legal basis for the processing of personal data required by Art. 6 I 1 GDPR is specified below.\n\n- Art. 6 Abs. 1 s. 1 lit. f DS-GVO\n\nPlace of processing: European Union\n\nProcessing company:\n\nreleva.nz\n\nTerms of use:\n\n[\n\n](https://releva.nz/datenschutz)\n\nReCaptcha\n\n[\nFurther information\n\n](#)\n\nTo submit forms on this page, you need to consent to the transfer of data and storage of third-party cookies by Google.\nWith your consent, reCAPTCHA, a Google service to avoid spam messages via contact forms, will be embedded.\nThis service allows us to provide our customers with a safe way to contact us via online forms. At the same time, the service prevents spam bots from compromising our services.\nAfter you gave your permission, you might be asked to answer a security prompt to send the form.\nIf you do not consent, unfortunately you cannot use the form. Please contact us in a different way.\n\nDescription:\n\nStopping spam bots\n\nProcessing company:\n\nGoogle Inc.\n\nTerms of use:\n\n[\n\n](https://policies.google.com/privacy)\n\nBrevo\n\n[\nFurther information\n\n](#)\n\nTo send data to Brevo, you need to consent to the transfer of data and storage of third-party cookies by Brevo. This allows us to improve your user experience and to make our website better and more interesting.\n\nDescription:\n\nBrevo Automation Tracking\n\nProcessing company:\n\nsendinblue\n\nTerms of use:\n\n[\n\n](https://sendinblue.com/legal/privacypolicy/)\n\nGoogle Analytics 4\n\n[\nFurther information\n\n](#)\n\nGoogle Analytics ist ein Webanalysedienst von Google Ireland Ltd („Google“). Google verwendet die erhobenen Daten, um nachzuverfolgen und zu untersuchen, wie diese Webseite/App genutzt wird, Berichte über ihre Aktivitäten zu verfassen und diese gemeinsam mit anderen Google-Diensten zu nutzen. Google kann die erhobenen Daten verwenden, um die Anzeigen seines eigenen Werbenetzwerks zu kontextualisieren und personalisieren.\n\nDescription:\n\nErhobene Daten**: anonymisierte IP Adresse, Datum und Uhrzeit des Besuchs, Nutzungsdaten, Klickpfad, App-Aktualisierungen, Browser Informationen, Geräte-Informationen, JavaScript-Support, Besuchte Seiten, Referrer URL, Standort-Informationen, Kaufaktivität, Widget-Interaktionen\n\n**Zweck der Datenverarbeitung**: Marketing (Einwilligung (DSGVO 6.1.a))\n\n**Rechtsgrundlage für die Datenverarbeitung**: Einwilligung (DSGVO 6.1.a)\n\n**Datenübertragung außerhalb der EU**: Dieser Anbieter kann Ihre personenbezogenen Daten außerhalb des EWR/der EU übertragen, speichern oder verarbeiten. Diese Länder haben möglicherweise nicht das gleiche Datenschutzniveau und die Durchsetzung Ihrer Rechte kann eingeschränkt oder nicht möglich sein.\n\n**Cookies, die in Ihrem Browser gesetzt werden**:\n\n| | Cookiename | Beispielinhalt | Ablaufzeit\n| _ga_* | deleted | 730 Tage\n| _ga | GA1.1.8643343795.1726666186 | 730 Tage\n\nProcessing company:\n\nGoogle Ireland Ltd, Gordon House, Barrow Street, Dublin 4,IE\n\nTerms of use:\n\n[\n\n](https://business.safety.google/privacy/)\n\nGoogle Ads Conversion Tracking\n\n[\nFurther information\n\n](#)\n\nMit dem Google Ads Conversion Tracking können wir unseren Werbeerfolg im Google Werbenetzwerk messen. Wir schalten Werbung im Google Werbenetzwerk, damit unsere Angebote besser gefunden werden. Wir versuchen dabei Werbung so optimal wie möglich zu gestalten. Auch um Werbekosten so gering wie möglich zu halten. Dies spiegelt sich in unseren Preisen wieder ;)\n\nDescription:\n\n**Erhobene Daten**: zufallsgenerierte USER-ID, Klickpfad, Sichtbarkeit von Anzeigen messen, Mausbewegung, Zeitstempel, Klicks auf Anzeigen verfolgen, Conversion-Tracking, IP, Uhrzeit und Datum verfolgen, Verfolgung des Benutzerstandorts, Besucherverhalten, User-Agent, Sprache, Besuchte Webseite, Zeitzone\n\n**Zweck der Datenverarbeitung**: Marketing (Einwilligung (DSGVO 6.1.a))\n\n**Rechtsgrundlage für die Datenverarbeitung**: Einwilligung (DSGVO 6.1.a)\n\n**Datenübertragung außerhalb der EU**: Dieser Anbieter kann Ihre personenbezogenen Daten außerhalb des EWR/der EU übertragen, speichern oder verarbeiten. Diese Länder haben möglicherweise nicht das gleiche Datenschutzniveau und die Durchsetzung Ihrer Rechte kann eingeschränkt oder nicht möglich sein.\n\nProcessing company:\n\nGoogle Ireland Ltd, Gordon House, Barrow Street, Dublin 4,IE\n\nTerms of use:\n\n[\n\n](https://business.safety.google/privacy/)\n\nSelect/Deselect all\n\nApply\n\nData privacy settings\n\nWould you like to see these contents? Activate the desired contents for one session only or allow the website to remember these settings. Once you have given your consent, the third-party data can be loaded. For this, third-party cookies might be stored on your device. You can change these settings at any time (fingerprint icon in the bottom left corner). For further details, please see the [Privacy notice](https://www.iclean.at/en/privacy).\n\n[\nFurther information\n](#)\n\n{{headline}}\n{{description}}\n\nAgree for one session\n\nAgree for all sessions\n\n[\n\n](#)\n\n[\nFree gifts\n\n](https://www.iclean.at/en/free-gifts)\n\n[\n\n](#)\n\n[\nCreate wish list\n\n](https://www.iclean.at/Wishlist?newWL=1)\n\n[\n\n](#)\n\n[\n* Customer service\n](#)\n\n×\n\nCustomer service & Support\n\nWe help and assist you with all your questions\n\n*[ Cancellation instructions](/en/cancellation-instructions)\n\n**[ Professional account](/en/trade-account)\n\nContact\n\n**  Ottogasse 5, 2333 Leopoldsdorf\n\n**  Tel: [+43 (0)2235 20411](tel:+43223520411)\n\n**  Email: [info@iclean.at](mailto:info@iclean.at)\n\n**  Business hours:\n\nMon: 9:00 - 14:00\n\nTue, Thu, Fri: 9:00 - 18:00\n\nWed & Sat: closed\n\n[\nFree gifts\n](https://www.iclean.at/en/free-gifts)\n\n- Log in\n\nI totally agree to receive nothing*\n\nI totally agree to receive nothing*\n\nMore categories\n\n[\n\nShow Manufacturers\n\n](https://www.iclean.at/en/manufacturers-overview)\n\n[\n\n](https://www.iclean.at/en/iclean)\n\n[\n\n](https://www.iclean.at/en/303-products)\n\n[\n\n](https://www.iclean.at/en/3m)\n\n[\n\n](https://www.iclean.at/en/akut-sos)\n\n[\n\n](https://www.iclean.at/en/auto-finesse)\n\n[\n\n](https://www.iclean.at/en/autosol)\n\n[\n\n](https://www.iclean.at/en/benbow)\n\n[\n\n](https://www.iclean.at/en/blo-car-dryer)\n\n[\n\n](https://www.iclean.at/en/california-scents)\n\n[\n\n](https://www.iclean.at/en/canyon)\n\n[\n\n](https://www.iclean.at/en/carpro)\n\n[\n\n](https://www.iclean.at/en/chemical-guys)\n\n[\n\n](https://www.iclean.at/en/collinite-wax-products)\n\n[\n\n](https://www.iclean.at/en/colourlock)\n\n[\n\n](https://www.iclean.at/en/dodo-juice)\n\n[\n\n](https://www.iclean.at/en/dynabrade)\n\n[\n\n](https://www.iclean.at/en/festool)\n\n[\n\n](https://www.iclean.at/en/flex)\n\n[\n\n](https://www.iclean.at/en/gebol)\n\n[\n\n](https://www.iclean.at/en/goizper-group)\n\n[\n\n](https://www.iclean.at/en/kaercher)\n\n[\n\n](https://www.iclean.at/en/kochchemie)\n\n[\n\n](https://www.iclean.at/en/kovax)\n\n[\n\n](https://www.iclean.at/en/kwazar)\n\n[\n\n](https://www.iclean.at/en/maxshine)\n\n[\n\n](https://www.iclean.at/en/martor)\n\n[\n\n](https://www.iclean.at/en/meguiars)\n\n[\n\n](https://www.iclean.at/en/menzerna-polishing-compounds)\n\n[\n\n](https://www.iclean.at/en/milwaukee)\n\n[\n\n](https://www.iclean.at/en/nexdiag)\n\n[\n\n](https://www.iclean.at/en/ronin-flex-systems)\n\n[\n\n](https://www.iclean.at/en/rupes)\n\n[\n\n](https://www.iclean.at/en/poka-premium)\n\n[\n\n](https://www.iclean.at/en/scangrip)\n\n[\n\n](https://www.iclean.at/en/scholl-concepts)\n\n[\n\n](https://www.iclean.at/en/scratchshield)\n\n[\n\n](https://www.iclean.at/en/seko)\n\n[\n\n](https://www.iclean.at/en/sia-abrasives)\n\n[\n\n](https://www.iclean.at/en/sonax)\n\n[\n\n](https://www.iclean.at/manufacturer/sprintus)\n\n[\n\n](https://www.iclean.at/en/soft99)\n\n[\n\n](https://www.iclean.at/en/valetpro)\n\n[\n\n](https://www.iclean.at/en/vikan)\n\n[\n\n](https://www.iclean.at/en/zvg)\n\n[\n\n](https://www.iclean.at/en/tuga-chemie)\n\n[\n\n](https://www.iclean.at/en/zymoel)\n\nMain menu\n\n[\n\nMatte Paint\n\n](https://www.iclean.at/en/matte-paint-care)\n\n[\n\nMotorcycle\n\n](https://www.iclean.at/en/motorcycle-care)\n\n[\n\nBicycle\n\n](https://www.iclean.at/en/bicycle-care)\n\n[\n\nSkin Care\n\n](https://www.iclean.at/en/skin-care)\n\n[\n\nTools\n\n](https://www.iclean.at/en/tools)\n\n[\n\nSets\n\n](https://www.iclean.at/en/sets)\n\n[\n\nVouchers\n\n](https://www.iclean.at/en/gift-vouchers)\n\n[\n\n](https://www.iclean.at/Wishlist?newWL=1)\n\n[\n\n](#languageDropdown)\n\n[\n\n](https://www.iclean.at/menzerna-backing-plate-75mm)\n\n[\n\n](https://www.iclean.at/en/menzerna-backing-plate-75mm)\n\n[\n\nNew\n\n](https://www.iclean.at/en/new-products)\n\n[Exterior](https://www.iclean.at/en/exterior)\n\n[Interior](https://www.iclean.at/en/interior)\n\n[Paint Correction](https://www.iclean.at/en/paint-correction)\n\n[Accessories](https://www.iclean.at/en/accessories)\n\n[\nMatte Paint\n\n](https://www.iclean.at/en/matte-paint-care)\n\n[\nWinter\n\n](https://www.iclean.at/en/winter-products)\n\n[\nMotorcycle\n\n](https://www.iclean.at/en/motorcycle-care)\n\n[\nBicycle\n\n](https://www.iclean.at/en/bicycle-care)\n\n[\nSkin Care\n\n](https://www.iclean.at/en/skin-care)\n\n[Tools](https://www.iclean.at/en/tools)\n\n[Sets](https://www.iclean.at/en/sets)\n\n[\nVouchers\n\n](https://www.iclean.at/en/gift-vouchers)\n\n[\n\n% Sale %\n\n](https://www.iclean.at/en/sale-items)\n\n[\n\nManufacturers\n\n](https://www.iclean.at/en/manufacturers-overview)\n\nBack\n\nShow Manufacturers\nShow category\n\n[\niClean\n\n](https://www.iclean.at/en/iclean)\n\n[\n303 Products\n\n](https://www.iclean.at/en/303-products)\n\n[\n3M\n\n](https://www.iclean.at/en/3m)\n\n[\nAkut SOS\n\n](https://www.iclean.at/en/akut-sos)\n\n[\nAuto Finesse\n\n](https://www.iclean.at/en/auto-finesse)\n\n[\nAutosol\n\n](https://www.iclean.at/en/autosol)\n\n[\nBenBow\n\n](https://www.iclean.at/en/benbow)\n\n[\nBLO Car Dryer\n\n](https://www.iclean.at/en/blo-car-dryer)\n\n[\nCalifornia Scents\n\n](https://www.iclean.at/en/california-scents)\n\n[\nCanyon\n\n](https://www.iclean.at/en/canyon)\n\n[\nCarPro\n\n](https://www.iclean.at/en/carpro)\n\n[\nChemical Guys\n\n](https://www.iclean.at/en/chemical-guys)\n\n[\nCollinite Wax Products\n\n](https://www.iclean.at/en/collinite-wax-products)\n\n[\nColourlock\n\n](https://www.iclean.at/en/colourlock)\n\n[\nDodo Juice\n\n](https://www.iclean.at/en/dodo-juice)\n\n[\nDynabrade\n\n](https://www.iclean.at/en/dynabrade)\n\n[\nFestool\n\n](https://www.iclean.at/en/festool)\n\n[\nFlex\n\n](https://www.iclean.at/en/flex)\n\n[\nGebol\n\n](https://www.iclean.at/en/gebol)\n\n[\nGoizper Group\n\n](https://www.iclean.at/en/goizper-group)\n\n[\nKärcher\n\n](https://www.iclean.at/en/kaercher)\n\n[\nKochChemie\n\n](https://www.iclean.at/en/kochchemie)\n\n[\nKovax\n\n](https://www.iclean.at/en/kovax)\n\n[\nKwazar\n\n](https://www.iclean.at/en/kwazar)\n\n[\nMaxShine\n\n](https://www.iclean.at/en/maxshine)\n\n[\nMartor\n\n](https://www.iclean.at/en/martor)\n\n[\nMeguiar's\n\n](https://www.iclean.at/en/meguiars)\n\n[\nMenzerna Polishing Compounds\n\n](https://www.iclean.at/en/menzerna-polishing-compounds)\n\n[\nMilwaukee\n\n](https://www.iclean.at/en/milwaukee)\n\n[\nNexDiag\n\n](https://www.iclean.at/en/nexdiag)\n\n[\nRonin Flex Systems\n\n](https://www.iclean.at/en/ronin-flex-systems)\n\n[\nRupes\n\n](https://www.iclean.at/en/rupes)\n\n[\nPoka Premium\n\n](https://www.iclean.at/en/poka-premium)\n\n[\nScangrip\n\n](https://www.iclean.at/en/scangrip)\n\n[\nScholl Concepts\n\n](https://www.iclean.at/en/scholl-concepts)\n\n[\nScratchShield\n\n](https://www.iclean.at/en/scratchshield)\n\n[\nSeko\n\n](https://www.iclean.at/en/seko)\n\n[\nsia Abrasives\n\n](https://www.iclean.at/en/sia-abrasives)\n\n[\nSonax\n\n](https://www.iclean.at/en/sonax)\n\n[\nSprintus\n\n](https://www.iclean.at/sprintus)\n\n[\nSoft99\n\n](https://www.iclean.at/en/soft99)\n\n[\nValetPRO\n\n](https://www.iclean.at/en/valetpro)\n\n[\nVikan\n\n](https://www.iclean.at/en/vikan)\n\n[\nZVG\n\n](https://www.iclean.at/en/zvg)\n\n[\nTuga Chemie\n\n](https://www.iclean.at/en/tuga-chemie)\n\n[\nZymöl\n\n](https://www.iclean.at/en/zymoel)\n\nI totally agree to receive nothing*\n\n*  Ordered by 17.00: we ship same day (DPD)\n\n**  Free shipping from 49€ for AT/DE\n\n**  Best price guarantee\n\n**  17 years of passion\n\n[\n\n](https://www.iclean.at/en/menzerna-hcc400-heavy-cut-compound-400)\n\nI totally agree to receive nothing*\n\n[show more details *](https://www.iclean.at/en/menzerna-backing-plate-75mm)\n\nMenzerna - Backing Plate - 75mm\n\n# Menzerna - Backing Plate - 75mm\n\nSKU:\nBP75\n\nThe perfect backing plate for all your Menzerna equipment.\nPerfectly matches and boosts the efficiency of all Menzerna products.\n\n*Quantity:* 1 pcs\n\nlow stock level\n\nDelivery time:\n1 - 2 Workdays\n[\n(AT - int. shipments may differ)\n](https://www.iclean.at/en/shipping-costs)\n\n10,99 €\n\n20,95 €\n\n-48%\n\nYou save a total of 9,96€\n\nincl. 20% VAT\n\n,\n\nplus\n[\nshipping costs\n\n](https://www.iclean.at/en/shipping-costs?shipping_calculator=0)\n\nChoose tax zone / country of delivery\n\nAustria\nBelgium\nBulgaria\nCyprus\nCzech Republic\nGermany\nDenmark\nEstonia\nSpain\nFinland\nFrance\nGreece\nCroatia\nHungary\nIreland\nItaly\nLithuania\nLuxembourg\nLatvia\nNetherlands\nPoland\nPortugal\nRomania\nSweden\nSlovenia\nSlovakia\n\nGreat Britain\nIsrael\nIndia\n\nOthers\n\nRefresh\n\nYou will earn\n\n10 iCredits\n\nfor this product. Collect points & save on your next purchase!\n\n[\n\n](/en/menzerna-polishing-compounds)\n\nThe perfect backing plate for all your Menzerna equipment.\nPerfectly matches and boosts the efficiency of all Menzerna products.\n\nQuantity:* 1 pcs\n\nAdd to basket\n\nx\nThis item is not available in your delivery country.\n\nOthers also bought:\n\nQuickbuy\n\nTop rated\n\nTop rated\n\n[\n*********\n](https://www.iclean.at/en/carpro-essence#tab-votes)\n\n[\nCarPro - Essence\n\n](https://www.iclean.at/en/carpro-essence)\n\n22,99 € *\n\n91,96 € per 1 l\n\navailable immediately\n\nQuickbuy\n\nTop rated\n\nTop rated\n\n[\n*********\n](https://www.iclean.at/en/iclean-icloth-edgeless-20-grey#tab-votes)\n\n[\niClean - iCloth Edgeless 2.0 - Grey\n\n](https://www.iclean.at/en/iclean-icloth-edgeless-20-grey)\n\n4,50 € *\n\navailable immediately\n\nQuickbuy\n\nTop rated\n\nTop rated\n\n[\n*********\n](https://www.iclean.at/en/soft99-the-kiwami-extreme-gloss-kiwami-wax-dark-200g#tab-votes)\n\n[\nSoft99 - Extreme Gloss Kiwami Wax - Dark 200g\n\n](https://www.iclean.at/en/soft99-the-kiwami-extreme-gloss-kiwami-wax-dark-200g)\n\n23,99 € *\n\n119,95 € per 1 kg\n\navailable immediately\n\nQuickbuy\n\n[\nKwazar - Venus Super HD acid line, 1,5L\n\n](https://www.iclean.at/en/kwazar-venus-super-hd-acid-line-15l)\n\n27,99 € *\n\navailable immediately\n\nQuickbuy\n\nTop rated\n\nTop rated\n\n[\n*********\n](https://www.iclean.at/en/kwazar-mercury-super-pro-360-blue-1l#tab-votes)\n\n[\nKwazar - Mercury Super PRO+ 360 Blue, 1L\n\n](https://www.iclean.at/en/kwazar-mercury-super-pro-360-blue-1l)\n\n9,99 € *\n\navailable immediately\n\nQuickbuy\n\n2 = −10 %\n\niClean Favourite\n\n2 = −10 %\n\niClean Favourite\n\n[\niClean - Twisted Dryer Jr\n\n](https://www.iclean.at/en/iclean-twisted-dryer-jr)\n\n12,99 € *\n\navailable immediately\n\nDelivery time:\n1 - 2 Workdays\n[\n(AT - int. shipments may differ)\n](https://www.iclean.at/en/shipping-costs)\n\nQuickbuy\n\nTop rated\n\nTop rated\n\n[\n*********\n](https://www.iclean.at/en/carpro-suede-microfiber-towel#tab-votes)\n\n[\nCarPro - Suede Microfiber Towel\n\n](https://www.iclean.at/en/carpro-suede-microfiber-towel)\n\nfrom\n\n0,79 € *\n\navailable immediately\n\nQuickbuy\n\nOut of stock\n\nOut of stock\n\n[\n*********\n](https://www.iclean.at/en/iclean-idry-dryingtowel#tab-votes)\n\n[\niClean - iDry Dryingtowel\n\n](https://www.iclean.at/en/iclean-idry-dryingtowel)\n\n25,99 € *\n\ncurrently out of stock\n\nFrequently Asked Questions\n\n## How quickly does shipping take place?\n\nIf your order is received by 17.00, we will ship your order with DPD on the same working day (subject to stock availability). Within Austria, you will usually receive your order on the next working day. To Germany, experience shows that it takes two working days.\n\nAs soon as your order has been packed, you will receive an email with a tracking number. This way, you always know where your package is.\n\n## How much are the shipping costs?\n\nFor Austria and Germany, shipping is free for orders over 40€.\nThe shipping costs are different for each country. You can find the current shipping costs here: [view our shipping costs](/en/shipping-costs)\n\n## Is there a minimum order value?\n\nNo, there is no minimum order value for your order. Please note, however, that above a certain order value you may be able to save on shipping costs and even choose a free gift.\n\n## What payment options do I have?\n\nWe offer you a large selection of different payment options. You can currently choose from classic advance payment (bank transfer), cash on delivery, credit card (Visa, Mastercard, Amex), PayPal, Apple Pay, EPS, Klarna Pay Now and Klarna Slice It. Depending on the payment method, you may be redirected to the provider's website for processing.\n\n## I received a damaged item. What to do?\n\nUnfortunately, this sometimes happens. But don't panic, just send us an email with photos of the damaged item and we'll take care of an exchange / subsequent delivery immediately. This is of course free of charge for you.\n\n## How does a return process work?\n\nEveryone changes their mind sometimes. You can return any order to us. Please enclose enough information so that we know how to handle your return. If you would like a return label from us, our iBot can help you in our live chat.\n\nEveryone changes their mind sometimes. You can return individual items or your entire order. Please include enough information so that we can identify your order. If you would like a refund or an exchange, please let us know as well. This will speed up the return process immensely.\n\nWhat happens if I fall below the free shipping limit with the return?\n\nIn this case, you will be charged for the shipping costs that would otherwise have been incurred, as we have to treat the order as if you had never ordered the returned products.\n\n## What makes your products special?\n\nOur products are professional products. These are difficult to compare with commercially available care products. Our products are used by the industry in the OEM sector. They are state-of-the-art and are continuously improved. You get absolute premium quality.\n\n## Aren't your products too expensive?\n\nOur products are professional products in premium quality. This means that the products are much more economical to use and require less time. This added value alone makes all products significantly cheaper than supposedly \"cheap\" care products.\n\n## Why should I use your products?\n\nThe materials and surfaces in vehicles are becoming more and more complex and sensitive. Our products have been specially developed for the surfaces and materials. This is the only way you can be sure that you are protecting your surfaces for a long time and not damaging them by using too aggressive cleaners. Well-preserved vehicles usually achieve a higher selling price.\n\nQuestion about item\n\n×\n\nI totally agree to receive nothing*\n\nContact data\n\nFirst name\n\nLast name\n\nE-Mail\n\nQuestion about item\n\nYour question\n\nData protection\n\nI have read the privacy policy and I consent to the collection, storage and processing of my data as described in the privacy policy.\n\n([\nRead\n](https://www.iclean.at/en/privacy))\n\nPlease answer the question\n\n×\n\nAbsenden\n\n[\nPlease see our privacy notice\n\n](https://www.iclean.at/en/privacy)\n\nSubmit question\n\n✕\n\nDelivery country\n\nAustria\n\nBelgium\n\nBulgaria\n\nCyprus\n\nCzech Republic\n\nGermany\n\nDenmark\n\nEstonia\n\nSpain\n\nFinland\n\nFrance\n\nGreat Britain\n\nGreece\n\nCroatia\n\nHungary\n\nIreland\n\nIsrael\n\nIndia\n\nItaly\n\nLithuania\n\nLuxembourg\n\nLatvia\n\nNetherlands\n\nPoland\n\nPortugal\n\nRomania\n\nSweden\n\nSlovenia\n\nSlovakia\n\nShow more\n\nLanguage\n\nDE\n\nGerman\n\nEN\n\nEnglish\n\nShow more\n\nRefresh"
+      }
+    },
+    {
+      "sku": "SGYC010",
+      "barcode": "8683492660727",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "repair_part",
+        "fields": {
+          "compatible_device": "SGCB Tornador",
+          "part_type": "Boncuk"
+        }
+      },
+      "content": {
+        "short_description": "SGCB Tornador Yedek Boncuk, detaylı temizlik tabancası için orijinal fabrika çıkışlı yedek parçadır. Uzun ömürlü ve güvenli kullanım sağlar!",
+        "full_description": "SGCB Tornador detaylı temizlik tabancası için orjinal yedek boncuk. SGCB boncuklu tornador için fabrika çıkışlı orijinal ve yeni yedek parça.",
+        "how_to_use": "1. Tornador tabancasını sökerek iç parçalara erişin.\n2. Aşınmış boncuğu çıkarın.\n3. Yeni boncuğu yerine takın.\n4. Tabancayı tekrar monte edin.\n5. Test püskürtmesi yapın.",
+        "when_to_use": "Tornador performansı düştüğünde veya boncuk aşındığında yedek parça değişimi yapılmalıdır.",
+        "target_surface": "SGCB boncuklu Tornador detaylı temizlik tabancası",
+        "why_this_product": "• Orijinal SGCB yedek parçası\n• Fabrika çıkışlı kalite\n• Tornador performansını yeniler\n• Uzun ömürlü malzeme"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "SGYC011"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Bu boncuk ne işe yarar?",
+          "answer": "Tornador tabancasında hava akışını ve temizlik performansını düzenleyen kritik bir parçadır."
+        },
+        {
+          "question": "Ne zaman değiştirilmeli?",
+          "answer": "Tornador'un temizlik gücü azaldığında veya ses değişikliği fark edildiğinde kontrol edilmelidir."
+        },
+        {
+          "question": "Orijinal parça mı?",
+          "answer": "Evet, SGCB fabrika çıkışlı orijinal yedek parçadır."
+        }
+      ],
+      "price": 28000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGYC010_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "SGYC011",
+      "barcode": "8683492660758",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "repair_part",
+        "fields": {
+          "compatible_device": "SGCB Tornador",
+          "part_type": "Kılcal Hortum",
+          "material": "Plastik"
+        }
+      },
+      "content": {
+        "short_description": "SGCB Tornador Yedek Kılcal Hortum, detaylı temizlik tabancası için orijinal plastik yedek parçadır. Dayanıklı yapısıyla uzun ömürlü kullanım sağlar!",
+        "full_description": "SGCB Tornador detaylı temizlik tabancası için yedek, plastik kılcal hortum. SGCB boncuklu tornador için fabrika çıkışlı orijinal ve yeni yedek parça.",
+        "how_to_use": "1. Tornador tabancasını sökerek iç parçalara erişin.\n2. Aşınmış kılcal hortumu çıkarın.\n3. Yeni hortumu yerine takın.\n4. Tabancayı tekrar monte edin.\n5. Test püskürtmesi yapın.",
+        "when_to_use": "Kılcal hortum tıkandığında, çatladığında veya sıvı akışı düzensizleştiğinde yedek parça değişimi yapılmalıdır.",
+        "target_surface": "SGCB boncuklu Tornador detaylı temizlik tabancası",
+        "why_this_product": "• Orijinal SGCB yedek parçası\n• Dayanıklı plastik yapı\n• Sıvı akışını yeniler\n• Fabrika çıkışlı kalite"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "SGYC010"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Kılcal hortum ne işe yarar?",
+          "answer": "Temizlik sıvısını tabanca ucuna ileten ince hortum parçasıdır."
+        },
+        {
+          "question": "Hortum tıkandığında ne yapılmalı?",
+          "answer": "Temiz su ile yıkama denenebilir, aksi halde yedek parça değişimi gerekir."
+        },
+        {
+          "question": "Montaj zor mu?",
+          "answer": "Hayır, tabanca sökülerek kolayca değiştirilebilir."
+        }
+      ],
+      "price": 22000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/SGYC011_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "83371816",
+      "barcode": "8410000000002",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "trigger_gun",
+        "fields": {
+          "compatible_device": "IK PPF 12",
+          "features": "Ayarlanabilir Konik Nozul"
+        }
+      },
+      "content": {
+        "short_description": "Profesyonel IK püskürtücüler için uyumlu Complete Handle ve Ayarlanabilir Konik Nozullu Adaptör seti. Dayanıklı yapısı ve hassas püskürtme kontrolüyle verimli uygulamalar sağlar.",
+        "full_description": "Yedek Tabanca Takımı <br><br>IK Complete Handle ve Ayarlanabilir Konik Nozullu Adaptör, IK basınçlı püskürtücüleriniz için tasarlanmış profesyonel bir yedek tabanca setidir. <br><br>Ergonomik yapısı sayesinde uzun süreli kullanımlarda konfor sağlar, ayarlanabilir konik nozzle ise farklı püskürtme ihtiyaçlarına tam uyum sağlar. <br><br>Kimyasallara dayanıklı malzemeden üretilmiştir ve yüksek performanslı uygulamalar için idealdir. Bu set sayesinde püskürtme işlerinizi daha kontrollü, verimli ve güvenli bir şekilde gerçekleştirebilirsiniz.<br>",
+        "how_to_use": "1. Pompayı boşaltın.\n2. Eski tabancayı hortumdan sökün.\n3. Yeni tabancayı hortuma bağlayın.\n4. Sızdırmazlık kontrolü yapın.\n5. Test püskürtmesi yapın.",
+        "when_to_use": "IK PPF 12 basınçlı pompanın tabanca mekanizması arızalandığında veya nozul tıkandığında yedek tabanca değişimi yapılır.",
+        "target_surface": "IK PPF 12 basınçlı püskürtücü",
+        "why_this_product": "• IK PPF 12 ile tam uyum\n• Ayarlanabilir konik nozul\n• Ergonomik tutuş\n• Kimyasallara dayanıklı"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [
+          "83371602"
+        ],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi pompayla uyumlu?",
+          "answer": "IK PPF 12 basınçlı püskürtücü ile uyumludur."
+        },
+        {
+          "question": "Nozul ayarlanabilir mi?",
+          "answer": "Evet, farklı püskürtme ihtiyaçlarına göre ayarlanabilir konik nozul mevcuttur."
+        },
+        {
+          "question": "Kimyasallara dayanıklı mı?",
+          "answer": "Evet, profesyonel detailing kimyasallarına dayanıklı malzemeden üretilmiştir."
+        }
+      ],
+      "price": 35000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/83371816.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "83371602",
+      "barcode": "8410000000003",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "nozzle",
+        "fields": {
+          "compatible_device": "IK PPF 12",
+          "part_type": "Uç"
+        }
+      },
+      "content": {
+        "short_description": "Profesyonel IK püskürtücüler için uyumlu Complete Handle ve Ayarlanabilir Konik Nozullu Adaptör seti. Dayanıklı yapısı ve hassas püskürtme kontrolüyle verimli uygulamalar sağlar.",
+        "full_description": "",
+        "how_to_use": "1. Tabancayı pompadan ayırın.\n2. Eski nozzle'ı döndürerek sökün.\n3. Yeni nozzle'ı takın.\n4. Tabancayı tekrar bağlayın.\n5. Test püskürtmesi yapın.",
+        "when_to_use": "Püskürtme düzeni bozulduğunda, nozzle tıkandığında veya damlama oluştuğunda değiştirilmelidir.",
+        "target_surface": "IK PPF 12 basınçlı püskürtücü tabancası",
+        "why_this_product": "• Orijinal IK yedek parçası\n• Hassas püskürtme kontrolü\n• Kolay montaj\n• Kimyasallara dayanıklı"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [
+          "83371816"
+        ],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi tabancayla uyumlu?",
+          "answer": "IK PPF 12 basınçlı püskürtücü tabancası ile uyumludur."
+        },
+        {
+          "question": "Montaj için alet gerekir mi?",
+          "answer": "Hayır, el ile döndürerek kolayca değiştirilebilir."
+        },
+        {
+          "question": "Tıkanan nozzle temizlenebilir mi?",
+          "answer": "Evet, iğne ile temizleme denenebilir, ancak kalıcı tıkanmalarda değişim gerekir."
+        }
+      ],
+      "price": 20000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/83371602_1.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "82671836",
+      "barcode": "8414685032591",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "hose",
+        "fields": {
+          "length_m": 6,
+          "compatible_device": "IK Pompalar",
+          "features": "Kimyasal Dayanımlı",
+          "diameter_mm": 12
+        }
+      },
+      "content": {
+        "short_description": "IK 6 metre hortum ile daha uzak alanlara rahatça ulaşın, sprey uygulamalarınızda maksimum hareket özgürlüğü ve dayanıklılığı bir arada yaşayın.",
+        "full_description": "IK 6 Metre Takviye Hortum – Geniş Alanlarda Serbest Hareket İçin İdeal\r\n\r\nIK 6 metre hortum, sprey uygulamalarında kullanıcıya daha fazla hareket özgürlüğü ve ulaşım kolaylığı sağlayan profesyonel bir aksesuardır. IK basınçlı pompa sistemleriyle tam uyumlu olarak tasarlanmıştır ve geniş alanlarda çalışmayı çok daha pratik hale getirir.\r\n\r\nÜrün Özellikleri:\r\n• 6 Metre Uzunluk: Daha geniş alanlarda püskürtme yapabilmek için ideal uzunluk.\r\n• Kıvrılma ve Ezilmeye Dirençli: Uygulama sırasında hortumun bükülmesini ve sıkışmasını önler.\r\n• Takviyeli Yapı: 12 mm çapında sağlam ve dayanıklı malzemeden üretilmiştir.\r\n• Kimyasallara Dayanıklı: Asitler, köpük yapıcı kimyasallar ve profesyonel temizlik ürünleriyle uyumlu.\r\n• Kolay Montaj: IK sprayer cihazlarıyla hızlı ve zahmetsiz montaj için tasarlanmıştır.\r\n• Profesyonel Kullanıma Uygun: Özellikle temizlik, dezenfeksiyon ve detailing gibi yoğun kimyasal kullanılan alanlarda güvenle tercih edilir.\r\n\r\n\r\nKullanım Alanları:\r\n• Otomotiv detaylandırma (detailing)\r\n• Endüstriyel temizlik ve sanitasyon\r\n• Geniş yüzeyli dezenfeksiyon çalışmaları\r\n• HVAC sistem temizliği ve bakım uygulamaları",
+        "how_to_use": "1. Dip tüp filtresinin şişe tabanına değdiğini kontrol edin.\n2. Hortumu pompaya bağlayın.\n3. Tabancayı hortumun diğer ucuna takın.\n4. Sızdırmazlık kontrolü yapın.\n5. Kullanıma başlayın.",
+        "when_to_use": "Geniş alanlarda çalışırken daha fazla hareket özgürlüğü ve ulaşım kolaylığı gerektiğinde 6 metre uzatma hortumu kullanılır.",
+        "target_surface": "IK basınçlı pompa sistemleri",
+        "why_this_product": "• 6 metre uzunluk - geniş alan erişimi\n• Kıvrılma ve ezilmeye dirençli\n• Kimyasallara dayanıklı\n• 12mm çap - güçlü akış"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "83371836"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi pompalarla uyumlu?",
+          "answer": "Tüm IK profesyonel basınçlı pompa sistemleri ile uyumludur."
+        },
+        {
+          "question": "Asitlere dayanıklı mı?",
+          "answer": "Evet, asitler, köpük yapıcılar ve profesyonel temizlik ürünleriyle uyumludur."
+        },
+        {
+          "question": "Spiral versiyonu var mı?",
+          "answer": "Evet, 83371836 kodlu 4 metre spiral hortum mevcuttur."
+        }
+      ],
+      "price": 175000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/82671836_1.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "83371836",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "hose",
+        "fields": {
+          "length_m": 4,
+          "type": "Spiral",
+          "compatible_device": "IK Pompalar",
+          "features": [
+            "Kimyasal Dayanımlı",
+            "Otomatik Toplanır"
+          ]
+        }
+      },
+      "content": {
+        "short_description": "IK SPIRAL HOSE 4 metre spiral hortum, IK basınçlı pompalarla uyumlu, aside ve kimyasallara dayanıklı yapısıyla güvenli kullanım sağlar. Maksimum performans için ideal yedek parça.",
+        "full_description": "Yerde Dolaşan Hortumlara Son! IK Spiral Hortum ile Tanışın.\r\n\r\nÇalışma alanınızdaki hortum karmaşasından sıkıldınız mı? IK Complete Spiral Hortum, helezon yapısıyla ihtiyacınız kadar uzar ve işiniz bitince otomatik olarak toplanır. Size sadece işinize odaklanmak kalır.\r\n\r\nNeden IK Spiral Hortum?\r\n\r\nMaksimum Düzen: Kendi kendine toplanan yapısıyla atölyeniz veya garajınız her zaman düzenli kalır.\r\nTemiz ve Güvenli: Yerde sürüklenmediği için kirlenmez ve takılıp düşme riskini ortadan kaldırır.\r\nEsnek Kullanım: İhtiyaç duyduğunuzda esneyerek size engelsiz bir hareket özgürlüğü sunar.\r\nPratik Çözüm: Sürekli hortum toplama derdi olmadan, işinize hız ve verimlilik katın.\r\nMobil detailerler, atölyeler ve düzenli bir çalışma ortamı isteyen tüm profesyoneller için mükemmel bir yardımcıdır.",
+        "how_to_use": "1. Spiral hortumu pompaya bağlayın.\n2. Tabancayı hortumun diğer ucuna takın.\n3. İhtiyaç kadar uzatarak kullanın.\n4. Bıraktığınızda otomatik toplanır.\n5. Düzenli çalışma ortamı sağlar.",
+        "when_to_use": "Yerde hortum karmaşası istemediğinizde, mobil detailing ve düzenli atölye ortamı için spiral hortum kullanılır.",
+        "target_surface": "IK basınçlı pompa sistemleri",
+        "why_this_product": "• Otomatik toplanan helezon yapı\n• 4 metre uzunluk\n• Yerde sürüklenmez - kirlenmez\n• Takılma riski yok - güvenli"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "82671836"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Normal hortumdan farkı nedir?",
+          "answer": "Spiral hortum kullanılmadığında otomatik toplanır, yerde sürüklenmez ve karmaşa yapmaz."
+        },
+        {
+          "question": "Kaç metreye kadar uzar?",
+          "answer": "4 metreye kadar esner, bırakınca otomatik toplanır."
+        },
+        {
+          "question": "Mobil detailing için uygun mu?",
+          "answer": "Evet, düzenli ve pratik yapısıyla mobil detailerlar için idealdir."
+        }
+      ],
+      "price": 190000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/83371836_1.webp",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "82671872",
+      "barcode": "8414685032638",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "handle",
+        "fields": {
+          "material": "INOX (Paslanmaz Çelik)",
+          "compatible_device": "IK Pompalar"
+        }
+      },
+      "content": {
+        "short_description": "IK Handle INOX, paslanmaz çelik gövdesi ve ergonomik yapısıyla profesyonel sprey uygulamaları için dayanıklı ve çok yönlü bir tutma koludur.",
+        "full_description": "IK Handle (INOX) – Paslanmaz, Dayanıklı ve Çok Amaçlı Tutma Kolu\r\n\r\n\r\nIK Handle INOX, IK basınçlı püskürtücülerle uyumlu, paslanmaz çelikten üretilmiş çok yönlü bir tutma koludur. Profesyonel kullanım için tasarlanmış olan bu aksesuar, uygulama esnasında daha fazla kontrol, konfor ve dayanıklılık sağlar.\r\n\r\n\r\nÜrün Özellikleri:\r\n\r\n• Paslanmaz Çelik (INOX) Gövde: Uzun ömürlü kullanım için dayanıklı yapı.\r\n• Çok Amaçlı Kullanım: Farklı püskürtme senaryolarına kolaylıkla adapte olur.\r\n• Ergonomik Tasarım: Konforlu tutuş sağlayarak uzun süreli kullanımlarda bile yorgunluğu azaltır.\r\n• IK Sprayer Uyumlu: Tüm IK profesyonel püskürtme sistemleriyle uyumlu bağlantı.\r\n• Kolay Temizlenebilir Yüzey: Hijyenin ön planda olduğu sektörler için ideal.\r\n• Profesyonel Kullanıma Özel: Otomotiv detaylandırma, temizlik, sanitasyon ve daha fazlası için uygundur.\r\n\r\n\r\nKullanım Alanları:\r\n\r\n• Otomotiv ve Detailing\r\n• Endüstriyel temizlik uygulamaları\r\n• Dezenfeksiyon ve sanitasyon\r\n• Gıda endüstrisi ve HVAC sistemleri",
+        "how_to_use": "1. Hortumu handle'a bağlayın.\n2. Nozulu takın.\n3. Pompayı basınçlandırın.\n4. Tetiği çekerek püskürtün.\n5. Kullanım sonrası temiz su ile durulayın.",
+        "when_to_use": "IK basınçlı pompalarda profesyonel püskürtme uygulamaları için paslanmaz çelik tutma kolu kullanılır.",
+        "target_surface": "Tüm IK profesyonel püskürtme sistemleri",
+        "why_this_product": "• Paslanmaz çelik (INOX) gövde\n• Ergonomik tasarım - uzun süreli konfor\n• Kimyasallara dayanıklı\n• Kolay temizlenebilir yüzey"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Neden paslanmaz çelik?",
+          "answer": "INOX yapı uzun ömürlü kullanım, korozyon direnci ve kolay temizlik sağlar."
+        },
+        {
+          "question": "Hangi pompalarla uyumlu?",
+          "answer": "Tüm IK profesyonel basınçlı pompa sistemleri ile uyumludur."
+        },
+        {
+          "question": "Gıda sektöründe kullanılabilir mi?",
+          "answer": "Evet, hijyenin önemli olduğu gıda, dezenfeksiyon ve HVAC sistemlerinde kullanılabilir."
+        }
+      ],
+      "price": 80000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/82671872_1.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Şişeler ve Basınçlı Pompalar",
+        "sub_cat2": "Basınçlı Pompalar"
+      }
+    },
+    {
+      "sku": "79643",
+      "barcode": "8683489680882",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "trigger_head",
+        "fields": {
+          "thread_size": "28/410",
+          "output_cc": 1.3,
+          "features": "Kimyasal Dayanımlı",
+          "gasket_type": "EPDM"
+        }
+      },
+      "content": {
+        "short_description": "İtalyan FRA-BER Canyon Kimyasala Dayanıklı Şişeler ve Püskürtücü Başlıklar Yetkili Türkiye Distribütörü MTS Kimya’da. Orijinal Ürün. Hızlı Kargo. Satın Al.",
+        "full_description": "FRA-BER CANYON SPREY BAŞLIK – 1.3 cc / 28-410<br><br><br>FRA-BER CANYON’UN FAYDALARI | Kimyasala Dayanıklı Tetik, Ayarlanabilir Nozul, Tam Kontrol<br><br>FRA-BER CANYON tetik başlık, otomotiv detaylandırmadan ev ve bahçe bakımına kadar çok geniş bir yelpazede şişe içeriğini doğru oranda, homojen püskürtmek için tasarlanmış profesyonel bir sprey mekanizmasıdır. 1,3 cc pompa hacmiyle her tetikte tutarlı doz verir; kimyasal dirençli yapısı alkali veya çözücü bazlı temizleyicilerle güvenle kullanılabilir.<br><br><br>ANA ÖZELLİKLER | FRA-BER CANYON Spray Başlık<br><br>•\tAyarlanabilir Nozul: Jet modundan geniş haza (mist) kadar akış çapı tek hamlede değiştirilebilir; tamamen kapatılarak sızıntı önlenir.<br>•\t1,3 cc Dozaj: Her tetikte sabit hacim, seyreltme ve sarfiyat kontrolünü kolaylaştırır.<br>•\t28-410 Diş Ölçüsü: Fra-Ber mezürlü 1 L şişeler dâhil yaygın PET/HDPE ambalajlarla uyumlu.<br>•\tKimyasal Direnç: PP/PE gövde ve EPDM conta, ön yıkama alkalileri, APC’ler ve ince asit bazlı ürünlerle uzun ömürlü performans sunar.<br>•\tRenk Kodlu Seçenek: Mavi, yeşil ve siyah tetik renkleri; ürüne veya istasyona göre hızlı ayırt etme.<br>•\tÇok Amaçlı Kullanım: Araç detay, ev hijyeni, bahçe bakım solüsyonları ve endüstriyel temizleyiciler için ideal.<br><br><br>FRA-BER CANYON İDEAL KULLANIM ALANLARI | Nerelerde Kullanılır?<br><br>•\tOtomotiv: APC, kil çözücü, seramik detay spreyi uygulamalarında eşit atomizasyon.<br>•\tEv-Bahçe: Çok amaçlı yüzey temizleyici, böcek ilacı, yaprak parlatıcı.<br>•\tEndüstriyel / Atölye: Yağ sökücü, makine temizleyici, izopropil alkol veya su-alkol karışımları.<br><br><br>FRA-BER CANYON NASIL KULLANILIR? | Kurulum & Uygulama Talimatları<br><br>1.\tUyum Kontrolü: Şişe ağzının 28-410 diş ölçüsünde olduğundan emin olun.<br>2.\tTak & Sıkıştır: Dip tüpün filtresinin şişe tabanına değdiğini kontrol edin; başlığı saat yönünde sıkıca kapatın.<br>3.\tNozulu Ayarla: Saat yönü› ince sis / saat tersi› dar jet; “OFF” konumunda kilitleyerek taşıma sırasında sızıntıyı önleyin.<br>4.\tPompala: İlk tetiklerde hava boşalır; sonrasında sabit 1,3 cc dozajda püskürtme başlar.<br><br>İpucu: Kimyasal ömrünü uzatmak için kullanımdan sonra temiz su püskürterek iç yolakları durulayın.<br><br><br>TEKNİK ÖZELLİKLER<br><br>Özellik\tDeğer<br>Pompa Hacmi\t1,3 cc / tetik<br>Diş Standartı\t28-410<br>Malzeme\tPP/PE gövde – EPDM conta<br>Nozul\tAyarlanabilir (Jet - Mist - Off)<br>Renk Seçeneği\tMavi / Yeşil / Siyah<br>Kimyasal Dayanımı\tAlkali, hafif asit, çözücü bazlı temizleyiciler<br><br><br>UYARILAR & BAKIM<br><br>•\tAşındırıcı tanecikli (pasta, balm) ürünler püskürtmede tıkanma yapabilir.<br>•\tUzun süreli depolamada tetik “OFF” konumunda saklayın.<br>•\t0 °C’nin altı veya 50 °C’nin üstündeki sıcaklıklarda muhafaza etmeyin.<br>•\tÇocuklardan uzak tutun; basınçlı sıvıları göz hizasında püskürtmeyin.<br><br>FRA-BER CANYON – Doğru doz, tam kontrol, her kullanımda profesyonel püskürtme!<br>",
+        "how_to_use": "1. Şişe ağzının 28/410 ölçüsünde olduğunu kontrol edin.\n2. Dip tüpün şişe tabanına değdiğini doğrulayın.\n3. Başlığı saat yönünde sıkıca kapatın.\n4. Nozulu ayarlayın: Saat yönü = ince sis, Saat tersi = dar jet.\n5. İlk tetiklerde hava boşalır, sonra 1.3cc dozajda püskürtme başlar.",
+        "when_to_use": "Temizleyiciler, dezenfektanlar ve detailing kimyasallarını şişeden püskürtmek için profesyonel tetikli başlık kullanılır.",
+        "target_surface": "28/410 dişli PET/HDPE şişeler, Fra-Ber mezürlü şişeler",
+        "why_this_product": "• 1.3cc sabit dozaj - tutarlı püskürtme\n• Ayarlanabilir nozul: Jet-Mist-Off\n• Kimyasala dayanıklı PP/PE gövde\n• EPDM conta - sızdırmaz"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "8447",
+          "79258"
+        ]
+      },
+      "faq": [
+        {
+          "question": "Hangi şişelerle uyumlu?",
+          "answer": "28/410 diş ölçülü PET ve HDPE şişelerle uyumludur."
+        },
+        {
+          "question": "Asitlerle kullanılabilir mi?",
+          "answer": "Evet, alkali ve hafif asit bazlı temizleyicilerle güvenle kullanılabilir."
+        },
+        {
+          "question": "OFF konumu ne işe yarar?",
+          "answer": "Taşıma sırasında sızıntıyı önlemek için nozul kilitlenir."
+        }
+      ],
+      "price": 20000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/PUSKURTUCU_BASLIK_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Şişeler ve Basınçlı Pompalar",
+        "sub_cat2": "Püskürtücü Başlıklar"
+      }
+    },
+    {
+      "sku": "8447",
+      "barcode": "8683489680783",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "trigger_head",
+        "fields": {
+          "thread_size": "28/400",
+          "features": "360 Derece Atım",
+          "color": "Beyaz",
+          "output_cc": 1.3,
+          "gasket_type": "NBR"
+        }
+      },
+      "content": {
+        "short_description": "360° Derece Sprey Şişe, Köpük Yapıcı Basınçlı Pompa, Püskürtücü Başlık Üreticisi İtalyan EPOCA, Yetkili Türkiye Distribütörü ve Dağıtıcısı MTS Kimya. Kredi Kartlarına Vade Farksız Taksit. Ücretsiz Kargo.",
+        "full_description": "Heavy Duty/Ağır işler serisi bu profesyonel tetikli püskürtücü başlık, temizleyicileri, dezenfektanları püskürtmek ve sanitasyon amacıyla kullanılır; binalarda ise özel işlemler sırasında yüzeyleri nemlendirmek için kullanılabilirler. Tarımda, bitki sağlığı ürünleri, herbisit ve haşere kontrol operasyonu için yaygın olarak kullanılırlar.\r\n\r\n360° Derece her açıdan atan bu dayanımlı başlıklar, özel kıvrılabilir bir emiş hortumuna ve ucunda yer alan filtreli emiş hortumu ağırlığına sahiptir. Bu sayede her açıdan maksimum spreyleme performansına sahip olursunuz.\r\n\r\nTEKNİK ÖZELLİKLER\r\nAtış ml – 1.3\r\nSıvılara Göre Conta – NBR\r\nNozul - Ayarlanabilir\r\nBaşlık Rengi - Beyaz\r\n\r\n360° Derece ARTILARI\r\n• NBR Nitril kauçuk contalar. NBR contalı ürünler su bazlı deterjanlar ve agresif olmayan ürünler püskürtmek için uygundur.\r\n• Her açıdan püskürtme özellikli, demir uçlu hortuma sahip püskürtme mekanizması\r\n\r\nEPOCA Kimdir?\r\n1968’den bugüne… Biz 50 yılı aşkın süredir plastik ürünler üretiyoruz ve her gün daha iyisini üretmek için çalışıyoruz. İtalyan tasarımı bir ürün, İtalya'da üretim, kalite kontrol ve verimli lojistik, varlıklar, ihtiyaçlarınızı karşılamak, günlük zorluklarla yüzleşen çalışma grubu sunmak için varız.",
+        "how_to_use": "1. Şişe ağzının 28/400 ölçüsünde olduğunu kontrol edin.\n2. Filtreli emiş hortumu ağırlığının şişe tabanına değdiğini doğrulayın.\n3. Başlığı sıkıca kapatın.\n4. Her açıdan püskürtme yapabilirsiniz - 360° emiş özelliği sayesinde.\n5. Nozulu ayarlayarak püskürtme şeklini değiştirin.",
+        "when_to_use": "Her açıdan püskürtme gereken durumlarda, baş aşağı veya yatay konumda çalışırken 360° başlık kullanılır.",
+        "target_surface": "28/400 dişli şişeler",
+        "why_this_product": "• 360° her açıdan püskürtme\n• Kıvrılabilir emiş hortumu + filtre\n• NBR nitril kauçuk conta\n• Heavy Duty profesyonel seri"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "8410",
+          "79258"
+        ]
+      },
+      "faq": [
+        {
+          "question": "360 derece ne demek?",
+          "answer": "Şişeyi herhangi bir açıda tuttuğunuzda (baş aşağı dahil) püskürtme yapabilirsiniz."
+        },
+        {
+          "question": "NBR conta nedir?",
+          "answer": "Nitril kauçuk conta, su bazlı deterjanlar ve agresif olmayan ürünlerle uyumludur."
+        },
+        {
+          "question": "Hangi sektörlerde kullanılır?",
+          "answer": "Otomotiv, ev-bahçe, tarım ve endüstriyel temizlik alanlarında kullanılır."
+        }
+      ],
+      "price": 14000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/8447_1.webp",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Şişeler ve Basınçlı Pompalar",
+        "sub_cat2": "Püskürtücü Başlıklar"
+      }
+    },
+    {
+      "sku": "79258",
+      "barcode": "8683489680806",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "trigger_head",
+        "fields": {
+          "thread_size": "28/400",
+          "features": "Kimyasal Dayanımlı",
+          "color": "Siyah",
+          "output_cc": 1.3,
+          "gasket_type": "NBR"
+        }
+      },
+      "content": {
+        "short_description": "360° Derece Sprey Şişe, Köpük Yapıcı Basınçlı Pompa, Püskürtücü Başlık Üreticisi İtalyan EPOCA, Yetkili Türkiye Distribütörü ve Dağıtıcısı MTS Kimya. Kredi Kartlarına Vade Farksız Taksit. Ücretsiz Kargo.",
+        "full_description": "Heavy Duty/Ağır işler serisi bu profesyonel tetikli püskürtücü başlık, temizleyicileri, dezenfektanları püskürtmek ve sanitasyon amacıyla kullanılır; binalarda ise özel işlemler sırasında yüzeyleri nemlendirmek için kullanılabilirler. Tarımda, bitki sağlığı ürünleri, herbisit ve haşere kontrol operasyonu için yaygın olarak kullanılırlar.<br><br>TEKNİK ÖZELLİKLER<br>Atış ml – 1.3<br>Sıvılara Göre Conta – NBR<br>Nozul - Ayarlanabilir<br>Başlık Rengi - Siyah<br><br>ARTILARI<br>• NBR Nitril kauçuk contalar. NBR contalı ürünler su bazlı deterjanlar ve agresif olmayan ürünler püskürtmek için uygundur.<br><br>EPOCA Kimdir?<br>1968’den bugüne… Biz 50 yılı aşkın süredir plastik ürünler üretiyoruz ve her gün daha iyisini üretmek için çalışıyoruz. İtalyan tasarımı bir ürün, İtalya'da üretim, kalite kontrol ve verimli lojistik, varlıklar, ihtiyaçlarınızı karşılamak, günlük zorluklarla yüzleşen çalışma grubu sunmak için varız.",
+        "how_to_use": "1. Şişe ağzının 28/400 ölçüsünde olduğunu kontrol edin.\n2. Dip tüpün şişe tabanına değdiğini doğrulayın.\n3. Başlığı sıkıca kapatın.\n4. Nozulu ayarlayarak püskürtme şeklini değiştirin.\n5. Tetiği çekerek püskürtme yapın.",
+        "when_to_use": "Temizleyiciler, dezenfektanlar ve profesyonel kimyasalları standart püskürtme için kullanılır.",
+        "target_surface": "28/400 dişli şişeler",
+        "why_this_product": "• Heavy Duty profesyonel seri\n• NBR nitril kauçuk conta\n• 1.3cc dozaj - tutarlı atış\n• Siyah renk - profesyonel görünüm"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "8447",
+          "79643"
+        ]
+      },
+      "faq": [
+        {
+          "question": "360° versiyondan farkı nedir?",
+          "answer": "Bu model standart dikey püskürtme içindir, 360° özelliği yoktur."
+        },
+        {
+          "question": "Beyaz versiyonu var mı?",
+          "answer": "Evet, 8447 kodlu beyaz 360° versiyon mevcuttur."
+        },
+        {
+          "question": "EPOCA markası güvenilir mi?",
+          "answer": "Evet, 1968'den beri İtalya'da üretim yapan profesyonel marka."
+        }
+      ],
+      "price": 10000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/79258_0.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Şişeler ve Basınçlı Pompalar",
+        "sub_cat2": "Püskürtücü Başlıklar"
+      }
+    },
+    {
+      "sku": "8410",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "trigger_head",
+        "fields": {
+          "thread_size": "28/400",
+          "features": "360 Derece Atım",
+          "color": "Beyaz",
+          "output_cc": 1.3,
+          "gasket_type": "NBR"
+        }
+      },
+      "content": {
+        "short_description": "360° Derece Sprey Şişe, Köpük Yapıcı Basınçlı Pompa, Püskürtücü Başlık Üreticisi İtalyan EPOCA, Yetkili Türkiye Distribütörü ve Dağıtıcısı MTS Kimya. Kredi Kartlarına Vade Farksız Taksit. Ücretsiz Kargo.",
+        "full_description": "Heavy Duty/Ağır işler serisi bu profesyonel tetikli püskürtücü başlık, temizleyicileri, dezenfektanları püskürtmek ve sanitasyon amacıyla kullanılır; binalarda ise özel işlemler sırasında yüzeyleri nemlendirmek için kullanılabilirler. Tarımda, bitki sağlığı ürünleri, herbisit ve haşere kontrol operasyonu için yaygın olarak kullanılırlar.\r\n\r\n360° Derece her açıdan atan bu dayanımlı başlıklar, özel kıvrılabilir bir emiş hortumuna ve ucunda yer alan filtreli emiş hortumu ağırlığına sahiptir. Bu sayede her açıdan maksimum spreyleme performansına sahip olursunuz.\r\n\r\nTEKNİK ÖZELLİKLER\r\nAtış ml – 1.3\r\nSıvılara Göre Conta – NBR\r\nNozul - Ayarlanabilir\r\nBaşlık Rengi - Beyaz\r\n\r\n360° Derece ARTILARI\r\n• NBR Nitril kauçuk contalar. NBR contalı ürünler su bazlı deterjanlar ve agresif olmayan ürünler püskürtmek için uygundur.\r\n• Her açıdan püskürtme özellikli, demir uçlu hortuma sahip püskürtme mekanizması\r\n\r\nEPOCA Kimdir?\r\n1968’den bugüne… Biz 50 yılı aşkın süredir plastik ürünler üretiyoruz ve her gün daha iyisini üretmek için çalışıyoruz. İtalyan tasarımı bir ürün, İtalya'da üretim, kalite kontrol ve verimli lojistik, varlıklar, ihtiyaçlarınızı karşılamak, günlük zorluklarla yüzleşen çalışma grubu sunmak için varız.",
+        "how_to_use": "1. Şişe ağzının 28/400 ölçüsünde olduğunu kontrol edin.\n2. Filtreli emiş hortumu ağırlığının şişe tabanına değdiğini doğrulayın.\n3. Başlığı sıkıca kapatın.\n4. Her açıdan püskürtme yapabilirsiniz - 360° emiş özelliği sayesinde.\n5. Nozulu ayarlayarak püskürtme şeklini değiştirin.",
+        "when_to_use": "Her açıdan püskürtme gereken durumlarda, baş aşağı veya yatay konumda çalışırken 360° başlık kullanılır.",
+        "target_surface": "28/400 dişli şişeler",
+        "why_this_product": "• 360° her açıdan püskürtme\n• Demir uçlu kıvrılabilir emiş hortumu\n• NBR nitril kauçuk conta\n• Heavy Duty profesyonel seri"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": [
+          "8447",
+          "79258"
+        ]
+      },
+      "faq": [
+        {
+          "question": "8447 ile farkı nedir?",
+          "answer": "Aynı özelliklere sahip alternatif ürünlerdir, ikisi de 360° özellikli beyaz başlıktır."
+        },
+        {
+          "question": "Tarım ilaçlamasında kullanılabilir mi?",
+          "answer": "Evet, bitki sağlığı ürünleri, herbisit ve haşere kontrolünde yaygın kullanılır."
+        },
+        {
+          "question": "Filtreli emiş hortumu ne işe yarar?",
+          "answer": "Sıvıdaki partikülleri filtreler ve püskürtme mekanizmasının tıkanmasını önler."
+        }
+      ],
+      "price": 14000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/08410.jpg",
+      "category": {
+        "main_cat": "AKSESUAR",
+        "sub_cat": "Şişeler ve Basınçlı Pompalar",
+        "sub_cat2": "Püskürtücü Başlıklar"
+      }
+    },
+    {
+      "sku": "445894",
+      "barcode": "4030293196100",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "battery",
+        "fields": {
+          "voltage": "18V",
+          "capacity": "5.0Ah",
+          "compatible_device": "FLEX Akülü Makineler",
+          "weight_gr": 720,
+          "features": [
+            "EMS Koruma",
+            "Hızlı Şarj",
+            "Şarj Göstergesi"
+          ]
+        }
+      },
+      "content": {
+        "short_description": "FLEX AP 18V 5.0Ah Li-ion akÃ¼, EMS koruma sistemi, toz ve sÄ±vÄ± sÄ±Ã§rama direnci ile uzun Ã¶mÃ¼rlÃ¼ ve gÃ¼venli gÃ¼Ã§ saÄlar. HÄ±zlÄ± Åarj desteÄiyle 30 dakikada  dolum imkanÄ± sunar.",
+        "full_description": "Uzun Ã¶mÃ¼rlÃ¼, gÃ¼Ã§lÃ¼ ve korumalÄ± profesyonel yedek akÃ¼!<br><br>FLEX AP 18.0V 5.0Ah Lithium Power Li-ion akÃ¼, yÃ¼ksek performanslÄ± FLEX cihazlarÄ± iÃ§in geliÅtirilmiÅ orijinal yedek bataryadÄ±r. Elektronik YÃ¶netim Sistemi (EMS) sayesinde Åarj ve deÅarj korumasÄ±, toz ve sÄ±vÄ± sÄ±Ã§ramalarÄ±na karÅÄ± gÃ¼venlik saÄlar.<br><br>HÄ±zlÄ± Åarj desteÄiyle  doluluk sadece 30 dakikada, tam Åarj ise 50 dakikada tamamlanÄ±r. AkÃ¼ Ã¼zerinde bulunan Åarj gÃ¶stergesi, kullanÄ±m Ã¶ncesi kalan kapasiteyi kolayca takip etmenizi saÄlar.<br><br>Ãne ÃÄ±kan Ãzellikler<br>18.0V Li-ion Teknolojisi â YÃ¼ksek performans ve uzun Ã§alÄ±Åma sÃ¼resi<br>Elektronik YÃ¶netim Sistemi (EMS) â AkÃ¼yÃ¼ aÅÄ±rÄ± yÃ¼k, sÄ±caklÄ±k ve deÅarja karÅÄ± korur<br>HÄ±zlÄ± Åarj DesteÄi â  Åarj 30 dakikada, tam Åarj 50 dakikada<br>Åarj GÃ¶stergesi â Kalan kapasiteyi anlÄ±k takip etme imkanÄ±<br>Toz ve SÄ±vÄ± KorumasÄ± â Zorlu ortamlarda gÃ¼venli kullanÄ±m<br>DayanÄ±klÄ± ve Hafif TasarÄ±m â YalnÄ±zca 720 gram aÄÄ±rlÄ±k<br>Kutu Ä°Ã§eriÄinde 1 AkÃ¼<br> Åarj cihazÄ± ayrÄ± satÄ±lmaktadÄ±r<br><br>Teknik Ãzellikler<br>â¢\tAkÃ¼ VoltajÄ±: 18.0V<br>â¢\tAkÃ¼ Kapasitesi: 5.0Ah (YÃ¼ksek kapasite)<br>â¢\tHÄ±zlÄ± Åarj:  â 30 dakika (FLEX CA 10.8/18V Åarj cihazÄ± ile)<br>â¢\tTam Åarj: 50 dakika (FLEX CA 10.8/18V Åarj cihazÄ± ile)<br>â¢\tKoruma: Entegre Åarj ve deÅarj korumasÄ±, EMS teknolojisi<br>â¢\tEkstra Ãzellikler: Toz ve sÄ±vÄ± sÄ±Ã§rama korumasÄ±, Åarj seviyesi gÃ¶stergesi<br>â¢\tAÄÄ±rlÄ±k: 720 g<br>â¢\tKutu Ä°Ã§eriÄi: 1 adet akÃ¼ (Åarj cihazÄ± ayrÄ± satÄ±lÄ±r)<br><br>Neden FLEX Orijinal Li-ion AkÃ¼?<br>â¢\tMaksimum verimlilik ve uzun Ã¶mÃ¼r<br>â¢\tHÄ±zlÄ± Åarj Ã¶zelliÄi ile kesintisiz Ã§alÄ±Åma<br>â¢\tAÅÄ±rÄ± yÃ¼k, aÅÄ±rÄ± Ä±sÄ±nma ve deÅarj korumasÄ± sayesinde gÃ¼venilir kullanÄ±m<br>â¢\tProfesyonel atÃ¶lye, oto detailing ve endÃ¼striyel ortamlarda ideal Ã§Ã¶zÃ¼m<br><br>Uyumlu FLEX Åarj CihazÄ±<br>â¢\tFLEX CA 10.8/18V HÄ±zlÄ± Åarj CihazÄ± (AyrÄ± satÄ±lmaktadÄ±r.)<br><br>FLEX ile Kesintisiz GÃ¼Ã§<br>MÃ¼kemmel bir Ã§alÄ±Åma iÃ§in Ã¼Ã§ Åey gerekir: doÄru cihaz, doÄru akÃ¼ ve FLEX kalitesi.<br>FLEX AP 18.0V 5.0Ah Li-ion AkÃ¼, yÃ¼ksek kapasiteli ve korumalÄ± yapÄ±sÄ±yla uzun sÃ¼reli kullanÄ±mlar iÃ§in maksimum performans sunar.<br><br>HÄ±zlÄ± Åarj + gÃ¼Ã§lÃ¼ koruma + uzun Ã¶mÃ¼r = Profesyonel gÃ¼Ã§ desteÄi!<br>",
+        "how_to_use": "1. Akünün şarj seviyesini göstergeden kontrol edin.\n2. Akülü FLEX makinesine takın.\n3. Kilitleme sesini duyuncaya kadar itin.\n4. Makineyi kullanın.\n5. Şarj azaldığında şarj cihazına takın (80% dolum 30 dk).",
+        "when_to_use": "FLEX akülü polisaj makineleri ve diğer FLEX 18V cihazları için yedek güç kaynağı olarak kullanılır.",
+        "target_surface": "FLEX 18V akülü polisaj makineleri",
+        "why_this_product": "• 5.0Ah yüksek kapasite\n• EMS koruma sistemi\n• 80% şarj 30 dakikada\n• Toz ve sıvı sıçrama koruması"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [
+          "417882"
+        ],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi FLEX makinelerle uyumlu?",
+          "answer": "Tüm FLEX 18V akülü makinelerle uyumludur (XFE, XCE, PE serisi akülü modeller)."
+        },
+        {
+          "question": "Tam şarj ne kadar sürer?",
+          "answer": "FLEX CA 10.8/18V şarj cihazı ile 80% 30 dakika, tam şarj 50 dakikadır."
+        },
+        {
+          "question": "EMS koruma ne sağlar?",
+          "answer": "Aşırı yük, sıcaklık ve deşarja karşı akü ömrünü uzatan elektronik koruma sistemi."
+        }
+      ],
+      "price": 660000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/445894_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "417882",
+      "barcode": "4030293180383",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "charger",
+        "fields": {
+          "voltage": "10.8V/18V",
+          "features": "Hızlı Şarj, LED Gösterge",
+          "input_voltage": "230V",
+          "charge_current": "9A",
+          "weight_gr": 890
+        }
+      },
+      "content": {
+        "short_description": "FLEX 10.8/18V LED gÃ¶stergeli hÄ±zlÄ± Åarj cihazÄ±, akÃ¼ tanÄ±lama ve koruma sistemiyle 30 dakikada  Åarj saÄlar. Duvara monte edilebilir, LCD ekranlÄ± profesyonel Åarj Ã§Ã¶zÃ¼mÃ¼.",
+        "full_description": "HÄ±zlÄ±, gÃ¼venli ve akÄ±llÄ± Åarj teknolojisiyle kesintisiz gÃ¼Ã§!<br><br>FLEX 10.8/18V LED GÃ¶stergeli Åarj CihazÄ±, hem 10.8V hem de 18V Li-ion FLEX akÃ¼ler iÃ§in hÄ±zlÄ± ve gÃ¼venilir Åarj imkanÄ± sunar. AkÃ¼ tanÄ±lama ve Åarj seviyesi gÃ¶stergesi bulunan LCD ekranÄ±, Åarj sÃ¼recini anlÄ±k olarak takip etmenizi saÄlar.<br><br>AÅÄ±rÄ± Ä±sÄ±nma, soÄuma, Åarj ve deÅarj koruma teknolojisi sayesinde akÃ¼lerinizin Ã¶mrÃ¼nÃ¼ uzatÄ±r ve gÃ¼venli kullanÄ±m sunar.  doluluÄa sadece 30 dakikada ulaÅan hÄ±zlÄ± Åarj Ã¶zelliÄiyle zaman kazandÄ±rÄ±r.<br><br>Ãne ÃÄ±kan Ãzellikler<br>10.8V ve 18V FLEX AkÃ¼ler ile Tam Uyum<br>LCD EkranlÄ± Åarj Seviyesi ve TanÄ±lama GÃ¶stergesi<br>HÄ±zlÄ± Åarj Teknolojisi â  doluluk 30 dakikada<br>AÅÄ±rÄ± IsÄ±nma, Åarj ve DeÅarj KorumasÄ± â AkÃ¼nÃ¼zÃ¼n Ã¶mrÃ¼nÃ¼ uzatÄ±r<br>Duvara Monte Edilebilir TasarÄ±m â Pratik ve yer tasarrufu saÄlar<br>890 Gram Hafif ve DayanÄ±klÄ± TasarÄ±m<br><br>Åarj SÃ¼releri<br>â¢\t10.8V â 2.5 Ah / 4.0 Ah AkÃ¼ler: YaklaÅÄ±k 40 dakika<br>â¢\t18V â 2.5 Ah AkÃ¼: YaklaÅÄ±k 40 dakika<br>â¢\t18V â 5.0 Ah AkÃ¼: YaklaÅÄ±k 45 dakika<br><br>Teknik Ãzellikler<br>â¢\tGiriÅ VoltajÄ±: 230V<br>â¢\tÅarj GÃ¼cÃ¼: 9A<br>â¢\tAÄÄ±rlÄ±k: 890 g<br>â¢\tEkran GÃ¶stergesi: Var (LCD ekran)<br>â¢\tDuvara AsÄ±labilir: Evet<br>â¢\tUyumluluk: FLEX 10.8V ve 18V Li-ion akÃ¼ler<br><br>Kutu Ä°Ã§eriÄi<br>â¢\t1 x FLEX 10.8/18V LED GÃ¶stergeli Åarj CihazÄ±<br>(AkÃ¼ler ayrÄ± satÄ±lmaktadÄ±r.)<br><br>Neden FLEX LED GÃ¶stergeli Åarj CihazÄ±?<br>â¢\tAkÄ±llÄ± tanÄ±lama sistemi ile gÃ¼venli Åarj<br>â¢\tHÄ±zlÄ± dolum Ã¶zelliÄi ile zamandan tasarruf<br>â¢\tLCD ekran Ã¼zerinden anlÄ±k Åarj seviyesi takibi<br>â¢\tFLEX orijinal aksesuarÄ± ile maksimum performans ve uyumluluk<br><br>FLEX ile GÃ¼Ã§ Her Zaman YanÄ±nÄ±zda<br>MÃ¼kemmel bir Ã§alÄ±Åma iÃ§in Ã¼Ã§ Åey gerekir: gÃ¼Ã§lÃ¼ cihaz, dayanÄ±klÄ± akÃ¼ ve akÄ±llÄ± Åarj sistemi.<br>FLEX 10.8/18V LED GÃ¶stergeli Åarj CihazÄ±, hÄ±zlÄ±, gÃ¼venli ve verimli Åarj performansÄ± ile profesyonel kullanÄ±cÄ±larÄ±n en bÃ¼yÃ¼k yardÄ±mcÄ±sÄ±dÄ±r.<br><br>AkÄ±llÄ± Åarj + tam koruma + hÄ±zlÄ± performans = Kesintisiz gÃ¼Ã§ desteÄi!<br>",
+        "how_to_use": "1. Şarj cihazını prize takın.\n2. FLEX akünü şarj cihazına yerleştirin.\n3. LCD ekrandan şarj durumunu takip edin.\n4. Tam şarj olduğunda akünü çıkarın.\n5. İstenirse duvara monte edin.",
+        "when_to_use": "FLEX 10.8V ve 18V Li-ion aküleri şarj etmek için kullanılır.",
+        "target_surface": "FLEX 10.8V ve 18V Li-ion akü serileri",
+        "why_this_product": "• Hem 10.8V hem 18V uyumlu\n• LCD ekranlı şarj takibi\n• 80% dolum 30 dakikada\n• Aşırı ısınma ve deşarj koruması"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [
+          "445894"
+        ],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi akülerle uyumlu?",
+          "answer": "FLEX 10.8V (2.5Ah, 4.0Ah) ve 18V (2.5Ah, 5.0Ah) Li-ion akülerle uyumludur."
+        },
+        {
+          "question": "Şarj süreleri ne kadar?",
+          "answer": "10.8V akü ~40 dk, 18V 2.5Ah ~40 dk, 18V 5.0Ah ~45 dakikada tam şarj olur."
+        },
+        {
+          "question": "Duvara monte edilebilir mi?",
+          "answer": "Evet, duvara monte edilebilir tasarıma sahiptir, yer tasarrufu sağlar."
+        }
+      ],
+      "price": 400000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/417882_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Yedek Parçalar",
+        "sub_cat2": ""
+      }
+    },
+    {
+      "sku": "458813",
+      "barcode": "4030293204287",
+      "template": {
+        "group": "spare_part",
+        "sub_type": "extension_kit",
+        "fields": {
+          "thread_type": "M14",
+          "kit_contents": [
+            "50mm",
+            "80mm",
+            "120mm Uzatma"
+          ],
+          "compatible_device": "Rotary Makineler",
+          "max_pad_diameter_mm": 80
+        }
+      },
+      "content": {
+        "short_description": "FLEX EXS M14 uzatma aparatı seti, dar alanlarda kusursuz polisaj için tasarlandı. 50, 80 ve 120 mm alüminyum uzantılar ve M14 adaptörle maksimum erişim ve kontrol sağlar.",
+        "full_description": "Dar ve zor ulaşılan alanlarda kolay polisaj için profesyonel çözüm!\r\n\r\nFLEX EXS M14 Set, rotary polisaj makineleri için geliştirilmiş 4 parçalık uzatma aparatı setidir. Dış aynalar, rüzgarlıklar, tamponlar gibi dar alanlarda detaylı çalışma imkanı sağlar. 50 mm, 80 mm ve 120 mm boyutlarında üç farklı M14 eloksallı alüminyum uzantı ve akülü tornavidalar için M14 adaptör setin içinde yer alır.\r\n\r\nBu set, dar alanlarda maksimum kontrol ve erişilebilirlik sağlayarak polisaj işlemlerini kolaylaştırır. Dayanıklı alüminyum gövdesi ile uzun ömürlü kullanım sunar ve birçok FLEX rotary polisaj makinesiyle tam uyumludur.\r\n\r\nÖne Çıkan Özellikler:\r\nDar Alanlar İçin İdeal – Aynalar, rüzgarlıklar, tamponlar gibi ulaşılması zor bölgelerde kolay çalışma\r\n3 Farklı Uzunluk Seçeneği – 50 mm, 80 mm ve 120 mm uzatma aparatları\r\nM14 Adaptör Dahil – Akülü tornavidalarla da kullanılabilir\r\nDayanıklı Eloksallı Alüminyum Gövde – Uzun ömürlü ve sağlam yapı\r\nMaksimum Polisaj Kontrolü – Hassas ve güvenli uygulama imkanı\r\nMini L-BOXX® İçinde Düzenli Paketleme – Kolay taşıma ve depolama\r\nÇeşitli FLEX Rotary Polisaj Makineleriyle Uyumluluk\r\n\r\nUyumlu Makineler\r\n• PE 8-4 80\r\n• PE 14-1 180\r\n• PE 14-2 150\r\n• PE 14-2 150 P-Set\r\n• PE 14-3 125\r\n• PE 14-3 125 P-Set\r\n• PE 150 18.0-EC\r\n• PE 150 18.0-EC/5.0 P-Set\r\n• PE 150 18.0-EC/5.0 Set\r\n• L 1503 VR\r\n\r\nTeknik Özellikler\r\n• Şaft Çapı: Ø 19 mm\r\n• Düz SW 17 Genişlik\r\n• Maksimum Destek Yastığı: Ø 75 mm\r\n• Maksimum Polisaj Diski: Ø 80 mm\r\n• Çizik Bulucu SF 150-P LED ışığı dahil değildir\r\n• Mini L-BOXX® içinde paketlenmiştir\r\n\r\nStandart Ekipman\r\n• 3 x M14 eloksallı alüminyum uzantı (50 mm, 80 mm, 120 mm)\r\n• 1 x M14 adaptör (akülü tornavidalar için)\r\n• Mini L-BOXX® taşıma kutusu\r\n\r\nNeden FLEX EXS M14 Uzatma Aparat Seti?\r\n• Zor ulaşılan alanlarda daha hassas çalışma\r\n• Rotary polisaj makinelerinde maksimum esneklik\r\n• Detaylı yüzey işlemlerinde zaman ve efor tasarrufu\r\n• Profesyonel detailing, boyahane ve tamir atölyeleri için ideal\r\n\r\nUygulama Alanları\r\n• Araç dış aynaları ve tampon kenarları\r\n• Rüzgarlıklar ve dar detay bölgeleri\r\n• Dar gövde çizgileri ve plastik yüzey kenarları\r\n• Marin ve havacılık sektöründe hassas yüzeyler\r\n\r\nFLEX ile Dar Alanlarda Kolay Polisaj\r\nMükemmel sonuç için üç şey gerekir: yetenek, doğru ekipman ve FLEX kalitesi.\r\nİster profesyonel bir detaycı olun ister boyahane ustası; FLEX EXS M14 Set, rotary polisaj makineleriyle dar alanlara erişimi kolaylaştırarak kusursuz sonuç sağlar.\r\n\r\nDar alan erişimi + hassas kontrol + sağlam yapı = Detaylı yüzeylerde mükemmel polisaj!",
+        "how_to_use": "1. İhtiyacınıza göre 50mm, 80mm veya 120mm uzatmayı seçin.\n2. M14 dişe vidalayarak makineye takın.\n3. Tabanlık ve pedi monte edin.\n4. Dar alanda çalışmaya başlayın.\n5. Mini L-BOXX kutusunda saklayın.",
+        "when_to_use": "Dış aynalar, rüzgarlıklar, tamponlar gibi dar ve zor ulaşılan alanlarda detaylı polisaj çalışması için kullanılır.",
+        "target_surface": "FLEX PE serisi rotary polisaj makineleri",
+        "why_this_product": "• 3 farklı uzunluk: 50, 80, 120mm\n• Eloksallı alüminyum - hafif ve dayanıklı\n• M14 adaptör dahil\n• Mini L-BOXX kutuda düzenli saklama"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Hangi makinelerle uyumlu?",
+          "answer": "FLEX PE 8-4 80, PE 14-1/2/3 serisi, PE 150 18.0-EC ve L 1503 VR ile uyumludur."
+        },
+        {
+          "question": "Maksimum ped boyutu nedir?",
+          "answer": "Maksimum 80mm (3 inç) polisaj diski kullanılabilir."
+        },
+        {
+          "question": "Akülü tornavidayla kullanılır mı?",
+          "answer": "Evet, sette M14 adaptör bulunur, akülü tornavidalarla da kullanılabilir."
+        }
+      ],
+      "price": 375000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/458813_0.jpg",
+      "category": {
+        "main_cat": "MAKİNE-EKİPMAN",
+        "sub_cat": "Polisaj Makineleri",
+        "sub_cat2": "Uzatma Aparatları"
+      }
+    }
+  ]
+}

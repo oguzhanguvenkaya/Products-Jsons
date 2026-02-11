@@ -1,0 +1,44 @@
+{
+  "sku": "SC2424",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Lavanta Kokulu Dolap Asma Kart (Lavender) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186841566",
+    "group": "fragrance",
+    "sub_type": "home_fragrance"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Lavanta",
+      "durability_days": 45,
+      "dimensions_mm": "80x178x10",
+      "weight_g": 20.0,
+      "material": "EVA Termo-Plastik",
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Scented Card"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Aracınızın dikiz aynasına, dolap içine veya uygun bir yere asın.\n3. Koku otomatik olarak yayılmaya başlar.\n4. Klima çıkışı veya pencere kenarı gibi hava akışı olan yerlerde daha etkili çalışır.\n5. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Rahatlatıcı ve dinlendirici bir atmosfer yaratmak isteyenler için idealdir. Lavanta tarlalarının huzur verici etkisini hissettirir.",
+      "target_surface": "Araç dikiz aynası, dolap içi, çekmece, ev/ofis asma noktaları, tekne kabini",
+      "why_this_product": "• Doğal lavanta aromasıyla sakinleştirici etki\n• EVA termo-plastik teknolojisi ile 45 güne kadar kalıcı etki\n• Kontrollü koku salınım teknolojisi\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Little Joe Scented Card serisi nedir?", "answer": "EVA termo-plastik malzeme ile üretilen, 45 gün kalıcılık sunan dolap ve araç kokusu serisi."},
+      {"question": "Lavanta kokusu nasıl?", "answer": "Lavanta tarlalarının doğal ve dinlendirici aromasıyla sakinleştirici bir atmosfer yaratır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Paper serisinden farkı nedir?", "answer": "EVA termo-plastik malzeme sayesinde daha uzun süreli (45 gün vs 30 gün) ve daha yoğun koku salınımı sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SC2508", "SC2201", "SC0922"]}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sku": "701344",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR 0 SCALE Su İzi Temizleyici Kireç Çözücü ve Önleyici Konsantre - 500 ml", "brand": "INNOVACAR", "barcode": "8027486817368", "group": "contaminant_solvers", "sub_type": "water_spot_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Kireç / Su Lekesi / Asit Yağmuru / Hafif Oksidasyon", "ph_level": "Asidik (pH 1.5)", "gel_form": true, "edta_free": true, "nta_free": true, "phosphate_free": true, "consumption_ml_per_car": 150, "consumption_ml_per_panel": "15-20", "concentrate": true, "dilution_ratio": "Saf veya 1:5", "volume_ml": 500},
+    "content": {
+      "how_to_use": "1. Her seferinde bir panel üzerinde çalışın.\n2. Soğuk yüzeylere ve doğrudan güneş almayan ortamlarda kullanın.\n3. Ürünü yüzeye püskürtün ve birkaç dakika bekletin.\n4. Dikey ve yatay hareketlerle yaymak için mikrofiber aplikatör veya yumuşak fırça kullanın.\n5. Yüksek basınçlı su/bol su ile durulayın.",
+      "when_to_use": "Kaporta, jant, motor bölmesi, cam, plastik ve polikarbonat yüzeylerde kireç ve mineral kalıntısı temizliği, eski seramik kaplama sökümü için kullanılır.",
+      "target_surface": "Boya, cam, jant, motor bölmesi, plastik, polikarbonat",
+      "why_this_product": "• Güçlü asidik dekontaminasyon (pH 1.5)\n• Eski koruyucu tabakalar da söker\n• Yavaş buharlaşma - uzun işlenebilirlik\n• EDTA/NTA ve fosfor içermez"
+    },
+    "faq": [
+      {"question": "Seyreltme oranı nedir?", "answer": "Yeni lekeler için 1:5, eski inatçı lekeler veya koruyucu tabaka sökümü için saf kullanın."},
+      {"question": "Cam ve farlarda kullanılabilir mi?", "answer": "Evet, cam ve farların olağanüstü temizliğinde saf olarak kullanılabilir."},
+      {"question": "Boyasız yüzeylerde kullanılabilir mi?", "answer": "Hayır, boyasız veya aside duyarlı yüzeylerde saf olarak kullanmayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["701350", "Q2M-WSYA500M"]}
+  }
+}

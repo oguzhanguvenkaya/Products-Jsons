@@ -1,0 +1,41 @@
+{
+  "sku": "73378",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Liquid Powder B8 Nanoteknoloji Konsantre Detaylı Kumaş Temizleyici - 5 Lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486732920",
+    "group": "interior_cleaner",
+    "sub_type": "fabric_cleaner_concentrate"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Kumaş", "Kadife", "Halı"],
+      "concentrate": true,
+      "dilution_ratio": "1:50",
+      "technology": "Enzim & Nanoteknoloji",
+      "application_method": "Vakum Makinesi veya Manuel",
+      "volume_lt": 5
+    },
+    "content": {
+      "how_to_use": "1. Seyreltme: Ürünü yüzeyin kirlilik derecesine bağlı olarak 1:50 oranında sıcak su ile seyreltin.\n2. Manuel Uygulama: Bir sünger veya bez yardımıyla temizlenecek yüzeye uygulayın.\n3. Makine İle: Koltuk/halı yıkama makineleri ile kullanırken cihaz talimatlarına uyun.\n4. Temizlik: Yüzeyi nazikçe temizleyin ve gerekiyorsa temiz suyla durulayın.\n5. Kurulama: Hızlı kuruma özelliği sayesinde yüzey temizlik sonrası hızla kullanıma hazır.",
+      "when_to_use": "Araç içi döşeme temizliğinde, koltuklar, paspaslar, tavan kumaşı ve kapı panellerinde kullanılır. Vakumlu ve vakumsuz koltuk yıkama makineleri ile ideal sonuç verir.",
+      "target_surface": "Kumaş koltuklar, kadife döşemeler, halılar, paspaslar, tavan kumaşı",
+      "why_this_product": "• Nanoteknoloji destekli - derinlemesine temizlik, kalıntısız ve nemsiz sonuç\n• Az köpüklü yapı - vakum makineleri için ideal\n• Hızlı kir çözme - temizlenen yüzeylerin hızlı kuruması\n• Ekonomik konsantre - 5 lt ile 250 lt hazır çözelti"
+    },
+    "faq": [
+      {"question": "Hem manuel hem makine ile kullanılabilir mi?", "answer": "Evet, hem emiş makineleri hem de manuel bez/sünger ile kullanıma uygundur."},
+      {"question": "Kumaş renklerini soldurur mu?", "answer": "Nanoteknolojik formül renklere zarar vermez; hassas kumaşlarda görünmeyen alanda test önerilir."},
+      {"question": "Ne kadar alan temizler?", "answer": "1:50 seyreltme ile 5 lt ürün ortalama 50+ araç iç mekan temizliği için yeterlidir."},
+      {"question": "Hoş koku bırakır mı?", "answer": "Evet, temizlik sonrası kalıcı ferahlık ve hoş koku sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["71675"]}
+  }
+}

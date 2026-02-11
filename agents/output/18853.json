@@ -1,0 +1,46 @@
+{
+  "sku": "18853",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA A-TYPE 1.5 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Pompa 1.8 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916066391",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.86,
+      "capacity_usable_lt": 1.0,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "110° fan etkili köpük nozulu",
+      "foam_adjustable": true,
+      "foam_levels": 4,
+      "seal_type": "EPDM",
+      "chemical_resistance": ["Alkaliler", "Ketonlar", "Alkoller", "Deterjanlar"],
+      "safety_valve": true,
+      "pump_material": "PP",
+      "weight_net_kg": null
+    },
+    "content": {
+      "how_to_use": "1. Köpük yapıcı kimyasalı üretici reçetesine göre seyreltip hazneye doldurun (max çizgiyi aşmayın).\n2. Köpük yoğunluğunu ayarlayın: Memeyi sökün, ıslak/kuru tercihine göre keçe disk ve plastik ara parçaları takın.\n3. Manuel pompa ile basınçlandırın (max 3 bar).\n4. Nozulu dikey/yatay konuma alarak 110° fan ile yüzeye eşit köpük dağıtın.\n5. Etki süresini bekleyin.\n6. Emniyet valfiyle basıncı tahliye edin, hazne ve hattı temiz suyla durulayın.",
+      "when_to_use": "Otomotiv ön yıkama ve APC köpük uygulamaları, jant/lastik temizliği, motor bölgesi, endüstriyel zemin ve ekipman temizliğinde kullanılır.",
+      "target_surface": "Araç dış yüzeyi, jantlar, lastikler, motor bölgesi, endüstriyel zeminler, ekipmanlar",
+      "why_this_product": "• 110° fan nozul ile geniş alan kapsama\n• 4 kademeli köpük ayarı (ıslak → kuru)\n• EPDM conta ile alkali/alkol dayanımı\n• Dikey yüzeylerde akmadan tutunan yoğun köpük"
+    },
+    "faq": [
+      {"question": "Köpük yoğunluğu nasıl ayarlanır?", "answer": "Memeyi söküp keçe disk ve plastik ara parçalarını değiştirerek 4 farklı köpük yoğunluğu elde edebilirsiniz: ıslak, orta-ıslak, orta-kuru ve kuru köpük."},
+      {"question": "110 derece fan nozul ne avantaj sağlar?", "answer": "Geniş açılı püskürtme ile tek seferde daha fazla alan kaplanır, dikey/yatay yönlendirilebilir tasarım farklı yüzeylere uyum sağlar."},
+      {"question": "Hangi kimyasallarla uyumlu?", "answer": "Alkali ürünler, ketonlar, alkoller, deterjanlar ve silikon bazlı ürünlerle uyumludur. Aromatik hidrokarbonlar ve güçlü asitler önerilmez."},
+      {"question": "Sıvı atım yapabilir mi?", "answer": "Hayır, bu model sadece köpük uygulaması için tasarlanmıştır. Sıvı atım için A-TYPE 1.5 PRO standart model kullanılmalıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81676", "81776"]}
+  }
+}

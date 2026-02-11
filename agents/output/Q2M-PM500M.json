@@ -1,0 +1,41 @@
+{
+  "sku": "Q2M-PM500M",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q PurifyMaintain Antibakteriyel Yüzey Temizlik ve Bakım Spreyi - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809973750361",
+    "group": "interior_cleaner",
+    "sub_type": "interior_detailer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Tüm İç Yüzeyler"],
+      "anti_bacterial": true,
+      "protection_duration": "3-6 ay",
+      "ph_level": "Nötr",
+      "alcohol_free": true,
+      "consumption": "30-40 ml/araç"
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi Hazırla: Toz ve hafif kiri Q²M InteriorDetailer veya mikrofiber bez ile alın.\n2. Sprey Yap: Q²M InteriorWipe üzerine 1-2 sprey uygulayın.\n3. Sil: Temas yüzeyini dairesel veya tek yönlü hareketlerle nazikçe silin.\n4. Kontrol Et: Silme sonrası iz kalırsa aynı noktaya yeniden sprey yapıp silin.\n5. Kuruma: Hızlı buharlaşan formül sayesinde kuruma beklemeye gerek yok.\n6. Tekrar: Haftalık veya ihtiyaç duydukça uygulayarak korumayı sürdürün.",
+      "when_to_use": "Q² PurifyCoat antibakteriyel korumasını 3-6 aya kadar taze tutmak için, günlük kullanım ve haftalık bakım için kullanılır. Plastik, deri ve kumaşta hafif kirleri anında temizler.",
+      "target_surface": "Konsol, kapı panelleri, direksiyon simidi, vites topuzu, masa üstü, kapı kolu, dokunmatik yüzeyler",
+      "why_this_product": "• Antibakteriyel bakım - PurifyCoat etkisini her uygulamada yeniler\n• 3-6 ay koruma - düzenli kullanımda kalıcı yüzey koruması\n• Alkolsüz formül - VOC içermez, hassas yüzeylerde güvenli\n• Çok yüzeyli - otomotivden ofise, evden yatak odasına kadar"
+    },
+    "faq": [
+      {"question": "PurifyMaintain tek başına koruma sağlar mı?", "answer": "Evet; tek başına 3 aya kadar antibakteriyel etki sunar, PurifyCoat ile dayanımı uzatır."},
+      {"question": "Plastik panellerde iz yapar mı?", "answer": "Hayır; iz bırakmayan, şeffaf bir katman bırakır."},
+      {"question": "Hangi sıklıkla uygulanmalı?", "answer": "Hafif kirde haftada bir, derin temizlemeden sonra mutlaka uygulayın."},
+      {"question": "Alkolsüz formül ne avantaj sağlar?", "answer": "Yüzeyde kurumaya bağlı çatlama veya solma riskini ortadan kaldırır."}
+    ],
+    "relations": {"use_before": [], "use_after": ["Q2-PC"], "use_with": ["Q2M-IDYA1000M", "Q2M-BWEVO"], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-KM",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Kneel Mat Diz Destek Minderi", "brand": "GYEON", "barcode": "8809432670131", "group": "storage_accessories", "sub_type": "work_gear"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "Yoğun Köpük", "foldable": true, "dimensions_folded_mm": "398x195x57", "dimensions_open_mm": "398x596x20", "handle": true},
+    "content": {
+      "how_to_use": "1. Katlama çizgilerinden açarak düz hale getirin.\n2. Araç alt bölgesinde çalışırken diz altına yerleştirin.\n3. Oturma veya uzanma pozisyonlarında da kullanabilirsiniz.\n4. Taşıma kolundan tutarak katlanmış halde saklayın.",
+      "when_to_use": "Araçların alt bölgelerinde çalışırken (jant temizliği, eşik cilaması vb.) diz konforunu artırmak ve yaralanmaları önlemek için kullanılır.",
+      "target_surface": "Zemin üzerinde kullanım",
+      "why_this_product": "• Yoğun köpük - konfor ve koruma\n• Katlanabilir tasarım - kolay taşıma\n• Taşıma kolu mevcut\n• GYEON grafikleri ile şık görünüm"
+    },
+    "faq": [
+      {"question": "Katlanabilir mi?", "answer": "Evet, katlama çizgileri sayesinde 398x195x57mm boyutuna katlanır."},
+      {"question": "Nerelerde kullanılır?", "answer": "Diz çökme, oturma, uzanma pozisyonlarında zemin üzerinde konfor sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "26914.099.001",
+    "product_name": "Menzerna Premium Orbital Kuzu Yünü Polisaj Keçesi 140 Mm/5,5\"",
+    "barcode": "26914.099.001",
+    "url": "https://detailerplace.com/en/product/menzerna-orbital-wool-pad/",
+    "url_index": 2,
+    "domain": "detailerplace.com",
+    "scraped_at": "2026-02-07T22:42:25.243Z",
+    "scrape_duration_ms": 1813,
+    "http_status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "content_length_bytes": 9363,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "Just a moment...",
+    "raw_markdown": "Enable JavaScript and cookies to continue",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": false
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_2_detailerplace.com.html"
+  }
+}

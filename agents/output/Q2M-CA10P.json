@@ -1,0 +1,19 @@
+{
+  "sku": "Q2M-CA10P",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Coating Applicator Çift Taraflı Seramik Uygulama Aplikatörü 10'lu", "brand": "GYEON", "barcode": null, "group": "applicators", "sub_type": "coating_applicator"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"quantity": "10 adet", "design": "Çift taraflı", "purpose": "Seramik kaplama uygulaması", "professional": true},
+    "content": {
+      "how_to_use": "1. Seramik kaplamayı aplikatöre damlatın.\n2. Çapraz hareketlerle ince tabaka halinde yüzeye yayın.\n3. 3-5 dakika bekleyin ve mikrofiber ile silin.",
+      "when_to_use": "Profesyonel atölyeler için ekonomik 10'lu paket. GYEON seramik kaplamalar için ideal.",
+      "target_surface": "Boyalı yüzeyler - seramik kaplama uygulaması",
+      "why_this_product": "• 10'lu profesyonel paket\n• Ekonomik toplu alım\n• Çift taraflı tasarım\n• GYEON seramik kaplamalar için"
+    },
+    "faq": [{"question": "Kaç araç için yeterli?", "answer": "Araç başına 2-3 aplikatör kullanımıyla 3-5 araç için yeterlidir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-CA2P"]}
+  }
+}

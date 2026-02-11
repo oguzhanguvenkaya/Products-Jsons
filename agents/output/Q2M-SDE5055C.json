@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-SDE5055C",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM SilkDryer EVO İnovatif Kurulama Havlusu - 50x55 cm", "brand": "GYEON", "barcode": "8809432671473", "group": "microfiber", "sub_type": "drying_towel"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "50x55 cm", "gsm": 530, "type": "Twist Pile (Bükümlü Lif)", "features": "Dar alanlar ve jantlar için ideal boyut", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. Aracınızı şampuanla yıkayıp durulayın.\n2. Havluyu ıslak yüzeye serin ve hafif basınçla kaydırın.\n3. Doygunluk arttığında ters yüz edin.\n4. 30°C'de sıvı deterjanla yıkayın, sıkmadan asarak kurutun.",
+      "when_to_use": "Dar alanlar, jantlar, motosiklet ve küçük yüzeyler için kurulama havlusu olarak kullanılır.",
+      "target_surface": "Boya, cam, PPF, jant, piano-black, trim",
+      "why_this_product": "• 530 GSM yüksek emicilik\n• Kompakt 50x55 cm boyut - dar alanlara uygun\n• Twist yapılı eşsiz sentetik fiber örgü\n• Çiziksiz ve iz bırakmayan kurulama"
+    },
+    "faq": [
+      {"question": "70x90 cm versiyondan farkı nedir?", "answer": "Aynı formül ve kalite, sadece daha küçük boyut - motosiklet ve dar alanlar için ideal."},
+      {"question": "Nasıl bakım yapılmalı?", "answer": "Towelwash kullanın, 30°C'de yıkayın, sıkmayın ve asarak kurutun."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-BYA1000M"], "accessories": ["Q2M-TWA500M"], "alternatives": ["Q2M-SDE7090C", "3213EMR"]}
+  }
+}

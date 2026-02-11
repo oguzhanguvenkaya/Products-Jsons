@@ -1,0 +1,22 @@
+{
+  "sku": "SGGD233",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Plastik Trim Döşeme Sökme Aparatı Seti 4'lü", "brand": "SGCB", "barcode": "8683492661823", "group": "storage_accessories", "sub_type": "work_gear"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "Pa44 Naylon Plastik", "quantity": 4, "lengths_inch": ["3/4", "7/8", "1.5/1", "1"], "total_length_inch": 11},
+    "content": {
+      "how_to_use": "1. İşe uygun genişlikte aparatı seçin.\n2. Trim veya döşeme kenarına hafifçe sokun.\n3. Kaldırma hareketi ile parçayı sökün.\n4. Yapışkan kalıntılarını kazıyarak temizleyin.\n5. Uçlar köreldiyse eğe ile keskinleştirin.",
+      "when_to_use": "Araç yan trimleri, döşeme klipsleri, amblem, çıkartma ve yapışkan kalıntılarının hassas yüzeylere zarar vermeden sökülmesi için kullanılır.",
+      "target_surface": "Metal, cam, boya, plastik - hassas yüzeyler",
+      "why_this_product": "• 4 farklı genişlik - her ihtiyaç için\n• Naylon plastik - yüzeyi çizmez\n• Eğelenerek keskinleştirilebilir uçlar\n• Çekiç darbelerine dayanıklı yapı"
+    },
+    "faq": [
+      {"question": "Boyayı çizer mi?", "answer": "Hayır, naylon plastik malzeme metal levyelere kıyasla daha hassas ve iz bırakmaz."},
+      {"question": "Uçlar köreldiyse ne yapılır?", "answer": "Uçlar eğelenerek keskinleştirilebilir, böylece uzun ömürlü kullanım sağlanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

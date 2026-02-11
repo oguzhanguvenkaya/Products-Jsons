@@ -1,0 +1,46 @@
+{
+  "sku": "486728",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "sub_type_flag": "ISSUE: Bu ürün polisher_machine kategorisinde olmamalı - LED çalışma lambası/aydınlatma ürünü",
+  "product_info": {
+    "title": "FLEX DWL 2500 LED Şarjlı Çalışma Detay Lambası 6500K 3000 Lümen - Kablosuz Bluetooth Kontrol Işığı",
+    "brand": "FLEX",
+    "barcode": "4030293218710",
+    "group": "polisher_machine",
+    "sub_type": "work_light"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "professional_work_light",
+      "power_source": "Battery",
+      "voltage": 18,
+      "lumen_max": 3000,
+      "color_temperature_range_k": "2500-6500",
+      "color_temperature_levels": 5,
+      "cri": 96,
+      "runtime_max_hours": 30,
+      "weight_kg": 1.9,
+      "ip_rating": "IP67",
+      "features": ["Bluetooth kontrolü", "USB şarj portu", "5 kademe CCT", "Tripod uyumlu"]
+    },
+    "content": {
+      "how_to_use": "1. FLEX 10.8V veya 18V aküyü lambaya takın.\n2. Açma düğmesine basarak lambayı çalıştırın.\n3. Parlaklık seviyesini ayarlayın (300-3000 lümen).\n4. CCT düğmesiyle renk sıcaklığını seçin (2500K-6500K).\n5. Bluetooth ile telefon/tablet üzerinden uzaktan kontrol edebilirsiniz.\n6. Tripod aparatına bağlayarak sabit kullanım yapabilirsiniz.",
+      "when_to_use": "Detailing merkezlerinde boya kontrolü, boyahanelerde renk eşleştirme, atölyelerde genel aydınlatma ve profesyonel yüzey inceleme işlemlerinde kullanılır.",
+      "target_surface": "Çalışma alanı aydınlatması - araç boyası, vernik, tüm yüzeyler",
+      "why_this_product": "• 3000 lümen maksimum parlaklık\n• RA 96 renk doğruluğu - gerçek renk analizi\n• Bluetooth kablosuz kontrol\n• IP67 su ve toz geçirmez"
+    },
+    "faq": [
+      {"question": "Akü ve şarj cihazı dahil mi?", "answer": "Hayır, akü ve şarj cihazı ayrı satılır. FLEX 10.8V ve 18V akü sistemi ile uyumludur."},
+      {"question": "Bir aküyle ne kadar çalışır?", "answer": "Parlaklık seviyesine göre değişir. Düşük seviyede 30 saate kadar, maksimum seviyede daha kısa süre çalışır."},
+      {"question": "Telefon şarj edebilir miyim?", "answer": "Evet, USB portu üzerinden akıllı telefon ve tabletlerinizi şarj edebilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["445894", "417882"], "accessories": [], "alternatives": ["530375", "463302"]}
+  }
+}

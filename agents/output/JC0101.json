@@ -1,0 +1,39 @@
+{
+  "sku": "JC0101",
+  "last_updated": "2026-02-04T14:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Ekran Temizleme Spreyi 14 Ml - Mikrofiberli",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843782",
+    "group": "glass_cleaner",
+    "sub_type": "screen_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:35:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:35:00Z",
+    "template_fields": {
+      "function": "Ekran Temizleyici",
+      "volume": "14 ml",
+      "format": "Kompakt sprey + entegre mikrofiber",
+      "portable": true,
+      "suitable_for": ["Telefon", "Tablet", "LCD ekran", "Dizüstü bilgisayar", "Gözlük", "Araç ekranı"]
+    },
+    "content": {
+      "how_to_use": "1. Sprey başlığını sıkın.\n2. Entegre mikrofiber yüzeyi ile ekranı silin.\n3. Parmak izi ve tozlar çizmeden temizlenir.\n4. Cebinize veya çantanıza koyun - her an hazır.",
+      "when_to_use": "Akıllı telefon, tablet, araç içi LCD ekran, dizüstü bilgisayar ve gözlük gibi tüm cam yüzeylerin temizliği için kullanılır. Kompakt boyutu sayesinde her an yanınızda.",
+      "target_surface": "Telefon ekranları, tablet, araç LCD, dizüstü bilgisayar, gözlük camı",
+      "why_this_product": "• Kompakt boyut - cebinize sığar\n• Entegre mikrofiber - ekstra bez gerekmez\n• Çizmeden temizlik\n• Parmak izi ve toz temizliği\n• Şık tasarım"
+    },
+    "faq": [
+      {"question": "Araç ekranlarında kullanılabilir mi?", "answer": "Evet, araç içi LED ve dokunmatik ekranlarda güvenle kullanılabilir."},
+      {"question": "14 ml ne kadar yeter?", "answer": "Günlük kullanımda haftalarca yetecek kapasitedir."},
+      {"question": "Mikrofiber değiştirilebilir mi?", "answer": "Entegre tasarım olduğu için değiştirilmez, ancak ürün bitene kadar dayanıklıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

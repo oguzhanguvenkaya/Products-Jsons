@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-LCN1000M",
+  "product_name": "Gyeon Q²m Leather Cleaner Natural Modern Napa Yarı Anilin Derilere Özel Temizleyici - 1000 ml",
+  "barcode": "Q2M-LCN1000M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:32:52.871Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-leather-cleaner-natural",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Leather Cleaner Natural | CARZILLA",
+      "content_length": 14792,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-leather-cleaner-natural",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q² Leather Cleaner Neutral | Gentle Leather Care",
+      "content_length": 34718,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q-m-leathercleaner-natural",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M LeatherCleaner Natural — Polished Bliss",
+      "content_length": 9759,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Leather-Cleaner-Mild-P1843/500-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Leather Cleaner Natural - 500 ml - Detailed Image",
+      "content_length": 15055,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/gyeon-q2m-leather-cleaner-natural.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q&#178;M Leather Cleaner Natural (500ml &amp; 1L)",
+      "content_length": 14340,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.detailstore.com.au/products/gyeon-q2m-leather-cleaner-mild-500ml",
+      "domain": "detailstore.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Leather Cleaner Natural - 500ml\n&ndash; The Detail Store",
+      "content_length": 9452,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

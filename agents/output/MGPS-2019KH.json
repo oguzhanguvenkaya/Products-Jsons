@@ -1,0 +1,24 @@
+{
+  "sku": "MGPS-2019KH",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MG PS Agresif Yüzey Temizleyici Kil Hamuru 100 gr (Mor) - Clay Bar Temizleme Kili", "brand": "MG PS", "barcode": "8683492661656", "group": "contaminant_solvers", "sub_type": "iron_remover"},
+  "notes": {"sub_type_review": "iron_remover olarak işaretli ancak clay_bar olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"material": "Polibütilen reçine + elastomer", "weight_gr": 100, "color": "Mor", "hardness": "Yüksek (Heavy Duty)", "cars_per_bar": "10-20", "compatible_surfaces": ["Boyalı sac", "Vernik", "Cam", "Krom", "Alüminyum"]},
+    "content": {
+      "how_to_use": "1. Aracı pH nötr şampuanla yıkayıp durulayın.\n2. Bol miktarda kil kaydırıcısı sıkın.\n3. 100 gr barın yarısını koparıp yoğurun ve disk hâline getirin.\n4. Kili hafif baskıyla ileri-geri ve çapraz hareketlerle kaydırın.\n5. Direnç azaldığında panel temizlenmiş demektir.\n6. Kir toplandıkça kili katlayıp temiz yüzeyi ortaya çıkarın.\n7. Hafif polisaj + koruyucu ile parlaklığı mühürleyin.",
+      "when_to_use": "Polisaj öncesi derin temizlik, boya overspray ve zift temizliği, endüstriyel fallout giderme, PPF/seramik kaplama hazırlığı için kullanılır.",
+      "target_surface": "Boya, vernik, cam, krom, alüminyum",
+      "why_this_product": "• Yüksek aşındırıcılık - en zorlu kirleri söker\n• Profesyonel seviye - detaycılar için ideal\n• Mor renk - kir takibini kolaylaştırır\n• 100 gr - 10-20 araç için yeterli"
+    },
+    "faq": [
+      {"question": "Medium Duty ile farkı nedir?", "answer": "Agresif kil daha sert ve kalın kirlerde etkilidir; mikro matlık bırakabilir, ardından hafif polisaj önerilir."},
+      {"question": "Boyaya zarar verir mi?", "answer": "Doğru kaydırıcıyla kullanıldığında güvenlidir; ancak hafif marring bırakabilir, polisaj ile giderilir."},
+      {"question": "Kil düştüğünde ne yapmalıyım?", "answer": "Yüzeye kum yapışacağı için mutlaka atıp yeni parça kullanın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-CLR500M"], "accessories": [], "alternatives": ["MGPS-2019KM", "Q2M-CCE"]}
+  }
+}

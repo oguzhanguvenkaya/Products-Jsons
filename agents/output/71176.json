@@ -1,0 +1,39 @@
+{
+  "sku": "71176",
+  "last_updated": "2026-02-04T14:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Reflex KE 785 Cam, Lake, Laminant Yüzey Temizleyici (1:10 Konsantre) - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486711765",
+    "group": "glass_cleaner",
+    "sub_type": "glass_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:35:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:35:00Z",
+    "template_fields": {
+      "function": "Cam + Lake + Laminant Temizleyici",
+      "concentration": "1:10 Konsantre",
+      "volume": "25 kg",
+      "format": "Endüstriyel bidon",
+      "scent": "Ferah tazelik"
+    },
+    "content": {
+      "how_to_use": "1. Seyreltme: Yaz için 1:10, kış için 1:10 oranında seyreltin.\n2. Püskürtme: Temizlenecek yüzeye püskürtün.\n3. Silme: Temiz bezle silin.\n4. Sonuç: İz bırakmadan temiz ve parlak yüzey.",
+      "when_to_use": "Cam, kristal, lake ve plastik yüzeylerin profesyonel temizliği için kullanılır. Büyük atölyeler ve filo yönetimi için endüstriyel boyut.",
+      "target_surface": "Cam, kristal, lake, laminant, plastik yüzeyler",
+      "why_this_product": "• 25 kg endüstriyel boyut - büyük atölyeler için\n• 1:10 seyreltme ile 250+ lt kullanıma hazır ürün\n• İz bırakmayan temizlik\n• Hoş ferah koku\n• Ekonomik profesyonel çözüm"
+    },
+    "faq": [
+      {"question": "25 kg ne kadar süre yeter?", "answer": "1:10 seyreltme ile 250 lt kullanıma hazır ürün elde edilir. Yoğun kullanımda aylar boyunca yeterlidir."},
+      {"question": "Laminant yüzeylerde güvenli mi?", "answer": "Evet, laminant dahil tüm sert yüzeylerde güvenle kullanılabilir."},
+      {"question": "Kış ve yaz seyreltme farkı var mı?", "answer": "Her iki mevsimde de 1:10 oranı önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

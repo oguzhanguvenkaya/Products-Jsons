@@ -1,0 +1,40 @@
+{
+  "sku": "79586-644",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Yeşil) - 1000 ML",
+    "brand": "FRA-BER",
+    "barcode": null,
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_ml": 1000,
+      "dilution_scale": "1:1 - 1:20",
+      "dilution_steps": 6,
+      "color": "Yeşil",
+      "body_material": "Kimyasal dayanıklı plastik"
+    },
+    "content": {
+      "how_to_use": "1. Seçtiğiniz seyreltme çizgisine kadar su ekleyin.\n2. Kimyasalı üst çizgiye kadar tamamlayın.\n3. Sprey başlığını takın ve sıkıca kapatın.\n4. Hafifçe çalkalayıp yüzeye püskürtün.\n5. Kullanım sonrası temiz su ile durulayın.",
+      "when_to_use": "Detailing stüdyolarında kimyasal seyreltme, profesyonel temizlik uygulamalarında doğru oran sağlama işlemlerinde kullanılır.",
+      "target_surface": "Araç yüzeyleri, iç mekan, genel temizlik alanları",
+      "why_this_product": "• 6 farklı seyreltme oranı (1:1 - 1:20)\n• Kimyasal dayanıklı plastik gövde\n• Yeşil renk kodlaması\n• İtalyan FRA-BER kalitesi"
+    },
+    "faq": [
+      {"question": "Seyreltme oranları nelerdir?", "answer": "1:1, 1:2, 1:4, 1:10, 1:15, 1:20 olmak üzere 6 farklı seyreltme oranı şişe üzerinde işaretlidir."},
+      {"question": "Renk kodlaması ne işe yarar?", "answer": "Farklı renkteki şişeler (mavi, siyah, yeşil) ile farklı kimyasalları atölyede kolayca ayırt edebilirsiniz."},
+      {"question": "Canyon versiyonundan farkı nedir?", "answer": "Bu model standart sprey başlıklıdır. Canyon versiyonu EPDM contalı profesyonel Canyon tetik ile gelir."},
+      {"question": "Hangi kimyasallarla uyumlu?", "answer": "Kimyasal dayanıklı plastik gövde ile genel temizlik kimyasalları için uygundur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79587-644", "79588-644"]}
+  }
+}

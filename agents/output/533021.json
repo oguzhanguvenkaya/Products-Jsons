@@ -1,0 +1,55 @@
+{
+  "sku": "533021",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX XFE 15 150 18-EC SET Random Orbital Çift Akülü Kablosuz Makine",
+    "brand": "FLEX",
+    "barcode": "4030293268616",
+    "group": "polisher_machine",
+    "sub_type": "da_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Battery",
+      "voltage": 18,
+      "battery_capacity_ah": 5.0,
+      "battery_count": 2,
+      "motor_type": "Brushless",
+      "orbit_mm": 15,
+      "backing_plate_supported_mm": [150],
+      "speed_range_rpm": "1350-4350",
+      "oscillation_speed_rpm": "2700-8700",
+      "speed_levels": 4,
+      "weight_kg": 2.1,
+      "runtime_minutes": 40,
+      "features": ["15mm salınım", "Kömürsüz motor", "CDC elektronik", "Kablosuz", "EMS koruma"]
+    },
+    "content": {
+      "how_to_use": "1. Tam şarjlı aküyü takın.\n2. 150mm tabanlık ve ped monte edin.\n3. 4 kademeli hız kadranından devir seçin.\n4. Tetik ile yumuşak başlatma yapın.\n5. Çapraz hareketlerle hologram giderin.\n6. İkinci aküyle kesintisiz devam edin.",
+      "when_to_use": "Kablosuz finisaj işlemleri, mobil detailing, hologram ve hare giderme, hafif çizik düzeltme ve profesyonel parlaklık için kullanılır.",
+      "target_surface": "Araç boyası, hassas boyalar, vernik, marin yüzeyler, akrilik cam",
+      "why_this_product": "• Kablosuz özgürlük - 2x 5.0Ah akü\n• 15mm salınım - hologramsız finisaj\n• Kömürsüz motor - sabit performans\n• Kablolu kadar güçlü"
+    },
+    "faq": [
+      {"question": "XFE 7-15 kablolu ile aynı performansı verir mi?", "answer": "Evet, kömürsüz motor ve CDC elektronik sayesinde kablolu modelle aynı performansı sunar."},
+      {"question": "Bir aküyle ne kadar çalışır?", "answer": "Maksimum devirde yaklaşık 40 dakika çalışma süresi sağlar. İkinci aküyle toplam 80 dakika kesintisiz çalışabilirsiniz."},
+      {"question": "Rotary işlemler için uygun mu?", "answer": "Hayır, bu bir orbital makinedir. Ağır çizik giderme için rotary veya gear driven makine gerekir. Finisaj ve hafif düzeltmeler için idealdir."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": ["533019", "533020"],
+      "use_with": ["492353", "22828.281.001"],
+      "accessories": ["445894", "417882", "492353"],
+      "alternatives": ["418080", "SGGF181"]
+    }
+  }
+}

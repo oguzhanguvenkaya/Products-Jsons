@@ -1,0 +1,59 @@
+{
+  "sku": "Q2M-SWE4040C",
+  "product_name": "Gyeon Q²m Softwipe Evo Lazer Kesim Peluş Cila Bezi - 40X40 cm",
+  "barcode": "Q2M-SWE4040C",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:21:41.087Z",
+  "sources": [
+    {
+      "url": "https://gyeonusa.com/products/q-m-soft-wipe-evo-towel",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q²M Soft Wipe EVO Towel | Gyeon Quartz USA",
+      "content_length": 6496,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Soft-Wipe-P1584/16-x-16-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Soft Wipe Evo - 16&quot; x 16&quot; - Detailed Image",
+      "content_length": 12708,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailmate.de/GYEON-QM-SoftWipe-40-cm-60-cm_1",
+      "domain": "detailmate.de",
+      "language": "en",
+      "page_title": "GYEON - Q²M SoftWipe - 40 cm × 60 cm, 8,72 €",
+      "content_length": 15456,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carparts.koeln/GYEON-QM-SoftWipe-EVO-40-cm-40-cm",
+      "domain": "carparts.koeln",
+      "language": "en",
+      "page_title": "GYEON Q²M SoftWipe EVO 40×40 cm Autopflege &amp; Detailing",
+      "content_length": 15733,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

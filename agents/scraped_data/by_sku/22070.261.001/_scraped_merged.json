@@ -1,0 +1,47 @@
+{
+  "sku": "22070.261.001",
+  "product_name": "Menzerna Power Lock Ultimate Protection-Üstün Boya Koruma 1 Lt",
+  "barcode": "22070.261.001",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:37:05.848Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/menzerna-power-lock-ultimate-protection-32oz",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "Menzerna Power Lock Ultimate Protection 32oz | CARZILLA",
+      "content_length": 7417,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.menzerna.com/car-care/car-polish/products/details/power-lock-ultimate-protection",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Power Lock Ultimate Protection",
+      "content_length": 9068,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/menzerna-power-lock.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Power Lock Ultimate Protection | Synthetic Polymer Paint Sealant",
+      "content_length": 14510,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

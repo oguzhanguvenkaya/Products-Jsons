@@ -1,0 +1,42 @@
+{
+  "sku": "70863",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 600 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486708635",
+    "group": "interior_cleaner",
+    "sub_type": "tire_dressing"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Lastik", "Dış Plastik", "Tampon"],
+      "finish": "Yüksek Parlak",
+      "form": "Aerosol",
+      "uv_protection": true,
+      "water_resistant": true,
+      "non_greasy": true,
+      "volume_ml": 600
+    },
+    "content": {
+      "how_to_use": "1. Lastik veya plastik parçayı yıkayıp tamamen kurutun.\n2. Kutuyu 5 saniye kuvvetlice sallayın.\n3. Kutuyu dik tutarak yüzeye 15-20 cm mesafeden ince, eşit tabaka hâlinde sıkın.\n4. 20-30 sn bekleyin; fazla ürünü temiz, kuru bir mikrofiber bezle hafifçe silin.\n5. Yaklaşık 10 dk içinde tam parlaklık oluşur; ürün kuruyana kadar aracınızı sürmeyin.",
+      "when_to_use": "Yeni yıkanmış araçlarda showroom parlaklığını tamamlamak için, fotoğraf/sergi öncesi lastik ve plastiklerin görsel güncellenmesinde, UV ve yol kirine karşı lastik korumasında kullanılır.",
+      "target_surface": "Lastik yanağı, dış plastik tampon, ayna çerçevesi, kapı fitilleri, motosiklet ve karavan lastikleri",
+      "why_this_product": "• Uzun süreli parlaklık - tek uygulamada haftalarca 'ıslak lastik' görünümü\n• Su ve UV dayanımı - yağmur ve yıkamalardan sonra bile parlaklığını korur\n• Yağsız, yapışmaz formül - toz tutmaz, sling riskini minimuma indirir\n• 360° aerosol püskürtme - sünger gerektirmeden homojen kaplama"
+    },
+    "faq": [
+      {"question": "Lastik dişlerine püskürtülebilir mi?", "answer": "Hayır, lastik dişlerine, fren diski/balatasına veya pedallara püskürtmeyin."},
+      {"question": "Sıcak lastikte kullanılabilir mi?", "answer": "Hayır, sıcak lastik veya doğrudan güneş altında uygulamayınız."},
+      {"question": "Plastik yüzeylerde de kullanılabilir mi?", "answer": "Evet, tampon, ayna çerçevesi ve kapı fitillerinde de güvenle kullanılabilir."},
+      {"question": "Parlaklık ne kadar sürer?", "answer": "Tek uygulamada haftalarca 'ıslak lastik' görünümü sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["70868"]}
+  }
+}

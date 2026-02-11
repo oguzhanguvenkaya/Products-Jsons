@@ -1,0 +1,44 @@
+{
+  "sku": "78783",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER X-XS Güçlü Ön Yıkama Köpüğü Ve Sinek Böcek Temizleyici (1:60 Konsantre) - 5 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486793242",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "grease_remover": true,
+      "bug_remover": true,
+      "hard_water_resistant": true,
+      "moisturizing_agents": true,
+      "naoh_free": true,
+      "nta_free": true,
+      "biodegradable_surfactants": true,
+      "dilution_prewash": "1:40 - 1:60 (araba), 1:25 - 1:50 (kamyon)",
+      "volume_kg": 5
+    },
+    "content": {
+      "how_to_use": "1. Ürünü uygulamadan önce yüzeydeki kaba kiri basınçlı su ile temizleyin.\n2. Pompa: 8-20 ml döngü için 10-20 pompa akış darbesi.\n3. Ön Yıkama Püskürtücüsü: Araba için 1:40-1:60, kamyon için 1:25-1:50.\n4. Jantlar için: 1:10 oranında.\n5. Böcekler için: 1:20 (%5) oranında.\n6. Köpük Nozulu: Saf ile 1:9 arasında.",
+      "when_to_use": "Profesyonel ön yıkama ve böcek temizliğinde, otomobil ve kamyonlarda kaporta ve jant temizliğinde, yağ çözme gerektiren kirlerde kullanılır.",
+      "target_surface": "Otomobil, kamyon, kaporta, jant, böcek lekeleri",
+      "why_this_product": "• Yağ çözme yeteneği ile inatçı kirleri temizler\n• Sıcak aylarda yavaş kurur ve kolay durulanır\n• Kalıcı köpük oluşturur, sert sudan etkilenmez\n• Sodyum hidroksit ve NTA içermez"
+    },
+    "faq": [
+      {"question": "Motosikletlerde kullanılabilir mi?", "answer": "Hayır, motosikletler için uygun değildir."},
+      {"question": "Eski boyalarda kullanılabilir mi?", "answer": "Eski ve oksitlenmiş boya üzerinde kullanmadan önce yüzeyi soğutmanız tavsiye edilir."},
+      {"question": "Sert suda performans düşer mi?", "answer": "Hayır, formül sert sudan etkilenmez."},
+      {"question": "Biyolojik olarak parçalanabilir mi?", "answer": "Evet, 648/2004 sayılı Yönetmeliğe göre biyolojik olarak parçalanabilir yüzey aktif maddeler içerir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["78784"]}
+  }
+}

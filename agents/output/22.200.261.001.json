@@ -1,0 +1,112 @@
+{
+  "sku": "22.200.261.001",
+  "last_updated": "2026-02-04T13:30:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "MENZERNA 400 Yeşil Seri Ağır Çizik Giderici Kalın Pasta - 1 lt",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "heavy_cut_compound"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:30:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna 400 Yeşil Seri, efsanevi çizik giderme performansını sağlığa ve çevreye duyarlı, VOC (Uçucu Organik Bileşik) içermeyen bir formülle birleştirir. Bu üstün performanslı pasta, ağır çizikleri ve zımpara izlerini tek adımda giderirken arkasında yüksek parlaklıkta bir yüzey bırakmak için tasarlanmıştır. Özellikle kapalı atölye ortamlarında, sağlığını ön planda tutan profesyoneller için geliştirilen bu formül, rahatsız edici kimyasal ve solvent kokuları olmadan, tozsuz bir çalışma imkanı sunar.",
+        "extracted_specs": {
+          "cut_level": 8,
+          "finish_level": 8,
+          "silicone_free": true,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "voc_free": true
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Kapalı alan çalışmaları", "Tek adımda hızlı sonuçlar", "Orta ve ağır seviye kusurlar", "Sağlık bilinçli profesyoneller"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 8,
+        "finish_level": 8,
+        "silicone_free": true,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "voc_free": true,
+        "machine_compatibility": ["rotary", "orbital"],
+        "recommended_pads": ["Kuzu postu keçe", "Sert Sünger Ped"]
+      },
+      "content": {
+        "use_cases": ["Kapalı atölye ortamları", "Tek adımda düzeltme", "Sağlık odaklı çalışma", "VOC hassasiyeti olanlar"],
+        "benefits": ["VOC-İçermez formül", "Kokusuz", "Tozsuz çalışma", "8/8 kesim/parlaklık dengesi"]
+      },
+      "faq": [],
+      "related_products": ["Menzerna YENİ 400", "Menzerna Cut Force Pro"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:30:00Z",
+    "template_fields": {
+      "cut_level": 8,
+      "finish_level": 8,
+      "machine_compatibility": ["rotary", "orbital"],
+      "recommended_pad_types": ["wool_pad", "heavy_cut_foam_pad"],
+      "dusting_level": "Very Low",
+      "working_time": null,
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "voc_free": true,
+      "safe_for_soft_paint": false,
+      "wipe_off_ease": null
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini detaylıca yıkayın ve gerekirse kil temizliği yapın. Hassas trimleri maskeleme bantları ile koruyun.\n2. Makine & Ped Seçimi: Rotary veya Orbital polisaj makineleriyle kullanılabilir.\n   - Maksimum Kesim: Kuzu postu keçe\n   - Dengeli Kesim: Sert Sünger Ped\n3. Ürün Miktarı: Pede 2-3 nohut tanesi büyüklüğünde ürün uygulayın.\n4. Uygulama: Makineyi düşük hızda başlatarak pastayı yüzeye yayın. Ardından hızı kademeli olarak artırın.\n5. Çalışma: Yüzeyde şeffaf bir film kalana kadar çalışın. Toz yapmaz, kokusuz çalışır.\n6. Temizlik: Yumuşak mikrofiber bezle kalıntıları silin.\n7. Avantaj: Kapalı alanlarda havalandırma sorunu olmadan çalışabilirsiniz.",
+      "when_to_use": "Kapalı atölye ortamlarında sağlık ve güvenlik öncelikli çalışma gerektiğinde kullanılır. VOC (Uçucu Organik Bileşik) içermez ve kokusuz olduğundan havalandırmanın kısıtlı olduğu ortamlarda idealdir. Ağır çizikleri ve zımpara izlerini tek adımda giderirken 8/8 kesim/parlaklık dengesi sunar. Sağlığını ön planda tutan profesyoneller için özel olarak geliştirilmiştir.",
+      "target_surface": "Otomotiv boyası, sert ve orta sertlikte vernikler, kapalı atölye ortamlarında çalışılacak araçlar",
+      "why_this_product": "• VOC-İçermez formül - DIN EN ISO 11890-2 standartlarına uygun sağlık dostu yapı.\n• Kokusuz ve tozsuz çalışma - kapalı atölyelerde bile konforlu uygulama.\n• 8/8 kesim/parlaklık dengesi - tek adımda hem düzeltme hem bitiş.\n• Sağlık bilinçli profesyoneller için - uzun vadeli sağlık riskini minimize eder.\n• Silikonsuz ve dolgusuz - gördüğünüz sonuç gerçektir.\n• 1 lt ekonomik paket - yoğun kullanım için ideal."
+    },
+    "faq": [
+      {
+        "question": "VOC-İçermez ne anlama geliyor?",
+        "answer": "VOC (Volatile Organic Compounds - Uçucu Organik Bileşikler) solunum yoluyla sağlık sorunlarına yol açabilir. Yeşil Seri 400 bu bileşikleri içermez ve DIN EN ISO 11890-2 standartlarına uygundur."
+      },
+      {
+        "question": "Kapalı atölyede havalandırmasız kullanabilir miyim?",
+        "answer": "VOC içermeyen ve kokusuz formülü sayesinde havalandırmanın kısıtlı olduğu ortamlarda bile güvenle kullanılabilir. Yine de minimum havalandırma önerilir."
+      },
+      {
+        "question": "Standart 400 ile Yeşil Seri 400 arasındaki fark nedir?",
+        "answer": "Yeşil Seri 400, standart 400'ün VOC-içermeyen, kokusuz versiyonudur. Kesim ve parlaklık performansı benzerdir (8/8), ancak sağlık ve çevre açısından daha güvenlidir."
+      },
+      {
+        "question": "Performans açısından diğer 400'lere göre nasıl?",
+        "answer": "Kesim ve parlaklık performansı (8/8) standart 400 serisi ile aynıdır. Tek fark sağlık dostu formülasyondur."
+      },
+      {
+        "question": "Boya atölyelerinde güvenli mi?",
+        "answer": "Evet, silikonsuz, dolgusuz ve VOC-içermez formülü ile boya atölyeleri için tamamen güvenlidir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

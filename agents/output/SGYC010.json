@@ -1,0 +1,23 @@
+{
+  "sku": "SGYC010",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Tornador Yedek Boncuk", "brand": "SGCB", "barcode": "8683492660727", "group": "spare_part", "sub_type": "repair_part"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"compatible_device": ["SGCB Tornador"], "part_type": "Boncuk"},
+    "content": {
+      "how_to_use": "1. Tornador tabancasını sökerek iç parçalara erişin.\n2. Aşınmış boncuğu çıkarın.\n3. Yeni boncuğu yerine takın.\n4. Tabancayı tekrar monte edin.\n5. Test püskürtmesi yapın.",
+      "when_to_use": "Tornador performansı düştüğünde veya boncuk aşındığında yedek parça değişimi yapılmalıdır.",
+      "target_surface": "SGCB boncuklu Tornador detaylı temizlik tabancası",
+      "why_this_product": "• Orijinal SGCB yedek parçası\n• Fabrika çıkışlı kalite\n• Tornador performansını yeniler\n• Uzun ömürlü malzeme"
+    },
+    "faq": [
+      {"question": "Bu boncuk ne işe yarar?", "answer": "Tornador tabancasında hava akışını ve temizlik performansını düzenleyen kritik bir parçadır."},
+      {"question": "Ne zaman değiştirilmeli?", "answer": "Tornador'un temizlik gücü azaldığında veya ses değişikliği fark edildiğinde kontrol edilmelidir."},
+      {"question": "Orijinal parça mı?", "answer": "Evet, SGCB fabrika çıkışlı orijinal yedek parçadır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGYC011"]}
+  }
+}

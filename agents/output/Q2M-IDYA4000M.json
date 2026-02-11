@@ -1,0 +1,42 @@
+{
+  "sku": "Q2M-IDYA4000M",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM İnteriorDetailer Araç İçi Bakteri Virüs Temizleyici - 4000 ml -Alkol Bazlı Dezenfektan",
+    "brand": "GYEON",
+    "barcode": "8683492661298",
+    "group": "interior_cleaner",
+    "sub_type": "interior_disinfectant"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Deri", "Plastik", "Alcantara", "Cam", "Tekstil"],
+      "alcohol_content": 60,
+      "finish": "Mat",
+      "anti_static": true,
+      "consumption": "50 ml/araç",
+      "protection_duration": "4 hafta",
+      "volume_ml": 4000
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi tozdan arındırın, doğrudan güneşten kaçının.\n2. Spreyi mikrofiber beze (BaldWipe/PolishWipe) sıkın.\n3. Paneli tek yönlü hareketlerle silin.\n4. İhtiyaç duyarsanız ikinci kuru bezle çizgileri alın.\n5. Not: Yüksek alkol oranı nedeniyle ürünü panel üzerine doğrudan fışkırtmayın.",
+      "when_to_use": "Günlük hafif temizlik ve dezenfeksiyonda, yolculuk öncesi hijyen için, araç içi bakteri ve virüs tehdidini ortadan kaldırmak için, profesyonel detailing stüdyolarında yüksek hacimli işlerde kullanılır.",
+      "target_surface": "Deri ve suni deri koltuklar, plastik torpido ve konsol, alcantara döşeme, dokunmatik ekran ve cam, direksiyon ve vites topuzu",
+      "why_this_product": "• %60 alkol formülü ile bakteri ve virüsleri hedef alır\n• Profesyonel boy - 4000 ml ile 80 araç iç temizliği\n• Anti-statik koruma - toz tutulumunu azaltır\n• Mat ve yapışmaz bitiş - parmak izi toplamaz"
+    },
+    "faq": [
+      {"question": "Piano-black yüzeylerde iz yapar mı?", "answer": "Doğru mikrofiber kullanıldığında iz bırakmaz; gerekirse kuru bezle anında parlatın."},
+      {"question": "Direksiyon derisinde kuruma yapar mı?", "answer": "Alkol hızla buharlaşır; düzenli korumaya ihtiyaç duyuyorsanız LeatherCoat ile destekleyin."},
+      {"question": "Çocuk koltuklarında kullanılabilir mi?", "answer": "Evet; tekstil ve plastik güvenli formülüyle kısa sürede kokusuz şekilde kurur."},
+      {"question": "Camda buğu veya iz kalırsa ne yapmalıyım?", "answer": "Temiz, kuru mikrofiberle ikinci geçiş yapın; alkol kalıntısı anında çözülür."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-IDYA1000M", "Q2M-IDYA500M"]}
+  }
+}

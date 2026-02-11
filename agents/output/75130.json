@@ -1,0 +1,68 @@
+{
+  "sku": "75130",
+  "last_updated": "2026-02-04T14:10:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Reef Marin, Tekne Krom Ve Çelik Parçalar İçin Pas Ve Kireç Çözücü - 750 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486750016",
+    "group": "marin_products",
+    "sub_type": "water_spot_remover"
+  },
+  "notes": {
+    "sub_type_review": "Template'de 'water_spot_remover' olarak işaretli. Doğrusu 'rust_remover' veya 'metal_cleaner' olmalı - bu asidik pas ve kireç çözücü."
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:10:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr"
+      }
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:10:00Z",
+    "template_fields": {
+      "function": "Rust & Limescale Remover",
+      "ph_level": "Asidik (pH < 2)",
+      "target_surface": "Krom, paslanmaz çelik, fiberglas su hattı",
+      "format": "Tetikli şişe (jel tutunma)",
+      "volume": "750 ml",
+      "eco_friendly": true,
+      "harmful_ingredients_free": ["Fosfat", "EDTA", "NTA"]
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi Hazırla: Metal soğuk ve kuru olmalı, gevşek kir/tuzu durulayıp boşaltın.\n2. Püskürtme: Şişeyi çalkalayın; yüzeye eşit film hâlinde püskürtün.\n3. Bekleme: 5 dk etki etmesi için bırakın. Kuruma başlamadan ilerleyin.\n4. Mekanik Destek (gerekirse): İnatçı lekelerde fırça veya süngerle hafifçe fırçalayın.\n5. Durulama: Tatlı suyla bolca yıkayın; üstten aşağı kontrollü akışla kimyasalı uzaklaştırın.\n6. Gerekirse Tekrar: Çok ağır oksit/kireçte işlemi yineleyin, sürede 5 dakikayı aşmayın.",
+      "when_to_use": "Tekne ve yatlarda krom-çelik aksamdaki pas, kireç ve yosun izlerini hızla çözmek için kullanılır. Sezon açılışı, hızlı marina bakımı ve pas onarım öncesi ideal.",
+      "target_surface": "Krom korkuluklar, paslanmaz çelik merdivenler, direkler, roll-barlar, pasarellalar, ankrajlar, su hattı",
+      "why_this_product": "• Jel benzeri tutunma - dikey yüzeylerde akmadan 5 dk aktif kalır\n• Çevre dostu - Fosfat, EDTA, NTA içermez, marinalarda güvenle kullanılır\n• Çok yönlü - pas, oksit, silikat, kireç, yosun ve tuz kristallerini çözer\n• Minimum mekanik müdahale gerektirir"
+    },
+    "faq": [
+      {
+        "question": "Alüminyum yüzeylerde kullanılabilir mi?",
+        "answer": "Hayır, alüminyum, linolyum, boyalı yüzey ve teak güvertede uzun temas süresinden kaçının. Asidik formül bu yüzeylere zarar verebilir."
+      },
+      {
+        "question": "Ne kadar süre bekletmeliyim?",
+        "answer": "Maksimum 5 dakika. Kurumaya başlamadan durulayın. Çok ağır lekelerde işlemi tekrarlayın ama süreyi artırmayın."
+      },
+      {
+        "question": "Koruyucu ekipman gerekli mi?",
+        "answer": "Evet, asidik formül nedeniyle nitril eldiven ve gözlük kullanılması önerilir."
+      },
+      {
+        "question": "Tuzlu su ile durulayabilir miyim?",
+        "answer": "Hayır, mutlaka tatlı su ile durulayın. Tuzlu su kalıntı bırakır ve pas oluşumunu hızlandırır."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

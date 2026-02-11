@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-PPFMR500M",
+  "product_name": "Gyeon Q²m Ppf Maintain Redefined Ppf Folyo Bakım ve Koruma Cilası - 500 ml -Seramik Sprey Wax",
+  "barcode": "Q2M-PPFMR500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:20:44.902Z",
+  "sources": [
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/PPF-Maintain-P3095/400-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon PPF Maintain - 500 ml - Detailed Image",
+      "content_length": 12858,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-ppf-maintain-redefined",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M PPF Maintain Redefined 500ml | CARZILLA",
+      "content_length": 7622,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-ppf-maintain-redefined-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Maintain REDEFINED 500ml | Product",
+      "content_length": 12321,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://thecleangarage.uk/gyeon-q2m-ppf-maintain-redefined-500ml-sio2-spray-for-film-vinyl/",
+      "domain": "thecleangarage.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Maintain Redefined 500ml | SIO2 Spray For Film Vinyl | The Clean Garage",
+      "content_length": 13627,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanandshiny.co.uk/products/q2m-ppf-maintain-400-ml",
+      "domain": "cleanandshiny.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Maintain Redefined",
+      "content_length": 7816,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.mycarcleaning.co.uk/products/gyeon-q2m-ppf-maintain-400ml",
+      "domain": "mycarcleaning.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Maintain",
+      "content_length": 9381,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

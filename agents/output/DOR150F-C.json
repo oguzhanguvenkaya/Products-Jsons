@@ -1,0 +1,42 @@
+{
+  "sku": "DOR150F-C",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Orbital Tek Adım Uygulama Süngeri (Turuncu) - 150mm",
+    "brand": "MG PS",
+    "barcode": "8683492660604",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "One Step",
+      "color": "Turuncu",
+      "diameter_mm": 150,
+      "base_diameter_mm": 130,
+      "machine_compatibility": ["Orbital"],
+      "cell_structure": "Open Cell",
+      "hardness": "Medium"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 130mm orbital tabanlığa takın.\n2. One Step pasta/cila damlatın.\n3. Düşük devirde başlatarak ürünü yüzeye yayın.\n4. Orta devirde çapraz geçişlerle çalışın.\n5. Ürün kaybolana kadar işleme devam edin.\n6. Mikrofiber ile silin ve parlaklığı kontrol edin.",
+      "when_to_use": "Tek adımda kesim ve parlaklık gereken durumlarda, hafif-orta çiziklerde hızlı düzeltme için, zaman kısıtlı uygulamalarda kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, tüm boya tipleri",
+      "why_this_product": "• Tek adımda kesim ve parlaklık dengesi\n• Açık gözenekli yapı ile homojen ürün dağılımı\n• One Step ürünleri ile mükemmel uyum\n• Zaman tasarrufu sağlar"
+    },
+    "faq": [
+      {"question": "Turuncu ped ne için kullanılır?", "answer": "One Step (tek adım) pasta/cila uygulamaları için tasarlanmıştır. Hem kesim hem parlaklık sağlar."},
+      {"question": "Hangi ürünlerle kullanılır?", "answer": "Menzerna One Step Polish 3in1 ve benzeri tek adım ürünleri ile kullanılır."},
+      {"question": "Ağır çizikler için yeterli mi?", "answer": "Hafif-orta çizikler için idealdir. Derin çiziklerde gri ped ile başlamak gerekebilir."},
+      {"question": "Rotary versiyonu var mı?", "answer": "Evet, DOR160F rotary makineler için tasarlanmış tek adım süngeridir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["22.992.281.001"], "accessories": [], "alternatives": ["DOR160F"]}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sku": "82676",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK FOAM PRO 12 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 12 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102126",
+    "group": "sprayers_bottles",
+    "sub_type": "foaming_pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 10,
+      "capacity_usable_lt": 6,
+      "max_pressure_bar": 4.0,
+      "hose_length_m": 1.3,
+      "gun_length_cm": 47,
+      "gun_material": "Fiberglas",
+      "nozzle_type": "Köpük yapıcı açılı özel nozul",
+      "foam_adjustable": true,
+      "compressor_connection": true,
+      "safety_valve": true,
+      "weight_net_kg": 2.57
+    },
+    "content": {
+      "how_to_use": "1. Geniş ağızdan kimyasalı doldurun (max 6L).\n2. Manuel pompalama veya dahili hava girişinden kompresör ile basınçlandırın.\n3. Köpük türünü seçin: Yeşil (kuru), Gri (orta), Turuncu (ıslak).\n4. Fiberglas tabancayı tutma alanından kavrayın.\n5. Emniyet kilidini açarak 1.3m hortum ile yüzeye uygulayın.\n6. İçerik tanımlama kartlarını (yeşil-kırmızı) kullanın.",
+      "when_to_use": "Profesyonel araç yıkama merkezlerinde, geniş alan temizlik ve dezenfeksiyonunda, endüstriyel mutfak temizliğinde, HVAC sistem bakımında, yüksek hacimli köpük uygulamalarında kullanılır.",
+      "target_surface": "Araç filosu, endüstriyel zeminler, gıda işleme alanları, HVAC sistemleri",
+      "why_this_product": "• Profesyonel geniş hacim - 6 litre kullanılabilir kapasite\n• 1.3 metre hortum ve 47cm fiberglas tabanca\n• Dahili hava kompresör bağlantısı\n• 4 bar basınçlı emniyet valfi"
+    },
+    "faq": [
+      {"question": "Ne kadar süre köpük uygulaması yapılabilir?", "answer": "6 litre kullanılabilir kapasite ile uzun süreli kesintisiz köpük uygulaması mümkündür."},
+      {"question": "Kompresör bağlantısı var mı?", "answer": "Evet, dahili hava giriş bağlantı yeri sayesinde kompresör ile hızlı basınçlandırma yapılabilir."},
+      {"question": "Tabanca malzemesi nedir?", "answer": "47cm uzunluğunda fiberglas tabanca dayanıklılık ve hafiflik sağlar."},
+      {"question": "Basınç kapasitesi nedir?", "answer": "4 bar (58 psi) ayarlı otomatik basınç boşaltma özelliğine sahiptir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81678"]}
+  }
+}

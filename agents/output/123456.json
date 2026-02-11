@@ -1,0 +1,45 @@
+{
+  "sku": "123456",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA TINT TEC 10 PPF Folyo Cam Filmi Uygulamaları İçin Pompa 10 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916067343",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "PPF ve Cam Filmi Uygulama Pompası",
+      "capacity_ml": 9880,
+      "working_capacity_ml": 7900,
+      "max_pressure_bar": 3,
+      "hose_length_m": 3.1,
+      "seal_type": "NBR",
+      "bottle_color": "Beyaz",
+      "head_color": "Siyah",
+      "trigger_material": "PP",
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Hazneyi kaydırıcı sıvı, sabun veya su karışımı ile doldurun (max 7.9L).\n2. Kapağı sıkıca kapatın ve pompayı çalıştırarak basınç oluşturun.\n3. 3 bar basınca ulaşıldığında emniyet valfi devreye girer.\n4. Ayarlanabilir nozulü buhar veya jet moduna göre ayarlayın.\n5. 3.1 metre hortum sayesinde rahatça uygulama yapın.\n6. İşlem bitiminde fazla hava tahliye valfi ile basıncı düşürün.",
+      "when_to_use": "PPF folyo ve cam filmi uygulamalarında kaydırıcı sıvı püskürtmek için kullanılır. Geniş yüzeylerde ve profesyonel uygulamalarda idealdir.",
+      "target_surface": "PPF folyo, cam filmi, araç camları, araç kaportası",
+      "why_this_product": "• 10 litre kapasiteli - kesintisiz uzun süreli çalışma\n• 3.1 metre esnek hortum - geniş hareket alanı\n• Ayarlanabilir nozul - buhar ve jet modları\n• Kimyasal dirençli NBR contalar\n• İtalyan EPOCA kalitesi - 50+ yıllık tecrübe"
+    },
+    "faq": [
+      {"question": "Hangi kimyasallarla kullanılabilir?", "answer": "Kaydırıcı ürünler, sabun, %5'e kadar alkol ve 30°C'ye kadar su ile kullanılabilir."},
+      {"question": "Toplam ve çalışma kapasitesi nedir?", "answer": "Toplam kapasite 9880 ml, çalışma kapasitesi 7900 ml'dir. Basınç için hazne tamamen doldurulmamalıdır."},
+      {"question": "Maksimum basınç ne kadar?", "answer": "3 bar maksimum basınçla çalışır. Emniyet valfi aşırı basıncı önler."},
+      {"question": "Hortum uzunluğu ne kadar?", "answer": "3.1 metre esnek hortum ile geniş bir çalışma alanı sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

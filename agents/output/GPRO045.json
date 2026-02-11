@@ -1,0 +1,46 @@
+{
+  "sku": "GPRO045",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "sub_type_flag": "ISSUE: Bu ürün polisher_machine kategorisinde olmamalı - polishing_pad kategorisinde olmalı (mini polisaj süngeri)",
+  "product_info": {
+    "title": "MG PS Hare/Hologram Giderici Cila Süngeri Flat (Sarı) 45mm - Mini Polisaj Makinesi Uyumlu",
+    "brand": "MG PS",
+    "barcode": "8683492660499",
+    "group": "polisher_machine",
+    "sub_type": "mini_polishing_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "mini_polishing_pad",
+      "pad_type": "finishing",
+      "base_diameter_mm": 35,
+      "surface_diameter_mm": 45,
+      "height_mm": 15,
+      "hardness": "Medium-Soft",
+      "cell_structure": "Open",
+      "color": "Yellow",
+      "shape": "Flat",
+      "pack_quantity": 1,
+      "compatible_machine": "Nano/Mini polisher"
+    },
+    "content": {
+      "how_to_use": "1. Flat süngeri mini/nano polisaj makinesinin tabanlığına takın.\n2. Hare giderici veya cila ürünü uygulayın.\n3. Makineyi düşük devirde başlatarak ürünü yayın.\n4. Orta devirde çalışarak hare ve hologramları giderin.\n5. Kalıntıları yumuşak mikrofiber ile silin.",
+      "when_to_use": "Mini polisaj makinesi ile düz dar yüzeylerde pasta sonrası hare/hologram giderme ve final cila için kullanılır.",
+      "target_surface": "Araç boyası - düz dar alanlar, kapı kenarları, bagaj çizgileri",
+      "why_this_product": "• 45mm flat tasarım - düz yüzeyler için\n• Orta-yumuşak doku - hare giderme\n• Sarı renk - cila süngeri\n• Açık gözenekli yapı"
+    },
+    "faq": [
+      {"question": "BUR045 bordo sünger ile birlikte nasıl kullanılır?", "answer": "Önce BUR045 bordo sert sünger ile pasta işlemi, ardından GPRO045 sarı yumuşak sünger ile hare giderme yapılır."},
+      {"question": "Kubbe formlu versiyondan farkı nedir?", "answer": "Flat (düz) tasarım düz yüzeylerde daha etkili çalışır. GPRO4535 kubbe form köşeli alanlar için uygundur."},
+      {"question": "5'li paket var mı?", "answer": "Bu ürün tekli satılmaktadır. 5'li paket için GPRO4535 tercih edilebilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["418102", "BUR045"], "accessories": [], "alternatives": ["GPRO4535", "GPRO6555"]}
+  }
+}

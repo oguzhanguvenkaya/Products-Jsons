@@ -1,0 +1,47 @@
+{
+  "sku": "Q2-PPFE50M",
+  "product_name": "Gyeon Q2 Ppf Seramik Kaplama 50 ml",
+  "barcode": "Q2-PPFE50M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:36:59.389Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/gyeon-ppf-evo-ceramic-coating-50ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² PPF EVO Ceramic Coating 50ml | CARZILLA",
+      "content_length": 17523,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2-ppf-evo",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² PPF EVO Coating | Ceramic Protection for PPF &amp; Vinyl Wrap — Polished Bliss",
+      "content_length": 10142,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/PPF-Evo-P3096/50-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon PPF Evo - 50 ml - Detailed Image",
+      "content_length": 12630,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

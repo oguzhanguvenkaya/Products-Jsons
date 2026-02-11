@@ -1,0 +1,22 @@
+{
+  "sku": "SGGD289",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Araç Yıkama Tabancası Tutacağı", "brand": "SGCB", "barcode": "6973086160477", "group": "storage_accessories", "sub_type": "holder_clamp"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "PP Plastik", "max_load_lbs": 55, "dimensions_cm": "15x15x16", "barrel_size_mm": "48x52", "wall_mountable": true},
+    "content": {
+      "how_to_use": "1. İşaretli noktalara matkap ile 4 delik açın.\n2. Duvar ankrajlarını deliklere çakın.\n3. Vidaları tornavida ile tutucuya takarak sabitleyin.\n4. Yıkama tabancasını namlu bölümüne yerleştirin.\n5. Hortumu genişletilmiş tasarımda sarın.",
+      "when_to_use": "Araç yıkama tabancası ve hortumunun düzenli saklanması için kullanılır. Garaj, atölye ve detailing merkezlerinde yer tasarrufu sağlar.",
+      "target_surface": "Duvar",
+      "why_this_product": "• 55 lbs (25 kg) taşıma kapasitesi\n• Paslanmaz, su geçirmez PP malzeme\n• Genişletilmiş tasarım - hortum deformasyonunu önler\n• Kolay montaj sistemi"
+    },
+    "faq": [
+      {"question": "Hortum bükülür mü?", "answer": "Genişletilmiş tasarım hortumun bükülmesini veya deformasyonunu önler."},
+      {"question": "Ağır tabancaları tutar mı?", "answer": "Evet, 55 lbs (yaklaşık 25 kg) taşıma kapasitesine sahiptir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

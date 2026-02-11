@@ -1,0 +1,43 @@
+{
+  "sku": "Q2M-TCYA500M",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Tire Cleaner Araç Lastik Kauçuk Temizleyici - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809432674702",
+    "group": "tire_cleaner",
+    "sub_type": "tire_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Lastik ve Kauçuk Temizleyici",
+      "ph_level": "10 (Alkali)",
+      "foam_level": "Yüksek",
+      "ready_to_use": true,
+      "consumption": "20 ml/lastik",
+      "coating_safe": true,
+      "volume_ml": 500,
+      "made_in": "Güney Kore"
+    },
+    "content": {
+      "how_to_use": "1. Lastikleri suyla ıslatın.\n2. Ürünü bolca uygulayın - her lastiği ayrı çalışın.\n3. GYEON Tire Brush ile detaylıca fırçalayın.\n4. 1-2 dakika bekleyin - kurumaya izin vermeyin.\n5. Basınçlı suyla iyice durulayın.\n6. Çıkan köpük beyaz değilse adımları tekrarlayın.",
+      "when_to_use": "Parlatıcı öncesi hazırlık, eski parlatıcı kalıntılarını sökmek, lastik gözeneklerini temizlemek ve yeni dressing için tutunma zemini oluşturmak için kullanın.",
+      "target_surface": "Araç lastikleri, kauçuk yüzeyler, beyaz yanaklı lastikler",
+      "why_this_product": "• pH 10 alkali formül - eski parlatıcı kalıntılarını çözer\n• Derin gözenek temizliği - köpüren formül kiri dışarı atar\n• Kaplama güvenli - seramik jantlara zarar vermez\n• Ekonomik - 20 ml/lastik tüketim"
+    },
+    "faq": [
+      {"question": "Sıcak lastikte kullanabilir miyim?", "answer": "Hayır, lastik serinlemeli, aksi halde ürün kuruyabilir."},
+      {"question": "Beyaz yanaklı lastiklerde güvenli mi?", "answer": "Evet, sararmış şeritleri güvenle temizler, iz bırakmaz."},
+      {"question": "Seramik kaplı jantlara zarar verir mi?", "answer": "Hayır, kaplama dostudur, hidrofobiyi düşürmez."},
+      {"question": "Seyreltme gerekiyor mu?", "answer": "Hayır, kullanıma hazırdır."}
+    ],
+    "relations": {"use_before": ["Q2M-TE500M", "Q2M-TEYA1000M"], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-TCYA1000M"]}
+  }
+}

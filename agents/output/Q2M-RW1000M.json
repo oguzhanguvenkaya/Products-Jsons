@@ -1,0 +1,43 @@
+{
+  "sku": "Q2M-RW1000M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM RestartWash Konsantre Yüzey Yenileyici Şampuan - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8809432677796",
+    "group": "car_shampoo",
+    "sub_type": "decon_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "6 (Hafif Asidik)",
+      "concentrate": true,
+      "dilution_ratio": "1:500",
+      "iron_remover": true,
+      "coating_restorer": true,
+      "safe_on_ceramic_coatings": true,
+      "consumption_ml_per_car": 25,
+      "washes_per_bottle": 40
+    },
+    "content": {
+      "how_to_use": "1. Kovanıza veya köpük tabancanıza 20-30 ml ürün ekleyin.\n2. Yüzeye bolca sürün ve 2 dakika bekletin.\n3. Durulayın.\n4. Jantlar ve lastikler dahil tüm dış bileşenlerde güvenle kullanabilirsiniz.",
+      "when_to_use": "Seramik kaplama, wax ve boya koruma ürünlerinin performansı azaldığında, yüzeydeki artıkları temizlemek ve kaplamanın özelliklerini yeniden kazandırmak için kullanılır.",
+      "target_surface": "Seramik kaplama, wax, sealant, araç boyası, jant, lastik",
+      "why_this_product": "• Temizler, dekontamine eder ve kaplama özelliklerini geri kazandırır\n• Mevcut hidrofobiyi geri getirir\n• Demir ve balata tozlarını çözmeye yardımcı olur\n• Ultra kaygan zemin sağlar"
+    },
+    "faq": [
+      {"question": "Bathe+ ile farkı nedir?", "answer": "Bathe+ yeni hidrofobi katmanı ekler, RestartWash ise mevcut kaplamanın özelliklerini geri getirir."},
+      {"question": "Hangi yüzeylerde kullanabilirim?", "answer": "Jantlar ve lastikler dahil tüm dış bileşenlerde güvenle kullanabilirsiniz."},
+      {"question": "Köpük tabancasında kullanılabilir mi?", "answer": "Evet, hem köpük tabancası hem de geleneksel kova şampuanı olarak kullanılabilir."},
+      {"question": "Ne sıklıkla kullanmalıyım?", "answer": "Hidrofobi azaldığında veya düzensiz bakım sonrası kullanmanız önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-RWYA500M", "Q2M-RWYA1000M"]}
+  }
+}

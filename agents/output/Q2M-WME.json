@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-WME",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Wheelmitt EVO Jantlara Özel Dayanıklı Yıkama Eldiveni", "brand": "GYEON", "barcode": "8809432671367", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "Ergonomik", "gsm": 1250, "target_surface": "Jantlar", "features": "Fren tozuna ve kire dayanıklı", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. Jant yüzeylerini tazyikli suyla ön yıkama yaparak kaba kirleri uzaklaştırın.\n2. Jant temizleyicinizi (örn: Q²M Iron WheelCleaner) yüzeye püskürtün.\n3. WheelMitt EVO'yu şampuanlı kovaya daldırıp bolca emmesini sağlayın.\n4. Hafif ve kontrollü hareketlerle jantları temizleyin.\n5. Sık sık durulayarak içerisindeki kiri atmasını sağlayın.",
+      "when_to_use": "Jant temizliği, dar jant aralıkları, fren kaliperleri, egzoz uçları ve ulaşılması güç bölgeler için kullanılır.",
+      "target_surface": "Jantlar (boyalı, krom, kaplamalı, seramik kaplı), fren kaliperleri, egzoz uçları",
+      "why_this_product": "• 1250 GSM premium mikrofiber yapı\n• Üç farklı elyaf teknolojisi + twist-loop lifler\n• Ergonomik bilek kuşağı - kaymayı önler\n• Fren tozu ve yol kirine dayanıklı"
+    },
+    "faq": [
+      {"question": "Seramik kaplı jantlarda kullanılabilir mi?", "answer": "Evet, hassas boyalı, krom ve seramik kaplı yüzeylerde çiziksiz temizlik sağlar."},
+      {"question": "Sadece elde mi yıkanmalı?", "answer": "Evet, sadece elde maksimum 30°C sıcaklıkta yıkama önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-IWCR1000M"], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "sku": "79281",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR SP1 PREWASH Enzimli Ön Yıkama Şampuanı Konsantre - 4,54 lt",
+    "brand": "INNOVACAR",
+    "barcode": "8027486798025",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "11.50 (Alkali)",
+      "technology": "Enzim Bazlı (Patent No: 14730984.3)",
+      "touchless_cleaning": true,
+      "naoh_free": true,
+      "phosphorus_free": true,
+      "edta_free": true,
+      "nta_free": true,
+      "safe_on_ceramic_coatings": true,
+      "plant_based_surfactants": true,
+      "consumption_ml_per_car": 50,
+      "volume_liters": 4.54
+    },
+    "content": {
+      "how_to_use": "1. Standart Kullanım: 20 ml ürünü 1 L suyla seyreltin (1:50-1:100), tüm araca püskürtün, 1-3 dk bekleyin ve durulayın.\n2. Köpük Tabancası: 1:3 ile 1:9 arasında, sık yıkamalarda 1:15'e kadar seyreltme.\n3. Yoğun Kir/Böcek: 1:25 oranında (40 ml ürün/L su).\n4. Jant ve Lastik: 1:5 - 1:15 arası seyreltme.",
+      "when_to_use": "Temassız ön yıkama işlemlerinde, yol kiri ve böcek kalıntılarının temizliğinde, kaplama uygulanmış araçların güvenli temizliğinde, cilalama veya kaplama öncesi detaylı temizlikte kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, nano kaplama, jant, lastik, plastik trimler",
+      "why_this_product": "• En inatçı organik kirleri bile temizler\n• Enzimler kir molekülleri üzerinde birkaç kez etki edebilir\n• Mekanik etki olmadan kaplamaya zarar vermez\n• Koruyucu tabakaların ömrünü uzatır"
+    },
+    "faq": [
+      {"question": "pH 11.50 kaplamalara zarar vermez mi?", "answer": "Sodyum hidroksit içermediği ve bitkisel yüzey aktif maddeler kullanıldığı için hassas parçalar için güvenlidir."},
+      {"question": "Köpük tabancasında nasıl kullanılır?", "answer": "1:3 ile 1:9 arasında seyreltme, sık yıkamalarda 1:15'e kadar kullanılabilir."},
+      {"question": "Kurumasına izin verilmeli mi?", "answer": "Hayır, ürünü sıcak yüzeylere uygulamayın ve kurumasına izin vermeyin."},
+      {"question": "4.54 L ile kaç yıkama yapılabilir?", "answer": "Araç başı 50 ml hesabıyla yaklaşık 90 yıkama yapılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79280"]}
+  }
+}

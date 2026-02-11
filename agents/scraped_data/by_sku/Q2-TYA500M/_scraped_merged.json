@@ -1,0 +1,83 @@
+{
+  "sku": "Q2-TYA500M",
+  "product_name": "Gyeon Quartz Gyeon Q² Tire Lastik Parlatıcı Ve Koruyucu Jel - 500 Ml -Seramik Bazlı Lastik Teker",
+  "barcode": "Q2-TYA500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:24:53.576Z",
+  "sources": [
+    {
+      "url": "https://gyeonusa.com/products/q2-tire",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q² Tire | Gyeon Quartz USA",
+      "content_length": 7973,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.blok51.com/gyeon-q2-tire-500-ml.html",
+      "domain": "blok51.com",
+      "language": "en",
+      "page_title": "Gyeon Q² Tire - 500 ml | Blok 51 Northern Ireland",
+      "content_length": 5767,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.goldlabelcarcare.co.uk/products/gyeon-q2-tire-400ml",
+      "domain": "goldlabelcarcare.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² Tire 500ml — Gold Label Car Care and Detailing Supplies",
+      "content_length": 31449,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2-tire-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2 Tire 500ml | Product",
+      "content_length": 12499,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/q2-tire-sio2-coating-400ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² Tire SiO2 Coating 500ml | CARZILLA",
+      "content_length": 13820,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanandshiny.co.uk/products/gyeon-q2-tire-400ml",
+      "domain": "cleanandshiny.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q2 Tire 400ml | Tyre Dressing | FREE UK Delivery Available",
+      "content_length": 7429,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

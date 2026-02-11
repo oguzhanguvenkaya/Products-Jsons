@@ -1,0 +1,41 @@
+{
+  "sku": "3219",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "KLIN Green Monster Zorlu Yağ/Kir İçin Temizlik Bezi - 40x36 cm",
+    "brand": "KLIN",
+    "barcode": "8809512170377",
+    "group": "microfiber",
+    "sub_type": "cleaning_cloth"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Zorlu Kir ve Yağ Temizliği",
+      "material": "Elastik Fiber + Polimer Kaplama",
+      "dimensions": "30 x 60 cm",
+      "color": "Yeşil",
+      "ccs_system": true,
+      "made_in": "Güney Kore"
+    },
+    "content": {
+      "how_to_use": "1. Bezi su ile ıslatın.\n2. Zorlu kirli alanlara (jant, motor bölmesi, lastik) uygulayın.\n3. Nazikçe ovun - polimer kaplama kiri çözer.\n4. Kullanım sırasında çizik oluşturabilecek kir birikimini önlemek için bezi sık sık kontrol edin.\n5. Yıkama: Mikrofiber şampuanı ile max 40°C, sıkmadan asarak kurutun.",
+      "when_to_use": "Jant, motor bölmesi, lastik, motorsiklet ve ATV'lerde biriken balata tozu ve yağ temizliği için kullanın. Sadece su ile bile etkili temizlik sağlar.",
+      "target_surface": "Jantlar, motor bölmesi, lastikler, motorsikletler, ATV'ler",
+      "why_this_product": "• Tescilli polimer kaplama - zorlu kirleri kolayca çözer\n• Dayanıklı elastik fiber yapısı\n• Sadece su ile kullanılabilir\n• CCS sistemi - paketten çıkıp anında kullanıma hazır\n• Defalarca yıkanıp kullanılabilir"
+    },
+    "faq": [
+      {"question": "Green Monster neden farklı?", "answer": "Tescilli polimer kaplama ve dayanıklı elastik fiber yapısı sayesinde zorlu kirleri sadece su ekleyerek temizler."},
+      {"question": "CCS sistemi nedir?", "answer": "Contaminent Control System - ürün ön yıkamalı gelir, paketten çıkarıp hemen kullanabilirsiniz."},
+      {"question": "Nasıl yıkanır?", "answer": "Maksimum 40°C'de mikrofiber şampuanı ile yıkayın. Sıkma yapmayın, asarak kurutun."},
+      {"question": "Yumuşatıcı kullanılabilir mi?", "answer": "Hayır, yumuşatıcı, çamaşır suyu ve benzer temizleyiciler kullanmayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

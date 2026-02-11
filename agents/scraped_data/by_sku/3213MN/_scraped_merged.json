@@ -1,0 +1,35 @@
+{
+  "sku": "3213MN",
+  "product_name": "Klın Drying Duo Çift Taraflı Kurulama Havlusu 1200 Gsm (Lacivert) - 70X45CM",
+  "barcode": "3213MN",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:28:58.359Z",
+  "sources": [
+    {
+      "url": "https://www.detail-division.com/products/kl-n-drying-towel-duo",
+      "domain": "detail-division.com",
+      "language": "en",
+      "page_title": "KL!N Korea Drying Towel DUO (L) | DETAIL DIVISION - Detail-Division",
+      "content_length": 16832,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.mycarcleaning.co.uk/products/klin-korea-wash-pad-red",
+      "domain": "mycarcleaning.co.uk",
+      "language": "en",
+      "page_title": "Klin Korea Wash Pad+ - Red",
+      "content_length": 9100,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

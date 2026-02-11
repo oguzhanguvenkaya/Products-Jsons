@@ -1,0 +1,59 @@
+{
+  "sku": "Q2-W175G",
+  "product_name": "Gyeon Q² Wax Hidrofobik Parlatıcı Boya Koruma 175GR",
+  "barcode": "Q2-W175G",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:35:19.036Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/wax/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q² WAX - GYEON",
+      "content_length": 12087,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q-wax-175g",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² Wax 175g | CARZILLA",
+      "content_length": 13412,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q-wax",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² Wax | High-Gloss Carnauba Wax &amp; Hydrophobic Protection — Polished Bliss",
+      "content_length": 10674,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Wax-P2451/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Wax - 6 oz - Detailed Image",
+      "content_length": 13608,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

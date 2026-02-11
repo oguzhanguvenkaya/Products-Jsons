@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "26931.099.001",
+    "product_name": "Menzerna Polisaj Dayanıklı Tabanlığı Kırmızı 123 MM",
+    "barcode": "26931.099.001",
+    "url": "https://www.springriver.eu/menzerna-premium-backing-plate-123-mm.html",
+    "url_index": 2,
+    "domain": "springriver.eu",
+    "scraped_at": "2026-02-07T22:38:24.547Z",
+    "scrape_duration_ms": 3540,
+    "http_status": 403,
+    "content_type": "text/html",
+    "content_length_bytes": 75697,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "403 - Forbidden",
+    "raw_markdown": "bg_error_lines\n\ncircle_dots\n\n# 403 - Forbidden\n\nAccess to this page is forbidden.\n\nclouds_shape",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": true
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_2_springriver.eu.html"
+  }
+}

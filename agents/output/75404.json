@@ -1,0 +1,42 @@
+{
+  "sku": "75404",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Lava Interni B Aroma Enzimli Genel Amaçlı Detaylı Araç Temizleyici (1:40 Konsantre) - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486752577",
+    "group": "interior_cleaner",
+    "sub_type": "fabric_cleaner_concentrate"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Kumaş"],
+      "concentrate": true,
+      "dilution_ratio": "1:25 - 1:50",
+      "enzyme_formula": true,
+      "odor_eliminator": true,
+      "fast_drying": true,
+      "weight_kg": 25
+    },
+    "content": {
+      "how_to_use": "1. Ürünü 1:25 ile 1:50 arasında su ile seyreltin.\n2. Kumaş yüzeye püskürtün veya ekstraksiyon makinesinde kullanın.\n3. Enzim formülünün etkili olması için birkaç dakika bekleyin.\n4. Manuel veya makine ile temizleyin.\n5. Hızlı kuruma avantajından yararlanın.",
+      "when_to_use": "Profesyonel araç yıkama merkezlerinde yoğun kullanım için, araç içi kumaş yüzeylerin derinlemesine temizliğinde, organik kir ve leke gidermede, kötü koku problemlerinin çözümünde kullanılır.",
+      "target_surface": "Kumaş koltuklar, halılar, paspaslar, araç içi tüm tekstil yüzeyler",
+      "why_this_product": "• Profesyonel boy - 25 kg ile yoğun kullanım\n• Enzim bazlı teknoloji - lifleri sıkıştırır ve kötü kokuları yok eder\n• Organik kalıntıları biyolojik olarak parçalar\n• Hızlı kuruma avantajı"
+    },
+    "faq": [
+      {"question": "5 kg versiyonundan farkı nedir?", "answer": "Aynı formül, profesyonel kullanım için ekonomik hacim."},
+      {"question": "Enzim formülü ne işe yarar?", "answer": "Lifleri sıkıştırır ve kötü kokuları yok eder, organik kir moleküllerini biyolojik olarak parçalar."},
+      {"question": "Saklama koşulları nelerdir?", "answer": "Ürünü 5°C'nin üzerindeki sıcaklıklarda saklayın."},
+      {"question": "Ekstraksiyon makinesiyle uyumlu mu?", "answer": "Evet, hem manuel hem de otomatik ekstraksiyon sistemleriyle uyumlu şekilde kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["75614"]}
+  }
+}

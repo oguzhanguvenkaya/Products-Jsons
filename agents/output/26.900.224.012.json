@@ -1,0 +1,43 @@
+{
+  "sku": "26.900.224.012",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA Hare Giderici Cila Süngeri (Yeşil) - 150mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Finish",
+      "color": "Yeşil",
+      "diameter_mm": 150,
+      "base_diameter_mm": 130,
+      "machine_compatibility": ["Rotary", "Orbital"],
+      "hardness": "Soft",
+      "washable": true,
+      "safety_edge": true
+    },
+    "content": {
+      "how_to_use": "1. Pedi tabanlık diskine takın ve düzgün oturduğundan emin olun.\n2. Ped yüzeyine hare giderici cila (Menzerna FF 3000, 3500, 3800) damlatın.\n3. Makineyi düşük-orta devirde başlatarak ürünü yüzeye yayın.\n4. Hafif basınçla panel bazlı çalışın, çapraz geçişlerle uygulayın.\n5. Yüzeyi spot ışıkla kontrol edin, hare kalmadığından emin olun.\n6. Kullanım sonrası pedi ılık suyla yıkayın ve kurutun.",
+      "when_to_use": "Polisaj sonrası hare ve hologram gideriminde, son kat parlaklık uygulamalarında, koruyucu ürün öncesi yüzey hazırlığında kullanılır. Final Finish 3000, 3500, 3800 ve Power Protect Ultra 2in1 ile ideal performans sunar.",
+      "target_surface": "Otomotiv boyası, vernik, tüm boya tipleri, hassas yüzeyler",
+      "why_this_product": "• Yumuşak yapısı ile hare ve hologram bırakmadan parlatır\n• Güvenlik kenarı destek diskinden kaynaklanan hasarı önler\n• Yıkanabilir ve uzun ömürlü tasarım\n• Orijinal Menzerna cilaları ile optimize edilmiş performans"
+    },
+    "faq": [
+      {"question": "Bu ped hangi Menzerna ürünleriyle kullanılır?", "answer": "Final Finish 3000, 3500, 3800 ve Power Protect Ultra 2in1 ile kullanım için optimize edilmiştir."},
+      {"question": "Hare nedir ve nasıl oluşur?", "answer": "Hare, polisaj sırasında oluşan ince dairesel çiziklerdir. Sert ped veya agresif pasta kullanımından kaynaklanır ve yumuşak ped ile ince cila ile giderilir."},
+      {"question": "Koruma ürünleri öncesi kullanılmalı mı?", "answer": "Evet, wax veya sealant uygulaması öncesinde bu ped ile son kat parlatma yapılması önerilir."},
+      {"question": "Taban çapı nedir?", "answer": "Taban çapı 130mm, yüzey çapı 150mm'dir. 5 inç (125-130mm) tabanlıklarla uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": ["26.900.224.010", "26.900.224.011"], "use_with": ["22.992.281.001", "22.992.261.001"], "accessories": ["26.935.099.001"], "alternatives": ["GPRO150F-C", "GPRO180F-C"]}
+  }
+}

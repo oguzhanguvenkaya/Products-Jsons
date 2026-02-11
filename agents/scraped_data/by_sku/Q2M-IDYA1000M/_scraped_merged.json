@@ -1,0 +1,59 @@
+{
+  "sku": "Q2M-IDYA1000M",
+  "product_name": "Gyeon Q²m Interiordetailer Araç Içi Temizleyici - 1000 ml -Alkol Bazlı Dezenfektan",
+  "barcode": "Q2M-IDYA1000M",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:22:31.069Z",
+  "sources": [
+    {
+      "url": "https://www.irepdetailsupply.com/gyeon-q2m-interior-detailer-1000ml.html",
+      "domain": "irepdetailsupply.com",
+      "language": "us",
+      "page_title": "Gyeon Q²M Interior Detailer (1000ML) - iRep Auto Detail Supply",
+      "content_length": 13745,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Interior-Detailer-P2482/1000-ml-S2/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Interior Detailer - 1000 ml - Detailed Image",
+      "content_length": 16867,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.mycarcleaning.co.uk/products/gyeon-q2m-interior-detailer",
+      "domain": "mycarcleaning.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Interior Detailer",
+      "content_length": 9567,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeonusa.com/products/q-m-interior-detailer",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q²M Interior Detailer | Gyeon Quartz USA",
+      "content_length": 10694,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

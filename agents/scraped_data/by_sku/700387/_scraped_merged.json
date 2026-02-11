@@ -1,0 +1,35 @@
+{
+  "sku": "700387",
+  "product_name": "Fra-Ber Spumone Self Yağ Çözücü Güçlü Ön Yıkama Köpüğü - 1000 ml",
+  "barcode": "700387",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:17:15.649Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/prodotto-prelavaggio-auto-e-detergente-spumone-self?variant=43696501948624",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Car Pre-Wash Detergent and Degreaser: Fra-Ber Spumone Self",
+      "content_length": 21014,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://elhuria.com/en/product/6232-sabamone-high-concentration-outdoor-foam-1-liter-fra-ber-spumone-self",
+      "domain": "elhuria.com",
+      "language": "en",
+      "page_title": "Sabamone High Concentration Outdoor Foam – 1 Liter Fra-Ber Spumone Self",
+      "content_length": 19260,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

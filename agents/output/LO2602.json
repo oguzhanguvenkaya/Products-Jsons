@@ -1,0 +1,41 @@
+{
+  "sku": "LO2602",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Türkiye'yi Seviyorum Yeni Araç Kokusu (New Car)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186844109",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "New Car",
+      "durability_days": 45,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "Türkiye Temalı"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Milli duygularını taşımak isteyen ve yeni araç kokusu sevenler için idealdir. Türkiye'ye özel kırmızı-beyaz tasarımıyla vatan sevgisini yansıtır.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Türkiye'ye özel tasarım ve milli renkler\n• 45 güne kadar kalıcı yeni araç kokusu\n• Alkol ve toksik madde içermez\n• İtalyan kalitesi, dünya standartları"
+    },
+    "faq": [
+      {"question": "Bu ürün neden özel?", "answer": "Türkiye'ye özel tasarlanmış, kırmızı-beyaz renkleri ve milli duyguları yansıtan dekoratif bir araç kokusudur."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Yeni araç kokusu nasıl?", "answer": "Showroom'dan yeni çıkmış bir aracın temiz ve ferah kokusunu yansıtır."},
+      {"question": "Hediye olarak uygun mu?", "answer": "Evet, Türkiye sevgisini paylaşmak isteyenler için anlamlı bir hediye seçeneğidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0202", "SJ0402", "LO2601"]}
+  }
+}

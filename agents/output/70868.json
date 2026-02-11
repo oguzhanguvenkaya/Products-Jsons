@@ -1,0 +1,43 @@
+{
+  "sku": "70868",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 750 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486708680",
+    "group": "interior_cleaner",
+    "sub_type": "tire_dressing"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Lastik", "Dış Plastik", "Kauçuk"],
+      "finish": "Yarı Mat / Mat",
+      "uv_protection": true,
+      "water_resistant": true,
+      "chemical_resistant": true,
+      "non_greasy": true,
+      "dilution_ratio": "Saf veya 1:2",
+      "volume_ml": 750
+    },
+    "content": {
+      "how_to_use": "1. Lastik veya plastik parçayı yıkayıp iyice kurutun.\n2. Şişeyi çalkalayın, yüzeye 15 cm mesafeden püskürtün.\n3. Sünger/pad ile eşit şekilde yayın.\n4. Bitiş seçimi: Yarı Mat için seyreltmeden, Mat için 1:2 (ürün:su) oranında seyreltip uygulayın.\n5. 10 dk bekleyin, fazla ürünü mikrofiber bezle alın.",
+      "when_to_use": "Detaylı yıkama sonrası lastik ve plastik yüzey yenilemede, showroom ve sergi öncesi kozmetik son dokunuşta, UV ve yol kirine karşı koruyucu bariyer oluşturmada, klasik araç restorasyonunda kullanılır.",
+      "target_surface": "Lastik yanağı, dış plastik tampon, ayna çerçevesi, kapı dış fitili, kauçuk contalar",
+      "why_this_product": "• Uzun ömürlü koruma - mikro gözeneklere nüfuz ederek erken çatlamayı önler\n• Bitiş esnekliği - yarı mat veya mat seçimi için seyreltme opsiyonu\n• Su ve kimyasal dayanımı - yıkama sonrası bile bariyerini korur\n• Yağsız, yapışmaz formül - toz birikimi ve sling riskini minimuma indirir"
+    },
+    "faq": [
+      {"question": "Mat bitiş için nasıl kullanılır?", "answer": "1:2 (ürün:su) oranında seyreltip karıştırın, ardından uygulayın."},
+      {"question": "Fren diskine zarar verir mi?", "answer": "Fren diski, lastik sırtı ve kayganlaşması riskli zeminlere püskürtmeyiniz."},
+      {"question": "Sealer veya wax üzerinde kullanılabilir mi?", "answer": "Hayır, sealer, wax veya seramik kaplama üzerinde kullanmayın."},
+      {"question": "Sıcak yüzeyde uygulanabilir mi?", "answer": "Hayır, ürünü doğrudan güneş altında veya sıcak lastikte uygulamayınız."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["70863"]}
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "sku": "SGGD188-02",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Hand Wax Sponge Yuvarlak El Uygulama Pedi 105mm", "brand": "SGCB", "barcode": null, "group": "applicators", "sub_type": "applicator_pad"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"diameter": "105 mm", "shape": "Yuvarlak", "type": "El uygulama pedi"},
+    "content": {
+      "how_to_use": "1. Ürünü pede damlatın veya yüzeye püskürtün.\n2. Dairesel hareketlerle yüzeye yayın.\n3. Eşit tabaka oluşturun.",
+      "when_to_use": "Wax, sealant ve koruma ürünlerinin el ile uygulanması için kullanılır.",
+      "target_surface": "Boyalı yüzeyler, vernik",
+      "why_this_product": "• 105mm yuvarlak tasarım\n• Kolay kavrama\n• Ekonomik"
+    },
+    "faq": [{"question": "Yıkanabilir mi?", "answer": "Evet, ılık su ve şampuanla yıkanabilir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "70919",
+  "product_name": "Fra-Ber Sentetik Güderi Bez Süper Kurulama Bezi 300 gr - 54X44 cm",
+  "barcode": "70919",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:12:09.886Z",
+  "sources": [
+    {
+      "url": "https://hamiltonclassic.co.uk/products/absorber-chamois",
+      "domain": "hamiltonclassic.co.uk",
+      "language": "en",
+      "page_title": "The Absorber - Miracle Chamois &ndash; Hamilton Classic",
+      "content_length": 5762,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://elhuria.com/en/product/6241-italian-rim-cleaner-(without-discolouration)-750-ml-fra-ber-lega",
+      "domain": "elhuria.com",
+      "language": "en",
+      "page_title": "Italian rim cleaner (without discolouration) 750 ml Fra-Ber Lega",
+      "content_length": 19271,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://shop.fra-ber.it/en/products/panno-in-pelle-per-auto-super-assorbente",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Fra-Ber Super Dry Super-Absorbent Leather Chamois Cloth",
+      "content_length": 15040,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

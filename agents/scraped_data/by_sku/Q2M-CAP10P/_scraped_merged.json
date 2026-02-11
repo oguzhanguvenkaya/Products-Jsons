@@ -1,0 +1,59 @@
+{
+  "sku": "Q2M-CAP10P",
+  "product_name": "Gyeon Q²m Coating Applicator Light Çift Taraflı Seramik Boya Yüzey Uygulama Pedi - 10'lu Paket",
+  "barcode": "Q2M-CAP10P",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:34:48.430Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/coating-applicator/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M COATING APPLICATOR - GYEON",
+      "content_length": 10128,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Coating-Applicator-2-Pack-P2461/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Coating Applicator 2 Pack - Detailed Image",
+      "content_length": 11873,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q-m-coating-applicator-2-pack",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Coating Applicator w/ Plastic Barrier | CARZILLA",
+      "content_length": 7911,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-suede-applicators-10x10-10-pack",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Suede EVO Applicators 10x10 (10 pack) | Product",
+      "content_length": 12625,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

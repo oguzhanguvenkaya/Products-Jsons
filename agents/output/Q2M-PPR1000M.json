@@ -1,0 +1,20 @@
+{
+  "sku": "Q2M-PPR1000M",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM PPF Renew PPF Folyo Temizleyici Yenileyici Ve Koruyucu Pasta - 1000 ml", "brand": "GYEON", "barcode": "8809432674658", "group": "abrasive_polish", "sub_type": "ppf_polish"},
+  "notes": {"size_variant": "1000 ml profesyonel boyut", "sub_type_review": "Template'de 'heavy_cut_compound' olarak yanlış işaretli. Doğrusu 'ppf_polish'."},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"target_surface": "PPF", "contains_protection": true, "protection_type": "SiO2", "machine_compatibility": ["orbital", "hand"], "function": "PPF Renovation & Protection"},
+    "content": {
+      "how_to_use": "1. Hazırlık: PPF yüzeyini GYEON Q²M PPF Wash ile temizleyin.\n2. Ped: Orbital polisaj süngerleri kullanın.\n3. Uygulama: Minimum-orta devirlerde çalışın. PPF'yi aşırı ısıtmayın!\n4. Temizlik: Mikrofiber bezle silin.",
+      "when_to_use": "PPF donuklaştığında, kirlendiğinde veya ilk kayganlığını kaybettiğinde kullanılır. SiO2 koruması sağlar.",
+      "target_surface": "PPF (Boya Koruma Filmi) - self-healing filmler dahil",
+      "why_this_product": "• Dünyanın ilk SiO2 PPF bakım ürünü\n• Parlaklık ve kayganlık geri kazandırır\n• UV ve kimyasal dayanım\n• 1000 ml profesyonel boyut"
+    },
+    "faq": [{"question": "120 ml ile aynı formül mü?", "answer": "Evet, aynı PPF Renew formülüdür. Yoğun kullanım için ekonomik boyut."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

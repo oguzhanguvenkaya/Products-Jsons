@@ -1,0 +1,35 @@
+{
+  "sku": "13724",
+  "product_name": "Epoca EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml",
+  "barcode": "13724",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:10:52.451Z",
+  "sources": [
+    {
+      "url": "https://www.horme.com.sg/product.aspx?id=10838",
+      "domain": "horme.com.sg",
+      "language": "en",
+      "page_title": "EPOCA EP10 + VELA 360 HAND SPRAYER 630ML - 8422 | Garden Hoses, Sprayers & Watering System | Horme Singapore",
+      "content_length": 7594,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://automotivesuperstore.com.au/epoca-ep01maxinbrw?filterVid=26183",
+      "domain": "automotivesuperstore.com.au",
+      "language": "en",
+      "page_title": "Attention Required! | Cloudflare",
+      "content_length": 806,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    }
+  ]
+}

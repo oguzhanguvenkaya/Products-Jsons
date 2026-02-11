@@ -1,0 +1,40 @@
+{
+  "sku": "70919",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Sentetik Güderi Bez Süper Kurulama Bezi 300 gr - 54x44 cm",
+    "brand": "FRA-BER",
+    "barcode": "8027486709199",
+    "group": "microfiber",
+    "sub_type": "chamois_drying_towel"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Kurulama ve Temizlik Bezi",
+      "material": "Sentetik Güderi",
+      "dimensions": "54 x 44 cm",
+      "weight_g": 300,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Bezi kullanmadan önce iyice ıslatın.\n2. Fazla suyu sıkın.\n3. Yüzeyi tek yönlü hareketlerle kurulayın.\n4. Nemlendiğinde tekrar sıkıp devam edin.\n5. Kullanım sonrası temiz suyla durulayıp serin yerde kurutun.",
+      "when_to_use": "Araç, motorsiklet, tekne ve ev yüzeylerinin temizliği ve kurulaması için kullanın. Yüksek emicilik özelliği ile hızlı ve iz bırakmayan kurulama sağlar.",
+      "target_surface": "Araç boyası, cam, plastik, ev yüzeyleri, tekne",
+      "why_this_product": "• Üstün su emicilik kapasitesi\n• Yüzeylere zarar vermez - çizmez\n• 54x44 cm geniş boyut\n• 300 gr dayanıklı yapı\n• Çok yönlü kullanım - araç, ev, tekne"
+    },
+    "faq": [
+      {"question": "Sentetik güderi bez ne işe yarar?", "answer": "Su ve sıvıları hızla emer, temizlik ve kurutma işlemlerini daha hızlı ve verimli hale getirir."},
+      {"question": "Boyaya zarar verir mi?", "answer": "Hayır, yumuşak yapısı sayesinde yüzeylere zarar vermez ve etkili temizlik sağlar."},
+      {"question": "Nasıl kullanılır?", "answer": "Kullanmadan önce iyice ıslatın ve fazla suyu sıkın. Bu, bezin performansını artırır."},
+      {"question": "Nerelerde kullanılabilir?", "answer": "Araba, motorsiklet, tekne ve evdeki her türlü yüzeyin bakımı ve temizliği için kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

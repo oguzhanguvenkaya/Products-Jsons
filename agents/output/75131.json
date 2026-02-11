@@ -1,0 +1,69 @@
+{
+  "sku": "75131",
+  "last_updated": "2026-02-04T14:10:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Tritone Tekne, Bot, Fiberglass İçin Yağ Çözme Etkili Yüzey Plastik Temizleyici - 750 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486750023",
+    "group": "marin_products",
+    "sub_type": "iron_remover"
+  },
+  "notes": {
+    "sub_type_review": "Template'de 'iron_remover' olarak işaretli. Doğrusu 'degreaser' veya 'all_purpose_cleaner' olmalı - bu yağ çözücü plastik temizleyici."
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:10:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr"
+      }
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:10:00Z",
+    "template_fields": {
+      "function": "Degreaser & Stain Remover",
+      "concentration": "Saf kullanım",
+      "target_surface": "Plastik, PVC/Hypalon, fiberglas, metal",
+      "format": "Tetikli şişe",
+      "volume": "750 ml",
+      "scent": "Ferah deniz esintisi",
+      "eco_friendly": true,
+      "harmful_ingredients_free": ["EDTA", "NTA"]
+    },
+    "content": {
+      "how_to_use": "1. Püskürtme: Şişeyi çalkalayın, yüzeye eşit film hâlinde uygulayın.\n2. Bekleme: 5 dk etki süresi tanıyın (kurumaya bırakmayın).\n3. Mekanik Destek (gerektiğinde): Sünger veya yumuşak fırçayla hafifçe fırçalayın.\n4. Durulama: Nemli bezle silin ve bol tatlı suyla iyice durulayın.\n5. Hassas Yüzey Testi: Yeni veya cilalı alanlarda önce görünmeyen noktada test edin.",
+      "when_to_use": "Tekne, bot ve fiberglas yüzeylerdeki yağ, kir, sarı lekeler ve siyah su hattı çizgilerini temizlemek için kullanılır. Sezon ortası bakım, derin gövde detayı ve tüplü bot restorasyonu için ideal.",
+      "target_surface": "Fiberglas gövde, PVC/hypalon bot tüpleri, vinil döşemeler, motor bölmesi, egzoz çıkışı",
+      "why_this_product": "• Yüksek yağ çözme gücü - ağır yağ-kir tabakasını tek adımda söker\n• Sarı leke & siyah çizgi sökücü - UV kaynaklı sararma ve su hattı siyahlığını giderir\n• EDTA/NTA içermez - marinalarda güvenli kullanım\n• Taze deniz kokusu bırakır"
+    },
+    "faq": [
+      {
+        "question": "Seyreltmek gerekiyor mu?",
+        "answer": "Hayır, ürün saf kullanılır. Seyreltme gerekmez, her püskürtmede maksimum performans alırsınız."
+      },
+      {
+        "question": "Şişme bot (hypalon) tüplerinde güvenli mi?",
+        "answer": "Evet, PVC ve hypalon bot tüplerinde güvenle kullanılabilir. Özellikle UV ile sararan kenarları beyazlatmak için etkilidir."
+      },
+      {
+        "question": "Cilalı yüzeylerde kullanılabilir mi?",
+        "answer": "Cilalı veya poliüretan boyalı yüzeylerde uzun süre bekletmeyin. Önce görünmeyen bir noktada test edin."
+      },
+      {
+        "question": "Kuş pisliği ve güneş kremi lekelerini çıkarır mı?",
+        "answer": "Evet, kuş pisliği, güneş kremi, bronzlaşma yağı lekelerini etkili şekilde çıkarır."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

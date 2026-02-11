@@ -1,0 +1,20 @@
+{
+  "sku": "Q2M-CM120M",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Compound Çizik Giderici Pasta - 120 ml", "brand": "GYEON", "barcode": "8809432673781", "group": "abrasive_polish", "sub_type": "heavy_cut_compound"},
+  "notes": {"size_variant": "120 ml versiyon - deneme ve bireysel kullanım için pratik boyut"},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"cut_level": 8, "finish_level": 8, "machine_compatibility": ["rotary", "orbital"], "silicone_free": true, "bodyshop_safe": true, "filler_free": true, "dusting_level": "Very Low", "abrasive_type": "Japanese high-quality"},
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini yıkayın ve kil temizliği yapın.\n2. Ped: GYEON Q²M Eccentric Cut veya Polish ped.\n3. Uygulama: Orbital makinede tek adımda mükemmel sonuç potansiyeli.\n4. Temizlik: Neredeyse toz bırakmaz.",
+      "when_to_use": "Tek adımda orta-ağır kusur giderme, swirl mark temizleme için kullanılır.",
+      "target_surface": "Swirl mark bulunan boyalar, hafif-orta çizikli yüzeyler",
+      "why_this_product": "• 8/8 dengeli kesim/parlaklık - tek adımda potansiyel\n• Neredeyse sıfır toz\n• Japon aşındırıcıları\n• 120 ml deneme boyutu"
+    },
+    "faq": [{"question": "1000 ml ile aynı formül mü?", "answer": "Evet, aynı Q²M Compound formülüdür."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

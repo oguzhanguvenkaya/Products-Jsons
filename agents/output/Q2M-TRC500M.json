@@ -1,0 +1,40 @@
+{
+  "sku": "Q2M-TRC500M",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Trim Cleaner Anti-Statik Plastik Trim Temizleyici - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809973750408",
+    "group": "interior_cleaner",
+    "sub_type": "plastic_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Plastik", "Vinil", "Motor Kapakları"],
+      "finish": "Mat (Kalıntısız)",
+      "anti_static": true,
+      "ph_level": "Nötr",
+      "consumption": "100 ml/araç"
+    },
+    "content": {
+      "how_to_use": "1. Ön Temizlik: İç mekânda gevşek toz ve kırıntıları süpürgeyle alın.\n2. Uygulama: BaldWipe EVO havluya 2-3 sprey veya yüzeye doğrudan bolca püskürtün.\n3. Derin Temizlik: Q²M ScrubPad EVO veya yumuşak fırça ile dairesel hareketlerle fırçalayın.\n4. Silme & Son Kontrol: Temiz mikrofiberle köpüğü ve kiri alın.\n5. Koruma Hazırlığı: Yüzey tamamen mat ve kalıntısızsa Q²M Preserve uygulayabilirsiniz.",
+      "when_to_use": "Günlük toz ve parmak izi temizliğinde, eski parlatıcı kalıntılarını sökmede, motor bölmesi plastik bakımında, seramik detay paketi ön hazırlığında kullanılır.",
+      "target_surface": "Gösterge paneli, torpido, kapı cepleri, vinil kaplamalar, motor kapakları, gövde trimleri",
+      "why_this_product": "• OEM mat bitiş - parlama veya yağlı his bırakmaz\n• Anti-statik formül - toz tutmayı azaltır, temiz görünüm uzun sürer\n• Dressing sökücü - eski silikonlu dressing tabakalarını sıfırlar\n• pH nötr - renk solması veya aşındırma yapmaz"
+    },
+    "faq": [
+      {"question": "Deri veya Alcantara'da kullanabilir miyim?", "answer": "Hayır. Ürün plastik/vinil odaklıdır; döşeme için LeatherCleaner Natural önerilir."},
+      {"question": "Mat yüzeyi parlatır mı?", "answer": "Hayır, tam mat OEM dokusunu korur; parlaklık vermez, silikon içermez."},
+      {"question": "Eski parlatıcı kalıntılarını tamamen çıkarır mı?", "answer": "Evet. Fırça veya ScrubPad ile çalışıldığında yağlı dressing tabakasını çözer."},
+      {"question": "Dış plastik trimde güvenli mi?", "answer": "Evet, özellikle motor kaputu altı ve dış kauçuk parçalarda etkili; uygulama sonrası durulayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-SPEVO", "Q2M-BWEVO"], "accessories": [], "alternatives": []}
+  }
+}

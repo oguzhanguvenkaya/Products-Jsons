@@ -1,0 +1,38 @@
+{
+  "sku": "Q2M-LB",
+  "last_updated": "2026-02-04T14:50:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Leather Brush Deri Yüzey Temizlik Fırçası",
+    "brand": "GYEON",
+    "barcode": "8809432678540",
+    "group": "brushes",
+    "sub_type": "leather_brush"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:50:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:50:00Z",
+    "template_fields": {
+      "bristle_material": "Doğal at kılı",
+      "handle_material": "Doğal ahşap",
+      "design": "Ergonomik, yuvarlak kenarlı",
+      "safe_for": ["Deri", "Alcantara", "Vinil"]
+    },
+    "content": {
+      "how_to_use": "1. Deri temizleyici püskürtün (yüzeye veya fırçaya).\n2. Dairesel hareketlerle deriyi fırçalayın.\n3. Köpürterek dikiş aralarına girin.\n4. Mikrofiber ile köpüğü ve kiri alın.\n5. Gerekirse tekrarlayın.",
+      "when_to_use": "Deri koltuk, direksiyon ve kapı panellerinde derin temizlik için kullanılır. Dikiş araları ve gözeneklerdeki kiri etkili şekilde söker.",
+      "target_surface": "Deri koltuklar, direksiyon, vites körüğü, kapı panelleri, dikiş araları",
+      "why_this_product": "• Doğal at kılı - deriye zarar vermez\n• Ergonomik ahşap sap - ıslakken bile iyi kavrama\n• Yuvarlak kenarlar - deride iz bırakmaz\n• Tüm deri türlerinde güvenli"
+    },
+    "faq": [
+      {"question": "At kılı deriye zarar verir mi?", "answer": "Hayır, at kılı yumuşak ve esnektir. Deri yüzeye zarar vermeden derin temizlik sağlar."},
+      {"question": "Alcantara'da kullanılabilir mi?", "answer": "Evet, hassas yüzeylerde dikkatli ve hafif basınçla kullanılabilir."},
+      {"question": "Nasıl temizlenir?", "answer": "Kullanım sonrası ılık suyla yıkayın ve kılları aşağı bakacak şekilde kurutun."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "sku": "Q2-BS30M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q Booster Seramik Yenileyici Kaplama - 30 ml",
+    "brand": "GYEON",
+    "barcode": "8809432672609",
+    "group": "ceramic_coating",
+    "sub_type": "top_coat"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 12,
+      "function": "Mevcut seramiğin hidrofobisini yenileme",
+      "contact_angle": ">120°",
+      "ph_tolerance": "2-11",
+      "consumption_ml_per_car": 30
+    },
+    "content": {
+      "how_to_use": "1. Baz kaplama kuru ama kürleşmemiş (<14 gün) olmalı; yüzeyi Q²M Prep ile yağdan arındırın.\n2. Süet bez + blok hazırlayın; 6-8 damla Booster damlatın.\n3. Paneli çapraz hareketlerle ince film hâlinde kaplayın.\n4. Ürün hızla buharlaşır; hemen BaldWipe ile hafifçe silin, iz bırakmayın.\n5. 2 saat toz-su temasından koruyun; tam kür 24 saat.\n6. Düzenli pH-nötr yıkama; 12 ay sonra gerekirse yeniden uygulayın.",
+      "when_to_use": "Mevcut seramik kaplamaların hidrofobisini güçlendirmek, parlaklığı artırmak ve kaplamanın ömrünü uzatmak için kullanılır.",
+      "target_surface": "Taze uygulanmış Q² One/Pure/Mohs kaplamaları, beading gücünü yitiren filo araçları, metal detaylar, krom çıtalar, jantlar",
+      "why_this_product": "• >120° temas açısı - ekstrem hidrofobi\n• +12 ay dayanım ekler\n• Tüm SiO² seramiklerle uyumlu\n• Hızlı uygulama - tek kat yeterli"
+    },
+    "faq": [
+      {"question": "Booster tek başına koruma sağlar mı?", "answer": "Hayır; yalnızca mevcut seramik kaplamanın üzerine üst kat olarak kullanılır."},
+      {"question": "Baz kaplama kaç günlükken uygulanmalı?", "answer": "En iyi kimyasal bağ için kaplama 1 saat kurumuş, 14 günden genç olmalıdır."},
+      {"question": "İkinci kat gerekli mi?", "answer": "Çoğu durumda tek kat yeterlidir; daha fazla slick hissi için 1 saat sonra 2. kat atılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-PYA500M"], "accessories": [], "alternatives": []}
+  }
+}

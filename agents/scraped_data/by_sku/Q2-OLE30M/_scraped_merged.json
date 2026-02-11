@@ -1,0 +1,47 @@
+{
+  "sku": "Q2-OLE30M",
+  "product_name": "Gyeon Q² One Evo Light Box Araç Seramik Kaplama - 30 ml - 9h Oto Boya Koruma-Su Itici",
+  "barcode": "Q2-OLE30M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:39:33.725Z",
+  "sources": [
+    {
+      "url": "https://gyeonusa.com/products/q-one-evo-kit",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q² One EVO Kit | Gyeon Quartz USA",
+      "content_length": 7958,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2-one-evo-light#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q² One EVO Light - Entry Level Hydrophobic Quartz Coating — Polished Bliss",
+      "content_length": 12354,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2-one-evo-30ml-50ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² One EVO Kit | CARZILLA",
+      "content_length": 23576,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

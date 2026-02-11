@@ -1,0 +1,42 @@
+{
+  "sku": "76762",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Marta Card Vanilla & Ginger Asma Oto Kokusu",
+    "brand": "FRA-BER",
+    "barcode": "8027486765676",
+    "group": "fragrance",
+    "sub_type": "hanging_card"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Vanilya & Zencefil",
+      "design": "Marta Card",
+      "material": "Yumuşak Kauçuk",
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "collection": "Marta Card"
+    },
+    "content": {
+      "how_to_use": "1. Paketi açın.\n2. Kartı doğrudan asın veya ihtiyaç duyulan yere yerleştirin.\n3. Koku otomatik olarak yavaş yavaş yayılmaya başlar.\n4. Dolap, araba, ayakkabılık, çanta veya valiz içinde kullanabilirsiniz.",
+      "when_to_use": "Egzotik ve sofistike bir atmosfer yaratmak isteyenler için idealdir. İstanbul çarşılarının baharat aromasını ve Doğu'nun büyüsünü hissettirir.",
+      "target_surface": "Araç dikiz aynası, dolap içi, çekmece, ayakkabılık, çanta, valiz",
+      "why_this_product": "• Vanilya ve zencefil notalarının mükemmel uyumu\n• Aylarca kalıcı kapsüllenmiş koku teknolojisi\n• Leke ve yağ tutmaz - esanslar direkt kauçuğa dahil\n• Saten kurdele ile şık tasarım"
+    },
+    "faq": [
+      {"question": "Marta Card serisi nedir?", "answer": "FRA-BER'in yumuşak kauçuk kart formatında, saten kurdele ile süslenmiş, aylarca kalıcı koku sunan premium serisidir."},
+      {"question": "Koku notaları nelerdir?", "answer": "Üst notalar: Baharatlı zencefil, hindistan cevizi, litsea cubeba. Orta notalar: Yasemin, damask gülü, safran çiçeği. Alt notalar: Vanilya, değerli ağaçlar, beyaz misk."},
+      {"question": "Neden aylarca kalıcı?", "answer": "Kapsüllenmiş koku teknolojisi sayesinde esanslar kademeli olarak yayılır, bu da uzun süreli etki sağlar."},
+      {"question": "Leke bırakır mı?", "answer": "Hayır, esanslar direkt olarak kauçuğun içine dahil edildiği için leke veya yağ tutmaz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["75229", "78761", "75228"]}
+  }
+}

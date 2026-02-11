@@ -1,0 +1,39 @@
+{
+  "sku": "Q2-FCNA400M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q FabricCoat Kumaş Koruyucu - 400 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661137",
+    "group": "ceramic_coating",
+    "sub_type": "fabric_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 6,
+      "application_method": "Sprey",
+      "coverage_ml_per_sqm": 80,
+      "ph_tolerance": "2-11"
+    },
+    "content": {
+      "how_to_use": "1. Yüzeyi Q²M FabricCleaner ile temizleyin, tamamen kurutun.\n2. Şişeyi çalkalayın; komşu panelleri maskeleyin.\n3. 15 cm mesafeden eşit püskürtün; Q²M LeatherBrush ile hafifçe yayarak emilimi artırın.\n4. Camlar açık şekilde 30 dk havalandırın.\n5. İkinci kat için ince bir tabaka daha uygulayın.\n6. Aracı kapalı, kuru ortamda 12 saat bekletin; su ve kir temasından koruyun.",
+      "when_to_use": "Kumaş döşemelerde, paspaslarda, tavan döşemesinde ve kumaş tentelerde sıvı dökülmelerine, lekelere ve UV'ye karşı koruma için kullanılır.",
+      "target_surface": "Kumaş koltuk, arka sıra minderi, zemin paspası, bagaj halısı, tavan döşemesi, kapı içi tekstil paneli, cabrio tente",
+      "why_this_product": "• 6 aya kadar UV, su ve kir direnci\n• SiO² tabanlı nano bariyer\n• Nefes alabilir yapı - kumaşı sertleştirmez\n• 400 ml ile ~5 m² tekstil koruması"
+    },
+    "faq": [
+      {"question": "Tek kat uygulama yeterli olur mu?", "answer": "Hafif trafikli alanlarda olabilir; yoğun kullanım için iki ince kat önerilir."},
+      {"question": "Koltuk havalandırma deliklerini tıkar mı?", "answer": "Hayır, nefes alabilir nano film hava akışını engellemez."},
+      {"question": "Dökülen sıvıyı ne kadar sürede silmeliyim?", "answer": "Sıvı boncukları yüzeyde kalır; birkaç dakika içinde bezle almak yeterlidir."},
+      {"question": "Evdeki kumaş koltuklarda kullanabilir miyim?", "answer": "Evet, renk dayanıklılığı için göze çarpmayan bir bölgede test yapın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79299"]}
+  }
+}

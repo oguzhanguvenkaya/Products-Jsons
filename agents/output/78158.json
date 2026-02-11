@@ -1,0 +1,39 @@
+{
+  "sku": "78158",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bean Summerlover Blister Uzun Süre Etkili Oto Kokusu",
+    "brand": "FRA-BER",
+    "barcode": "8027486787043",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Summerlover (Yaz)",
+      "design": "Bean (Fasulye)",
+      "made_in": "İtalya",
+      "collection": "Bean"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma kanallarına yerleştirin.\n3. Havalandırma sistemini açın.\n4. Koku zayıfladığında yenisiyle değiştirin.",
+      "when_to_use": "Yaz atmosferini sevenler için idealdir. Sıcak günlerin enerjisini aracınıza taşır.",
+      "target_surface": "Araç kliması havalandırma kanalları",
+      "why_this_product": "• Yaz temalı ferah koku\n• Kişiliğe özel Bean tasarım\n• Uzun süre kalıcı etki\n• İtalyan FRA-BER kalitesi"
+    },
+    "faq": [
+      {"question": "Bean serisi nedir?", "answer": "FRA-BER'in kişiliğe uygun tasarlanmış, fasulye şekilli araç kokusu serisi."},
+      {"question": "Summerlover kokusu nasıl?", "answer": "Yazın sıcak ve neşeli atmosferini yansıtan, ferah bir koku profili."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Aylar boyunca kalıcı etki sağlar."},
+      {"question": "Nasıl takılır?", "answer": "Havalandırma kanallarına yerleştirilerek kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["78156", "76385", "76384"]}
+  }
+}

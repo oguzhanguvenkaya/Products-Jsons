@@ -1,0 +1,1947 @@
+
+╭─── Claude Code v2.1.29 ──────────────────────────────────────────────────────╮
+│                                                    │ Tips for getting        │
+│                 Welcome back Tuna!                 │ started                 │
+│                                                    │ Run /init to create a … │
+│                       ▐▛███▜▌                      │ ─────────────────────── │
+│                      ▝▜█████▛▘                     │ Recent activity         │
+│                        ▘▘ ▝▝                       │ No recent activity      │
+│                                                    │                         │
+│      Opus 4.5 · Claude Max ·                       │                         │
+│      tunahanyavas1881@gmail.com's Organization     │                         │
+│    ~/Desktop/Claude Code Projects/Products Jsons   │                         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+
+❯ /plan 
+  ⎿  Enabled plan mode
+
+❯ @PROJE_RAPORU.md  dosyasını inceler misin konuyu özümse ve üzerine        
+  konuşmamız gereken ksıımlar var                                           
+  ⎿  Read PROJE_RAPORU.md (670 lines)
+
+⏺ Raporu inceledim. Bu bir ürün kategorizasyon projesi raporu - 622 adet
+  otomotiv detailing ürününün kategorilere ayrılması ve zenginleştirilmesi.
+
+  Özet
+
+  Başarılar:
+  - 622 ürünün tamamı 23 kategoriye dağıtıldı
+  - Tüm ürünler zenginleştirildi (content, relations, faq, specs)
+  - Duplikasyonlar temizlendi
+  - Dosya isimleri standardize edildi
+
+  Kritik Sorun: group Değeri Tutarsızlığı
+
+  Raporun en önemli bulgusu şu: 622 ürünün sadece 92'sinde (%14.8) group değeri 
+  doğru.
+
+  Problem:
+  Kategori dosyası: masking_tapes.json
+  ├── metadata.group_id: "masking_tapes"
+  └── Ürün içindeki group: "cleaner_liquid" ❌
+
+  Yani maskeleme bantları "cleaner_liquid" olarak etiketli, mikrofiberler
+  "tools" olarak etiketli vs.
+
+  Konuşmamız Gereken Noktalar
+
+  1. Bu tutarsızlık sizin için sorun mu?
+    - Eğer sadece kategori dosyalarını kullanacaksanız, ürünün hangi dosyada
+  olduğu zaten belli
+    - Ama group alanını sorgulama/filtreleme için kullanacaksanız bu büyük sorun
+  2. Hangi çözümü tercih edersiniz?
+    - Seçenek A: Her ürünün group değerini bulunduğu kategori dosyasının
+  group_id'si ile eşitle
+    - Seçenek B: Orijinal group değerlerini koru (mevcut durum)
+  3. Boş içerik alanları (how_to_use, when_to_use vb.) doldurulacak mı?
+
+  Bu konularda ne düşünüyorsunuz?
+
+❯ {                                                                         
+        "sku": "MT12450M",                                                  
+        "title": "Q1 Premium Maskeleme Bantı Sarı - 24mm x 50 metre",       
+        "brand": "Q1 TAPES",                                                
+        "template": {                                                       
+          "group": "masking_tapes",                                         
+          "sub_type": "premium_tape",                                       
+          "fields": {                                                       
+            "width_mm": 24,                                                 
+            "length_m": 50,                                                 
+            "temperature_resistance_c": 110,                                
+            "adhesive_type": "Doğal Kauçuk",                                
+            "tape_color": "Sarı",                                           
+            "tape_type": "premium_tape",                                    
+            "residue_free": true,                                           
+            "pack_quantity": 1                                              
+          }                                                                 
+        },                                                                  
+        "content": {                                                        
+          "short_description": "Q1 Maskeleme Bantları Premium Yapışkan      
+  Süngerleri Yetkili Türkiye Dağıtıcısı MTS Kimya’dan Satın Alın. Orijinal  
+  Ürün Garantisi. Aynı Gün Ücretsiz Kargo.",                                
+          "full_description": "Q1® Premium Maskeleme Bandı, hatasız açma,   
+  kolay yırtma ve tüm yüzeylerde uyum özelliklerini birleştirerek           
+  tasarlanmıştır. Maskeleme kağıdı, koruyucu film ve bant üzerinde          
+  kullanıldığında son derece yüksek performans gösterir.\r\n\r\nQ1®         
+  Premium Maskeleme Bandı, doğal kauçuk bazlı özel yapışkana sahiptir ve    
+  birinci sınıf krepon kağıdından üretilmiştir. 110° dereceye kadar olan    
+  yüksek sıcaklıklara dayanımı sayesinde, otomotiv tamir, boya ve kurutma   
+  uygulamalarında güvenle kullanılabilir. Yüksek yapışma özelliğini garanti 
+   eder. Çıkarıldığında arkasında yapışkan izi                              
+  bırakmaz.\r\n\r\nÖzellikler:\r\n• Yüksek performanslı, doğal kauçuk bazlı 
+   özel yapıştırıcı\r\n• Doygun krepon kağıdı\r\n• Sıcaklık dayanımı: 110°  
+  C. (30 dk.) ve 90° C. (60 dk.)\r\n• Olağanüstü yapışma ve mekanik         
+  özellikler\r\n• Tüm popüler boya ve vernikler ile uyumlu\r\n• Bozuk       
+  yüzeylerde mükemmel uyumluluk\r\n\r\nFaydalar:\r\n• Tüm araç yüzeylerine  
+  anında yapışma ve yüksek tutunma gücü\r\n• Kavisli yüzeylerde yırtılma ve 
+   kıvrılma yapmadan yüksek uyum\r\n• Su ve solvent bazlı kaplamalara karşı 
+   dayanım\r\n• Kontrollü açma ve çözme\r\n• Yapışkan artığı bırakmadan     
+  yüzeyden sökme\r\n• Sivri ve temiz boya kenarları\r\n\r\nGüneş            
+  Sarısı\r\n\r\nÖlçüleri :\r\n48mm x 50mm\r\n36mm x 50mm\r\n24mm x          
+  50mm\r\n18mm x 50mm",                                                     
+          "how_to_use": "",                                                 
+          "when_to_use": "",                                                
+          "target_surface": "",                                             
+          "why_this_product": ""                                            
+        },                                                                  
+        "relations": {                                                      
+          "use_before": [],                                                 
+          "use_after": [],                                                  
+          "use_with": [],                                                   
+          "accessories": [],                                                
+          "alternatives": []                                                
+        },                                                                  
+        "faq": [                                                            
+          {                                                                 
+            "question": "",                                                 
+            "answer": ""                                                    
+          },                                                                
+          {                                                                 
+            "question": "",                                                 
+            "answer": ""                                                    
+          },                                                                
+          {                                                                 
+            "question": "",                                                 
+            "answer": ""                                                    
+          }                                                                 
+        ],                                                                  
+        "specs": {                                                          
+          "cleaner_type": "",                                               
+          "cleaning_power": "",                                             
+          "ph_level": "",                                                   
+          "safe_surfaces": [],                                              
+          "dilutable": false,                                               
+          "dilution_ratio": "",                                             
+          "dwell_time": ""                                                  
+        },                                                                  
+        "group": "cleaner_liquid",                                          
+        "group_name": "Temizlik Ürünleri (Sıvı)",                           
+        "price": 7500,                                                      
+        "image_url":                                                        
+  "https://mgpolishing.com/wp-content/uploads/2025/11/MT12450M_0.jpg",      
+        "category": {                                                       
+          "main_cat": "AKSESUAR",                                           
+          "sub_cat": "Maskeleme Bantları",                                  
+          "sub_cat2": ""                                                    
+        }                                                                   
+      }, bu örnek bir ürünün bilgileri hem template içinde group var ki bu  
+  kısım ürünün doğru grubudur, birde @products.json dan gelen grup var,     
+  products.json dosyasında gruplama genelde hatalı ve yüzeysel yapıldığı    
+  için burada sorun oluyor.Yine aynı şekilde specs kısmıda products.json    
+  dan doğrudan alındığı için maskeleme bantında  "specs": {                 
+          "cleaner_type": "",                                               
+          "cleaning_power": "",                                             
+          "ph_level": "",                                                   
+          "safe_surfaces": [],                                              
+          "dilutable": false,                                               
+          "dilution_ratio": "",                                             
+          "dwell_time": ""                                                  
+        },                                                                  
+  bu şekilde bir specs bulunuyor, Burada 622 ürünün her biri için bir       
+  kontrol yapılmalı, ürün açıklamasından ürünün elimizde bulunan grup       
+  şablonlarından kategorilerden hangisine ait olduğu bilgisini              
+  çıkartmalıyız,yine ürün açıklamasından templatedeki boş alanları          
+  dolduracağımız bilgiyi çıkartmalıyız, dosya dizinine her ürün için ürün   
+  başına 5 url ekleyebilirim. bu urllerin içinde farklı e ticaret           
+  sitelerinden alınan bilgileri çıkartmalı ve buradaki bilgiyi çıkartıp     
+  kontrollerden geçirip içinden ihtiyacımız olan bilgileri almalıyız. Tüm   
+  bu işi yapabilmek için claude code içinde agent yazmalımıyım, tek bir     
+  chat içinde 622 ürünün incelenip değiştirlmesi pek kolay olmuyor, bunu    
+  otonom bir şekilde pür dikkat yapmamız gerekiyor. mesela sadece ürün      
+  açıklamasını okuyup mevcut grup templatelerinden uygun olanı o ürün için  
+  seçen agent, sadece belli gruptaki metadata özelliklerinin o gruba        
+  atanmış ürünlere uygungun olup olmadıgını yeni metadata özelliklerinin    
+  gerekip gerekmediğini tespit eden bir agent, mevcut urllerden belli bir   
+  ürün ile alakalı bilgileri toplayıp temizleyen ve düzenleyen agent,       
+  çıkarılan bilgileri kullanarak template content kısmını dolduran agent,   
+  relations kısmını dolduran agent, yine proje dizinine eklediğim faq       
+  sorularında ürün dokumanlarından faq sorusu oluşturan agent, her işleme   
+  özel hazırlanmış prompt ile çalışan agentlar , böyle bir yapıyı claude    
+  code terminalden kurabilir miyim ya da bunu nasıl yapabilirim,            
+  ⎿  ⧉ Selected 9 lines from masking_tapes.json in Visual Studio Code
+
+⏺ Sorunu çok iyi anladım. Özetleyeyim:
+
+  Mevcut Sorunlar:
+  1. group değeri yanlış (products.json'dan geliyor)
+  2. specs alanları ürün tipine uygun değil (maskeleme bantında cleaner specs
+  var)
+  3. content alanları boş (how_to_use, when_to_use vb.)
+  4. relations ve faq boş
+  5. 622 ürün için manuel işlem pratik değil
+
+  Önerdiğiniz Çözüm: Farklı görevler için özelleşmiş agent'lar.
+
+  Bu yapıyı Claude Code içinde kurabiliriz. Önce mevcut dosya yapısını ve grup
+  şablonlarını inceleyeyim, sonra size bir plan sunayım.
+
+⏺ 2 Explore agents finished (ctrl+o to expand)
+   ├─ Explore product templates and structure · 15 tool uses · 45.1k tokens
+   │  ⎿  Done
+   └─ Explore products.json group distribution · 16 tool uses · 35.2k tokens
+      ⎿  Done
+
+⏺ Mükemmel, şimdi tam resmi görüyorum. Durumu özetleyeyim:
+
+  Mevcut Sorunlar (Net Analiz)
+  ┌───────────────────────────────┬────────────────┬──────┐
+  │             Sorun             │ Etkilenen Ürün │ Oran │
+  ├───────────────────────────────┼────────────────┼──────┤
+  │ group değeri yanlış           │ ~530           │ %85  │
+  ├───────────────────────────────┼────────────────┼──────┤
+  │ specs ürün tipine uygun değil │ ~530           │ %85  │
+  ├───────────────────────────────┼────────────────┼──────┤
+  │ template.fields boş (null)    │ Çoğu           │ ~%90 │
+  ├───────────────────────────────┼────────────────┼──────┤
+  │ content alanları boş          │ 622            │ %100 │
+  ├───────────────────────────────┼────────────────┼──────┤
+  │ relations boş                 │ 622            │ %100 │
+  ├───────────────────────────────┼────────────────┼──────┤
+  │ faq boş                       │ 622            │ %100 │
+  └───────────────────────────────┴────────────────┴──────┘
+  Önerdiğiniz Agent Mimarisi
+
+  Evet, Claude Code içinde bu yapıyı kurabiliriz. Şimdi size bir plan
+  hazırlayacağım.
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Planı hazırladım. Şimdi size birkaç kritik soru sormam gerekiyor:
+  ⎿ Tool use rejected with user message: The user wants to clarify these 
+    questions.
+        This means they may have additional information, context or questions 
+    for you.
+        Take their response into account and then reformulate the questions if 
+    appropriate.
+        Start by asking them what they would like to clarify.
+
+        Questions asked:
+    - "Agent sistemi için hangi uygulama yöntemini tercih edersiniz?"
+      (No answer provided)
+    - "Hangi agent(lar) ile başlamak istersiniz?"
+      (No answer provided)
+    - "URL'ler hangi formatta sağlanacak?"
+      (No answer provided)
+
+⏺ Sorularla ilgili ne açıklamak istersiniz? Belki soruları daha net ifade etmem
+  veya ek seçenekler sunmam gerekiyor.
+
+✻ Cogitated for 2m 24s
+
+❯ @URLs.csv  ve @URLs2.csv  dosyalarında alacaksın URLleri, soruarı daha    
+  net ifade et ve ek seçeneklerde sun                                       
+  ⎿  Read URLs.csv (105 lines)
+  ⎿  Read URLs2.csv (173 lines)
+
+⏺ Mükemmel! URL dosyalarını inceledim. Çok zengin veri var:
+
+  URLs.csv ve URLs2.csv Yapısı:
+  - Barcode = SKU (products.json ile eşleşme anahtarı)
+  - Product Description = İngilizce detaylı açıklama
+  - Product Description_1-3 = Türkçe zengin açıklamalar
+  - URL - URL 5 = 6 adede kadar harici URL
+
+  Bu veri çok değerli çünkü zaten açıklamalar hazır. Planı güncelleyeyim ve daha
+   net sorular sorayım.
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Şimdi daha net sorular sorayım:
+
+⏺ User answered Claude's questions:
+  ⎿  · Agent sistemini nasıl çalıştırmak istersiniz? → Task tool ile 
+     subagentları kullanalım fakat bu çok hassas bir işlem her agentin 
+     görevini işlevini sınırlamalarını nasıl tanımlayacağız bu kısımı iyi 
+     planlamalıyız
+     · URL'lerdeki verileri nasıl kullanmak istersiniz? → URL'lere git ve 
+     scrape et
+     · Hangi kategoriden başlamak istersiniz? (Test için) → Tüm kategoriler 
+     için bu işlem yapılacak ve @URLs.csv ve @URLs2.csv deki Product 
+     desctription sutunları boş sutun, barcode ve URL_1,2,3.. sutunları 
+     doludur,bu dosyaları sadece urlleri tutmak için kullanıyoruz , ürün 
+     açıklaması fln yok. Biz scrape edeceğiz bu sayfaları,  fakat o 
+     sayfadaki ürünün doğru ürün oldugundan emin olmalıyız, veri toplayıp 
+     yanlış ürünle eşleştirmemiz kaos yaratır.Bu eklediğim 2 csv dosyasında 
+     622 ürünün tamamı yok buna da dikkat edelim, mesela car_shampoo içinde 
+     bathe ürünü var, bu ürünün product descriptionu zaten var ama biz URLs 
+     içinde bathe ürününü bulup ona ait urllerden bathe hakkında bilgi 
+     toplayacağız ve en son bulgileri temizleyip bathe ürünü için templatei 
+     dolduracağız faq oluşturacağız vs.Bu görevleri yeteri kadar parçalara 
+     ayırıp claude subagents skill ve task özellikleri ile hangi kısımda 
+     hangi yöntem gerekiyorsa bunlarıda gözönünde bulundurup yapıyı buna 
+     göre kuracağız
+
+
+
+
+
+     · Agent önceliği ne olsun? → adım adım daha iyi olacaktır
+
+⏺ Anladım. Şimdi çok önemli noktaları netleştirdiniz:
+
+  1. URL dosyaları sadece URL tutuyor - Description sütunları boş, scrape
+  gerekli
+  2. 622 ürünün tamamı URL dosyalarında yok - Eksikleri tespit etmeliyiz
+  3. Doğrulama kritik - Yanlış ürün eşleşmesi kaos yaratır
+  4. Adım adım - Her agent görevi net sınırlarla tanımlanmalı
+
+  Planı bu bilgilerle güncelleyeyim ve agent görevlerini detaylı tanımlayayım.
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Planı detaylı şekilde güncelledim. Son hali şöyle özetlenebilir:
+
+  Plan Özeti
+
+  Mimari
+
+  - 7 aşamalı pipeline (URL Scraping → Group → Specs → Content → FAQ → Relations
+   → Validation)
+  - Claude Code Task tool ile subagent'lar
+  - Batch işleme (10-20 ürün/batch)
+
+  Kritik Güvenlik
+
+  - URL doğrulama algoritması (marka + ürün adı + SKU = score >= 0.7)
+  - Her URL için doğruluk kontrolü yapılacak
+
+  Agent'lar
+
+  1. URL Scraper + Verifier - URL'den veri çek ve doğrula
+  2. Group Classifier - 23 gruptan doğru olanı seç
+  3. Specs Extractor - Grup şemasına göre specs doldur
+  4. Content Filler - how_to_use, when_to_use, vb.
+  5. FAQ Generator - 3-5 soru-cevap
+  6. Relations Builder - Ürünler arası ilişkiler
+  7. Validator - Final kontrol ve birleştirme
+
+  Uygulama Sırası
+
+  1. Faz 0: Hazırlık dosyaları (url_mapping.json, all_groups.json)
+  2. Faz 1: 5 ürün pilot test
+  3. Faz 2: Kategori bazlı işleme (küçükten büyüğe)
+  4. Faz 3: Doğrulama ve kalite kontrol
+  ⎿ Tool use rejected with user message: bazı değişiklikler yaptım 23 kategori 
+    dosyasında specs ve group alanı çıkartıldı ve bu alanlar her ürün için 
+    @products_specs_group.json dosyasına yazıldı.Ve tüm kategoriler 
+    @all_categories.json dosyasında birleştirildi. Urls.csv ve URLs2.csv 
+    dosyaları URLs_merged.csv olarak birleştirildi. Specs ve group alanının 
+    all_categories.json olmama sebebi, mevcut ürün açıklamasından ve urllerden 
+    kazınan bilgi bir ürün için birleştirilecek ve bu açıklamalar ürünün 
+    metadata özelliklerini doldurmak için kullanılacak, içinde bulunduğu grubun 
+    ve sub_type in kontrolü bir kez daha yapılacak. Fields kısmında bazı specs 
+    özellikleri var, bu özellikler ürün açıklamaları zenginleştirldikten her 
+    kategori özelinde ürün açıklamaları kontrol edilecek ve o kategoride 
+    eklenebilecek eksta specs özellikleri de fields içine eklenip dolduulacak. 
+    Tüm bu güncel bilgiler ile son yaptıgın analizi ve planı güncelle tekrar 
+    üzerine düşünelim
+
+
+⏺ Anladım! Önemli yapısal değişiklikler yapmışsınız. Yeni dosyaları inceleyeyim.
+
+⏺ Read 3 files (ctrl+o to expand)
+
+⏺ Mükemmel! Artık yeni yapıyı anlıyorum. Önemli değişiklikler var:
+
+  Yeni Yapı Özeti
+
+  1. products_specs_group.json
+
+  - 622 ürün
+  - group ve specs alanları BOŞ (doldurulacak)
+  - category_file hangi kategoriye ait olduğunu gösteriyor
+
+  2. all_categories.json
+
+  - 23 kategori birleşik
+  - template.group ve template.sub_type zaten DOĞRU atanmış
+  - template.fields bazı specs var (cut_level, machine_compatibility vb.)
+  - content, faq, relations çoğunlukla BOŞ
+
+  3. URLs_merged.csv
+
+  - Barcode = SKU
+  - Product Description sütunları DOLU (bazılarında zengin Türkçe açıklama var!)
+  - URL-URL 5 sütunları dolu
+
+  Kritik Fark: CSV'deki Product Description sütunları aslında DOLU! (İlk birkaç
+  satırda çok zengin Türkçe açıklamalar var)
+
+  Planı bu yeni yapıya göre güncelleyeyim.
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Planı yeni dosya yapısına göre güncelledim. Şimdi birkaç son netleştirme
+  sorusu:
+
+⏺ User answered Claude's questions:
+  ⎿  · Zenginleştirilmiş veriler hangi dosyaya yazılacak? → Ayrı çıktı 
+     dosyaları
+     · Pilot test için hazır mısınız? → Hayır, önce veri analizi
+
+⏺ Anladım! Ayrı çıktı dosyaları ve önce veri analizi. Planı buna göre son kez
+  güncelleyeyim:
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Plan güncel ve tamamlandı. Özet:
+
+  📋 Plan Özeti
+
+  Veri Yapısı:
+  - all_categories.json - Ana kaynak (template.group DOĞRU)
+  - products_specs_group.json - Specs çalışma dosyası (BOŞ)
+  - URLs_merged.csv - Zengin açıklamalar + URL'ler
+
+  Agent Pipeline (7 adet):
+  1. Description Enricher - Kaynakları birleştir
+  2. Group Verifier - Mevcut group'u doğrula
+  3. Specs Extractor - Specs doldur
+  4. Content Filler - how_to_use, when_to_use vb.
+  5. FAQ Generator - 3-5 FAQ
+  6. Relations Builder - Ürün ilişkileri
+  7. Category Specs Analyzer - Yeni specs öner
+
+  Çıktı Stratejisi:
+  - ORİJİNAL DOSYALARA DOKUNULMAYACAK
+  - Tüm çıktılar agents/output/ klasörüne
+  - Son onay sonrası birleştirme
+
+  İlk Adım:
+  - Veri kalitesi analizi (URLs_merged.csv + all_categories.json)
+  ⎿ Tool use rejected with user message: URLi olan tüm ürünlerin sayfaları 
+    kazınmalı ve bilgi olarak alınmalı,urlden gerlen bilginin gerçekten o ürün 
+    olup olmadıgıda kontrol edilmeli
+
+⏺ Anladım! URL scraping tüm ürünler için zorunlu, sadece eksik veri için değil.
+  Planı buna göre güncelleyeyim:
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Updated plan
+  ⎿  /plan to preview
+
+⏺ Plan güncellendi. Artık URL scraping ZORUNLU ve ilk adım olarak tanımlandı:
+
+  Güncellenmiş Pipeline
+
+  Adım 0: URL SCRAPING (ZORUNLU)
+     ↓ Tüm URL'ler kazınır + doğrulanır
+  Adım 1: Description Enricher
+     ↓ Tüm kaynaklar birleştirilir (all_categories + CSV + URL)
+  Adım 2: Group Verifier
+     ↓
+  Adım 3: Specs Extractor
+     ↓
+  Adım 4: Content Filler + FAQ Generator
+     ↓
+  Adım 5: Relations Builder
+     ↓
+  Adım 6: Category Specs Analyzer
+     ↓
+  Adım 7: Kaydetme (output/ klasörüne)
+
+  URL Doğrulama:
+  - Her URL için: marka (0.3) + ürün adı (0.4) + SKU (0.3) = skor
+  - skor >= 0.7 → KABUL
+  - skor < 0.7 → REDDET ve logla
+  ⎿ Tool use rejected with user message: SKU ile karşılaştırma yapmak sağlıksız 
+    olur çünkü skuları biz üretiyoruz bize özel, bu yüzden 
+    @Products_with_barcode.csv dosyasında her ürün için sku ile eşleştirme 
+    sağlayarak barcode bilgisini bu dosyadan alablirsin, URL için kontrolü 
+    yaparken barcode kullanabilirsin bazı sitelerde barcode olabilir , - 
+    csv_description_en: "{Product Description from CSV}"                        
+                                                           
+       - csv_description_tr: "{Product Description_1 from CSV}"  böyle bir kısım
+     olmayacak bunu dikkate almayalım.  - Öncelik: URL scraped > CSV > 
+    all_categories                                                              
+                                 Bu kısımda ise all_categories deki 
+    açıklamalarda  product description full_description gayet doğrudur. 
+    URLs_merged.csv güncellendi product descritions ve eng name sutunları yok 
+    artık. - category_file: "{category_file from products_specs_group.json}"    
+                                                                     
+    @products_specs_group.json da category_file alanı kaldırıldı yanlış bilgi 
+    içeriyordu. @all_categories.json, @products_specs_group.json ve 
+    @URLs_merged.json,  @products_with_barcode.json dosyalarını incele , 
+    agentlarımız tutarlı ve esnek olmalı ,birbirleri arasındaki uyumda hata 
+    olmamalı
+
+
+
+
+
+⏺ Anladım! Önemli değişiklikler var. Dosyaları inceleyeyim:
+
+⏺ Searched for 2 patterns, read 5 files (ctrl+o to expand)
+
+⏺ Mükemmel! Şimdi yeni yapıyı anlıyorum:
+
+  Güncel Dosya Yapısı
+
+  Products_with_barcode.csv:
+  - StokKodu = SKU
+  - Barkodu = BARCODE (URL doğrulaması için)
+  - Semicolon (;) ayraçlı
+
+  URLs_merged.csv:
+  - Barcode = SKU (StokKodu ile eşleşir)
+  - Product Description = Bazılarında dolu (İngilizce)
+  - URL - URL 5 = Harici siteler
+
+  products_specs_group.json:
+  - Sadeleştirilmiş: sku, title, brand, specs (group/category_file yok artık)
+
+  all_categories.json:
+  - full_description = DOĞRU ve güvenilir kaynak
+
+  Planı bu değişikliklere göre güncelleyeyim:
+
+⏺ Updated plan
+  ⎿  /plan to preview
+  ⎿  Context limit reached · /compact or /clear to continue
+
+✻ Worked for 14m 13s
+
+❯ /compact 
+  ⎿  Error: Error during compaction: Error: Conversation too long. Press esc
+     twice to go up a few messages and try again.
+
+❯ /compact 
+  ⎿  Error: Error during compaction: Error: Conversation too long. Press esc
+     twice to go up a few messages and try again.
+
+❯ /compact 
+  ⎿  Error: Error during compaction: Error: Conversation too long. Press esc
+     twice to go up a few messages and try again.
+
+❯ /compact 
+  ⎿  Error: Error during compaction: Error: Conversation too long. Press esc
+     twice to go up a few messages and try again.
+
+❯ /model 
+  ⎿  Set model to Default (Opus 4.5 · Most capable for complex work)
+
+❯ /plan 
+  ⎿  Current Plan
+     /Users/projectx/.claude/plans/cryptic-shimmying-rose.md
+
+     Ürün Veri Zenginleştirme - Multi-Agent Sistemi Planı
+
+     Tarih: 2026-02-03
+     Proje: 622 Ürün Kategorizasyon ve Zenginleştirme
+     Durum: Plan Aşaması
+
+     ---
+     📋 PROBLEM ÖZETİ
+
+     622 otomotiv detailing ürününde şu sorunlar var:
+     - group değeri %85 yanlış (products.json'dan kopyalanmış)
+     - specs alanları ürün tipine uygun değil (maskeleme bantında cleaner specs
+     var)
+     - template.fields çoğunlukla null
+     - content, relations, faq alanları boş
+
+     ---
+     📂 GÜNCEL VERİ YAPISI (Kullanıcı Tarafından Yeniden Organize Edildi)
+
+     1. all_categories.json - Ana Çalışma Dosyası
+
+     {
+       "metadata": {
+         "total_categories": 23,
+         "total_products": 622
+       },
+       "categories": {
+         "abrasive_polishes": {
+           "metadata": {
+             "group_id": "abrasive_polish",
+             "group_name": "Pasta, Cila ve Çizik Gidericiler",
+             "total_products": 40
+           },
+           "products": [
+             {
+               "sku": "22.746.281.001",
+               "template": {
+                 "group": "abrasive_polish",      // ✅ DOĞRU - Korunacak
+                 "sub_type": "heavy_cut_compound", // ✅ DOĞRU - Korunacak
+                 "fields": {                       // ⚠️ KISMI -
+     Zenginleştirilecek
+                   "cut_level": 10,
+                   "finish_level": 6,
+                   "machine_compatibility": ["Rotary", "Orbital"]
+                 }
+               },
+               "content": {
+                 "short_description": "...",       // ✅ VAR
+                 "full_description": "...",        // ✅ VAR (Zengin içerik!)
+                 "how_to_use": "",                 // ❌ BOŞ - Doldurulacak
+                 "when_to_use": "",                // ❌ BOŞ - Doldurulacak
+                 "target_surface": "",             // ❌ BOŞ - Doldurulacak
+                 "why_this_product": ""            // ❌ BOŞ - Doldurulacak
+               },
+               "relations": {...},                 // ❌ BOŞ - Doldurulacak
+               "faq": [{...}]                      // ❌ BOŞ - Doldurulacak
+             }
+           ]
+         }
+       }
+     }
+
+     2. products_specs_group.json - Specs Çalışma Dosyası
+
+     {
+       "products": [
+         {
+           "sku": "22.746.281.001",
+           "title": "MENZERNA 300 Süper Ağır Çizik Giderici Kalın Pasta",
+           "brand": "MENZERNA",
+           "group": "pasta",                     // ⚠️ ESKİ/YANLIŞ - Düzeltilece
+           "group_name": "Pasta ve Cila Ürünleri",
+           "category_file": "abrasive_polishes", // ✅ Hangi kategoride
+           "specs": {                            // ❌ BOŞ - Doldurulacak
+             "pasta_type": "",
+             "abrasiveness": "",
+             "finish_quality": "",
+             "machine_compatibility": [],
+             ...
+           }
+         }
+       ]
+     }
+
+     3. URLs_merged.csv - URL ve Açıklama Kaynağı
+
+     Sütunlar:
+     - Product Name: Türkçe ürün adı
+     - Barcode: SKU (eşleşme anahtarı)
+     - Product Description: İngilizce açıklama (DOLU - zengin içerik!)
+     - Product Description_1-3: Türkçe açıklamalar (DOLU!)
+     - Product Name Eng: İngilizce ad
+     - URL - URL 5: Harici e-ticaret siteleri
+
+     ÖNEMLİ KEŞIF: CSV'de Product Description sütunları DOLU!
+     Örnek SilkDryer: 530 GSM, 70×90 cm, kullanım talimatları, FAQ, ilişkili
+     ürünler
+     - hepsi mevcut!
+
+     ---
+     🔄 GÜNCEL İŞ AKIŞI (Revize Edildi)
+
+     Değişen Strateji
+
+     ESKİ Plan: URL → Group Classification → Specs → Content → FAQ → Relations
+
+     YENİ Plan:
+     1. Önce CSV'deki zengin açıklamaları kullan
+     2. Eksik bilgi için URL'lere git
+     3. template.group ve sub_type DOĞRU, sadece doğrula
+     4. specs alanlarını doldurmaya odaklan
+     5. Kategori bazında yeni specs alanları ekle
+
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 0: VERİ BİRLEŞTİRME                                      │
+     │  - URLs_merged.csv'den SKU → Description mapping oluştur        │
+     │  - Hangi ürünlerin zengin açıklaması var tespit et              │
+     │  - Hangi ürünlerin URL'si var tespit et                         │
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 1: AÇIKLAMA ZENGİNLEŞTİRME                               │
+     │  Task Agent: "description-enricher"                              │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Veri Kaynakları (öncelik sırasıyla):                        ││
+     │  │ 1. all_categories.json → content.full_description           ││
+     │  │ 2. URLs_merged.csv → Product Description sütunları          ││
+     │  │ 3. URL Scraping (sadece eksik bilgi için)                   ││
+     │  │                                                              ││
+     │  │ Çıktı: Birleştirilmiş zengin ürün açıklaması                ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 2: GROUP/SUB_TYPE DOĞRULAMA                              │
+     │  Task Agent: "group-verifier"                                    │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - Mevcut template.group ve sub_type                         ││
+     │  │ - Zenginleştirilmiş açıklama                                ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ - Mevcut group DOĞRU mu? (genellikle evet)                  ││
+     │  │ - sub_type DOĞRU mu?                                        ││
+     │  │ - Değişiklik gerekiyorsa flag'le                            ││
+     │  │                                                              ││
+     │  │ Çıktı: verified_group, verified_sub_type, confidence        ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 3: SPECS EXTRACTION & ENRICHMENT                          │
+     │  Task Agent: "specs-extractor"                                   │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ İKİ HEDEF:                                                  ││
+     │  │                                                              ││
+     │  │ A) Mevcut template.fields'ı doğrula ve genişlet             ││
+     │  │    - cut_level: 10 ✓                                        ││
+     │  │    - finish_level: 6 ✓                                      ││
+     │  │    - [YENİ] voc_free: true                                  ││
+     │  │                                                              ││
+     │  │ B) products_specs_group.json specs'ini doldur               ││
+     │  │    - pasta_type: "heavy_cut_compound"                       ││
+     │  │    - abrasiveness: "10/10"                                  ││
+     │  │    - machine_compatibility: ["Rotary", "Orbital"]           ││
+     │  │                                                              ││
+     │  │ Çıktı: Doldurulmuş specs + yeni önerilen alanlar            ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 4: CONTENT FILLING                                        │
+     │  Task Agent: "content-filler"                                    │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ full_description'dan çıkar:                                 ││
+     │  │ - how_to_use (Uygulama Aşamaları bölümünden)                ││
+     │  │ - when_to_use (Kullanım Senaryoları bölümünden)             ││
+     │  │ - target_surface (Açıklamadan çıkar)                        ││
+     │  │ - why_this_product (Avantajlar bölümünden)                  ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 5: FAQ GENERATION                                         │
+     │  AŞAMA 6: RELATIONS BUILDING                                     │
+     │  AŞAMA 7: VALIDATION & MERGE                                     │
+     └─────────────────────────────────────────────────────────────────┘
+
+     ---
+     🎯 ÇÖZÜM: Multi-Agent Pipeline (Claude Code Task Tool ile)
+
+     Kritik Tasarım İlkeleri
+
+     1. Her agent TEK bir görev yapar - Sınırları net
+     2. Doğrulama zorunlu - URL'den gelen veri doğru ürünle mi eşleşiyor?
+     3. Adım adım ilerleme - Her adım öncekinin çıktısına bağlı
+     4. Eksik URL kontrolü - 622 ürünün hepsi URL dosyalarında olmayabilir
+
+     İş Akışı (8 Aşama)
+
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 0: HAZIRLIK (Manuel/Tek Seferlik)                        │
+     │  - URLs.csv + URLs2.csv birleştir                               │
+     │  - products.json ile SKU eşleşmesi kontrol et                   │
+     │  - Eksik URL'leri tespit et (622 - CSV'deki ürünler)            │
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 1: URL SCRAPING + DOĞRULAMA                              │
+     │  Task Agent: "url-scraper"                                      │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - SKU: "Q2M-SDE7090C"                                       ││
+     │  │ - Product Title: "GYEON Q²M SilkDryer EVO 70×90"            ││
+     │  │ - URLs: ["https://gyeon.de/...", "https://carzilla.ca/..."] ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. Her URL'ye WebFetch ile git                              ││
+     │  │ 2. Sayfadaki ürün adını çıkar                               ││
+     │  │ 3. DOĞRULAMA: Ürün adı input title ile eşleşiyor mu?        ││
+     │  │    - "SilkDryer" kelimesi var mı?                           ││
+     │  │    - "70x90" veya "70×90" boyut bilgisi var mı?             ││
+     │  │ 4. Eşleşen sayfalardan veri çıkar                           ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - verified_urls: [{"url": "...", "match_score": 0.95}]      ││
+     │  │ - scraped_data: {specs, usage, faq_candidates, related}     ││
+     │  │ - rejected_urls: [{"url": "...", "reason": "wrong product"}]││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 2: GROUP CLASSIFICATION                                   │
+     │  Task Agent: "group-classifier"                                  │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - SKU: "Q2M-SDE7090C"                                       ││
+     │  │ - Title: "GYEON Q²M SilkDryer EVO..."                       ││
+     │  │ - Scraped Description: "...kurulama havlusu...530 GSM..."   ││
+     │  │ - Available Groups: [23 kategori metadata listesi]          ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. Ürün açıklamasını analiz et                              ││
+     │  │ 2. 23 grup şablonundan EN UYGUN olanı seç                   ││
+     │  │ 3. sub_type belirle (örn: drying_towel)                     ││
+     │  │ 4. Güven skoru ver (0.0-1.0)                                ││
+     │  │                                                              ││
+     │  │ Sınırlamalar:                                                ││
+     │  │ - Sadece mevcut 23 gruptan seç                              ││
+     │  │ - Emin değilsen confidence < 0.7 ver                        ││
+     │  │ - Asla yeni grup önerme                                     ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - assigned_group: "microfiber"                              ││
+     │  │ - sub_type: "drying_towel"                                  ││
+     │  │ - confidence: 0.95                                          ││
+     │  │ - reasoning: "530 GSM, kurulama havlusu, 70x90 boyut"       ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 3: SPECS EXTRACTION & VALIDATION                          │
+     │  Task Agent: "specs-extractor"                                   │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - SKU: "Q2M-SDE7090C"                                       ││
+     │  │ - Assigned Group: "microfiber"                              ││
+     │  │ - Group Template Fields: {size, gsm, type, edge_type, ...}  ││
+     │  │ - Scraped Data: "530 GSM, 70×90 cm, Twist Pile..."          ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. Grup şemasına göre specs alanlarını doldur               ││
+     │  │ 2. Scraped data'dan değerleri çıkar                         ││
+     │  │ 3. Eksik alanları "null" olarak işaretle                    ││
+     │  │ 4. Veri tiplerini doğrula (number, boolean, array)          ││
+     │  │                                                              ││
+     │  │ Sınırlamalar:                                                ││
+     │  │ - Sadece grup şemasındaki alanları doldur                   ││
+     │  │ - Değer bulunamadıysa tahmin etme, null bırak               ││
+     │  │ - Birimleri standartlaştır (cm, mm, GSM, °C)                ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - specs: {size: "70x90 cm", gsm: 530, type: "Twist Pile"}   ││
+     │  │ - template_fields: {size: "70x90 cm", gsm: 530, ...}        ││
+     │  │ - missing_fields: ["color"]                                 ││
+     │  │ - data_sources: {"gsm": "gyeon.de", "size": "carzilla.ca"}  ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 4: CONTENT FILLING                                        │
+     │  Task Agent: "content-filler"                                    │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - SKU, Title, Group, Sub_type                               ││
+     │  │ - Scraped descriptions from multiple URLs                   ││
+     │  │ - Existing short_description, full_description              ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. how_to_use: Kullanım talimatları (adım adım)             ││
+     │  │ 2. when_to_use: Ne zaman kullanılır                         ││
+     │  │ 3. target_surface: Hangi yüzeylerde                         ││
+     │  │ 4. why_this_product: Neden bu ürün (USP)                    ││
+     │  │                                                              ││
+     │  │ Sınırlamalar:                                                ││
+     │  │ - Scraped veriden sentezle, uydurma                         ││
+     │  │ - Türkçe yaz                                                ││
+     │  │ - Marka vaatlerini abartma                                  ││
+     │  │ - Veri yoksa boş bırak                                      ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - how_to_use: "1. Aracı yıkayın\n2. Havluyu serin..."       ││
+     │  │ - when_to_use: "Yıkama sonrası kurulama için"               ││
+     │  │ - target_surface: "Boya, cam, PPF, jant"                    ││
+     │  │ - why_this_product: "%50 daha fazla emicilik, iz bırakmaz"  ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 5: FAQ GENERATION                                         │
+     │  Task Agent: "faq-generator"                                     │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - SKU, Title, Group                                         ││
+     │  │ - Scraped FAQ candidates (varsa)                            ││
+     │  │ - Product specs and content                                 ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. Scraped FAQ varsa adapte et                              ││
+     │  │ 2. Yoksa specs'ten mantıklı sorular üret                    ││
+     │  │ 3. 3-5 soru-cevap çifti oluştur                             ││
+     │  │                                                              ││
+     │  │ Sınırlamalar:                                                ││
+     │  │ - Gerçek müşteri soruları gibi olsun                        ││
+     │  │ - Cevaplar kısa ve net (2-3 cümle max)                      ││
+     │  │ - Specs'te olmayan bilgiyi uydurma                          ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - faq: [{q: "Kaç GSM?", a: "530 GSM."}, ...]                ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 6: RELATIONS BUILDING                                     │
+     │  Task Agent: "relations-builder"                                 │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - Current SKU and product info                              ││
+     │  │ - All products in same category (SKU list)                  ││
+     │  │ - Scraped "related products" data                           ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. use_before: Bu üründen önce kullanılacaklar              ││
+     │  │ 2. use_after: Bu üründen sonra kullanılacaklar              ││
+     │  │ 3. use_with: Birlikte kullanılacaklar                       ││
+     │  │ 4. accessories: Aksesuarlar                                 ││
+     │  │ 5. alternatives: Alternatifler (aynı kategoriden)           ││
+     │  │                                                              ││
+     │  │ Sınırlamalar:                                                ││
+     │  │ - Sadece products.json'daki SKU'ları kullan                 ││
+     │  │ - Mantıksal tutarlılık (şampuan → kurulama havlusu)         ││
+     │  │ - Max 5 SKU per relation type                               ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - relations: {use_before: ["Q2M-BYA1000M"], use_with: [...]}││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+                                   │
+                                   ▼
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  AŞAMA 7: VALIDATION & MERGE                                     │
+     │  Task Agent: "validator"                                         │
+     │  ┌─────────────────────────────────────────────────────────────┐│
+     │  │ Input:                                                      ││
+     │  │ - Original product data                                     ││
+     │  │ - All agent outputs (group, specs, content, faq, relations) ││
+     │  │                                                              ││
+     │  │ Görev:                                                       ││
+     │  │ 1. Tüm çıktıları birleştir                                  ││
+     │  │ 2. JSON şema validasyonu yap                                ││
+     │  │ 3. Tutarlılık kontrolü (group ↔ specs uyumu)                ││
+     │  │ 4. Final ürün JSON'ı oluştur                                ││
+     │  │                                                              ││
+     │  │ Output:                                                      ││
+     │  │ - validated_product: {complete product JSON}                ││
+     │  │ - warnings: ["missing gsm", "low confidence group"]         ││
+     │  │ - ready_to_write: true/false                                ││
+     │  └─────────────────────────────────────────────────────────────┘│
+     └─────────────────────────────────────────────────────────────────┘
+
+     ---
+     🔧 UYGULAMA: Claude Code Task Tool ile
+
+     Neden Task Tool?
+
+     1. Subagent'lar izole çalışır - Her agent kendi context'inde
+     2. Paralel çalıştırma - Bağımsız işler aynı anda
+     3. Prompt hassasiyeti - Her agent için özel optimize prompt
+     4. Kontrollü ilerleme - Adım adım, sonuçları görerek
+
+     Dosya Yapısı (Oluşturulacak)
+
+     /agents/
+     ├── prompts/
+     │   ├── url_scraper.md           # URL scraping + doğrulama promptu
+     │   ├── group_classifier.md      # Grup atama promptu
+     │   ├── specs_extractor.md       # Specs çıkarma promptu
+     │   ├── content_filler.md        # İçerik doldurma promptu
+     │   ├── faq_generator.md         # FAQ üretme promptu
+     │   ├── relations_builder.md     # İlişki kurma promptu
+     │   └── validator.md             # Doğrulama promptu
+     ├── schemas/
+     │   ├── all_groups.json          # 23 grup metadata birleştirilmiş
+     │   ├── url_mapping.json         # SKU → URL eşleşmesi (CSV'den)
+     │   └── product_skus.json        # Tüm SKU listesi (relations için)
+     ├── output/
+     │   ├── scraped/                 # URL'den çekilen ham veri
+     │   ├── classified/              # Grup atanmış ürünler
+     │   ├── enriched/                # Zenginleştirilmiş ürünler
+     │   └── validated/               # Final ürünler
+     └── logs/
+         ├── errors.json              # Hatalı ürünler
+         └── progress.json            # İlerleme takibi
+
+     ---
+     🔐 VERİ TOPLAMA STRATEJİSİ
+
+     KRİTİK KURAL: URL Scraping ZORUNLU!
+
+     ⚠️ URL'i olan TÜM ürünlerin sayfaları kazınacak.
+     ⚠️ Kazınan verinin DOĞRU ÜRÜN olduğu doğrulanacak.
+     ⚠️ Sadece doğrulanmış veriler kullanılacak.
+
+     Veri Kaynakları (Hepsi Kullanılacak)
+
+     1. all_categories.json → content.full_description (Türkçe)
+     2. URLs_merged.csv → Product Description sütunları
+     3. URL Scraping → Tüm URL'ler kazınacak (ZORUNLU!)
+
+     Üç kaynaktan gelen veri BİRLEŞTİRİLECEK.
+
+     URL Scraping ve Doğrulama Süreci
+
+     ┌─────────────────────────────────────────────────────────────────┐
+     │  HER ÜRÜN İÇİN (URL'si varsa):                                  │
+     │                                                                  │
+     │  1. URLs_merged.csv'den URL listesini al                        │
+     │  2. Her URL için WebFetch çağır                                 │
+     │  3. Sayfa içeriğini analiz et                                   │
+     │  4. DOĞRULAMA: Bu sayfa gerçekten bu ürün mü?                   │
+     │     - Marka eşleşmesi kontrol                                   │
+     │     - Ürün adı kelimeleri kontrol                               │
+     │     - SKU/Barkod kontrolü                                       │
+     │  5. Doğrulama skoru >= 0.7 → KABUL                              │
+     │  6. Kabul edilen sayfalardan veri çıkar                         │
+     │  7. Tüm kaynakları birleştir                                    │
+     └─────────────────────────────────────────────────────────────────┘
+
+     Doğrulama Algoritması (BARCODE BAZLI)
+
+     ⚠️ SKU ile doğrulama YAPILMAZ (SKU'lar firmaya özel)
+     ⚠️ BARCODE kullanılmalı (evrensel ürün kodu)
+
+     BARCODE Kaynağı: Products_with_barcode.csv
+        StokKodu (SKU) → Barkodu (BARCODE) eşleşmesi
+
+     Doğrulama Puanı = (Marka × 0.3) + (Ürün Adı × 0.4) + (BARCODE × 0.3)
+
+     Marka Kontrolü (0.3 puan):
+     - "GYEON", "Q2M", "Q2" → GYEON ürünleri
+     - "Menzerna", "MENZERNA" → Menzerna ürünleri
+     - "FRA-BER", "Fra-Ber" → Fra-Ber ürünleri
+
+     Ürün Adı Kontrolü (0.4 puan):
+     - Title'dan anahtar kelimeler çıkar: "SilkDryer", "EVO", "70x90"
+     - Sayfada bu kelimeler var mı?
+
+     BARCODE Kontrolü (0.3 puan):
+     - Products_with_barcode.csv'den Barkodu al
+     - Sayfada bu barcode var mı?
+     - Örnek: "8809432671480" (GYEON SilkDryer)
+
+     Eşik: score >= 0.7 → KABUL, < 0.7 → REDDET
+
+     Reddedilen URL'ler
+
+     Reddedilen URL'ler loglanacak:
+     - rejected_urls.json
+     - Neden reddedildi
+     - Hangi ürün için
+     - Manuel kontrol için işaretlenir
+
+     ---
+     📝 YENİ AGENT TANIMLARI (Güncellenmiş İş Akışına Göre)
+
+     Agent 0: URL Scraper & Verifier (YENİ - İLK ÇALIŞACAK)
+
+     # URL SCRAPER & VERIFIER AGENT
+
+     ## Görevin
+     URL'i olan ürünler için TÜM URL'leri kazı ve doğru ürün olduğunu doğrula.
+
+     ⚠️ BU AGENT ZORUNLU - URL'i olan her ürün için çalışmalı!
+
+     ## Input
+     - sku: "{SKU}"
+     - title: "{PRODUCT_TITLE}"
+     - brand: "{BRAND}"
+     - urls: ["{URL1}", "{URL2}", "{URL3}", "{URL4}", "{URL5}"]
+
+     ## Görev Adımları
+
+     ### 1. Her URL için WebFetch Çağır
+     for each url in urls:
+         content = WebFetch(url)
+         process(content)
+
+     ### 2. DOĞRULAMA (KRİTİK!)
+     Her sayfa için doğrulama yap:
+
+     A) Marka Kontrolü (0.3 puan):
+        - "{BRAND}" veya varyasyonları sayfada var mı?
+        - GYEON: "GYEON", "Q2M", "Q2", "Gyeon Quartz"
+        - MENZERNA: "Menzerna", "MENZERNA"
+        - FRA-BER: "FRA-BER", "Fra-Ber", "Fraber"
+
+     B) Ürün Adı Kontrolü (0.4 puan):
+        - Title'dan anahtar kelimeler çıkar
+        - Örnek: "SilkDryer EVO 70x90" → ["SilkDryer", "EVO", "70x90", "70×90"]
+        - Bu kelimeler sayfada var mı?
+
+     C) SKU Kontrolü (0.3 puan):
+        - "{SKU}" sayfada var mı?
+        - Varyasyonlar: Q2M-SDE7090C, Q2MSDE7090C, SDE7090C
+
+     D) Puan Hesapla:
+        - score = (marka × 0.3) + (ürün_adı × 0.4) + (sku × 0.3)
+        - score >= 0.7 → KABUL
+        - score < 0.7 → REDDET
+
+     ### 3. Veri Çıkarma (Sadece KABUL Edilen URL'lerden)
+     - Teknik özellikler (specs)
+     - Kullanım talimatları
+     - FAQ (varsa)
+     - İlişkili ürünler
+     - Görseller (URL'leri)
+
+     ## Output Format (JSON)
+     {
+       "sku": "{SKU}",
+       "scraping_summary": {
+         "total_urls": 5,
+         "accepted": 4,
+         "rejected": 1
+       },
+       "verified_urls": [
+         {
+           "url": "https://gyeon.de/...",
+           "score": 0.95,
+           "status": "accepted",
+           "checks": {
+             "brand": true,
+             "product_name": true,
+             "sku": true
+           }
+         }
+       ],
+       "rejected_urls": [
+         {
+           "url": "https://wrong-site.com/...",
+           "score": 0.4,
+           "status": "rejected",
+           "reason": "Farklı ürün: WaffleDryer sayfası, SilkDryer değil"
+         }
+       ],
+       "scraped_data": {
+         "specs_found": {
+           "gsm": "530",
+           "size": "70x90 cm",
+           "material": "80% polyester / 20% polyamid"
+         },
+         "usage_instructions": "1. Aracı yıkayın...",
+         "faq_found": [
+           {"q": "Seramik araçlarda kullanılır mı?", "a": "Evet..."}
+         ],
+         "related_products": ["Bathe+", "WetCoat", "TowelWash"],
+         "additional_info": "..."
+       }
+     }
+
+     ---
+     Agent 1: Description Enricher (Açıklama Birleştirici)
+
+     # DESCRIPTION ENRICHER AGENT
+
+     ## Görevin
+     URL Scraper çıktısı + mevcut veriler = Zengin birleşik açıklama
+
+     ## Input
+     - sku: "{SKU}"
+     - title: "{PRODUCT_TITLE}"
+     - sources:
+       - all_categories_description: "{FULL_DESCRIPTION from
+     all_categories.json}"
+       - csv_description_en: "{Product Description from CSV}"
+       - csv_description_tr: "{Product Description_1 from CSV}"
+       - url_scraped_data: {from URL Scraper Agent} // ⚠️ ZORUNLU (varsa)
+
+     ## Görev Adımları
+
+     ### 1. Tüm Kaynakları Birleştir
+     Üç kaynak + URL scraping verisi:
+     1. all_categories.json → Türkçe profesyonel içerik
+     2. CSV → İngilizce + Türkçe açıklamalar
+     3. URL scraped_data → Harici sitelerden gelen veri
+
+     ### 2. Veri Çakışması Çözümü
+     Aynı bilgi farklı kaynaklardan farklı gelirse:
+     - Öncelik: URL scraped > CSV > all_categories
+     - Çünkü URL'ler genellikle üretici/resmi kaynak
+
+     ### 3. Yapısal Çıkarım Yap
+     Birleştirilmiş metinden şunları tespit et:
+     - Teknik özellikler (sayısal değerler)
+     - Kullanım talimatları (adımlar)
+     - Kullanım senaryoları
+     - Avantajlar/USP
+     - FAQ adayları
+     - İlişkili ürün isimleri
+
+     ## Output Format (JSON)
+     {
+       "sku": "{SKU}",
+       "enriched_description": "Birleştirilmiş tam metin...",
+       "data_quality": "high|medium|low",
+       "sources_used": ["all_categories", "csv_en", "csv_tr", "url_gyeon.de",
+     "url_carzilla.ca"],
+       "extracted_elements": {
+         "specs_candidates": {"gsm": "530", "size": "70x90 cm"},
+         "usage_steps": ["1. Yıkayın", "2. Serin", "3. Kaydırın"],
+         "use_cases": ["Tam araç kurulama", "Hassas boyalar"],
+         "benefits": ["%50 daha fazla emiş", "Çiziksiz"],
+         "faq_candidates": [{"q": "...", "a": "..."}],
+         "related_products_mentioned": ["Bathe+", "WetCoat", "TowelWash"]
+       },
+       "data_conflicts_resolved": [
+         {"field": "gsm", "values": {"csv": "500", "url": "530"}, "chosen":
+     "530",
+     "reason": "URL üretici sitesi"}
+       ]
+     }
+
+     ---
+     Agent 2: Group Verifier (Grup Doğrulayıcı)
+
+     # GROUP VERIFIER AGENT
+
+     ## Görevin
+     Mevcut template.group ve sub_type'ın DOĞRU olup olmadığını doğrula.
+     (NOT: Group zaten atanmış, sen sadece KONTROL et!)
+
+     ## Input
+     - sku: "{SKU}"
+     - title: "{PRODUCT_TITLE}"
+     - current_group: "{template.group from all_categories.json}"
+     - current_sub_type: "{template.sub_type}"
+     - enriched_description: "{ENRICHED_DESCRIPTION}"
+     - category_file: "{category_file from products_specs_group.json}"
+
+     ## Görev
+
+     ### 1. Doğrulama
+     - Ürün açıklaması ile mevcut group UYUMLU mu?
+     - sub_type DOĞRU mu?
+     - category_file ile group TUTARLI mı?
+
+     ### 2. Kararlar
+     - DOĞRU: Hiçbir değişiklik gerekmiyor
+     - SUB_TYPE DEĞİŞMELİ: Group doğru ama sub_type yanlış
+     - GROUP DEĞİŞMELİ: Tamamen yanlış kategoride (NADİR!)
+
+     ## Kurallar
+     - Mevcut group genellikle DOĞRU kabul et
+     - Sadece açık bir hata varsa değişiklik öner
+     - Emin değilsen "needs_review": true işaretle
+
+     ## Output Format (JSON)
+     {
+       "sku": "{SKU}",
+       "verification_result": 
+     "CONFIRMED|SUB_TYPE_CHANGE|GROUP_CHANGE|NEEDS_REVIEW",
+       "current_group": "microfiber",
+       "current_sub_type": "drying_towel",
+       "verified_group": "microfiber",
+       "verified_sub_type": "drying_towel",
+       "confidence": 0.95,
+       "reasoning": "Ürün 530 GSM kurulama havlusu, microfiber/drying_towel doğr
+     atanmış.",
+       "changes_needed": false
+     }
+
+     ---
+     Agent 3: Specs Extractor (Specs Çıkarıcı)
+
+     # SPECS EXTRACTOR AGENT
+
+     ## Görevin
+     Zenginleştirilmiş açıklamadan specs değerlerini çıkar ve doldur.
+
+     ## Input
+     - sku: "{SKU}"
+     - verified_group: "{GROUP}"
+     - verified_sub_type: "{SUB_TYPE}"
+     - enriched_description: "{ENRICHED_DESCRIPTION}"
+     - extracted_elements: {specs_candidates from enricher}
+     - current_template_fields: {existing fields from all_categories.json}
+     - group_specs_schema: {specs schema for this group}
+
+     ## İKİ ÇIKTI HEDEFİ:
+
+     ### A) template.fields Güncellemesi (all_categories.json için)
+     Mevcut fields'ı koru ve eksikleri doldur:
+     ```json
+     {
+       "cut_level": 10,      // Mevcut - koru
+       "finish_level": 6,    // Mevcut - koru
+       "voc_free": true,     // YENİ - açıklamadan çıkarıldı
+       "dust_level": "Low"   // YENİ - açıklamadan çıkarıldı
+     }
+
+     B) specs Doldurması (products_specs_group.json için)
+
+     Boş specs alanlarını doldur:
+     {
+       "pasta_type": "heavy_cut_compound",
+       "abrasiveness": "10/10",
+       "finish_quality": "6/10",
+       "machine_compatibility": ["Rotary", "Orbital"],
+       "silicone_free": true
+     }
+
+     Kurallar
+
+     1. Açık kanıt olmadan değer ATAMA
+     2. Sayısal değerleri normalize et (10/10, "530 GSM" → 530)
+     3. Boolean için açık ifade ara ("içermez", "yok", "var")
+     4. Array için virgülle ayrılmış listeleri parse et
+
+     Output Format (JSON)
+
+     {
+       "sku": "{SKU}",
+       "template_fields_update": {
+         "cut_level": 10,
+         "finish_level": 6,
+         "voc_free": true,
+         "dust_level": "Low"
+       },
+       "specs_fill": {
+         "pasta_type": "heavy_cut_compound",
+         "abrasiveness": "10/10",
+         "finish_quality": "6/10",
+         "machine_compatibility": ["Rotary", "Orbital"],
+         "silicone_free": true
+       },
+       "extraction_details": {
+         "voc_free": {"source": "VOC-İçermez ifadesi açıklamada", "confidence":
+     "high"},
+         "dust_level": {"source": "düşük tozuma özelliği", "confidence":
+     "medium"}
+       },
+       "suggested_new_fields": ["bodyshop_safe"]
+     }
+
+     ---
+
+     ### Agent 4: Content Filler (İçerik Doldurucu)
+
+     ```markdown
+     # CONTENT FILLER AGENT
+
+     ## Görevin
+     Zenginleştirilmiş açıklamadan content alanlarını çıkar ve doldur.
+
+     ## Input
+     - sku: "{SKU}"
+     - title: "{TITLE}"
+     - enriched_description: "{ENRICHED_DESCRIPTION}"
+     - extracted_elements: {usage_steps, use_cases, benefits from enricher}
+
+     ## Doldurulacak Alanlar
+
+     ### 1. how_to_use
+     Kaynak: "Uygulama Aşamaları", "Nasıl Kullanılır", "Application Steps"
+     Format: Numaralı liste
+
+     ### 2. when_to_use
+     Kaynak: "Kullanım Senaryoları", "Use Cases", "Ne Zaman"
+     Format: 1-2 cümle
+
+     ### 3. target_surface
+     Kaynak: "Hangi yüzeylerde", "Suitable for", "Uygulanabilir yüzeyler"
+     Format: Virgülle ayrılmış liste
+
+     ### 4. why_this_product
+     Kaynak: "Avantajlar", "Benefits", "Neden Bu Ürün", "USP"
+     Format: 2-3 madde
+
+     ## Kurallar
+     1. Mevcut açıklamadan ÇIKAR, uydurma
+     2. Türkçe yaz (kaynak İngilizce ise çevir)
+     3. Kısa ve öz tut
+     4. Veri yoksa BOŞ BIRAK
+
+     ## Output Format (JSON)
+     {
+       "sku": "{SKU}",
+       "content": {
+         "how_to_use": "1. Uygulama öncesinde araç yüzeyini detaylıca
+     yıkayın.\n2.
+     Hassas trimleri Q1 Tapes ile maskeleyin.\n3. Düşük devirde başlatarak ürünü
+     yüzeye yayın.\n4. Devri artırarak yüzeyde yağlı film oluşana kadar
+     çalışın.\n5.
+     Yumuşak mikrofiber bezle silin.",
+         "when_to_use": "Ağır boya restorasyonu, zımpara sonrası düzeltme ve en
+     inatçı çiziklerin giderilmesi için.",
+         "target_surface": "Otomotiv boyası, sert vernikler, tüm boya tipleri",
+         "why_this_product": "Maksimum 10/10 aşındırma gücü. Silikonsuz ve dolgu
+     içermez - gerçek sonuçlar. P1200 ve üstü zımpara izlerini giderir."
+       },
+       "extraction_source": "full_description içindeki 'Uygulama Aşamaları'
+     bölümü"
+     }
+
+     ---
+     Agent 5: FAQ Generator (Güncellendi)
+
+     # FAQ GENERATOR AGENT
+
+     ## Görevin
+     Ürün için 3-5 gerçekçi FAQ oluştur.
+
+     ## Input
+     - sku: "{SKU}"
+     - title: "{TITLE}"
+     - specs: {EXTRACTED_SPECS}
+     - content: {FILLED_CONTENT}
+     - faq_candidates: {from enricher - varsa}
+     - enriched_description: "{DESCRIPTION}"
+
+     ## Görev
+
+     ### 1. Mevcut FAQ Kontrolü
+     CSV veya açıklamada hazır FAQ var mı kontrol et.
+     Varsa önce onları kullan, formatla.
+
+     ### 2. Specs'ten FAQ Üret
+     Her önemli spec için potansiyel soru:
+     - "Bu ürün silikon içeriyor mu?" → silicone_free: true
+     - "Hangi makinelerle kullanılır?" → machine_compatibility
+
+     ### 3. Kullanım FAQ'ları
+     - "Nasıl uygulanır?"
+     - "Hangi yüzeylerde kullanılır?"
+     - "Sonrası ne yapılmalı?"
+
+     ## Kurallar
+     1. Gerçek müşteri soruları gibi doğal dil
+     2. Cevaplar KISA (max 2-3 cümle)
+     3. Specs'te OLMAYAN bilgiyi uydurma
+     4. Türkçe yaz
+     5. Min 3, max 5 FAQ
+
+     ## Output Format (JSON)
+     {
+       "sku": "{SKU}",
+       "faq": [
+         {
+           "question": "Menzerna 300 silikon içeriyor mu?",
+           "answer": "Hayır, silikonsuz ve dolgu maddesi içermeyen formüle
+     sahiptir.
+     Sonuçlar gerçektir."
+         },
+         {
+           "question": "Hangi makinelerle kullanabilirim?",
+           "answer": "Hem Rotary hem de Orbital polisaj makineleriyle uyumludur.
+         },
+         {
+           "question": "Hangi zımpara izlerini giderir?",
+           "answer": "P1200 ve üstü zımpara izlerini etkili şekilde giderir."
+         }
+       ],
+       "source": "specs_based + description_extracted"
+     }
+
+     ---
+     Agent 6: Relations Builder (Güncellendi)
+
+     # RELATIONS BUILDER AGENT
+
+     ## Görevin
+     Ürünler arası mantıksal ilişkileri kur.
+
+     ## Input
+     - sku: "{SKU}"
+     - title: "{TITLE}"
+     - group: "{GROUP}"
+     - sub_type: "{SUB_TYPE}"
+     - enriched_description: "{DESCRIPTION}"
+     - related_products_mentioned: {from enricher}
+     - all_products_list: [{sku, title, group, sub_type}, ...]
+
+     ## İlişki Mantığı
+
+     ### 1. use_before (Bu üründen ÖNCE)
+     Pasta için: Yıkama şampuanı, kil temizliği, maskeleme
+     Kaplama için: Pasta, prep, temizlik
+
+     ### 2. use_after (Bu üründen SONRA)
+     Pasta için: İnce pasta, cila, koruma
+     Şampuan için: Kurulama havlusu
+
+     ### 3. use_with (BİRLİKTE)
+     Pasta için: Polisaj pedi, makine
+     Şampuan için: Köpük tabancası, kova
+
+     ### 4. accessories (AKSESUARLAR)
+     Kaplama için: Aplikatör, süet bez
+     Makine için: Ped, tabanlık
+
+     ### 5. alternatives (ALTERNATİFLER)
+     Aynı işlev, farklı marka/boyut
+
+     ## Kurallar
+     1. SADECE all_products_list'teki SKU'ları kullan
+     2. Açıklamada adı geçen ürünleri öncelikle eşle
+     3. Her kategori max 5 SKU
+     4. Mantıksal tutarlılık
+
+     ## Output Format (JSON)
+     {
+       "sku": "{SKU}",
+       "relations": {
+         "use_before": ["Q2M-BYA1000M"],
+         "use_after": ["22.828.281.001", "22.992.281.001"],
+         "use_with": ["26900.224.010"],
+         "accessories": [],
+         "alternatives": ["22.200.281.001", "22.203.261.001"]
+       },
+       "reasoning": {
+         "use_after": "Açıklamada belirtilen: 'Menzerna 2500 ile devam edin'",
+         "alternatives": "Aynı kategoride farklı formüller: 400, Cut Force Pro"
+       }
+     }
+
+     ---
+     Agent 7: Category Specs Analyzer (YENİ)
+
+     # CATEGORY SPECS ANALYZER AGENT
+
+     ## Görevin
+     Bir kategori için tüm ürünlerin açıklamalarını analiz et ve
+     eklenebilecek yeni specs alanlarını tespit et.
+
+     ## Input
+     - category: "{CATEGORY_NAME}"
+     - category_products: [{sku, enriched_description}, ...]
+     - current_specs_schema: {mevcut specs alanları}
+
+     ## Görev
+
+     ### 1. Tüm Ürün Açıklamalarını Tara
+     Her üründe tekrar eden teknik özellik kalıplarını bul:
+     - "VOC içermez" → voc_free: boolean
+     - "P1200 kum" → grit_removal: string
+     - "30 dakika 110°C" → temperature_resistance: number
+
+     ### 2. Sıklık Analizi
+     Her bulunan özelliğin kaç üründe geçtiğini say.
+     %50'den fazla üründe geçiyorsa → standart alan olabilir.
+
+     ### 3. Öneri Oluştur
+     Yeni alan önerileri:
+     - Alan adı (snake_case)
+     - Veri tipi (string, number, boolean, array)
+     - Açıklama
+     - Kaç üründe tespit edildi
+
+     ## Output Format (JSON)
+     {
+       "category": "abrasive_polishes",
+       "analysis_summary": {
+         "products_analyzed": 40,
+         "new_fields_suggested": 3
+       },
+       "suggested_fields": [
+         {
+           "field_name": "voc_free",
+           "data_type": "boolean",
+           "description": "VOC (Uçucu Organik Bileşik) içermez",
+           "detected_in_products": 15,
+           "percentage": 37.5,
+           "sample_values": [true, false]
+         },
+         {
+           "field_name": "grit_removal",
+           "data_type": "string",
+           "description": "Giderilebilen minimum zımpara kumu",
+           "detected_in_products": 28,
+           "percentage": 70,
+           "sample_values": ["P1200", "P1500", "P2000"]
+         }
+       ],
+       "recommendation": "grit_removal alanı %70 üründe tespit edildi, eklenmesi
+     önerilir."
+     }
+
+     ---
+     🚀 GÜNCEL UYGULAMA ADIMLARI
+
+     Faz 0: Veri Hazırlık (TAMAMLANDI ✅)
+
+     Kullanıcı tarafından yapıldı:
+     - ✅ URLs.csv + URLs2.csv → URLs_merged.csv
+     - ✅ 23 kategori → all_categories.json
+     - ✅ specs ve group ayrıştırıldı → products_specs_group.json
+
+     Ek Yapılacak:
+     1. SKU → CSV Satırı Mapping
+        - URLs_merged.csv'den Barcode ile eşleştirme
+        - Hangi ürünlerin CSV'de zengin açıklaması var?
+        - Hangi ürünlerin URL'si var?
+
+     2. Veri Kalitesi Raporu
+        - 622 üründen kaçı CSV'de?
+        - Kaçının Product Description'ı dolu?
+        - Kaçının URL'si var?
+
+     Faz 1: Pilot Test (5 Ürün)
+
+     Seçilecek Test Ürünleri (Farklı Durumlar):
+     1. Zengin veri - all_categories'de full_description + CSV'de açıklama
+     2. Orta veri - all_categories'de açıklama var, CSV'de yok
+     3. Az veri - Sadece temel bilgi, URL scraping gerekli
+     4. Farklı kategori - masking_tapes (sorunlu specs)
+     5. Farklı marka - FRA-BER veya Menzerna
+
+     Her Ürün İçin Test Sırası:
+     1. Description Enricher → Tüm kaynakları birleştir
+     2. Group Verifier → Mevcut group doğru mu?
+     3. Specs Extractor → specs doldur
+     4. Content Filler → how_to_use, when_to_use, vb.
+     5. FAQ Generator → 3-5 FAQ
+     6. (Relations sonra - tüm kategori gerekli)
+
+     Beklenen Çıktı:
+     - Optimize edilmiş prompt'lar
+     - Hangi kaynağın ne kadar yararlı olduğu
+     - URL scraping gerçekten gerekli mi?
+
+     Faz 2: Kategori Bazlı İşleme
+
+     İşlem Sırası (Küçükten Büyüğe):
+
+
+
+     ┌─────┬────────────────┬──────┬──────────────────┐
+     │  #  │    Kategori    │ Ürün │     Öncelik      │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 1   │ product_sets   │ 2    │ Test             │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 2   │ marin_products │ 5    │ Test             │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 3   │ leather_care   │ 6    │ Test             │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 4   │ masking_tapes  │ 7    │ Yüksek (sorunlu) │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 5   │ glass_cleaner  │ 7    │ Orta             │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 6   │ clay_products  │ 7    │ Orta             │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 7   │ brushes        │ 8    │ Orta             │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ ... │ ...            │ ...  │ ...              │
+     ├─────┼────────────────┼──────┼──────────────────┤
+     │ 23  │ fragrance      │ 93   │ Düşük            │
+     └─────┴────────────────┴──────┴──────────────────┘
+     Her Kategori İçin Pipeline:
+
+     ┌─────────────────────────────────────────────────────────────────┐
+     │ KATEGORİ: {category_name} ({n} ürün)                            │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 0: URL SCRAPING (ZORUNLU - URL'i Olan Her Ürün İçin)       │
+     │   ⚠️ URL'i olan TÜM ürünler için çalıştır                       │
+     │   - Her URL'ye WebFetch                                         │
+     │   - Doğrulama: Doğru ürün mü? (score >= 0.7)                    │
+     │   - Reddedilen URL'leri logla                                   │
+     │   - Çıktı: scraped_data per product                             │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 1: Veri Birleştirme (Parallel)                             │
+     │   - Description Enricher çalıştır                               │
+     │   - Kaynaklar: all_categories + CSV + URL scraped               │
+     │   - Çıktı: enriched_description per product                     │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 2: Group Doğrulama (Parallel)                              │
+     │   - Her ürün için Group Verifier çalıştır                       │
+     │   - Mevcut group/sub_type DOĞRU mu?                             │
+     │   - Değişiklik gerekenleri işaretle                             │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 3: Specs Doldurma (Parallel)                               │
+     │   - Her ürün için Specs Extractor çalıştır                      │
+     │   - template.fields güncelle                                    │
+     │   - products_specs_group.json specs doldur                      │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 4: İçerik Doldurma (Parallel)                              │
+     │   - Content Filler: how_to_use, when_to_use, vb.                │
+     │   - FAQ Generator: 3-5 FAQ/ürün                                 │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 5: İlişki Kurma (Kategori Bazlı)                           │
+     │   - Relations Builder: Tüm kategori ürünleri birden             │
+     │   - Çapraz referans gerekli                                     │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 6: Kategori Analizi (Tek Seferlik)                         │
+     │   - Category Specs Analyzer çalıştır                            │
+     │   - Yeni specs alanları öner                                    │
+     │   - Manuel onay al → şemaya ekle                                │
+     ├─────────────────────────────────────────────────────────────────┤
+     │ Adım 7: Kaydetme                                                │
+     │   - output/by_category/{category}_enriched.json                 │
+     │   - Checkpoint kaydet                                           │
+     └─────────────────────────────────────────────────────────────────┘
+
+     Faz 3: Doğrulama ve Kalite Kontrol
+
+     Otomatik Kontroller:
+     - Tüm ürünlerin group'u doğrulandı mı?
+     - specs alanları %80+ dolu mu?
+     - content alanları dolu mu? (how_to_use, when_to_use, vb.)
+     - Her ürünün en az 3 FAQ'ı var mı?
+     - relations'daki SKU'lar geçerli mi?
+
+     Kalite Metrikleri:
+     Hedef Doluluk Oranları:
+     - specs: %90+
+     - how_to_use: %80+
+     - when_to_use: %80+
+     - target_surface: %90+
+     - why_this_product: %70+
+     - faq (min 3): %95+
+     - relations: %70+
+
+     Manuel Örnekleme:
+     - Her kategoriden 3 ürün rastgele seç
+     - İçerik kalitesini değerlendir
+     - Tutarsızlıkları düzelt
+
+     ---
+     💡 ÖNEMLİ NOTLAR VE RİSKLER
+
+     Riskler ve Çözümleri
+     Risk: Yanlış ürün eşleşmesi
+     Olasılık: Yüksek
+     Etki: Kritik
+     Çözüm: URL doğrulama algoritması (score >=
+     ────────────────────────────────────────
+     Risk: 0.7)
+     Olasılık:
+     Etki:
+     Çözüm:
+     ────────────────────────────────────────
+     Risk: URL erişim hatası
+     Olasılık: Orta
+     Etki: Düşük
+     Çözüm: Retry mekanizması, alternatif URL kullan
+     ────────────────────────────────────────
+     Risk: Context limiti aşımı
+     Olasılık: Düşük
+     Etki: Orta
+     Çözüm: Batch boyutunu küçült (10-20 ürün)
+     ────────────────────────────────────────
+     Risk: Prompt tutarsızlığı
+     Olasılık: Orta
+     Etki: Orta
+     Çözüm: Pilot test ile optimize
+     Token Tahmini
+
+     - Her ürün için ~6 agent çağrısı
+     - Ortalama 3000 token/çağrı (prompt + response)
+     - 622 × 6 × 3000 = ~11M token
+     - Claude Sonnet ile: ~$35-40
+
+     Önemli Hatırlatmalar
+
+     1. URL scraping yavaş - Her URL için ~5-10 saniye
+     2. Parallel çalıştır - Bağımsız ürünler aynı anda
+     3. Checkpoint kaydet - Her batch sonrası
+     4. Hata logla - Sorunlu ürünleri ayrı dosyada tut
+
+     ---
+     ✅ DOĞRULAMA PLANI
+
+     Plan Sonrası Kontrol Listesi
+
+     Hazırlık Kontrolü:
+     - URLs.csv + URLs2.csv birleştirildi mi?
+     - SKU → URL mapping oluşturuldu mu?
+     - all_groups.json oluşturuldu mu?
+     - Eksik URL'li ürünler listelendi mi?
+
+     Pilot Test Kontrolü:
+     - 5 test ürünü seçildi mi?
+     - Her agent prompt'u çalışıyor mu?
+     - URL doğrulama algoritması doğru çalışıyor mu?
+     - Output formatları tutarlı mı?
+
+     Üretim Kontrolü:
+     - Her kategori işlendi mi?
+     - group değerleri düzeltildi mi?
+     - specs alanları gruba uygun mu?
+     - content alanları dolu mu?
+     - faq ve relations dolu mu?
+
+     ---
+     📁 GÜNCEL DOSYA YAPISI
+
+     Ana Çalışma Dosyaları (Kullanıcı Hazırladı)
+
+     /Users/projectx/Desktop/Claude Code Projects/Products Jsons/
+     ├── all_categories.json          # 23 kategori birleşik (ANA ÇALIŞMA
+     DOSYASI)
+     │   └── categories.{category}.products[].template    # ✅ DOĞRU
+     group/sub_type
+     │   └── categories.{category}.products[].content     # ❌ BOŞ - doldurulaca
+     │   └── categories.{category}.products[].faq         # ❌ BOŞ - doldurulaca
+     │   └── categories.{category}.products[].relations   # ❌ BOŞ - doldurulaca
+     │
+     ├── products_specs_group.json    # Specs çalışma dosyası
+     │   └── products[].specs         # ❌ BOŞ - doldurulacak
+     │   └── products[].group         # ⚠️ ESKİ - doğrulanacak
+     │
+     ├── URLs_merged.csv              # URL ve açıklama kaynağı
+     │   └── Barcode = SKU
+     │   └── Product Description sütunları (zengin içerik!)
+     │   └── URL - URL 5 sütunları
+     │
+     ├── products.json                # Orijinal veri (referans)
+     └── PROJE_RAPORU.md              # Proje durumu
+
+     Oluşturulacak Çalışma Dosyaları (ORİJİNALLERE DOKUNULMAYACAK)
+
+     /Users/projectx/Desktop/Claude Code Projects/Products Jsons/agents/
+     ├── data/
+     │   ├── sku_csv_mapping.json     # SKU → CSV satır eşleşmesi
+     │   ├── data_quality_report.json # Veri kalitesi raporu
+     │   └── all_skus.json            # Tüm SKU listesi (relations için)
+     │
+     ├── output/
+     │   ├── by_sku/                  # SKU bazlı çıktılar
+     │   │   └── {SKU}.json           # Her ürünün zenginleştirilmiş verisi
+     │   │
+     │   ├── by_category/             # Kategori bazlı birleşik çıktılar
+     │   │   └── {category}_enriched.json  # Tüm kategori ürünleri
+     │   │
+     │   └── final/                   # Final birleştirilmiş dosyalar
+     │       ├── all_categories_enriched.json  # Tüm kategoriler
+     zenginleştirilmiş
+     │       └── products_specs_filled.json    # Specs doldurulmuş
+     │
+     ├── logs/
+     │   ├── progress.json            # İşlem ilerlemesi
+     │   ├── errors.json              # Hatalı ürünler
+     │   └── url_scrape_log.json      # URL scraping logları
+     │
+     └── checkpoints/
+         └── {category}_checkpoint.json  # Kategori bazlı checkpoint
+
+     NOT: Orijinal dosyalara (all_categories.json, products_specs_group.json)
+     dokunulmayacak. Tüm zenginleştirilmiş veriler output/ klasörüne yazılacak.
+     Son onay sonrası orijinaller güncellenebilir.
+
+     ---
+     🎯 SONRAKI ADIMLAR (Plan Onayı Sonrası)
+
+     Adım 1: VERİ ANALİZİ (İLK YAPILACAK) 📊
+
+     A) URLs_merged.csv Analizi:
+        - Toplam satır sayısı
+        - Kaç unique Barcode (SKU) var?
+        - Product Description sütunları dolu olanlar
+        - URL sütunları dolu olanlar
+        - 622 ürünle eşleşme oranı
+
+     B) all_categories.json Analizi:
+        - Her kategoride kaç ürün?
+        - full_description doluluk oranı
+        - template.fields doluluk oranı
+        - content alanları doluluk (how_to_use, when_to_use, vb.)
+        - faq doluluk
+        - relations doluluk
+
+     C) products_specs_group.json Analizi:
+        - specs alanları doluluk
+        - group değerlerinin dağılımı
+
+     Çıktı: data_quality_report.json
+
+     Adım 2: Veri Eşleştirme
+
+     - URLs_merged.csv Barcode → all_categories.json SKU eşleştir
+     - Hangi ürünlerin CSV'de zengin verisi var tespit et
+     - sku_csv_mapping.json oluştur
+
+     Adım 3: Pilot Test - 5 Ürün
+
+     Veri analizi sonrası seçilecek:
+     1. Zengin veri - CSV + all_categories açıklama dolu
+     2. Orta veri - Sadece all_categories'de açıklama
+     3. Az veri - URL scraping gerekli
+     4. Sorunlu kategori - masking_tapes'den
+     5. Farklı marka - FRA-BER veya Menzerna
+
+     Adım 4: Prompt Optimizasyonu
+
+     Pilot test sonuçlarına göre agent prompt'larını düzelt
+
+     Adım 5: Kategori Bazlı İşleme
+
+     - masking_tapes (7) ile başla
+     - Küçükten büyüğe ilerle
+     - Her çıktı output/ klasörüne
+     - Checkpoint kaydet
+
+     Adım 6: Final Birleştirme
+
+     - Tüm kategoriler tamamlandıktan sonra
+     - output/final/ klasörüne birleşik dosyalar
+     - Kullanıcı onayı ile orijinalleri güncelle (opsiyonel)
+
+     "/plan open" to edit this plan in VS Code
+
+
+
+
+❯ /compact 
+  ⎿  Error: Error during compaction: Error: Conversation too long. Press esc
+     twice to go up a few messages and try again.
+
+❯ /compact 
+  ⎿  Error: Error during compaction: Error: Conversation too long. Press esc
+     twice to go up a few messages and try again.

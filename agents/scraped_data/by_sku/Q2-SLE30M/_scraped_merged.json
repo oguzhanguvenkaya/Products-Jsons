@@ -1,0 +1,47 @@
+{
+  "sku": "Q2-SLE30M",
+  "product_name": "Gyeon Q2 Syncro Evo Light Box 30 ml",
+  "barcode": "Q2-SLE30M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:38:40.314Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/syncro-evo/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q² SYNCRO EVO - GYEON",
+      "content_length": 12226,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-syncro-evo-lightbox-30ml-50ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q² Syncro EVO Lightbox | CARZILLA",
+      "content_length": 26039,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Syncro-Evo-P2590/30-ml-Kit-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Syncro Evo - 30 ml Kit - Detailed Image",
+      "content_length": 14301,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

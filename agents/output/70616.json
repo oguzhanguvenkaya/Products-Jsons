@@ -1,0 +1,42 @@
+{
+  "sku": "70616",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bersolux Cilalı Köpüklü Manuel Araç Yıkama Şampuanı (1:120 Konsantre) - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486706167",
+    "group": "car_shampoo",
+    "sub_type": "ph_neutral_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "Nötr",
+      "concentrate": true,
+      "dilution_ratio": "1:120",
+      "foam_level": "high",
+      "hydrophobic_effect": true,
+      "gloss_enhancer": true,
+      "volume_kg": 25
+    },
+    "content": {
+      "how_to_use": "1. Yüzeydeki kiri basınçlı su ile temizleyin.\n2. 20-30 gr ürünü 10 L suya dökün.\n3. Aracı sünger veya eldivenle yıkayın.\n4. Bol su ile durulayın.\n5. Bu işlemi güneş ışığından uzakta yapın.",
+      "when_to_use": "Otomobil ve motosikletlerin dış yüzeylerinin temizliğinde, yüksek parlaklık ve kaygan doku istenen manuel yıkamalarda kullanılır.",
+      "target_surface": "Otomobil boyası, motosiklet, tüm araç türleri",
+      "why_this_product": "• pH nötr formül yüzeye zarar vermez\n• Yüksek parlaklık ve kaygan doku sağlar\n• Su iticilik (hidrofobik) özelliği kazandırır\n• Yoğun köpük uzun süre yüzeyde kalır"
+    },
+    "faq": [
+      {"question": "Seramik kaplamalı araçlarda kullanılabilir mi?", "answer": "Evet, pH nötr formül seramik kaplamalara zarar vermez."},
+      {"question": "Sıcak yüzeylerde kullanılabilir mi?", "answer": "Hayır, güneş ışığından uzakta ve soğuk yüzeylerde uygulanmalıdır."},
+      {"question": "Seyreltme oranı nedir?", "answer": "10 L su için 20-30 gr ürün kullanılır."},
+      {"question": "25 kg ile kaç yıkama yapılabilir?", "answer": "Araç başı 25 gr hesabıyla yaklaşık 1000 yıkama yapılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["70778"]}
+  }
+}

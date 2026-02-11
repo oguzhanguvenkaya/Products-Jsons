@@ -1,0 +1,45 @@
+{
+  "sku": "NPMW6555",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Ara Kesim Pasta Keçesi 5'li Paket 65mm - Beyaz",
+    "brand": "MG PS",
+    "barcode": "8683492660413",
+    "group": "polishing_pad",
+    "sub_type": "microfiber_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Medium Cut",
+      "material": "Mikrofiber",
+      "diameter_mm": 65,
+      "base_diameter_mm": 55,
+      "height_mm": 9,
+      "color": "Beyaz/Turuncu",
+      "machine_compatibility": ["Nano/Mini"],
+      "foam_interface": true,
+      "short_pile": true,
+      "pack_quantity": 5
+    },
+    "content": {
+      "how_to_use": "1. Pedi 55mm nano/mini tabanlığa takın.\n2. Orta kesim pasta damlatın.\n3. Düşük devirde başlatarak dar alanda çalışın.\n4. Çapraz geçişlerle ürünü işleyin.\n5. Ped kirlendikçe 5'li paketteki yedeklerle değiştirin.\n6. Kullanım sonrası pedleri yıkayın.",
+      "when_to_use": "Nano polisaj makineleriyle dar alanlarda orta kesim uygulamalarında, A direkleri ve kenar bölgelerinde, spot düzeltme işlemlerinde kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, dar alanlar, köşeler, kenarlar",
+      "why_this_product": "• 5'li paket ile kesintisiz çalışma\n• Mikrofiber yapı ile etkili kesim\n• Sünger ara taban ile yüzeye uyum\n• Kısa tüy yapısı ile kontrollü uygulama"
+    },
+    "faq": [
+      {"question": "Mikrofiber ped sünger pedden farklı mı?", "answer": "Evet, mikrofiber pedler süngerlerden daha fazla kesim gücü sağlar ve sert verniklerde daha etkilidir."},
+      {"question": "Hangi tabanlık boyutu gerekir?", "answer": "55mm (2.2 inç) nano/mini tabanlıklarla uyumludur."},
+      {"question": "5'li paket ne avantaj sağlar?", "answer": "Ped kirlendikçe değiştirilerek kesintisiz çalışma sağlanır, temizlik sırasında zaman kaybedilmez."},
+      {"question": "Hangi makinelerle kullanılır?", "answer": "Nano ve mini polisaj makineleri ile kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["22.828.281.001"], "accessories": [], "alternatives": ["GRY6555"]}
+  }
+}

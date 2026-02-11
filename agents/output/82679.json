@@ -1,0 +1,49 @@
+{
+  "sku": "82679",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "IK MULTI PRO 12+ Plus Hava Kompresör Bağlantılı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 10 Litre",
+    "brand": "IK SPRAYERS",
+    "barcode": "8414685102256",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 10.0,
+      "capacity_usable_lt": 8.0,
+      "max_pressure_bar": 3.5,
+      "flow_rate_lpm": 0.70,
+      "hose_length_m": 1.5,
+      "gun_length_cm": 47,
+      "gun_material": "INOX paslanmaz",
+      "nozzle_type": "Ayarlanabilir universal (2 adet) + Açılı sıvı nozul",
+      "chemical_resistance": ["Dezenfektanlar", "pH nötr ürünler", "Asitler"],
+      "safety_valve": true,
+      "compressor_connection": true,
+      "shoulder_strap": true,
+      "integrated_funnel": true,
+      "weight_net_kg": 2.57
+    },
+    "content": {
+      "how_to_use": "1. Kimyasalı entegre huni üzerinden hazneye doldurun (max çizgiyi aşmayın).\n2. Manuel pompalama veya dahili hava girişinden kompresör/taşınabilir hava pompası ile basınçlandırın (3.5 bar).\n3. Yüzeye uygun nozulu seçin.\n4. Emniyet kilidini açın ve 1.5m hortum ile eşit püskürtün.\n5. İş bitince valf ile basıncı tahliye edin.\n6. Hazneyi boşaltıp temiz su ile durulayın.",
+      "when_to_use": "Otomotiv detailing, cam filmi, PPF ve araç kaplama uygulamalarında, endüstriyel bakım ve temizlik, dezenfeksiyon, haşere kontrolü ve HVAC bakım uygulamalarında kullanılır.",
+      "target_surface": "PPF folyo, cam filmi, araç yüzeyleri, endüstriyel ekipmanlar, HVAC sistemleri",
+      "why_this_product": "• Hem manuel hem kompresör bağlantılı çift basınçlandırma\n• 8 litre kullanılabilir kapasite\n• INOX paslanmaz püskürtme kolu\n• 3.5 bar emniyet valfi ile güvenli kullanım\n• PPF ve cam filmi uygulamaları için de ideal"
+    },
+    "faq": [
+      {"question": "Kompresör bağlantısı zorunlu mu?", "answer": "Hayır, manuel pompalama ile de kullanılabilir. Kompresör bağlantısı uzun süreli kesintisiz çalışma için avantaj sağlar."},
+      {"question": "PPF uygulamasında kullanılabilir mi?", "answer": "Evet, cam filmi, PPF ve araç kaplama uygulamalarında da kullanılabilir."},
+      {"question": "Köpük yapıcı mı?", "answer": "Hayır, sıvı atım yapan basınçlı pompadır. Köpük için IK FOAM PRO 12 önerilir."},
+      {"question": "82672 modelinden farkı nedir?", "answer": "Plus versiyonu hava kompresörü bağlantı özelliğine sahiptir ve 10 litre kapasitelidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["82672", "83371"]}
+  }
+}

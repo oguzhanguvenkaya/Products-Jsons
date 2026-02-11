@@ -1,0 +1,23 @@
+{
+  "sku": "81771874",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "IK MULTI-FOAM Maintenance Kit Bakım Seti 6 Parça", "brand": "IK SPRAYERS", "barcode": "8414685032614", "group": "spare_part", "sub_type": "maintenance_kit"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"compatible_device": ["IK MULTI 1.5", "IK FOAM 1.5"], "quantity": 6},
+    "content": {
+      "how_to_use": "1. Pompayı boşaltın ve sökülerek parçalarına ayırın.\n2. Aşınmış contaları ve parçaları tespit edin.\n3. Bakım setindeki yeni parçalarla değiştirin.\n4. Pompayı tekrar monte edin.\n5. Sızdırmazlık testi yapın.",
+      "when_to_use": "Pompa sızdırıyor, basınç kaybı yaşanıyor veya püskürtme performansı düştüğünde periyodik bakım için kullanılır.",
+      "target_surface": "IK MULTI ve FOAM 1.5 litre kapasiteli pompalar",
+      "why_this_product": "• 6 parçalık komple bakım seti\n• Orijinal IK yedek parçaları\n• Pompa ömrünü uzatır\n• Ekonomik bakım çözümü"
+    },
+    "faq": [
+      {"question": "Set içeriğinde neler var?", "answer": "Contalar, O-ringler ve gerekli sızdırmazlık parçaları dahil 6 adet bakım parçası içerir."},
+      {"question": "Ne sıklıkla bakım yapılmalı?", "answer": "Yoğun kullanımda 3-6 ayda bir, normal kullanımda yılda bir bakım önerilir."},
+      {"question": "Büyük pompalarla uyumlu mu?", "answer": "Hayır, bu set sadece 1.5 litre kapasiteli modeller içindir. Büyük pompalar için 82671874 kodlu seti kullanın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["82671874"]}
+  }
+}

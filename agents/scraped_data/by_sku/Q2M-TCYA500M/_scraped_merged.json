@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-TCYA500M",
+  "product_name": "Gyeon Q²m Tire Cleaner Araç Lastik Kauçuk Temizleyici - 500 ml -Güçlü Oto Teker Temizleyici",
+  "barcode": "Q2M-TCYA500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:34:30.611Z",
+  "sources": [
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-tirecleaner",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M TireCleaner - Detergent-Based Tyre &amp; Rubber Cleaner — Polished Bliss",
+      "content_length": 12251,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://clean-garage.com/gyeon-q2m-tire-cleaner-500ml-highly-effective-rubber-cleaner/",
+      "domain": "clean-garage.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M Tire Cleaner 500ml | Highly Effective Rubber Cleaner",
+      "content_length": 13979,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q-m-tire-cleaner",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Tire Cleaner | Decontaminate Tyres",
+      "content_length": 34898,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carcareproducts.com.au/products/gyeon-q2m-tire-cleaner-500ml",
+      "domain": "carcareproducts.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Tire Cleaner 500ml | Product",
+      "content_length": 12257,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailing.com/products/gyeon-q2m-tire-cleaner-500-ml",
+      "domain": "detailing.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M Tire Cleaner - 500 ml — Detailing.com",
+      "content_length": 19934,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-qm-tire-cleaner-1000ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Tire Cleaner | CARZILLA",
+      "content_length": 15745,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    }
+  ]
+}

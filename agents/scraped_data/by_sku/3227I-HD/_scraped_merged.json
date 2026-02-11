@@ -1,0 +1,23 @@
+{
+  "sku": "3227I-HD",
+  "product_name": "Klın Softy Hd Wash Mitt Ultra Yumuşak Uzun Tüylü Mikrofiber Araç Yıkama Eldiveni (Açık Bej)",
+  "barcode": "3227I-HD",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:25:31.464Z",
+  "sources": [
+    {
+      "url": "https://klin.co.uk/products/klin-softy-wash-mitt-hd",
+      "domain": "klin.co.uk",
+      "language": "en",
+      "page_title": "KLiN Softy Wash Mitt HD",
+      "content_length": 5631,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

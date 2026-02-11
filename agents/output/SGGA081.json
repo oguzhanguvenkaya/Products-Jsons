@@ -1,0 +1,41 @@
+{
+  "sku": "SGGA081",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Cam Çizik Giderici Keçe 150mm",
+    "brand": "SGCB",
+    "barcode": "6973086161344",
+    "group": "polishing_pad",
+    "sub_type": "felt_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Glass Cut",
+      "material": "Sıkıştırılmış Yün Keçe",
+      "diameter_mm": 150,
+      "base_diameter_mm": 150,
+      "machine_compatibility": ["Rotary", "Orbital"],
+      "target_surface": "Glass"
+    },
+    "content": {
+      "how_to_use": "1. Keçeyi 150mm tabanlığa takın.\n2. Cam pastası veya bol su ile yüzeyi ıslatın.\n3. Orbital veya pnömatik polisaj makinesi ile çalışın.\n4. Orta basınçla çapraz geçişlerle cam yüzeyini işleyin.\n5. Yüzey sıcaklığını kontrol edin.\n6. Temiz mikrofiber ile silin ve sonucu kontrol edin.",
+      "when_to_use": "Cam yüzeylerdeki silecek izlerinin giderilmesinde, kireç ve su lekelerinin temizlenmesinde, ince-orta dereceli cam çiziklerinin düzeltilmesinde, metal ve paslanmaz çelik parlatmada kullanılır.",
+      "target_surface": "Cam, paslanmaz çelik, metal, ahşap, mermer",
+      "why_this_product": "• Sıkıştırılmış yün yapı ile etkili çizik giderme\n• Yüksek yoğunluklu malzeme ile uzun ömür\n• Geniş yüzey uyumluluğu\n• Entegre destek pedi ile güvenli kullanım"
+    },
+    "faq": [
+      {"question": "Cam çiziklerini giderebilir mi?", "answer": "Evet, ince ve orta dereceli çizikleri, silecek izlerini ve kireç lekelerini etkili şekilde giderir."},
+      {"question": "Hangi makinelerle kullanılır?", "answer": "Orbital salınımlı veya pnömatik polisaj makineleri ile kullanılması önerilir."},
+      {"question": "Hangi yüzeylerde kullanılabilir?", "answer": "Cam, paslanmaz çelik, metal, ahşap ve mermer yüzeylerde kullanılabilir."},
+      {"question": "Elle kullanılabilir mi?", "answer": "Hayır, bu keçe makine ile kullanım için tasarlanmıştır. Elle kullanıma uygun değildir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-GP250M"], "accessories": [], "alternatives": []}
+  }
+}

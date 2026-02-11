@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-PO120M",
+  "product_name": "Gyeon Q2M Polish Hare Giderici Cila 120 ml.",
+  "barcode": "Q2M-PO120M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:39:06.812Z",
+  "sources": [
+    {
+      "url": "https://www.detailstore.com.au/en-cn/products/gyeon-q2m-polish-120ml",
+      "domain": "detailstore.com.au",
+      "language": "en",
+      "page_title": "Gyeon Q2M Polish\n&ndash; The Detail Store",
+      "content_length": 5694,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/polish/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M POLISH - Gyeon",
+      "content_length": 10590,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-polish#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Polish - Fast-Acting Finishing Polish — Polished Bliss",
+      "content_length": 10436,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "sku": "700405",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR SINH HYBRID Tek Adım Seramik Kaplama - 30ml",
+    "brand": "INNOVACAR",
+    "barcode": "8027486808922",
+    "group": "ceramic_coating",
+    "sub_type": "paint_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 48,
+      "durability_km": 75000,
+      "hardness": "7H",
+      "technology": "Si-N-H Hibrit",
+      "self_healing": true,
+      "heat_resistance": "600°C",
+      "layer_thickness_nm": "1000-3000",
+      "consumption_ml_per_car": 30,
+      "kit_included": true
+    },
+    "content": {
+      "how_to_use": "1. SP1 Prewash ile ön yıkama, S2 Foamy ile ana yıkama yapın.\n2. D1 Iron, D3 Tar, DS Scale ile dekontaminasyon; Clay Bar ve DL Lube ile mekanik dekontaminasyon.\n3. Gerekirse polisaj; D2 Check ile son temizlik.\n4. 30 ml şişeyi iyice çalkalayın.\n5. Süet bezi uygulama bloğuna sarın, 3-4 damla ürün damlatın.\n6. 50x50 cm'lik panelde criss-cross yöntemle en az 3 geçiş yapın.\n7. 30 sn - 2 dk bekleyin; kısa havlı bez ile silin, uzun havlı bez ile parlatın.\n8. 4 saat sonra SC0 Hydro Sealant uygulanabilir.\n9. Aracı 3-4 saat kapalı alanda bekletin; ilk 7 gün yıkamayın.",
+      "when_to_use": "Tek kat uygulamayla 4-5 yıla varan profesyonel seramik koruma için kullanılır. Zaman kısıtlı projelerde idealdir.",
+      "target_surface": "Kaporta, jant, cam, plastik, PPF, mat boya, motosiklet, bisiklet, tekne",
+      "why_this_product": "• 4-5 yıla kadar dayanıklılık (75.000 km veya 72 yıkama)\n• Si-N-H hibrit teknoloji: sertlik + esneklik\n• Isı ile mikro çizik onarımı (self-healing)\n• 600°C sıcaklık dayanımı\n• VOC uyumlu ve PFAS içermez"
+    },
+    "faq": [
+      {"question": "IRT lambası gerekli mi?", "answer": "Hayır, oda sıcaklığında 20 dakika içinde kürleşir."},
+      {"question": "Mat boya veya PPF'de kullanılır mı?", "answer": "Evet, mat vernik, PPF veya wrap yüzeylerde güvenle kullanılabilir."},
+      {"question": "Ürün ne kadar sürede açıldıktan sonra kullanılmalı?", "answer": "Açıldıktan sonra 6 ay içinde kullanılmalı; 5-25°C aralığında saklanmalı."},
+      {"question": "Kaç araç kaplanır?", "answer": "30 ml ile 1 araç; geleneksel 50 ml seramik kaplamayla aynı verimi sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

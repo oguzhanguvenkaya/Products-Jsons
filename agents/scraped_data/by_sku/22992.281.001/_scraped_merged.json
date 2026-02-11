@@ -1,0 +1,83 @@
+{
+  "sku": "22992.281.001",
+  "product_name": "Menzerna 3800 Super Finish Hare Giderici Cila 250ml",
+  "barcode": "22992.281.001",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:30:50.916Z",
+  "sources": [
+    {
+      "url": "https://www.detailedimage.com/Menzerna-M10/PO85RD-Polish-P217/32-oz-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Menzerna Super Finish Plus 3800 - 32 oz - Detailed Image",
+      "content_length": 15102,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/menzerna-super-finish-plus-3800.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Super Finish Plus 3800 | Super High Gloss Car Finish",
+      "content_length": 15492,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanandshiny.co.uk/products/menzerna-3800-super-finish-plus",
+      "domain": "cleanandshiny.co.uk",
+      "language": "en",
+      "page_title": "Menzerna 3800 Super Finish Plus",
+      "content_length": 5912,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.springriver.eu/menzerna-super-finish-plus-3800.html",
+      "domain": "springriver.eu",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://carzilla.ca/products/super-finish-plus-3800-32oz",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "Menzerna Super Finish Plus 3800 32oz | CARZILLA",
+      "content_length": 6743,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.menzerna.com/car-care/car-polish/products/details/super-finish-plus-3800",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Super Finish Plus 3800",
+      "content_length": 8713,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

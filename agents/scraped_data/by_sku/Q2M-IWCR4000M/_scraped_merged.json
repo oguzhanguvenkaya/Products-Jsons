@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-IWCR4000M",
+  "product_name": "Gyeon Q²m Iron Wheel Cleaner Redefıned Jant Temizleyici Demir Tozu Balata Tozu Çözücü - 4000 ml",
+  "barcode": "Q2M-IWCR4000M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:41:06.761Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/iron-wheelcleaner-redefined/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M IRON WHEELCLEANER REDEFINED - GYEON",
+      "content_length": 11471,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-iron-wheel-cleaner-redefined",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Iron Wheel Cleaner REDEFINED Super Low Odour | CARZILLA",
+      "content_length": 15684,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-iron-wheel-cleaner",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Iron Wheel Cleaner | Bleeding Wheel Cleaner",
+      "content_length": 37511,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-iron-wheel-cleaner-redefined#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Iron Wheel Cleaner | Iron &amp; Brake Dust Removal — Polished Bliss",
+      "content_length": 15727,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.gsfcarparts.com/products/q-m-iron-wheelcleaner-redefined-4000-ml-brngiwc4000r",
+      "domain": "gsfcarparts.com",
+      "language": "en",
+      "page_title": "Q2M Iron Wheel Cleaner REDEFINED - 4L | GSF Car Parts",
+      "content_length": 8920,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/gyeon-q2m-iron-wheel-cleaner-redefined.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q&#178;M Iron Wheel Cleaner Redefined (500ml, 1L &amp; 4L)",
+      "content_length": 14408,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    }
+  ]
+}

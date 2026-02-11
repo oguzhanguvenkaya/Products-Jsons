@@ -1,0 +1,44 @@
+{
+  "sku": "SJ0402",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Futbol Yeni Araç Kokusu (New Car) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186840743",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "New Car",
+      "durability_days": 45,
+      "dimensions_mm": "85x145x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "Futbolcu Karakter",
+      "collection": "Soccer Edition"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Yepyeni bir araba hissini yaşamak isteyen ve futbol tutkunu kullanıcılar için idealdir. Showroom temizliğindeki taze kokuyu 45 gün boyunca hissettirir.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Showroom'dan yeni çıkmış araba hissi\n• 45 güne kadar kalıcı etki\n• Futbol temalı dekoratif tasarım\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Yeni araç kokusu nasıl?", "answer": "Showroom'dan yeni çıkmış bir arabanın temiz ve taze kokusunu birebir yansıtır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Futbol figürü ne anlama geliyor?", "answer": "Spor tutkunlarına hitap eden dekoratif bir tasarım, aracınıza kişisel dokunuş katar."},
+      {"question": "Sadece araçlarda mı kullanılır?", "answer": "Araç dışında ev ve ofis havalandırma sistemlerinde de kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0202", "LO2602", "ED0202"]}
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-PRYA250M",
+  "product_name": "Gyeon Q²m Preserve Iç Dış Plastik Trim Yenileyici ve Koruyucu - 250 ml -Mat Görünüm Plastik O",
+  "barcode": "Q2M-PRYA250M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:22:01.975Z",
+  "sources": [
+    {
+      "url": "https://gyeon.de/GYEON-QM-Preserve-250-ml",
+      "domain": "gyeon.de",
+      "language": "en",
+      "page_title": "GYEON Q²M Preserve 250 ml - Gyeon.de | Buy Premium Car Care Products",
+      "content_length": 11664,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailing.com/products/gyeon-q2m-preserve-250-ml",
+      "domain": "detailing.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M Preserve - 250 ml — Detailing.com",
+      "content_length": 18085,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://crosscountryperformance.com/products/gyeon-preserve",
+      "domain": "crosscountryperformance.com",
+      "language": "en",
+      "page_title": "GYEON Preserve - Trim Dressing | Cross Country Performance",
+      "content_length": 4963,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

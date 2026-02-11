@@ -1,0 +1,52 @@
+{
+  "sku": "SGGF179",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Rotary Yüksek Torklu Polisaj Makinesi 150mm 1200W",
+    "brand": "SGCB",
+    "barcode": "6973086160040",
+    "group": "polisher_machine",
+    "sub_type": "corded_rotary_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 1200,
+      "voltage": 220,
+      "backing_plate_supported_mm": [150],
+      "speed_range_rpm": "450-1700",
+      "speed_levels": 6,
+      "spindle_thread": "M14",
+      "weight_kg": 3.5,
+      "cable_length_m": 3,
+      "features": ["Çift dişli redüktör", "Titreşim önleme", "Yumuşak kauçuk kaplama", "Sökülebilir hava kapağı"]
+    },
+    "content": {
+      "how_to_use": "1. 150mm tabanlık ve uygun pedi M14 miline takın.\n2. Yan tutma kolunu monte edin.\n3. 6 kademeli hız kadranından devir seçin (450-1700 rpm).\n4. Pasta/cilayı pede uygulayın ve düşük devirde yayın.\n5. Devri kademeli artırarak çapraz hareketlerle çalışın.\n6. Düzenli olarak hava çıkış kapağını açarak toz temizliği yapın.",
+      "when_to_use": "Ağır ve orta çizik giderme, boya parlatma, mermer ve ahşap zemin polisajı, marin ve havacılık uygulamaları için kullanılır.",
+      "target_surface": "Araç boyası, mermer, ahşap, marin yüzeyler, havacılık yüzeyleri",
+      "why_this_product": "• Çift dişli redüktör - düşük devirde bile yüksek tork\n• 6 kademeli hız ayarı - esnek kullanım\n• Titreşim önleme sistemi - konforlu çalışma\n• Ekonomik fiyat/performans oranı"
+    },
+    "faq": [
+      {"question": "Çift dişli sistemin avantajı nedir?", "answer": "Motor gücünü torka dönüştürerek düşük devirlerde bile yüksek güç sağlar. Makinenin bayılmasını önler ve servis ömrünü uzatır."},
+      {"question": "Karbon fırça değişimi nasıl yapılır?", "answer": "Sökülebilir hava çıkış kapağı sayesinde karbon fırça değişimi kolayca yapılabilir. Yedek fırça kutu içeriğinde mevcuttur."},
+      {"question": "FLEX rotary ile karşılaştırması nasıl?", "answer": "SGCB daha ekonomik bir alternatiftir. FLEX premium VR elektronik ve daha uzun garanti sunarken, SGCB benzer güç çıkışını uygun fiyata sağlar."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": ["SGGD166", "22746.281.001"],
+      "accessories": ["SGGD166"],
+      "alternatives": ["373680", "406813"]
+    }
+  }
+}

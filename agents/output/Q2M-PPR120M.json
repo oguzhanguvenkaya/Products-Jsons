@@ -1,0 +1,97 @@
+{
+  "sku": "Q2M-PPR120M",
+  "last_updated": "2026-02-04T13:30:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "GYEON QM PPF Renew PPF Folyo Temizleyici Yenileyici Ve Koruyucu Pasta - 120 ml",
+    "brand": "GYEON",
+    "barcode": "8809432674603",
+    "group": "abrasive_polish",
+    "sub_type": "ppf_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:30:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "GYEON Q²M PPF Renew, boya koruma filmini yenilemenin ve korumanın en kolay yoludur. Hafif aşındırı partikülleri koruyucu katkı maddeleri ile birleştirerek dirençli ve kendi kendini temizleyen bir yüzey oluşturur. Ürün, hem makine ile hem de el ile uygulamada pürüzsüz, parlak ve su itici bir yüzey bırakırken hare ve oksidasyonu giderir. Silika içeren ve sıfırdan başlayarak kendini tamir eden filmler dahil olmak üzere her türlü PPF'de en iyi şekilde çalışması için tasarlanan dünyanın ilk bakım ürünüdür.",
+        "extracted_specs": {
+          "target_surface": "PPF",
+          "contains_protection": true,
+          "protection_type": "SiO2",
+          "function": "PPF Renovation & Protection"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["PPF yenileme", "PPF parlatma", "PPF koruma", "Hare giderme", "Oksidasyon giderme"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "target_surface": "PPF",
+        "contains_protection": true,
+        "protection_type": "SiO2",
+        "machine_compatibility": ["orbital", "hand"]
+      },
+      "content": {
+        "use_cases": ["PPF yenileme", "Hare giderme", "Oksidasyon giderme", "Parlaklık artırma", "Su iticilik sağlama"],
+        "benefits": ["Dünyanın ilk SiO2 PPF bakım ürünü", "Parlaklık ve kayganlık geri kazandırma", "UV ve kimyasal dayanım", "Kendi kendini temizleyen yüzey"]
+      },
+      "faq": [],
+      "related_products": ["GYEON Q²M PPF Wash", "GYEON Q²M PPF Maintain"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:30:00Z",
+    "template_fields": {
+      "target_surface": "PPF",
+      "contains_protection": true,
+      "protection_type": "SiO2",
+      "machine_compatibility": ["orbital", "hand"],
+      "function": "PPF Renovation & Protection"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: PPF yüzeyini GYEON Q²M PPF Wash ile temizleyin ve kurulayın.\n2. Makine & Ped Seçimi: Orbital polisaj makinesi ile kullanımı önerilir.\n   - Orbital polisaj süngerleri kullanın\n   - Minimum ve orta devirlerde çalışın\n3. Uygulama: Pede az miktarda ürün alın.\n4. Çalışma: PPF yüzeyinde hafif hareketlerle çalışın.\n   - ÖNEMLİ: PPF'yi asla aşırı ısıtmayın!\n5. Temizlik: Temiz mikrofiber bezle kalıntıları silin.\n6. Sonuç: Pürüzsüz, parlak ve su itici bir yüzey elde edin.\n7. Elle Uygulama: Aplikatör ile de uygulanabilir - dairesel hareketlerle.",
+      "when_to_use": "Boya koruma filmi (PPF) zamanla kirlendiğinde, donuklaştığında veya ilk pürüzsüzlüğünü kaybettiğinde kullanılır. Hafif aşındırıcı özellikleriyle parlaklık seviyesini artırır, gözeneklerdeki kiri temizler ve filmin ilk kayganlığını geri kazandırır. Self-healing (kendi kendini onaran) filmler dahil her türlü PPF ile uyumludur. UV ve kimyasal dayanımla birlikte su iticilik sağlar.",
+      "target_surface": "PPF (Boya Koruma Filmi) - self-healing filmler dahil tüm tipler",
+      "why_this_product": "• Dünyanın ilk SiO2 PPF bakım ürünü - yenilik ve koruma bir arada.\n• Parlaklık ve kayganlık geri kazandırır - PPF'nin ilk günkü hissini verir.\n• UV ve kimyasal dayanım sağlar - uzun ömürlü koruma.\n• Kendi kendini temizleyen yüzey oluşturur - bakım kolaylığı.\n• Self-healing filmlerle uyumlu - silika içeren filmler dahil."
+    },
+    "faq": [
+      {
+        "question": "Self-healing (kendi kendini onaran) PPF'lerde kullanılabilir mi?",
+        "answer": "Evet, silika içeren ve kendini tamir eden filmler dahil her türlü PPF ile uyumlu çalışması için özel olarak tasarlanmıştır."
+      },
+      {
+        "question": "PPF'yi ısıtmamak neden önemli?",
+        "answer": "Aşırı ısı PPF'nin yapısına zarar verebilir ve self-healing özelliğini bozabilir. Bu nedenle minimum-orta devirlerde çalışılması ve yüzeyin aşırı ısıtılmaması önerilir."
+      },
+      {
+        "question": "Ne sıklıkla kullanmalıyım?",
+        "answer": "PPF'nin durumuna bağlı olarak genellikle 6-12 ayda bir uygulanması önerilir. Parlaklık kaybı veya kayganlık azalması fark edildiğinde kullanılabilir."
+      },
+      {
+        "question": "Elle mi makineyle mi daha iyi sonuç alırım?",
+        "answer": "Makine ile uygulama daha etkili ve homojen sonuçlar verir. Ancak elle uygulama da mümkündür - özellikle küçük alanlar için."
+      },
+      {
+        "question": "Koruma ne kadar süre dayanır?",
+        "answer": "SiO2 koruma katmanı normal kullanım koşullarında birkaç ay dayanır. UV ve kimyasal dirençli yapısı PPF'yi uzun süre korur."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

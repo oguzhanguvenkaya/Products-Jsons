@@ -1,0 +1,39 @@
+{
+  "sku": "77080",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER All Sany Tüm Yüzeyler İçin Alkol Bazlı Çok Amaçlı Temizleyici - 25 lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486768844",
+    "group": "interior_cleaner",
+    "sub_type": "surface_disinfectant"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Ofis", "Araç İçi", "Genel Alanlar"],
+      "dilution_ratio": "1:20 (Zemin) - Saf (Yüzey)",
+      "rinse_required": false,
+      "volume_lt": 25
+    },
+    "content": {
+      "how_to_use": "1. Yüzeylerin düzenli temizliği: Her litre su için 50-60 ml (2 kapak) kullanın. Püskürtücü ile kumaş veya mikrofiber bez üzerine uygulayın.\n2. Zeminlerin düzenli temizliği: Her 4 litre su için 60-90 ml (2-3 kapak).\n3. Yoğun temizlik (hijyenik hale getirme): Yüzeyleri seyreltilmemiş ürünle nemlendirin, 5 dakika ıslakken etki etmeye bırakın.\n4. Kuru tek kullanımlık bezle silin.",
+      "when_to_use": "Mobilya, kapılar, fayanslar, lake yüzeyler, plastik yüzeyler, cam ve avizelerin temizliğinde kullanılır. Mutfak, banyo ve genel yaşam alanları için uygundur.",
+      "target_surface": "Mobilya, kapılar, fayanslar, lake yüzeyler, plastik, cam, avizeler, zeminler",
+      "why_this_product": "• Ultra hızlı çok amaçlı hijyenik temizlik\n• Durulama gerektirmeyen formül\n• Metale zarar vermez\n• Parfüm ve renklendirici içermez"
+    },
+    "faq": [
+      {"question": "Metalik yüzeylerde güvenli mi?", "answer": "Evet, metale zarar vermez."},
+      {"question": "Gıda ile temas eden yüzeylerde kullanılabilir mi?", "answer": "Dezenfeksiyondan sonra gıda ile doğrudan temas eden yüzeyler sıcak içme suyuyla tekrar durulanmalıdır."},
+      {"question": "Zemin temizliğinde ne kadar kullanılmalı?", "answer": "Her 4 litre su için 60-90 ml (2-3 kapak) önerilir."},
+      {"question": "Parfüm kokusu bırakır mı?", "answer": "Hayır, parfüm veya renklendirici içermez."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["77075"]}
+  }
+}

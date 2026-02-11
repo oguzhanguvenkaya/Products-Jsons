@@ -1,0 +1,35 @@
+{
+  "sku": "701606",
+  "product_name": "Fra-Ber Lavavetro Estıvo Cam Suyu Katkısı Parfümlü - 1000 ml",
+  "barcode": "701606",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:18:32.933Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/liquido-additivo-tergicristalli-estivo-no-insect?variant=43708149924048",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Fra-Ber No Insect Summertime Windshield Washer Fluid Additive",
+      "content_length": 16093,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.gecegy.com/en/shop/fra-ber-pulitutto-italian-multi-purpose-cleaner-1000ml-5300",
+      "domain": "gecegy.com",
+      "language": "en",
+      "page_title": "FRA-BER PULITUTTO 1000ML Multi-Purpose Cleaner | Garage Equipment Center | GEC Egypt",
+      "content_length": 3645,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

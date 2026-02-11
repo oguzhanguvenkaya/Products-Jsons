@@ -1,0 +1,44 @@
+{
+  "sku": "IY1401",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Little Joya Vanilya Araç Kokusu (Vanilla)",
+    "brand": "LITTLE JOE",
+    "barcode": "8683492661557",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Vanilya Kreması",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 9.7,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "3D Joya Figürü",
+      "collection": "Little Joya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Sıcak ve huzur dolu bir atmosfer yaratmak isteyenler için idealdir. Vanilya kremasının yumuşak ve tatlı kokusuyla dinlendirici bir deneyim sunar.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Zarif 3D Joya figürü tasarımı\n• Sıcak ve kremsi vanilya aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez"
+    },
+    "faq": [
+      {"question": "Little Joya serisi nedir?", "answer": "Zarif 3D Joya figürü tasarımına sahip, estetik ve işlevsel araç kokusu serisi."},
+      {"question": "Vanilya kreması kokusu nasıl?", "answer": "Sıcak, yumuşak ve tatlı vanilya notalarıyla huzur veren bir atmosfer yaratır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Little Dog'dan farkı nedir?", "answer": "Aynı kalite, farklı tasarım - Joya figürü daha zarif ve minimal bir estetik sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0101", "ED0101", "EY0202"]}
+  }
+}

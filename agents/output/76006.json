@@ -1,0 +1,22 @@
+{
+  "sku": "76006",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Pulitore Cerchi Enzimli Jant Ve Balata Tozu Temizleyici Sprey - 750 ml", "brand": "FRA-BER", "group": "contaminant_solvers", "sub_type": "wheel_iron_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Fren Tozu / Balata Kiri", "formulation": "Enzimli", "antioksidan_film": true, "volume_ml": 750},
+    "content": {
+      "how_to_use": "1. Ürünü kuru bir yüzeye doğrudan püskürtün.\n2. Mümkünse, yüksek basınçlı suyla durulayın.\n3. Yüksek basınç yoksa, sünger yardımıyla temizleyin ve suyla durulayın.",
+      "when_to_use": "Her marka ve model araç jantlarında fren tozu ve inatçı kir temizliği için kullanılır.",
+      "target_surface": "Tüm jant türleri",
+      "why_this_product": "• Enzimli formül - inatçı kirleri çözer\n• Yüzeylere zarar vermez\n• Koruyucu antioksidan film bırakır\n• Temiz ve parlak görünüm"
+    },
+    "faq": [
+      {"question": "Enzimli formülün avantajı nedir?", "answer": "Enzimler, kimyasal solventlere gerek kalmadan inatçı organik kirleri nazikçe çözer."},
+      {"question": "Antioksidan film ne işe yarar?", "answer": "Temizlik sonrası jant yüzeyinde koruyucu bir tabaka oluşturarak pas ve kir tutunmasını azaltır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["70864"]}
+  }
+}

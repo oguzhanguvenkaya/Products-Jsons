@@ -1,0 +1,141 @@
+{
+  "sku": "14.992.203.001",
+  "last_updated": "2026-02-04T13:15:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA AS 30 Ağır Çizik Giderici Krem Kalın Pasta - 1 kg",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "heavy_cut_compound"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:15:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna AS 30, boya ve kaporta atölyelerinin en zorlu ihtiyaçları için özel olarak geliştirilmiş, krem formunda bir ağır çizik giderici pastadır. Bu uzman ürün, özellikle taze ve yumuşak vernik yüzeyler üzerinde güvenle çalışmak üzere tasarlanmıştır. Sektörde ezber bozan bir kesim gücü sunan AS 30, P800 gibi son derece agresif zımpara izlerini, boya püskürtme kalıntılarını (overspray) ve ağır kullanım belirtilerini etkin ve güvenilir bir şekilde ortadan kaldırır.",
+        "extracted_specs": {
+          "cut_level": 10,
+          "finish_level": 3,
+          "silicone_free": true,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "grit_removal": "P800+",
+          "form": "cream"
+        },
+        "extracted_content": {
+          "usage_scenarios": [
+            "Boya atölyesi işleri",
+            "Taze vernik düzeltme",
+            "P800 zımpara izi giderme",
+            "Overspray temizleme",
+            "Jelkot yüzeyler"
+          ],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 10,
+        "finish_level": 3,
+        "silicone_free": true,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "grit_removal": "P800+",
+        "form": "cream",
+        "machine_compatibility": [
+          "rotary"
+        ],
+        "recommended_pads": [
+          "Doğal Kuzu Postu Keçe",
+          "Ağır Kesim Sünger Ped"
+        ]
+      },
+      "content": {
+        "use_cases": [
+          "Boya ve kaporta atölyesi",
+          "Taze/yumuşak vernik düzeltme",
+          "P800 zımpara izi giderme",
+          "Overspray temizleme",
+          "Jelkot yüzeyler"
+        ],
+        "benefits": [
+          "Maksimum kesim gücü (10/10)",
+          "Taze vernikler için güvenli",
+          "Krem formül",
+          "P800 zımpara izlerini giderir",
+          "Silikonsuz"
+        ]
+      },
+      "faq": [],
+      "related_products": []
+    }
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:15:00Z",
+    "template_fields": {
+      "cut_level": 10,
+      "finish_level": 3,
+      "machine_compatibility": [
+        "rotary"
+      ],
+      "recommended_pad_types": [
+        "wool_pad",
+        "heavy_cut_foam_pad"
+      ],
+      "dusting_level": null,
+      "working_time": null,
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "abrasive_type": null,
+      "safe_for_soft_paint": true,
+      "wipe_off_ease": null,
+      "grit_removal": "P800+",
+      "form": "cream"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini temizleyin. Taze boyalı yüzeylerde yeterli kürlenme süresinin geçtiğinden emin olun. Hassas trimleri Q1 Tapes maskeleme bantları ile koruyun.\n2. Makine & Ped Seçimi: Rotary polisaj makinesi ile kullanım için geliştirilmiştir.\n   - Maksimum Kesim: Doğal Kuzu Postu Keçe\n   - Kontrollü Kesim: Ağır Kesim Sünger Ped\n3. Ürün Miktarı: Krem formül sayesinde pede kolayca uygulanır. 1-2 nohut tanesi büyüklüğünde yeterlidir.\n4. Uygulama: Makineyi düşük hızda başlatarak pastayı yüzeye yayın. Taze vernikler için düşük basınçla çalışın.\n5. Çalışma: Yüzeyde şeffaf bir film kalana kadar çalışın. Taze verniklerde fazla ısınmadan kaçının.\n6. Temizlik: Yumuşak mikrofiber bezle kalıntıları silin.",
+      "when_to_use": "Boya ve kaporta atölyelerinde taze boyanmış panellerdeki zımpara izleri, toz hataları ve uygulama kusurlarını gidermek için kullanılır. P800 gibi son derece agresif zımpara izlerinin bulunduğu yüzeylerde, overspray temizliğinde ve jelkot (gelcoat) yüzeylerde idealdir. Özellikle taze ve yumuşak karakterli vernikler için güvenli bir çözümdür.",
+      "target_surface": "Taze ve yumuşak vernikler, yeni boyanmış paneller, jelkot yüzeyler, overspray bulaşmış yüzeyler",
+      "why_this_product": "• Taze ve yumuşak vernikler için özel formül - kürleşmesini tam tamamlamamış yüzeylerde güvenle çalışır.\n• Maksimum 10/10 kesim gücü - P800 gibi en agresif zımpara izlerini bile giderir.\n• Krem formül - kolay uygulama ve kontrollü yayılım.\n• Silikonsuz ve su bazlı - boya atölyeleri için profesyonel çözüm."
+    },
+    "faq": [
+      {
+        "question": "AS 30 taze boyalı yüzeylerde güvenli mi?",
+        "answer": "Evet, AS 30 özellikle taze ve yumuşak vernik yüzeyleri için geliştirilmiştir. Kürleşme sürecini tam tamamlamamış hassas vernik yüzeylerde güvenle kullanılabilir."
+      },
+      {
+        "question": "Krem formülün avantajı nedir?",
+        "answer": "Krem formül, pede kolay uygulanır ve kontrollü yayılım sağlar. Sıvı pastalara göre daha az sıçrama yapar ve hassas yüzeylerde daha güvenli çalışma imkanı sunar."
+      },
+      {
+        "question": "P800 zımpara izlerini gerçekten giderir mi?",
+        "answer": "Evet, AS 30 maksimum 10/10 kesim gücüne sahiptir ve P800 gibi son derece agresif zımpara izlerini etkin şekilde ortadan kaldırır."
+      },
+      {
+        "question": "Jelkot yüzeylerde kullanılabilir mi?",
+        "answer": "Evet, tekne ve karavan gibi araçlardaki jelkot (gelcoat) yüzeylerde de etkili sonuçlar verir."
+      },
+      {
+        "question": "Overspray temizliğinde nasıl kullanılır?",
+        "answer": "Boya püskürtme kalıntılarını (overspray) gidermek için Rotary makine ve kuzu postu keçe ile orta basınçta çalışılması önerilir. İnatçı kalıntılarda birden fazla geçiş yapılabilir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

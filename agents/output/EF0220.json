@@ -1,0 +1,42 @@
+{
+  "sku": "EF0220",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Şeker Araç Kokusu (Sweet) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186841702",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Şeker",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Tatlı ve neşeli bir atmosfer yaratmak isteyen kullanıcılar için idealdir. Ruh halini yükseltir.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Tatlı ve keyifli şeker aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• Mutluluk ve enerji katan koku"
+    },
+    "faq": [
+      {"question": "Şeker kokusu nasıl?", "answer": "Hafif, tatlı ve enerjik bir aroma. Ruh halinizi yükseltir ve neşe katar."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Çocuklar için uygun mu?", "answer": "Evet, tatlı kokusu çocuklar tarafından sevilir ve alkol/toksik madde içermez."},
+      {"question": "Sakız kokusundan farkı nedir?", "answer": "Şeker daha genel tatlı notalar sunarken, sakız spesifik balonlu sakız aromasına sahiptir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["IF2939", "IF1111", "IF0404"]}
+  }
+}

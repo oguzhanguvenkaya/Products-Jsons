@@ -1,0 +1,44 @@
+{
+  "sku": "Q2M-ORP4P",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM OdorRemover Pads Kötü Koku Giderici Ped - 4'lü Paket",
+    "brand": "GYEON",
+    "barcode": "8809973750774",
+    "group": "fragrance",
+    "sub_type": "odor_eliminator"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Aktif Partikül Koku Giderici Ped",
+      "quantity": 4,
+      "effect_duration_months": 3,
+      "coverage_per_pad": "1 araç veya 10 m²",
+      "form": "Katı Ped",
+      "alcohol_free": true,
+      "voc_free": true,
+      "child_pet_safe": true,
+      "made_in": "Güney Kore"
+    },
+    "content": {
+      "how_to_use": "1. İç mekânı süpürüp yüzeyleri temizleyin.\n2. Pedin aktif yüzü yukarı bakacak şekilde kötü kokunun yoğun olduğu noktaya yerleştirin.\n3. Pedin yüzeyle veya hava akışıyla doğrudan temas etmesini sağlayın.\n4. Kapıyı kapatın; ped kokuyu yavaşça nötralize eder.\n5. 2-3 ay sonra etkisi azaldığında pedi değiştirin.",
+      "when_to_use": "Sürekli ve pasif koku giderme için idealdir. Yerleştirin ve aylarca ferahlığın keyfini çıkarın.",
+      "target_surface": "Araç kabini, bagaj, klima kanalları, ev odaları, gardırop, ayakkabılık, tekne kabini",
+      "why_this_product": "• Aktif partikül teknolojisi ile kokuyu kaynağında yok eder\n• Ped başına 2-3 ay kalıcı etki\n• Kokusuz formül - ortamın doğal kokusunu değiştirmez\n• 4 ped = 8-12 ay çözüm"
+    },
+    "faq": [
+      {"question": "OdorRemover Pads nasıl çalışır?", "answer": "Aktif partiküller kokuyu kimyasal olarak kapsüller ve bakterileri etkisizleştirir - maskeleme yapmaz, yok eder."},
+      {"question": "Pedler parfüm kokusu yayar mı?", "answer": "Hayır, kokusuzdur; yalnızca kötü kokuları nötralize eder."},
+      {"question": "Bir araç için kaç ped gerekir?", "answer": "Genellikle 1 ped tüm kabin için yeterlidir; yoğun kokuda 2 ped kullanabilirsiniz."},
+      {"question": "Evcil hayvanlar için zararlı mı?", "answer": "Formül toksik değildir, ancak yutma riskine karşı erişemeyecekleri yere koyun."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-OR500M", "Q2M-ID500M"], "accessories": [], "alternatives": ["SC1515", "EF1515"]}
+  }
+}

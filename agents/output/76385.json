@@ -1,0 +1,39 @@
+{
+  "sku": "76385",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bean Casual Blister Uzun Süre Etkili Oto Kokusu",
+    "brand": "FRA-BER",
+    "barcode": "8027486762033",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Casual (Narenciye/Aromatik)",
+      "design": "Bean (Fasulye)",
+      "made_in": "İtalya",
+      "collection": "Bean"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma kanallarına yerleştirin.\n3. Havalandırma sistemini açın.\n4. Koku zayıfladığında yenisiyle değiştirin.",
+      "when_to_use": "Açık havayı ve doğayı sevenler için idealdir. Narenciye ve aromatik bitkilerle ferahlatıcı bir deneyim sunar.",
+      "target_surface": "Araç kliması havalandırma kanalları",
+      "why_this_product": "• Serinletici narenciye kokuları\n• Aromatik bitki ve sedir ağacı notaları\n• Rahat yaşam tarzı için tasarlandı\n• Uzun süre kalıcı etki"
+    },
+    "faq": [
+      {"question": "Bean Casual kokusu nasıl?", "answer": "Serinletici narenciye, aromatik bitkiler ve sedir ağacının hafif dokunuşu ile ferahlatıcı bir aroma."},
+      {"question": "Kimler için uygun?", "answer": "Açık havada vakit geçirmeyi seven, rahat yaşam tarzını tercih edenler için."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Aylar boyunca kalıcı etki sağlar."},
+      {"question": "Nasıl takılır?", "answer": "Havalandırma kanallarına yerleştirilerek kullanılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["78156", "76386", "76384"]}
+  }
+}

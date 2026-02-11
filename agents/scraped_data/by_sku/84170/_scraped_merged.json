@@ -1,0 +1,83 @@
+{
+  "sku": "84170",
+  "product_name": "İK Sprayers Ik Multı Tr 1 Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre",
+  "barcode": "84170",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:16:41.896Z",
+  "sources": [
+    {
+      "url": "https://www.detailedimage.com/IK-M111/Multi-TR-1-Trigger-Sprayer-P2319/1-L-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "IK Multi TR 1 Trigger Sprayer - 1 L - Detailed Image",
+      "content_length": 15079,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/ik-sprayers-ik-multi-tr-1-360.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "IK MUTLI TR 1 360&#176; | IK Car Detailing Anyway Up Trigger Sprayer",
+      "content_length": 14926,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cardetail.be/en/product/ik-multi-tr1-sprayer-lege-sprayfles-1000ml/",
+      "domain": "cardetail.be",
+      "language": "en",
+      "page_title": "iK Multi TR1 Sprayer - Empty Spray Bottle 1000ml | CARDETAIL",
+      "content_length": 16833,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carpro-us.com/brushes-bottles-applicators/ik-multi-tr-1-heavy-duty-sprayer-35-oz-360/",
+      "domain": "carpro-us.com",
+      "language": "en",
+      "page_title": "360º IK Multi TR 1 Heavy Duty Sprayer 35 oz",
+      "content_length": 10338,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autogeek.net/ik-multi-tr-1.html",
+      "domain": "autogeek.net",
+      "language": "en",
+      "page_title": "iK MULTI TR 1 | Professional Sprayer | Autogeek.net",
+      "content_length": 5850,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carsupplieswarehouse.com/collections/ik-sprayers/products/ik-multi-tr-1-trigger-sprayer",
+      "domain": "carsupplieswarehouse.com",
+      "language": "en",
+      "page_title": "iK Multi TR-1 Trigger Sprayer\n&ndash; Car Supplies Warehouse",
+      "content_length": 21259,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

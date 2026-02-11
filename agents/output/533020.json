@@ -1,0 +1,55 @@
+{
+  "sku": "533020",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX XCE 8 150 18-EC Set Kablosuz Dual Action Pozitif Sürüş Polisaj Makinesi 18V",
+    "brand": "FLEX",
+    "barcode": null,
+    "group": "polisher_machine",
+    "sub_type": "forced_rotation_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Battery",
+      "voltage": 18,
+      "battery_capacity_ah": 5.0,
+      "battery_count": 2,
+      "motor_type": "Brushless",
+      "orbit_mm": 8,
+      "backing_plate_supported_mm": [150],
+      "rotation_speed_rpm": "225-700",
+      "oscillation_speed_rpm": "2700-8700",
+      "speed_levels": 6,
+      "weight_kg": 2.0,
+      "runtime_minutes": 40,
+      "features": ["Gear Driven", "Dual Action", "Kömürsüz motor", "CDC elektronik", "Kablosuz"]
+    },
+    "content": {
+      "how_to_use": "1. Tam şarjlı aküyü takın.\n2. 150mm orijinal FLEX tabanlık ve ped monte edin.\n3. 6 kademeli hız kadranından devir seçin.\n4. Tetik ile yumuşak başlatma yapın.\n5. Çapraz hareketlerle panel panel ilerleyin.\n6. Gear driven sistem sabit dönüş sağlar.",
+      "when_to_use": "Kablosuz çalışma gerektiren ortamlarda, mobil detailing işlerinde, ağır kesimden finisaja kadar tüm polisaj adımlarında ve hassas boyalarda kullanılır.",
+      "target_surface": "Araç boyası, hassas boyalar, vernik, marin yüzeyler, akrilik cam",
+      "why_this_product": "• Kablosuz Gear Driven - özgürlük + güç\n• 8mm salınım - yüksek kesim, hologramsız finisaj\n• Kömürsüz motor - uzun ömür ve verimlilik\n• 2x 5.0Ah akü - kesintisiz çalışma"
+    },
+    "faq": [
+      {"question": "Kablolu XCE 10-8 ile aynı performansı verir mi?", "answer": "Evet, kömürsüz motor ve CDC elektronik sayesinde kablolu modelle karşılaştırılabilir performans sunar."},
+      {"question": "Bir aküyle ne kadar çalışır?", "answer": "Maksimum devirde yaklaşık 40 dakika çalışma süresi sağlar."},
+      {"question": "Titreşim sorunu var mı?", "answer": "Yeni nesil dişli kutusu sayesinde titreşim minimuma indirilmiştir. Orijinal FLEX aksesuarları kullanılması önemlidir."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": ["492353", "22746.281.001"],
+      "accessories": ["445894", "417882", "492353"],
+      "alternatives": ["418072", "418080"]
+    }
+  }
+}

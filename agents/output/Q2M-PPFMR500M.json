@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-PPFMR500M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM PPF Maintain REDEFINED Folyo Cilası - 500 ml", "brand": "GYEON", "barcode": "8809973751658", "group": "paint_protection_quick", "sub_type": "spray_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"target_surfaces": ["PPF", "Vinil"], "contains_sio2": true, "sio2_percent": 5, "durability_weeks": 6, "consumption_ml": 30, "features": ["Folyoyu besler", "Sararmayı geciktirir", "UV koruma"]},
+    "content": {
+      "how_to_use": "1. Folyonuzu Q²M PPF Wash ile yıkayın, durulayın.\n2. Islak kurulama için SoftDryer havluya 2-3 fıs sıkın, paneli kurulayın.\n3. Kuru uygulama için PolishWipe'ın kısa tüylü yüzüne 1-2 fıs, düz hatlarla yayın.\n4. Havluyu çevirin, uzun tüylü tarafla hafifçe silerek filmleri alın.\n5. 30 dk su teması yok; tam performans için 12 saat bekletin.",
+      "when_to_use": "Parlak/mat PPF folyo panellerinde, renk değişim vinil kaplamalarında, PPF kaplı jant ve plastik trimlerde ve seramik kaplama altına bakım katmanı olarak kullanılır.",
+      "target_surface": "Parlak PPF, mat PPF, vinil wrap, PPF kaplı jantlar, plastik trim",
+      "why_this_product": "• %5+ SiO² oranı ile yüksek hidrofobi\n• UV ve oksidasyon bariyeri - sararma ve solmayı azaltır\n• Saten-parlak uyumu - mat yüzeye parlaklık eklemez\n• Ultra slick self-cleaning - kir tutmaz, yıkama arası uzar"
+    },
+    "faq": [
+      {"question": "Mat folyo üzerinde parlak iz bırakır mı?", "answer": "Hayır, formül parlaklık artırıcı yağ içermez; mat dokuyu korur."},
+      {"question": "UV koruması gerçekten fark yaratır mı?", "answer": "Düzenli kullanımda sararma/tebeşirlenme sürecini belirgin şekilde yavaşlatır."},
+      {"question": "Başka yüzeylerde kullanılır mı?", "answer": "Boyalı panellerde güvenlidir ancak parlaklığı hafif matlaştırabilir; PPF/vinil odaklı kullanım önerilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

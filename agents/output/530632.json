@@ -1,0 +1,44 @@
+{
+  "sku": "530632",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX OSE 2-70x198-EC Elektrikli Rende Orbital Zımpara Makinesi 260W",
+    "brand": "FLEX",
+    "barcode": "4030293244726",
+    "group": "polisher_machine",
+    "sub_type": "sander"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 260,
+      "orbit_mm": 2,
+      "sanding_pad_size_mm": "198x70",
+      "speed_range_rpm": "5000-10000",
+      "oscillation_speed_rpm": "10000-20000",
+      "motor_type": "Brushless",
+      "weight_kg": 1.3,
+      "cable_length_m": 4,
+      "features": ["Kömürsüz motor", "Rende tipi taban", "Düşük titreşim", "Ergonomik tek el kullanım"]
+    },
+    "content": {
+      "how_to_use": "1. Cırt cırtlı rende zımpara kağıdını takın.\n2. 4 kademeli hız kadranından devir seçin.\n3. Tek elle tutarak yüzeye hafif basınçla uygulayın.\n4. Düz hareketlerle zımparalama yapın.\n5. Entegre filtre ile tozsuz çalışın.\n6. Harici toz emiciye bağlayabilirsiniz (Ø27mm).",
+      "when_to_use": "Dolgulu yüzeylerin zımparalanması, boya öncesi pürüz giderme, dar ve düz yüzeylerde hassas zımparalama işlemleri için kullanılır.",
+      "target_surface": "Dolgulu yüzeyler, ahşap, metal - düz ve dar alanlar",
+      "why_this_product": "• 260W kömürsüz motor - bakımsız kullanım\n• 198x70mm rende taban - dar alanlar için\n• Sadece 1.3kg - hafif ve ergonomik\n• Düşük titreşim - bilek dostu"
+    },
+    "faq": [
+      {"question": "Yuvarlak zımpara makinelerinden farkı nedir?", "answer": "Rende tipi (dikdörtgen) taban dar ve düz yüzeylerde daha hassas çalışma sağlar. Köşelere ve kenarlara erişim daha kolaydır."},
+      {"question": "Toz emme sistemi dahil mi?", "answer": "Evet, PES filtre kartuşlu entegre kendinden emme sistemi dahildir. İsteğe bağlı harici toz emiciye bağlanabilir."},
+      {"question": "ORE 5-150 modelden farkı nedir?", "answer": "OSE rende (dikdörtgen) tabanlı, ORE yuvarlak tabanlıdır. OSE dar alanlar ve kenarlar için, ORE geniş düz yüzeyler için daha uygundur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["447706"]}
+  }
+}

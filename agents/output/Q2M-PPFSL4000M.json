@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-PPFSL4000M",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM PPF Slip PPF Folyo Montaj Yapıştırma Sıvısı Yoğun Konsantre - 4000 ml", "brand": "GYEON", "barcode": "8809432677864", "group": "ppf_tools", "sub_type": "ppf_install_solution"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"function": "Kayganlaştırıcı ve Yapıştırıcı", "concentrate": true, "dilution_ratio": "1:100", "low_foam": true, "alcohol_content": true, "compatibility": ["TPU", "TPH", "Vinil"], "volume_ml": 4000},
+    "content": {
+      "how_to_use": "1. Püskürtme şişenizi temiz su ile doldurun ve ihtiyaca göre PPF Slip ekleyin (1L suya 10-20ml).\n2. Uygulama yapılacak paneli GYEON Q²M Prep ile tamamen yağdan arındırın.\n3. Hem panele hem de folyonun yapışkan tarafına bolca sıvı püskürtün.\n4. Folyoyu yüzeye yerleştirin ve kaydırarak hizalayın.\n5. PPF raglesi ile merkezden dışa doğru sıvıyı tahliye edin.\n6. Kavisli kenarlarda yapışmanın başladığından emin olun.",
+      "when_to_use": "Profesyonel PPF stüdyolarında yüksek hacimli uygulama için kullanılır. Folyonun yüzeyde kaymasını ve yeniden konumlandırılmasını sağlar.",
+      "target_surface": "Araç boyası, cam, parlak plastikler, PPF yapışkan yüzeyi",
+      "why_this_product": "• 4 litrelik profesyonel stüdyo boyutu\n• 1:100 konsantrasyon - 400 litreye kadar solüsyon\n• Düşük köpük ve alkol destekli formül\n• Operasyonel maliyetleri düşürür"
+    },
+    "faq": [
+      {"question": "Neden bebek şampuanı yerine PPF Slip kullanmalıyım?", "answer": "Bebek şampuanları boya ve krem içerir, bu maddeler yapıştırıcı performansını düşürür ve sararmaya neden olabilir."},
+      {"question": "1 litre yerine 4 litre almamın avantajı nedir?", "answer": "Profesyonel stüdyolar için birim maliyeti düşürür. 4L ile 400 litreye kadar solüsyon hazırlanabilir."},
+      {"question": "Tüm PPF markaları ile uyumlu mu?", "answer": "Evet, TPU, TPH ve vinil dahil piyasadaki tüm PPF türleri ile uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-PPFSL1000M"]}
+  }
+}

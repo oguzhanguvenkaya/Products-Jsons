@@ -1,0 +1,42 @@
+{
+  "sku": "79406",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR 100% DEGREASING Anti Statik Çok Amaçlı Temizleyici Yağ Çözücü Konsantre - 500 ml",
+    "brand": "INNOVACAR",
+    "barcode": "8027486799244",
+    "group": "interior_cleaner",
+    "sub_type": "interior_apc"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Motor", "Plastik", "Jant", "Kumaş"],
+      "concentrate": true,
+      "dilution_ratio": "1:1 - Saf",
+      "anti_static": true,
+      "ph_level": 10.5,
+      "consumption_interior": "100 ml/araç",
+      "consumption_exterior": "150 ml/araç"
+    },
+    "content": {
+      "how_to_use": "1. Ağır Kirli Motor/Jant: Soğuk yüzeye ürünü doğrudan püskürtün, 2-3 dakika bekletin, fırçalayın veya basınçlı suyla durulayın.\n2. İç Plastik/Sert Yüzeyler: Kaba kirleri süpürün, ürünü doğrudan püskürtün veya fırça üzerine sıkın, yumuşak fırça ile kirleri çözün, mikrofiber ile silin.\n3. Günlük Temizlik: Ürünü 1:1 oranında seyreltin, yüzeye püskürtün, önce nemli ardından kuru bez ile silin.",
+      "when_to_use": "Motor bölmesi ve kaput altı yağ temizliğinde, jantlar ve lastiklerdeki fren tozu tortularında, iç plastik ve kapı içlerinde, böcek ve kuş pisliği temizliğinde kullanılır.",
+      "target_surface": "Motor, jant, lastik, plastik, iç paneller, pedallar, kapı içleri, alüminyum profiller",
+      "why_this_product": "• Derinlemesine yağ çözme - gres, zift, fren tozu, motor yağını bağlayarak çözer\n• Anti-statik formül - temizlik sonrası toz tutulumunu azaltır\n• Bitkisel içerik - fosfor, NTA ve EDTA içermez, çevre dostu\n• Yavaş buharlaşma - yüzeyde daha uzun temizlik etkisi"
+    },
+    "faq": [
+      {"question": "Boyalı yüzeylerde güvenli mi?", "answer": "Evet, metal, plastik, alüminyum ve boyalı yüzeylerde güvenlidir."},
+      {"question": "Konsantre ürün ne kadar seyreltilmeli?", "answer": "Ağır kir için saf, iç plastik için 1:1 seyreltme önerilir."},
+      {"question": "Anti-statik özellik ne sağlar?", "answer": "Temizlik sonrası toz tutulumunu azaltır, yüzeylerin daha uzun süre temiz kalmasını sağlar."},
+      {"question": "Motor bölmesinde nasıl kullanılır?", "answer": "Soğuk yüzeye doğrudan püskürtün, 2-3 dk bekletin, basınçlı su ile durulayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79771"]}
+  }
+}

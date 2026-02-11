@@ -1,0 +1,43 @@
+{
+  "sku": "26005",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA A-TYPE 1.5 PRO ULTIMATE Solvent ve Petrol Dayanımlı Pompa 1.8 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916067350",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.86,
+      "capacity_usable_lt": 1.5,
+      "nozzle_type": "Ayarlanabilir konik sprey",
+      "seal_type": "Solvent/Petrol dayanımlı özel conta",
+      "chemical_resistance": ["Solventler", "Petrol türevleri", "Yağ çözücüler", "Tiner", "Fren temizleyiciler"],
+      "tank_wall": "Kalın duvarlı",
+      "pump_material": "PP",
+      "weight_net_kg": null
+    },
+    "content": {
+      "how_to_use": "1. Solvent veya petrol bazlı kimyasalı üretici dozajına göre hazneye doldurun (max çizgiyi aşmayın).\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın.\n3. Konik nozulu yüzeye uygun şekilde ayarlayın.\n4. Kontrollü ve eşit şekilde püskürtün.\n5. İş bitince basıncı tahliye edin.\n6. Hazneyi ve nozulu temiz sıvıyla durulayın.",
+      "when_to_use": "Fren/balata temizliği, silikon giderme, zift/katran temizliği, boya öncesi yüzey hazırlığı, motor ve makine temizliği, pas çözücü ve korozyon önleyici uygulamalarda kullanılır.",
+      "target_surface": "Metal yüzeyler, fren aksamı, motor parçaları, makine ekipmanları, ahşap yüzeyler (vernik öncesi)",
+      "why_this_product": "• En agresif kimyasallara karşı ULTIMATE dayanıklılık\n• Solvent, petrol ve hidrokarbon bazlı ürünlerle tam uyumluluk\n• Kalın duvarlı hazne ile uzun ömür\n• Profesyonel endüstriyel kullanım için tasarlandı"
+    },
+    "faq": [
+      {"question": "ULTIMATE serisi diğer modellerden ne farkı var?", "answer": "ULTIMATE serisi, solvent ve petrol bazlı en agresif kimyasallara karşı özel conta sistemi ve kalın duvarlı hazne ile maksimum dayanıklılık sunar."},
+      {"question": "Hangi kimyasallarla kullanılabilir?", "answer": "Fren/balata temizleyiciler, tinerler, silikon gidericiler, motor temizleyiciler, yağ çözücüler, pas çözücüler ve nitro inceltici tinerlerle uyumludur."},
+      {"question": "Alkali veya asit kullanılabilir mi?", "answer": "Sınırlı kullanım mümkündür ancak önerilmez. Alkali için EPDM, asit için VITON contalı modeller daha uygundur."},
+      {"question": "Köpük yapıcı mı?", "answer": "Hayır, bu model sıvı atım içindir. Sadece konik sprey özelliğine sahiptir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["84174", "81774"]}
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "sku": "406813",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX 14-3 125 Rotary Polisaj Makinesi 1400W",
+    "brand": "FLEX",
+    "barcode": "4030293172791",
+    "group": "polisher_machine",
+    "sub_type": "corded_rotary_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 1400,
+      "backing_plate_supported_mm": [125],
+      "max_pad_diameter_mm": 160,
+      "speed_range_rpm": "1100-3700",
+      "spindle_thread": "M14",
+      "weight_kg": 2.2,
+      "cable_length_m": 4,
+      "features": ["VR elektronik kontrol", "Ergonomik ince gövde", "Tetik hassasiyeti", "Yumuşak başlangıç"]
+    },
+    "content": {
+      "how_to_use": "1. 125mm tabanlık ve uygun pedi M14 miline takın.\n2. Yan tutma kolunu monte edin.\n3. Yüzey durumuna göre hız seçin (1100-3700 rpm).\n4. Pasta/cilayı pede uygulayıp düşük devirde yayın.\n5. Devri artırarak çapraz hareketlerle çalışın.\n6. Mikrofiber bezle kalıntıları temizleyin.",
+      "when_to_use": "Küçük ve orta boyutlu panellerde ağır çizik giderme, boya düzeltme ve profesyonel detailing işlemleri için kullanılır. Boyahaneler ve oto bakım merkezleri için idealdir.",
+      "target_surface": "Araç boyası, vernik, mobilya yüzeyleri, marin uygulamaları",
+      "why_this_product": "• 1400W güçlü motor ve yüksek tork\n• 125mm kompakt tabanlık - dar alanlarda manevra\n• VR mikroişlemci ile sabit hız kontrolü\n• Ergonomik ince tutma yeri"
+    },
+    "faq": [
+      {"question": "14-2 150 modelinden farkı nedir?", "answer": "14-3 125 modeli 125mm tabanlık ile daha kompakt olup dar alanlarda çalışmaya uygundur. 14-2 150 modeli 150mm tabanlık destekler."},
+      {"question": "Hangi pastalarla kullanılmalı?", "answer": "Rotary makineler genellikle kalın kesim pastaları (Menzerna 300, GYEON Compound) ile kullanılır. Finisaj için ince pasta gerekir."},
+      {"question": "Garanti süresi ne kadar?", "answer": "FLEX yetkili servis garantisi 2 yıldır."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": ["487953", "22746.281.001"],
+      "accessories": ["487953"],
+      "alternatives": ["373680", "SGGF179"]
+    }
+  }
+}

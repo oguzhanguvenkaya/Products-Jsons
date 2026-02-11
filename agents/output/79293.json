@@ -1,0 +1,23 @@
+{
+  "sku": "79293",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR D3 TAR Yapışkan, Zift Ve Katran Temizleyici - 500 ml", "brand": "INNOVACAR", "barcode": "8027486798148", "group": "contaminant_solvers", "sub_type": "bug_remover"},
+  "notes": {"sub_type_review": "bug_remover olarak işaretli ancak tar_glue_remover olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Zift / Reçine / Yapışkan", "ph_level": "Nötr", "chemical_base": "Su bazlı", "solvent_free": true, "dwell_time_min": "2-5", "consumption_ml_per_car": 100, "ready_to_use": true, "volume_ml": 500},
+    "content": {
+      "how_to_use": "1. Ürünü seyreltilmeden (saf) kullanın.\n2. İşlem yapılacak yüzeyin soğuk ve gölgede olduğundan emin olun.\n3. Ürünü doğrudan ziftli veya kirli yüzeye püskürtün.\n4. 2-5 dakika reaksiyon süresi tanıyın; kurumasına izin vermeyin.\n5. Yumuşak mikrofiber bezle kalıntıyı silin veya bol su ile durulayın.\n6. İnatçı kalıntılarda işlemi tekrarlayın.",
+      "when_to_use": "Kaporta üzerindeki zift, asfalt ve reçine kalıntıları, cam yüzeylerde bant ve film kalıntıları, etiket/sticker/folyo sökümü sonrası yapışkan artıkları için kullanılır.",
+      "target_surface": "Boya, cam, plastik",
+      "why_this_product": "• Solvent içermez - yüzeye nazik\n• Su bazlı - yavaş buharlaşan formül\n• Seramik kaplama öncesi ideal yüzey hazırlığı\n• EDTA/NTA ve fosfat içermez"
+    },
+    "faq": [
+      {"question": "Solvent içeriyor mu?", "answer": "Hayır, petrol damıtığı içermeyen su bazlı formüldür; çevreye ve korumalı yüzeylere daha güvenlidir."},
+      {"question": "PPF üzerinde kullanılabilir mi?", "answer": "Kullanmadan önce küçük bir bölgede test edin; yeni veya hassas PPF'lerde dikkatli olun."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-TR500M", "Q2M-TR1000M"]}
+  }
+}

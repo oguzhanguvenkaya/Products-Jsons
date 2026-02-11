@@ -1,0 +1,47 @@
+{
+  "sku": "Q2M-WYA500M",
+  "product_name": "Gyeon Q²m Wetcoat Nano Boya Koruma ve Seramik Sprey Hızlı Cila - 500 ml -Su Itici Parlak Islak Cila",
+  "barcode": "Q2M-WYA500M",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:21:47.913Z",
+  "sources": [
+    {
+      "url": "https://gyeon.de/GYEON-Q2M-WetCoat",
+      "domain": "gyeon.de",
+      "language": "en",
+      "page_title": "Gyeon WetCoat – Spray Sealant &amp; Shine - Gyeon.de | Buy Premium Car Ca",
+      "content_length": 15086,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/products/gyeon-q2m-wetcoat",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M WetCoat - Hydrophobic Wet Maintenance Spray — Polished Bliss",
+      "content_length": 13828,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-wet-coat",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Wet Coat | Time Saving Hydrophobic Coating",
+      "content_length": 34848,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

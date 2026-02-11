@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "26934.099.001",
+    "product_name": "Menzerna Rotary Polisaj Makineleri Matkap İçin Dayanıklı Ped Destek Disk Tabanlık - 75 mm",
+    "barcode": "26934.099.001",
+    "url": "https://detailerplace.com/en/product/menzerna-polishing-pad-holder-rotary/",
+    "url_index": 0,
+    "domain": "detailerplace.com",
+    "scraped_at": "2026-02-07T22:34:30.922Z",
+    "scrape_duration_ms": 301,
+    "http_status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "content_length_bytes": 9460,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "Just a moment...",
+    "raw_markdown": "Enable JavaScript and cookies to continue",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": false
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_0_detailerplace.com.html"
+  }
+}

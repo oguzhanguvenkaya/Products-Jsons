@@ -1,0 +1,22 @@
+{
+  "sku": "3225A-BL",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Wash Pad Araç Yıkama Padi (Mavi) - 25x15 cm", "brand": "KLIN", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "24x16 cm", "type": "Wash Pad", "color": "Mavi", "inner_sponge_mm": 14, "weight_gr": 280, "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Ön yıkama yaparak araç yüzeyini tazyikli su ile durulayın.\n2. Pedi şampuanlı kovaya daldırıp köpürtün.\n3. Yüzeyde hafif hareketlerle çiziksiz temizlik yapın.\n4. Sık sık temiz su kovasında durulayın.\n5. 40°C'de mikrofiber şampuanıyla yıkayın, asarak kurutun.",
+      "when_to_use": "Profesyonel araç yıkama, yüksek köpük üretimi gereken yıkama işlemleri ve genel araç temizliği için kullanılır.",
+      "target_surface": "Araç boya yüzeyleri, cam",
+      "why_this_product": "• Birinci kalite dayanıklı peluş mikrofiber yapı\n• 14 mm iç destek süngeri - yüksek köpük üretimi\n• Ergonomik tutuş - çok amaçlı kullanım\n• CCS teknolojisi - paketten çıkıp anında kullanım"
+    },
+    "faq": [
+      {"question": "Eldiven mi ped mi?", "answer": "Düz pad formatında, eldiven parmak haznesi yok."},
+      {"question": "Kırmızı versiyondan farkı nedir?", "answer": "Sadece renk farkı, aynı kalite ve özellikler."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["3221A-RD", "Q2M-WP"]}
+  }
+}

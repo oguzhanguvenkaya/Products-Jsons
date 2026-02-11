@@ -1,0 +1,23 @@
+{
+  "sku": "75182",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Lustratouch Mum Bazlı Boya Koruyucu Ve Parlatıcı - 5 lt", "brand": "FRA-BER", "barcode": "8027486750528", "group": "paint_protection_quick", "sub_type": "spray_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"application_method": "Spray & Wipe", "contains_wax": true, "features": ["Balmumu içerikli", "Nano teknoloji", "Çizilmeye karşı direnç", "Showroom parlaklığı", "5L profesyonel boyut"]},
+    "content": {
+      "how_to_use": "1. Araç temizlenip durulanmış olmalı; yüzey serin ve gölgede olmalıdır.\n2. Şişeyi çalkalayın, mikrofiber beze ürün sıkın.\n3. Panel panel dairesel hareketlerle yüzeye uygulayın.\n4. Temiz mikrofiber ile parlatın.",
+      "when_to_use": "Uzun süreli parlaklık ve koruma için, showroom parlaklığı ve ayna yansıması için, dış etkenlere karşı dayanıklılık için kullanılır.",
+      "target_surface": "Araç boyası, vernik, tüm dış yüzeyler",
+      "why_this_product": "• 5 litre profesyonel boyut - ekonomik kullanım\n• Balmumu içerikli wax ile mükemmel kayganlık\n• Nano teknoloji ile renk canlılığı ve derinlik koruma\n• Çizilmelere karşı dirençli yüzey"
+    },
+    "faq": [
+      {"question": "750 ml versiyonundan farkı nedir?", "answer": "Sadece ambalaj boyutu farkı vardır, formül aynıdır. 5L versiyon profesyonel kullanım için daha ekonomiktir."},
+      {"question": "Çizilmelere karşı koruma sağlar mı?", "answer": "Evet, nano teknolojisi sayesinde yüzeyde çizilmelere karşı dirençli bir tabaka oluşturur."},
+      {"question": "Kayganlık hissi verir mi?", "answer": "Evet, balmumu içeriği sayesinde mükemmel bir kayganlık hissiyatı verir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["75215"]}
+  }
+}

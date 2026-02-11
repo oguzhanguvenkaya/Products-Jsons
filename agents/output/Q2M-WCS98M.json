@@ -1,0 +1,84 @@
+{
+  "sku": "Q2M-WCS98M",
+  "last_updated": "2026-02-04T14:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Wash&Clean Deneyim Seti 9 Parça x 80 ml",
+    "brand": "GYEON",
+    "barcode": "8809432671138",
+    "group": "product_sets",
+    "sub_type": "experience_set"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:00:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "İkonik numune setlerinde paketlenmiş en iyi GYEON ürünlerinin tümü. Ürünlerimizle ilk kez tanışıyorsanız veya bunları istediğiniz zaman istediğiniz yere götürmek istiyorsanız, Q²M Experience Setleri, GYEON'un tüm özelliklerinin ideal boyutta olan bir çeşididir."
+      }
+    },
+    "urls": [],
+    "merged_pool": {
+      "specs": {
+        "set_type": "experience_set",
+        "piece_count": 9,
+        "total_volume": "9 x 80 ml",
+        "target_user": "başlangıç"
+      },
+      "set_contents": [
+        "Q²M Bathe (pH nötr şampuan)",
+        "Q²M Bathe+ (wax içerikli şampuan)",
+        "Q²M BatheEssence (konsantre şampuan)",
+        "Q²M RestartWash (yıkama öncesi)",
+        "Q²M Foam 2021 (köpük şampuan)",
+        "Q²M Iron (demir tozu çözücü)",
+        "Q²M Tar (zift çözücü)",
+        "Q²M Bug&Grime (böcek/kir çözücü)",
+        "Q²M WetCoat (sprey sealant)"
+      ]
+    }
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:00:00Z",
+    "template_fields": {
+      "set_type": "experience_set",
+      "piece_count": 9,
+      "total_volume": "720 ml",
+      "individual_size": "80 ml",
+      "target_user": "başlangıç",
+      "category_coverage": ["şampuan", "köpük", "dekontaminasyon", "koruma"]
+    },
+    "content": {
+      "how_to_use": "1. Dekontaminasyon: Iron → Tar → Bug&Grime sırasıyla uygulayın.\n2. Ön yıkama: Foam 2021 veya RestartWash püskürtün.\n3. Ana yıkama: Bathe, Bathe+ veya BatheEssence ile yıkayın.\n4. Koruma: WetCoat ile ıslak yüzeye sprey sealant uygulayın.\n5. Her ürünü kendi talimatına göre kullanın.",
+      "when_to_use": "GYEON'un yıkama ve temizlik ürünlerini tanımak için kullanılır. Özellikle şampuan karşılaştırması yapmak isteyenler için ideal - 4 farklı şampuan formülünü test edebilirsiniz.",
+      "target_surface": "Araç dış yüzeyi, boya, jantlar, plastik trimler",
+      "why_this_product": "• 4 farklı GYEON şampuanını karşılaştırmalı test edin\n• Dekontaminasyon üçlüsü: Iron, Tar, Bug&Grime\n• WetCoat ile kolay sprey koruma\n• 9 ürün x 80 ml = 720 ml toplam içerik\n• Yıkama odaklı set - Experience Set'in yıkama versiyonu"
+    },
+    "faq": [
+      {
+        "question": "Experience Set ile Wash&Clean Set arasındaki fark nedir?",
+        "answer": "Wash&Clean Set yıkama ve temizlik odaklıdır (4 şampuan + dekontaminasyon). Experience Set daha geniş kategori yelpazesi sunar (lastik bakımı, quick detailer, seramik detailer dahil)."
+      },
+      {
+        "question": "Bathe, Bathe+ ve BatheEssence farkı nedir?",
+        "answer": "Bathe: pH nötr temel şampuan. Bathe+: Wax içerikli, parlaklık artırıcı. BatheEssence: Konsantre formül, yüksek köpük."
+      },
+      {
+        "question": "Iron ve Tar birlikte mi kullanılır?",
+        "answer": "Hayır, ayrı ayrı kullanılır. Iron demir tozları için, Tar zift ve yapışkan kalıntılar için. Önce Iron, sonra Tar önerilir."
+      },
+      {
+        "question": "WetCoat nasıl uygulanır?",
+        "answer": "Yıkama sonrası henüz ıslakken tüm yüzeye püskürtün ve düşük basınçlı su ile durulayın. Kurulama sırasında yayılır ve koruma sağlar."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": ["Q2M-ES98M"]
+    }
+  }
+}

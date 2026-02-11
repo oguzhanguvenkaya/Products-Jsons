@@ -1,0 +1,23 @@
+{
+  "sku": "701040",
+  "product_name": "Fra-Ber Multıforce Çok Amaçlı Güçlü Yağ ve Kir Temizleyici Sprey - 600 gr",
+  "barcode": "701040",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:18:02.151Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/sgrassatore-potente-per-motori-olio-grasso-multiforce?variant=43696420683984",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Powerful Degreaser for Grease, Oil and Engines: Fra-Ber Multiforce",
+      "content_length": 23298,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

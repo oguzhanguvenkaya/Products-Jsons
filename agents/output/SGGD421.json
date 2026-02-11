@@ -1,0 +1,38 @@
+{
+  "sku": "SGGD421",
+  "last_updated": "2026-02-04T14:50:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Detaylı Temizlik 3'lü Fırça Seti – Araç İçi Dış Detay Fırçası Takımı",
+    "brand": "SGCB",
+    "barcode": null,
+    "group": "brushes",
+    "sub_type": "detail_brush"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:50:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:50:00Z",
+    "template_fields": {
+      "set_content": "3 farklı sertlikte fırça",
+      "handle_material": "PP (polipropilen)",
+      "handle_length": "220 mm",
+      "bristle_types": ["Yumuşak", "Orta", "Sert"]
+    },
+    "content": {
+      "how_to_use": "1. Temizlenecek yüzeye uygun sertlikte fırçayı seçin.\n2. Temizleyici püskürtün.\n3. Fırça ile dairesel veya ileri-geri hareketlerle temizleyin.\n4. Mikrofiber ile silin veya suyla durulayın.",
+      "when_to_use": "Araç iç ve dış detay temizliğinde süngerlerin ulaşamadığı dar alanlar, havalandırma ızgaraları, dikiş araları ve girintili yüzeyler için kullanılır.",
+      "target_surface": "Havalandırma ızgaraları, dikiş araları, düğme çevreleri, amblem kenarları, dar girintiler",
+      "why_this_product": "• 3 farklı sertlik - her yüzey için uygun fırça\n• 220 mm uzunluk - dar alanlara kolay erişim\n• Ergonomik PP sap\n• İç ve dış detay için komple set"
+    },
+    "faq": [
+      {"question": "Hangi fırça hangi yüzey için?", "answer": "Yumuşak: Hassas yüzeyler, gösterge paneli. Orta: Genel detay, plastikler. Sert: Halı, paspas, lastik."},
+      {"question": "Tek tek satılıyor mu?", "answer": "Bu ürün 3'lü set olarak satılmaktadır."},
+      {"question": "Boyalı yüzeylerde güvenli mi?", "answer": "Yumuşak fırça ile dikkatli kullanılabilir, ancak boyalı yüzeyler için mikrofiber tercih edilmelidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

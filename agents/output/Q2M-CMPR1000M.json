@@ -1,0 +1,113 @@
+{
+  "sku": "Q2M-CMPR1000M",
+  "last_updated": "2026-02-04T13:25:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "GYEON QM Compound+ Plus REDEFINED Ağır Çizik Giderici Kalın Pasta - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661106",
+    "group": "abrasive_polish",
+    "sub_type": "heavy_cut_compound"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:25:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "GYEON Q²M Compound+ Plus REDEFINED, Gyeon ürün gamındaki en aşındırıcı ve güçlü kesim pastasıdır. Profesyonel detailing atölyeleri için geliştirilen bu ürün, neredeyse hiç toz bırakmadan ve minimum seviyede ikincil kusur oluşturarak gelişmiş düzeyde çizik giderme ve yüksek aşınma sağlamak üzere formüle edilmiştir. Temel amacı, ağır boya kusurlarını minimum sürede ortadan kaldırmaktır. Su bazlı formülü, yüksek kaliteli Japon aşındırıcıları içerir.",
+        "extracted_specs": {
+          "cut_level": 10,
+          "finish_level": 8,
+          "silicone_free": true,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "dusting_level": "Very Low"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Ağır boya kusuru giderme", "Profesyonel atölye kullanımı", "Seramik kaplama öncesi hazırlık", "Yüksek sıcaklık/nemli iklimlerde çalışma"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": ["GYEON Q²M Compound+"]
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 10,
+        "finish_level": 8,
+        "silicone_free": true,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "dusting_level": "Very Low",
+        "machine_compatibility": ["rotary", "orbital"],
+        "recommended_pads": ["GYEON Q²M Eccentric Cut", "Ağır kesim sünger ped"],
+        "abrasive_origin": "Japan"
+      },
+      "content": {
+        "use_cases": ["Ağır kusur giderme", "Profesyonel detailing", "Sıcak iklimlerde çalışma", "Seramik hazırlığı"],
+        "benefits": ["Maksimum kesim + yüksek parlaklık", "Neredeyse sıfır toz", "Japon aşındırıcıları", "Uzun çalışma süresi"]
+      },
+      "faq": [],
+      "related_products": ["GYEON Q²M Compound+", "GYEON Q²M Polish", "GYEON Q²M Pure"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:25:00Z",
+    "template_fields": {
+      "cut_level": 10,
+      "finish_level": 8,
+      "machine_compatibility": ["rotary", "orbital"],
+      "recommended_pad_types": ["heavy_cut_foam_pad", "wool_pad"],
+      "dusting_level": "Very Low",
+      "working_time": "Very Long",
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "abrasive_type": "Japanese high-quality",
+      "safe_for_soft_paint": false,
+      "wipe_off_ease": "Easy"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini yıkayın ve kil temizliği yapın. Yüzeyin serin olduğundan emin olun.\n2. Makine & Ped Seçimi: Rotary veya Orbital polisaj makineleriyle kullanılabilir.\n   - Önerilen Ped: GYEON Q²M Eccentric Cut veya ağır kesim sünger ped\n3. Ürün Miktarı: Pede 3-4 nohut tanesi büyüklüğünde ürün uygulayın.\n4. Uygulama: Düşük hız ve düşük sıcaklıkta çalışarak en iyi sonuçları alın.\n   - Rotary: Kademe 2-3\n   - Orbital: Kademe 3-4\n5. Çalışma: Uzun çalışma süresi sayesinde kurumadan etkili çalışır.\n6. Temizlik: Yumuşak mikrofiber bezle kolayca silinir - neredeyse toz bırakmaz.\n7. Sonraki Adım: Hafif hologram kalırsa GYEON Q²M Polish ile devam edin.",
+      "when_to_use": "Ağır boya kusurlarını minimum sürede ortadan kaldırmak için kullanılır. Gyeon serisinin en aşındırıcı pastası olup, profesyonel detailing atölyeleri için idealdir. Özellikle yüksek sıcaklık ve nemli iklimlerde çalışmak için formüle edilmiştir. Seramik kaplama öncesi boya hazırlığı için de kullanılır. REDEFINED versiyonu, önceki versiyona göre daha fazla kesim gücü ve çok daha yüksek parlaklık sunar.",
+      "target_surface": "Ağır kusurlu otomotiv boyaları, derin çizikler, oksitlenmiş yüzeyler, sıcak iklimlerde çalışılacak araçlar",
+      "why_this_product": "• Gyeon'un en aşındırıcı ve güçlü kesim pastası - 10/10 kesim gücü.\n• REDEFINED formül - 8/10 parlaklık ile daha az bitiş adımı gerektirir.\n• Neredeyse hiç toz bırakmaz - temizlik süresi minimuma iner.\n• Yüksek kaliteli Japon aşındırıcıları - premium performans.\n• Uzun çalışma süresi - sıcak ve nemli iklimlerde bile kurumadan çalışır.\n• Silikonsuz formül - seramik kaplama hazırlığı için ideal."
+    },
+    "faq": [
+      {
+        "question": "REDEFINED ile standart Compound+ arasındaki fark nedir?",
+        "answer": "REDEFINED versiyonu aynı kesim gücünü (10/10) korurken çok daha yüksek parlaklık (8/10 vs 4/10) ve neredeyse sıfır tozlanma sunar. Ayrıca uzun çalışma süresi ile özellikle sıcak iklimlerde üstünlük sağlar."
+      },
+      {
+        "question": "Neden 'Japon aşındırıcıları' vurgulanıyor?",
+        "answer": "Yüksek kaliteli Japon aşındırıcıları, hassas öğütülmüş yapılarıyla hem etkili kesim hem de kontrollü çalışma sağlar. Bu, profesyonel düzeyde tutarlı sonuçlar anlamına gelir."
+      },
+      {
+        "question": "Sıcak iklimlerde neden daha iyi çalışıyor?",
+        "answer": "Geliştirilmiş formülü sayesinde kurumadan daha uzun süre çalışır. Bu özellikle yüksek sıcaklık ve nemli iklimlerde büyük avantaj sağlar."
+      },
+      {
+        "question": "8/10 parlaklık yeterli mi yoksa bitiş adımı gerekir mi?",
+        "answer": "Çoğu durumda 8/10 parlaklık tatmin edici sonuçlar verir. Ancak show car seviyesinde bitiş için GYEON Q²M Polish ile hafif hologramları giderebilirsiniz."
+      },
+      {
+        "question": "Toz bırakmama iddiası gerçek mi?",
+        "answer": "Evet, REDEFINED formülü neredeyse hiç toz bırakmayacak şekilde optimize edilmiştir. Bu, temizlik süresini önemli ölçüde kısaltır."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

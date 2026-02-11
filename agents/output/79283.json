@@ -1,0 +1,41 @@
+{
+  "sku": "79283",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR S2 FOAMY Enzimli PH Nötr Köpüklü Araç Yıkama Şampuanı - 1 lt",
+    "brand": "INNOVACAR",
+    "barcode": "8027486798049",
+    "group": "car_shampoo",
+    "sub_type": "ph_neutral_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "7.0 (Nötr)",
+      "technology": "Enzim Bazlı",
+      "dilution_kova": "1:50",
+      "dilution_foam_lance": "1:12",
+      "safe_on_ceramic_coatings": true,
+      "consumption_ml_per_car": 20
+    },
+    "content": {
+      "how_to_use": "1. Kova Yöntemi: Her litre suya 20-40 ml ürün seyreltin (1:25 - 1:50), yüksek kalitede eldiven ile yıkayın ve durulayın.\n2. Köpük Tabancası: 1:12 oranında (80 ml ürün + 920 ml su) seyreltip araca püskürtün.\n3. Sık Yıkama: 1:500 oranında ekonomik kullanım için.\n4. Durulama: İyice durulayın, kurumasına izin vermeyin.",
+      "when_to_use": "Haftalık araç yıkamada, seramik kaplama uygulanmış araçların güvenli temizliğinde, organik kirlerin (kuş pisliği, polen) giderilmesinde kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, wax, PPF, plastik, conta",
+      "why_this_product": "• Patentli enzim teknolojisi organik kirleri moleküler düzeyde parçalar\n• pH nötr formül kaplamaya zarar vermez\n• Yüksek köpük ve kayganlık\n• EDTA, NTA, sodyum hidroksit içermez"
+    },
+    "faq": [
+      {"question": "Enzim bazlı formül ne işe yarar?", "answer": "Enzimler organik kirleri (böcek, kuş pisliği, yaprak kalıntısı) moleküler düzeyde parçalayarak daha etkili temizlik sağlar."},
+      {"question": "Seramik kaplamamı bozar mı?", "answer": "Hayır, pH nötr formül kaplamaya zarar vermez, aksine ömrünü uzatır."},
+      {"question": "Sıcak yüzeylerde kullanabilir miyim?", "answer": "Hayır, sıcak yüzeylere uygulamayın ve kurumasına izin vermeyin."},
+      {"question": "Plastik ve contalarda güvenli mi?", "answer": "Evet, EDTA, NTA ve sodyum hidroksit içermediği için plastik ve contalarda stres çatlamasına neden olmaz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79284", "700507", "700508"]}
+  }
+}

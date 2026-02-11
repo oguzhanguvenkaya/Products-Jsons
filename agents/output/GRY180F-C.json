@@ -1,0 +1,43 @@
+{
+  "sku": "GRY180F-C",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Orbital Ağır Kesim Pasta Süngeri (Gri) - 175mm",
+    "brand": "MG PS",
+    "barcode": "8683492660093",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Heavy Cut",
+      "color": "Gri",
+      "diameter_mm": 175,
+      "base_diameter_mm": 155,
+      "height_mm": 25,
+      "machine_compatibility": ["Orbital"],
+      "cell_structure": "Open Cell",
+      "hardness": "Medium-Hard"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 155mm orbital tabanlığa takın.\n2. Ağır kesim pasta (Menzerna 300, 400, 1000) damlatın.\n3. Düşük devirde başlatarak ürünü yüzeye yayın.\n4. Devri artırarak çapraz geçişlerle çalışın.\n5. Yağlı film oluşana kadar işleme devam edin.\n6. Mikrofiber ile silin ve sonucu kontrol edin.",
+      "when_to_use": "Ağır boya restorasyonunda, zımpara sonrası düzeltmede, derin çizik ve kusurların orbital makine ile giderilmesinde kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, sert ve yumuşak tüm boya tipleri",
+      "why_this_product": "• Orta-sert yapısı ile maksimum kesim gücü\n• Açık gözenekli yapı ile homojen ürün dağılımı\n• 25mm yükseklik ile uzun ömürlü kullanım\n• Orbital makineler için optimize edilmiş"
+    },
+    "faq": [
+      {"question": "Gri ped ne için kullanılır?", "answer": "Ağır kesim (heavy cut) pasta işlemleri için kullanılır. Derin çizikler ve zımpara izleri için idealdir."},
+      {"question": "Hangi pastalarla kullanılır?", "answer": "Menzerna 300, 400, 1000 ve Cut Force Pro gibi ağır kesim pastaları ile kullanılır."},
+      {"question": "175mm boyutu hangi tabanlık gerektirir?", "answer": "155mm orbital tabanlık diskleri ile uyumludur."},
+      {"question": "Rotary makinede kullanılabilir mi?", "answer": "Bu ped orbital makineler için optimize edilmiştir. Rotary için GRY180F veya GRY160F tercih edilmelidir."}
+    ],
+    "relations": {"use_before": ["RE180F-C", "GPRO180F-C", "GE180F-C"], "use_after": [], "use_with": ["22.746.281.001", "22.200.281.001", "22.203.261.001"], "accessories": [], "alternatives": ["GRY150F-C", "GRY100F-C"]}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sku": "26.935.099.001",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MENZERNA Rotary Polisaj Makineleri için Esnek ve Dayanıklı Ped Destek Disk Tabanlık - 148mm", "brand": "MENZERNA", "group": "spare_part", "sub_type": "backing_plate"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"diameter_mm": 148, "compatible_device": ["Rotary M14"], "material": "Metal + PVC", "color": "Kırmızı", "thread_size": "M14"},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın.\n2. Mevcut tabanlığı M14 dişten sökerek çıkarın.\n3. Yeni Menzerna tabanlığı M14 dişe vidalayın.\n4. Sıkıca sabitleyin.\n5. 6 inç ped takarak test edin.",
+      "when_to_use": "M14 dişli rotary polisaj makinelerinde profesyonel polisaj uygulamaları için kullanılır.",
+      "target_surface": "M14 dişli tüm rotary polisaj makineleri",
+      "why_this_product": "• Birinci sınıf cırtlı yüzey - sıkı kavrama\n• Esnek kenarlar - kıvrımlarda güvenli\n• Güçlendirilmiş dişli teknolojisi\n• Kırmızı renk - profesyonel görünüm"
+    },
+    "faq": [
+      {"question": "148mm boyutun avantajı nedir?", "answer": "6 inç (150mm) pedlerle optimum uyum sağlar, kenar taşması olmadan dengeli çalışma sunar."},
+      {"question": "Hangi makinelerle uyumlu?", "answer": "M14 dişli tüm rotary polisaj makineleri ile uyumludur."},
+      {"question": "Menzerna orijinal mi?", "answer": "Evet, Menzerna orijinal aksesuarıdır, Türkiye distribütörü MTS Kimya güvencesiyle satılır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["26.931.099.001", "SGGD053"]}
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "sku": "481491",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX VC 6 L MC 18.0V Şarjlı Kablosuz El Süpürgesi 6 Litre - 4 Başlıklı Taşınabilir Toz Emici", "brand": "FLEX", "barcode": "4030293215610", "group": "storage_accessories", "sub_type": "work_gear"},
+  "notes": {"sub_type_review": "work_gear olarak işaretli ancak vacuum_cleaner olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"power": "18V Akülü", "capacity_lt": 6, "vacuum_pa": 12000, "weight_kg": 3.3, "dimensions_mm": "240x200x400", "filter_area_cm2": 3000, "runtime_min": 30},
+    "content": {
+      "how_to_use": "1. 18V akü takılı olduğundan emin olun.\n2. Uygun başlığı seçin (aralık, fırça, döşeme veya el borusu).\n3. Emiş hortumunu 0.5-2.5m arası ayarlayın.\n4. Açarak temizlik işlemini yapın.\n5. Eko modda pil ömrünü uzatın (30 dakikaya kadar).",
+      "when_to_use": "Araç içi detaylı temizlik, atölye ve depo temizliği, son montaj alanları için kullanılır. Kablosuz özgürlük ile dar alanlarda kolayca çalışılır.",
+      "target_surface": "Araç içi, döşeme, toz, kuru atıklar",
+      "why_this_product": "• Sınıfının en hafif ve kompakt kablosuz süpürgesi\n• 12.000 Pa vakum gücü\n• Omuz askısı ile kolay taşıma\n• Manuel filtre temizleme sistemi\n• 4 farklı başlık dahil"
+    },
+    "faq": [
+      {"question": "Akü dahil mi?", "answer": "Hayır, pil ve şarj cihazı ürüne dahil değildir."},
+      {"question": "Ne kadar çalışır?", "answer": "Eko modda 5.0 Ah akü ile yaklaşık 30 dakika çalışır."},
+      {"question": "Islak kullanılabilir mi?", "answer": "Hayır, sadece kuru temizlik için uygundur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["532024", "405418"]}
+  }
+}

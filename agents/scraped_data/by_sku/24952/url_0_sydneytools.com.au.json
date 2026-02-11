@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "24952",
+    "product_name": "Epoca A-Type 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/siyah (Nbr)",
+    "barcode": "24952",
+    "url": "https://sydneytools.com.au/product/epoca-apa15pepdm-15l-atype-pro-epdma-pressure-spray-bottle",
+    "url_index": 0,
+    "domain": "sydneytools.com.au",
+    "scraped_at": "2026-02-07T22:11:00.886Z",
+    "scrape_duration_ms": 871,
+    "http_status": 200,
+    "content_type": "text/html",
+    "content_length_bytes": 1661,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "Sydney Tools",
+    "raw_markdown": "",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": true
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_0_sydneytools.com.au.html"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sku": "KLIN-3113AG",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Clean Towel Çok Amaçlı Silme Ve Temizlik Bezi 10'lu Paket (Gri)", "brand": "KLIN", "barcode": "8683492660956", "group": "microfiber", "sub_type": "multi_purpose_cloth"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "40x40 cm", "quantity": 10, "material_blend": "Polyester/Polyamide", "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Toz alma, temizlik veya koruyucu uygulama silimi için kullanın.\n2. Döşeme temizliği, iç detaylandırma, elektronik panel temizliği için uygulayın.\n3. Pasta/cila silme, seramik kaplama ve boya koruma uygulamalarında kullanın.\n4. 40°C'de mikrofiber şampuanıyla yıkayın, asarak kurutun.",
+      "when_to_use": "Toz alma, temizlik, pasta/cila silme, seramik/boya koruma silimi, döşeme temizliği ve iç detaylandırma için çok amaçlı kullanım.",
+      "target_surface": "Araç, ev eşyaları, elektronik ürünler, değerli parçalar",
+      "why_this_product": "• Kore üretimi birinci sınıf dayanıklılık\n• Az tüylü yapı - arkasında hav bırakmaz\n• Kolaylıkla bozulmaz ve sökülmez\n• 10'lu paket - ekonomik ve uzun süreli kullanım"
+    },
+    "faq": [
+      {"question": "Hangi renk seçenekleri var?", "answer": "Gri ve Kahverengi renk seçenekleri mevcuttur."},
+      {"question": "Elektronik ürünlerde güvenle kullanılabilir mi?", "answer": "Evet, değerli parçalarda ve elektronik ürünlerde güvenle kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["3217HS-5G", "3217HS-5W"]}
+  }
+}

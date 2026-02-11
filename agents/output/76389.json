@@ -1,0 +1,39 @@
+{
+  "sku": "76389",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bean Classic Man Spray - Maskülen Erkek Kokusu - 150ML",
+    "brand": "FRA-BER",
+    "barcode": "8027486762071",
+    "group": "fragrance",
+    "sub_type": "spray_perfume"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Classic Man",
+      "volume_ml": 150,
+      "made_in": "İtalya",
+      "collection": "Bean Spray"
+    },
+    "content": {
+      "how_to_use": "1. Kullanmadan önce kutuyu çok iyi çalkalayın.\n2. Araç içinde deodorizasyonu yaymak için püskürtün.\n3. Kumaşlar için yaklaşık 20-30 cm uzaklıkta püskürtün ve kurumaya bırakın.\n4. Hassas kumaşlar için önce küçük bir bölümde deneyin.\n5. Deri ve post üzerinde kullanmayın.",
+      "when_to_use": "Maskülen ve sofistike bir atmosfer yaratmak isteyenler için idealdir. Sigara, nem ve hayvan kokularını gidermek için kullanın.",
+      "target_surface": "Araç içi, kumaş yüzeyler (deri ve post hariç)",
+      "why_this_product": "• Hafif ve uzun süreli kalıcı erkeksi koku\n• Kötü kokuları giderme özelliği\n• 150 ml ekonomik boy\n• İtalya'da üretim"
+    },
+    "faq": [
+      {"question": "FRA-BER Bean Spray serisi nedir?", "answer": "150 ml sprey formatında, uzun süreli kalıcı koku sağlayan araç ve oda parfümü serisi."},
+      {"question": "Classic Man kokusu nasıl?", "answer": "Maskülen ve sofistike, hafif ancak kalıcı bir erkek kokusu."},
+      {"question": "Hangi kokuları giderir?", "answer": "Sigara, nem ve hayvan kokularını etkili şekilde giderir."},
+      {"question": "Deri yüzeylerde kullanılabilir mi?", "answer": "Hayır, deri ve post üzerinde kullanılmamalıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["78608", "78610", "78615"]}
+  }
+}

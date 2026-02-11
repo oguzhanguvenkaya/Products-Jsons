@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-BGYA1000M",
+  "product_name": "Gyeon Q²m Bug&grime Araç Sinek Böcek Leke Temizleyici - 1000 ml",
+  "barcode": "Q2M-BGYA1000M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:23:03.783Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-bug-grime-1000ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M Bug &amp; Grime | CARZILLA",
+      "content_length": 16633,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.prodetailingsupplies.ca/product-page/gyeon-q-m-bug-grime-remover",
+      "domain": "prodetailingsupplies.ca",
+      "language": "en",
+      "page_title": "Gyeon Bug &amp; Grime Remover | prodetailingsupplies",
+      "content_length": 10266,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.elitecarcare.co.uk/product/gyeon-q2m-bug-grime-4-litre-effective-pre-wash-bug-remover/",
+      "domain": "elitecarcare.co.uk",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": false,
+      "has_related": false
+    },
+    {
+      "url": "https://www.blok51.com/gyeon-q2m-bug-grime-1000-ml.html",
+      "domain": "blok51.com",
+      "language": "en",
+      "page_title": "Gyeon Q²M Bug&amp;Grime - 1000 ml | Blok 51 Northern Ireland",
+      "content_length": 10801,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailgear.co.uk/products/gyeon-q-bug-grime-remover",
+      "domain": "detailgear.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Bug &amp; Grime Remover &ndash; Detail Gear",
+      "content_length": 13709,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-bug-grime-remover",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M Bug &amp; Grime | Pre-Wash Bug Remover",
+      "content_length": 35365,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

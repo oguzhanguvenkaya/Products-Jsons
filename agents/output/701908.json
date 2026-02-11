@@ -1,0 +1,43 @@
+{
+  "sku": "701908",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Superlux Suya Dayanıklı Lastik Parlatıcı Dış İç Plastik Trim Koruyucu Yenileyici - 900 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486822836",
+    "group": "tire_dressing",
+    "sub_type": "tire_gel"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Parlatıcı + Koruyucu + Yenileyici",
+      "form": "Jel",
+      "hydrophobic": true,
+      "uv_protection": true,
+      "anti_static": true,
+      "consumption": "50 ml/araç",
+      "volume_ml": 900,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Uygulanacak yüzeyi iyice temizleyip tamamen kurulayın.\n2. Mikrofiber ped veya yumuşak fırça üzerine ürünü dökün.\n3. Yüzeye eşit yayılacak şekilde uygulayın (50 ml/araç).\n4. Ürünü kendi hâline bırakın - silmeye gerek yoktur.\n5. İkinci kat için ilk katın tam kurumasını bekleyin.",
+      "when_to_use": "Lastik, dış/iç plastik aksam, kauçuk contalar ve motor bölmesinde uzun süreli parlaklık ve koruma sağlamak istediğinizde kullanın.",
+      "target_surface": "Lastikler, dış plastik trimler, iç plastik aksam, tamponlar, kauçuk contalar, kapı panelleri, gösterge paneli, motor bölmesi",
+      "why_this_product": "• Hidrofobik formül - yağmur sonrası bile haftalarca kalıcı parlaklık\n• UV koruma - solma ve çatlamayı önler\n• Antistatik etki - toz tutmayan yüzey\n• Çok amaçlı - lastik, plastik, kauçuk ve motor bölmesinde güvenle kullanım"
+    },
+    "faq": [
+      {"question": "Superlux sadece lastikler için mi?", "answer": "Hayır, dış/iç plastik trimler, tamponlar, contalar, gösterge paneli ve motor bölmesinde de kullanılabilir."},
+      {"question": "Parlaklık ne kadar sürer?", "answer": "Hidrofobik formülü sayesinde yağmura ve yıkamaya dayanıklıdır, haftalarca kalıcı parlaklık sağlar."},
+      {"question": "Silmem gerekiyor mu?", "answer": "Hayır, ürünü kendi haline bırakın, silmeye gerek yoktur."},
+      {"question": "Lastik sırtına uygulanabilir mi?", "answer": "Hayır, ürünü lastik sırtına (yol temas yüzeyine) uygulamayınız."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["75138"]}
+  }
+}

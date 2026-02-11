@@ -1,0 +1,29 @@
+{
+  "sku": "7.933.056.001",
+  "last_updated": "2026-02-04T15:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Menzerna M5 Süper Parlatıcı Katı Cila Beyaz Değerli Metal Altın Gümüş Platin Parlatıcı – 1100 Gr",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "industrial_products",
+    "sub_type": "interior_detailer"
+  },
+  "notes": {"sub_type_review": "Template'de 'interior_detailer' olarak işaretli. Doğrusu 'solid_compound' veya 'precious_metal_polish' olmalı."},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:00:00Z",
+    "template_fields": {"type": "Süper Parlatıcı Katı Cila", "color": "Beyaz", "weight": "1100 gr", "target_material": ["Altın", "Gümüş", "Platin", "Değerli metaller"], "premium": true},
+    "content": {
+      "how_to_use": "1. Yumuşak parlatma keçesi hazırlayın.\n2. Katı cilayı keçeye sürün.\n3. Değerli metal yüzeyi dikkatle parlatın.\n4. Ayna parlaklığı elde edin.",
+      "when_to_use": "Altın, gümüş, platin ve diğer değerli metallerde süper parlaklık için kullanılır. Kuyumculuk ve değerli metal işlemede ideal.",
+      "target_surface": "Altın, gümüş, platin, değerli metaller, mücevherat",
+      "why_this_product": "• Değerli metaller için özel formül\n• Süper parlaklık seviyesi\n• Kuyumculuk kalitesi\n• Altın ve platin uyumu"
+    },
+    "faq": [
+      {"question": "Altın takılarda güvenli mi?", "answer": "Evet, altın, gümüş ve platin dahil tüm değerli metallerde güvenle kullanılır."},
+      {"question": "Kuyumculukta kullanılır mı?", "answer": "Evet, profesyonel kuyumculuk ve mücevherat parlatmada idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

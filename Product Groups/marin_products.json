@@ -1,0 +1,384 @@
+{
+  "metadata": {
+    "group_id": "marin_products",
+    "group_name": "Tekne, Yat ve Marin Bakım Ürünleri",
+    "total_products": 5,
+    "description": "Tekne, yat ve deniz araçları için temizlik, bakım ve koruma ürünleri.",
+    "sub_types": [
+      {
+        "id": "interior_detailer",
+        "name": "Marin İç Mekan Temizleyici",
+        "description": "Tekne ve yat iç mekan yüzeyleri için çok amaçlı temizleyici"
+      },
+      {
+        "id": "water_spot_remover",
+        "name": "Su Lekesi Çözücü",
+        "description": "Deniz suyu ve mineral kaynaklı su lekelerini çözen asidik ürün"
+      },
+      {
+        "id": "iron_remover",
+        "name": "Demir Tozu Çözücü",
+        "description": "Marin metal yüzeylerdeki oksidasyon ve demir tozunu çözen ürün"
+      },
+      {
+        "id": "one_step_polish",
+        "name": "Tek Adım Marin Cilası",
+        "description": "Tekne ve yat gelcoat/boyası için tek adımda düzeltme ve parlatma cilası"
+      }
+    ]
+  },
+  "products": [
+    {
+      "sku": "75130",
+      "barcode": "8027486750016",
+      "template": {
+        "group": "marin_products",
+        "sub_type": "water_spot_remover",
+        "fields": {
+          "source": "group+kw",
+          "confidence": 0.8,
+          "fit": "strong",
+          "gap_reason": "",
+          "function": "Rust & Limescale Remover",
+          "ph_level": "Asidik (pH < 2)",
+          "target_surface": "Krom, paslanmaz çelik, fiberglas su hattı",
+          "format": "Tetikli şişe (jel tutunma)",
+          "volume": "750 ml",
+          "eco_friendly": true,
+          "harmful_ingredients_free": [
+            "Fosfat",
+            "EDTA",
+            "NTA"
+          ]
+        }
+      },
+      "content": {
+        "short_description": "İtalyan FRA-BER Premium Profesyonel Marin Tekne Yat Yıkama Temizlik ve Bakım Ürünleri Yetkili Türkiye Distribütörü MTS Kimya’da. Orijinal Ürün Garantisi.",
+        "full_description": "FRA-BER REEF MARIN – Tekne Krom & Çelik Parçalar İçin Pas, Oksit ve Kireç Çözücü – 750 ml<br><br><br>FRA-BER REEF MARIN’İN FAYDALARI | Oksit Çözücü Asit Gücü, Parlak Metal, Uzun Ömürlü Koruma<br><br>FRA-BER REEF MARIN, tekne ve yatlarda krom-çelik aksamdaki pas, kireç ve yosun izlerini hızla çözen profesyonel bir asidik temizleyicidir. Fosfat, EDTA ve NTA içermeyen çevreye duyarlı formülü; su hattı lekeleri, midye kabuğu artıkları ve tuz kristallerini sökerken metale yeniden parlaklık kazandırır, düzenli kullanımda ekipman ömrünü uzatır.<br><br><br>ANA ÖZELLİKLER | FRA-BER REEF MARIN Ürün Özellikleri<br><br>•\tPas & Oksit Giderici: Krom ve paslanmaz çelik yüzeylerden pas, oksit, silikat ve kireç birikimlerini çözer.<br>•\tYosun & Su Hattı Lekesi Temizliği: Gövde, direk ve güverte ekipmanındaki deniz kabuğu, yosun, tuz çizgilerini ortadan kaldırır.<br>•\tÇevre Dostu Formül: Fosfat, EDTA, NTA içermez; tekne limanlarında güvenle kullanılabilir.<br>•\tÇok Yönlü Kullanım: Direkler, sintine merdivenleri, roll-barlar, pasarellalar, krom korkuluklar ve çelik ankrajlarda etkili.<br>•\tJel Benzeri Tutunma: Dikey yüzeylere püskürtüldüğünde akmadan 5 dk aktif kalır, minimum mekanik müdahale gerektirir.<br><br><br>FRA-BER REEF MARIN İDEAL KULLANIM ALANLARI | Nerelerde Kullanılır?<br><br>•\tTekne ve yat gövdesinde su hattı temizliği<br>•\tKrom korkuluk, roll-bar ve paslanmaz çelik merdivenlerde pas sökme<br>•\tDirek ve arma bağlantılarında oksit & tuz kristali çözme<br>•\tJet-ski, tender ve dinghy metal parçalarının bakımında<br>•\tLimanda uzun süre bekleyen teknelerde rutin sezon başlangıcı temizlikleri<br><br><br>FRA-BER REEF MARIN KULLANIM SENARYOLARI | En İyi Sonuçlar İçin<br><br>•\tSezon Açılışı: Karina ve paslanmaz aksamdaki kış boyunca oluşan pas/kireç tabakasını temizler.<br>•\tHızlı Marina Bakımı: Etkin formülüyle iskelede su bağlantısı olmadan bile 5 dakikada sonuç verir.<br>•\tPas Onarım Öncesi: Boya veya koruyucu kaplama öncesi metal yüzeyi pürüzsüz ve pas-siz hazırlamak.<br>•\tYosun Bariyeri Destek: Düzenli kullanımda yosun/kabuk tutunmasını azaltarak gövde bakım aralığını uzatır.<br><br><br>FRA-BER REEF MARIN NASIL KULLANILIR? | Uygulama Talimatları<br><br>1.\tYüzeyi Hazırla: Metal soğuk ve kuru olmalı, gevşek kir/tuzu durulayıp boşaltın.<br>2.\tPüskürtme: Şişeyi çalkalayın; yüzeye eşit film hâlinde püskürtün.<br>3.\tBekleme: 5 dk etki etmesi için bırakın. Kuruma başlamadan ilerleyin.<br>4.\tMekanik Destek (gerekirse): İnatçı lekelerde fırça veya süngerle hafifçe fırçalayın.<br>5.\tDurulama: Tatlı suyla bolca yıkayın; üstten aşağı kontrollü akışla kimyasalı uzaklaştırın.<br>6.\tGerekirse Tekrar: Çok ağır oksit/kireçte işlemi yineleyin, sürede 5 dakikayı aşmayın.<br><br>Kullanım: Saf veya üretici tavsiyesiyle \u00100 şeklinde uygulanır.<br><br>TEKNİK ÖZELLİKLER<br><br>Özellik\tDeğer<br>İşlev\tAsidik pas & kireç çözücü<br>pH\tAsidik (? < 2)<br>Format\tTetikli şişe (jel tutunma)<br>Hacim\t750 ml<br>İstenmeyen Bileşenler\tFosfat, EDTA, NTA içermez<br>Uyumluluk\tKrom, paslanmaz çelik, fiberglas su hattı<br><br><br>UYARILAR VE DEPOLAMA<br><br>•\tAlüminyum, linolyum, boyalı yüzey ve teak güvertede uzun temas süresinden kaçının; temassız durulama süresini kısaltın.<br>•\tKişisel koruyucu ekipman (nitril eldiven, gözlük) kullanınız.<br>•\tSıcak yüzeyde veya doğrudan güneş altında uygulamayınız.<br>•\tÇocuklardan uzak tutunuz; yutulması zararlıdır.<br>•\t5 °C – 30 °C arasında, kapak kapalı, donma/aşırı ısıdan uzak depolayınız.<br><br>FRA-BER REEF MARIN ile teknenizin tüm krom ve çelik aksamına kaybettiği parlaklığı geri kazandırın, pas ve kireç oluşumunu kolayca önleyin!<br><br>",
+        "how_to_use": "1. Yüzeyi Hazırla: Metal soğuk ve kuru olmalı, gevşek kir/tuzu durulayıp boşaltın.\n2. Püskürtme: Şişeyi çalkalayın; yüzeye eşit film hâlinde püskürtün.\n3. Bekleme: 5 dk etki etmesi için bırakın. Kuruma başlamadan ilerleyin.\n4. Mekanik Destek (gerekirse): İnatçı lekelerde fırça veya süngerle hafifçe fırçalayın.\n5. Durulama: Tatlı suyla bolca yıkayın; üstten aşağı kontrollü akışla kimyasalı uzaklaştırın.\n6. Gerekirse Tekrar: Çok ağır oksit/kireçte işlemi yineleyin, sürede 5 dakikayı aşmayın.",
+        "when_to_use": "Tekne ve yatlarda krom-çelik aksamdaki pas, kireç ve yosun izlerini hızla çözmek için kullanılır. Sezon açılışı, hızlı marina bakımı ve pas onarım öncesi ideal.",
+        "target_surface": "Krom korkuluklar, paslanmaz çelik merdivenler, direkler, roll-barlar, pasarellalar, ankrajlar, su hattı",
+        "why_this_product": "• Jel benzeri tutunma - dikey yüzeylerde akmadan 5 dk aktif kalır\n• Çevre dostu - Fosfat, EDTA, NTA içermez, marinalarda güvenle kullanılır\n• Çok yönlü - pas, oksit, silikat, kireç, yosun ve tuz kristallerini çözer\n• Minimum mekanik müdahale gerektirir"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Alüminyum yüzeylerde kullanılabilir mi?",
+          "answer": "Hayır, alüminyum, linolyum, boyalı yüzey ve teak güvertede uzun temas süresinden kaçının. Asidik formül bu yüzeylere zarar verebilir."
+        },
+        {
+          "question": "Ne kadar süre bekletmeliyim?",
+          "answer": "Maksimum 5 dakika. Kurumaya başlamadan durulayın. Çok ağır lekelerde işlemi tekrarlayın ama süreyi artırmayın."
+        },
+        {
+          "question": "Koruyucu ekipman gerekli mi?",
+          "answer": "Evet, asidik formül nedeniyle nitril eldiven ve gözlük kullanılması önerilir."
+        },
+        {
+          "question": "Tuzlu su ile durulayabilir miyim?",
+          "answer": "Hayır, mutlaka tatlı su ile durulayın. Tuzlu su kalıntı bırakır ve pas oluşumunu hızlandırır."
+        }
+      ],
+      "price": 37000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/75130_0.jpg",
+      "category": {
+        "main_cat": "MARİN",
+        "sub_cat": "Temizlik Ürünleri",
+        "sub_cat2": "Yağ-Kir çözücüler"
+      },
+      "cleaned_content": {
+        "url_1": "https://shop.fra-ber.it/en/products/disincrostante-e-anticalcare-per-barche-reef?variant=43675767767248",
+        "cleaned_content_1": "Fra-Ber Reef Descaler and Limescale Remover for Boats and Dinghies\n\nPrice: €10,81\nFormat: 750 ml\n750 ml - €10.81 EUR\n\nDelivery usually in 3-5 days\n\nProduct Images:\n-\n-\n\nTHE BENEFITS OF REEF\n\nReef by Fra-Ber is a descaler and limescale remover for boats, dinghies and watercraft that's easy to apply, simplifying the removal of tough dirt in hard-to-reach places.\n\nMain features:\n- Removes oxidation and rust: it is an acidic detergent formulated to effectively remove limescale deposits, saltpetre efflorescence, rust, silicates, oxides and common boat stains like algae, waterline marks, mucilage, barnacles and limescale;\n- Suitable for all boats: it can be used to clean boats, dinghies, tenders and sailboats;\n- Ideal for cleaning the hull and metal surfaces: it can be used on the hull and on metal elements such as windshields, stanchions, ladders, roll cages, and chrome parts of boats and vessels;\n- No added phosphates, EDTA and NTA*: The formulation takes into account the main environmentally hazardous substances to be avoided such as phosphates, EDTA and NTA.\n\n*May contain traces.\n\nREEF IS IDEAL\n- For removing stubborn sea grime on all types of boat hulls;\n- For removing rust and oxidation on metal surfaces caused by salt water and salt deposits;\n- As a safe product for use on all types of watercraft including boats, sailboats, dinghies and tenders.\n\nHOW TO USE REEF\n\nWe recommend using Reef as a descaler and limescale remover for boats.\n\nMain steps:\n- Spray the product evenly on the area to be treated;\n- Leave on for 5 minutes before rinsing;\n- In the case of stubborn dirt, repeat the procedure, using a brush or sponge if necessary.\n\nUse: use the product pure.\n\nPrecautions: avoid prolonged contact with aluminium, linoleum and painted surfaces.\n\nSAFETY INFO & DATA SHEET\n\nPRODUCT CODE: 75130 - R:14 - REEF 750 ML\n\nAlso contains among other ingredients: Less than 5%: Nonionic surfactants. Fragrances. Preservatives (phenoxyethanol, benzisothiazolinone).\n\nData sheet:",
+        "url_2": "https://www.gecegy.com/en/shop/fra-ber-ko-iron-italian-cleaner-disinfectant-for-body-wheel-750ml-5313",
+        "cleaned_content_2": "FRA-BER KO IRON 750ML Cleaner & Disinfectant For Body & Wheel\n\nProduct Images:\n-\n-\n\nDescription:\n\nFRA-BER KO IRON 750ML – Professional Iron & Rust Remover for Bodywork and Wheels\n\nFRA-BER KO IRON is a powerful decontaminant and cleaner designed to remove ferrous residues, brake dust, and mineral deposits from all types of vehicle surfaces — including wheels, rims, and bodywork.\n\nIts acid-free formula makes it completely safe for steel, alloy, chrome, and polished rims, while still offering high cleaning power. During use, the product changes color to purple, indicating it's actively dissolving iron particles, rust, and embedded contaminants.\n\nThanks to its low-odor formulation, KO IRON provides a pleasant and safe user experience, ideal for car wash centers, detailing workshops, and professional car care services looking for top-tier results.\n\nKey Features:\n- Removes iron dust, rust, and mineral residues effectively\n- Safe for all types of rims and painted surfaces\n- Acid-free and low-odor formula for easy use\n- Creates a purple visual effect when reacting with iron particles\n- Perfect for professional detailing and deep wheel cleaning\n\nDirections for Use:\n- Ready-to-use product (750 mL).\n- Spray evenly on a cool surface.\n- Wait 2–5 minutes until the product reacts and turns purple (do not let it dry).\n- Rinse thoroughly with water.\n- For stubborn dirt, use a detailing brush.\n- For bodywork decontamination, work panel by panel.\n\nWarnings:\n- Always test on a small hidden area before full application.\n- Do not apply on hot surfaces or allow the product to dry.\n- Avoid contact with cast iron brake calipers.\n\nPrice: 390.00 EGP\n\nThe product is available – contact us to get the price.\n\nCategories: Exterior Chemicals, Tires & Rims\n\nInternal Reference: CCCCXX00041\n\nSpecifications:\n- Category: Exterior Chemicals\n- Subcategory: Tires & Rims"
+      }
+    },
+    {
+      "sku": "75131",
+      "barcode": "8027486750023",
+      "template": {
+        "group": "marin_products",
+        "sub_type": "iron_remover",
+        "fields": {
+          "source": "group",
+          "confidence": 0.45,
+          "fit": "weak",
+          "gap_reason": "group:clay",
+          "function": "Degreaser & Stain Remover",
+          "concentration": "Saf kullanım",
+          "target_surface": "Plastik, PVC/Hypalon, fiberglas, metal",
+          "format": "Tetikli şişe",
+          "volume": "750 ml",
+          "scent": "Ferah deniz esintisi",
+          "eco_friendly": true,
+          "harmful_ingredients_free": [
+            "EDTA",
+            "NTA"
+          ]
+        }
+      },
+      "content": {
+        "short_description": "İtalyan FRA-BER Premium Profesyonel Marin Tekne Yat Yıkama Temizlik ve Bakım Ürünleri Yetkili Türkiye Distribütörü MTS Kimya’da. Orijinal Ürün Garantisi.",
+        "full_description": "FRA-BER TRITONE – Tekne, Bot & Fiberglas Yüzeyler İçin Yağ Çözücü Plastik Temizleyici – 750 ml<br><br><br>FRA-BER TRITONE’UN FAYDALARI | Hızlı Yağ Çözme, Çok Yüzeyli Temizlik, Taze Kokulu Sonuç<br><br>FRA-BER TRITONE, deniz araçlarında sararmış plastik kaplamalar, mekanik parçalar ve fiberglas gövde dâhil tüm yüzeylerdeki yağ - kir tabakasını tek adımda söken yüksek konsantre bir temizleyicidir. Kuş pisliği, siyah egzoz izleri, güneş kremi lekeleri ve yosun kaynaklı çizgileri hızla yok eder; EDTA ve NTA içermez, çevreye duyarlıdır.<br><br><br>ANA ÖZELLİKLER | FRA-BER TRITONE Ürün Özellikleri<br><br>•\tYüksek Yağ Çözme Gücü: Plastik, vinil, metal ve fiberglas yüzeylerde ağır yağ–kir tabakasını çözer.<br>•\tSarı Leke & Siyah Çizgi Sökücü: UV kaynaklı sararma ile su hattı siyahlığını giderir.<br>•\tKonsantre Formül: Saf kullanılır; her püskürtmede maksimum performans.<br>•\tEDTA / NTA İçermez: Marinalarda ve hassas ekosistemlerde güvenli kullanım.<br>•\tTaze Deniz Kokusu: Temizlik sonrası hoş bir ferahlık bırakır.<br>•\tTüm Deniz Araçlarına Uyumlu: Yatlar, yelkenliler, dinghy ve tenders.<br><br><br>FRA-BER TRITONE İDEAL KULLANIM ALANLARI | Nerelerde Kullanılır?<br><br>•\tFiberglas gövde ve su hattı siyah çizgi temizliği<br>•\tSararmış PVC / hypalon bot tüpleri ve vinil döşemeler<br>•\tMotor bölmesi, kaplin ve mekanik parçaların yağ–gres temizliği<br>•\tGüneş kremi, bronzlaşma yağı, kuş pisliği lekelerinin giderilmesi<br>•\tEgzoz çıkışı etrafındaki kurum ve is tabakasını çözme<br><br><br>FRA-BER TRITONE KULLANIM SENARYOLARI | En İyi Sonuçlar İçin<br><br>•\tSezon Ortası Bakım: Limanda bekleyen teknede anlık leke temizliği<br>•\tDerin Gövde Detayı: Kuru havuzda polish öncesi yağ & kir kalıntılarını yok etme<br>•\tTüplü Bot Restorasyonu: UV ile sararan şişme bot kenarlarını beyazlatma<br>•\tGünlük Charter Hazırlığı: Misafir öncesi güverte ve oturma alanlarını hızla parlatma<br><br><br>FRA-BER TRITONE NASIL KULLANILIR? | Uygulama Talimatları<br><br>1.\tPüskürtme: Şişeyi çalkalayın, yüzeye eşit film hâlinde uygulayın.<br>2.\tBekleme: 5 dk etki süresi tanıyın (kurumaya bırakmayın).<br>3.\tMekanik Destek (gerektiğinde): Sünger veya yumuşak fırçayla hafifçe fırçalayın.<br>4.\tDurulama: Nemli bezle silin ve bol tatlı suyla iyice durulayın.<br>5.\tHassas Yüzey Testi: Yeni veya cilalı alanlarda önce görünmeyen noktada test edin.<br>Kullanım: Ürün saf uygulanır; seyreltme gerekmez.<br><br><br>TEKNİK ÖZELLİKLER<br><br>Özellik\tDeğer<br>İşlev\tKonsantre yağ çözücü & leke çıkarıcı<br>Format\tTetikli şişe<br>Hacim\t750 ml<br>Koku\tFerah deniz esintisi<br>Uyumluluk\tPlastik, PVC/Hypalon, fiberglas, metal parçalar<br><br><br>UYARILAR VE DEPOLAMA<br><br>•\tUygulamadan sonra daima bol suyla durulayın.<br>•\tAlüminyum, cilalı/poliüretan boyalı veya çok hassas yüzeylerde uzun süre bekletmeyin.<br>•\tKişisel koruyucu ekipman (eldiven, gözlük) kullanın.<br>•\tÇocuklardan uzak tutunuz; yutulması zararlıdır.<br>•\t5 °C – 30 °C arasında, kapağı sıkı kapalı olarak saklayın.<br><br>FRA-BER TRITONE ile teknenizin plastik, metal ve fiberglas yüzeyleri ilk günkü temizliğine ve canlılığına kavuşur!<br>",
+        "how_to_use": "1. Püskürtme: Şişeyi çalkalayın, yüzeye eşit film hâlinde uygulayın.\n2. Bekleme: 5 dk etki süresi tanıyın (kurumaya bırakmayın).\n3. Mekanik Destek (gerektiğinde): Sünger veya yumuşak fırçayla hafifçe fırçalayın.\n4. Durulama: Nemli bezle silin ve bol tatlı suyla iyice durulayın.\n5. Hassas Yüzey Testi: Yeni veya cilalı alanlarda önce görünmeyen noktada test edin.",
+        "when_to_use": "Tekne, bot ve fiberglas yüzeylerdeki yağ, kir, sarı lekeler ve siyah su hattı çizgilerini temizlemek için kullanılır. Sezon ortası bakım, derin gövde detayı ve tüplü bot restorasyonu için ideal.",
+        "target_surface": "Fiberglas gövde, PVC/hypalon bot tüpleri, vinil döşemeler, motor bölmesi, egzoz çıkışı",
+        "why_this_product": "• Yüksek yağ çözme gücü - ağır yağ-kir tabakasını tek adımda söker\n• Sarı leke & siyah çizgi sökücü - UV kaynaklı sararma ve su hattı siyahlığını giderir\n• EDTA/NTA içermez - marinalarda güvenli kullanım\n• Taze deniz kokusu bırakır"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Seyreltmek gerekiyor mu?",
+          "answer": "Hayır, ürün saf kullanılır. Seyreltme gerekmez, her püskürtmede maksimum performans alırsınız."
+        },
+        {
+          "question": "Şişme bot (hypalon) tüplerinde güvenli mi?",
+          "answer": "Evet, PVC ve hypalon bot tüplerinde güvenle kullanılabilir. Özellikle UV ile sararan kenarları beyazlatmak için etkilidir."
+        },
+        {
+          "question": "Cilalı yüzeylerde kullanılabilir mi?",
+          "answer": "Cilalı veya poliüretan boyalı yüzeylerde uzun süre bekletmeyin. Önce görünmeyen bir noktada test edin."
+        },
+        {
+          "question": "Kuş pisliği ve güneş kremi lekelerini çıkarır mı?",
+          "answer": "Evet, kuş pisliği, güneş kremi, bronzlaşma yağı lekelerini etkili şekilde çıkarır."
+        }
+      ],
+      "price": 36000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/06/75131.jpg",
+      "category": {
+        "main_cat": "MARİN",
+        "sub_cat": "Temizlik Ürünleri",
+        "sub_cat2": "Genel Kullanım"
+      }
+    },
+    {
+      "sku": "24.011.261.080",
+      "barcode": "4260063011061",
+      "template": {
+        "group": "marin_products",
+        "sub_type": "one_step_polish",
+        "fields": {
+          "source": "group",
+          "confidence": 0.8,
+          "fit": "strong",
+          "gap_reason": "",
+          "cut_level": 8,
+          "finish_level": 8,
+          "target_surface": "Gelcoat/Jelkot yüzeyler",
+          "machine_compatibility": [
+            "rotary"
+          ],
+          "volume": "1 lt",
+          "function": "3in1 - Düzeltme, Parlatma, Koruma Hazırlığı"
+        }
+      },
+      "content": {
+        "short_description": "Menzerna Marin Yat Tekne Pasta Cila Ürünlerini Menzerna Yetkili Türkiye Dağıtıcısı MTS Kimya Güvencesi ile Satın Alın. Orijinal Ürün Garantisi.",
+        "full_description": "Menzerna Marin 3in1: Tekne ve Jelkot Yüzeyler İçin Tek Adım Çözüm (1 lt)<br><br>MENZERNA Marin 3in1, özellikle teknelerin jelkot (gelcoat) yüzeyleri için tasarlanmış, devrim niteliğinde bir tek adımda düzeltme ve parlatma pastasıdır. Bu çok fonksiyonlu formül, çizik giderme ve yüksek parlaklık sağlama işlemlerini tek bir uygulamada birleştirerek, özellikle geniş tekne yüzeylerinde zamandan büyük tasarruf sağlar. İçerdiği yüksek teknoloji mineralleri sayesinde, kullanım izlerini ve çizikleri etkili bir şekilde giderirken, ardında derin ve göz alıcı bir parlaklık bırakır. <br><br><br>Teknik Özellikler<br><br>•\tAşındırıcılık: 8/10 <br>•\tParlaklık: 8/10 <br>•\tFormül: Jelkot yüzeyler için özel, yüksek teknoloji mineralleri içerir. <br>•\tHacim: 1 lt<br><br>Uygulama Aşamaları<br><br>1.\tHazırlık: <br>o\tUygulama öncesinde yüzeyin tamamen temiz olduğundan emin olun.<br>o\tHassas alanları ve jelkot olmayan bölgeleri korumak için Q1 Tapes Premium Maskeleme Bantları ile maskeleme yapın.<br>2.\tMakine & Ped Seçimi: <br>o\tÜrünün en iyi performansı Rotary polisaj makineleriyle alınır. <br>o\tAğır kullanım izleri için Menzerna Sert Kesim Sünger Ped (Heavy Cut Foam Pad) veya Kuzu Postu Keçe kullanın. <br>3.\tDevir & Basınç: <br>o\tİşlemin başında, makineyi düşük devirde çalıştırırken yüzeye yüksek basınç uygulayın. <br>o\tSonlara doğru, devri artırırken basıncı azaltın. <br>o\tYüzeyde hafif şeffaf/yağlı bir film kalana kadar ürünü çalıştırın. <br>4.\tTemizlik ve Kontrol: <br>o\tPolisaj sonrası yüzeydeki kalıntıları kaliteli bir mikro fiber bezle silin. <br><br>Kullanım Senaryoları<br><br>Bu ürün, denizcilik ve tekne bakımının zorlu ihtiyaçları için çözümler sunar:<br>•\tGeniş Jelkot Yüzeyler: Tekne gövdeleri gibi geniş alanlarda, çok adımlı bir polisaj sürecinin getireceği zaman ve efor kaybını önlemek için idealdir. <br>•\tKullanım İzleri ve Çizik Giderme: Tuzlu su, güneş ve diğer dış etkenlerin oluşturduğu kullanım izlerini, oksidasyonu ve çizikleri gidermek için kullanılır. <br>•\tTek Adımda Sezon Bakımı: Sezon öncesi veya sonrası, teknenizin jelkot yüzeyini canlandırmak, kusurlarını gidermek ve parlaklığını geri kazandırmak için mükemmel bir tek adım çözümüdür.<br>•\tZaman Odaklı Profesyoneller: Denizcilik sektöründeki bakım ve onarım profesyonellerinin, kaliteden ödün vermeden verimli ve hızlı sonuçlar almasını sağlar. <br><br><br>Pro-Tip: Çift Ped Yöntemi ile Performansı Artırın<br><br>Yoğun ve uzun süreli polisaj işlemlerinde, pedlerin ısınması performans kaybına yol açar. Bunu önlemek için çift ped yöntemini kullanın. Aynı özelliklere sahip iki adet Menzerna Kuzu Postu Keçe veya Menzerna Sert Kesim Sünger Ped hazırlayın. Bir panelde ilk ped ile çalıştıktan sonra, o pedi kenara alıp dinlenmeye bırakın ve ikinci panele serin olan ikinci ped ile geçin. Bu döngü, pedlerinizin ömrünü uzatır, aşırı ısınmayı engeller ve polisaj işleminiz boyunca tutarlı bir performans sağlar.<br><br>Alternatif Ürün Önerileri<br><br>Menzerna Marin 3in1, tek adımda harika sonuçlar için tasarlanmıştır. Ancak hedefiniz jelkot yüzeyde ulaşılabilen maksimum parlaklık ise, iki adımlı bir süreç daha da iyi sonuçlar verebilir:<br>•\tMaksimum Parlaklık İçin İki Adımlı Süreç: Bu ürünü ilk adım olarak kullandıktan sonra, parlaklığı en üst seviyeye çıkarmak için ikinci bir geçiş yapabilirsiniz. Menzerna, bu ikinci adımda Menzerna Yumuşak Kesim Sünger Ped (Soft Cut Foam Pad) kullanılmasını tavsiye eder. Alternatif olarak, bu adıma özel olarak geliştirilmiş Gelcoat Premium Gloss ürününü de kullanabilirsiniz. <br><br><br>Koruma Adımına Hazırlık<br><br>Menzerna Marin 3in1, mükemmel bir polisaj adımıdır. Ancak kalıcı koruma için ardında bir wax veya sealant tabakası bırakmaz. Polisaj işlemi bittikten ve yüzeyi sildikten sonra, uzun süreli koruma sağlayacak bir marine wax veya sealant uygulamadan önce, yüzeyi GYEON Q²M Prep veya INNOVACAR D2 CHECK gibi bir (IPA) bazlı temizleyici ile silin. Bu, yüzeydeki tüm polisaj yağlarını arındırarak koruma ürününün jelkot yüzeye mükemmel bir şekilde yapışmasını sağlar.<br><br><br>MENZERNA İLE TEKNENİZİN İHTİŞAMINI YENİDEN KEŞFEDİN!",
+        "how_to_use": "1. Hazırlık: Uygulama öncesinde yüzeyin tamamen temiz olduğundan emin olun.\n2. Maskeleme: Hassas alanları ve jelkot olmayan bölgeleri Q1 Tapes Premium Maskeleme Bantları ile maskeleyin.\n3. Makine & Ped Seçimi: Rotary polisaj makinesi ile Menzerna Sert Kesim Sünger Ped veya Kuzu Postu Keçe kullanın.\n4. Devir & Basınç: Başlangıçta düşük devirde yüksek basınç, sonlarda yüksek devirde düşük basınç uygulayın.\n5. Çalışma: Yüzeyde hafif şeffaf/yağlı bir film kalana kadar ürünü çalıştırın.\n6. Temizlik: Polisaj sonrası kalıntıları mikrofiber bezle silin.",
+        "when_to_use": "Tekne jelkot yüzeylerinde çizik giderme ve parlatma için kullanılır. Geniş jelkot yüzeyler, kullanım izleri/çizik giderme, sezon başı/sonu bakımı ve zaman odaklı profesyonel işler için ideal.",
+        "target_surface": "Tekne gövdesi, jelkot (gelcoat) yüzeyler",
+        "why_this_product": "• Tek adımda 3 işlem - çizik giderme + parlatma + koruma hazırlığı\n• 8/10 aşındırıcılık + 8/10 parlaklık dengesi\n• Geniş tekne yüzeylerinde zaman tasarrufu\n• Yüksek teknoloji mineralleri ile kullanım izlerini etkili giderir"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Orbital makine ile kullanılabilir mi?",
+          "answer": "En iyi performans Rotary polisaj makineleriyle alınır. Orbital makine daha düşük performans verebilir."
+        },
+        {
+          "question": "Koruma (wax/sealant) içeriyor mu?",
+          "answer": "Hayır, kalıcı koruma sağlamaz. Polisaj sonrası GYEON Q²M Prep ile silip, ardından marine wax veya sealant uygulamanız önerilir."
+        },
+        {
+          "question": "Maksimum parlaklık için ne yapmalıyım?",
+          "answer": "İki adımlı süreç önerilir: Bu ürün ile ilk geçiş, ardından Menzerna Yumuşak Kesim Sünger Ped veya Gelcoat Premium Gloss ile ikinci geçiş."
+        },
+        {
+          "question": "Çift ped yöntemi nedir?",
+          "answer": "Yoğun polisajda pedler ısınır. İki aynı ped kullanarak sırayla çalışın - biri çalışırken diğeri soğusun. Bu performansı ve ped ömrünü artırır."
+        },
+        {
+          "question": "Hangi çizikleri giderir?",
+          "answer": "Tuzlu su, güneş ve dış etkenlerin oluşturduğu kullanım izlerini, oksidasyonu ve orta derinlikteki çizikleri giderir."
+        }
+      ],
+      "price": 290000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/24011.261.080_0.jpg",
+      "category": {
+        "main_cat": "MARİN",
+        "sub_cat": "Pasta Cila Ürünleri",
+        "sub_cat2": ""
+      },
+      "cleaned_content": {
+        "url_1": "https://www.menzerna.com/boat-care/boat-polish/details/gelcoat-premium-one-step-polish",
+        "cleaned_content_1": "# Gelcoat Premium One-Step Polish\\n\\n## Multi-stage boat polish: Polishes the gel coat and generates high gloss in a single step\\n\\nEverything shipshape – including the finish. A glossy finish that is a sight for sore eyes. This boat polish, especially developed for gel coat (fiberglass), removes scratches/signs of use and generates gloss.\\n\\nMulti-stage premium polish\\n\\n### Volumes\\n\\n- 250ml | 24011.281.080\\n- 1l | 24011.261.080\\n\\n### Cut/Gloss\\n\\n8/8\\n\\n### Steps\\n\\n- Step 1: Heavy Cut\\n- Step 2: Medium Cut\\n- Step 3: Finish\\n- Step 4: Protection\\n\\n### Optimised for\\n\\n- Premium Lambswool Pad\\n- Crater Shaped Lambswool Pad\\n- Double Sided Lambswool Pad\\n- Adapter Double Sided Lambwool Pad\\n- Heavy Cut Foam Pad\\n\\n### Product Images\\n\\n-    More information\\n\\n### Benefits\\n\\n- Single-stage boat polishing\\n- All polishing steps covered by a single product\\n- Speedy elimination of flaws, combined with outstanding shine\\n- Ease of use, even on large surface areas\\n\\n### Recommended usage\\n\\n- Before Polishing: clean the surface well.\\n- Shake the bottle and pour the product onto the polishing pad. Please note: the bigger the pad, the more Gelcoat One-Step you need.\\n- Use the Menzerna Heavy Cut Foam Pad or Lambswool Pads, if there are signs of heavy use on the surface.\\n- When using a rotary polishing machine, work in a cross-pattern.\\n- At the beginning, run the polish at a low speed and apply strong pressure on the polishing machine. In the final steps, you increase the speed and reduce the pressure on the polishing machine.\\n- Apply the Gelcoat Premium One-Step Polish until only a slightly transparent or oily film can be seen and remove polish residues with a premium microfiber cloth.\\n- To increase the gloss of the surface even further, you can use the product a second time or you can apply the Gelcoat Premium Gloss afterwards. In both cases this step should be done with the Menzerna Soft Cut Foam Pad.\\n\\n### Downloads\\n\\n- Flyer Gelcoat Premium One-Step Polish (1.76 MB)\\n- Technical Datasheet Gelcoat Premium One-Step Polish (96.68 KB)\\n\\n## Boat polish Gelcoat Premium One-Step Polish\\n\\nMenzerna Gelcoat One-Step Polish handles multiple polishing stages. This polish, especially developed for gel coats, removes scratches/signs of use and generates gloss in a single step. Gel coat polishing made easy!",
+        "url_2": "https://www.detailedimage.com/Menzerna-M10/3in1-Cut-Gloss-Wax-P980/8-oz-S1/",
+        "cleaned_content_2": "# Menzerna 3in1 Cut, Gloss & Wax - 8 oz\\n\\nStatus: Out of Stock\\nEstimated arrival: unknown. 32 oz size is in stock.\\n\\n### Product Images\\n\\n-   $19.99\\n\\n### Quantity Discounts\\n\\n- 2+ units: $18.99 (5% off)\\n\\n### Available Sizes\\n\\n- 8 oz - $19.99 ($2.50/oz)\\n- 32 oz - $57.99 ($1.81/oz)\\n\\n### Product Information\\n\\n- An incredible one step polish and protection product!\\n- Finishes down very well creating a glossy appearance\\n- Excellent polishing power to remove swirls, oxidation, etc.\\n- Leaves behind a great deal of gloss and carnauba wax protection\\n- Product Codes: M-3in1-8, M-3in1Q\\n\\n### Product Description\\n\\nLooking to save valuable detailing time by combining multiple detailing steps? The Menzerna 3in1 Cut, Gloss & Wax will do just that! As the name implies this formula will polish the surface, enhance the gloss and protect it. Use the cutting power of the popular Power Finish PF 2500, 3in1 will allow you to polish away light to medium imperfections quickly and easy. This in turn will leave behind an amazing level of gloss, while finishing the paint down with the amount of clarity and gloss that we all strive for. If that wasn't enough, 3in1 will pair this corrective power with the protection of a high end wax. You will really enjoy the smooth slick feeling 3in1 leaves behind, allowing you to glide your microfiber towel across the paint with ease. We recommending applying this product by machine (Lake Country White Polishing Pad on a low speed setting) for best results. If you are looking for a polish that removes imperfections while leaving behind the gloss and protection of a carnauba wax, then the Menzerna 3in1 Cut, Gloss & Wax is for you.\\n\\nTo learn more about Menzerna Polishes and the 2015 label name change please see the Menzerna Polishing Chart.\\n\\n### Videos\\n\\nMenzerna One-Step Polish 3 in 1 (YouTube ID: fH7M1dFTLZ4)\\n\\n### Product Downloads\\n\\n- 2015 Menzerna Label Name Change Chart (PDF)\\n- 2015 Menzerna Polishing Compounds Chart (PDF)\\n- 2015 Menzerna Polishing Program (PDF)\\n- 2019 Menzerna Polishing Chart (PDF)\\n- Menzerna Paint Defect Repair Product Range (PDF)\\n- Menzerna Polishing Compounds Chart (PDF)\\n\\n### From The Label\\n\\nEliminates 3,000 grit sanding marks or light scratches. High-gloss finish and sealing wax protection in one step.\\n\\n### Customer Reviews\\n\\n93% of customers said that they would buy this item again. Based upon 15 ratings.\\n\\nReviewed by Stephen H. on 4/27/2023 (DI Verified Purchase)\\nWould they buy this item again? Yes\\nI just used it for the first yesterday. A lot of shine for a once over. Just reinforced in my mind that menzerna is the way to go. I use the FG-400 all the time, but then you need a follow up polish. For the customer that's concerned about the most bang for the buck, try this with a Lake Country CCS orange pad and Flex 3401 polisher. Seems to wipe off better if you let it set till you're around the vehicle before starting to wipe it off.\\n\\nReviewed by KESHORE M. on 11/27/2018 (DI Verified Purchase)\\nWould they buy this item again? Yes\\nGreat product excellent results. Easy wipe off, I have paired this 3-in-1 with Meguiar's soft buff cutting pad and finishes down really great.\\nPros: Economical on your pocket. Finishes down pretty well with a layer of wax protection for at least 3 months.\\nCons: None so far. If you do fine any cons your maybe asking to much from an AIO in your process.\\n\\nReviewed by Natalia E. on 1/10/2018 (DI Verified Purchase)\\nWould they buy this item again? Yes\\nThis was an awesome buy and is definitely now part of my go to Arsenal! Like others have said...a little goes a long way and the results are awesome for an all in one polish.",
+        "url_3": "https://carzilla.ca/products/menzerna-gelcoat-premium-one-step-polish",
+        "cleaned_content_3": "# Menzerna Gelcoat Premium One Step Polish\\n\\n### Product Images\\n\\n- //carzilla.ca/cdn/shop/products/menzerna-gelcoat-boat-one-step-polish.png?v=1641847003&width=1800\\n- //carzilla.ca/cdn/shop/files/GelcoatPremiumOne-StepPolish250ml.webp?v=1711495853&width=1800\\n\\nRegular price: $119.95 CAD\\n\\nBrand: Menzerna\\n\\n3%+ Discount with 3+ of the Same Item\\n\\nSize: 1L\\n\\nSKU: 4136.1L\\n\\nAvailability: In stock\\n\\n### Product Description\\n\\nMenzerna's premium one-step boat polish quickly eliminates sanding, yellowing, and dull spots while adding a deep gloss \\u2013 even on dark gelcoats.\\n\\nPolishes to a high gloss in just one process step. Once around the boat \\u2013 finish included. A look at the brilliant results will give you goose bumps! Get the best results in the least time \\u2013 gel coats tend to be much thicker, harder, and more porous than clear coat, and as a result this product is formulated with more aggressive abrasives and special chemistry to prevent the polish from being absorbed before it can be worked over the surface. Automotive compounds will work, but can result in greater product usage, more time spent, and less desirable results.\\n\\nCut / Gloss: 8 / 8\\n\\nThis product utilizes a diminishing abrasive and as such should be spread out (e.g., using a slow speed and minimal pressure, and/or by dabbing your pad in the working area. If you begin polishing in one spot the abrasives may break down and stop aggressively cutting before you work the entire section."
+      }
+    },
+    {
+      "sku": "75112",
+      "barcode": "8027486749829",
+      "template": {
+        "group": "marin_products",
+        "sub_type": "interior_detailer",
+        "fields": {
+          "source": "group",
+          "confidence": 0.5,
+          "fit": "weak",
+          "gap_reason": "cleaner_liquid:exterior_cleaner",
+          "function": "All Purpose Cleaner",
+          "base": "Alkol bazlı",
+          "concentration": "1:15 konsantre",
+          "volume": "5 kg",
+          "rinse_required": false,
+          "eco_friendly": true,
+          "harmful_ingredients_free": [
+            "Fosfat",
+            "EDTA",
+            "NTA"
+          ],
+          "target_surface": "Tüm yüzeyler (alüminyum ve plastik dahil)"
+        }
+      },
+      "content": {
+        "short_description": "İtalyan FRA-BER Premium Profesyonel Marin Tekne Yat Yıkama Temizlik ve Bakım Ürünleri Yetkili Türkiye Distribütörü MTS Kimya’da. Orijinal Ürün Garantisi.",
+        "full_description": "Fiocco Marin, durulama gerektirmeyen ve her türlü yüzey için ideal olan, alkol bazlı, çok amaçlı bir deterjandır. Hem dış hem de iç yüzeyleri derinlemesine temizler ve parlatır. Mobilyalar, zeminler, kapı ve pencere çerçeveleri, tekneler ve arabalar gibi geniş bir yelpazede uygulanabilir. <br><br>• Fosfat, EDTA ve NTA içermeyen bu formül, alüminyum ve plastik yüzeylere zarar vermez.<br><br>• Fra-Ber, bu ürünü bitkisel kökenli ve tamamen biyolojik olarak parçalanabilen yüzey aktif maddeler kullanarak 648/2004/EC* yönetmeliğine uygun bir şekilde üretmiştir. Bu özellik, mükemmel temizlik sonuçları ile birlikte daha çevre dostu bir kullanım sağlar.<br><br>• Fra-Ber Fiocco ürününü cam suyu deponuza 100 ml koyarak camdaki sinek ve böcek izlerine karşı etkili cam suyu katkısı olarak da kullanabilirsiniz.<br><br>Kullanım Talimatları:<br>- Hassas yüzeylerin düzenli temizliği için: 4 litre suya 30 ml-90 ml ürün ekleyin.<br>- Yüzeylerin yoğun temizliği için: 8 litre suya 120 ml-270 ml ürün ekleyin.<br>- Ön sıkıştırmalı püskürtücü kullanımı: Ürünü saf halde ya da soğuk suyla 1:1 oranında seyreltilmiş olarak kullanabilirsiniz.<br><br>Not: Her kullanımdan önce, hassas yüzeylerde gizli bir alanda test yapınız.<br>",
+        "how_to_use": "1. Hassas yüzeylerin düzenli temizliği için: 4 litre suya 30 ml-90 ml ürün ekleyin.\n2. Yüzeylerin yoğun temizliği için: 8 litre suya 120 ml-270 ml ürün ekleyin.\n3. Ön sıkıştırmalı püskürtücü kullanımı: Saf halde veya 1:1 oranında soğuk suyla seyreltin.\n4. Cam suyu katkısı olarak: Cam suyu deposuna 100 ml ekleyin.\n5. Her kullanımdan önce hassas yüzeylerde gizli bir alanda test yapın.",
+        "when_to_use": "Tekne iç ve dış yüzeylerinde, mobilyalarda, zeminlerde, kapı ve pencere çerçevelerinde genel temizlik için kullanılır. Durulama gerektirmez.",
+        "target_surface": "Mobilyalar, zeminler, kapı/pencere çerçeveleri, tekne yüzeyleri, alüminyum, plastik",
+        "why_this_product": "• Durulama gerektirmez - temizler ve parlatır\n• Çok amaçlı - iç ve dış tüm yüzeylerde kullanılır\n• Alüminyum ve plastiğe zarar vermez\n• Bitkisel kökenli, biyolojik olarak parçalanabilen formül\n• Cam suyu katkısı olarak da kullanılabilir"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Durulama gerekiyor mu?",
+          "answer": "Hayır, Fiocco Marin durulama gerektirmeyen bir formüle sahiptir. Temizlik sonrası direkt kuruyabilir."
+        },
+        {
+          "question": "Cam suyu olarak nasıl kullanılır?",
+          "answer": "Cam suyu deposuna 100 ml Fiocco Marin ekleyin. Camdaki sinek ve böcek izlerine karşı etkili bir katkı olarak çalışır."
+        },
+        {
+          "question": "Seyreltme oranı nedir?",
+          "answer": "Hafif temizlik: 4L suya 30-90ml. Yoğun temizlik: 8L suya 120-270ml. Püskürtücü: Saf veya 1:1 seyreltme."
+        },
+        {
+          "question": "Alüminyum yüzeylerde güvenli mi?",
+          "answer": "Evet, Fosfat, EDTA ve NTA içermeyen formülü alüminyum ve plastik yüzeylere zarar vermez."
+        }
+      ],
+      "price": 130000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/75112_0.jpg",
+      "category": {
+        "main_cat": "MARİN",
+        "sub_cat": "Temizlik Ürünleri",
+        "sub_cat2": "Genel Kullanım"
+      }
+    },
+    {
+      "sku": "701283",
+      "barcode": "8027486816798",
+      "template": {
+        "group": "marin_products",
+        "sub_type": "interior_detailer",
+        "fields": {
+          "source": "group",
+          "confidence": 0.5,
+          "fit": "weak",
+          "gap_reason": "cleaner_liquid:exterior_cleaner",
+          "function": "Toilet Cleaner & Digestant",
+          "concentration": "Konsantre",
+          "volume": "1000 ml",
+          "dosage": "75 ml / 10 lt tank kapasitesi",
+          "eco_friendly": true,
+          "harmful_ingredients_free": [
+            "Formaldehit",
+            "Fosfat",
+            "EDTA",
+            "NTA"
+          ],
+          "target_use": [
+            "Portatif tuvaletler",
+            "Karavanlar",
+            "Tekneler",
+            "Otobüsler",
+            "Trenler"
+          ]
+        }
+      },
+      "content": {
+        "short_description": "İtalyan FRA-BER Premium Profesyonel Marin Tekne Yat Yıkama Temizlik ve Bakım Ürünleri Yetkili Türkiye Distribütörü MTS Kimya’da. Orijinal Ürün Garantisi.",
+        "full_description": "Fra-Ber WC KEM | Portatif Tuvaletler, Karavanlar ve Tekneler İçin Konsantre Temizleyici ve Gider Açıcı (1000 ml)\r\n\r\n\r\nFra-Ber'in WC Kem ürünü, yoğun ve kokulu formülüyle standart tuvaletleri, seyyar veya portatif tuvalet kabinleri, kamp karavanları ve teknelerde kullanılan devrim niteliğinde bir temizleyici üründür.\r\n\r\n\r\nANA ÖZELLİKLER:\r\n\r\n• PARÇALAYICI VE AYRIŞTIRICI: Katı atıkların ve tuvalet kağıdının parçalanmasını hızlandırır, akış işlemini kolaylaştırarak portatif tuvaletlerin atık tanklarında koku ve gaz oluşumunu minimuma indirir.\r\n• KONSANTRE: Ürün, aktif maddelerin yüksek yoğunlukta bulunduğu konsantre bir formüle sahiptir; böylece her damladan maksimum verim sağlanır.\r\n• GENİŞ KULLANIM ALANI: Ev tipi standart tuvaletler ile birlikte seyyar veya portatif tuvalet kabinleri, kamp karavanları, motokaravanlar, tekneler, otobüsler, trenler, uçaklar ve kamyonlardaki tüm kimyasal atık tuvaletlerde ideal kullanım sağlar.\r\n• FORMALDEHİT, FOSFAT, EDTA VE NTA İÇERMEZ: Fosfat, EDTA ve NTA gibi çevreye zararlı maddelerin kullanımını en aza indirecek şekilde formüle edilmiştir.\r\n• FERAHLATIR: Her kullanım sonrası hoş ve taze bir koku bırakır.\r\n\r\n\r\nKULLANIM ALANLARI VE UYGULAMA ÖRNEKLERİ\r\n\r\n• İnşaat alanları, konserler, kamp ve diğer açık hava etkinliklerindeki portatif tuvaletlerle birlikte kamp karavanları ve tekneler gibi farklı tuvalet sistemleri için uygundur.\r\n• Atık maddeleri ve tuvalet kağıdını hızla çözerek giderlerin açık kalmasını sağlar ve tıkanma riskini azaltır.\r\n• Atık tanklarında hoş olmayan kokuların ve gaz oluşumunun önüne geçer, temiz ve ferah bir kullanım deneyimi sunar.\r\n\r\n\r\nWC KEM NASIL KULLANILIR?\r\n\r\nWC Kem, portatif ve sabit tuvalet sistemlerinde, özellikle atık tanklarında birikmeyi ve kötü kokuları önlemek amacıyla gider açıcı (digestant) olarak kullanılmak üzere geliştirilmiştir. Ürünün etkili ve güvenli kullanımı için aşağıdaki adımları izleyin:\r\n\r\nDozaj Talimatı:\r\n• Her 10 litre atık tankı kapasitesi için 75 ml WC Kem ekleyin.\r\n• Ardından 2 litre temiz su ilave ederek ürünün tank içinde homojen dağılmasını sağlayın.\r\n\r\n\r\nKullanım Şekli:\r\n• Ürünü doğrudan, seyreltilmeden kullanın.\r\n• En iyi sonuç için, her boşaltım sonrası veya düzenli periyotlarla uygulama yapılması önerilir.",
+        "how_to_use": "1. Dozaj: Her 10 litre atık tankı kapasitesi için 75 ml WC Kem ekleyin.\n2. Su Ekleme: Ardından 2 litre temiz su ilave ederek homojen dağılım sağlayın.\n3. Kullanım: Ürünü seyreltmeden, doğrudan kullanın.\n4. Periyodik Uygulama: Her boşaltım sonrası veya düzenli aralıklarla uygulayın.",
+        "when_to_use": "Portatif tuvaletler, karavanlar, motokaravanlar, tekneler ve kimyasal atık tuvaletlerde atık parçalama, koku giderme ve gider açma için kullanılır.",
+        "target_surface": "Ev tipi tuvaletler, portatif tuvalet kabinleri, karavan/motokaravan tuvaletleri, tekne tuvaletleri, otobüs/tren tuvaletleri",
+        "why_this_product": "• Parçalayıcı ve ayrıştırıcı - katı atık ve tuvalet kağıdını hızla çözer\n• Koku ve gaz oluşumunu minimuma indirir\n• Konsantre formül - her damladan maksimum verim\n• Formaldehit içermez - güvenli kullanım\n• Geniş kullanım alanı - tüm kimyasal tuvalet sistemleri"
+      },
+      "relations": {
+        "use_before": [],
+        "use_after": [],
+        "use_with": [],
+        "accessories": [],
+        "alternatives": []
+      },
+      "faq": [
+        {
+          "question": "Dozaj oranı nedir?",
+          "answer": "Her 10 litre tank kapasitesi için 75 ml WC Kem kullanın. Ardından 2 litre temiz su ekleyin."
+        },
+        {
+          "question": "Seyreltmek gerekiyor mu?",
+          "answer": "Hayır, ürünü doğrudan seyreltmeden kullanın. Konsantre formüldür, maksimum etki için saf kullanılmalıdır."
+        },
+        {
+          "question": "Tıkanmayı önler mi?",
+          "answer": "Evet, atık maddeleri ve tuvalet kağıdını hızla çözerek giderlerin açık kalmasını sağlar ve tıkanma riskini azaltır."
+        },
+        {
+          "question": "Formaldehit içeriyor mu?",
+          "answer": "Hayır, formaldehit, fosfat, EDTA ve NTA içermeyen çevre dostu bir formüle sahiptir."
+        },
+        {
+          "question": "Ne sıklıkla kullanmalıyım?",
+          "answer": "En iyi sonuç için her boşaltım sonrası veya düzenli periyotlarla (haftada 1-2 kez yoğun kullanımda) uygulayın."
+        }
+      ],
+      "price": 38000,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/08/701283_1.webp",
+      "category": {
+        "main_cat": "MARİN",
+        "sub_cat": "Temizlik Ürünleri",
+        "sub_cat2": "Genel Kullanım"
+      }
+    }
+  ]
+}

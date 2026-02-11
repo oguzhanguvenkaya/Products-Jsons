@@ -1,0 +1,43 @@
+{
+  "sku": "EF1313",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Çiçek Araç Kokusu (Flower) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": null,
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Çiçek",
+      "durability_days": 45,
+      "design": "3D Karakter",
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Bahar hissi yaratmak isteyen kullanıcılar için idealdir. Doğal ve taze bir atmosfer sağlar.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Çiçek bahçesinin taze aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• Sakinleştirici ve doğal hissiyat"
+    },
+    "faq": [
+      {"question": "Hangi çiçeklerden oluşuyor?", "answer": "Çeşitli çiçek aromalarının doğal karışımıdır, taze bahar esintisi sunar."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Çok yoğun mu?", "answer": "Dengeli ve hafif bir çiçek aroması sunar, rahatsız edici değildir."},
+      {"question": "Alerji yapabilir mi?", "answer": "Özel formül alerjik reaksiyon riskini minimize eder, ancak hassas kişiler dikkatli olmalıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["IF0909", "EF0101", "EF1212"]}
+  }
+}

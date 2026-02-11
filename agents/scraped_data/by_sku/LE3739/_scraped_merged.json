@@ -1,0 +1,35 @@
+{
+  "sku": "LE3739",
+  "product_name": "Little Joe Aşk Serisi 2li Paket Ahududu Araç Kokusu (Sweet Berry) -45 Gün -Oto Kokusu Klima Parfüm",
+  "barcode": "LE3739",
+  "total_urls_attempted": 2,
+  "successful_scrapes": 2,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:33:26.929Z",
+  "sources": [
+    {
+      "url": "https://www.littlejoeuk.com/our-company-2/",
+      "domain": "littlejoeuk.com",
+      "language": "en",
+      "page_title": "Our Company - Little Joe UK",
+      "content_length": 2582,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://drbcarspares.co.uk/products/4-pk-little-joe-joya-love-edition-vent-air-freshener-sunshine-berry-scent",
+      "domain": "drbcarspares.co.uk",
+      "language": "en",
+      "page_title": "4 Pk Little Joe &amp; Joya Love Edition Vent Air Freshener Sunshine &amp; Berr\n &ndash; DRB Car Spares",
+      "content_length": 2978,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

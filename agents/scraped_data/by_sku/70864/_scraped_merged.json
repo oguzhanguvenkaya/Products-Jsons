@@ -1,0 +1,71 @@
+{
+  "sku": "70864",
+  "product_name": "Fra-Ber Lega Jant, Balata, Toz Temizleyici, Parlatıcı 750 Ml",
+  "barcode": "70864",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 5,
+  "failed_scrapes": 1,
+  "scraped_at": "2026-02-07T22:11:41.997Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/detergente-sgrassatore-pulitore-cerchi-lega?variant=43691867635920",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Alloy Wheel Cleaner and Tyre Degreaser: Fra-Ber Lega",
+      "content_length": 17007,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://elhuria.com/en/product/6241-italian-rim-cleaner-(without-discolouration)-750-ml-fra-ber-lega",
+      "domain": "elhuria.com",
+      "language": "en",
+      "page_title": "Italian rim cleaner (without discolouration) 750 ml Fra-Ber Lega",
+      "content_length": 19427,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.gecegy.com/en/shop/fra-ber-lega-italian-degreaser-for-rims-tires-750ml-5312",
+      "domain": "gecegy.com",
+      "language": "en",
+      "page_title": "FRA-BER LEGA 750ML Degreaser For Rims &amp; Tires | Garage Equipment Center | GEC Egypt",
+      "content_length": 3507,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autopia.ie/product/fra-ber-lega-wheel-cleaner-ready-to-use/",
+      "domain": "autopia.ie",
+      "language": "en",
+      "page_title": "Autopia Professional Detailing Products",
+      "content_length": 5535,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://store.ecoclean-sa.com/en/products/aa1a1ccd-6ed8-4ec1-b3f2-5b5ee98e6ebb",
+      "domain": "store.ecoclean-sa.com",
+      "language": "en",
+      "page_title": "LEGA 750ML [70864]",
+      "content_length": 7697,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

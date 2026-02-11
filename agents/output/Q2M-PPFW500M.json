@@ -1,0 +1,41 @@
+{
+  "sku": "Q2M-PPFW500M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM PPF Wash PPF Folyo Kaplı Araçlara Özel Yıkama Şampuanı - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809973751665",
+    "group": "car_shampoo",
+    "sub_type": "ppf_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "7 (Nötr)",
+      "iron_remover": true,
+      "dilution_ratio": "1:500",
+      "safe_on_ppf": true,
+      "hydrophobic_restore": true,
+      "consumption_ml_per_car": 25
+    },
+    "content": {
+      "how_to_use": "1. Ön Hazırlık: Aracı soğuk yüzeyde durulayın.\n2. Seyreltme: 20-30 ml şampuanı 10-15 L ılık suya ekleyin (1:500).\n3. Köpük Uygulaması: 30 ml ürünü 500 ml suyla köpük tabancasına karıştırın, 2 dk bekletin.\n4. Yıkama: Smoothie veya WashPad ile panel panel yıkayın.\n5. Durulama: Kurumadan basınçlı suyla iyice durulayın.\n6. Kurulama: SilkDryer ile lekesiz kurulayın.",
+      "when_to_use": "PPF ve vinil kaplı araçlarda demir tozu birikiminin giderilmesi, folyonun hidrofobisinin yenilenmesi ve düzenli bakım için kullanılır.",
+      "target_surface": "Şeffaf PPF, renkli vinil, seramik kaplı boya, kaplamalı/kaplamasız jant",
+      "why_this_product": "• 3'ü 1 arada: Temizlik + dekontaminasyon + hidrofobi yenileme\n• Kil gerektirmeden demir tozu çözme\n• Folio ömrünü uzatır, parlaklığı geri kazandırır\n• Ekonomik konsantre - 500 ml ile 16-25 yıkama"
+    },
+    "faq": [
+      {"question": "PPF Wash boyadaki wax/kaplamayı söker mi?", "answer": "Hayır, özel geliştirilmiş formülüyle koruyucu katmanlara zarar vermez."},
+      {"question": "Köpük tabancasına ne kadar ürün koymalıyım?", "answer": "30 ml ürünü 500 ml suyla karıştırarak tüm araca yetecek köpük elde edersiniz."},
+      {"question": "Demir kokusu kalır mı?", "answer": "Durulama sonrası koku tamamen kaybolur; metalik koku yalnızca uygulama aşamasında hissedilir."},
+      {"question": "Haftada kaç kez kullanabilirim?", "answer": "Düzenli bakım için her 3-4 yıkamada bir veya hidrofobi azaldığında kullanın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

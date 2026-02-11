@@ -1,0 +1,22 @@
+{
+  "sku": "SGPM005",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Oval Şekilli Avuç İçi Mıknatıslı TPU Ragle 7 Cm", "brand": "SGCB", "barcode": "6973086165335", "group": "ppf_tools", "sub_type": "squeegee"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"material": "TPU", "hardness": "Orta", "angle": 85, "magnet": true, "shape": "Oval/Fan", "dimensions": {"length_cm": 7, "width_cm": 7.5, "thickness_cm": 0.6}},
+    "content": {
+      "how_to_use": "1. Oval ragleyi avuç içinize oturtun.\n2. Kapı kolu, far ve benzeri kavisli yüzeylerde kullanın.\n3. Yuvarlak hareketlerle hava kabarcıklarını giderin.\n4. Ergonomik tasarım sayesinde uzun süreli çalışmada yorulmayı azaltır.",
+      "when_to_use": "Kapı kolu, far ve benzeri yüzeyler için kullanılır. PPF, folyo, cam filmi ve duvar kağıdı uygulamalarında da idealdir.",
+      "target_surface": "Kapı kolları, kavisli farlar, dış ayna kapakları, dar yüzeyler",
+      "why_this_product": "• Avuç içine oturan ergonomik tasarım\n• Kavisli yüzeylerde mükemmel uyum\n• Mıknatıslı TPU yapı\n• Uzun süreli çalışmada konfor"
+    },
+    "faq": [
+      {"question": "Oval tasarımın avantajı nedir?", "answer": "Avuç içine oturarak kavramayı kolaylaştırır ve kapı kolu, far gibi kavisli yüzeylerde mükemmel uyum sağlar."},
+      {"question": "Farlar için uygun mu?", "answer": "Evet, kavisli far yüzeylerinde ve kapı kollarında idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGPM001"]}
+  }
+}

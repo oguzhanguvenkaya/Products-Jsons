@@ -1,0 +1,69 @@
+{
+  "sku": "75112",
+  "last_updated": "2026-02-04T14:10:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Fiocco Marin, Tekne Alkol Bazlı Genel Yüzey Temizleyici (1:15 Konsantre) - 5 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486749829",
+    "group": "marin_products",
+    "sub_type": "interior_detailer"
+  },
+  "notes": {
+    "sub_type_review": "Template'de 'interior_detailer' olarak işaretli. Doğrusu 'all_purpose_cleaner' olmalı - bu alkol bazlı çok amaçlı temizleyici."
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:10:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr"
+      }
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:10:00Z",
+    "template_fields": {
+      "function": "All Purpose Cleaner",
+      "base": "Alkol bazlı",
+      "concentration": "1:15 konsantre",
+      "volume": "5 kg",
+      "rinse_required": false,
+      "eco_friendly": true,
+      "harmful_ingredients_free": ["Fosfat", "EDTA", "NTA"],
+      "target_surface": "Tüm yüzeyler (alüminyum ve plastik dahil)"
+    },
+    "content": {
+      "how_to_use": "1. Hassas yüzeylerin düzenli temizliği için: 4 litre suya 30 ml-90 ml ürün ekleyin.\n2. Yüzeylerin yoğun temizliği için: 8 litre suya 120 ml-270 ml ürün ekleyin.\n3. Ön sıkıştırmalı püskürtücü kullanımı: Saf halde veya 1:1 oranında soğuk suyla seyreltin.\n4. Cam suyu katkısı olarak: Cam suyu deposuna 100 ml ekleyin.\n5. Her kullanımdan önce hassas yüzeylerde gizli bir alanda test yapın.",
+      "when_to_use": "Tekne iç ve dış yüzeylerinde, mobilyalarda, zeminlerde, kapı ve pencere çerçevelerinde genel temizlik için kullanılır. Durulama gerektirmez.",
+      "target_surface": "Mobilyalar, zeminler, kapı/pencere çerçeveleri, tekne yüzeyleri, alüminyum, plastik",
+      "why_this_product": "• Durulama gerektirmez - temizler ve parlatır\n• Çok amaçlı - iç ve dış tüm yüzeylerde kullanılır\n• Alüminyum ve plastiğe zarar vermez\n• Bitkisel kökenli, biyolojik olarak parçalanabilen formül\n• Cam suyu katkısı olarak da kullanılabilir"
+    },
+    "faq": [
+      {
+        "question": "Durulama gerekiyor mu?",
+        "answer": "Hayır, Fiocco Marin durulama gerektirmeyen bir formüle sahiptir. Temizlik sonrası direkt kuruyabilir."
+      },
+      {
+        "question": "Cam suyu olarak nasıl kullanılır?",
+        "answer": "Cam suyu deposuna 100 ml Fiocco Marin ekleyin. Camdaki sinek ve böcek izlerine karşı etkili bir katkı olarak çalışır."
+      },
+      {
+        "question": "Seyreltme oranı nedir?",
+        "answer": "Hafif temizlik: 4L suya 30-90ml. Yoğun temizlik: 8L suya 120-270ml. Püskürtücü: Saf veya 1:1 seyreltme."
+      },
+      {
+        "question": "Alüminyum yüzeylerde güvenli mi?",
+        "answer": "Evet, Fosfat, EDTA ve NTA içermeyen formülü alüminyum ve plastik yüzeylere zarar vermez."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

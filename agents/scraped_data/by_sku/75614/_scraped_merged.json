@@ -1,0 +1,47 @@
+{
+  "sku": "75614",
+  "product_name": "Fra-Ber Lava Interni B Aroma Enzimli Genel Amaçlı Detaylı Araç Temizleyici (1:40 Konsantre) - 5 kg",
+  "barcode": "75614",
+  "total_urls_attempted": 3,
+  "successful_scrapes": 3,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:14:31.791Z",
+  "sources": [
+    {
+      "url": "https://www.fra-ber.it/en/car-wash-detergents/interior-and-glass-detergents/lava-interni-b-aroma/",
+      "domain": "fra-ber.it",
+      "language": "en",
+      "page_title": "Lava Interni B Aroma Evoenzymes by Fra-Ber",
+      "content_length": 10981,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.gecegy.com/en/shop/fra-ber-lava-interni-b-aroma-italian-intensive-detergent-for-fabrics-5l-5303",
+      "domain": "gecegy.com",
+      "language": "en",
+      "page_title": "FRA-BER LAVA INTERNI B AROMA 5L Intensive Detergent For Fabrics | Garage Equipment Center | GEC Egypt",
+      "content_length": 3125,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autopia.ie/product/fra-ber-lava-interni-b-aroma-fabric-cleaner/",
+      "domain": "autopia.ie",
+      "language": "en",
+      "page_title": "Autopia Professional Detailing Products",
+      "content_length": 6495,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

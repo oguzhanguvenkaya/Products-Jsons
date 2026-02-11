@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-WSYA1000M",
+  "product_name": "Gyeon Q²m WaterSpot Kireç Çözücü Cam Su Lekesi Temizleyici Çıkarıcı - 1000 ml",
+  "barcode": "Q2M-WSYA1000M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:23:22.299Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/waterspot/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M WATERSPOT - Gyeon",
+      "content_length": 10942,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailarena.com/products/gyeon-q2m-water-spot",
+      "domain": "detailarena.com",
+      "language": "en",
+      "page_title": "GYEON - Q2M Water Spot",
+      "content_length": 3178,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://biketailing.com/product/gyeon-q2m-water-spot/",
+      "domain": "biketailing.com",
+      "language": "en",
+      "page_title": "GYEON Q2M Water Spot - Biketailing Specialties",
+      "content_length": 3425,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/WaterSpot-P1427/500-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon WaterSpot - 500 ml - Detailed Image",
+      "content_length": 14353,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.blok51.com/gyeon-q2m-waterspot-1000-ml.html",
+      "domain": "blok51.com",
+      "language": "en",
+      "page_title": "Gyeon Q²M WaterSpot - 1000 ml | Blok 51 Northern Ireland",
+      "content_length": 5489,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-water-spot-remover",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q2M Water Spot Remover 1000ml",
+      "content_length": 33675,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

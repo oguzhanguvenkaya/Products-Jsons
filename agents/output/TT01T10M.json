@@ -1,0 +1,41 @@
+{
+  "sku": "TT01T10M",
+  "last_updated": "2026-02-04T14:40:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Q1 Premium Trim Maskeleme Bantı Rulo - 10mm x 10metre",
+    "brand": "Q1 TAPES",
+    "barcode": "5023555108200",
+    "group": "masking_tapes",
+    "sub_type": "trim_tape"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:40:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:40:00Z",
+    "template_fields": {
+      "width": "10 mm",
+      "length": "10 metre",
+      "format": "Plastik şeritli rulo",
+      "adhesive_type": "Kauçuk bazlı",
+      "material": "Esnek polyester (190 mikron) + işlenmiş kağıt",
+      "temperature_resistance": "110°C",
+      "pre_cut": "38mm kesikler"
+    },
+    "content": {
+      "how_to_use": "1. Trim parçanın kenarına bantı yerleştirin.\n2. Plastik şerit trim üzerinde koruma sağlar.\n3. Boya püskürtmesi sırasında fazla boyanın trim'e ulaşmasını engeller.\n4. Kolay uygulama için 38mm uzunluğunda kesikler halindedir.\n5. Boya kuruduktan sonra çıkarın.",
+      "when_to_use": "İç kapı kolları, ön cam pervazları, yan pervazlar, stop lambaları, yan ışıklar ve far ünitelerinin maskelenmesinde kullanılır. Trim parçaları korurken kenarlarında hassas boya hattı sağlar.",
+      "target_surface": "Trim parçaları, kapı kolları, pervazlar, far üniteleri, stop lambaları",
+      "why_this_product": "• Trim özel tasarım - plastik şerit + yapışkan bant kombinasyonu\n• 38mm kesikler - hızlı ve kolay uygulama\n• 110°C sıcaklık dayanımı\n• Fazla boya püskürmesine karşı koruma\n• B sınıfı termal materyal"
+    },
+    "faq": [
+      {"question": "Normal maskeleme bandından farkı nedir?", "answer": "Trim bantı, plastik şerit + yapışkan bant kombinasyonudur. Trim parçayı korurken kenarında temiz boya hattı sağlar."},
+      {"question": "Hangi parçalarda kullanılır?", "answer": "İç kapı kolları, cam pervazları, far üniteleri, stop lambaları ve benzeri trim parçalarında kullanılır."},
+      {"question": "Kesikler ne işe yarar?", "answer": "38mm'lik kesikler sayesinde bant kolayca yırtılır ve hızlı uygulama sağlanır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

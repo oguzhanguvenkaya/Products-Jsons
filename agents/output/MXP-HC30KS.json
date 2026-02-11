@@ -1,0 +1,43 @@
+{
+  "sku": "MXP-HC30KS",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MTS KİMYA MX-PRO HYDRO Hibrit Seramik Kaplama - 30ml",
+    "brand": "MX-PRO",
+    "barcode": "8683489680905",
+    "group": "ceramic_coating",
+    "sub_type": "paint_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 24,
+      "durability_km": 30000,
+      "technology": "Hibrit (SiO2 + Floropolimer)",
+      "self_healing": true,
+      "contact_angle": ">105°",
+      "ph_tolerance": "3-12",
+      "consumption_ml_per_car": 23,
+      "kit_included": true
+    },
+    "content": {
+      "how_to_use": "1. Aracı yıkayın, gerekiyorsa kil ve polisaj yapın.\n2. GYEON Q²M Prep veya INNOVACAR D2 Check ile yüzeyi yağdan arındırın.\n3. Takoza yeni süet sarın, 6-8 damla damlatın.\n4. Dikey-yatay geçişlerle homojen film oluşturun.\n5. 15-30 sn sonra terleme görünce tüysüz mikrofiber ile silin.\n6. 12 saat kapalı ortamda bekletin; 24 saat su yok; ilk 7 gün saf su dışında yıkama yapmayın.",
+      "when_to_use": "Self-healing özellikli hibrit seramik koruma istenen araçlarda kullanılır. Hem sertlik hem esneklik sağlar.",
+      "target_surface": "Araç boyası, vernik, parlak ve mat boyalar",
+      "why_this_product": "• SiO2 sertliği + floropolimer esnekliği tek şişede\n• Self-healing: 50-60°C ısıda mikro çizikler kapanır\n• 24 ay / 30.000 km koruma\n• >105° hidrofobi"
+    },
+    "faq": [
+      {"question": "Self-healing özelliği nasıl çalışır?", "answer": "Mikro çiziklerde yüzeyi 50-60°C ısıtın (güneş altında 20-30 dk veya fön); floropolimer ağ çizikleri kapanır."},
+      {"question": "Tek kat 9H sertlik için yeterli mi?", "answer": "Evet. SiO2 tabakası tek katta 9H sertlik, floropolimer ise esneklik sağlar; ikinci kat gereksizdir."},
+      {"question": "HYDRO mat boyada parlaklık verir mi?", "answer": "Hayır. Mat/saten dokuyu korur; parlaklık artışı yalnızca parlak boyalarda gözlenir."},
+      {"question": "Kürleşme sürecinde aracı dışarı çıkarabilir miyim?", "answer": "İlk 12 saat tozsuz, kuru ortam önerilir; ardından yağmur görmemek şartıyla dış mekâna çıkarabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["MXP-HC50KS"]}
+  }
+}

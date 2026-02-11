@@ -1,0 +1,29 @@
+{
+  "sku": "22.828.261.001",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA 2500 İnce Çizik Giderici Pasta - 1 lt",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "medium_cut_polish"
+  },
+  "notes": {"size_variant": "1 lt profesyonel boyut", "sub_type_review": "Template'de sub_type 'heavy_cut_compound' olarak yanlış işaretli. Doğrusu 'medium_cut_polish'."},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"cut_level": 5, "finish_level": 7, "machine_compatibility": ["rotary", "orbital", "hand"], "silicone_free": true, "bodyshop_safe": true, "filler_free": true, "abrasive_type": "diminishing", "safe_for_soft_paint": true},
+    "content": {
+      "how_to_use": "1. Hazırlık: Yüzeyin temiz ve serin olduğundan emin olun.\n2. Ped: Menzerna Sarı Ara Kat Pedi veya Yeşil Final Pedi.\n3. Uygulama: Düşük hızda başlayıp orta hıza çıkın.\n4. Çalışma: Şeffaf film kalana kadar çalışın.\n5. Temizlik: Mikrofiber bezle silin.",
+      "when_to_use": "Yumuşak ve hassas boyalarda, mikro-çizilme riski olmadan düzeltme ve parlaklık için kullanılır. One-step polisaj için ideal.",
+      "target_surface": "Yumuşak ve hassas vernikler, mikro-çizilmeye yatkın boyalar",
+      "why_this_product": "• Diminishing aşındırıcılar - mikro-çizilme riski yok\n• 5/10 kesim, 7/10 parlaklık - one-step potansiyeli\n• Silikonsuz formül\n• 1 lt profesyonel boyut"
+    },
+    "faq": [
+      {"question": "Yumuşak boyalarda güvenli mi?", "answer": "Evet, diminishing aşındırıcılar sayesinde mikro-çizilme riski olmadan çalışır."},
+      {"question": "5 lt ile aynı formül mü?", "answer": "Evet, aynı 2500 formülüdür. Profesyonel atölye kullanımı için 1 lt boyut idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

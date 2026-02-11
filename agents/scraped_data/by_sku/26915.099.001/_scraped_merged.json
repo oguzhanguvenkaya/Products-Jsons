@@ -1,0 +1,71 @@
+{
+  "sku": "26915.099.001",
+  "product_name": "Menzerna Premium Orbital Kuzu Yünü Polisaj Keçesi 165MM/6,5\"",
+  "barcode": "26915.099.001",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:41:30.802Z",
+  "sources": [
+    {
+      "url": "https://www.menzerna.com/car-care/accessories/polishing-accessories/details/orbital-wool-pad",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Orbital Wool Pad",
+      "content_length": 6151,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.polishedbliss.co.uk/collections/new-products/products/menzerna-orbital-wool-pad#product.info.description",
+      "domain": "polishedbliss.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Orbital Wool Pad — Polished Bliss",
+      "content_length": 10775,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.springriver.eu/menzerna-orbital-wool-pad-165-mm.html",
+      "domain": "springriver.eu",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.ghm.lt/shop/en/wool-pads/1374-menzerna-orbital-wool-pad-lambswool-polishing-pad.html",
+      "domain": "ghm.lt",
+      "language": "en",
+      "page_title": "Attention Required! | Cloudflare",
+      "content_length": 785,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://detailmate.de/Menzerna-Premium-Orbital-Wool-Pad-165mm-65_1",
+      "domain": "detailmate.de",
+      "language": "en",
+      "page_title": "Menzerna Premium Orbital Wool Pad 165mm/6.5\", 18,90 €",
+      "content_length": 17163,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

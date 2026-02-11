@@ -1,0 +1,23 @@
+{
+  "sku": "81676800",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "IK FOAM Nozzle Kit Köpük Pompası Bakım Seti", "brand": "IK SPRAYERS", "barcode": "8414685031266", "group": "spare_part", "sub_type": "maintenance_kit"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"compatible_device": ["IK FOAM 1.5", "IK FOAM 9", "IK FOAM PRO"], "quantity": 1},
+    "content": {
+      "how_to_use": "1. Pompayı sökülerek iç parçalara erişin.\n2. Aşınmış nozzle parçasını çıkarın.\n3. Yeni nozzle kitini yerine takın.\n4. Pompayı tekrar monte edin.\n5. Test püskürtmesi yaparak kontrol edin.",
+      "when_to_use": "Köpük kalitesi düştüğünde, pompa tıkandığında veya püskürtme düzensizleştiğinde nozzle kit değişimi önerilir.",
+      "target_surface": "IK FOAM serisi köpük pompası makineleri",
+      "why_this_product": "• Orijinal IK yedek parçası\n• Köpük kalitesini yeniler\n• Kimyasala dayanıklı\n• Kolay montaj"
+    },
+    "faq": [
+      {"question": "Hangi IK modellerle uyumlu?", "answer": "IK FOAM 1.5, IK FOAM 9 ve IK FOAM PRO serisi köpük pompaları ile uyumludur."},
+      {"question": "Kit içeriğinde neler var?", "answer": "Nozzle, conta ve gerekli bağlantı parçaları içerir."},
+      {"question": "Ne sıklıkla değiştirilmeli?", "answer": "Kullanım yoğunluğuna bağlı olarak genellikle 6-12 ayda bir kontrol edilmelidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["81771871"]}
+  }
+}

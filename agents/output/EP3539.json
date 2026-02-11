@@ -1,0 +1,44 @@
+{
+  "sku": "EP3539",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Little Pup Yaban Mersini Araç Kokusu (Blueberry)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843638",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Yaban Mersini",
+      "durability_days": 45,
+      "dimensions_mm": "85x45x26",
+      "weight_g": 13.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya",
+      "design": "3D Yavru Köpek Figürü (Mavi)",
+      "collection": "Little Pup"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Evcil hayvan sahipleri ve taze bir atmosfer yaratmak isteyenler için idealdir. Yaban mersininin ferahlatıcı aroması.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Sevimli mavi yavru köpek figürü\n• Taze yaban mersini aroması\n• 45 güne kadar kalıcı etki\n• Evcil hayvanlar için de güvenli"
+    },
+    "faq": [
+      {"question": "Little Pup serisi nedir?", "answer": "Evcil hayvan sahiplerine özel, sevimli yavru köpek figürü tasarımına sahip araç kokusu serisi."},
+      {"question": "Yaban mersini kokusu nasıl?", "answer": "Taze ve meyvemsi yaban mersini notalarıyla enerji verici bir deneyim sunar."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Evcil hayvanlar için güvenli mi?", "answer": "Evet, alkol ve toksik madde içermeyen formülüyle hem insanlar hem evcil hayvanlar için güvenlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["IY2939", "EP0101", "EP2455"]}
+  }
+}

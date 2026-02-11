@@ -1,0 +1,44 @@
+{
+  "sku": "Q2-MLE50M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q Mohs EVO Light Box Seramik Kaplama - 50 ml",
+    "brand": "GYEON",
+    "barcode": "8809432672579",
+    "group": "ceramic_coating",
+    "sub_type": "paint_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 36,
+      "durability_km": 50000,
+      "layer_count": 1,
+      "technology": "Florin Modifiyeli Polisilazan",
+      "hardness": "9H",
+      "contact_angle": ">105°",
+      "ph_tolerance": "2-11",
+      "shrinkage": "<5%",
+      "consumption_ml_per_car": 20
+    },
+    "content": {
+      "how_to_use": "1. Aracı yıkayın, gerekiyorsa kil ve polisaj yapın.\n2. Tüm yağ/polisaj kalıntılarını Q²M Prep ile silin.\n3. Aplikatör bloğunu süetle sarın; 6-8 damla ürün damlatın.\n4. Omuz genişliğinde alana önce dikey, sonra yatay geçişlerle eşit yayılım sağlayın.\n5. 30-120 sn içinde terleme oluştuğunda BaldWipe ile kalıntıyı alın.\n6. SoftWipe ile parlaklığı ortaya çıkarın.\n7. Araç en az 12 saat toz/sudan uzak, kuru ortamda kalsın.\n8. IR lamba (60°C x 10 dk) ile süreç hızlanabilir.",
+      "when_to_use": "Premium boya koruması, show-car parlaklığı ve 5 yıla varan uzun ömürlü seramik kalkan için kullanılır.",
+      "target_surface": "Araç boyası, vernik, metalik ve özel renkler, jant ve plastik",
+      "why_this_product": "• 36 ay / 50.000 km dayanım (2 katta 48-60 aya çıkar)\n• Florin modifiyeli polisilazan teknolojisi\n• %5'ten az büzülme - rakip ortalama %30\n• HDR parlaklık ve ipeksi kayganlık"
+    },
+    "faq": [
+      {"question": "Açık havada uygulayabilir miyim?", "answer": "Evet; sabit, gölge ve kuru ortamda çalışın, ilk 12 saat yağmurdan koruyun."},
+      {"question": "Tek kat yeterli mi?", "answer": "Tek kat 36 ay koruma sunar; ekstra kimyasal ve çizik direnci için ikinci kat önerilir."},
+      {"question": "Uygulama bezlerini tekrar kullanabilir miyim?", "answer": "Hayır; kürleşmiş ürün sertleşir, sonraki kullanımlarda boyayı çizer."},
+      {"question": "Kaplama üzerine ne zaman şampuanlı yıkama yapabilirim?", "answer": "En az 7 gün bekleyin; bu sürede sadece duru su kullanın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-PYA500M", "Q2M-CRYA100M"], "accessories": [], "alternatives": ["Q2-MLE30M", "Q2-MLE100M"]}
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "sku": "IF0404",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Kiraz Araç Kokusu (Cherry) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "8683492661519",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Kiraz",
+      "durability_days": 45,
+      "design": "3D Karakter",
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Meyve kokusu sevenler için idealdir. Tatlı ve neşeli bir atmosfer yaratmak isteyen kullanıcılar için uygundur.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Olgunlaşmış kirazların tatlı aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• İtalyan kalitesi ve tasarımı"
+    },
+    "faq": [
+      {"question": "Kiraz kokusu doğal mı?", "answer": "Olgunlaşmış kirazların tatlı ve meyvemsi aromasını yansıtan özel formüle sahiptir."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Çok tatlı mı?", "answer": "Dengeli bir tatlılıkta, rahatsız edici değil, keyif veren bir aroma sunar."},
+      {"question": "Çocuklar için güvenli mi?", "answer": "Evet, alkol ve toksik madde içermez, güvenli formüle sahiptir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["IF1111", "IF0909", "EF0101"]}
+  }
+}

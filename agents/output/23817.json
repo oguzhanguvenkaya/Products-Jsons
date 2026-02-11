@@ -1,0 +1,46 @@
+{
+  "sku": "23817",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA TEC 5 Alkali ve Alkol Dayanımlı Basınçlı Pompa 5 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916066919",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 5.54,
+      "capacity_usable_lt": 4.9,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "Ayarlanabilir",
+      "seal_type": "EPDM",
+      "pump_material": "PP",
+      "safety_valve": true,
+      "shoulder_strap": true,
+      "hose_length_m": 1.4,
+      "chemical_resistance": ["Alkaliler", "Ketonlar", "Alkoller"],
+      "color": "Siyah/Beyaz"
+    },
+    "content": {
+      "how_to_use": "1. Alkali veya alkol bazlı kimyasalı geniş huni açıklığından hazneye doldurun.\n2. Kapağı sıkıca kapatın ve pompayı çalışma basıncına (max 3 bar) ulaştırın.\n3. 40.5 cm plastik tabancayı kullanarak nozulu ayarlayın.\n4. 120 cm omuz askısı ile rahat taşıma sağlayın.\n5. Kullanım sonrası hazneyi ve 1.4 m hortumu temiz su ile durulayın.",
+      "when_to_use": "Geniş alan dezenfeksiyonu, endüstriyel zemin temizliği, tarım ilaçlama, profesyonel araç yıkama ve büyük yüzey uygulamalarında kullanılır.",
+      "target_surface": "Endüstriyel zeminler, tarım alanları, geniş araç yüzeyleri, depo ve fabrika alanları",
+      "why_this_product": "• 5 litre büyük kapasite uzun süreli çalışma için\n• EPDM conta ile alkali ve keton dayanımı\n• 3 bar güvenlik valfi ile güvenli kullanım\n• 120 cm ayarlanabilir omuz askısı ve 1.4 m hortum"
+    },
+    "faq": [
+      {"question": "EPDM conta hangi kimyasallarla uyumlu?", "answer": "Alkali ürünler, ketonlar (aseton dahil), alkoller ve %5'e kadar asetik asit çözeltileri ile uyumludur."},
+      {"question": "Hangi kimyasallar önerilmez?", "answer": "Aromatik hidrokarbonlar, yağlar, petrol türevleri ve güçlü mineral asitler EPDM contaya zarar verir."},
+      {"question": "Omuz askısı dahil mi?", "answer": "Evet, 120 cm ayarlanabilir omuz askısı ürünle birlikte gelir."},
+      {"question": "TEC 10 modelinden farkı nedir?", "answer": "TEC 5 modeli 5 litre kapasiteli olup daha kompakttır, TEC 10 ise 10 litre kapasitelidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["23822", "23841"]}
+  }
+}

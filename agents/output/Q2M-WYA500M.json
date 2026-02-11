@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-WYA500M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM WetCoat Nano Boya Koruma - 500 ml", "brand": "GYEON", "barcode": "8683492661465", "group": "paint_protection_quick", "sub_type": "spray_rinse_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"application_method": "Spray & Rinse", "durability_weeks": 12, "hydrophobic": true, "sio2_content_percent": 5, "ph_resistance": "2-11"},
+    "content": {
+      "how_to_use": "1. Aracınızı pH-nötr şampuan ile yıkayın ve durulayın.\n2. Yüzey soğuk ve ıslak kalmalı.\n3. Şişeyi çalkalayın, her panele 1-2 fıs uygulayın.\n4. Beklemeden basınçlı suyla durulayın.\n5. Mikrofiber havlu ile kurulayın.",
+      "when_to_use": "Haftalık bakım yıkamalarında son adım olarak, seramik kaplama bakımında ve tüm dış yüzeylerde hızlı koruma için kullanılır.",
+      "target_surface": "Araç boyası, cam, jant, plastik trim, metal, PPF, vinil kaplama",
+      "why_this_product": "• 12 haftaya kadar koruma süresi\n• %5 SiO² konsantrasyonu\n• Araç başına 80ml kullanım - 6-7 uygulama/şişe\n• Fosfat ve NTA içermez - çevre dostu"
+    },
+    "faq": [
+      {"question": "500ml şişe kaç uygulama yapar?", "answer": "Araç başına ortalama 80ml kullanımla 6-7 tam uygulama yapılabilir."},
+      {"question": "Plastik trimlerde güvenli mi?", "answer": "Evet, plastik trim, jant ve metal aksesuarlarda güvenle kullanılabilir."},
+      {"question": "Seramik kaplama yerine geçer mi?", "answer": "Hayır, profesyonel seramik kaplamanın yerini tutmaz ancak ara bakımda mükemmel destek sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-WYA1000M", "Q2M-WCYA4000M"]}
+  }
+}

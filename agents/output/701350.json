@@ -1,0 +1,22 @@
+{
+  "sku": "701350",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR 0 SCALE Su İzi Temizleyici Kireç Çözücü ve Önleyici Konsantre - 4,54 Lt", "brand": "INNOVACAR", "barcode": "8027486817429", "group": "contaminant_solvers", "sub_type": "water_spot_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Kireç / Su Lekesi / Asit Yağmuru / Hafif Oksidasyon", "ph_level": "Asidik (pH 1.5)", "gel_form": true, "edta_free": true, "nta_free": true, "phosphate_free": true, "consumption_ml_per_car": 150, "consumption_ml_per_panel": "15-20", "concentrate": true, "dilution_ratio": "Saf veya 1:5", "volume_lt": 4.54},
+    "content": {
+      "how_to_use": "1. Uygulama yapılacak yüzeyin soğuk ve gölgede olduğundan emin olun.\n2. Her seferinde tek bir panel üzerinde çalışın.\n3. Ürünü yüzeye püskürtün, birkaç dakika bekletin.\n4. Mikrofiber aplikatör veya yumuşak fırça ile dikey-yatay hareketlerle yaydırın.\n5. Bol su ile (tercihen basınçlı) durulayın.",
+      "when_to_use": "Profesyonel detay stüdyoları için ekonomik paket. Yoğun kireç ve mineral kalıntısı temizliği, koruyucu tabaka sökümü için kullanılır.",
+      "target_surface": "Boya, cam, jant, motor bölmesi, plastik, polikarbonat",
+      "why_this_product": "• 4.54 Lt profesyonel paket - yaklaşık 30 araç için yeterli\n• pH 1.5 güçlü asidik dekontaminasyon\n• Jel kıvam - dikey yüzeylerde akmaz\n• EDTA/NTA ve ek fosfor içermez"
+    },
+    "faq": [
+      {"question": "500 ml ile farkı nedir?", "answer": "Aynı formül, sadece profesyonel kullanım için büyük ekonomik paket."},
+      {"question": "Kaç araç için yeterli?", "answer": "150 ml/araç tüketimle yaklaşık 30 araç için yeterlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["701344", "Q2M-WSYA1000M"]}
+  }
+}

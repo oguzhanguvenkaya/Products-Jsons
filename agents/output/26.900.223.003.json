@@ -1,0 +1,43 @@
+{
+  "sku": "26.900.223.003",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA P150M Hare Giderici Cila Süngeri (Sarı) - 150mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Finish",
+      "color": "Sarı",
+      "diameter_mm": 150,
+      "height_mm": 30,
+      "machine_compatibility": ["Rotary"],
+      "hardness": "Medium-Soft",
+      "cell_structure": "Open Cell",
+      "origin": "Avrupa"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 150mm rotary tabanlığa takın.\n2. Ped yüzeyine hare giderici cila damlatın.\n3. Makineyi düşük-orta devirde başlatarak yüzeye yayın.\n4. Hafif basınçla çapraz geçişlerle çalışın.\n5. Spot ışıkla kontrol ederek hare kalıp kalmadığını görün.\n6. Kullanım sonrası pedi ılık suyla yıkayın.",
+      "when_to_use": "Rotary makine ile hare ve hologram gideriminde, polisaj sonrası son kat parlaklık uygulamalarında, seramik kaplama öncesi yüzey hazırlığında kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, tüm boya tipleri",
+      "why_this_product": "• Açık gözenekli yapısı ile ürün tutma kapasitesi yüksek\n• Orta-yumuşak doku ile hare bırakmadan parlatır\n• 30mm yükseklik ile uzun ömürlü kullanım\n• Avrupa üretimi kalite garantisi"
+    },
+    "faq": [
+      {"question": "Bu ped sadece rotary makinelerde mi kullanılır?", "answer": "Evet, bu ped özellikle rotary polisaj makineleri için tasarlanmıştır."},
+      {"question": "Açık gözenekli yapı ne avantaj sağlar?", "answer": "Açık gözenekli yapı daha fazla ürün tutarak homojen dağılım ve uzun çalışma süresi sağlar."},
+      {"question": "Orbital makinelerde kullanılabilir mi?", "answer": "Orbital makineler için 26.900.224.012 (Yeşil, 150mm) daha uygundur."},
+      {"question": "Hangi cilalarla kullanılır?", "answer": "Final Finish serisi ve Power Protect Ultra 2in1 ile ideal sonuç verir."}
+    ],
+    "relations": {"use_before": [], "use_after": ["26.900.224.010", "26.900.224.011"], "use_with": ["22.992.281.001"], "accessories": ["26.935.099.001"], "alternatives": ["GPRO160F", "GPRO180F"]}
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-TR4000M",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Tar REDEFINED Zift Katran Reçine Temizleyici Ve Yapışkan Sökücü - 4000 ml", "brand": "GYEON", "barcode": "8683492661083", "group": "contaminant_solvers", "sub_type": "bug_remover"},
+  "notes": {"sub_type_review": "bug_remover olarak işaretli ancak tar_glue_remover olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Zift / Reçine / Tutkal", "ph_level": "Nötr", "voc_content": "Düşük (LOW VOC)", "dwell_time_min": "1-2", "consumption_ml_per_car": 100, "working_temp_c": "5-35", "ready_to_use": true, "volume_ml": 4000},
+    "content": {
+      "how_to_use": "1. Aracın yıkanmış ve serin olduğundan emin olun.\n2. Yüzeye 15-20 cm mesafeden homojen şekilde püskürtün; panel panel çalışın.\n3. 1-2 dakika reaksiyon için bekleyin; kurumasına izin vermeyin.\n4. Gerekirse mikrofiberle nazikçe silin.\n5. Yüzeyi suyla durulayın.",
+      "when_to_use": "Profesyonel detay stüdyoları ve yıkamacılar için ekonomik 4 litrelik paket.",
+      "target_surface": "Boya, cam, plastik trim, jant, metal",
+      "why_this_product": "• 4 litrelik profesyonel paket - yaklaşık 40 araç için yeterli\n• Tar, reçine ve yapışkanları tek adımda söker\n• LOW VOC - az koku\n• pH nötr - seramik ve PPF güvenli"
+    },
+    "faq": [
+      {"question": "Kaç araç için yeterli?", "answer": "100 ml/araç tüketimle yaklaşık 40 araç için yeterlidir."},
+      {"question": "Sprey şişeye aktarabilir miyim?", "answer": "Evet, küçük porsiyonlar halinde sprey şişeye aktararak kullanabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-TR500M", "Q2M-TR1000M"]}
+  }
+}

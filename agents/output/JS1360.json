@@ -1,0 +1,42 @@
+{
+  "sku": "JS1360",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Çiçek Sprey Oda Kokusu 60 ml (Fabulous)",
+    "brand": "LITTLE JOE",
+    "barcode": "7640186843393",
+    "group": "fragrance",
+    "sub_type": "spray_perfume"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Çiçek (Fabulous)",
+      "volume_ml": 60,
+      "dimensions_mm": "185x82x38",
+      "alcohol_free": true,
+      "vegan": true,
+      "made_in": "İtalya",
+      "collection": "Pump Spray"
+    },
+    "content": {
+      "how_to_use": "1. Kullanmadan önce şişeyi hafifçe çalkalayın.\n2. Ortama 2-3 kez püskürtün.\n3. Kötü kokuları anında giderir ve çiçeksi bir atmosfer yaratır.\n4. Gerektiğinde tekrarlayın.\n5. Gözlerden ve yüzden uzak tutun.",
+      "when_to_use": "Zarif ve huzurlu bir atmosfer yaratmak istediğiniz anlarda idealdir. Misafir ağırlarken veya rahatlamak istediğinizde kullanın.",
+      "target_surface": "Araç içi, ev odaları, ofis, tekne kabini, hava ortamı",
+      "why_this_product": "• Çiçek buketi aromasıyla zarif etki\n• Vegan ve alkolsüz formül\n• Kötü koku giderici özellik\n• 60 ml pratik boy"
+    },
+    "faq": [
+      {"question": "Little Joe Pump Spray serisi nedir?", "answer": "60 ml sprey formatında, anında etkili ve uzun süreli koku sağlayan araç ve oda parfümü serisi."},
+      {"question": "Fabulous kokusu nasıl?", "answer": "Çiçek buketi aromasıyla zarif ve huzur verici bir atmosfer yaratır."},
+      {"question": "Vegan ürün mü?", "answer": "Evet, hayvansal içerik içermeyen tamamen vegan formüle sahiptir."},
+      {"question": "Asma kokulardan farkı nedir?", "answer": "Sprey formatında olduğu için anında etki sağlar, istediğiniz zaman ve miktarda kullanabilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["JS0161", "JS0458", "JS0859"]}
+  }
+}

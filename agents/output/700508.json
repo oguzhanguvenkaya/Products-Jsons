@@ -1,0 +1,42 @@
+{
+  "sku": "700508",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "INNOVACAR S2 FOAMY Enzimli PH Nötr Yeşil Renkli Özel Kokulu Araç Yıkama Şampuanı - 1 lt",
+    "brand": "INNOVACAR",
+    "barcode": "8027486809820",
+    "group": "car_shampoo",
+    "sub_type": "ph_neutral_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "6.0",
+      "foam_color": "Yeşil",
+      "technology": "Enzim Bazlı",
+      "scent": "Orman Ferahlığı",
+      "safe_on_ceramic_coatings": true,
+      "plant_based_surfactants": true,
+      "consumption_ml_per_car": 20
+    },
+    "content": {
+      "how_to_use": "1. Köpük Tabancası: 1:9-1:12 oranında seyreltin, alt kısımdan başlayarak uygulayın.\n2. Sık Temizlik: 1:25-1:50 aralığında Tornador veya köpük yapıcı ile uygulayın.\n3. Ön Yıkama: Saf veya 1:20 oranında kullanın, renk kalıntıları tamamen akana kadar durulayın.",
+      "when_to_use": "Görsel yeşil köpük efekti istenen yıkamalarda, koruyucu film, seramik veya wax kaplamalı araçların zarar görmeden temizlenmesinde, hassas plastik ve contalarda nazik temizlikte kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, wax, PPF, plastik parçalar, contalar",
+      "why_this_product": "• Yoğun yeşil köpük görsel etki ve durulama kolaylığı sağlar\n• Patentli enzim teknolojisi organik kirleri parçalar\n• pH 6.0 değeri seramik ve wax kaplamalara zarar vermez\n• Doğal orman kokusu keyifli yıkama deneyimi sunar"
+    },
+    "faq": [
+      {"question": "Yeşil renk araçta iz bırakır mı?", "answer": "Hayır, renk kalıntıları tamamen akana kadar durulama yapıldığında iz kalmaz."},
+      {"question": "Seramik kaplamalı araçlarda güvenli mi?", "answer": "Evet, pH nötr yapısı sayesinde koruyucu yüzeylerle uyumludur."},
+      {"question": "Sıcak yüzeylerde kullanılabilir mi?", "answer": "Hayır, sıcak yüzeylere ve kumaş/gözenekli yüzeylere uygulamayınız."},
+      {"question": "Kurumasına izin verilmeli mi?", "answer": "Hayır, konsantre ürün olduğu için kurumasına izin verilmemelidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["79283", "700507"]}
+  }
+}

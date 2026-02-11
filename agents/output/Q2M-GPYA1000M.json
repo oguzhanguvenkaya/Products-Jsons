@@ -1,0 +1,41 @@
+{
+  "sku": "Q2M-GPYA1000M",
+  "last_updated": "2026-02-04T14:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Glass+ Plus Araç Cam Yağmur Kaydırıcı Su İtici ve Temizleyici - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661267",
+    "group": "glass_cleaner",
+    "sub_type": "glass_hydrophobic_sealant"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:35:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:35:00Z",
+    "template_fields": {
+      "function": "Temizlik + Hidrofobik Koruma",
+      "ph_level": "Nötr (pH 7)",
+      "volume": "1000 ml",
+      "protection_duration": "4 hafta",
+      "ammonia_free": true,
+      "anti_static": true
+    },
+    "content": {
+      "how_to_use": "1. Püskürtme: Cama eşit şekilde püskürtün.\n2. Silme: Temiz cam mikrofiber ile tek yönde silin.\n3. Tamponlama: Kuru mikrofiber ile fazlalığı alın.\n4. Sonuç: Lekesiz, su itici cam yüzeyi elde edin.\n5. Tekrar: İnatçı kirler için işlemi tekrarlayın.",
+      "when_to_use": "Araç iç ve dış camlarında temizlik ile birlikte su iticilik kazandırmak için kullanılır. Yağmurlu günlerde görüş netliği sağlar, su lekesi ve kireç oluşumunu geciktirir.",
+      "target_surface": "Ön cam, yan camlar, aynalar, iç camlar, LCD ekranlar, mobilya camları",
+      "why_this_product": "• 2in1 - temizlik ve hidrofobik koruma tek üründe\n• 4 haftaya kadar su iticilik\n• Antistatik - toz çekmez\n• Amonyaksız - tüm cam türlerinde güvenli\n• İç ve dış camlar için"
+    },
+    "faq": [
+      {"question": "Sadece temizlik mi yoksa koruma da sağlıyor mu?", "answer": "Her ikisi de. Temizlerken aynı zamanda hidrofobik (su itici) tabaka bırakır."},
+      {"question": "İç camlarda kullanılabilir mi?", "answer": "Evet, hem iç hem dış camlarda kullanılır. LCD ekranlarda da güvenlidir."},
+      {"question": "Su iticilik ne kadar sürer?", "answer": "Yaklaşık 4 hafta. Düzenli yıkamalarla azalabilir."},
+      {"question": "Renk tonlu camlarda güvenli mi?", "answer": "Evet, amonyaksız formülü tüm cam türlerinde güvenlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-GPYA500M"]}
+  }
+}

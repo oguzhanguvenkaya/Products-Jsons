@@ -1,0 +1,42 @@
+{
+  "sku": "P0140AK1#26263",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EP01 FLEX Canyon Başlıklı Kimyasal Dayanımlı Ölçekli El Tipi Sprey Şişe 1 Litre - NBR",
+    "brand": "EPOCA",
+    "barcode": null,
+    "group": "sprayers_bottles",
+    "sub_type": "trigger_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_ml": 1000,
+      "output_per_spray_ml": 2.2,
+      "nozzle_type": "Canyon başlık (ayarlanabilir ince/kalın)",
+      "seal_type": "NBR",
+      "graduated_scale": true,
+      "chemical_resistance": ["Su bazlı deterjanlar", "Nötr temizleyiciler", "Alkoller", "Seyreltilmiş alkaliler"],
+      "color": "Kırmızı/Beyaz"
+    },
+    "content": {
+      "how_to_use": "1. Kimyasalı ölçekli şişeye doldurun (% ve ml skalası mevcut).\n2. Canyon sprey başlığını sıkıca takın.\n3. Nozulu ayarlayın: ince veya kalın püskürtme.\n4. Yüzeye eşit şekilde püskürtün, homojen dağılım için mesafeyi ayarlayın.\n5. Kullanım sonrası şişeyi ve başlığı temiz su ile durulayın.",
+      "when_to_use": "Araç gövde ve jant temizliği, iç döşeme ve kumaş temizliği, ön yıkama şampuanları, wax ve cila uygulamaları, bisiklet ve motosiklet temizliğinde kullanılır.",
+      "target_surface": "Araç gövdesi, jantlar, iç döşeme, kumaşlar, camlar, bisiklet ve motosikletler",
+      "why_this_product": "• Canyon başlık ile homojen dağılım ve köpükleme\n• NBR conta ile su bazlı kimyasallara uyumluluk\n• % ve ml cinsinden soğuk baskılı ölçek\n• Sızdırmaz ve ergonomik tasarım"
+    },
+    "faq": [
+      {"question": "Canyon başlık nedir?", "answer": "FRA-BER tarafından geliştirilen, homojen dağılım ve köpükleme kabiliyeti sağlayan özel sprey başlık tasarımıdır."},
+      {"question": "NBR conta hangi kimyasallarla uyumlu?", "answer": "Su bazlı deterjanlar, nötr temizlik ürünleri, alkoller ve seyreltilmiş asitlerle sınırlı uyumluluk sağlar."},
+      {"question": "Asit bazlı jant temizleyicileri için uygun mu?", "answer": "Sınırlı uyumluluk vardır. Yoğun asit kullanımı için VITON contalı model önerilir."},
+      {"question": "Standart EP01 modelden farkı nedir?", "answer": "Canyon başlık sayesinde daha homojen dağılım ve köpükleme özelliği sunar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["12922", "12918", "13724"]}
+  }
+}

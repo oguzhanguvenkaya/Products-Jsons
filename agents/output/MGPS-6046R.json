@@ -1,0 +1,41 @@
+{
+  "sku": "MGPS-6046R",
+  "last_updated": "2026-02-04T14:30:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Aplikatörlü El Kil Pedi 12x8 cm (Kırmızı) - Cırtlı Clay Pad Sponge Block",
+    "brand": "MG PS",
+    "barcode": "8683492661724",
+    "group": "clay_products",
+    "sub_type": "clay_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:30:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:30:00Z",
+    "template_fields": {
+      "size": "12x8x5.5 cm",
+      "weight": "90 g",
+      "grade": "Orta (Medium)",
+      "color": "Kırmızı",
+      "material": "Kauçuk-polimer kil + EVA sünger",
+      "attachment": "Cırtlı (Hook & Loop)",
+      "durability": "40-60 araç"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Yüzeyi yıkayın ve kaydırıcı püskürtün.\n2. Kavrama: Mouse tasarımı sayesinde elinize tam oturur.\n3. Uygulama: Hafif basınçla yüzeyde kaydırın.\n4. Kaydırıcı: Sürekli kaydırıcı ekleyin.\n5. Ped Değişimi: Kil ped aşınınca cırtlı sistemle kolayca değiştirin.\n6. Temizlik: Kirlenince ılık suyla durulayın.",
+      "when_to_use": "Reçine, zift, su lekesi, endüstriyel toz ve metal partiküllerin el ile dekontaminasyonu için. Manuel detay temizliği için en pratik çözüm.",
+      "target_surface": "Boyalı yüzeyler, vernik, cam, krom",
+      "why_this_product": "• Ergonomik mouse tasarımı - uzun kullanımda yorgunluk yok\n• Cırtlı sök-tak sistem - yedek pedlerle 80+ araç ömrü\n• Yıkanabilir kil tabakası - 40+ detay döngüsü\n• Geniş çalışma yüzeyi"
+    },
+    "faq": [
+      {"question": "Yedek ped var mı?", "answer": "Evet, MGPS-6046F2R yedek ped seti (2 adet) ile birlikte kullanılabilir."},
+      {"question": "Makineye takılır mı?", "answer": "Hayır, tamamen el kullanımı için tasarlanmıştır."},
+      {"question": "Kaç araç için yeterli?", "answer": "Tek ped 40-60 araç, yedek pedlerle 80+ araç dekontaminasyonu yapılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": ["MGPS-6046F2R"], "alternatives": []}
+  }
+}

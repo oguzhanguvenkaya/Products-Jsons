@@ -1,0 +1,20 @@
+{
+  "sku": "Q2M-CMPR120M",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Compound+ Plus REDEFINED Ağır Çizik Giderici Kalın Pasta - 120 ml", "brand": "GYEON", "barcode": "8683492661199", "group": "abrasive_polish", "sub_type": "heavy_cut_compound"},
+  "notes": {"size_variant": "120 ml versiyon - deneme ve bireysel kullanım için pratik boyut"},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"cut_level": 10, "finish_level": 8, "machine_compatibility": ["rotary", "orbital"], "silicone_free": true, "bodyshop_safe": true, "filler_free": true, "dusting_level": "Very Low", "abrasive_type": "Japanese high-quality"},
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini yıkayın ve kil temizliği yapın.\n2. Ped: GYEON Q²M Eccentric Cut veya ağır kesim sünger.\n3. Uygulama: Düşük hız ve düşük sıcaklıkta çalışın.\n4. Temizlik: Neredeyse toz bırakmaz, kolayca silinir.",
+      "when_to_use": "Ağır boya kusurlarını minimum sürede gidermek, seramik kaplama hazırlığı için kullanılır.",
+      "target_surface": "Ağır kusurlu otomotiv boyaları, derin çizikler",
+      "why_this_product": "• Gyeon'un en aşındırıcı pastası - 10/10 kesim\n• 8/10 parlaklık - daha az bitiş adımı\n• Neredeyse sıfır toz\n• 120 ml deneme boyutu"
+    },
+    "faq": [{"question": "1000 ml ile aynı formül mü?", "answer": "Evet, aynı REDEFINED formülüdür. Deneme için ideal boyut."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

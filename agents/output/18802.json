@@ -1,0 +1,44 @@
+{
+  "sku": "18802",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA A-TYPE 1.5 PRO Asit Dayanımlı Basınçlı Pompa 1.8 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916066353",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 1.86,
+      "capacity_usable_lt": 1.5,
+      "max_pressure_bar": 3.0,
+      "nozzle_type": "Ayarlanabilir",
+      "seal_type": "VITON",
+      "chemical_resistance": ["Asitler", "Yağlar", "Mineral yağlar", "Silikon bazlı kimyasallar"],
+      "safety_valve": true,
+      "pump_material": "PP",
+      "weight_net_kg": null
+    },
+    "content": {
+      "how_to_use": "1. Asit bazlı kimyasalı hazneye doldurun (max çizgiyi aşmayın).\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın (max 3 bar).\n3. Nozulu ihtiyaca göre ayarlayın (ucu çevirerek).\n4. Yüzeye eşit şekilde püskürtün.\n5. İş bitince emniyet valfiyle basıncı düşürün.\n6. Hazneyi boşaltıp temiz su ile durulayın.",
+      "when_to_use": "Endüstriyel temizlik, inşaat ve şantiye temizlikleri, otomotiv detailing (asitli jant temizleyiciler) ve ekipman yüzey temizliğinde kullanılır.",
+      "target_surface": "Metal yüzeyler, jantlar, endüstriyel ekipman, inşaat malzemeleri",
+      "why_this_product": "• VITON conta ile asitlere üstün dayanıklılık\n• 3 bar emniyet valfi ile güvenli kullanım\n• İtalyan tasarım ve üretim kalitesi\n• Ayarlanabilir nozul ile kontrollü püskürtme"
+    },
+    "faq": [
+      {"question": "VITON conta nedir, ne avantaj sağlar?", "answer": "VITON, asitlere, yağlara ve mineral yağlara karşı yüksek direnç gösteren özel bir conta malzemesidir. Uzun ömür ve sızıntısız kullanım sağlar."},
+      {"question": "Alkali kimyasallarla kullanılabilir mi?", "answer": "Sınırlı kullanım mümkündür ancak alkali için EPDM contalı modeller daha uygundur."},
+      {"question": "Hangi kimyasallar önerilmez?", "answer": "Ketonlar (aseton, MEK) ve aminler VITON contaya zarar verir, kullanılmamalıdır."},
+      {"question": "Köpük yapıcı özelliği var mı?", "answer": "Hayır, bu ürün sıvı atım içindir. Köpük için A-TYPE 1.5 PRO Foamer modeli mevcuttur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["18810", "81675"]}
+  }
+}

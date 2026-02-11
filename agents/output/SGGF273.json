@@ -1,0 +1,55 @@
+{
+  "sku": "SGGF273",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Kablosuz Şarjlı Rotary/Orbital Mini Nano Polisaj Makinesi Seti 12V",
+    "brand": "SGCB",
+    "barcode": "6973086165953",
+    "group": "polisher_machine",
+    "sub_type": "mini_cordless_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Battery",
+      "voltage": 12,
+      "battery_capacity_ah": 2.5,
+      "battery_count": 2,
+      "motor_type": "Brushless",
+      "orbit_options_mm": [3, 12, "Rotary"],
+      "backing_plate_supported_mm": [25, 50, 75],
+      "speed_range_rpm": "400-6000",
+      "weight_kg": 0.629,
+      "runtime_minutes": 20,
+      "charge_time_minutes": 60,
+      "accessory_count": 65,
+      "features": ["65 parça aksesuar", "Rotary+Orbital", "Fırçasız motor", "Ultra hafif"]
+    },
+    "content": {
+      "how_to_use": "1. Uygun salınım aparatını seçin (Rotary, 3mm veya 12mm).\n2. 25mm, 50mm veya 75mm tabanlık ve ped takın.\n3. Hız ayarını yaparak yavaş başlatma ile çalışın.\n4. Dar alanlarda veya bölgesel onarımlarda kullanın.\n5. 65 parça aksesuar içinden işe uygun pedi seçin.\n6. İkinci aküyle kesintisiz devam edin.",
+      "when_to_use": "Bölgesel onarımlar, dar alanlar, araç içi detaylar, ayna kapakları, tampon kenarları ve hassas yüzey işlemleri için kullanılır.",
+      "target_surface": "Araç boyası - dar alanlar, iç mekan plastikler, köşeler, trimler",
+      "why_this_product": "• 65 parça zengin aksesuar seti\n• Rotary + Orbital tek makinede\n• Sadece 629g - ultra hafif\n• 2x 2.5Ah akü - kesintisiz çalışma\n• Ekonomik fiyat"
+    },
+    "faq": [
+      {"question": "FLEX PXE 80 ile karşılaştırması?", "answer": "SGCB daha ekonomik ve 65 parça aksesuar dahil. FLEX premium kalite, EMS koruma sistemi ve daha gelişmiş aparat değişim sistemi sunar."},
+      {"question": "Bir aküyle ne kadar çalışır?", "answer": "Maksimum hızda yaklaşık 20 dakika çalışma süresi sağlar. 60 dakikada tam şarj olur."},
+      {"question": "Sette hangi aksesuarlar var?", "answer": "36 adet farklı boyut ve sertlikte polisaj süngeri, 18 adet polisaj keçesi, 3 farklı tabanlık, 3 salınım aparatı, 2 akü ve şarj cihazı dahildir."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": ["418102"]
+    }
+  }
+}

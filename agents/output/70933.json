@@ -1,0 +1,41 @@
+{
+  "sku": "70933",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Ecomotor Araç Motoru İçin Motor Temizleyici Ve Yağ Sökücü (1:10 Konsantre) - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486709335",
+    "group": "interior_cleaner",
+    "sub_type": "engine_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Motor", "Metal"],
+      "concentrate": true,
+      "dilution_ratio": "1:5 - 1:10",
+      "eco_friendly": true,
+      "cationic_formula": true,
+      "weight_kg": 25
+    },
+    "content": {
+      "how_to_use": "1. Ürünü 1:5 veya 1:10 oranında su ile seyreltin.\n2. Motor soğukken yüzeye püskürtün.\n3. Yağ ve gres birikintilerinin çözülmesi için 2-3 dakika bekleyin.\n4. Fırça ile ovalayarak kirleri gevşetin.\n5. Basınçlı su ile iyice durulayın.\n6. Motor kuruyana kadar çalıştırmayın.",
+      "when_to_use": "Araç motor bölmesi yağ ve gres temizliğinde, endüstriyel ekipman temizliğinde, atölye ve garaj zeminlerinde, yoğun yağ birikimi olan metal yüzeylerde kullanılır.",
+      "target_surface": "Araç motoru, motor bölmesi, metal aksamlar, endüstriyel ekipmanlar, atölye zeminleri",
+      "why_this_product": "• Güçlü yağ ve gres çözme kapasitesi - motorunuzu yeni gibi yapar\n• Çevre dostu formül - düşük çevresel etki prensiplerine göre tasarlandı\n• Katyonik formül - depurasyon sistemlerinde sorun yaratmaz\n• Ekonomik profesyonel boy - 25 kg ile uzun süreli kullanım"
+    },
+    "faq": [
+      {"question": "Çevre dostu mu?", "answer": "Evet, yeni nesil ekolojik bir ürün olup düşük çevresel etki prensiplerine göre tasarlanmıştır."},
+      {"question": "Hangi oranda seyreltilmeli?", "answer": "Manuel kullanımda 1:5 ile 1:10 arasında seyreltme önerilir."},
+      {"question": "Depurasyon sistemlerine zarar verir mi?", "answer": "Hayır, katyonik formülü sayesinde depurasyon sistemlerinde sorun yaratmaz."},
+      {"question": "Sıcak motorda kullanılabilir mi?", "answer": "Hayır, motor soğukken uygulanmalıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

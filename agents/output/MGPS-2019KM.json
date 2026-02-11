@@ -1,0 +1,24 @@
+{
+  "sku": "MGPS-2019KM",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MG PS Orta Sert Yüzey Temizleyici Kil Hamuru 100 gr (Mavi) - Clay Bar Temizleme Kili", "brand": "MG PS", "barcode": "8683492661663", "group": "contaminant_solvers", "sub_type": "iron_remover"},
+  "notes": {"sub_type_review": "iron_remover olarak işaretli ancak clay_bar olması gerekebilir"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"material": "Polibütilen reçine + elastomer", "weight_gr": 100, "color": "Mavi", "hardness": "Orta (Medium Duty)", "cars_per_bar": "10-20", "compatible_surfaces": ["Boyalı sac", "Vernik", "Cam", "Krom", "Alüminyum", "Şeffaf plastik"]},
+    "content": {
+      "how_to_use": "1. Aracı pH nötr şampuanla yıkayıp durulayın.\n2. Kil kaydırıcısı hazırlayın (GYEON ClayLube önerilir).\n3. Kil hamurundan avuç içi kadar koparın, yoğurup disk hâline getirin.\n4. Çalışacağınız paneli bol kaydırıcıyla ıslatın.\n5. Kili hafif baskıyla ileri-geri hareketlerle kaydırın.\n6. Pütür hissi kaybolunca panel temizdir; mikrofiber bezle silin.\n7. Kir biriktikçe kili katlayıp temiz yüzeyi ortaya çıkarın.",
+      "when_to_use": "Hızlı wax hazırlığı, endüstriyel toz ve su lekesi temizliği, PPF/seramik kaplama öncesi, bakım yıkamalarında, polisaj öncesi hazırlık için kullanılır.",
+      "target_surface": "Boya, vernik, cam, krom, alüminyum, şeffaf plastik",
+      "why_this_product": "• Orta sert güç - ince kilin alamadığı kirleri söker\n• Mikro çizik önleme - hologram riskini azaltır\n• Renk kodlu mavi - topladığı kirleri görmenizi sağlar\n• 100 gr - 10-20 araç için yeterli"
+    },
+    "faq": [
+      {"question": "Kil boyaya zarar verir mi?", "answer": "Doğru kaydırıcıyla kullanıldığında mikro çizik oluşturmaz; vernik için güvenlidir."},
+      {"question": "Ne sıklıkla kullanmalıyım?", "answer": "Ortalama her yağ değişiminde (yaklaşık 10.000 km) veya polisaj/kaplama öncesinde."},
+      {"question": "Düştüğünde ne yapmalıyım?", "answer": "Kil yere temas ederse içine kum girer; atıp yeni parça kullanmanız gerekir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-CLR500M"], "accessories": [], "alternatives": ["MGPS-2019KH", "Q2M-CCE"]}
+  }
+}

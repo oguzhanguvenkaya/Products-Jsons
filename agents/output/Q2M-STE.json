@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-STE",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Smoothie EVO Mikrofiber Araç Yıkama Eldiveni", "brand": "GYEON", "barcode": "8809432674856", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "20x30 cm", "gsm": 1250, "type": "3 Farklı Elyaf (Twist+Split+Chenille)", "material_blend": "Polyester/Polyamid", "edge_type": "Dikişsiz (Edgeless)", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. Eldiveni temiz su ve şampuanla iyice ıslatın.\n2. Dairesel hareketler yerine düz çizgiler halinde yüzey üzerinde gezdirin.\n3. Sık sık ayrı temiz su bulunan kovada eldiveni durulayarak kirlerden arındırın.\n4. Kullanım sonrasında temiz suyla durulayın ve asarak kurutun.",
+      "when_to_use": "Araç yıkama, seramik kaplamalı araç bakımı ve hassas boya yüzeylerinin çiziksiz temizliği için kullanılır.",
+      "target_surface": "Boya, cam, PPF, seramik kaplamalı yüzeyler",
+      "why_this_product": "• 1250 GSM yüksek yoğunluk - mükemmel kir tutma\n• Üç farklı mikrofiber elyaf teknolojisi (Twist+Split+Chenille)\n• Dikişsiz ergonomik tasarım\n• Güçlendirilmiş iç yapı - şekil bozulmaz"
+    },
+    "faq": [
+      {"question": "Seramik kaplamalı araçlarda güvenle kullanılabilir mi?", "answer": "Evet, seramik kaplamalı araçlarda güvenle kullanılabilir ve kaplamanın ömrünü uzatır."},
+      {"question": "Çift kova tekniği ile mi kullanılmalı?", "answer": "Evet, çift kova tekniği kullanarak swirl (ince çizik) oluşumunu en aza indirebilirsiniz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-BYA1000M"], "accessories": [], "alternatives": ["3221A-RD", "3227I-HD"]}
+  }
+}

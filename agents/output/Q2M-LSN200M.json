@@ -1,0 +1,41 @@
+{
+  "sku": "Q2M-LSN200M",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM LeatherSet Natural Modern Deri Günlük Hafif Temizlik ve Bakım Seti (5 Parça) - 200 ml",
+    "brand": "GYEON",
+    "barcode": "8809973750385",
+    "group": "interior_cleaner",
+    "sub_type": "leather_care_kit"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Nappa Deri", "Yarı Anilin Deri", "Modern Deri"],
+      "kit_contents": ["200 ml Cleaner", "120 ml Coat", "ScrubPad EVO", "MF Aplikatör", "LeatherWipe"],
+      "ph_level": 7,
+      "sio2_content": true,
+      "protection_duration": "6 ay",
+      "coverage": "2-3 araç/set"
+    },
+    "content": {
+      "how_to_use": "1. Deriyi vakumlayın ve gevşek kiri alın.\n2. Q²M LeatherCleaner Natural'i köpük şişesine sıkın, ScrubPad EVO'ye uygulayın.\n3. Düz çizgilerle nazikçe ovalayın; köpüğü kirle beraber kaldırın.\n4. Nemli mikrofiberle köpüğü alın, ikinci bezle kurulayın.\n5. MF Aplikatöre 3-4 damla Q² LeatherCoat REDEFINED damlatın, ince tabaka halinde yayın.\n6. 1-2 saat kürlenmeye bırakın; bu süre içinde yüzeye temas etmeyin.\n7. Aylık bakım için aynı temizleyiciyi 1:1 su ile kullanın.",
+      "when_to_use": "Hafif kirlenmiş nappa ve yarı anilin derilerde, aylık rutin deri bakımında, perfore veya kaplamalı modern otomotiv derilerinde, lüks segment araç iç mekanlarında kullanılır.",
+      "target_surface": "Otomobil deri koltukları, kapı panelleri, konsol deri trimleri, direksiyon, vites topuzu, kol dayama alanları",
+      "why_this_product": "• pH-nötr formül - hassas deri yapısına zarar vermez\n• Seramik destekli koruma - SiO² katkısıyla 6 ay su ve kir iticilik\n• Mat fabrika görünümü - parlatmaz, kaymayan yüzey\n• Tam set - temizle-koru iki adım tek sette"
+    },
+    "faq": [
+      {"question": "Kaplamalı deri koltuklarda güvenli mi?", "answer": "Evet. Cleaner kalıntı bırakmaz; LeatherCoat mevcut kaplamayla birleşerek ekstra koruma sunar."},
+      {"question": "Parlaklık ekler mi?", "answer": "Hayır. Doğal mat fabrikadan çıkmış görünüm sağlar, kayganlık yapmaz."},
+      {"question": "Koruma süresini nasıl uzatırım?", "answer": "6 ayda bir LeatherCoat'ı tazeleyin, aylık bakımda Cleaner'ı 1:1 su ile kullanın."},
+      {"question": "Set bir SUV'un içini tamamen kaplar mı?", "answer": "Normal kir seviyesinde tek set, orta boy SUV'un koltuk ve panellerini rahatlıkla temizler ve korur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-LSSYA200M"]}
+  }
+}

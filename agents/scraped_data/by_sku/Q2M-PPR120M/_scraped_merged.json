@@ -1,0 +1,71 @@
+{
+  "sku": "Q2M-PPR120M",
+  "product_name": "Gyeon Q2M Ppf Renew 120 ml",
+  "barcode": "Q2M-PPR120M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:27:00.513Z",
+  "sources": [
+    {
+      "url": "https://gyeon.co/product/ppf-renew/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M PPF RENEW - GYEON",
+      "content_length": 11217,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/PPF-Renew-P1849/120-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon PPF Renew - 120 ml - Detailed Image",
+      "content_length": 14602,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-qm-ppf-renew-120ml",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M PPF Renew | CARZILLA",
+      "content_length": 16032,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://themicrofibershop.com/products/gyeon-q-m-ppf-renew",
+      "domain": "themicrofibershop.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Renew 120 ml\n &ndash; The Microfiber Shop",
+      "content_length": 11742,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://clean-garage.com/gyeon-q2m-ppf-renew-120ml-paint-protection-film-polish/",
+      "domain": "clean-garage.com",
+      "language": "en",
+      "page_title": "Gyeon Q2M PPF Renew 120ml | Paint Protection Film Polish | The Clean Garage",
+      "content_length": 12550,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

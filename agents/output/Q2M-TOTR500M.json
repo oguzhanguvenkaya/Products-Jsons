@@ -1,0 +1,24 @@
+{
+  "sku": "Q2M-TOTR500M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "sub_type_flag": "ISSUE: Bu ürün Wax/Cila ÇÖZÜCÜ - koruma ürünü değil, surface_prep/wax_remover kategorisinde olmalı",
+  "product_info": {"title": "GYEON QM Total Remover Balmumu Wax Cila Çözücü Koruma Sökücü - 500 ml", "brand": "GYEON", "barcode": "8809973750811", "group": "paint_protection_quick", "sub_type": "spray_wipe_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"consumption_ml": 100, "ph": "Nötr", "dwell_time_seconds": "30-90", "mat_safe": true, "ppf_safe": true, "features": ["Tam katman sökücü", "Boya ve mat güvenli", "Polisajsız düzeltme", "Hızlı etki"]},
+    "content": {
+      "how_to_use": "1. Ön Hazırlık: Aracı pH-nötr şampuanla ön yıkayın, yüzey ıslak bırakılmalı.\n2. Püskürt & Yay: Şişeyi çalkalayın, panel başına bolca püskürtün. Q²M SilkMitt EVO ile hafifçe yayın.\n3. Bekletme: 30-90 sn arası reaksiyona bırakın. Kurumasına izin vermeyin.\n4. Durulama: Basınçlı suyla paneli iyice durulayın.\n5. Kontrol: Kalan beading varsa tekrarlayın veya Q²M Prep ile son pas geçin.",
+      "when_to_use": "Yeni araç teslimatında fabrika mumunu sökmek için, eski seramik kaplamayı sökme için, mat boya high-spot düzeltmesi için, PPF ve vinil hazırlığında kullanılır.",
+      "target_surface": "Araç boyası, cam, plastik, PPF, mat vernik",
+      "why_this_product": "• Eski seramik, sealant, wax ve fabrika mumlarını söker\n• pH-nötr, boya ve mat güvenli\n• Polisaj gerekmeden high-spot düzeltme\n• 30 saniyede etki - zamandan tasarruf"
+    },
+    "faq": [
+      {"question": "Seramik kaplamayı tamamen söker mi?", "answer": "Evet, 1-2 uygulamada kaplamayı kimyasal olarak zayıflatır; gerektiğinde hafif polisajla tamamlanabilir."},
+      {"question": "Mat/satin boyada iz bırakır mı?", "answer": "Hayır, aşındırıcı içermez; mat dokuyu parlatmaz. Durulama sonrası iz kalmaz."},
+      {"question": "Trim ve krom parçalar güvenli mi?", "answer": "Evet, pH-nötr formül metal/trim üzerinde leke yapmaz; yine de 60 sn'den fazla bekletmeyin."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-TOTR1000M"]}
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "sku": "Q2M-GPYA500M",
+  "last_updated": "2026-02-04T14:35:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Glass+ Plus Araç Cam Yağmur Kaydırıcı Su İtici ve Temizleyici - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661274",
+    "group": "glass_cleaner",
+    "sub_type": "glass_hydrophobic_sealant"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:35:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:35:00Z",
+    "template_fields": {
+      "function": "Temizlik + Hidrofobik Koruma",
+      "ph_level": "Nötr (pH 7)",
+      "volume": "500 ml",
+      "consumption": "40 ml/araç",
+      "protection_duration": "4 hafta",
+      "ammonia_free": true
+    },
+    "content": {
+      "how_to_use": "1. Püskürtme: Cama eşit şekilde püskürtün.\n2. Silme: Temiz cam mikrofiber ile tek yönde silin.\n3. Tamponlama: Kuru mikrofiber ile fazlalığı alın.\n4. Sonuç: Lekesiz, su itici cam yüzeyi elde edin.",
+      "when_to_use": "Araç iç ve dış camlarında temizlik ile birlikte su iticilik kazandırmak için kullanılır. Yağmurlu günlerde düşük hızlarda bile su damlaları hızla akıp gider.",
+      "target_surface": "Ön cam, yan camlar, aynalar, iç camlar, LCD ekranlar",
+      "why_this_product": "• 500 ml - yaklaşık 12 araç kapasitesi\n• 2in1 formül - temizlik + hidrofobik koruma\n• 4 haftaya kadar su iticilik\n• Antistatik, kaygan ve parlak sonuç"
+    },
+    "faq": [
+      {"question": "1000 ml ile farkı nedir?", "answer": "Aynı formül, sadece boyut farkı. 500 ml bireysel kullanım, 1000 ml profesyonel kullanım için uygundur."},
+      {"question": "Kaç araç için yeterli?", "answer": "Araç başına 40 ml tüketimle yaklaşık 12 araç için yeterlidir."},
+      {"question": "Silecek kalkması yapar mı?", "answer": "Hayır, doğru uygulama ile sileceklerle uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-GPYA1000M"]}
+  }
+}

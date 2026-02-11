@@ -1,0 +1,117 @@
+{
+  "sku": "22.828.281.001",
+  "last_updated": "2026-02-04T13:00:00Z",
+  "status": "enriched",
+
+  "notes": {
+    "sub_type_review": "Template'de sub_type 'heavy_cut_compound' olarak işaretli ancak ürün açıklamasına göre bu bir 'medium_cut_polish' (ara kat pastası). Review gerekli."
+  },
+
+  "product_info": {
+    "title": "MENZERNA 2500 İnce Çizik Giderici Pasta - 250 ml",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "heavy_cut_compound",
+    "suggested_sub_type": "medium_cut_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:00:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna 2500: Yumuşak Boyalar ve Yüksek Parlaklık İçin Uzman Çözüm (250 ml)\n\nMenzerna Medium Cut Polish 2500, özellikle orta ve yumuşak karakterli, hassas vernik yüzeyleri için tasarlanmış bir ara kat pastasıdır. En büyük özelliği, hassas boyalarda sıkça karşılaşılan mikro-çizilme (micro-marring) riskini ortadan kaldıran, kolayca kırılabilen özel aşındırıcı partiküller içermesidir.",
+        "extracted_specs": {
+          "cut_level": 5,
+          "finish_level": 7,
+          "silicone_free": true,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "abrasive_type": "diminishing"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Yumuşak ve Hassas Boyalar", "Tek Adımda Çizik Giderme ve Parlatma", "Keçe İzi Giderme", "Hologram ve Hare Giderme"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": ["Menzerna Medium Cut Polish 2200"]
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 5,
+        "finish_level": 7,
+        "silicone_free": true,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "abrasive_type": "diminishing",
+        "machine_compatibility": ["rotary", "orbital", "hand"],
+        "recommended_pads": ["Menzerna Sarı Ara Kat Pedi", "MG PADS Turuncu Orta Kesim Cila Süngeri", "Menzerna Yeşil Final Pedi"]
+      },
+      "content": {
+        "use_cases": ["Yumuşak ve Hassas Boyalar", "Tek Adımda Çizik Giderme ve Parlatma", "Keçe İzi Giderme", "Hologram ve Hare Giderme"],
+        "benefits": ["Mikro-çizilme riski yok", "Diminishing aşındırıcılar - güvenli çalışma", "One-step polisaj imkanı", "Yumuşak boyalarda lider parlaklık"]
+      },
+      "faq": [],
+      "related_products": ["Menzerna Medium Cut Polish 2200", "Menzerna 3800 Super Finish", "GYEON Q²M Prep", "INNOVACAR D2 CHECK"]
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:00:00Z",
+    "template_fields": {
+      "cut_level": 5,
+      "finish_level": 7,
+      "machine_compatibility": ["rotary", "orbital", "hand"],
+      "recommended_pad_types": ["medium_cut_foam_pad", "finishing_foam_pad"],
+      "dusting_level": null,
+      "working_time": null,
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "abrasive_type": "diminishing",
+      "safe_for_soft_paint": true,
+      "wipe_off_ease": null
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyinin temiz, kuru ve serin olduğundan emin olun. Hassas trimleri Q1 Tapes Premium Maskeleme Bantları ile koruyun.\n2. Makine & Ped Seçimi: Flex Rotary, Orbital makineler veya elle uygulama yapılabilir.\n   - Daha Fazla Kesim: Menzerna Sarı Ara Kat Pedi (Yellow Polishing Pad)\n   - Daha Parlak Bitiş (Yumuşak Boyalarda): Menzerna Yeşil Final Pedi (Green Finishing Pad)\n3. Ürün Miktarı: Kullanacağınız makineye göre 1-4 nohut tanesi büyüklüğünde ürünü pede uygulayın.\n4. Uygulama: Makineyi düşük hızda başlatarak pastayı yüzeye yayın. Ardından hızı orta seviyeye çıkarın:\n   - Rotary: 2-3 hız ayarı\n   - Orbital: 3-4 hız ayarı\n5. Çalışma: Yüzeyde hafif şeffaf/yağlı bir film kalana kadar çalışın.\n6. Temizlik: Polisaj sonrası kalıntıları yumuşak mikrofiber bezle silin.\n7. Pro-Tip: Uzun süreli işlemlerde çift ped yöntemi kullanın.",
+      "when_to_use": "Orta ve yumuşak karakterli, hassas vernik yüzeylerinde; mikro-çizilme (micro-marring) riski olan boyalarda; hafif ila orta dereceli kusurlarda tek adımda düzeltme ve parlaklık istediğinizde; agresif pasta sonrası keçe izi ve hare gidermede; hologram ve dairesel çizikleri (swirl marks) yok etmek için kullanılır.",
+      "target_surface": "Yumuşak ve hassas vernikler, mikro-çizilmeye yatkın boyalar, orta sertlikte araç boyaları, keçe izi kalmış yüzeyler",
+      "why_this_product": "• Diminishing (akıllı) aşındırıcı partiküller sayesinde mikro-çizilme riski ortadan kalkar.\n• Yumuşak boyalarda güvenle çalışabilirsiniz - hassas yüzeylere zarar vermez.\n• 5/10 kesim ile 7/10 parlaklık - birçok durumda tek adımda hem düzeltme hem bitiş.\n• Silikonsuz ve dolgusuz formül - gördüğünüz sonuç gerçektir."
+    },
+    "faq": [
+      {
+        "question": "Menzerna 2500 yumuşak boyalarda güvenli mi?",
+        "answer": "Evet, Menzerna 2500 özellikle yumuşak ve hassas boyalar için tasarlanmıştır. Diminishing (kolayca kırılabilen) aşındırıcı partikülleri sayesinde mikro-çizilme (micro-marring) riskini ortadan kaldırır."
+      },
+      {
+        "question": "Tek adımda bitiş yapabilir miyim?",
+        "answer": "Evet, hafif ila orta dereceli kusurlarda Menzerna 2500 tek adımda hem tatmin edici düzeltme hem de göz alıcı parlaklık sağlayabilir. Özellikle yumuşak boyalarda one-step polisaj için mükemmel bir seçimdir."
+      },
+      {
+        "question": "Menzerna 2200 ile 2500 arasındaki fark nedir?",
+        "answer": "Menzerna 2200 daha fazla kesim gücüne (6/10) sahiptir ve sert, çizilmeye dirençli boyalar için tasarlanmıştır. 2500 ise 5/10 kesim ile yumuşak boyalarda güvenli çalışma ve yüksek parlaklık önceliklidir. Sert vernik ve derin çizik varsa 2200, yumuşak boya ve güvenlik önceliği ise 2500 tercih edilmelidir."
+      },
+      {
+        "question": "Keçe izi gidermede kullanılabilir mi?",
+        "answer": "Evet, agresif pasta ve yün keçe uygulamaları sonrası yüzeyde kalan hare ve ince çizikleri gidermek için mükemmel bir ara kat adımıdır."
+      },
+      {
+        "question": "Elle uygulama yapabilir miyim?",
+        "answer": "Evet, Menzerna 2500 elle uygulamaya da tam uyumludur. Ancak makine ile uygulama daha etkili ve hızlı sonuçlar verir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

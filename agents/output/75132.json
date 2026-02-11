@@ -1,0 +1,42 @@
+{
+  "sku": "75132",
+  "last_updated": "2026-02-04T23:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Dory Marin, Tekne Tik Ve Parke Temizleyici Ve Koruyucu (1:50 Konsantre) - 1 lt",
+    "brand": "FRA-BER",
+    "barcode": "8027486750030",
+    "group": "interior_cleaner",
+    "sub_type": "wood_cleaner"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T23:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T23:00:00Z",
+    "template_fields": {
+      "target_surfaces": ["Tik", "Ahşap", "Parke"],
+      "concentrate": true,
+      "dilution_ratio": "Saf - 1:50",
+      "finish": "Kendinden Parlak",
+      "edta_free": true,
+      "nta_free": true,
+      "volume_lt": 1
+    },
+    "content": {
+      "how_to_use": "1. Günlük Temizlik: 25-40 ml DORY + 8 L su (1:199 - 1:319) ile paspas/temiz bez ile silin, durulamaya gerek yok.\n2. Yoğun Onarım/Parlatma: Saf veya 1:1 (500 ml ürün + 500 ml su) oranında kuru yüzeye mop veya bezle uygulayın.\n3. Homojen film bırakın ve kurumasını bekleyin.\n4. Not: Yeni veya hassas tik yüzeylerde görünmeyen bir noktada kısa süreli test yapın.",
+      "when_to_use": "Güverte tik kaplaması ve kokpit zeminlerinde, ahşap mobilya ve iç kabin parkelerinde, fiberglas gövde üzerindeki ahşap dekor parçalarında, sezon sonu bakımda ve charter dönüşü restorasyonda kullanılır.",
+      "target_surface": "Güverte tik kaplaması, kokpit zeminleri, ahşap mobilya, iç kabin parkeleri, yelkenli ve motoryat koridor basamakları",
+      "why_this_product": "• 3'ü 1 arada - temizler, parlatır ve korur tek adımda\n• Mikro çizik onarımı - küçük aşınmaları doldurur, tikin rengine canlılık kazandırır\n• Kaymaz ve leke dirençli film - uzun ömürlü koruyucu tabaka\n• EDTA/NTA içermez - marina ve tersanelerde çevre dostu temizlik"
+    },
+    "faq": [
+      {"question": "Kaymaz özelliği var mı?", "answer": "Evet, saf kullanıldığında uzun ömürlü, kaymaz, leke dirençli ve kendinden parlak bir film oluşturur."},
+      {"question": "Çevre dostu mu?", "answer": "Evet, EDTA ve NTA içermeyen formülü deniz ekosistemine saygılıdır."},
+      {"question": "Günlük temizlik için uygun mu?", "answer": "Evet, 1:200 civarı seyreltme ile hızlı mop temizliğinde tuz lekesi ve tozu alır."},
+      {"question": "1 litreden ne kadar çözelti elde edilir?", "answer": "1:50 seyreltme ile 50 litreye kadar hazır solüsyon elde edilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

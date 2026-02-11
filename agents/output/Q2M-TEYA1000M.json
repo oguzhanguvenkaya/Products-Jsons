@@ -1,0 +1,45 @@
+{
+  "sku": "Q2M-TEYA1000M",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Tire Express Lastik Parlatıcı ve Koruyucu - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661410",
+    "group": "tire_dressing",
+    "sub_type": "tire_gel"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "function": "Lastik Parlatıcı ve Koruyucu",
+      "form": "Su bazlı jel",
+      "finish": "Mat-saten (4/10)",
+      "hydrophobic": true,
+      "uv_protection": true,
+      "no_sling": true,
+      "consumption": "10-15 ml/araç",
+      "durability": "2-3 yıkama",
+      "volume_ml": 1000,
+      "made_in": "Güney Kore"
+    },
+    "content": {
+      "how_to_use": "1. Lastikleri Q²M TireCleaner ile fırçalayın ve durulayın.\n2. Yıkama sonrası nemli yüzeye 2-3 fıs Tire Express sıkın.\n3. Q²M TireApplicator ile yanak boyunca ince ve eşit film oluşturun.\n4. 10 dakika gölgede kurumaya bırakın.\n5. İkinci kat için 5 dakika bekleyin.\n6. Fazlalığı kuru mikrofiberle hafifçe tamponlayın.",
+      "when_to_use": "Yıkamadan hemen sonra lastiklere fabrika çıkışı mat siyahlık kazandırmak için kullanın. Profesyonel detaylama merkezleri ve filo bakımı için ekonomik boy.",
+      "target_surface": "Binek ve SUV lastik yanakları, kauçuk kapı fitilleri, çamurluk dodikleri, ATV/motosiklet lastikleri",
+      "why_this_product": "• Su bazlı formül - solvent içermez, kauçuğu korur\n• Mat fabrika bitişi - yapay parlaklık yerine doğal siyah\n• No-sling teknolojisi - hızlı kurur, gövdeye sıçramaz\n• 1000 ml ekonomik boy - yaklaşık 65 uygulama"
+    },
+    "faq": [
+      {"question": "Lastik parlatıcısı gövdeye sıçrar mı?", "answer": "Hayır, su bazlı ve hızlı kuruyan formülü sayesinde sling yapmaz."},
+      {"question": "Üst üste kat atabilir miyim?", "answer": "Evet, ilk kat kuruduktan 5 dakika sonra ikinci kat uygulanabilir."},
+      {"question": "Ne sıklıkla yenilemeliyim?", "answer": "Her 2-3 yıkamada veya görünüm matlaştığında tek kat uygulama yeterlidir."},
+      {"question": "Plastik trimlerde kullanabilir miyim?", "answer": "Mat kauçuk/plastik yüzeylere uygundur; parlak trimlerde görünümü test edin."}
+    ],
+    "relations": {"use_before": [], "use_after": ["Q2M-TCYA500M", "Q2M-TCYA1000M"], "use_with": [], "accessories": [], "alternatives": ["Q2M-TE500M"]}
+  }
+}

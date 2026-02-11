@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "13724",
+    "product_name": "Epoca EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml",
+    "barcode": "13724",
+    "url": "https://automotivesuperstore.com.au/epoca-ep01maxinbrw?filterVid=26183",
+    "url_index": 1,
+    "domain": "automotivesuperstore.com.au",
+    "scraped_at": "2026-02-07T22:10:50.947Z",
+    "scrape_duration_ms": 230,
+    "http_status": 403,
+    "content_type": "text/html; charset=UTF-8",
+    "content_length_bytes": 5980,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "Attention Required! | Cloudflare",
+    "raw_markdown": "Please enable cookies.\n\n# Sorry, you have been blocked\n\n## You are unable to access automotivesuperstore.com.au\n\n## Why have I been blocked?\n\nThis website is using a security service to protect itself from online attacks. The action you just performed triggered the security solution. There are several actions that could trigger this block including submitting a certain word or phrase, a SQL command or malformed data.\n\n## What can I do to resolve this?\n\nYou can email the site owner to let them know you were blocked. Please include what you were doing when this page came up and the Cloudflare Ray ID found at the bottom of this page.\n\nCloudflare Ray ID: **9ca6383c6a42d2d7**\n\nYour IP:\nClick to reveal\n151.250.75.135\n\nPerformance & security by [Cloudflare](https://www.cloudflare.com/5xx-error-landing)",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": true
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_1_automotivesuperstore.com.au.html"
+  }
+}

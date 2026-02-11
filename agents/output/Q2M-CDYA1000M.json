@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-CDYA1000M",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM CeramicDetailer Seramik Yüzey Detaylandırıcı ve Parlatıcı - 1000 ml", "brand": "GYEON", "barcode": "8683492661182", "group": "paint_protection_quick", "sub_type": "quick_detailer"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"durability_weeks": 6, "contains_sio2": true, "consumption_ml": 50, "ph_tolerance": "4-9", "application_method": "Islak / Kuru", "features": ["Seramik hidrofobi takviyesi", "SiO² içerik", "Islak/kuru esneklik", "Düşük tüketim"]},
+    "content": {
+      "how_to_use": "1. Hazırlık: Yüzey tozsuz ve serin olsun.\n2. Uygulama: Q²M PolishWipe üzerine 2-3 fıs sıkın; paneli ince filmle kaplayın.\n3. Silme: Q²M SoftWipe ile kuru parlaklık çıkana dek hafifçe bufflayın.\n4. Islak Kullanım: Durulama sonrası ıslak panelde 1 fıs; SilkDryer ile eşzamanlı kurulayın.",
+      "when_to_use": "Kurutma yardımı olarak su lekesi riskini sıfırlamak için, haftalık parlaklık tazelemesi için, kaplamasız araçlarda hızlı seramik koruma için kullanılır.",
+      "target_surface": "Araç boyası, cam, jant, plastik trim - kaplamalı veya kaplamasız",
+      "why_this_product": "• Seramik kaplama performansını 2x'e kadar uzatır\n• Çıplak boyada 6 hafta koruma\n• Islak veya kuru fark etmeksizin uygulama\n• Panel başına 1-2 fıs - ekonomik kullanım"
+    },
+    "faq": [
+      {"question": "Wax veya sealant üzerine uygulanabilir mi?", "answer": "Evet, uyumludur; mevcut tabakanın parlaklığını ve kayganlığını artırır."},
+      {"question": "Camda yağlı film oluşturur mu?", "answer": "Hayır; camda da boncuklanma sağlar, fazla ürün kalırsa kuru bezle silin."},
+      {"question": "Ne sıklıkla kullanılmalı?", "answer": "Hidrofobinin zayıfladığını gördüğünüzde veya 4-6 haftada bir yenileyin."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-CDYA500M"]}
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "sku": "701003",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bersolwax Seramik İçerikli Yeni Nesil Araç Yıkama Şampuanı - 1000 ml",
+    "brand": "FRA-BER",
+    "barcode": "8027486814077",
+    "group": "car_shampoo",
+    "sub_type": "ceramic_infused_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "contains_sio2": true,
+      "wash_and_wax": true,
+      "dilution_kova": "1:33 - 1:49",
+      "dilution_foam_lance": "1:3",
+      "hydrophobic": true,
+      "eco_friendly": true
+    },
+    "content": {
+      "how_to_use": "1. Gerekirse ön yıkama uygulayın.\n2. 1 litre suya karşılık 20-30 ml Bersolwax ekleyin.\n3. Çözeltiyi karıştırarak homojen hale getirin.\n4. Sünger veya eldiven ile araca yukarıdan aşağı uygulayın.\n5. Bol suyla durulayın.",
+      "when_to_use": "Wash & wax etkisi istenen yıkamalarda, koruyucu kaplama tazeleme için, kurulama süresini kısaltmak ve su iticilik sağlamak için kullanılır.",
+      "target_surface": "Binek araçlar, kamyonlar, motosikletler, karavanlar",
+      "why_this_product": "• SiO² (seramik) içerikli 3'ü 1 arada: Yıkar, cilalar, korur\n• Hidrofobik sonuç - kuruma süresini azaltır\n• EDTA ve NTA içermez, çevre dostu\n• Konsantre - 1 L ile 50 L çözelti"
+    },
+    "faq": [
+      {"question": "Wash & wax ne anlama geliyor?", "answer": "Tek adımda hem temizlik hem de koruyucu wax etkisi sağlayan formül demektir."},
+      {"question": "SiO² içeriği ne kadar koruma sağlar?", "answer": "Yıkama sırasında geçici hidrofobik tabaka bırakır, kalıcı koruma için seramik kaplama önerilir."},
+      {"question": "Mevcut kaplamaya zarar verir mi?", "answer": "Hayır, aksine mevcut wax veya kaplamaların ömrünü uzatır."},
+      {"question": "Köpük tabancasında kullanılabilir mi?", "answer": "Evet, 1:3 oranında seyreltilerek yoğun köpük elde edilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

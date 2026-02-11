@@ -1,0 +1,43 @@
+{
+  "sku": "19976",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "EPOCA ALFA TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre",
+    "brand": "EPOCA",
+    "barcode": "8003916060221",
+    "group": "sprayers_bottles",
+    "sub_type": "pump_sprayer"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "capacity_total_lt": 2.0,
+      "capacity_usable_lt": 1.8,
+      "nozzle_type": "Ayarlanabilir (sis - jet, ~7m menzil)",
+      "seal_type": "EPDM",
+      "pump_material": "PP",
+      "continuous_spray_lock": true,
+      "chemical_resistance": ["Alkaliler", "Ketonlar", "Alkoller"],
+      "color": "Gri/Beyaz"
+    },
+    "content": {
+      "how_to_use": "1. Alkali veya alkol bazlı kimyasalı şeffaf hazneye doldurun.\n2. Kapağı sıkıca kapatın ve pompayı basınçlandırın.\n3. Nozulu ayarlayın: ince sis veya düz jet (max 7m).\n4. Sürekli püskürtme için patentli kilitleme sistemini kullanın.\n5. Kullanım sonrası hazneyi temiz su ile durulayın.",
+      "when_to_use": "Endüstriyel temizlik, dezenfeksiyon, APC uygulamaları ve alkali/alkol bazlı kimyasallarla yapılan temizlik işlemlerinde kullanılır.",
+      "target_surface": "Endüstriyel ekipmanlar, zemin, araç yüzeyleri, genel temizlik alanları",
+      "why_this_product": "• 2 litre geniş kapasite\n• EPDM conta ile alkali ve alkol dayanımı\n• Patentli sürekli püskürtme kilidi\n• 7 metreye kadar jet atış mesafesi"
+    },
+    "faq": [
+      {"question": "EPDM conta hangi kimyasallarla uyumlu?", "answer": "Alkali ürünler, ketonlar (aseton dahil), alkoller ve %5'e kadar asetik asit çözeltileri ile uyumludur."},
+      {"question": "Hangi kimyasallar önerilmez?", "answer": "Aromatik hidrokarbonlar, yağlar, petrol türevleri ve güçlü mineral asitler EPDM contaya zarar verir."},
+      {"question": "NBR contalı modelden farkı nedir?", "answer": "EPDM versiyon alkali ve ketonlara dayanıklıyken, NBR versiyon sadece su bazlı ve agresif olmayan ürünlerle uyumludur."},
+      {"question": "Köpük yapıcı mı?", "answer": "Hayır, sıvı atım yapan basınçlı pompadır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["20009", "19956"]}
+  }
+}

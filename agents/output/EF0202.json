@@ -1,0 +1,43 @@
+{
+  "sku": "EF0202",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Yeni Araç Kokusu (New Car) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "8683492661496",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "New Car",
+      "durability_days": 45,
+      "design": "3D Karakter",
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Showroom'dan yeni çıkmış araç kokusunu yaşamak isteyen araç tutkunları için idealdir. Araç yolculuklarında modern ve taze bir atmosfer yaratır.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Sıfır araç kokusunu yeniden yaşatır\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• İtalyan kalitesi ve tasarımı"
+    },
+    "faq": [
+      {"question": "Gerçek yeni araç kokusuna benziyor mu?", "answer": "Evet, showroom'dan çıkan aracın taze ve temiz kokusunu mümkün olan en yakın şekilde yansıtır."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Alkol içeriyor mu?", "answer": "Hayır, alkol ve toksik madde içermeyen güvenli formüle sahiptir."},
+      {"question": "Eski araçlarda da kullanılabilir mi?", "answer": "Evet, her yaştaki araçta yeni araç kokusu deneyimi yaşatır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0101", "EF0303", "EF0606"]}
+  }
+}

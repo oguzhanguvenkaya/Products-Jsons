@@ -1,0 +1,23 @@
+{
+  "sku": "79587-643",
+  "product_name": "Fra-Ber Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Mavi) - 1000 ml",
+  "barcode": "79587-643",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:37:44.589Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/pompa-precompressione-manuale-2-litri-spray-pump?variant=43682745221328",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Fra-Ber 2-Litre Manual Pressure Spray Pump",
+      "content_length": 17236,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

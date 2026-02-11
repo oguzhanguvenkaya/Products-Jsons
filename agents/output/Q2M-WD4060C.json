@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-WD4060C",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Waffle Dryer Petek Dokulu Cam Silme Bezi Ve Yüzey Kurulama Havlusu - 40x60 cm", "brand": "GYEON", "barcode": "8809432676201", "group": "microfiber", "sub_type": "glass_cloth"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "40x60 cm", "gsm": 390, "type": "Waffle Weave", "material_blend": "Polyester/Polyamid", "absorption_level": "Çok yüksek (9/10)", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. Kuru ve temiz olarak kullanmaya başlayın.\n2. Cam veya araç yüzeylerinde silme işlemini hafif baskı uygulayarak yapın.\n3. Kurulama sırasında havluyu düzenli olarak ters çevirerek temiz yüzeylerden yararlanın.\n4. 30°C'de Towelwash ile yıkayın, asarak kurutun.",
+      "when_to_use": "Araç camları, seramik kaplamalı yüzeyler, farlar, jantlar, plastik trim, ev ve ofis camları için kullanılır.",
+      "target_surface": "Cam, ayna, boyalı yüzey, plastik aksam, ekran",
+      "why_this_product": "• 40x60 cm büyük boyut - daha geniş çalışma alanı\n• 390 GSM petek dokulu yapı\n• Çiziksiz, iz bırakmayan yüzey kurulama\n• Tüy veya mikrofiber kalıntısı bırakmaz"
+    },
+    "faq": [
+      {"question": "40x40 cm versiyondan farkı nedir?", "answer": "Aynı kalite ve özellikler, sadece daha büyük boyut - daha geniş çalışma alanı."},
+      {"question": "Hangi boyut tercih edilmeli?", "answer": "Geniş yüzeyler için 40x60, detay işler ve dar alanlar için 40x40 tercih edilebilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-GLA500M"], "accessories": [], "alternatives": ["Q2M-WD4040C", "Q2M-GWE4040"]}
+  }
+}

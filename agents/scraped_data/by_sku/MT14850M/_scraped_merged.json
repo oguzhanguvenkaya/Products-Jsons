@@ -1,0 +1,71 @@
+{
+  "sku": "MT14850M",
+  "product_name": "Gyeon Quartz Q1 Premium Maskeleme Bantı 48mm x 50 mm 1 Adet",
+  "barcode": "MT14850M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:39:27.343Z",
+  "sources": [
+    {
+      "url": "https://rollroy.com/uk/q1-premium-masking-tape-50-mm-x-50-mtr-301050",
+      "domain": "rollroy.com",
+      "language": "en",
+      "page_title": "Q1 Premium Masking tape 50 mm x 50 mtr",
+      "content_length": 9971,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.mypaintbrush.co.uk/q1-premium-masking-tape-2",
+      "domain": "mypaintbrush.co.uk",
+      "language": "en",
+      "page_title": "Just a moment...",
+      "content_length": 41,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": true,
+      "has_reviews": false,
+      "has_related": false
+    },
+    {
+      "url": "https://refinishsupplies.co.uk/product/48mm-premium-automotive-masking-tape-box-20/",
+      "domain": "refinishsupplies.co.uk",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": false,
+      "has_related": false
+    },
+    {
+      "url": "https://www.ccpaints.co.uk/product-page/q1-premium-automotive-masking-tape-48mm-2",
+      "domain": "ccpaints.co.uk",
+      "language": "en",
+      "page_title": "Q1 Premium Automotive Masking Tape 48mm (2&quot;) | CCPaints",
+      "content_length": 2162,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.q1tapes.com/en/automotive/masking-tapes/masking-tape-product/q1-premium-masking-tape",
+      "domain": "q1tapes.com",
+      "language": "en",
+      "page_title": "Premium Automotive Masking Tape: Superior Quality for Precise Masking",
+      "content_length": 8372,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

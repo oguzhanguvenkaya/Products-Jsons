@@ -1,0 +1,44 @@
+{
+  "sku": "26.908.099.001",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MENZERNA İnce Kesim Ara Kat Pasta Süngeri 2li Paket (Sarı) - 95mm",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Medium Cut",
+      "color": "Sarı",
+      "diameter_mm": 95,
+      "base_diameter_mm": 75,
+      "machine_compatibility": ["Rotary", "Orbital"],
+      "hardness": "Medium",
+      "washable": true,
+      "safety_edge": true,
+      "pack_quantity": 2
+    },
+    "content": {
+      "how_to_use": "1. Mini/spot polisaj makinenize 75mm tabanlık takın.\n2. Pedi tabanlığa yerleştirin ve düzgün oturduğundan emin olun.\n3. Ped yüzeyine orta kesim pasta damlatın.\n4. Düşük-orta devirde dar alanlarda çapraz geçişlerle çalışın.\n5. Ped kirlendikçe ikinci pedi kullanın.\n6. Kullanım sonrası pedleri ılık suyla yıkayın.",
+      "when_to_use": "Dar alanlarda orta düzey çizik gideriminde, kalın pasta sonrası ara kat uygulamalarında, A direkleri ve kenar bölgelerinde tek adım polisajda kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, dar alanlar, köşeler, kenarlar",
+      "why_this_product": "• 2'li paket ile kesintisiz çalışma imkanı\n• 95mm çapı ile dar alanlara erişim\n• Orta sertlik ile dengeli kesim ve parlaklık\n• Menzerna orta kesim pastalarla optimize edilmiş"
+    },
+    "faq": [
+      {"question": "Bu ped hangi pastalarla kullanılır?", "answer": "Medium Cut Polish 2200, Medium Cut Polish 2500 ve One Step Polish 3in1 ile optimize edilmiştir."},
+      {"question": "Hangi tabanlık boyutu gerekir?", "answer": "75mm (3 inç) çapında tabanlık diskleri ile uyumludur."},
+      {"question": "Kırmızı ped sonrası kullanılmalı mı?", "answer": "Evet, ağır kesim (kırmızı ped) sonrası ara kat olarak kullanılarak kusurları giderir."},
+      {"question": "Tek adım polisajda kullanılır mı?", "answer": "Evet, orta düzey kusurlar için One Step 3in1 ile tek adımda sonuç alınabilir."}
+    ],
+    "relations": {"use_before": ["26.909.099.001"], "use_after": ["26.907.099.001"], "use_with": ["22.828.281.001", "22.200.261.001"], "accessories": ["26.931.099.001"], "alternatives": ["GPRO060"]}
+  }
+}

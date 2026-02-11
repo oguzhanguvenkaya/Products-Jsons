@@ -1,0 +1,83 @@
+{
+  "sku": "Q2M-CDYA500M",
+  "product_name": "Gyeon Q²m Ceramicdetailer Seramik Yüzey Detaylandırıcı ve Parlatıcı - 500 ml -Su Itici Oto Ci",
+  "barcode": "Q2M-CDYA500M",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:25:07.309Z",
+  "sources": [
+    {
+      "url": "https://gyeonusa.com/products/q2m-ceramic-detailer",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q²M Ceramic Detailer | Gyeon Quartz USA",
+      "content_length": 10037,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-ceramic-detailer",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q²M Ceramic Detailer | Hybrid Ceramic Detailer",
+      "content_length": 35941,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.in2detailing.co.uk/products/gyeon-q2m-ceramic-detailer?variant=39414938927183",
+      "domain": "in2detailing.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Ceramic Detailer\n&ndash; in2Detailing",
+      "content_length": 31168,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.cleanandshiny.co.uk/collections/gyeon",
+      "domain": "cleanandshiny.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Car Care Products UK | Ceramic Coatings &amp; Detailing",
+      "content_length": 20213,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://fastcarpartsonline.co.uk/products/gyeon-q2m-ceramic-detailer-500ml",
+      "domain": "fastcarpartsonline.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Ceramic Detailer 500ml\n &ndash; FastCarPartsOnline",
+      "content_length": 34269,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autogeek.net/gyeon-q2m-ceramic-detailer.html",
+      "domain": "autogeek.net",
+      "language": "en",
+      "page_title": "Gyeon Q2M Ceramic Detailer | Autogeek.net",
+      "content_length": 8623,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sku": "Q2M-BPYA1000M",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON QM Bathe+ Plus Seramik Bazlı PH Nötr Cilalı Oto Şampuanı - 1000 ml",
+    "brand": "GYEON",
+    "barcode": "8683492661120",
+    "group": "car_shampoo",
+    "sub_type": "ceramic_infused_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "ph_level": "6-7 (Nötr)",
+      "contains_sio2": true,
+      "sio2_percentage": 5,
+      "durability_weeks": 8,
+      "foam_level": "high",
+      "lubricity_level": "9/10",
+      "consumption_ml_per_car": 20
+    },
+    "content": {
+      "how_to_use": "1. Çift Kova Yöntemi: 12 L suya 15-20 ml Bathe+ karıştırın, yıkama eldiveniyle panel panel temizlik yapın.\n2. Köpük Lance: 1:10 oranında seyreltip araca köpük halinde püskürtün, 2 dk bekletin.\n3. Son Dokunuş (Top-Up): Araç temiz ve ıslakken eldivene 1 pompa sıkın, boyaya yayarak ek hidrofobi katmanı oluşturun.\n4. Durulama: Kurumadan bol suyla durulayın, SilkDryer ile kurulayın.",
+      "when_to_use": "Seramik kaplama tazeleme, hidrofobi güçlendirme, kış bakımında çamur ve tuzun tutunmasını azaltma için kullanılır.",
+      "target_surface": "Araç boyası, seramik kaplama, wax, cam, jant, plastik trim",
+      "why_this_product": "• Dünyanın ilk SiO² seramik içerikli pH nötr şampuanı\n• %5 SiO² ile 8 haftaya kadar hidrofobi koruma\n• Yıkama sırasında koruma katmanı bırakır\n• Kurutma süresini kısaltır, su boncuklanması sağlar"
+    },
+    "faq": [
+      {"question": "Sıcak panelde kullanabilir miyim?", "answer": "Hayır; ürün kuruyabilir ve iz bırakabilir. Araç soğukken gölgede çalışın."},
+      {"question": "Wax veya sealantımı söker mi?", "answer": "Aksine, pH nötr formülü mevcut korumayı artırır ve ömrünü uzatır."},
+      {"question": "Köpük lance için doğru seyreltme nedir?", "answer": "100 ml Bathe+ : 900 ml su (1:10) yüksek tutunma sağlar."},
+      {"question": "Haftada kaç kez kullanabilirim?", "answer": "Hidrofobiyi güçlendirmek için her yıkamada ya da 2 haftada bir düzenli kullanım idealdir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-FYA1000M"], "accessories": [], "alternatives": ["Q2M-BPYA500M"]}
+  }
+}

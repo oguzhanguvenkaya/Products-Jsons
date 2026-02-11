@@ -1,0 +1,106 @@
+{
+  "sku": "20.144.261.001",
+  "last_updated": "2026-02-04T13:25:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "MENZERNA Likit Matlaştırıcı Pasta (Liquid Matt) - 1 lt",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "sanding_paste"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:25:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna Liquid Matt, boya ve kaporta atölyeleri için özel olarak tasarlanmış, geleneksel zımparalamaya modern bir alternatif sunan, su bazlı bir yüzey hazırlık pastasıdır. Temel amacı, boya veya yeniden vernikleme işlemi öncesinde yüzeyi matlaştırarak, boyanın mükemmel bir şekilde yapışacağı homojen bir temel oluşturmaktır. Bu 'likit zımpara', özellikle oval ve ulaşılması zor yüzeylerde kolaylık sağlarken, aynı zamanda su lekesi ve kireç gibi kalıntıları da zahmetsizce giderir.",
+        "extracted_specs": {
+          "cut_level": "Sanding Grade",
+          "finish_level": "Matte",
+          "silicone_free": true,
+          "formula_base": "water_based",
+          "function": "Surface Preparation / Matting"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Boya ve kaporta hazırlığı", "Zımparaya alternatif", "Kıvrımlı ve zorlu yüzeyler", "Leke ve kalıntı giderme"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "silicone_free": true,
+        "formula_base": "water_based",
+        "function": "Surface Preparation / Matting",
+        "machine_compatibility": ["orbital", "hand"],
+        "recommended_pads": ["Scotch Brite", "Keçe"]
+      },
+      "content": {
+        "use_cases": ["Boya hazırlığı", "Yüzey matlaştırma", "Zımpara alternatifi", "Kalıntı giderme"],
+        "benefits": ["Geleneksel zımparaya modern alternatif", "Kıvrımlı yüzeylerde kolay uygulama", "Su lekesi ve kireç giderir", "Silikonsuz formül"]
+      },
+      "faq": [],
+      "related_products": []
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:25:00Z",
+    "template_fields": {
+      "cut_level": "Sanding Grade",
+      "finish_level": "Matte",
+      "machine_compatibility": ["orbital", "hand"],
+      "recommended_pad_types": ["scotch_brite", "felt"],
+      "dusting_level": null,
+      "working_time": null,
+      "contains_protection": false,
+      "silicone_free": true,
+      "bodyshop_safe": true,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "function": "Surface Preparation / Matting"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Yüzeyi temiz ve yağsız hale getirin. Çalışma alanını küçük tutun.\n2. Uygulama Araçları: Scotch Brite veya keçe ped ile Orbital makine veya elle uygulama yapılabilir.\n3. Ürün Uygulama: Pede yeterli miktarda ürün alın. Pedin sürekli ıslak kalması önemlidir.\n4. Çalışma: Dairesel hareketlerle yüzeyde çalışın. Homojen bir mat görünüm elde edene kadar devam edin.\n5. Ped Temizliği: Çalışma esnasında pedi düzenli olarak temizleyin ve ıslak tutun.\n6. Temizlik: İşlem sonrası yüzeyi temiz su ile silin ve kalıntı kalmadığından emin olun.\n7. Pro-Tip: Sürekli ıslak ve temiz ped ile homojen sonuç alırsınız.",
+      "when_to_use": "Boya veya yeniden vernikleme işlemi öncesinde yüzeyi matlaştırmak için kullanılır. Geleneksel zımparalamaya güvenli, hızlı ve kontrollü bir alternatif sunar. Oval ve girintili/çıkıntılı yüzeylerde zımpara kağıdının ulaşamadığı yerlerde idealdir. Boya hazırlığı yaparken su lekesi ve kireç gibi inatçı kalıntıları gidermek için de etkilidir.",
+      "target_surface": "Boya öncesi hazırlanacak yüzeyler, kıvrımlı paneller, zorlu ulaşımlı alanlar, su lekeli ve kireçli yüzeyler",
+      "why_this_product": "• Geleneksel zımparaya modern ve güvenli alternatif - tecrübe gerektirmeden homojen sonuç.\n• Kıvrımlı ve zorlu yüzeylerde kolaylık - zımparanın ulaşamadığı yerlerde bile etkili.\n• 'Likit zımpara' teknolojisi - boyanın mükemmel yapışacağı homojen temel oluşturur.\n• Su lekesi ve kireç giderme özelliği - boya hazırlığında ekstra temizlik.\n• Silikonsuz formül - boya atölyeleri için güvenli."
+    },
+    "faq": [
+      {
+        "question": "Liquid Matt zımparadan daha mı iyi?",
+        "answer": "Farklı amaçlara hizmet ederler. Liquid Matt, özellikle kıvrımlı ve zorlu yüzeylerde zımparadan daha güvenli ve kontrollü sonuçlar verir. Tecrübe gerektirmeden homojen matlaştırma sağlar."
+      },
+      {
+        "question": "Hangi yüzeylerde kullanılabilir?",
+        "answer": "Boya veya vernik uygulaması öncesi hazırlanması gereken tüm otomotiv yüzeylerinde kullanılabilir. Özellikle oval ve girintili panellerde idealdir."
+      },
+      {
+        "question": "Boya atölyesinde güvenli mi?",
+        "answer": "Evet, silikonsuz ve su bazlı formülü boya ve kaporta atölyeleri için tamamen güvenlidir. Yeni boyanın mükemmel tutunmasını sağlar."
+      },
+      {
+        "question": "Elle uygulama yapabilir miyim?",
+        "answer": "Evet, Scotch Brite veya keçe ped ile elle uygulama yapılabilir. Orbital makine ile daha hızlı ve homojen sonuçlar alınır."
+      },
+      {
+        "question": "Su lekelerini de giderir mi?",
+        "answer": "Evet, boya hazırlığı yaparken yüzeydeki su lekesi ve kireç gibi inatçı kalıntıları da zahmetsizce giderir."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

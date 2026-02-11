@@ -1,0 +1,23 @@
+{
+  "sku": "76389",
+  "product_name": "Fra-Ber Bean Classic Man Spray - Maskülen Erkek Kokusu Oto Kokusu – 150ML",
+  "barcode": "76389",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:14:40.346Z",
+  "sources": [
+    {
+      "url": "https://www.autopia.ie/product/fra-ber-bean-classic-air-freshener/",
+      "domain": "autopia.ie",
+      "language": "en",
+      "page_title": "Autopia Professional Detailing Products",
+      "content_length": 5404,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

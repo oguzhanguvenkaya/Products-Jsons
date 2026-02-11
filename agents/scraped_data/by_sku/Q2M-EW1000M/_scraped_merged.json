@@ -1,0 +1,71 @@
+{
+  "sku": "Q2M-EW1000M",
+  "product_name": "Gyeon Q²m Eco Wash Seramik Katkılı Susuz Yıkama Yüzey Temizleyici ve Parlatıcı Cila - 1000 ml",
+  "barcode": "Q2M-EW1000M",
+  "total_urls_attempted": 5,
+  "successful_scrapes": 5,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:32:12.528Z",
+  "sources": [
+    {
+      "url": "https://www.cleanyourcar.co.uk/gyeon-q2m-eco-wash",
+      "domain": "cleanyourcar.co.uk",
+      "language": "en",
+      "page_title": "GYEON Q²M ECOWash | Eco-Friendly Rinseless Wash",
+      "content_length": 37948,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-ecowash-rinseless-wash",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M ECO Wash SiO2 Rinseless Wash | CARZILLA",
+      "content_length": 15689,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/gyeon-q2m-eco-wash.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q&#178;M ECOWash Waterless Car Wash (500ml &amp; 1L)",
+      "content_length": 13375,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.detailedimage.com/Gyeon-M91/Eco-Wash-P3564/1000-ml-S1/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Gyeon Eco Wash - 1000 ml - Detailed Image",
+      "content_length": 15391,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/ecowash/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M ECOWASH - GYEON",
+      "content_length": 11036,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

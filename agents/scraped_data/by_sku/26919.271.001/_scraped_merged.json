@@ -1,0 +1,59 @@
+{
+  "sku": "26919.271.001",
+  "product_name": "Menzerna Ceramic Spray Sealant Seramik Içerikli Sprey Boya Koruyucu Cila - 500 ml",
+  "barcode": "26919.271.001",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:27:28.260Z",
+  "sources": [
+    {
+      "url": "https://carzilla.ca/products/menzerna-ceramic-spray-sealant",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "Menzerna Ceramic Spray Sealant 500ml | CARZILLA",
+      "content_length": 6748,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.thepolishingshop.co.uk/menzerna-ceramic-spray-sealant-500ml-ps220053-menzerna",
+      "domain": "thepolishingshop.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Ceramic Spray Sealant 500ml | The Polishing Shop",
+      "content_length": 1851,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.springriver.eu/menzerna-ceramic-spray-sealant-500-ml.html",
+      "domain": "springriver.eu",
+      "language": "en",
+      "page_title": "403 - Forbidden",
+      "content_length": 95,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.in2detailing.co.uk/products/menzerna-ceramic-spray-sealant?variant=40844773163087",
+      "domain": "in2detailing.co.uk",
+      "language": "en",
+      "page_title": "Menzerna Ceramic Spray Sealant\n&ndash; in2Detailing",
+      "content_length": 29247,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

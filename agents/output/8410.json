@@ -1,0 +1,23 @@
+{
+  "sku": "8410",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "EPOCA VELA 360° Derece Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Beyaz", "brand": "EPOCA", "group": "spare_part", "sub_type": "trigger_head"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"thread_size": "28/400", "output_cc": 1.3, "features": ["360 Derece Atım", "Ayarlanabilir Nozul"], "gasket_type": "NBR", "color": "Beyaz"},
+    "content": {
+      "how_to_use": "1. Şişe ağzının 28/400 ölçüsünde olduğunu kontrol edin.\n2. Filtreli emiş hortumu ağırlığının şişe tabanına değdiğini doğrulayın.\n3. Başlığı sıkıca kapatın.\n4. Her açıdan püskürtme yapabilirsiniz - 360° emiş özelliği sayesinde.\n5. Nozulu ayarlayarak püskürtme şeklini değiştirin.",
+      "when_to_use": "Her açıdan püskürtme gereken durumlarda, baş aşağı veya yatay konumda çalışırken 360° başlık kullanılır.",
+      "target_surface": "28/400 dişli şişeler",
+      "why_this_product": "• 360° her açıdan püskürtme\n• Demir uçlu kıvrılabilir emiş hortumu\n• NBR nitril kauçuk conta\n• Heavy Duty profesyonel seri"
+    },
+    "faq": [
+      {"question": "8447 ile farkı nedir?", "answer": "Aynı özelliklere sahip alternatif ürünlerdir, ikisi de 360° özellikli beyaz başlıktır."},
+      {"question": "Tarım ilaçlamasında kullanılabilir mi?", "answer": "Evet, bitki sağlığı ürünleri, herbisit ve haşere kontrolünde yaygın kullanılır."},
+      {"question": "Filtreli emiş hortumu ne işe yarar?", "answer": "Sıvıdaki partikülleri filtreler ve püskürtme mekanizmasının tıkanmasını önler."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["8447", "79258"]}
+  }
+}

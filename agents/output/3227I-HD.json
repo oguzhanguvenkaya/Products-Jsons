@@ -1,0 +1,22 @@
+{
+  "sku": "3227I-HD",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Softy HD Wash Mitt Ultra Yumuşak Uzun Tüylü Yıkama Eldiveni", "brand": "KLIN", "barcode": "8809512170841", "group": "microfiber", "sub_type": "wash_mitt"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "23x16 cm", "type": "Ultra Soft Long Pile", "color": "Açık Bej (Ivory)", "inner_sponge_mm": 14, "weight_gr": 240, "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Araç üzerinde ön yıkama yaparak tazyikli su ile durulayın.\n2. Eldiveni şampuanlı kovaya daldırıp köpürtün.\n3. Yüzeyde yağ gibi akarak kaygan hareketlerle yıkayın.\n4. Sık sık temiz su kovasında durulayın.\n5. Yıkama sonrası 40°C'de yıkayıp asarak kurutun.",
+      "when_to_use": "Seramik/PPF/boya koruma kaplı araçlar, en hassas yüzeyler ve premium araç bakımı için kullanılır.",
+      "target_surface": "Hassas boyalar, seramik kaplamalı yüzeyler, PPF, premium araçlar",
+      "why_this_product": "• Ultra soft uzun tüylü yapı - en hassas yüzeylere uygun\n• Açık bej renk - kir tespiti kolaylığı\n• Geliştirilmiş 14mm iç destek süngeri\n• Çift fonksiyonlu - eldiven ve ped olarak kullanım"
+    },
+    "faq": [
+      {"question": "Normal yıkama eldiveninden farkı nedir?", "answer": "Ultra yumuşak ve uzun tüylü yapısı en hassas yüzeylerde bile çiziksiz temizlik sağlar."},
+      {"question": "Neden açık bej renk tercih edilmiş?", "answer": "Net görüş için açık renk seçilmiş, böylece kirler kolayca tespit edilebilir ve liflerden ayrılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-STE", "3221A-RD"]}
+  }
+}

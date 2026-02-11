@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "sku": "Q2M-CDYA1000M",
+    "product_name": "Gyeon Q²m Ceramicdetailer Seramik Yüzey Detaylandırıcı ve Parlatıcı - 1000 ml -Su Itici Oto C",
+    "barcode": "Q2M-CDYA1000M",
+    "url": "https://www.elitecarcare.co.uk/product/gyeon-q2m-ceramic-detailer/",
+    "url_index": 5,
+    "domain": "elitecarcare.co.uk",
+    "scraped_at": "2026-02-07T22:26:04.026Z",
+    "scrape_duration_ms": 347,
+    "http_status": 403,
+    "content_type": "text/html",
+    "content_length_bytes": 75193,
+    "final_url": null
+  },
+  "content": {
+    "language_detected": "en",
+    "page_title": "403 - Forbidden",
+    "raw_markdown": "bg_error_lines\n\ncircle_dots\n\n# 403 - Forbidden\n\nAccess to this page is forbidden.\n\nclouds_shape",
+    "page_structure": {
+      "has_specs_table": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_related_products": false,
+      "has_reviews": false
+    }
+  },
+  "processing_notes": {
+    "warnings": [],
+    "errors": [],
+    "raw_html_file": "url_5_elitecarcare.co.uk.html"
+  }
+}

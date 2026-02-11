@@ -1,0 +1,22 @@
+{
+  "sku": "3213EMR",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "KLIN Drying DUO EVO Çift Taraflı Mikro Kurulama Havlusu (Kırmızı) - 75x43cm", "brand": "KLIN", "group": "microfiber", "sub_type": "drying_towel"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "75x43 cm", "gsm": 1100, "weight_gr": 640, "type": "Twist Pile (Çift Taraflı)", "material_blend": "Polyester/Polyamide", "edge_type": "Dikişsiz / Kenarsız", "ccs_technology": true, "wash_temp_max": 40},
+    "content": {
+      "how_to_use": "1. Havluyu aracın ıslak yüzeyine bırakın.\n2. Baskı uygulamadan hafifçe çekin.\n3. Havlunun doygunluğu arttığında ters yüzü kullanın.\n4. Maksimum 40°C'de mikrofiber şampuanıyla yıkayın, asarak kurutun.",
+      "when_to_use": "Tam araç kurulama, profesyonel detailing ve filo bakımı için yüksek emicilikte kurulama havlusu.",
+      "target_surface": "Otomotiv, motor, marin yüzeyleri",
+      "why_this_product": "• 1100 GSM ultra yüksek yoğunluk\n• Mikro twist fiber yapısı ile hafif ve ergonomik\n• Kısaltılmış iplikler - logolara ve çıtalara takılmaz\n• Dikişsiz ve kenarsız güvenli yapı"
+    },
+    "faq": [
+      {"question": "Normal kurulama havlularından farkı nedir?", "answer": "Mikro twist fiber yapısı daha hafif, daha yumuşak ama aynı güçte emicilik sağlar."},
+      {"question": "Yumuşatıcı kullanılabilir mi?", "answer": "Hayır, yumuşatıcı, çamaşır suyu ve benzeri temizleyiciler kullanılmamalıdır."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-SDE7090C", "Q2M-SODE6080C"]}
+  }
+}

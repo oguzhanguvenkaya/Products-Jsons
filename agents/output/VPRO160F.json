@@ -1,0 +1,43 @@
+{
+  "sku": "VPRO160F",
+  "last_updated": "2026-02-04T22:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Rotary Extra Ağır Kalın Kesim Pasta Süngeri (Beyaz) - 160 mm",
+    "brand": "MG PS",
+    "barcode": "8683492660192",
+    "group": "polishing_pad",
+    "sub_type": "foam_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T22:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T22:00:00Z",
+    "template_fields": {
+      "cut_level": "Extra Heavy Cut",
+      "color": "Beyaz",
+      "diameter_mm": 160,
+      "base_diameter_mm": 160,
+      "height_mm": 30,
+      "machine_compatibility": ["Rotary"],
+      "cell_structure": "Open Cell",
+      "hardness": "Hard"
+    },
+    "content": {
+      "how_to_use": "1. Pedi 160mm rotary tabanlığa takın.\n2. En agresif pasta (Menzerna 300) damlatın.\n3. Düşük devirde (800 rpm) başlayarak ürünü yüzeye yayın.\n4. Devri kademeli artırarak çapraz geçişlerle çalışın.\n5. Yağlı film oluşana kadar işleme devam edin.\n6. Mikrofiber ile silin ve çizik giderimini kontrol edin.",
+      "when_to_use": "En ağır boya restorasyonlarında, P1200 ve altı zımpara izlerinin giderilmesinde, çok derin çiziklerin düzeltilmesinde, maksimum kesim gücü gereken durumlarda kullanılır.",
+      "target_surface": "Otomotiv boyası, vernik, sert vernikler, tüm boya tipleri",
+      "why_this_product": "• Sert yapısı ile maksimum kesim gücü\n• 30mm yükseklik ile uzun ömürlü kullanım\n• Avrupa üretimi yüksek kalite\n• Rotary makinelerin tam gücünden yararlanma"
+    },
+    "faq": [
+      {"question": "Beyaz ped ne için kullanılır?", "answer": "Extra ağır kesim (extra heavy cut) işlemleri için kullanılır. En derin çizikler ve en kalın zımpara izleri için idealdir."},
+      {"question": "Gri pedden farkı nedir?", "answer": "Beyaz ped gri pedden daha sert ve agresiftir. Maksimum kesim gücü sağlar."},
+      {"question": "Hangi pastalarla kullanılır?", "answer": "Menzerna Super Heavy Cut 300 ve benzeri en agresif pastalar ile kullanılır."},
+      {"question": "Orbital makinede kullanılabilir mi?", "answer": "Bu ped rotary makineler için optimize edilmiştir. Orbital için GRY serisi tercih edilmelidir."}
+    ],
+    "relations": {"use_before": ["GRY160F", "RE160F", "GPRO160F"], "use_after": [], "use_with": ["22.746.281.001"], "accessories": [], "alternatives": ["GRY200F", "GRY180F"]}
+  }
+}

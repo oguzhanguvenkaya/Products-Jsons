@@ -1,0 +1,23 @@
+{
+  "sku": "79472",
+  "last_updated": "2026-02-04T15:25:00Z",
+  "status": "enriched",
+  "product_info": {"title": "INNOVACAR Araç Yıkama Kovası Seti 20 Lt Siyah (Süzgeç + Vidalı Kapak)", "brand": "INNOVACAR", "barcode": "8683489681049", "group": "storage_accessories", "sub_type": "bucket_accessories"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:25:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:25:00Z",
+    "template_fields": {"material": "Yüksek Dayanımlı PE Plastik", "capacity_lt": 20, "includes_grit_guard": true, "includes_lid": true, "color": "Siyah", "scale_markings": "2.5-15L"},
+    "content": {
+      "how_to_use": "1. Grit Guard ızgarasını kovanın tabanına yerleştirin.\n2. Etiketleri (WASH, RINSE, WHEELS) kovaların üzerine yapıştırın.\n3. Çevirmeli kapağı contasıyla birlikte yerleştirin.\n4. Yıkama eldiveninizi bu sistemle kullanarak çiziksiz temizlik yapın.\n5. Kullanım sonrası kapağı kapatarak saklayın.",
+      "when_to_use": "Çift kova yöntemi ile araç yıkama, seramik kaplama öncesi temizlik, köpük tabancası ve eldivenle yıkama işlemlerinde kullanılır.",
+      "target_surface": "Araç yıkama işlemleri",
+      "why_this_product": "• Grit Guard teknolojisi - çizik önleyici ızgara\n• Vidalı contalı kapak - sızdırmaz taşıma\n• 3 farklı etiket (WASH, RINSE, WHEELS)\n• Metal taşıma kolu ve ölçek çizgileri"
+    },
+    "faq": [
+      {"question": "Grit Guard ne işe yarar?", "answer": "Kova tabanındaki ızgara kir ve partiküllerin yüzeye geri çıkmasını önleyerek çizik oluşumunu azaltır."},
+      {"question": "Kapağı su sızdırır mı?", "answer": "Hayır, vidalı ve contalı kapak taşıma sırasında sızma yapmaz."},
+      {"question": "Çift kova yönteminde kullanılabilir mi?", "answer": "Evet, WASH ve RINSE etiketleri ile çift kova yöntemine uygundur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

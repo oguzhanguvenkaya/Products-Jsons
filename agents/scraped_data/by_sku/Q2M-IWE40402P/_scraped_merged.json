@@ -1,0 +1,23 @@
+{
+  "sku": "Q2M-IWE40402P",
+  "product_name": "Gyeon Q²m Interiorwipe evo Iç Yüzey Detaylı Temizlik Bezi 2'li Paket - 40X40 cm",
+  "barcode": "Q2M-IWE40402P",
+  "total_urls_attempted": 1,
+  "successful_scrapes": 1,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:23:07.277Z",
+  "sources": [
+    {
+      "url": "https://www.carparts.koeln/GYEON-QM-InteriorWipe-EVO-40-cm-x-40-cm-2-pieces",
+      "domain": "carparts.koeln",
+      "language": "en",
+      "page_title": "GYEON Q²M InteriorWipe EVO 40x40 cm Tücher | Carparts",
+      "content_length": 14989,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

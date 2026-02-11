@@ -1,0 +1,23 @@
+{
+  "sku": "336807",
+  "last_updated": "2026-02-04T17:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FLEX Yedek Motor Kömürü L48", "brand": "FLEX", "barcode": "4030293143685", "group": "spare_part", "sub_type": "carbon_brush"},
+  "scraped": {"scrape_timestamp": "2026-02-04T17:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T17:00:00Z",
+    "template_fields": {"compatible_device": ["FLEX L801", "FLEX L802"]},
+    "content": {
+      "how_to_use": "1. Makineyi kapatın ve fişten çekin.\n2. Kömür kapağını tornavidayla açın.\n3. Eski kömürü çıkarın.\n4. Yeni kömürü yerine takın.\n5. Kapağı sıkıca kapatın.\n6. Makineyi test edin.",
+      "when_to_use": "Motor kömürleri aşındığında veya makine performansı düştüğünde, motor çalışırken kıvılcım oluştuğunda yedek kömür değişimi yapılmalıdır.",
+      "target_surface": "FLEX L48 serisi polisaj makineleri",
+      "why_this_product": "• Orijinal FLEX yedek parçası\n• Uzun ömürlü karbon yapı\n• Motor performansını yeniler\n• Garantili uyumluluk"
+    },
+    "faq": [
+      {"question": "Hangi FLEX makinelerle uyumlu?", "answer": "L48 kodlu motor kömürü, uyumlu FLEX polisaj makineleri için tasarlanmıştır."},
+      {"question": "Ne zaman değiştirilmeli?", "answer": "Motor kömürleri aşındığında (genellikle 200-500 saat kullanım sonrası) veya kıvılcım artışı fark edildiğinde değiştirilmelidir."},
+      {"question": "Orijinal yedek parça mı?", "answer": "Evet, FLEX orijinal fabrika çıkışlı yedek motor kömürüdür."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["399647"]}
+  }
+}

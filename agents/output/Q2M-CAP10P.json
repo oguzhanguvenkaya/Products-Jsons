@@ -1,0 +1,19 @@
+{
+  "sku": "Q2M-CAP10P",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM Coating Applicator Light Çift Taraflı - 10'lu", "brand": "GYEON", "barcode": null, "group": "applicators", "sub_type": "coating_applicator"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"quantity": "10 adet", "design": "Çift taraflı Light", "purpose": "Hafif kaplama uygulaması"},
+    "content": {
+      "how_to_use": "1. Kaplama ürününü aplikatöre damlatın.\n2. İnce ve eşit tabaka halinde yüzeye yayın.\n3. Talimatlarına göre bekleyin ve silin.",
+      "when_to_use": "Hafif seramik kaplamalar, sealant ve koruma ürünlerinin uygulanmasında kullanılır. Light versiyon daha ince uygulama sağlar.",
+      "target_surface": "Boyalı yüzeyler, cam, plastik",
+      "why_this_product": "• Light versiyon - ince uygulama\n• 10'lu profesyonel paket\n• Çift taraflı tasarım\n• Sealant ve hafif kaplamalar için"
+    },
+    "faq": [{"question": "Normal Coating Applicator ile farkı nedir?", "answer": "Light versiyon daha ince ve hassas uygulama için tasarlanmıştır. Sealant ve hafif kaplamalar için idealdir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["Q2M-CA10P"]}
+  }
+}

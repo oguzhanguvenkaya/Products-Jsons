@@ -1,0 +1,43 @@
+{
+  "sku": "Q2-OLE50M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q One EVO Light Box Seramik Kaplama - 50 ml",
+    "brand": "GYEON",
+    "barcode": "8809432672456",
+    "group": "ceramic_coating",
+    "sub_type": "paint_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_months": 24,
+      "durability_km": 25000,
+      "layer_count": 1,
+      "hardness": "9H",
+      "ph_tolerance": "2-11",
+      "contact_angle": ">100°",
+      "cure_time_hours": 12,
+      "consumption_ml_per_car": 25
+    },
+    "content": {
+      "how_to_use": "1. Aracı yıkayın; gerekirse kil ve polisaj ile kontaminantları giderin.\n2. Q²M Prep ile boya ve cila kalıntılarını tamamen silin.\n3. Coating Applicator Mini bloğunu Q²M Suede ile sarın.\n4. Her panel için 6-8 damla Q² One EVO damlatın.\n5. 50x50 cm'lik alanda önce dikey, sonra yatay geçişlerle ince film oluşturun.\n6. 30-120 sn içinde terleme oluştuğunda Q²M BaldWipe ile nazikçe silin.\n7. Q²M SoftWipe ile tek yönlü silerek parlaklığı ortaya çıkarın.\n8. Aracı en az 12 saat kuru, tozsuz ortamda bekletin.",
+      "when_to_use": "Araç boyasına uzun süreli seramik koruma uygulamak, UV ve kimyasal hasara karşı kalkan oluşturmak için kullanılır.",
+      "target_surface": "Araç boyası, vernik, motosiklet çerçeveleri, cam ve parlak plastik aksesuarlar",
+      "why_this_product": "• 24 ay / 25.000 km dayanım - tek kat uygulama\n• 9H sertlik ve >100° hidrofobi\n• pH 2-11 kimyasal direnci\n• Self-cleaning etkisi ile temizleme aralıklarını uzatır"
+    },
+    "faq": [
+      {"question": "Light Box ile 100 ml versiyon arasındaki fark nedir?", "answer": "İçerik aynıdır; sadece paket içeriği ve aplicatör boyutu farklıdır."},
+      {"question": "İkinci kat uygulanabilir mi?", "answer": "Evet, ikinci kat için minimum 1 saat bekleyip ince tabaka sürün. Ekstra hidrofobi ve parlaklık sağlar."},
+      {"question": "Soğuk havada uygulama yapılır mı?", "answer": "5°C altı önerilmez; 10-30°C arasında en iyi sonucu verir."},
+      {"question": "İlk yıkama ne zaman yapılabilir?", "answer": "12 saat sonra su temasına açıktır; tam sertleşme 14 gün sürer. İlk 7 gün deterjan kullanmayın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-PYA500M", "Q2M-CRYA100M"], "accessories": [], "alternatives": ["Q2-OLE30M", "Q2-OLE100M"]}
+  }
+}

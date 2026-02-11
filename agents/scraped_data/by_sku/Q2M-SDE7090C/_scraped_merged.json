@@ -1,0 +1,107 @@
+{
+  "sku": "Q2M-SDE7090C",
+  "product_name": "SİLK DREYER 70X90",
+  "barcode": "8809432671480",
+  "total_urls_attempted": 8,
+  "successful_scrapes": 8,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:19:08.237Z",
+  "sources": [
+    {
+      "url": "https://gyeonusa.com/products/q-m-silk-dryer-evo?srsltid=AfmBOorrOelJHo839wZFxfMnPXBgXS7mJ3htZTYqSyNGgAC3yuMC7yvt",
+      "domain": "gyeonusa.com",
+      "language": "en",
+      "page_title": "Q²M Silk Dryer EVO | Gyeon Quartz USA",
+      "content_length": 12136,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://mtskimya.com/aksesuar/mikrofiber-urunler/kurulama-havlulari/prd-gyeon-q-m-silkdryer-evo-inovatif-kurulama-havlusu-70x90-cm",
+      "domain": "mtskimya.com",
+      "language": "tr",
+      "page_title": "GYEON Q²M SilkDryer EVO İnovatif Kurulama Havlusu - 70x90 cm",
+      "content_length": 18901,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://gyeon.co/product/silkdryer-evo/",
+      "domain": "gyeon.co",
+      "language": "en",
+      "page_title": "Q²M SILKDRYER EVO - GYEON",
+      "content_length": 10128,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.gsfcarparts.com/products/q-m-silkdryer-evo-70x90-cm-brngside70",
+      "domain": "gsfcarparts.com",
+      "language": "en",
+      "page_title": "Q²M Silk Dryer EVO - 70x90 cm | GSF Car Parts",
+      "content_length": 8277,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.carclean.com/en/gyeon-qm-silkdryer-evo-drying-towel-70x90cm.html",
+      "domain": "carclean.com",
+      "language": "en",
+      "page_title": "Gyeon Q²M SilkDryer EVO 70x90cm – ultra-absorbent towel",
+      "content_length": 14497,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://autojoy.shop/products/gy-q2m-silkdryer",
+      "domain": "autojoy.shop",
+      "language": "en",
+      "page_title": "GYEON Q2M SilkDryer EVO 70x90 cm | Autojoy detailing store &ndash; Autojoy Baltic",
+      "content_length": 15195,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.in2detailing.co.uk/products/gyeon-q2m-silkdryer-evo-70x90-cm?variant=40716336463951",
+      "domain": "in2detailing.co.uk",
+      "language": "en",
+      "page_title": "Gyeon Q2M Silk Dryer EVO - 70x90 cm\n&ndash; in2Detailing",
+      "content_length": 29100,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/gyeon-q2m-silkdryer-evo",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "GYEON Q²M SilkDryer EVO | CARZILLA",
+      "content_length": 13627,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    }
+  ]
+}

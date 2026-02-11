@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-GWE4040",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM GlassWipe EVO Cam Temizlik Bezi - 40x40 cm", "brand": "GYEON", "barcode": "8809432675709", "group": "microfiber", "sub_type": "glass_cloth"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "40x40 cm", "gsm": 390, "type": "Waffle Weave (Petek Dokulu)", "material_blend": "80% polyester / 20% polyamid", "edge_type": "Güçlendirilmiş dikişli", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. Cam yüzeyini güneşten uzak, serin ve kuru halde hazırlayın.\n2. Q²M Glass+ veya tercih ettiğiniz cam temizleyiciyi az miktarda püskürtün.\n3. GlassWipe EVO'nun waffle yüzüyle düz geçişlerle kir ve kalıntıları alın.\n4. Havlunun temiz bölümünü çevirerek son parlatmayı yapın.\n5. 30°C'de sıvı mikrofiber deterjanla yıkayın; sererek kurutun.",
+      "when_to_use": "Otomotiv cam ve ayna temizliği, bilgi-eğlence ekranları, ev ve ofis pencere/vitrin temizliği, marine ve karavan bakımı için kullanılır.",
+      "target_surface": "Cam, ayna, ekran, vitrin, pencere",
+      "why_this_product": "• 390 GSM waffle (baklava) dokulu yüzey\n• Tek geçişte leke ve iz bırakmadan kristal berraklık\n• Çift taraflı etkinlik - temizleme ve parlatma\n• Güçlü kenar dikişi - 100+ yıkamada form korur"
+    },
+    "faq": [
+      {"question": "Cam temizleyiciyi fazla sıkarsam neden iz kalıyor?", "answer": "Aşırı ürün buharlaşırken film bırakır. Az miktar püskürtün; GlassWipe EVO fazla nemi emer."},
+      {"question": "Waffle dokusu boyalı yüzeyde kullanılabilir mi?", "answer": "Cam-odaklıdır; boya üzerinde yoğun baskı uygulamadığınız sürece güvenli, fakat boya kurulama için SilkDryer EVO tavsiye edilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-GLA500M"], "accessories": [], "alternatives": ["3218", "3218-1"]}
+  }
+}

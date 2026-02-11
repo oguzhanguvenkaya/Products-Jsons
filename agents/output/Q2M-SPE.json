@@ -1,0 +1,20 @@
+{
+  "sku": "Q2M-SPE",
+  "last_updated": "2026-02-04T15:05:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON Q2M Scrubpad Evo Deri ve Plastikler İçin Temizlik Pedi", "brand": "GYEON", "barcode": null, "group": "applicators", "sub_type": "scrub_pad"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:05:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:05:00Z",
+    "template_fields": {"version": "EVO", "purpose": "Deri ve plastik temizliği", "safe_for": ["Deri", "Plastik", "Vinil"]},
+    "content": {
+      "how_to_use": "1. Temizleyici püskürtün.\n2. Scrubpad ile dairesel hareketlerle ovalayın.\n3. Kirli köpüğü mikrofiber ile toplayın.\n4. Gerekirse tekrarlayın.",
+      "when_to_use": "Deri koltuklar ve plastik yüzeylerde derin temizlik için kullanılır. LeatherCleaner ile birlikte idealdir.",
+      "target_surface": "Deri, plastik, vinil yüzeyler",
+      "why_this_product": "• EVO gelişmiş versiyon\n• Deri ve plastikte güvenli\n• Derin temizlik gücü\n• Ergonomik tasarım"
+    },
+    "faq": [{"question": "Deri yüzeye zarar verir mi?", "answer": "Hayır, deri için güvenli tasarlanmıştır. Hafif basınçla kullanın."},
+      {"question": "Fırça yerine mi kullanılır?", "answer": "Evet, fırçaya alternatif olarak veya tamamlayıcı olarak kullanılabilir."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

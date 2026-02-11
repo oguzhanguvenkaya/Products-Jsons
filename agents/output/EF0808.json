@@ -1,0 +1,43 @@
+{
+  "sku": "EF0808",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "Little Joe Taze Nane Araç Kokusu (Fresh Mint) - 45 Gün",
+    "brand": "LITTLE JOE",
+    "barcode": "8683492661533",
+    "group": "fragrance",
+    "sub_type": "vent_clip"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "scent": "Nane",
+      "durability_days": 45,
+      "design": "3D Karakter",
+      "dimensions_mm": "85x45x26",
+      "weight_g": 12.0,
+      "alcohol_free": true,
+      "toxic_free": true,
+      "made_in": "İtalya"
+    },
+    "content": {
+      "how_to_use": "1. Ürünü ambalajından çıkarın.\n2. Araç klimasının havalandırma peteklerine klips mekanizmasıyla takın.\n3. Klima çalıştığında koku otomatik olarak yayılmaya başlar.\n4. Koku zayıfladığında (yaklaşık 45 gün) yenisiyle değiştirin.",
+      "when_to_use": "Ferahlatıcı ve canlandırıcı bir atmosfer yaratmak için kullanılır. Uzun yolculuklarda uyanık kalmak ve enerji toplamak için idealdir.",
+      "target_surface": "Araç kliması peteği, ev/ofis havalandırma ızgaraları",
+      "why_this_product": "• Ferahlatıcı taze nane aroması\n• 45 güne kadar kalıcı etki\n• Alkol ve toksik madde içermez\n• Canlandırıcı ve enerji verici"
+    },
+    "faq": [
+      {"question": "Nane kokusu ne kadar yoğun?", "answer": "Serin ve hafif bir aroma sunar, rahatsız edici değil ferahlatıcı etkiye sahiptir."},
+      {"question": "Uzun yolculuklarda yardımcı olur mu?", "answer": "Evet, nane kokusu canlandırıcı etkisiyle uyanık kalmanıza yardımcı olur."},
+      {"question": "Koku ne kadar süre kalıcıdır?", "answer": "Ortalama 45 gün etkili koku salınımı sağlar."},
+      {"question": "Baş ağrısına iyi gelir mi?", "answer": "Nane kokusunun ferahlatıcı etkisi bazı kullanıcılarda rahatlama hissi yaratabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["EF0202", "IF0909", "EF0101"]}
+  }
+}

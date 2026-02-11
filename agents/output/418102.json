@@ -1,0 +1,52 @@
+{
+  "sku": "418102",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX PXE 80 10.8-EC Set Rotary/Orbital Akülü Nano Polisaj Makinesi",
+    "brand": "FLEX",
+    "barcode": "4030293180581",
+    "group": "polisher_machine",
+    "sub_type": "mini_cordless_polisher"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {
+      "full_description": {"reliability": 1.0, "language": "tr"}
+    },
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Battery",
+      "voltage": 10.8,
+      "motor_type": "Brushless",
+      "orbit_options_mm": [3, 12, "Rotary"],
+      "backing_plate_supported_mm": [30, 50, 75],
+      "max_pad_diameter_mm": 80,
+      "speed_range_rpm": "400-5800",
+      "speed_levels": 4,
+      "weight_kg": 0.63,
+      "features": ["Hızlı değişim sistemi", "Rotary+Orbital", "Ultra kompakt", "EMS koruma", "LED gösterge"]
+    },
+    "content": {
+      "how_to_use": "1. Uygun salınım aparatını seçin (Rotary, 3mm veya 12mm).\n2. Hızlı değişim sistemiyle aparatı takın.\n3. 30mm, 50mm veya 75mm tabanlık ve ped seçin.\n4. 4 kademeli hız kadranından devir ayarlayın.\n5. Bölgesel onarım veya detay işlemini gerçekleştirin.\n6. İşe göre rotary (kesim) veya orbital (finisaj) modu kullanın.",
+      "when_to_use": "Bölgesel spot onarımlar, dar alanlar, detay çalışmaları, zımparalama ve hassas finisaj işlemleri için kullanılır. Mobil detailing ve ulaşılması zor bölgelerde idealdir.",
+      "target_surface": "Araç boyası - spot onarımlar, dar alanlar, köşeler, plastik trimler",
+      "why_this_product": "• Rotary + Orbital tek makinede - çok yönlü kullanım\n• 3mm ve 12mm salınım seçenekleri\n• Sadece 630g - ultra hafif\n• Hızlı aparat değişim sistemi"
+    },
+    "faq": [
+      {"question": "Büyük panellerde kullanılabilir mi?", "answer": "Nano polisaj makineleri bölgesel onarımlar ve detay çalışmaları için tasarlanmıştır. Büyük paneller için 125mm veya 150mm makineler tercih edilmelidir."},
+      {"question": "Rotary ve orbital mod ne zaman kullanılır?", "answer": "Rotary mod ağır çizik giderme ve kesim için, orbital mod (12mm) hologram giderme ve finisaj için, 3mm salınım ise hassas zımparalama için kullanılır."},
+      {"question": "Sette neler var?", "answer": "Rotary, 3mm ve 12mm salınım aparatları, 30mm/75mm tabanlıklar, 2x 2.5Ah akü, şarj cihazı ve L-BOXX taşıma çantası dahildir."}
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": ["22746.281.001"],
+      "accessories": [],
+      "alternatives": ["SGGF273"]
+    }
+  }
+}

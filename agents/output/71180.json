@@ -1,0 +1,41 @@
+{
+  "sku": "71180",
+  "last_updated": "2026-02-04T21:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Shampoo Color Eco Fuşya Renkli Ön Yıkama Şampuanı - 25 kg",
+    "brand": "FRA-BER",
+    "barcode": "8027486711802",
+    "group": "car_shampoo",
+    "sub_type": "prewash_foaming_shampoo"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T21:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T21:00:00Z",
+    "template_fields": {
+      "foam_color": "Fuşya (Pembe)",
+      "antistatic": true,
+      "dilution_foam_lance": "saf - 1:3",
+      "dilution_dosatron": "0.8-2%",
+      "safe_on_paint": true,
+      "volume_kg": 25
+    },
+    "content": {
+      "how_to_use": "1. Dosatron: %0.8-2 oranında kullanın.\n2. Sprey Ön Yıkama: 1:40 - 1:60 (arabalar), 1:25 - 1:50 (kamyonlar).\n3. Nebulizatör: 1:10 oranında.\n4. Köpük Tabancası: Saftan 1:3'e kadar (250 ml - saf).\n5. Durulama: Aracın yüzeylerindeki renk tamamen çıkana kadar durulayın.",
+      "when_to_use": "Görsel takip gerektiren profesyonel ön yıkamalarda, renkli köpük efekti istenen durumlarda, self-servis yıkama sistemlerinde kullanılır.",
+      "target_surface": "Araç boyası, tüm dış yüzeyler",
+      "why_this_product": "• Fuşya renkli köpük ile görsel takip kolaylığı\n• Antistatik etki - toz tutulumunu azaltır\n• Parlaklık etkisi\n• Boyaya zarar vermez, renk kalıntısı bırakmaz"
+    },
+    "faq": [
+      {"question": "Renkli köpük boyada kalıcı leke bırakır mı?", "answer": "Hayır, durulama sonrası renk tamamen kaybolur, kalıntı bırakmaz."},
+      {"question": "Antistatik etki ne işe yarar?", "answer": "Yıkama sonrası aracın toz ve kir tutma eğilimini azaltır."},
+      {"question": "Arıtma sistemlerine zarar verir mi?", "answer": "Hayır, geleneksel renkli köpük temizleyicilerin aksine arıtıcı sistemlerde sorun yaratmaz."},
+      {"question": "Renk yoğunluğu nasıl ayarlanır?", "answer": "Renk yoğunluğu seyreltme oranıyla doğrudan bağlantılıdır; daha az seyreltme daha yoğun renk verir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

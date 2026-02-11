@@ -1,0 +1,23 @@
+{
+  "sku": "74391",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Polish Plus Antistatik Plastik, Trim, Vinil Yenileyici Bakım Spreyi (1:3 Konsantre) - 25 lt", "brand": "FRA-BER", "barcode": "8027486786305", "group": "abrasive_polish", "sub_type": "interior_plastic_polish"},
+  "notes": {"size_variant": "25 lt konsantre - endüstriyel kullanım için", "sub_type_review": "Template'de 'polish' olarak genel işaretli. Doğrusu 'interior_plastic_polish' - pasta değil, plastik bakım ürünü."},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"target_surface": "Plastic/Trim/Vinyl/Rubber/Leather", "function": "Clean & Protect", "finish_type": "Matte-Satin", "contains_protection": true, "protection_type": "Antistatic + UV", "scent": "Vanilla", "concentration": "1:3"},
+    "content": {
+      "how_to_use": "1. Seyreltme: 1:3 oranında (1 kısım ürün + 3 kısım su) seyreltin.\n2. Dereceli şişeye doldurun ve püskürtücü takın.\n3. Yüzeyden 20 cm uzaktan eşit şekilde püskürtün.\n4. Mikrofiber bez ile eşit şekilde yayın.\n5. Fazla ürünü silin.",
+      "when_to_use": "Ön paneller, trimler, kaplamalar, lastikler, tamponlar, çamurluklar, çıtalar, kauçuk ve deri parçalar gibi iç ve dış plastik parçaları temizlemek ve korumak için kullanılır. Endüstriyel ve yoğun atölye kullanımı için ideal.",
+      "target_surface": "Tüm plastik, vinil, kauçuk, deri yüzeyler - iç ve dış mekan",
+      "why_this_product": "• 25 lt endüstriyel boyut - yoğun atölye/filo kullanımı için\n• Konsantre - 1:3 seyreltme ile 100 lt kullanıma hazır ürün\n• Antistatik bariyer - toz tutulumunu geciktirir\n• UV koruma - güneşe maruz yüzeylerde solmayı önler\n• Vanilya aroması"
+    },
+    "faq": [
+      {"question": "25 lt kime hitap eder?", "answer": "Filo yöneticileri, galericiler, oto yıkama işletmeleri ve yoğun atölye kullanımı için ekonomik endüstriyel boyuttur."},
+      {"question": "Diğer boyutlarla aynı formül mü?", "answer": "Evet, aynı Polish Plus Aroma formülüdür."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

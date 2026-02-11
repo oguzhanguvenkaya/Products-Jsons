@@ -1,0 +1,20 @@
+{
+  "sku": "22.992.261.001",
+  "last_updated": "2026-02-04T13:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MENZERNA 3800 Süper Hare Giderici Cila - 1 lt", "brand": "MENZERNA", "barcode": null, "group": "abrasive_polish", "sub_type": "super_finishing_polish"},
+  "notes": {"size_variant": "1 lt profesyonel boyut"},
+  "scraped": {"scrape_timestamp": "2026-02-04T13:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:35:00Z",
+    "template_fields": {"cut_level": 2, "finish_level": 10, "machine_compatibility": ["rotary", "orbital"], "silicone_free": true, "bodyshop_safe": true, "filler_free": true, "abrasive_type": "diminishing", "grit_removal": "P3000", "gloss_level": "Show Car Finish"},
+    "content": {
+      "how_to_use": "1. Hazırlık: Önceki polisaj sonrası yüzeyin temiz olduğundan emin olun.\n2. Ped: Menzerna Yeşil Final Pedi veya ultra yumuşak sünger.\n3. Uygulama: Düşük hızda, hafif basınçla çalışın.\n4. Temizlik: Ultra yumuşak mikrofiber bezle silin.",
+      "when_to_use": "Show car parlaklığı, P3000 izleri giderme, koruma öncesi final için kullanılır.",
+      "target_surface": "Tüm vernik tipleri, koyu renkli boyalar, show car hazırlığı",
+      "why_this_product": "• Show Car kalitesinde parlaklık\n• P3000 izlerini giderir\n• 2/10 kesim, 10/10 parlaklık\n• 1 lt profesyonel boyut"
+    },
+    "faq": [{"question": "250 ml ile aynı formül mü?", "answer": "Evet, aynı 3800 formülüdür. Profesyonel atölye kullanımı için ideal boyut."}],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

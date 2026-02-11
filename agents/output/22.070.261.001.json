@@ -1,0 +1,23 @@
+{
+  "sku": "22.070.261.001",
+  "last_updated": "2026-02-04T18:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "MENZERNA Power Lock Ultimate Protection Boya Koruma - 1 lt", "brand": "MENZERNA", "barcode": null, "group": "paint_protection_quick", "sub_type": "liquid_sealant"},
+  "scraped": {"scrape_timestamp": "2026-02-04T18:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T18:00:00Z",
+    "template_fields": {"durability_months": 6, "application_method": "Machine or Hand", "abrasiveness": 0, "gloss_level": 10, "filler_free": true, "features": ["Polimer teknoloji", "Derin parlaklık", "Cam gibi yansıma", "Katmanlanabilir"]},
+    "content": {
+      "how_to_use": "1. Uygulama öncesinde yüzeyin tamamen temiz, kuru, serin ve hare/çiziklerden arındırılmış olduğundan emin olun.\n2. Panel temizleyici ile polisaj yağı kalıntılarını silin.\n3. Pedinize birkaç bezelye tanesi büyüklüğünde ürün dökün.\n4. Düşük makine devriyle veya elle, hafif ve eşit basınçla ürünü yüzeye ince bir katman halinde yayın.\n5. 10-15 dakika kuruyup puslu görünüm almasını bekleyin.\n6. Temiz ve yumuşak mikro fiber bezle basınç uygulamadan silin.",
+      "when_to_use": "Polisaj ile kusursuzlaştırılmış boya yüzeyini aylarca süren dayanıklı bir kalkan ile koruma altına almak için, cam gibi yansıma ve keskin parlaklık isteyenler için kullanılır.",
+      "target_surface": "Araç boyası, vernik, tüm boya tipleri",
+      "why_this_product": "• 4-6 aya kadar uzun süreli polimer koruma\n• Keskin 'cam gibi' yansıma ve 10/10 parlaklık\n• Dolgu maddesi içermez - gördüğünüz sonuç gerçektir\n• Katmanlanabilir yapı ile koruma uzatılabilir"
+    },
+    "faq": [
+      {"question": "Power Lock ile Sealing Wax arasındaki fark nedir?", "answer": "Power Lock keskin polimer parlaklığı sunarken, Sealing Wax Carnauba içeriğiyle daha sıcak ve 'ıslak' bir görünüm sağlar."},
+      {"question": "Katmanlama nasıl yapılır?", "answer": "İlk katı uygulayıp sildikten sonra en az 12 saat bekleyin, tam kürleşme sonrası ikinci kat uygulayın."},
+      {"question": "Elle uygulama yapılabilir mi?", "answer": "Evet, KLIN Dual aplikatör veya Gyeon MF Applicator ile elle de uygulanabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["22.870.261.001"]}
+  }
+}

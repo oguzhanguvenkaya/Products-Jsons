@@ -1,0 +1,83 @@
+{
+  "sku": "22828.261.001",
+  "product_name": "Menzerna Power Finish 2500 - Hare Giderici Cila 1Lt.",
+  "barcode": "22828.261.001",
+  "total_urls_attempted": 6,
+  "successful_scrapes": 6,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:40:38.811Z",
+  "sources": [
+    {
+      "url": "https://www.menzerna.com/car-care/car-polish/products/details/medium-cut-polish-2500",
+      "domain": "menzerna.com",
+      "language": "en",
+      "page_title": "Medium Cut Polish 2500",
+      "content_length": 7820,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.detailedimage.com/Menzerna-M10/Power-Finish-PF-2500-PO203-P649/32-oz-S2/",
+      "domain": "detailedimage.com",
+      "language": "en",
+      "page_title": "Menzerna Medium Cut Polish MC 2500 - 32 oz - Detailed Image",
+      "content_length": 15886,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://carzilla.ca/products/pf-2500-power-finish-polish",
+      "domain": "carzilla.ca",
+      "language": "en",
+      "page_title": "Menzerna 2500 Medium Cut Polish 32oz | CARZILLA",
+      "content_length": 7357,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://clean-garage.com/menzerna-2500-medium-cut-polish-32oz-m-2500q-quart/",
+      "domain": "clean-garage.com",
+      "language": "en",
+      "page_title": "Menzerna 2500 Medium Cut Polish 32oz | M-2500Q Quart",
+      "content_length": 13064,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.autogeek.net/menzerna-polish-po203.html",
+      "domain": "autogeek.net",
+      "language": "en",
+      "page_title": "Menzerna Medium Cut Polish 2500 | Autogeek.net",
+      "content_length": 13913,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://auto-brite.ca/product/menzerna-2500-medium-cut/",
+      "domain": "auto-brite.ca",
+      "language": "en",
+      "page_title": "Menzerna 2500 Medium Cut - Auto-Brite",
+      "content_length": 3577,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "sku": "MGPS-6046F2R",
+  "last_updated": "2026-02-04T14:30:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "MG PS Yedek Cırtlı El Kil Pedi (2 Adet) 12x8 cm - Aplikatör Clay Pad Sponge Block",
+    "brand": "MG PS",
+    "barcode": "8683492661731",
+    "group": "clay_products",
+    "sub_type": "clay_pad"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T14:30:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T14:30:00Z",
+    "template_fields": {
+      "size": "12x8 cm",
+      "quantity": "2 adet",
+      "grade": "Orta (Medium)",
+      "color": "Kırmızı",
+      "material": "Kauçuk-polimer kil",
+      "attachment": "Cırtlı (Hook & Loop)",
+      "durability": "40 araç x 2 = 80 araç",
+      "compatible_with": "MGPS-6046R"
+    },
+    "content": {
+      "how_to_use": "1. Eski pedi çıkarın: Cırtlı sistemi ayırın.\n2. Yeni pedi takın: Hook & loop ile gövdeye sabitleyin.\n3. Kullanım: Normal kil pedi gibi kaydırıcı ile kullanın.\n4. Temizlik: Kullanım sonrası ılık suyla durulayın.",
+      "when_to_use": "MGPS-6046R Aplikatörlü El Kil Pedi'nin yedek parçasıdır. Mevcut ped aşındığında veya kirliyken değiştirmek için kullanılır.",
+      "target_surface": "Boyalı yüzeyler, vernik, cam, krom",
+      "why_this_product": "• 2 adet yedek ped - toplam 80 araç kapasitesi\n• Saniyeler içinde değişim - hook & loop sistem\n• Ekonomik çözüm - gövdeyi tekrar almak gerekmez\n• Kesintisiz profesyonel çalışma"
+    },
+    "faq": [
+      {"question": "Hangi ürünle uyumlu?", "answer": "Sadece MGPS-6046R Aplikatörlü El Kil Pedi gövdesiyle uyumludur."},
+      {"question": "Her ped kaç araç için yeterli?", "answer": "Her ped doğru bakımla 40 araç dekontaminasyonu için yeterlidir."},
+      {"question": "Farklı gövdeyle kullanılabilir mi?", "answer": "Hayır, özel cırtlı sistemi sadece MGPS-6046R ile uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["MGPS-6046R"], "accessories": [], "alternatives": []}
+  }
+}

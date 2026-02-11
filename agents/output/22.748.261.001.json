@@ -1,0 +1,115 @@
+{
+  "sku": "22.748.261.001",
+  "last_updated": "2026-02-04T13:20:00Z",
+  "status": "enriched",
+
+  "product_info": {
+    "title": "MENZERNA One-Step Polish 3in1 Tek Adım Pasta Cila Koruma - 1 lt",
+    "brand": "MENZERNA",
+    "barcode": null,
+    "group": "abrasive_polish",
+    "sub_type": "one_step_polish"
+  },
+
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T13:20:00Z",
+    "sources": {
+      "full_description": {
+        "reliability": 1.0,
+        "language": "tr",
+        "text": "Menzerna One-Step Polish 3in1, araç bakımında zamanı kısıtlı olan ancak kaliteden ödün vermek istemeyen kullanıcılar için geliştirilmiş devrim niteliğinde bir üründür. Bu çok yönlü formül; orta seviye bir pastanın düzeltme gücünü, bir final cilasının göz alıcı parlaklığını ve bir wax'ın dayanıklı korumasını tek bir adımda birleştirir. P3000 seviyesindeki zımpara izlerini, dairesel çizikleri (swirl marks) ve oksidasyonu kolayca giderirken, ardında pürüzsüz, derin bir parlaklık ve suyu yüzeyden iten koruyucu bir wax tabakası bırakır.",
+        "extracted_specs": {
+          "cut_level": 5,
+          "finish_level": 9,
+          "silicone_free": false,
+          "filler_free": true,
+          "formula_base": "water_based",
+          "contains_protection": true,
+          "grit_removal": "P3000"
+        },
+        "extracted_content": {
+          "usage_scenarios": ["Hızlı ve etkili araç bakımı", "Satışa hazırlık (galerici cilası)", "Yeni başlayanlar", "Mevsimsel koruma ve parlaklık"],
+          "usage_steps_found": true,
+          "alternatives_mentioned": []
+        }
+      },
+      "urls": []
+    },
+    "conflict_resolution": {},
+    "merged_pool": {
+      "specs": {
+        "cut_level": 5,
+        "finish_level": 9,
+        "silicone_free": false,
+        "filler_free": true,
+        "formula_base": "water_based",
+        "contains_protection": true,
+        "grit_removal": "P3000",
+        "machine_compatibility": ["rotary", "orbital", "hand"],
+        "recommended_pads": ["Menzerna Sarı Ara Kat Pedi", "Menzerna Yeşil Final Pedi", "Orta sertlikte sünger ped"]
+      },
+      "content": {
+        "use_cases": ["Hızlı araç bakımı", "Galerici cilası", "Yeni başlayanlar", "Mevsimsel bakım"],
+        "benefits": ["3in1 formül - pasta, cila, wax", "P3000 izlerini giderir", "Koruyucu wax tabakası", "Kolay uygulama"]
+      },
+      "faq": [],
+      "related_products": []
+    }
+  },
+
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T13:20:00Z",
+    "template_fields": {
+      "cut_level": 5,
+      "finish_level": 9,
+      "machine_compatibility": ["rotary", "orbital", "hand"],
+      "recommended_pad_types": ["medium_cut_foam_pad", "finishing_foam_pad"],
+      "dusting_level": null,
+      "working_time": null,
+      "contains_protection": true,
+      "silicone_free": false,
+      "bodyshop_safe": false,
+      "filler_free": true,
+      "formula_base": "water_based",
+      "abrasive_type": null,
+      "safe_for_soft_paint": true,
+      "wipe_off_ease": null,
+      "grit_removal": "P3000"
+    },
+    "content": {
+      "how_to_use": "1. Hazırlık: Araç yüzeyini yıkayın ve kurulayın. Yüzeyin serin olduğundan emin olun.\n2. Makine & Ped Seçimi: Rotary, Orbital makineler veya elle uygulama yapılabilir.\n   - Daha Fazla Düzeltme: Menzerna Sarı Ara Kat Pedi\n   - Daha Parlak Bitiş: Menzerna Yeşil Final Pedi\n   - Elle Uygulama: Aplikatör sünger\n3. Ürün Miktarı: Pede 2-3 nohut tanesi büyüklüğünde ürün uygulayın.\n4. Uygulama: Makineyi düşük-orta hızda çalıştırın.\n   - Rotary: Kademe 2-3\n   - Orbital: Kademe 3-4\n5. Çalışma: Düzenli hareketlerle çalışın. Ürün şeffaflaşana kadar devam edin.\n6. Temizlik: Temiz mikrofiber bezle kalıntıları silin.\n7. Sonuç: Düzeltme, parlaklık ve koruma tek adımda tamamlanmış olacak.\n8. Pro-Tip: Koruma etkisini artırmak için 24 saat su ile temas ettirmeyin.",
+      "when_to_use": "Zamanı kısıtlı olan ancak aracının hafif kusurlarını giderip parlak ve korumalı bir yüzeye kavuşmasını isteyenler için idealdir. Satışa sunulacak araçların hazırlanmasında (galerici cilası olarak) kısa sürede görsel kusurları giderir ve çekiciliği artırır. Detailing dünyasına yeni başlayanlar için karmaşayı ortadan kaldırır. Mevsim geçişlerinde aracın hafif matlığını giderip koruma sağlamak için pratik bir çözümdür.",
+      "target_surface": "Tüm araç boyaları, hafif kusurlu yüzeyler, satışa hazırlanan araçlar, mevsimsel bakım gerektiren yüzeyler",
+      "why_this_product": "• Devrim niteliğinde 3in1 formül - pasta + cila + wax tek üründe.\n• P3000 zımpara izlerini, swirl marks ve oksidasyonu giderir.\n• Koruyucu wax tabakası bırakır - suyu yüzeyden iter.\n• Elle uygulama dahil tüm yöntemlerle kullanılabilir.\n• Yeni başlayanlar için ideal - karmaşık adımlara gerek yok."
+    },
+    "faq": [
+      {
+        "question": "3in1 formül ne anlama geliyor?",
+        "answer": "Tek üründe üç işlev: Orta seviye pasta gücüyle kusur düzeltme, final cilası kalitesinde parlaklık ve wax koruması. Üç ayrı ürün yerine tek ürünle işi bitirebilirsiniz."
+      },
+      {
+        "question": "Elle uygulama yapabilir miyim?",
+        "answer": "Evet, Menzerna 3in1 elle uygulamaya da uygundur. Aplikatör sünger ile dairesel hareketlerle uygulayabilirsiniz. Ancak makine ile daha etkili sonuçlar alırsınız."
+      },
+      {
+        "question": "Koruma ne kadar süre dayanır?",
+        "answer": "Normal kullanım koşullarında koruma 4-6 hafta etkili kalır. Korumayı yenilemek için düzenli aralıklarla uygulama yapılabilir."
+      },
+      {
+        "question": "Boya atölyesinde kullanılabilir mi?",
+        "answer": "Hayır, bu ürün silikon içerdiğinden boya atölyelerinde kullanılması önerilmez. Boya işlemleri için silikonsuz Menzerna ürünlerini tercih edin."
+      },
+      {
+        "question": "Galerici cilası olarak neden tercih ediliyor?",
+        "answer": "Tek adımda kusur giderme, parlaklık ve koruma sağlaması, satışa hazırlanan araçların hızlıca çekici hale getirilmesini sağlar. Zamandan tasarruf ve profesyonel sonuç sunar."
+      }
+    ],
+    "relations": {
+      "use_before": [],
+      "use_after": [],
+      "use_with": [],
+      "accessories": [],
+      "alternatives": []
+    }
+  }
+}

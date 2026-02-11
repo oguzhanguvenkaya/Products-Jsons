@@ -1,0 +1,23 @@
+{
+  "sku": "SGPM006",
+  "last_updated": "2026-02-04T15:15:00Z",
+  "status": "enriched",
+  "product_info": {"title": "SGCB Açılı Trapez Mıknatıslı TPU Ragle 12 Cm", "brand": "SGCB", "barcode": "6973086165342", "group": "ppf_tools", "sub_type": "squeegee"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:15:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:15:00Z",
+    "template_fields": {"material": "TPU", "hardness": "Orta", "angle": 85, "magnet": true, "dimensions": {"top_length_cm": 12, "bottom_length_cm": 9, "width_cm": 7.5, "thickness_cm": 0.6}},
+    "content": {
+      "how_to_use": "1. Ragleyi ergonomik şekilde kavrayın.\n2. PPF veya folyo üzerine yerleştirin.\n3. Merkezden kenarlara doğru 45 derece açıyla çekin.\n4. Hava kabarcıklarını ve sıvıyı tahliye edin.\n5. Mıknatıs ile araç gövdesine sabitleyebilirsiniz.",
+      "when_to_use": "Geniş paneller, kapılar, çamurluklar ve tamponlarda PPF/folyo uygulaması için kullanılır. Cam temizliği ve duvar kağıdı uygulamalarında da idealdir.",
+      "target_surface": "Araç panelleri, kapılar, çamurluklar, ön/arka tamponlar, cam",
+      "why_this_product": "• 85 derece açılı trapez tasarım - kolay sıvı tahliyesi\n• Orta sertlikte TPU - boya çizmez\n• Entegre mıknatıs - filmi kontrol etmek ve sabitlemek için\n• 12 cm genişlik - geniş alanlarda verimli"
+    },
+    "faq": [
+      {"question": "TPU malzeme boyayı çizer mi?", "answer": "Hayır, orta sertlik ve elastikliğe sahip TPU malzeme araç boyasını çizmez."},
+      {"question": "Mıknatıs ne işe yarar?", "answer": "Filmi araç gövdesinde sabitleyerek hareket ve kontrol etmeyi kolaylaştırır. Boyaya zarar vermeden çıkarılabilir."},
+      {"question": "Cam filminde de kullanılabilir mi?", "answer": "Evet, cam filmi uygulamalarında da etkili şekilde kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGPM004", "SGPM001"]}
+  }
+}

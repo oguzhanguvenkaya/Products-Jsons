@@ -1,0 +1,39 @@
+{
+  "sku": "76283",
+  "last_updated": "2026-02-05T00:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FRA-BER Bean Classic Refill Oto Kokusu Yedek Kartuş",
+    "brand": "FRA-BER",
+    "barcode": "8027486760992",
+    "group": "fragrance",
+    "sub_type": "refill"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-05T00:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-05T00:00:00Z",
+    "template_fields": {
+      "compatible_product": "Bean Classic",
+      "scent": "Classic",
+      "made_in": "İtalya",
+      "collection": "Bean Refill"
+    },
+    "content": {
+      "how_to_use": "1. Mevcut Bean kokusu ünitesinden boş kartuşu çıkarın.\n2. Yeni Classic yedek kartuşu yerine takın.\n3. Kartuş klipsi yerine oturduğundan emin olun.\n4. Koku otomatik olarak yayılmaya başlar.",
+      "when_to_use": "Bean Classic araç kokusunun kartuşu bittiğinde yedek olarak kullanın. Ana üniteyi değiştirmeden koku deneyimini yenileyebilirsiniz.",
+      "target_surface": "FRA-BER Bean Classic araç kokusu ünitesi",
+      "why_this_product": "• Orijinal Bean Classic ünitesi ile tam uyumlu\n• Ekonomik yedek çözüm\n• Klasik ve zarif koku profili\n• Aylarca kalıcı etki"
+    },
+    "faq": [
+      {"question": "Bean Refill nedir?", "answer": "FRA-BER Bean serisi araç kokularının yedek kartuşudur, ana üniteyi değiştirmeden kokuyu yenileyebilirsiniz."},
+      {"question": "Hangi ürünle uyumlu?", "answer": "FRA-BER Bean Classic araç kokusu ünitesi ile uyumludur."},
+      {"question": "Diğer Bean çeşitleri hangileri?", "answer": "Balance, Casual, Glamour, Sporty gibi farklı yaşam tarzlarına uygun çeşitler mevcuttur."},
+      {"question": "Ne kadar süre dayanır?", "answer": "Kullanım koşullarına bağlı olarak aylarca kalıcı koku sağlar."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["78156"], "accessories": [], "alternatives": ["76280"]}
+  }
+}

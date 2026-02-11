@@ -1,0 +1,47 @@
+{
+  "sku": "75130",
+  "product_name": "Fra-Ber Reef Marin Krom ve Çelik Parçalar Için Pas ve Kireç Çözücü - 750 ml",
+  "barcode": "75130",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 3,
+  "failed_scrapes": 1,
+  "scraped_at": "2026-02-07T22:14:15.814Z",
+  "sources": [
+    {
+      "url": "https://shop.fra-ber.it/en/products/disincrostante-e-anticalcare-per-barche-reef?variant=43675767767248",
+      "domain": "shop.fra-ber.it",
+      "language": "en",
+      "page_title": "Fra-Ber Reef Descaler and Limescale Remover for Boats",
+      "content_length": 13966,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://detailingmania.lv/en/products/fra-ber-ko-iron-750ml---wheel-cleaner-and-de-ironiser",
+      "domain": "detailingmania.lv",
+      "language": "en",
+      "page_title": "Making sure you&#39;re not a bot!",
+      "content_length": 1449,
+      "has_specs": false,
+      "has_description": false,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": false
+    },
+    {
+      "url": "https://www.gecegy.com/en/shop/fra-ber-ko-iron-italian-cleaner-disinfectant-for-body-wheel-750ml-5313",
+      "domain": "gecegy.com",
+      "language": "en",
+      "page_title": "FRA-BER KO IRON 750ML Cleaner &amp; Disinfectant For Body &amp; Wheel | Garage Equipment Center | GEC Egypt",
+      "content_length": 4233,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "sku": "Q2-TYA500M",
+  "last_updated": "2026-02-04T20:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "GYEON Q Tire Seramik Bazlı Lastik Jeli - 500 ml",
+    "brand": "GYEON",
+    "barcode": "8809973751559",
+    "group": "ceramic_coating",
+    "sub_type": "tire_coating"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T20:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T20:00:00Z",
+    "template_fields": {
+      "durability_washes": "5+ Yıkama",
+      "composition": "SiO2 emdirilmiş",
+      "finish_effect": "Saten (Isıtılırsa parlak)",
+      "consumption_ml_per_car": 12
+    },
+    "content": {
+      "how_to_use": "1. Lastiği Q²M TireCleaner + fırça ile derinlemesine temizleyin, tamamen kurutun.\n2. Şişeyi iyice çalkalayın.\n3. TireApplicator'a 3-5 damla damlatın, ince ve eşit film hâlinde sürün.\n4. 10-15 dk dokunmayın; fazla ürünü mikrofiberle hafifçe silin.\n5. Opsiyonel: Isı tabancasıyla yanakları 40-50°C'ye kadar ısıtıp ürünü emdirin.\n6. İkinci kat için 20 dk sonra tekrar uygulayın.\n7. Uygulamadan sonra aracı 2 saat kullanmayın.",
+      "when_to_use": "Lastik yanaklarında uzun ömürlü saten siyahlık, UV koruması ve kir tutmama için kullanılır.",
+      "target_surface": "Otomobil, SUV ve hafif ticari lastik yanakları, motorsport lastikleri, lastik yazıları ve logoları",
+      "why_this_product": "• SiO² içerikli formül - 5+ yıkama dayanımı\n• Sıçrama yapmayan jel formül\n• Saten doğal bitiş - yapay parlaklık yok\n• 500 ml ile ~35-40 lastik kaplama"
+    },
+    "faq": [
+      {"question": "Parlak mı yoksa mat mı bırakır?", "answer": "Tek kat saten-mat; ısıtma yapmadan ikinci kat hafif parlaklık katabilir."},
+      {"question": "Yağmurlu havada kalıcılığı düşer mi?", "answer": "Hayır. SiO² bariyer su sıçramasına ve basınçlı yıkamaya karşı dirençlidir."},
+      {"question": "Kahverengileşme (blooming) yapar mı?", "answer": "Yapmaz. UV filtreleri lastiğin renk stabilitesini korur."},
+      {"question": "Beyaz yazılı yanaklarda güvenli mi?", "answer": "Evet; jel formül beyaz lastik harflerini sarartmaz."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": []}
+  }
+}

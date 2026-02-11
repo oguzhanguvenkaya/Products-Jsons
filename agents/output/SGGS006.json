@@ -1,0 +1,41 @@
+{
+  "sku": "SGGS006",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "SGCB Uzun Nozul Hava Tabancası - Kompresör Basınçlı Hava Üfleyici",
+    "brand": "SGCB",
+    "barcode": "6973086165687",
+    "group": "polisher_machine",
+    "sub_type": "air_blow_gun"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "product_type": "air_blow_gun",
+      "power_source": "Pneumatic",
+      "nozzle_type": "long",
+      "material": "PA66",
+      "dimensions_mm": "225x90x25",
+      "weight_g": 124,
+      "features": ["Konik açılı uzun nozul", "PA66 plastik gövde", "Çift kanca sistemi", "Alüminyum iç parçalar"]
+    },
+    "content": {
+      "how_to_use": "1. Kompresör hava hattına bağlayın.\n2. Uzun nozulu derin ve ulaşılması zor alanlara yönlendirin.\n3. Tetiği çekerek hava üfleyin.\n4. Fitil araları ve motor bölgesi gibi dar alanlarda etkili kullanın.\n5. Kullanım sonrası çift kanca ile asarak saklayın.",
+      "when_to_use": "Derin ve ulaşılması zor alanların kurutulması, fitil araları temizliği, motor bölgesi temizliği ve detaylı iç mekan temizliği için kullanılır.",
+      "target_surface": "Fitil araları, motor bölgesi, kapı cepleri, dar alanlar, iç mekan köşeleri",
+      "why_this_product": "• Uzun nozul ile derin erişim\n• Dayanıklı PA66 plastik gövde\n• 225mm uzunluk - maksimum erişim\n• Ergonomik kaymaz tutma sapı"
+    },
+    "faq": [
+      {"question": "Kısa nozuldan farkı nedir?", "answer": "Uzun nozul (225mm) derin ve ulaşılması zor alanlara erişim sağlar. Kısa nozul (179mm) daha hassas kontrol için uygundur."},
+      {"question": "Nozul değiştirilebilir mi?", "answer": "Hayır, nozul gövdeye entegre olup değiştirilemez. Farklı uzunluklar için SGGS003 kısa nozul versiyonu tercih edilebilir."},
+      {"question": "Boyalı yüzeylere zarar verir mi?", "answer": "Kauçuk kaplamalı koruyucu başlık sayesinde yüzeylere zarar vermeden kullanılabilir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["SGGS003", "SGGC086"]}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "sku": "Q2M-PWE4040C",
+  "last_updated": "2026-02-04T16:00:00Z",
+  "status": "enriched",
+  "product_info": {"title": "GYEON QM PolishWipe EVO Lazer Kesim Çift Yönlü Cila Bezi - 40x40 cm", "brand": "GYEON", "barcode": "8809432671442", "group": "microfiber", "sub_type": "buffing_cloth"},
+  "scraped": {"scrape_timestamp": "2026-02-04T16:00:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T16:00:00Z",
+    "template_fields": {"size": "40x40 cm", "gsm": 310, "type": "Dual Pile (Kısa/Uzun Tüylü)", "material_blend": "80% polyester / 20% polyamid", "edge_type": "Lazer Kesim / Kenarsız", "wash_temp_max": 30},
+    "content": {
+      "how_to_use": "1. Cila/pasta işlemi tamamlandıktan sonra kısa tüylü yüzle yağlı kalıntıları alın.\n2. Uzun tüylü yüzle son kontrol yapın; hologram ve iz bırakmadan parlaklığı onaylayın.\n3. 30°C'de sıvı mikrofiber deterjanı ile yıkayın; asarak kurutun.",
+      "when_to_use": "Pasta/cila kalıntı temizliği, yüzey kontrolü (inspection), kaplama öncesi son silim ve iç detay işleri için kullanılır.",
+      "target_surface": "Boya, krom, parlak nikel, alüminyum, piano-black, plastik trim",
+      "why_this_product": "• Çift yüzlü tasarım - kısa tüy yağ söker, uzun tüy toz toplar\n• Dikişsiz kenarsız güvenlik - çizik riski sıfır\n• 310 GSM yüksek emicilik\n• Q²M Prep ile kombine edildiğinde kaplama tutunmasını artırır"
+    },
+    "faq": [
+      {"question": "Seramik kaplama sonrası silme işleminde kullanılabilir mi?", "answer": "Evet, kaplama artıklarını çiziksiz toplamaya uygundur; lifleri kimyasala dayanıklıdır."},
+      {"question": "Uzun ve kısa tüylü yüzleri ne zaman tercih etmeliyim?", "answer": "Kısa lif yağlı kalıntıyı söker; uzun lif tozu ve mikro kalıntıları toplar. İki adımlı kullanın."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": ["Q2M-PRA500M"], "accessories": [], "alternatives": ["Q2M-SWE4040C", "3215D"]}
+  }
+}

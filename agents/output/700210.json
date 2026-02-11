@@ -1,0 +1,22 @@
+{
+  "sku": "700210",
+  "last_updated": "2026-02-04T15:35:00Z",
+  "status": "enriched",
+  "product_info": {"title": "FRA-BER Ko Iron Demir Tozu Sökücü Ve Jant Temizleyici (1:1 Konsantre) - 4,54 lt", "brand": "FRA-BER", "barcode": "8027486807116", "group": "contaminant_solvers", "sub_type": "wheel_iron_remover"},
+  "scraped": {"scrape_timestamp": "2026-02-04T15:35:00Z", "sources": {"full_description": {"reliability": 1.0, "language": "tr"}}, "urls": []},
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T15:35:00Z",
+    "template_fields": {"target_dirt": "Demir Tozu / Balata Tozu / Rail Kirleri", "reaction_color": "Mor", "ph_level": "Hafif asidik", "gel_form": true, "odor": "Kiraz", "concentrate": true, "dilution_ratio": "Saf veya 1:1 - 1:2", "volume_lt": 4.54},
+    "content": {
+      "how_to_use": "1. Yüzey serin ve kuru olmalı; doğrudan güneş altında çalışmayın.\n2. Şişeyi çalkalayın, hedef bölgeye homojen film olarak sıkın.\n3. 2-5 dakika mor renge dönene kadar bekleyin; kurumasına izin vermeyin.\n4. İnatçı kirde yumuşak jant fırçası kullanın.\n5. Bol su veya yüksek basınçla tamamen arındırın.\n6. Panel panel ilerleyin.",
+      "when_to_use": "Profesyonel detay stüdyoları ve yıkamacılar için ekonomik paket. Jant, kaporta ve cam dekontaminasyonu, seramik kaplama öncesi hazırlık için kullanılır.",
+      "target_surface": "Jant, boya, cam, plastik kaplama",
+      "why_this_product": "• 4.54 L konsantre = 9 L kullanıma hazır ürün\n• Morlaşan reaksiyon göstergesi\n• Jel kıvam - uzun temas süresi\n• Kiraz aroması - düşük sülfür kokusu"
+    },
+    "faq": [
+      {"question": "Seyreltme oranı nedir?", "answer": "Ağır kir için saf, standart bakım için 1:1, hafif kir için 1:2 oranında seyreltilebilir."},
+      {"question": "Kaç araç için yeterli?", "answer": "1:1 seyreltmeyle yaklaşık 60 araç jant temizliği için yeterlidir."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["700482"]}
+  }
+}

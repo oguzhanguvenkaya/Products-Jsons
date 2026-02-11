@@ -1,0 +1,40 @@
+{
+  "sku": "447706",
+  "last_updated": "2026-02-04T19:00:00Z",
+  "status": "enriched",
+  "product_info": {
+    "title": "FLEX ORE 5-150 EC Random Orbital Zımpara Makinesi 400W",
+    "brand": "FLEX",
+    "barcode": "4030293197305",
+    "group": "polisher_machine",
+    "sub_type": "sander"
+  },
+  "scraped": {
+    "scrape_timestamp": "2026-02-04T19:00:00Z",
+    "sources": {"full_description": {"reliability": 1.0, "language": "tr"}},
+    "urls": []
+  },
+  "enriched": {
+    "enrichment_timestamp": "2026-02-04T19:00:00Z",
+    "template_fields": {
+      "power_source": "Corded",
+      "power_watt": 400,
+      "orbit_mm": 5,
+      "backing_plate_diameter_mm": 150,
+      "motor_type": "Brushless",
+      "features": ["Kömürsüz motor", "Titreşim sönümleme", "Toz emme sistemi", "4 kademeli hız"]
+    },
+    "content": {
+      "how_to_use": "1. Cırt cırtlı zımpara diskini takın.\n2. Toz emme sistemini bağlayın (opsiyonel).\n3. 4 kademeli hız kadranından uygun devir seçin.\n4. Yüzeye hafif basınçla uygulayın.\n5. Dairesel hareketlerle zımparalayın.\n6. Düzenli olarak toz filtresini temizleyin.",
+      "when_to_use": "Boya öncesi yüzey hazırlama, dolgu zımparalama, pürüz giderme ve profesyonel yüzey düzeltme işlemleri için kullanılır.",
+      "target_surface": "Dolgulu yüzeyler, ahşap, metal, plastik",
+      "why_this_product": "• 400W kömürsüz motor - uzun ömür\n• Entegre toz emme sistemi\n• Titreşim sönümleme - ergonomik kullanım\n• 150mm geniş taban"
+    },
+    "faq": [
+      {"question": "Polisaj makinesi olarak kullanılabilir mi?", "answer": "Hayır, bu bir zımpara makinesidir. Polisaj için orbital veya rotary polisaj makineleri kullanılmalıdır."},
+      {"question": "Toz emici bağlamadan kullanılabilir mi?", "answer": "Evet, entegre PES filtre kartuşu ile tozsuz çalışabilir. Daha etkili toz kontrolü için harici toz emiciye bağlanabilir."},
+      {"question": "Hangi zımparalar uyumludur?", "answer": "150mm çapında cırt cırtlı, çok delikli tüm zımpara diskleri uyumludur."}
+    ],
+    "relations": {"use_before": [], "use_after": [], "use_with": [], "accessories": [], "alternatives": ["530632"]}
+  }
+}

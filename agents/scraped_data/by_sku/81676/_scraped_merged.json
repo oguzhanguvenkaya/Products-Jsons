@@ -1,0 +1,59 @@
+{
+  "sku": "81676",
+  "product_name": "IK FOAM PRO 2 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+  "barcode": "81676",
+  "total_urls_attempted": 4,
+  "successful_scrapes": 4,
+  "failed_scrapes": 0,
+  "scraped_at": "2026-02-07T22:16:12.735Z",
+  "sources": [
+    {
+      "url": "https://www.iksprayers.com/en/ik-foam-pro-2-81676.html",
+      "domain": "iksprayers.com",
+      "language": "en",
+      "page_title": "IK FOAM Pro 2 - Profesional Sprayers - Foam Sprayers",
+      "content_length": 8392,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://thecleangarage.uk/ik-foam-pro-2-alk-blue-hand-pump-foamer-alkaline-liquids/",
+      "domain": "thecleangarage.uk",
+      "language": "en",
+      "page_title": "IK Foam Pro 2 ALK | BLUE Hand Pump Foamer | Alkaline Liquids | The Clean Garage",
+      "content_length": 14182,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.theultimatefinish.co.uk/products/ik-sprayers-ik-foam-pro-2-plus.aspx",
+      "domain": "theultimatefinish.co.uk",
+      "language": "en",
+      "page_title": "IK FOAM Pro 2+ | IK Sprayer Hand Pump Pressure Foam Sprayer",
+      "content_length": 14719,
+      "has_specs": false,
+      "has_description": true,
+      "has_faq": false,
+      "has_reviews": true,
+      "has_related": true
+    },
+    {
+      "url": "https://www.diy.com/departments/matabi-81676-ik-foam-pro-2-handheld-sprayer-1-9-litre-mtb81676/8414685102089_BQ.prd",
+      "domain": "diy.com",
+      "language": "en",
+      "page_title": "Matabi 81676 IK FOAM Pro 2 Handheld Sprayer 1.9 litre MTB81676",
+      "content_length": 4636,
+      "has_specs": true,
+      "has_description": true,
+      "has_faq": true,
+      "has_reviews": true,
+      "has_related": true
+    }
+  ]
+}
