@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python
+*.bak
+*.pyc
+__pycache__/
+*.pyo
+
+# Geçici test çıktıları
+assets/logs
+assets/test
+assets/test2
