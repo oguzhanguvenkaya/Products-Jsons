@@ -1,0 +1,572 @@
+{
+  "metadata": {
+    "brand": "LITTLE JOE",
+    "brand_origin": "İsviçre",
+    "total_products": 73,
+    "total_categories": 8,
+    "distributor": "MTS Kimya",
+    "source_website": "https://mgpolishing.com/product-brand/little-joe/",
+    "generated_date": "2026-04-09"
+  },
+  "categories": [
+    {
+      "category_name": "Little Joe",
+      "product_count": 31,
+      "products": [
+        {
+          "sku": "EF0101",
+          "product_name": "Little Joe Vanilya Araç Kokusu (Vanilla) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-vanilya-arac-kokusu-vanilla-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-vanilya-arac-kokusu-vanilla-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF0202",
+          "product_name": "Little Joe Yeni Araç Kokusu (New Car) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF0220",
+          "product_name": "Little Joe Şeker Araç Kokusu (Sweet) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-seker-arac-kokusu-sweet-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-seker-arac-kokusu-sweet-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF0303",
+          "product_name": "Little Joe Aşk Araç Kokusu (Passion) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ask-arac-kokusu-passion-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-ask-arac-kokusu-passion-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF0606",
+          "product_name": "Little Joe Siyah İnci Araç Kokusu (Velvet) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-siyah-inci-arac-kokusu-velvet-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-siyah-inci-arac-kokusu-velvet-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF0808",
+          "product_name": "Little Joe Taze Nane Araç Kokusu (Fresh Mint) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-taze-nane-arac-kokusu-fresh-mint-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-taze-nane-arac-kokusu-fresh-mint-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1212",
+          "product_name": "Little Joe Amber Araç Kokusu (Amber) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-amber-arac-kokusu-amber-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-amber-arac-kokusu-amber-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1313",
+          "product_name": "Little Joe Çiçek Araç Kokusu (Flower) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-cicek-arac-kokusu-flower-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-cicek-arac-kokusu-flower-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1515",
+          "product_name": "Little Joe Kötü Koku Giderici Araç Kokusu (Odour Neutraliser)-45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kotu-koku-giderici-arac-kokusu-odour-neutraliser-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-kotu-koku-giderici-arac-kokusu-odour-neutraliser-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1616",
+          "product_name": "Little Joe Kaşmir Araç Kokusu (Cashmere) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kasmir-arac-kokusu-cashmere-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-kasmir-arac-kokusu-cashmere-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1655",
+          "product_name": "Little Joe Meyve Çiçek Araç Kokusu (Holiday Sparkle) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-meyve-cicek-arac-kokusu-holiday-sparkle-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-meyve-cicek-arac-kokusu-holiday-sparkle-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1717",
+          "product_name": "Little Joe Zencefil Limon Araç Kokusu (Ginger) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-zenfefil-limon-arac-kokusu-ginger-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-zenfefil-limon-arac-kokusu-ginger-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1754",
+          "product_name": "Little Joe Nane Mentol Araç Kokusu (Frosty Delight) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-nane-mentol-arac-kokusu-frosty-delight-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-nane-mentol-arac-kokusu-frosty-delight-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1818",
+          "product_name": "Little Joe Misk Araç Kokusu (Musk) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-misk-arac-kokusu-musk-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-misk-arac-kokusu-musk-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF1919",
+          "product_name": "Little Joe Sedir Ağacı Araç Kokusu (Cedarwood) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-sedir-agaci-arac-kokusu-cedarwood-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-sedir-agaci-arac-kokusu-cedarwood-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF3963",
+          "product_name": "Little Joe Kapuçino Kahve Araç Kokusu (Cappucino) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kapucino-kahve-arac-kokusu-cappucino-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-kapucino-kahve-arac-kokusu-cappucino-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EF4064",
+          "product_name": "Little Joe Gerçek Deri Araç Kokusu (Pure Leather) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-gercek-deri-arac-kokusu-pure-leather-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-gercek-deri-arac-kokusu-pure-leather-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF0404",
+          "product_name": "Little Joe Kiraz Araç Kokusu (Cherry) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kiraz-arac-kokusu-cherry-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-kiraz-arac-kokusu-cherry-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF0453",
+          "product_name": "Little Joe Elma Tarçın Araç Kokusu (Apple Cinnamon) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-elma-tarcin-arac-kokusu-apple-cinnamon-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-elma-tarcin-arac-kokusu-apple-cinnamon-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF0909",
+          "product_name": "Little Joe Meyve Araç Kokusu (Fruit) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-meyve-arac-kokusu-fruit-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-meyve-arac-kokusu-fruit-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF1111",
+          "product_name": "Little Joe Çilek Araç Kokusu (Strawberry) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-cilek-arac-kokusu-strawberry-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-cilek-arac-kokusu-strawberry-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF1414",
+          "product_name": "Little Joe Ananas Hindistan Cevizi Araç Kokusu (Pina Colada)-45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ananas-hindistan-cevizi-arac-kokusu-pina-colada-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-ananas-hindistan-cevizi-arac-kokusu-pina-colada-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF2939",
+          "product_name": "Little Joe Sakız Araç Kokusu (Bubble Gum) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-sakiz-arac-kokusu-bubble-gum-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-sakiz-arac-kokusu-bubble-gum-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IF3243",
+          "product_name": "Little Joe Elma Araç Kokusu (Apple) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-elma-arac-kokusu-apple-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-elma-arac-kokusu-apple-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "JC0101",
+          "product_name": "Little Joe Ekran Temizleme Spreyi 14 Ml - Mikrofiberli Araç LED Telefon Tablet Oto Cam Temizleyici",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ekran-temizleme-spreyi-14-ml-mikrofiberli-arac-led-telefon-tablet-oto-cam-temizleyici/",
+          "url_mtskimya": "https://mtskimya.com/dis-yuzey/yuzey-hazirlik-ve-temizleyiciler/cam-temizleyici-ve-koruyucular/prd-little-joe-ekran-temizleme-spreyi-14-ml-mikrofiberli-arac-led-telefon-tablet-oto-cam-temizleyici"
+        },
+        {
+          "sku": "LE3620",
+          "product_name": "Little Joe Aşk Serisi 2li Paket Şekerli Meyve Araç Kokusu (Candy Kisses) -45 Gün -Oto Kokusu Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ask-serisi-2li-paket-sekerli-meyve-arac-kokusu-candy-kisses-45-gun-oto-kokusu-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-ask-serisi-2li-paket-sekerli-meyve-arac-kokusu-candy-kisses-45-gun-oto-kokusu-parfum"
+        },
+        {
+          "sku": "LE3739",
+          "product_name": "Little Joe Aşk Serisi 2li Paket Ahududu Araç Kokusu (Sweet Berry) -45 Gün -Oto Kokusu Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ask-serisi-2li-paket-ahududu-arac-kokusu-sweet-berry-45-gun-oto-kokusu-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-ask-serisi-2li-paket-ahududu-arac-kokusu-sweet-berry-45-gun-oto-kokusu-klima-parfum"
+        },
+        {
+          "sku": "LE3801",
+          "product_name": "Little Joe Aşk Serisi 2li Paket Vanilya Araç Kokusu (Sunshine Bliss) -45 Gün -Oto Kokusu Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ask-serisi-2li-paket-vanilya-arac-kokusu-sunshine-bliss-45-gun-oto-kokusu-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-ask-serisi-2li-paket-vanilya-arac-kokusu-sunshine-bliss-45-gun-oto-kokusu-parfum"
+        },
+        {
+          "sku": "LO2601",
+          "product_name": "Little Joe Seni Seviyorum Vanilya Araç Kokusu (I Love You)-45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-seni-seviyorum-vanilya-arac-kokusu-i-love-you-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-seni-seviyorum-vanilya-arac-kokusu-i-love-you-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "LO2602",
+          "product_name": "Little Joe Türkiye'yi Seviyorum Yeni Araç Kokusu (New Car)-45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-turkiye-yi-seviyorum-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-turkiye-yi-seviyorum-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "SJ0402",
+          "product_name": "Little Joe Futbol Yeni Araç Kokusu (New Car) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-futbol-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-futbol-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum"
+        }
+      ]
+    },
+    {
+      "category_name": "Little Dog",
+      "product_count": 7,
+      "products": [
+        {
+          "sku": "ED0101",
+          "product_name": "Little Joe Little Dog Vanilya Araç Kokusu (Vanilla) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-vanilya-arac-kokusu-vanilla-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-vanilya-arac-kokusu-vanilla-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "ED0202",
+          "product_name": "Little Joe Little Dog Yeni Araç Kokusu (New Car) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "ED0303",
+          "product_name": "Little Joe Little Dog Aşk Araç Kokusu (Passion) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-ask-arac-kokusu-passion-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-ask-arac-kokusu-passion-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "ED0606",
+          "product_name": "Little Joe Little Dog Siyah İnci Araç Kokusu (Black Velvet) -45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-siyah-inci-arac-kokusu-black-velvet-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-siyah-inci-arac-kokusu-black-velvet-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "ED1515",
+          "product_name": "Little Joe Little Dog Kötü Koku Giderici Araç Kokusu (Odour Neutraliser) -45 Gün -Oto Kokusu",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-kotu-koku-giderici-arac-kokusu-odour-neutraliser-45-gun-oto-kokusu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-kotu-koku-giderici-arac-kokusu-odour-neutraliser-45-gun-oto-kokusu"
+        },
+        {
+          "sku": "ID0404",
+          "product_name": "Little Joe Little Dog Kiraz Araç Kokusu (Cherry) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-kiraz-arac-kokusu-cherry-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-kiraz-arac-kokusu-cherry-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "ID0909",
+          "product_name": "Little Joe Little Dog Meyve Araç Kokusu (Fruit) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-dog-meyve-arac-kokusu-fruit-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-dog-meyve-arac-kokusu-fruit-45-gun-oto-kokusu-kalici-klima-parfum"
+        }
+      ]
+    },
+    {
+      "category_name": "Little Pup",
+      "product_count": 5,
+      "products": [
+        {
+          "sku": "EP0101",
+          "product_name": "Little Joe Little Pup Vanilya Araç Kokusu (Pup-sation) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-pup-vanilya-arac-kokusu-pup-sation-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-pup-vanilya-arac-kokusu-pup-sation-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EP0309",
+          "product_name": "Little Joe Little Pup Tatlı Araç Kokusu (Sweet Snuggles) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-pup-tatli-arac-kokusu-sweet-snuggles-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-pup-tatli-arac-kokusu-sweet-snuggles-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EP2455",
+          "product_name": "Little Joe Little Pup İncir Ağacı Araç Kokusu (Mauve Magic) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-pup-incir-agaci-arac-kokusu-mauve-magic-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-pup-incir-agaci-arac-kokusu-mauve-magic-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EP2754",
+          "product_name": "Little Joe Little Pup Taze Nane Araç Kokusu (Minty Fresh) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-pup-taze-nane-arac-kokusu-minty-fresh-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-pup-taze-nane-arac-kokusu-minty-fresh-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EP3539",
+          "product_name": "Little Joe Little Pup Yaban Mersini Araç Kokusu (Blueberry) -45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-pup-yaban-mersini-arac-kokusu-blueberry-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-pup-yaban-mersini-arac-kokusu-blueberry-45-gun-oto-kokusu-kalici-klima-parfum"
+        }
+      ]
+    },
+    {
+      "category_name": "Little Joya",
+      "product_count": 6,
+      "products": [
+        {
+          "sku": "EY0202",
+          "product_name": "Little Joe Little Joya Yeni Araç Kokusu (New Car) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-joya-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-joya-yeni-arac-kokusu-new-car-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EY1213",
+          "product_name": "Little Joe Little Joya Bahar Araç Kokusu (Springtime) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-joya-bahar-arac-kokusu-springtime-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-joya-bahar-arac-kokusu-springtime-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EY2409",
+          "product_name": "Little Joe Little Joya Lavanta Araç Kokusu (Sweet Dreams) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-joya-lavanta-arac-kokusu-sweet-dreams-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-joya-lavanta-arac-kokusu-sweet-dreams-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "EY3311",
+          "product_name": "Little Joe Little Joya Pamuk Şeker Araç Kokusu (Cotton Candy)-45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-joya-pamuk-seker-arac-kokusu-cotton-candy-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-joya-pamuk-seker-arac-kokusu-cotton-candy-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IY1401",
+          "product_name": "Little Joe Little Joya Vanilya Araç Kokusu (Vanilla) -45 Gün -Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-joya-vanilya-arac-kokusu-vanilla-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-joya-vanilya-arac-kokusu-vanilla-45-gun-oto-kokusu-kalici-klima-parfum"
+        },
+        {
+          "sku": "IY2939",
+          "product_name": "Little Joe Little Joya Yaban Mersini Araç Kokusu (Blueberry)-45 Gün-Oto Kokusu Kalıcı Klima Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-little-joya-yaban-mersini-arac-kokusu-blueberry-45-gun-oto-kokusu-kalici-klima-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/petek-kokular/prd-little-joe-little-joya-yaban-mersini-arac-kokusu-blueberry-45-gun-oto-kokusu-kalici-klima-parfum"
+        }
+      ]
+    },
+    {
+      "category_name": "Little Joe Pump Spray",
+      "product_count": 6,
+      "products": [
+        {
+          "sku": "JS0161",
+          "product_name": "Little Joe Vanilya Sprey Oda Kokusu 60 ml (Vanilla) -Koku Giderici -Oto Ev Ofis Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-vanilya-sprey-oda-kokusu-60-ml-vanilla-koku-giderici-oto-ev-ofis-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/sprey-kokular/prd-little-joe-vanilya-sprey-oda-kokusu-60-ml-vanilla-koku-giderici-oto-ev-ofis-parfum"
+        },
+        {
+          "sku": "JS0458",
+          "product_name": "Little Joe Baharatlı Sprey Oda Kokusu 60 ml (Spicy Fusion) -Koku Giderici -Oto Ev Ofis Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-baharatli-sprey-oda-kokusu-60-ml-spicy-fusion-koku-giderici-oto-ev-ofis-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/sprey-kokular/prd-little-joe-baharatli-sprey-oda-kokusu-60-ml-spicy-fusion-koku-giderici-oto-ev-ofis-parfum"
+        },
+        {
+          "sku": "JS0859",
+          "product_name": "Little Joe Ferahlatıcı Sprey Oda Kokusu 60 ml (Vital Energy) -Koku Giderici -Oto Ev Ofis Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-ferahlatici-sprey-oda-kokusu-60-ml-vital-energy-koku-giderici-oto-ev-ofis-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/sprey-kokular/prd-little-joe-ferahlatici-sprey-oda-kokusu-60-ml-vital-energy-koku-giderici-oto-ev-ofis-parfum"
+        },
+        {
+          "sku": "JS0962",
+          "product_name": "Little Joe Tropikal Meyve Sprey Oda Kokusu 60 ml (Tropical) -Koku Giderici -Oto Ev Ofis Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-tropikal-meyve-sprey-oda-kokusu-60-ml-tropical-koku-giderici-oto-ev-ofis-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/sprey-kokular/prd-little-joe-tropikal-meyve-sprey-oda-kokusu-60-ml-tropical-koku-giderici-oto-ev-ofis-parfum"
+        },
+        {
+          "sku": "JS1057",
+          "product_name": "Little Joe Nane Sprey Oda Kokusu 60 ml (Fresh Start) -Koku Giderici -Oto Ev Ofis Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-nane-sprey-oda-kokusu-60-ml-fresh-start-koku-giderici-oto-ev-ofis-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/sprey-kokular/prd-little-joe-nane-sprey-oda-kokusu-60-ml-fresh-start-koku-giderici-oto-ev-ofis-parfum"
+        },
+        {
+          "sku": "JS1360",
+          "product_name": "Little Joe Çiçek Sprey Oda Kokusu 60 ml (Fabulous) -Koku Giderici -Oto Ev Ofis Parfüm",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-cicek-sprey-oda-kokusu-60-ml-fabulous-koku-giderici-oto-ev-ofis-parfum/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/sprey-kokular/prd-little-joe-cicek-sprey-oda-kokusu-60-ml-fabulous-koku-giderici-oto-ev-ofis-parfum"
+        }
+      ]
+    },
+    {
+      "category_name": "Paper",
+      "product_count": 8,
+      "products": [
+        {
+          "sku": "PS0101",
+          "product_name": "Little Joe Vanilya Araç Asma Koku (Vanilla) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-vanilya-arac-asma-koku-vanilla-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-vanilya-arac-asma-koku-vanilla-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS0313",
+          "product_name": "Little Joe Çiçek Araç Asma Koku (Flower) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-cicek-arac-asma-koku-flower-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-cicek-arac-asma-koku-flower-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS0404",
+          "product_name": "Little Joe Kiraz Araç Asma Koku (Cherry) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kiraz-arac-asma-koku-cherry-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-kiraz-arac-asma-koku-cherry-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS0606",
+          "product_name": "Little Joe Siyah İnci Araç Asma Koku (Black Velvet) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-siyah-inci-arac-asma-koku-black-velvet-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-siyah-inci-arac-asma-koku-black-velvet-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS0707",
+          "product_name": "Little Joe Okyanus Araç Asma Koku (Ocean) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-okyanus-arac-asma-koku-ocean-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-okyanus-arac-asma-koku-ocean-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS0821",
+          "product_name": "Little Joe Yeşil Çay Araç Asma Koku (Green Tea) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-yesil-cay-arac-asma-koku-green-tea-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-yesil-cay-arac-asma-koku-green-tea-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS0931",
+          "product_name": "Little Joe Narenciye Araç Asma Koku (Citrus) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-narenciye-arac-asma-koku-citrus-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-narenciye-arac-asma-koku-citrus-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "PS2002",
+          "product_name": "Little Joe Yeni Araç Asma Koku (New Car) -30 Gün -İpli Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-yeni-arac-asma-koku-new-car-30-gun-ipli-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-yeni-arac-asma-koku-new-car-30-gun-ipli-oto-kokusu-ayna-parfumu"
+        }
+      ]
+    },
+    {
+      "category_name": "Scented Card",
+      "product_count": 7,
+      "products": [
+        {
+          "sku": "SC0223",
+          "product_name": "Little Joe Yeni Araç Kokulu Dolap Asma Kart (New Car) -45 Gün -İpli Ev Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-yeni-arac-kokulu-dolap-asma-kart-new-car-45-gun-ipli-ev-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-yeni-arac-kokulu-dolap-asma-kart-new-car-45-gun-ipli-ev-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "SC0922",
+          "product_name": "Little Joe Meyve Kokulu Dolap Asma Kart (Fruit) -45 Gün -İpli Ev Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-meyve-kokulu-dolap-asma-kart-fruit-45-gun-ipli-ev-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-meyve-kokulu-dolap-asma-kart-fruit-45-gun-ipli-ev-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "SC1515",
+          "product_name": "Little Joe Kötü Koku Giderici Dolap Asma Kart (Odour Neutraliser) -45 Gün -İpli Ev Oto Kokusu",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kotu-koku-giderici-dolap-asma-kart-odour-neutraliser-45-gun-ipli-ev-oto-kokusu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-kotu-koku-giderici-dolap-asma-kart-odour-neutraliser-45-gun-ipli-ev-oto-kokusu"
+        },
+        {
+          "sku": "SC2201",
+          "product_name": "Little Joe Vanilya Kokulu Dolap Asma Kart (Vanilla) -45 Gün -İpli Ev Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-vanilya-kokulu-dolap-asma-kart-vanilla-45-gun-ipli-ev-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-vanilya-kokulu-dolap-asma-kart-vanilla-45-gun-ipli-ev-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "SC2304",
+          "product_name": "Little Joe Kiraz Kokulu Dolap Asma Kart (Cherry) -45 Gün -İpli Ev Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kiraz-kokulu-dolap-asma-kart-cherry-45-gun-ipli-ev-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-kiraz-kokulu-dolap-asma-kart-cherry-45-gun-ipli-ev-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "SC2424",
+          "product_name": "Little Joe Lavanta Kokulu Dolap Asma Kart (Lavender) -45 Gün -İpli Ev Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-lavanta-kokulu-dolap-asma-kart-lavender-45-gun-ipli-ev-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-lavanta-kokulu-dolap-asma-kart-lavender-45-gun-ipli-ev-oto-kokusu-ayna-parfumu"
+        },
+        {
+          "sku": "SC2508",
+          "product_name": "Little Joe Taze Nane Kokulu Dolap Asma Kart (Fresh Mint) -45 Gün -İpli Ev Oto Kokusu -Ayna Parfümü",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-taze-nane-kokulu-dolap-asma-kart-fresh-mint-45-gun-ipli-ev-oto-kokusu-ayna-parfumu/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-taze-nane-kokulu-dolap-asma-kart-fresh-mint-45-gun-ipli-ev-oto-kokusu-ayna-parfumu"
+        }
+      ]
+    },
+    {
+      "category_name": "Tumble Fresh",
+      "product_count": 3,
+      "products": [
+        {
+          "sku": "TF0137",
+          "product_name": "Little Joe Kurutma Makinesi Vanilya Koku Kapsülü 2'li Paket (Vanilla Blossom) -40 Kurutma",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kurutma-makinesi-vanilya-koku-kapsulu-2-li-paket-vanilla-blossom-40-kurutma/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-kurutma-makinesi-vanilya-koku-kapsulu-2-li-paket-vanilla-blossom-40-kurutma"
+        },
+        {
+          "sku": "TF1138",
+          "product_name": "Little Joe Kurutma Makinesi Orkide Koku Kapsülü 2'li Paket (Blooming Orchid) -40 Kurutma",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kurutma-makinesi-orkide-koku-kapsulu-2-li-paket-blooming-orchid-40-kurutma/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-kurutma-makinesi-orkide-koku-kapsulu-2-li-paket-blooming-orchid-40-kurutma"
+        },
+        {
+          "sku": "TF2136",
+          "product_name": "Little Joe Kurutma Makinesi Lavanta Koku Kapsülü 2'li Paket (Fresh Lavender) -40 Kurutma",
+          "brand": "LITTLE JOE",
+          "url_mgpolishing": "https://mgpolishing.com/product/little-joe-kurutma-makinesi-lavanta-koku-kapsulu-2-li-paket-fresh-lavender-40-kurutma/",
+          "url_mtskimya": "https://mtskimya.com/ic-yuzey/arac-parfumleri/asma-kokular/prd-little-joe-kurutma-makinesi-lavanta-koku-kapsulu-2-li-paket-fresh-lavender-40-kurutma"
+        }
+      ]
+    }
+  ]
+}
