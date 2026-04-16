@@ -12,3 +12,15 @@ __pycache__/
 assets/logs
 assets/test
 assets/test2
+
+# Büyük binary dosyalar
+*.dmg
+*.pdf
+*.xlsx
+
+# Trace/debug dosyaları
+traces*.json
+report*.json
+
+# Yedek kopya
+detailagent 2/

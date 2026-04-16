@@ -1,0 +1,18 @@
+{
+  "name": "detailagent",
+  "version": "1.0.0",
+  "description": "MTS Kimya CARCAREAİ — TypeScript ADK ürün danışmanı agent'ı",
+  "type": "module",
+  "scripts": {
+    "dev": "adk dev",
+    "build": "adk build",
+    "deploy": "adk deploy"
+  },
+  "dependencies": {
+    "@botpress/runtime": "^1.17.0",
+    "csv-parse": "^6.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,231 @@
+<mxGraphModel adaptiveColors="auto">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- ================================================================== -->
+    <!-- PAGE TITLE -->
+    <!-- ================================================================== -->
+    <mxCell id="title" value="detailagent — 3 Kullanim Senaryosu Simulasyonu" style="text;html=1;fontSize=18;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+      <mxGeometry x="200" y="10" width="700" height="30" as="geometry"/>
+    </mxCell>
+
+    <!-- ================================================================== -->
+    <!-- SCENARIO 1: pH notr sampuan oner (basit tek-tool akisi)            -->
+    <!-- ================================================================== -->
+    <mxCell id="s1_box" value="Senaryo 1: Basit Urun Onerisi" style="swimlane;startSize=25;fillColor=#E8F5E9;strokeColor=#43A047;fontSize=13;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="20" y="60" width="1060" height="230" as="geometry"/>
+    </mxCell>
+
+    <!-- User bubble -->
+    <mxCell id="s1_user" value="Kullanici:&lt;br&gt;&lt;b&gt;&quot;pH notr sampuan oner&quot;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.5;base=15;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=10;rounded=1;" vertex="1" parent="s1_box">
+      <mxGeometry x="10" y="35" width="170" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- LLM Decision -->
+    <mxCell id="s1_llm" value="LLMz Karar:&lt;br&gt;&lt;i&gt;templateGroup = car_shampoo&lt;br&gt;templateSubType = ph_neutral_shampoo&lt;/i&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=9;rounded=1;" vertex="1" parent="s1_box">
+      <mxGeometry x="210" y="30" width="190" height="80" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool Call -->
+    <mxCell id="s1_tool" value="searchProducts&lt;br&gt;{&lt;br&gt;  query: &quot;pH notr sampuan&quot;,&lt;br&gt;  templateGroup: &quot;car_shampoo&quot;,&lt;br&gt;  templateSubType: &quot;ph_neutral_shampoo&quot;&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#E53935;fontSize=9;fontFamily=Courier New;align=left;spacingLeft=8;" vertex="1" parent="s1_box">
+      <mxGeometry x="430" y="25" width="230" height="95" as="geometry"/>
+    </mxCell>
+
+    <!-- DB Query -->
+    <mxCell id="s1_db" value="productSearchIndexTable&lt;br&gt;&lt;i&gt;vector search + filter&lt;/i&gt;&lt;br&gt;&lt;b&gt;10 urun bulundu&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#43A047;fontSize=9;size=8;" vertex="1" parent="s1_box">
+      <mxGeometry x="690" y="30" width="160" height="65" as="geometry"/>
+    </mxCell>
+
+    <!-- Result -->
+    <mxCell id="s1_result" value="&lt;b&gt;Carousel (5 urun)&lt;/b&gt;&lt;br&gt;GYEON Bathe 1000ml 980TL&lt;br&gt;Innovacar S2 Foamy 720TL&lt;br&gt;FRA-BER Neve 340TL&lt;br&gt;+ 2 daha&lt;br&gt;&lt;i&gt;+ Choice: Nasil Kullanilir?&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#8E24AA;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="s1_box">
+      <mxGeometry x="880" y="25" width="170" height="100" as="geometry"/>
+    </mxCell>
+
+    <!-- Arrows -->
+    <mxCell id="s1_e1" edge="1" parent="s1_box" source="s1_user" target="s1_llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#1976D2;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s1_e2" edge="1" parent="s1_box" source="s1_llm" target="s1_tool" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#E53935;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s1_e3" edge="1" parent="s1_box" source="s1_tool" target="s1_db" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#43A047;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s1_e4" edge="1" parent="s1_box" source="s1_db" target="s1_result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#8E24AA;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Flow labels -->
+    <mxCell id="s1_lb1" value="1 tool call" style="text;fontSize=8;fontStyle=2;fillColor=none;strokeColor=none;" vertex="1" parent="s1_box">
+      <mxGeometry x="410" y="120" width="70" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="s1_lb2" value="5/10 sonuc render" style="text;fontSize=8;fontStyle=2;fillColor=none;strokeColor=none;" vertex="1" parent="s1_box">
+      <mxGeometry x="840" y="120" width="90" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="s1_time" value="~7 sn | ~$0.008 | 1 iteration" style="text;fontSize=9;fontStyle=1;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="s1_box">
+      <mxGeometry x="10" y="140" width="200" height="20" as="geometry"/>
+    </mxCell>
+
+
+    <!-- ================================================================== -->
+    <!-- SCENARIO 2: Menzerna 400 oner (exactMatch + Carousel)              -->
+    <!-- ================================================================== -->
+    <mxCell id="s2_box" value="Senaryo 2: Spesifik Model + exactMatch" style="swimlane;startSize=25;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=13;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="20" y="310" width="1060" height="230" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_user" value="Kullanici:&lt;br&gt;&lt;b&gt;&quot;Menzerna 400 oner&quot;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.5;base=15;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=10;rounded=1;" vertex="1" parent="s2_box">
+      <mxGeometry x="10" y="35" width="150" height="55" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_llm" value="LLMz Karar:&lt;br&gt;&lt;i&gt;brand = MENZERNA&lt;br&gt;templateGroup = abrasive_polish&lt;br&gt;&lt;b&gt;exactMatch = &quot;400&quot;&lt;/b&gt;&lt;br&gt;limit = 5&lt;/i&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=9;rounded=1;" vertex="1" parent="s2_box">
+      <mxGeometry x="190" y="25" width="200" height="100" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_tool" value="searchProducts&lt;br&gt;{&lt;br&gt;  query: &quot;polisaj pasta&quot;,&lt;br&gt;  brand: &quot;MENZERNA&quot;,&lt;br&gt;  templateGroup: &quot;abrasive_polish&quot;,&lt;br&gt;  exactMatch: &quot;400&quot;,&lt;br&gt;  limit: 5&lt;br&gt;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#E53935;fontSize=9;fontFamily=Courier New;align=left;spacingLeft=8;" vertex="1" parent="s2_box">
+      <mxGeometry x="420" y="20" width="220" height="120" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_filter" value="&lt;b&gt;3-Asamali Retrieval&lt;/b&gt;&lt;br&gt;1. Pre-filter: brand=MENZERNA&lt;br&gt;   + template_group=abrasive_polish&lt;br&gt;2. Semantic: &quot;polisaj pasta&quot;&lt;br&gt;3. Post-filter: product_name&lt;br&gt;   .includes(&quot;400&quot;)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4EC;strokeColor=#C62828;fontSize=9;align=left;spacingLeft=8;dashed=1;" vertex="1" parent="s2_box">
+      <mxGeometry x="670" y="20" width="200" height="110" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_result" value="&lt;b&gt;Carousel (2 varyant)&lt;/b&gt;&lt;br&gt;Menzerna 400 Yesil&lt;br&gt;250ml — 1100 TL&lt;br&gt;Menzerna 400 Yesil&lt;br&gt;1lt — 2500 TL&lt;br&gt;&lt;i&gt;URL tiklanabilir&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#8E24AA;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="s2_box">
+      <mxGeometry x="900" y="25" width="150" height="100" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_e1" edge="1" parent="s2_box" source="s2_user" target="s2_llm" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#1976D2;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s2_e2" edge="1" parent="s2_box" source="s2_llm" target="s2_tool" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#E53935;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s2_e3" edge="1" parent="s2_box" source="s2_tool" target="s2_filter" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#C62828;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s2_e4" edge="1" parent="s2_box" source="s2_filter" target="s2_result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#8E24AA;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s2_note" value="exactMatch = &quot;400&quot;&lt;br&gt;(sadece rakam, hacim DAHIL ETME)" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=9;fontStyle=2;size=12;" vertex="1" parent="s2_box">
+      <mxGeometry x="190" y="140" width="200" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="s2_time" value="~8 sn | ~$0.008 | 1 iteration" style="text;fontSize=9;fontStyle=1;fillColor=#FFF3E0;strokeColor=#E65100;rounded=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="s2_box">
+      <mxGeometry x="10" y="140" width="170" height="20" as="geometry"/>
+    </mxCell>
+
+
+    <!-- ================================================================== -->
+    <!-- SCENARIO 3: Multi-turn (nasil uygulanir → tool chaining)           -->
+    <!-- ================================================================== -->
+    <mxCell id="s3_box" value="Senaryo 3: Multi-Turn + Tool Chaining (2 adim)" style="swimlane;startSize=25;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=13;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="20" y="560" width="1060" height="330" as="geometry"/>
+    </mxCell>
+
+    <!-- Turn 1 -->
+    <mxCell id="s3_turn1_label" value="Turn 1" style="text;fontSize=11;fontStyle=5;fillColor=#BBDEFB;strokeColor=#1565C0;rounded=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="s3_box">
+      <mxGeometry x="10" y="30" width="55" height="20" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_u1" value="&lt;b&gt;&quot;GYEON Wetcoat nasil uygulanir?&quot;&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;size=10;position=0.5;base=15;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=10;rounded=1;" vertex="1" parent="s3_box">
+      <mxGeometry x="10" y="55" width="200" height="50" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_llm1" value="LLMz:&lt;br&gt;&lt;i&gt;Once SKU bul,&lt;br&gt;sonra rehber cek&lt;/i&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=9;rounded=1;" vertex="1" parent="s3_box">
+      <mxGeometry x="240" y="40" width="140" height="80" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_tool1" value="searchProducts&lt;br&gt;{brand:&quot;GYEON&quot;,&lt;br&gt; exactMatch:&quot;Wetcoat&quot;,&lt;br&gt; templateGroup:&lt;br&gt; &quot;paint_protection_quick&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#E53935;fontSize=9;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="s3_box">
+      <mxGeometry x="410" y="35" width="190" height="85" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_found" value="Bulundu:&lt;br&gt;&lt;b&gt;Q2M-WYA1000M&lt;/b&gt;&lt;br&gt;Wetcoat 1000ml&lt;br&gt;1000 TL" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#43A047;fontSize=9;fontStyle=0;" vertex="1" parent="s3_box">
+      <mxGeometry x="630" y="40" width="120" height="70" as="geometry"/>
+    </mxCell>
+
+    <!-- Turn 1 arrows -->
+    <mxCell id="s3_e1" edge="1" parent="s3_box" source="s3_u1" target="s3_llm1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#1976D2;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s3_e2" edge="1" parent="s3_box" source="s3_llm1" target="s3_tool1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#E53935;" value="tool #1">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s3_e3" edge="1" parent="s3_box" source="s3_tool1" target="s3_found" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#43A047;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Turn 2 (chained tool call) -->
+    <mxCell id="s3_turn2_label" value="Turn 1 devami (ayni iterasyon)" style="text;fontSize=11;fontStyle=5;fillColor=#C8E6C9;strokeColor=#43A047;rounded=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="s3_box">
+      <mxGeometry x="10" y="140" width="210" height="20" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_chain" value="LLMz:&lt;br&gt;&lt;i&gt;SKU buldum,&lt;br&gt;simdi rehber cek&lt;/i&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=9;rounded=1;" vertex="1" parent="s3_box">
+      <mxGeometry x="240" y="150" width="140" height="70" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_tool2" value="getApplicationGuide&lt;br&gt;{sku: &quot;Q2M-WYA1000M&quot;}" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#E53935;fontSize=9;fontFamily=Courier New;align=left;spacingLeft=5;" vertex="1" parent="s3_box">
+      <mxGeometry x="410" y="150" width="190" height="50" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_guide" value="&lt;b&gt;productContentTable&lt;/b&gt;&lt;br&gt;+ productsMasterTable&lt;br&gt;&lt;i&gt;(paralel join)&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#43A047;fontSize=9;size=8;" vertex="1" parent="s3_box">
+      <mxGeometry x="630" y="145" width="160" height="55" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_result" value="&lt;b&gt;Bot Cevabi:&lt;/b&gt;&lt;br&gt;1. Islak yuzey olusturun&lt;br&gt;2. 2-3 puskurtme yapin&lt;br&gt;3. Esit dagilimli yayarak sileyin&lt;br&gt;4. Durulayin&lt;br&gt;5. Kurulama havlusu ile sileyin&lt;br&gt;&lt;br&gt;&lt;i&gt;+ Carousel (urun karti)&lt;br&gt;+ Choice: Alternatif? Birlikte?&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#8E24AA;fontSize=9;align=left;spacingLeft=8;" vertex="1" parent="s3_box">
+      <mxGeometry x="830" y="35" width="210" height="175" as="geometry"/>
+    </mxCell>
+
+    <!-- Turn 2 arrows -->
+    <mxCell id="s3_e4" edge="1" parent="s3_box" source="s3_found" target="s3_chain" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#F9A825;dashed=1;" value="SKU aktarildi">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s3_e5" edge="1" parent="s3_box" source="s3_chain" target="s3_tool2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#E53935;" value="tool #2">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s3_e6" edge="1" parent="s3_box" source="s3_tool2" target="s3_guide" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#43A047;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="s3_e7" edge="1" parent="s3_box" source="s3_guide" target="s3_result" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#8E24AA;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_time" value="~10 sn | ~$0.010 | 1 iteration, 2 tool call" style="text;fontSize=9;fontStyle=1;fillColor=#E3F2FD;strokeColor=#1565C0;rounded=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="s3_box">
+      <mxGeometry x="10" y="230" width="250" height="20" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="s3_key" value="&lt;b&gt;Onemli:&lt;/b&gt; LLM ayni kod blogu icinde&lt;br&gt;2 tool cagriyor (searchProducts + getApplicationGuide).&lt;br&gt;Araya &quot;think&quot; action KONMAZ." style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=9;fontStyle=2;size=12;align=left;spacingLeft=8;" vertex="1" parent="s3_box">
+      <mxGeometry x="10" y="260" width="360" height="55" as="geometry"/>
+    </mxCell>
+
+
+    <!-- ================================================================== -->
+    <!-- LEGEND -->
+    <!-- ================================================================== -->
+    <mxCell id="legend_box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F5F5;strokeColor=#9E9E9E;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="20" y="910" width="1060" height="50" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg1" value="Kullanici" style="shape=callout;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1976D2;fontSize=8;perimeter=calloutPerimeter;size=5;base=8;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="915" width="70" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg2" value="LLM Karar" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=8;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="120" y="915" width="80" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg3" value="Tool Call" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCDD2;strokeColor=#E53935;fontSize=8;" vertex="1" parent="1">
+      <mxGeometry x="220" y="918" width="70" height="28" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg4" value="Tablo Sorgu" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#43A047;fontSize=8;size=6;" vertex="1" parent="1">
+      <mxGeometry x="310" y="915" width="80" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg5" value="Bot Cevabi" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1BEE7;strokeColor=#8E24AA;fontSize=8;" vertex="1" parent="1">
+      <mxGeometry x="410" y="918" width="70" height="28" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg6" value="Not" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFFDE7;strokeColor=#F9A825;fontSize=8;size=8;" vertex="1" parent="1">
+      <mxGeometry x="500" y="915" width="50" height="30" as="geometry"/>
+    </mxCell>
+    <mxCell id="leg_text" value="&lt;b&gt;Maliyet:&lt;/b&gt; Ortalama $0.008/mesaj | &lt;b&gt;Model:&lt;/b&gt; Gemini 2.5 Flash | &lt;b&gt;Temp:&lt;/b&gt; 0.2" style="text;fontSize=9;align=left;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+      <mxGeometry x="580" y="923" width="480" height="20" as="geometry"/>
+    </mxCell>
+
+  </root>
+</mxGraphModel>
