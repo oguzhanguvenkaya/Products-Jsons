@@ -44,21 +44,44 @@ export const searchByPriceRange = new Autonomous.Tool({
       .describe('Maksimum sonuç sayısı (varsayılan 10)'),
   }),
   output: z.object({
-    products: z.array(
-      z.object({
-        sku: z.string(),
-        productName: z.string(),
-        brand: z.string(),
-        price: z.number(),
-        mainCat: z.string(),
-        subCat: z.string().nullable(),
-        templateGroup: z.string(),
-        templateSubType: z.string(),
-        imageUrl: z.string().nullable(),
-        url: z.string().describe("Ürün sayfa URL'si (boş olabilir)"),
-      }),
-    ),
-    totalReturned: z.number().int(),
+    carouselItems: z
+      .array(
+        z.object({
+          title: z.string(),
+          subtitle: z.string(),
+          imageUrl: z.string().optional(),
+          actions: z.array(
+            z.object({
+              action: z.enum(['url']),
+              label: z.string(),
+              value: z.string(),
+            }),
+          ),
+        }),
+      )
+      .describe('URL olan ürünler — yield <Carousel items={carouselItems} /> (max 10)'),
+    textFallbackLines: z
+      .array(
+        z.object({
+          productName: z.string(),
+          brand: z.string(),
+          price: z.number(),
+          sku: z.string(),
+        }),
+      )
+      .describe('URL olmayan ürünler — markdown text listesi olarak göster'),
+    productSummaries: z
+      .array(
+        z.object({
+          sku: z.string(),
+          name: z.string(),
+          brand: z.string(),
+          price: z.number(),
+          templateGroup: z.string(),
+        }),
+      )
+      .describe('Tüm ürünlerin hafif özeti'),
+    totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
   }),
   async handler({ minPrice, maxPrice, templateGroup, brand, limit }) {
     const filter: Record<string, unknown> = {};
@@ -89,23 +112,44 @@ export const searchByPriceRange = new Autonomous.Tool({
       limit,
     });
 
-    // v5.4: URL sanitization kaldırıldı. Master'da url artık dolu. Boş olabilecek
-    // 15 unmatched ürün için LLM instructions'ta "url yoksa text listesi" kuralı var.
+    // v7.0: UI-ready output
+    const rows = res.rows;
+    const hasRenderableUrl = (r: Record<string, unknown>): boolean => {
+      const url = typeof r.url === 'string' ? r.url.trim() : '';
+      return url.startsWith('http://') || url.startsWith('https://');
+    };
 
     return {
-      products: res.rows.map((r) => ({
+      carouselItems: rows
+        .filter(hasRenderableUrl)
+        .slice(0, 10) // revize_4: carousel max 10 item
+        .map((r) => ({
+          title: r.product_name as string,
+          subtitle: `${r.brand as string} \u2022 ${(r.price as number).toLocaleString('tr-TR')} TL`,
+          imageUrl: (r.image_url as string) || undefined,
+          actions: [
+            { action: 'url' as const, label: 'Ürün Sayfasına Git', value: (r.url as string).trim() },
+          ],
+        })),
+
+      textFallbackLines: rows
+        .filter((r) => !hasRenderableUrl(r))
+        .map((r) => ({
+          productName: r.product_name as string,
+          brand: r.brand as string,
+          price: r.price as number,
+          sku: r.sku as string,
+        })),
+
+      productSummaries: rows.map((r) => ({
         sku: r.sku as string,
-        productName: r.product_name as string,
+        name: r.product_name as string,
         brand: r.brand as string,
         price: r.price as number,
-        mainCat: r.main_cat as string,
-        subCat: (r.sub_cat as string | null) ?? null,
         templateGroup: r.template_group as string,
-        templateSubType: r.template_sub_type as string,
-        imageUrl: (r.image_url as string | null) ?? null,
-        url: (r.url as string) ?? '',
       })),
-      totalReturned: res.rows.length,
+
+      totalReturned: rows.length,
     };
   },
 });

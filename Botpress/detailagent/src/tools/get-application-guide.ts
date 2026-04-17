@@ -39,8 +39,8 @@ export const getApplicationGuide = new Autonomous.Tool({
     fullDescription: z.string().nullable().describe('HTML temizlenmiş tam açıklama'),
   }),
   async handler({ sku }) {
-    // Content + master paralel join — productName/targetSurface/url master'dan gelir
-    const [contentRes, masterRes] = await Promise.all([
+    // v7.2: 4 tablodan paralel sorgu (fullDescription desc_part1/part2'den geliyor)
+    const [contentRes, masterRes, desc1Res, desc2Res] = await Promise.all([
       client.findTableRows({
         table: 'productContentTable',
         filter: { sku: { $eq: sku } },
@@ -48,6 +48,16 @@ export const getApplicationGuide = new Autonomous.Tool({
       }),
       client.findTableRows({
         table: 'productsMasterTable',
+        filter: { sku: { $eq: sku } },
+        limit: 1,
+      }),
+      client.findTableRows({
+        table: 'productDescPart1Table',
+        filter: { sku: { $eq: sku } },
+        limit: 1,
+      }),
+      client.findTableRows({
+        table: 'productDescPart2Table',
         filter: { sku: { $eq: sku } },
         limit: 1,
       }),
@@ -59,6 +69,11 @@ export const getApplicationGuide = new Autonomous.Tool({
     }
 
     const content = contentRes.rows[0];
+
+    // v7.2: fullDescription birleştir (part1 + part2)
+    const descPart1 = (desc1Res.rows[0]?.fullDescription as string) ?? '';
+    const descPart2 = (desc2Res.rows[0]?.fullDescription as string) ?? '';
+    const fullDescription = descPart1 + descPart2;
 
     return {
       sku: master.sku as string,
@@ -73,7 +88,7 @@ export const getApplicationGuide = new Autonomous.Tool({
       howToUse: (content?.howToUse as string | null) ?? null,
       whenToUse: (content?.whenToUse as string | null) ?? null,
       whyThisProduct: (content?.whyThisProduct as string | null) ?? null,
-      fullDescription: (content?.fullDescription as string | null) ?? null,
+      fullDescription: fullDescription || null,
     };
   },
 });

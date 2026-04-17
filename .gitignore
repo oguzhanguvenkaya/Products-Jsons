@@ -1,26 +1,16 @@
-# macOS
-.DS_Store
-**/.DS_Store
+# ═══════════════════════════════════════════════════════════════
+# Sadece Botpress/detailagent/ içeriği tracked
+# Geri kalan her şey ignore edilir
+# ═══════════════════════════════════════════════════════════════
 
-# Python
-*.bak
-*.pyc
-__pycache__/
-*.pyo
+# Her şeyi ignore et
+/*
 
-# Geçici test çıktıları
-assets/logs
-assets/test
-assets/test2
+# Ama bu dosyayı tut
+!.gitignore
 
-# Büyük binary dosyalar
-*.dmg
-*.pdf
-*.xlsx
-
-# Trace/debug dosyaları
-traces*.json
-report*.json
-
-# Yedek kopya
-detailagent 2/
+# detailagent dizinini whitelist (nested unignore)
+!Botpress/
+Botpress/*
+!Botpress/detailagent/
+!Botpress/detailagent/**

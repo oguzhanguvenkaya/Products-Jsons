@@ -35,20 +35,44 @@ export const getRelatedProducts = new Autonomous.Tool({
   output: z.object({
     sku: z.string(),
     relationType: z.string(),
-    products: z.array(
-      z.object({
-        sku: z.string(),
-        productName: z.string(),
-        brand: z.string(),
-        price: z.number(),
-        imageUrl: z.string().nullable(),
-        mainCat: z.string(),
-        templateGroup: z.string(),
-        templateSubType: z.string(),
-        url: z.string().describe("Ürün sayfa URL'si (boş olabilir)"),
-      }),
-    ),
-    totalReturned: z.number().int(),
+    carouselItems: z
+      .array(
+        z.object({
+          title: z.string(),
+          subtitle: z.string(),
+          imageUrl: z.string().optional(),
+          actions: z.array(
+            z.object({
+              action: z.enum(['url']),
+              label: z.string(),
+              value: z.string(),
+            }),
+          ),
+        }),
+      )
+      .describe('URL olan ilişkili ürünler — yield <Carousel items={carouselItems} />'),
+    textFallbackLines: z
+      .array(
+        z.object({
+          productName: z.string(),
+          brand: z.string(),
+          price: z.number(),
+          sku: z.string(),
+        }),
+      )
+      .describe('URL olmayan ürünler — markdown text listesi'),
+    productSummaries: z
+      .array(
+        z.object({
+          sku: z.string(),
+          name: z.string(),
+          brand: z.string(),
+          price: z.number(),
+          templateGroup: z.string(),
+        }),
+      )
+      .describe('Tüm ilişkili ürünlerin hafif özeti'),
+    totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
   }),
   async handler({ sku, relationType }) {
     // 1. relations tablosundan satırı oku
@@ -85,23 +109,45 @@ export const getRelatedProducts = new Autonomous.Tool({
       limit: relatedSkus.length,
     });
 
-    // v5.4: URL sanitization kaldırıldı. Master'da url artık dolu.
+    // v7.0: UI-ready output
+    const rows = productsRes.rows;
+    const hasRenderableUrl = (r: Record<string, unknown>): boolean => {
+      const url = typeof r.url === 'string' ? r.url.trim() : '';
+      return url.startsWith('http://') || url.startsWith('https://');
+    };
 
     return {
       sku,
       relationType,
-      products: productsRes.rows.map((p) => ({
+      carouselItems: rows
+        .filter(hasRenderableUrl)
+        .map((p) => ({
+          title: p.product_name as string,
+          subtitle: `${p.brand as string} \u2022 ${(p.price as number).toLocaleString('tr-TR')} TL`,
+          imageUrl: (p.image_url as string) || undefined,
+          actions: [
+            { action: 'url' as const, label: 'Ürün Sayfasına Git', value: (p.url as string).trim() },
+          ],
+        })),
+
+      textFallbackLines: rows
+        .filter((r) => !hasRenderableUrl(r))
+        .map((p) => ({
+          productName: p.product_name as string,
+          brand: p.brand as string,
+          price: p.price as number,
+          sku: p.sku as string,
+        })),
+
+      productSummaries: rows.map((p) => ({
         sku: p.sku as string,
-        productName: p.product_name as string,
+        name: p.product_name as string,
         brand: p.brand as string,
         price: p.price as number,
-        imageUrl: (p.image_url as string | null) ?? null,
-        mainCat: p.main_cat as string,
         templateGroup: p.template_group as string,
-        templateSubType: p.template_sub_type as string,
-        url: (p.url as string) ?? '',
       })),
-      totalReturned: productsRes.rows.length,
+
+      totalReturned: rows.length,
     };
   },
 });

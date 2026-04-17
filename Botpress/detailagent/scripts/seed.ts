@@ -30,8 +30,10 @@ import { parse } from 'csv-parse/sync';
 const PROJECT_ROOT = resolve(import.meta.dirname ?? __dirname, '..', '..', '..');
 const CSV_DIR = resolve(PROJECT_ROOT, 'output', 'csv');
 
-// Botpress createTableRows API: maxItems 1000 per call. Güvenli batch: 100.
-const BATCH_SIZE = 100;
+// Botpress createTableRows API: maxItems 1000 per call.
+// v7.2: 100 → 25. productContentTable'da batch başına ~344KB payload API limit'e
+// takılıyordu (129/622 satır kayıp). 25 satır × ~3.5KB = ~88KB — güvenli sınır.
+const BATCH_SIZE = 25;
 
 type Transformer = (row: Record<string, string>) => Record<string, unknown>;
 
@@ -56,6 +58,9 @@ const SEED_JOBS: SeedJob[] = [
   { csv: 'product_search_index.csv', table: 'productSearchIndexTable', transform: withIntPrice },
   { csv: 'product_categories.csv', table: 'productCategoriesTable', transform: passthrough },
   { csv: 'product_content.csv', table: 'productContentTable', transform: passthrough },
+  // v7.2: fullDescription split (4KB satır limit çözümü)
+  { csv: 'product_desc_part1.csv', table: 'productDescPart1Table', transform: passthrough },
+  { csv: 'product_desc_part2.csv', table: 'productDescPart2Table', transform: passthrough },
 ];
 
 function readCsv(filePath: string): Record<string, string>[] {

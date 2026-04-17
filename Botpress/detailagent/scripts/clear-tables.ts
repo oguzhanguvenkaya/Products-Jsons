@@ -19,6 +19,9 @@ const TABLES_TO_CLEAR = [
   'productFaqTable',
   'productRelationsTable',
   'productCategoriesTable',
+  // v7.2: fullDescription split tabloları
+  'productDescPart1Table',
+  'productDescPart2Table',
 ];
 
 async function clearTable(table: string): Promise<number> {

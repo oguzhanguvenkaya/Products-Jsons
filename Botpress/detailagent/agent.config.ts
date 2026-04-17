@@ -18,12 +18,13 @@ export default defineConfig({
     // ───────────────────────────────────────────────────────────────────────────
     // Modeller
     // ───────────────────────────────────────────────────────────────────────────
-    // Studio'daki mevcut bot google-ai:gemini-2.5-flash kullanıyor.
-    // 'fast' alias'ı Botpress Cloud üzerinden hızlı/ekonomik modele yönlendirir.
+    // Gemini 3 Flash — Gemini 2.5 Flash'ın yeni nesli.
+    // GPQA: 90.4% (vs 82.8%), SWE-bench: 78% (vs 60.4%) → %15 genel iyileşme.
+    // Input: $0.50/1M, Output: $3.00/1M (2.5 Flash'a göre %37 pahalı ama çok daha kaliteli).
     // İsim doğrulaması için: `adk models` komutu çalıştırılabilir.
     defaultModels: {
-        autonomous: 'google-ai:gemini-2.5-flash',
-        zai: 'google-ai:gemini-2.5-flash',
+        autonomous: 'google-ai:gemini-3-flash',
+        zai: 'google-ai:gemini-3-flash',
     },
 
     // ───────────────────────────────────────────────────────────────────────────
@@ -63,5 +64,5 @@ export default defineConfig({
     // Webchat (Shopify), Slack vb. integration'lar buraya `adk add <name>` ile
     // eklenir. Şimdilik boş — `adk dev` ile lokal chat testi `adk chat` üzerinden
     // yapılır, channel: '*' ile tüm kanalları yakalar.
-    dependencies: { "integrations": { "webchat": { "version": "webchat@0.3.0", "enabled": true } } },
+    dependencies: { "integrations": { "webchat": { "version": "webchat@0.3.0", "enabled": true }, "chat": { "version": "chat@1.0.0", "enabled": true } } },
 });

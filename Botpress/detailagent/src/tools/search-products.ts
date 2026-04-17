@@ -28,30 +28,9 @@ import { Autonomous, z, client } from '@botpress/runtime';
 export const searchProducts = new Autonomous.Tool({
   name: 'searchProducts',
   description:
-    "MTS Kimya ürün kataloğunda (622 ürün) hibrit arama yapar: semantic similarity + " +
-    "custom kategori/marka/ürün-tipi pre-filter + hacim/model post-filter.\n\n" +
-    "**TEMPLATE GROUP = custom chatbot kategorisi (EN ÖNEMLİ FİLTRE).** 25 değer:\n" +
-    "abrasive_polish (polisaj pastaları, 40), applicators (15), brushes (8), " +
-    "car_shampoo (araç şampuanları, 41), ceramic_coating (35), clay_products (8), " +
-    "contaminant_solvers (iron remover, dekontaminasyon, 29), fragrance (93), " +
-    "glass_cleaner_protectant (7), glass_cleaner (3), industrial_products (12), " +
-    "interior_cleaner (34), leather_care (11), marin_products (5), masking_tapes (7), " +
-    "microfiber (33), paint_protection_quick (wax, wetcoat, quick detailer, 34), " +
-    "polisher_machine (30), polishing_pad (43), ppf_tools (15), product_sets (2), " +
-    "spare_part (32), sprayers_bottles (52), storage_accessories (23), tire_care (10).\n\n" +
-    "**TEMPLATE SUB TYPE = granüler ürün-tipi (EN HASSAS FİLTRE, opsiyonel).** " +
-    "Örnekler: ph_neutral_shampoo (10), prewash_foaming_shampoo (18), heavy_cut_compound (21), " +
-    "foam_pad (35), paint_coating (10), interior_detailer (14), pump_sprayer (24), " +
-    "trigger_sprayer (15), vent_clip (55), backing_plate (12), spray_perfume (10). " +
-    "Kullanıcı spesifik tip söylediyse MUTLAKA kullan (pH nötr, foam, heavy cut vs.).\n\n" +
-    "**KULLANIM KURALLARI:**\n" +
-    "• query: ne aradığının doğal dil hali ('ph nötr şampuan', 'polisaj pasta')\n" +
-    "• templateGroup: ürün türü net ise KULLAN (25 değerli enum)\n" +
-    "• templateSubType: alt tip net ise KULLAN (157 değer, string)\n" +
-    "• brand: marka adı tam eşleşme (GYEON, MENZERNA, ...)\n" +
-    "• exactMatch: ürün adında BULUNMASI gereken kesin substring (rakam, hacim, model)\n" +
-    "• mainCat/subCat: LEGACY — templateGroup/templateSubType'ı tercih et.\n\n" +
-    "Bu parametreleri akıllı kullanmak yanlış ürün getirilmesini engeller.",
+    "MTS Kimya ürün kataloğunda (622 ürün) hibrit arama. Semantic similarity + " +
+    "kategori/marka pre-filter + exactMatch post-filter. " +
+    "Parametre detayları her alanın description'ında — oraları oku.",
   input: z.object({
     query: z
       .string()
@@ -166,37 +145,52 @@ export const searchProducts = new Autonomous.Tool({
       .describe('Döndürülecek maksimum ürün sayısı (varsayılan 5)'),
   }),
   output: z.object({
-    results: z.array(
-      z.object({
-        sku: z.string(),
-        productName: z.string(),
-        brand: z.string(),
-        mainCat: z.string(),
-        subCat: z.string().nullable(),
-        templateGroup: z.string(),
-        templateSubType: z.string(),
-        targetSurface: z.string().nullable(),
-        price: z.number(),
-        imageUrl: z.string().nullable(),
-        url: z.string().describe("Ürün sayfa URL'si — Card action value'sunda kullanılır"),
-        snippet: z
-          .string()
-          .describe("search_text'ten ilk 300 karakter (ürün hakkında özet)"),
-        similarity: z
-          .number()
-          .nullable()
-          .describe('Eşleşme skoru (0-1 arası, yüksek = daha alakalı)'),
-      }),
-    ),
-    totalReturned: z.number().int().describe("Caller'a dönen kayıt sayısı"),
+    carouselItems: z
+      .array(
+        z.object({
+          title: z.string().describe('Ürün adı'),
+          subtitle: z.string().describe('Marka + Fiyat TL formatında'),
+          imageUrl: z.string().optional().describe('Görsel URL (yoksa field omit edilir)'),
+          actions: z.array(
+            z.object({
+              action: z.enum(['url']),
+              label: z.string(),
+              value: z.string().describe('Ürün sayfa URL — non-empty'),
+            }),
+          ),
+        }),
+      )
+      .describe('URL olan ürünler — doğrudan yield <Carousel items={carouselItems} /> ile göster'),
+    textFallbackLines: z
+      .array(
+        z.object({
+          productName: z.string(),
+          brand: z.string(),
+          price: z.number(),
+          sku: z.string(),
+        }),
+      )
+      .describe('URL olmayan ürünler — string concat ile markdown text listesi olarak göster'),
+    productSummaries: z
+      .array(
+        z.object({
+          sku: z.string(),
+          name: z.string(),
+          brand: z.string(),
+          price: z.number(),
+          templateGroup: z.string(),
+          snippet: z.string().describe('Ürün hakkında kısa özet (max 200 char)'),
+          similarity: z.number().nullable().describe('Eşleşme skoru (0-1, null olabilir)'),
+        }),
+      )
+      .describe('Tüm ürünlerin hafif özeti — LLM metin yanıtı + eşleşme kalitesi için'),
+    totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
     filtersApplied: z
       .object({
         templateGroup: z.string().nullable(),
         templateSubType: z.string().nullable(),
         brand: z.string().nullable(),
         exactMatch: z.string().nullable(),
-        mainCat: z.string().nullable(),
-        subCat: z.string().nullable(),
       })
       .describe('Hangi filtrelerin uygulandığının özeti (debug için)'),
   }),
@@ -254,34 +248,50 @@ export const searchProducts = new Autonomous.Tool({
       filteredRows = filteredRows.slice(0, limit);
     }
 
-    // v5.4: URL sanitization kaldırıldı — URL'ler artık 607/622 dolu.
-    // 15 unmatched ürün için url boş kalabilir; LLM bunları text listesi olarak
-    // gösterir veya dahil etmez. Instructions bunu açıklıyor.
+    // v7.0: UI-ready output — render mantığı tool handler'da.
+    // URL sanitization: trim + protokol kontrolü (revize_4 önerisi)
+    const hasRenderableUrl = (r: Record<string, unknown>): boolean => {
+      const url = typeof r.url === 'string' ? r.url.trim() : '';
+      return url.startsWith('http://') || url.startsWith('https://');
+    };
 
     return {
-      results: filteredRows.map((r) => ({
+      carouselItems: filteredRows
+        .filter(hasRenderableUrl)
+        .map((r) => ({
+          title: r.product_name as string,
+          subtitle: `${r.brand as string} \u2022 ${(r.price as number).toLocaleString('tr-TR')} TL`,
+          imageUrl: (r.image_url as string) || undefined,
+          actions: [
+            { action: 'url' as const, label: 'Ürün Sayfasına Git', value: (r.url as string).trim() },
+          ],
+        })),
+
+      textFallbackLines: filteredRows
+        .filter((r) => !hasRenderableUrl(r))
+        .map((r) => ({
+          productName: r.product_name as string,
+          brand: r.brand as string,
+          price: r.price as number,
+          sku: r.sku as string,
+        })),
+
+      productSummaries: filteredRows.map((r) => ({
         sku: r.sku as string,
-        productName: r.product_name as string,
+        name: r.product_name as string,
         brand: r.brand as string,
-        mainCat: r.main_cat as string,
-        subCat: (r.sub_cat as string | null) ?? null,
-        templateGroup: r.template_group as string,
-        templateSubType: r.template_sub_type as string,
-        targetSurface: (r.target_surface as string | null) ?? null,
         price: r.price as number,
-        imageUrl: (r.image_url as string | null) ?? null,
-        url: (r.url as string) ?? '',
-        snippet: ((r.search_text as string) ?? '').slice(0, 300),
+        templateGroup: r.template_group as string,
+        snippet: ((r.search_text as string) ?? '').slice(0, 200),
         similarity: (r.similarity as number | null) ?? null,
       })),
+
       totalReturned: filteredRows.length,
       filtersApplied: {
         templateGroup: templateGroup ?? null,
         templateSubType: templateSubType ?? null,
         brand: brand ?? null,
         exactMatch: exactMatch ?? null,
-        mainCat: mainCat ?? null,
-        subCat: subCat ?? null,
       },
     };
   },

@@ -13,6 +13,7 @@
     "csv-parse": "^6.2.1"
   },
   "devDependencies": {
+    "@botpress/adk": "^1.17.0",
     "typescript": "^5.9.3"
   }
 }

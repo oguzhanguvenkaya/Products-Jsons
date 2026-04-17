@@ -1,17 +1,18 @@
 import { Autonomous, z, client } from '@botpress/runtime';
 
 /**
- * getProductDetails — Bir SKU'nun TÜM bilgisini paralel 4 sorgu ile birleştirir.
+ * getProductDetails — Bir SKU'nun TÜM bilgisini paralel 6 sorgu ile birleştirir.
  *
- * Tool çağrı pattern'i:
- *   1. LLM önce searchProducts ile ürünü bulur (SKU'yu öğrenir)
- *   2. Sonra getProductDetails(sku) ile derinlemesine veriyi çeker
+ * v7.2: fullDescription 4KB satır limiti nedeniyle 2 ayrı tabloya split edildi.
+ * Tool handler 6 tabloyu paralel sorgular ve fullDescription'ı birleştirir.
  *
- * 4 tablodan paralel veri:
- *   - productsMasterTable: ana bilgi (ad, marka, fiyat, görsel, kategori)
- *   - productSpecsTable:   teknik specs (JSON.parse edilir)
- *   - productFaqTable:     ürün başına 3-4 FAQ
- *   - productContentTable: howToUse, whenToUse (yapılandırılmış)
+ * 6 tablodan paralel veri:
+ *   - productsMasterTable:     ana bilgi (ad, marka, fiyat, görsel, kategori)
+ *   - productSpecsTable:       teknik specs (JSON.parse edilir)
+ *   - productFaqTable:         ürün başına 3-4 FAQ
+ *   - productContentTable:     howToUse, whenToUse, whyThisProduct
+ *   - productDescPart1Table:   fullDescription ilk ~3800 byte
+ *   - productDescPart2Table:   fullDescription kalan kısım (çoğu boş)
  *
  * Bu JOIN'i Autonomous.Tool'un içinde yapıyoruz — LLM tablo isimlerini bilmiyor,
  * sadece tool'un input/output şemasını görüyor.
@@ -50,10 +51,11 @@ export const getProductDetails = new Autonomous.Tool({
     howToUse: z.string().nullable(),
     whenToUse: z.string().nullable(),
     whyThisProduct: z.string().nullable(),
+    fullDescription: z.string().nullable().describe('Tam açıklama (part1+part2 birleşik)'),
   }),
   async handler({ sku }) {
-    // 4 tablodan paralel sorgu
-    const [masterRes, specsRes, faqRes, contentRes] = await Promise.all([
+    // v7.2: 6 tablodan paralel sorgu (fullDescription split nedeniyle)
+    const [masterRes, specsRes, faqRes, contentRes, desc1Res, desc2Res] = await Promise.all([
       client.findTableRows({
         table: 'productsMasterTable',
         filter: { sku: { $eq: sku } },
@@ -71,6 +73,16 @@ export const getProductDetails = new Autonomous.Tool({
       }),
       client.findTableRows({
         table: 'productContentTable',
+        filter: { sku: { $eq: sku } },
+        limit: 1,
+      }),
+      client.findTableRows({
+        table: 'productDescPart1Table',
+        filter: { sku: { $eq: sku } },
+        limit: 1,
+      }),
+      client.findTableRows({
+        table: 'productDescPart2Table',
         filter: { sku: { $eq: sku } },
         limit: 1,
       }),
@@ -97,6 +109,11 @@ export const getProductDetails = new Autonomous.Tool({
 
     const content = contentRes.rows[0];
 
+    // v7.2: fullDescription birleştir (part1 + part2)
+    const descPart1 = (desc1Res.rows[0]?.fullDescription as string) ?? '';
+    const descPart2 = (desc2Res.rows[0]?.fullDescription as string) ?? '';
+    const fullDescription = descPart1 + descPart2;
+
     return {
       sku: master.sku as string,
       productName: master.product_name as string,
@@ -118,6 +135,7 @@ export const getProductDetails = new Autonomous.Tool({
       howToUse: (content?.howToUse as string | null) ?? null,
       whenToUse: (content?.whenToUse as string | null) ?? null,
       whyThisProduct: (content?.whyThisProduct as string | null) ?? null,
+      fullDescription: fullDescription || null,
     };
   },
 });

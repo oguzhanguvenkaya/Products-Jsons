@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__adk__adk_query_traces",
+      "Bash(python3 -c ':*)",
+      "Bash(grep:*)",
+      "Bash(pip3 list:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(claude --version)",
+      "Bash(ps -p 97374 -o etime=)",
+      "Bash(echo \"still running... $\\(ps -p 97374 -o etime= 2>/dev/null || echo 'process ended'\\)\")",
+      "Bash(claude -p --output-format text)",
+      "Bash(ls /tmp/claude-*.txt)",
+      "Bash(ls /tmp/*.tmp)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "adk"
+  ]
+}
