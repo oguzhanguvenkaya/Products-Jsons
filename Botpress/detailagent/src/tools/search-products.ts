@@ -143,6 +143,39 @@ export const searchProducts = new Autonomous.Tool({
       .max(10)
       .default(5)
       .describe('Döndürülecek maksimum ürün sayısı (varsayılan 5)'),
+    metaFilters: z
+      .array(
+        z.object({
+          key: z
+            .string()
+            .describe(
+              "Meta alan anahtarı — örn: silicone_free, voc_free, contains_sio2, ph_level, " +
+                "cut_level, durability_days, volume_ml, machine_compatibility, hardness, features",
+            ),
+          op: z
+            .enum(['eq', 'gte', 'lte', 'gt', 'lt', 'regex'])
+            .describe(
+              "Karşılaştırma operatörü. eq=eşit, gte/lte/gt/lt=sayısal, regex=metin içinde.",
+            ),
+          value: z
+            .union([z.string(), z.number(), z.boolean()])
+            .describe(
+              "Değer. Boolean için true/false, sayı için number, metin için string.",
+            ),
+        }),
+      )
+      .nullable()
+      .optional()
+      .describe(
+        "productMetaTable'dan spesifik özellik filtresi. SADECE KULLANICI AÇIKÇA ÖZELLİK " +
+          "SORDUĞUNDA kullan. Örnekler:\n" +
+          "- 'silikonsuz heavy cut' → [{key:'silicone_free', op:'eq', value:true}]\n" +
+          "- 'pH nötr şampuan' → [{key:'ph_level', op:'gte', value:6.5}, " +
+          "{key:'ph_level', op:'lte', value:7.5}]\n" +
+          "- '3 yıl dayanıklı seramik' → [{key:'durability_days', op:'gte', value:1080}]\n" +
+          "- 'SiO2 içerikli' → [{key:'contains_sio2', op:'eq', value:true}]\n" +
+          "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.",
+      ),
   }),
   output: z.object({
     carouselItems: z
@@ -203,6 +236,7 @@ export const searchProducts = new Autonomous.Tool({
     mainCat,
     subCat,
     limit,
+    metaFilters,
   }) {
     // v5.4: Tüm filter kolonları artık productSearchIndexTable'da direct.
     // Master-join kaldırıldı (sub_cat, template_group, template_sub_type,
@@ -225,10 +259,60 @@ export const searchProducts = new Autonomous.Tool({
       filter.sub_cat = { $regex: subCat, $options: 'i' };
     }
 
-    // v8.4: exactMatch → direct product_name regex filter (vector search skip).
-    // Motivation: Menzerna 400 gibi spesifik model sorgularında semantic search
-    // rakam/kod içeren ürünleri top-K'da kaçırabiliyordu (47-karsilastirma-4tur trace
-    // kanıtı). Filter.product_name regex daha deterministic + hızlı.
+    // v8.4: metaFilters — productMetaTable'dan önce matching SKU listesi çek,
+    // sonra search_index'e sku IN (...) filter ekle. Her metaFilter AYRI SKU SET
+    // döner; hepsinin kesişimi (INTERSECTION) alınır (AND semantiği).
+    let metaMatchedSkus: Set<string> | null = null;
+    if (metaFilters && metaFilters.length > 0) {
+      for (const mf of metaFilters) {
+        const metaFilter: Record<string, unknown> = { key: { $eq: mf.key } };
+        if (mf.op === 'eq' && typeof mf.value === 'boolean') {
+          metaFilter.value_boolean = { $eq: mf.value };
+        } else if (mf.op === 'eq' && typeof mf.value === 'number') {
+          metaFilter.value_numeric = { $eq: mf.value };
+        } else if (mf.op === 'eq' && typeof mf.value === 'string') {
+          metaFilter.value_text = { $eq: mf.value };
+        } else if (mf.op === 'regex' && typeof mf.value === 'string') {
+          metaFilter.value_text = { $regex: mf.value, $options: 'i' };
+        } else if (['gte', 'lte', 'gt', 'lt'].includes(mf.op)) {
+          // numeric ops only work on value_numeric
+          const opKey = `$${mf.op}`;
+          metaFilter.value_numeric = { [opKey]: mf.value };
+        }
+        const metaRes = await client.findTableRows({
+          table: 'productMetaTable',
+          filter: metaFilter as any,
+          limit: 1000,
+        });
+        const thisSet = new Set(metaRes.rows.map((r) => r.sku as string));
+        if (metaMatchedSkus === null) {
+          metaMatchedSkus = thisSet;
+        } else {
+          metaMatchedSkus = new Set([...metaMatchedSkus].filter((s) => thisSet.has(s)));
+        }
+      }
+      // If after all meta filters nothing matches, early return empty
+      if (metaMatchedSkus && metaMatchedSkus.size === 0) {
+        return {
+          carouselItems: [],
+          textFallbackLines: [],
+          productSummaries: [],
+          totalReturned: 0,
+          filtersApplied: {
+            templateGroup: templateGroup ?? null,
+            templateSubType: templateSubType ?? null,
+            brand: brand ?? null,
+            exactMatch: exactMatch ?? null,
+          },
+        };
+      }
+      // Add sku $in filter to main search
+      if (metaMatchedSkus && metaMatchedSkus.size > 0) {
+        filter.sku = { $in: [...metaMatchedSkus] };
+      }
+    }
+
+    // exactMatch → direct product_name regex filter (vector search skip).
     const fetchResult = exactMatch
       ? await client.findTableRows({
           table: 'productSearchIndexTable',
