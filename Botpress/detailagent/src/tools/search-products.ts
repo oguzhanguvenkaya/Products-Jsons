@@ -225,28 +225,27 @@ export const searchProducts = new Autonomous.Tool({
       filter.sub_cat = { $regex: subCat, $options: 'i' };
     }
 
-    // Post-filter yapılacaksa oversample et (vector search rakam/hacim match'inde
-    // ilk N'de doğru sonucu vermeyebilir, daha geniş küme çekip içinde aramak gerek)
-    const fetchLimit = exactMatch ? Math.min(50, Math.max(limit * 5, 20)) : limit;
+    // v8.4: exactMatch → direct product_name regex filter (vector search skip).
+    // Motivation: Menzerna 400 gibi spesifik model sorgularında semantic search
+    // rakam/kod içeren ürünleri top-K'da kaçırabiliyordu (47-karsilastirma-4tur trace
+    // kanıtı). Filter.product_name regex daha deterministic + hızlı.
+    const fetchResult = exactMatch
+      ? await client.findTableRows({
+          table: 'productSearchIndexTable',
+          filter: {
+            ...filter,
+            product_name: { $regex: exactMatch.trim(), $options: 'i' },
+          },
+          limit: Math.max(limit, 10),
+        })
+      : await client.findTableRows({
+          table: 'productSearchIndexTable',
+          search: query,
+          filter: Object.keys(filter).length > 0 ? filter : undefined,
+          limit,
+        });
 
-    const res = await client.findTableRows({
-      table: 'productSearchIndexTable',
-      search: query,
-      filter: Object.keys(filter).length > 0 ? filter : undefined,
-      limit: fetchLimit,
-    });
-
-    // Post-filter: exactMatch varsa product_name içinde substring kontrolü
-    // v6.3: boşluk normalizasyonu — "can coat" → "cancoat", "wet coat" → "wetcoat" eşleşir
-    let filteredRows = res.rows;
-    if (exactMatch) {
-      const needle = exactMatch.toLowerCase().trim().replace(/\s+/g, '');
-      filteredRows = filteredRows.filter((r) => {
-        const name = ((r.product_name as string) ?? '').toLowerCase().replace(/\s+/g, '');
-        return name.includes(needle);
-      });
-      filteredRows = filteredRows.slice(0, limit);
-    }
+    const filteredRows = fetchResult.rows.slice(0, limit);
 
     // v7.0: UI-ready output — render mantığı tool handler'da.
     // URL sanitization: trim + protokol kontrolü (revize_4 önerisi)
