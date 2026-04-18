@@ -49,6 +49,28 @@ export default new Conversation({
       .nullable()
       .default(null)
       .describe('Hedef yüzey tipi (boya, cam, jant, iç mekan vb.)'),
+    // v8.2: Context retention için — önceki turda bulunan ürünler
+    lastProducts: z
+      .array(
+        z.object({
+          sku: z.string(),
+          productName: z.string(),
+          brand: z.string(),
+          price: z.number(),
+        }),
+      )
+      .default([])
+      .describe('Önceki turda bulunan ürünler (max 5). Takip sorularında tool çağırmadan bu bilgiden cevap vermek için.'),
+    lastFocusSku: z
+      .string()
+      .nullable()
+      .default(null)
+      .describe('En son detay/uygulama rehberi alınan ürün SKU.'),
+    lastFaqAnswer: z
+      .string()
+      .nullable()
+      .default(null)
+      .describe('En son alınan FAQ cevabı özeti (max 500 char).'),
   }),
 
   handler: async ({ execute, state }) => {
@@ -62,6 +84,33 @@ export default new Conversation({
         getRelatedProducts,
       ],
       temperature: 0.2,
+      // v8.2: Context retention — tool sonrası state güncelle
+      hooks: {
+        onAfterTool: async ({ tool, output }: { tool: { name: string }; output: any }) => {
+          if (tool.name === 'searchProducts' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
+            state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
+              sku: String(p.sku ?? ''),
+              productName: String(p.name ?? ''),
+              brand: String(p.brand ?? ''),
+              price: Number(p.price ?? 0),
+            }));
+          }
+          if (tool.name === 'searchByPriceRange' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
+            state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
+              sku: String(p.sku ?? ''),
+              productName: String(p.name ?? ''),
+              brand: String(p.brand ?? ''),
+              price: Number(p.price ?? 0),
+            }));
+          }
+          if ((tool.name === 'getProductDetails' || tool.name === 'getApplicationGuide') && output?.sku) {
+            state.lastFocusSku = String(output.sku);
+          }
+          if (tool.name === 'searchFaq' && Array.isArray(output?.results) && output.results[0]?.answer) {
+            state.lastFaqAnswer = String(output.results[0].answer).slice(0, 500);
+          }
+        },
+      },
       instructions: `
 Sen ${BOT_NAME} olarak görev yapıyorsun. MTS Kimya'nın araç bakım ve detailing ürünleri konusunda uzman ürün danışmanısın.
 
@@ -84,8 +133,36 @@ Sen ${BOT_NAME} olarak görev yapıyorsun. MTS Kimya'nın araç bakım ve detail
 | İlişkili ürün | searchProducts → getRelatedProducts | SKU bul → use_with/alternatives/accessories |
 | Karşılaştırma (X vs Y) | searchProducts ×2 → getProductDetails ×2 | İki ürün detay + tablo |
 
-HER ZAMAN tool ile başla — cevabı BİLDİĞİNİ SANSAN BİLE tool çağır.
-Tek istisna: "teşekkürler", "tamam", "merhaba" gibi konuşma akışı mesajları.
+## CONTEXT-AWARE TOOL ÇAĞRI KURALI (v8.2)
+
+${state.lastProducts.length > 0 ? `
+### ÖNCEKİ TURDAN BİLİNEN ÜRÜNLER (context retention)
+
+${state.lastProducts.map(p => `- ${p.productName} (${p.brand}) ${p.price.toLocaleString('tr-TR')} TL — SKU: ${p.sku}`).join('\n')}
+${state.lastFocusSku ? `\nSon detay/rehber alınan ürün SKU: ${state.lastFocusSku}` : ''}
+${state.lastFaqAnswer ? `\nSon FAQ cevabı: ${state.lastFaqAnswer}` : ''}
+` : ''}
+
+### TOOL ÇAĞIRMA KARARI
+
+**TOOL ÇAĞIR** — aşağıdaki durumlarda:
+- Yeni bir ürün/kategori/marka araması ("GYEON şampuan öner", "seramik kaplama var mı")
+- Teknik FAQ sorgusu ("X silikon içerir mi", "X ıslak mı kullanılır")
+- İlk kez ürün detayı/uygulama rehberi isteniyor
+- Kullanıcı "başka ürün", "farklı alternatif", "bir de X marka" diyorsa
+- Fiyat filtresi (belirli bütçe aralığı)
+
+**TOOL ÇAĞIRMA** — context'teki bilgi yeterliyse:
+- Yukarıdaki "Önceki turdan bilinen ürünler" listesindeki bir ürün için takip sorusu
+  (fiyat, marka, karşılaştırma, varyant seçimi)
+- Fiyat toplama / bütçe hesaplama (fiyatlar yukarıda listede)
+- "Bu ürünün..." / "Hangisi..." gibi önceki listeye referans veren sorular
+- Karşılaştırma devamı (her iki ürünün detayı zaten alındıysa)
+- Son FAQ cevabının açılımı (lastFaqAnswer'dan)
+
+Tek istisna: "teşekkürler", "tamam", "merhaba" gibi konuşma akışı mesajları — bunlara da tool çağırma.
+
+**ÖNEMLİ:** Önceki turdan bildiğin bilgiyi YENİDEN SORGULAMA. Deterministic ve hızlı cevap ver.
 
 ## RENDER KURALLARI — ÇOK ÖNEMLİ
 
