@@ -47,6 +47,17 @@ export const searchFaq = new Autonomous.Tool({
       }),
     ),
     totalReturned: z.number().int(),
+    topSimilarity: z.number().nullable().describe('En yüksek similarity skoru (0-1)'),
+    confidence: z
+      .enum(['high', 'low', 'none'])
+      .describe(
+        "Top result'un güvenilirliği: high (≥0.6), low (0.4-0.6), none (<0.4).",
+      ),
+    recommendation: z
+      .string()
+      .describe(
+        "LLM için kullanım talimatı. Bot bu alanı okuyup confidence'a göre davranmalı.",
+      ),
   }),
   async handler({ query, limit }) {
     const res = await client.findTableRows({
@@ -55,14 +66,30 @@ export const searchFaq = new Autonomous.Tool({
       limit,
     });
 
+    const results = res.rows.map((r) => ({
+      sku: r.sku as string,
+      question: r.question as string,
+      answer: r.answer as string,
+      similarity: (r.similarity as number | null) ?? null,
+    }));
+
+    // v8.4: Confidence flag — düşük similarity FAQ'lerini hallucinate etmeyi önlemek için
+    const topSim = Number(results[0]?.similarity ?? 0);
+    const confidence: 'high' | 'low' | 'none' =
+      topSim >= 0.6 ? 'high' : topSim >= 0.4 ? 'low' : 'none';
+    const recommendation = {
+      high: 'Cevabı doğal Türkçe cümleye çevirip direkt sun.',
+      low: "Cevabı 'En yakın SSS şunu söylüyor:' disclaimer ile sun; kullanıcı doğrulamalı.",
+      none:
+        "FAQ'de anlamlı eşleşme YOK. Bu bilgiyi KULLANMA. getProductDetails ile spec'ten ara veya 'bu konuda net bilgim yok' de.",
+    }[confidence];
+
     return {
-      results: res.rows.map((r) => ({
-        sku: r.sku as string,
-        question: r.question as string,
-        answer: r.answer as string,
-        similarity: (r.similarity as number | null) ?? null,
-      })),
-      totalReturned: res.rows.length,
+      results,
+      totalReturned: results.length,
+      topSimilarity: results[0]?.similarity ?? null,
+      confidence,
+      recommendation,
     };
   },
 });
