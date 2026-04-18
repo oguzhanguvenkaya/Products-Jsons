@@ -26,3 +26,4 @@ export { productCategoriesTable } from './product-categories';
 export { productContentTable } from './product-content';
 export { productDescPart1Table } from './product-desc-part1';
 export { productDescPart2Table } from './product-desc-part2';
+export { productMetaTable } from './product-meta';
