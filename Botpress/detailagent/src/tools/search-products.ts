@@ -207,16 +207,33 @@ export const searchProducts = new Autonomous.Tool({
     productSummaries: z
       .array(
         z.object({
-          sku: z.string(),
-          name: z.string(),
+          sku: z.string().describe('Primary variant SKU'),
+          name: z.string().describe('base_name (size-suffix\'siz)'),
           brand: z.string(),
-          price: z.number(),
+          price: z.number().describe('Primary variant price'),
           templateGroup: z.string(),
           snippet: z.string().describe('Ürün hakkında kısa özet (max 200 char)'),
-          similarity: z.number().nullable().describe('Eşleşme skoru (0-1, null olabilir)'),
+          similarity: z.number().nullable().describe('Eşleşme skoru (0-1)'),
+          variant_skus: z
+            .string()
+            .optional()
+            .describe("Pipe-ayrık tüm variant SKU'ları (v8.5)"),
+          sizes: z
+            .array(
+              z.object({
+                size_display: z.string(),
+                size_sort_value: z.number().nullable(),
+                sku: z.string(),
+                barcode: z.string(),
+                url: z.string(),
+                price: z.number(),
+                image_url: z.string(),
+              }),
+            )
+            .describe('Her variant için detay (v8.5)'),
         }),
       )
-      .describe('Tüm ürünlerin hafif özeti — LLM metin yanıtı + eşleşme kalitesi için'),
+      .describe('Ürün özetleri — her ürün bir group (multi-variant birleşik).'),
     totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
     filtersApplied: z
       .object({
@@ -312,61 +329,132 @@ export const searchProducts = new Autonomous.Tool({
       }
     }
 
-    // exactMatch → direct product_name regex filter (vector search skip).
-    const fetchResult = exactMatch
-      ? await client.findTableRows({
+    // v8.5: exactMatch → product_name OR variant_skus regex filter.
+    // (variant_skus searchable kolonu pipe-separated variant SKU'ları taşır,
+    //  bot spesifik SKU ile aradığında primary row'u bulabilir.)
+    let fetchResult;
+    if (exactMatch) {
+      const needle = exactMatch.trim();
+      // Try variant_skus first (for direct SKU lookup)
+      const variantRes = await client.findTableRows({
+        table: 'productSearchIndexTable',
+        filter: { ...filter, variant_skus: { $regex: needle, $options: 'i' } },
+        limit: Math.max(limit, 10),
+      });
+      if (variantRes.rows.length > 0) {
+        fetchResult = variantRes;
+      } else {
+        // Fallback: product_name regex (for model name like "400", "Bathe")
+        fetchResult = await client.findTableRows({
           table: 'productSearchIndexTable',
-          filter: {
-            ...filter,
-            product_name: { $regex: exactMatch.trim(), $options: 'i' },
-          },
+          filter: { ...filter, product_name: { $regex: needle, $options: 'i' } },
           limit: Math.max(limit, 10),
-        })
-      : await client.findTableRows({
-          table: 'productSearchIndexTable',
-          search: query,
-          filter: Object.keys(filter).length > 0 ? filter : undefined,
-          limit,
         });
+      }
+    } else {
+      fetchResult = await client.findTableRows({
+        table: 'productSearchIndexTable',
+        search: query,
+        filter: Object.keys(filter).length > 0 ? filter : undefined,
+        limit,
+      });
+    }
 
     const filteredRows = fetchResult.rows.slice(0, limit);
 
-    // v7.0: UI-ready output — render mantığı tool handler'da.
-    // URL sanitization: trim + protokol kontrolü (revize_4 önerisi)
-    const hasRenderableUrl = (r: Record<string, unknown>): boolean => {
-      const url = typeof r.url === 'string' ? r.url.trim() : '';
-      return url.startsWith('http://') || url.startsWith('https://');
+    // v8.5: Fetch sizes JSON from master for each result row
+    // (search_index doesn't have sizes — master does)
+    const sizesBySku = new Map<string, Array<{
+      size_display: string; size_sort_value: number | null;
+      sku: string; barcode: string; url: string; price: number; image_url: string;
+    }>>();
+    if (filteredRows.length > 0) {
+      const skus = filteredRows.map((r) => r.sku as string);
+      const masterRes = await client.findTableRows({
+        table: 'productsMasterTable',
+        filter: { sku: { $in: skus } } as any,
+        limit: skus.length,
+      });
+      for (const m of masterRes.rows) {
+        try {
+          const sizesJson = m.sizes as string;
+          if (sizesJson) {
+            sizesBySku.set(m.sku as string, JSON.parse(sizesJson));
+          }
+        } catch {}
+      }
+    }
+
+    // URL sanitization
+    const hasRenderableUrl = (url: unknown): boolean => {
+      const u = typeof url === 'string' ? url.trim() : '';
+      return u.startsWith('http://') || u.startsWith('https://');
     };
 
-    return {
-      carouselItems: filteredRows
-        .filter(hasRenderableUrl)
-        .map((r) => ({
-          title: r.product_name as string,
-          subtitle: `${r.brand as string} \u2022 ${(r.price as number).toLocaleString('tr-TR')} TL`,
-          imageUrl: (r.image_url as string) || undefined,
-          actions: [
-            { action: 'url' as const, label: 'Ürün Sayfasına Git', value: (r.url as string).trim() },
-          ],
-        })),
+    // v8.5: Each primary row expands to N Carousel cards (1 per variant with URL)
+    const carouselItems: Array<{
+      title: string; subtitle: string; imageUrl?: string;
+      actions: Array<{ action: 'url'; label: string; value: string }>;
+    }> = [];
+    const textFallbackLines: Array<{
+      productName: string; brand: string; price: number; sku: string;
+    }> = [];
 
-      textFallbackLines: filteredRows
-        .filter((r) => !hasRenderableUrl(r))
-        .map((r) => ({
-          productName: r.product_name as string,
-          brand: r.brand as string,
-          price: r.price as number,
-          sku: r.sku as string,
-        })),
+    for (const r of filteredRows) {
+      const baseName = (r.base_name as string) || (r.product_name as string);
+      const brand = r.brand as string;
+      const sizes = sizesBySku.get(r.sku as string) || [];
+
+      if (sizes.length === 0) {
+        // No sizes data (edge case) — fall back to single-card from search_index row
+        if (hasRenderableUrl(r.url)) {
+          carouselItems.push({
+            title: r.product_name as string,
+            subtitle: `${brand} \u2022 ${(r.price as number).toLocaleString('tr-TR')} TL`,
+            imageUrl: (r.image_url as string) || undefined,
+            actions: [{ action: 'url', label: 'Ürün Sayfasına Git', value: (r.url as string).trim() }],
+          });
+        } else {
+          textFallbackLines.push({
+            productName: r.product_name as string, brand, price: r.price as number, sku: r.sku as string,
+          });
+        }
+        continue;
+      }
+
+      // Each size = 1 Carousel card (user explicitly wanted per-size cards)
+      for (const s of sizes) {
+        const sizeLabel = s.size_display ? ` — ${s.size_display}` : '';
+        const titleWithSize = sizes.length > 1 ? `${baseName}${sizeLabel}` : baseName;
+        if (hasRenderableUrl(s.url)) {
+          carouselItems.push({
+            title: titleWithSize,
+            subtitle: `${brand} \u2022 ${s.price.toLocaleString('tr-TR')} TL`,
+            imageUrl: s.image_url || undefined,
+            actions: [{ action: 'url', label: 'Ürün Sayfasına Git', value: s.url.trim() }],
+          });
+        } else {
+          textFallbackLines.push({
+            productName: titleWithSize, brand, price: s.price, sku: s.sku,
+          });
+        }
+      }
+    }
+
+    return {
+      carouselItems,
+      textFallbackLines,
 
       productSummaries: filteredRows.map((r) => ({
         sku: r.sku as string,
-        name: r.product_name as string,
+        name: (r.base_name as string) || (r.product_name as string),
         brand: r.brand as string,
         price: r.price as number,
         templateGroup: r.template_group as string,
         snippet: ((r.search_text as string) ?? '').slice(0, 200),
         similarity: (r.similarity as number | null) ?? null,
+        variant_skus: (r.variant_skus as string) || undefined,
+        sizes: sizesBySku.get(r.sku as string) || [],
       })),
 
       totalReturned: filteredRows.length,

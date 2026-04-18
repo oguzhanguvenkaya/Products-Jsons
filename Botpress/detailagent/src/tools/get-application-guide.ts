@@ -38,35 +38,33 @@ export const getApplicationGuide = new Autonomous.Tool({
     whyThisProduct: z.string().nullable().describe('Bu ürünün öne çıkan avantajları'),
     fullDescription: z.string().nullable().describe('HTML temizlenmiş tam açıklama'),
   }),
-  async handler({ sku }) {
-    // v7.2: 4 tablodan paralel sorgu (fullDescription desc_part1/part2'den geliyor)
-    const [contentRes, masterRes, desc1Res, desc2Res] = await Promise.all([
-      client.findTableRows({
-        table: 'productContentTable',
-        filter: { sku: { $eq: sku } },
-        limit: 1,
-      }),
-      client.findTableRows({
+  async handler({ sku: inputSku }) {
+    // v8.5: Primary SKU lookup (direct or via variant_skus)
+    let masterRow = null as Record<string, unknown> | null;
+    const direct = await client.findTableRows({
+      table: 'productsMasterTable', filter: { sku: { $eq: inputSku } }, limit: 1,
+    });
+    if (direct.rows.length > 0) {
+      masterRow = direct.rows[0];
+    } else {
+      const variant = await client.findTableRows({
         table: 'productsMasterTable',
-        filter: { sku: { $eq: sku } },
+        filter: { variant_skus: { $regex: inputSku, $options: 'i' } } as any,
         limit: 1,
-      }),
-      client.findTableRows({
-        table: 'productDescPart1Table',
-        filter: { sku: { $eq: sku } },
-        limit: 1,
-      }),
-      client.findTableRows({
-        table: 'productDescPart2Table',
-        filter: { sku: { $eq: sku } },
-        limit: 1,
-      }),
+      });
+      masterRow = variant.rows[0] ?? null;
+    }
+    if (!masterRow) throw new Error(`Ürün bulunamadı (sku=${inputSku})`);
+    const primarySku = masterRow.sku as string;
+
+    // Shared content via primary SKU
+    const [contentRes, desc1Res, desc2Res] = await Promise.all([
+      client.findTableRows({ table: 'productContentTable', filter: { sku: { $eq: primarySku } }, limit: 1 }),
+      client.findTableRows({ table: 'productDescPart1Table', filter: { sku: { $eq: primarySku } }, limit: 1 }),
+      client.findTableRows({ table: 'productDescPart2Table', filter: { sku: { $eq: primarySku } }, limit: 1 }),
     ]);
 
-    const master = masterRes.rows[0];
-    if (!master) {
-      throw new Error(`Ürün bulunamadı (sku=${sku})`);
-    }
+    const master = masterRow;
 
     const content = contentRes.rows[0];
 
