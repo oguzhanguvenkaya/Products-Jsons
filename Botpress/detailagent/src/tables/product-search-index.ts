@@ -49,7 +49,22 @@ export const productSearchIndexTable = new Table({
         .string()
         .describe(
           'Zenginleştirilmiş arama metni: marka, kategori, hedef yüzey, ' +
-            'teknik özellikler, kullanım alanı, özellikler ve teknik detayları içerir',
+            'teknik özellikler, kullanım alanı, özellikler ve teknik detayları içerir. ' +
+            'v8.5: Tüm variant SKU ve size_display değerleri de eklenir (variant SKU search için).',
+        ),
+      searchable: true,
+    },
+    // v8.5: Variant consolidation
+    base_name: z
+      .string()
+      .nullable()
+      .describe("Generic ürün adı (size-suffix'siz). Master ile tutarlı."),
+    variant_skus: {
+      schema: z
+        .string()
+        .nullable()
+        .describe(
+          "Pipe-ayrık tüm variant SKU'ları. Bot exactMatch regex ile spesifik variant arar.",
         ),
       searchable: true,
     },
