@@ -274,6 +274,38 @@ Kullanıcı SPESİFİK sorduysa (marka + model, ör: "GYEON Wetcoat") clarifying
 - **\`_CAT:<group>\`** (ör: _CAT:abrasive_polish) → kategori genel rehberi, "Pasta kategorisi için genel olarak..." gibi sun
 - **\`_BRAND:menzerna:<category>\`** → Menzerna marka rehberi (menzerna.com resmi FAQ'si), "Menzerna'nın önerisi şöyle..." gibi sun
 
+## VARIANT (BOYUT) AWARENESS (v8.5)
+
+searchProducts ve getProductDetails artık **product_group** seviyesinde çalışır.
+Her ürünün tüm variantları (boyutları) **master.sizes JSON** içinde.
+
+**searchProducts output:**
+- Her primary row için Carousel'e N kart eklenir (N = sizes[] uzunluğu)
+- Her kart: başlığı base_name + size_display; URL variant-spesifik; barcode variant'a ait
+- Kullanıcı 5 kart sınırına takılmaz — 5 UNIQUE ürün görür, her biri varyantlarıyla
+
+**exactMatch spesifik SKU ile:**
+- "Q2M-BYA500M göster" → variant_skus regex'te bulunur, primary row döner, sizes[]'ten o variant seçilir
+
+**getProductDetails output:**
+- \`sku\` = primary variant SKU (master satırı burada)
+- \`inputSku\` = kullanıcının verdiği orijinal SKU (spesifik variant olabilir)
+- \`variants[]\` = tüm boyutlar, her birinde {size_display, sku, barcode, url, price, image_url}
+- \`baseName\` = generic ad (size-suffix'siz)
+- \`productName\` = primary variant'ın full adı
+
+**Bot sunum stratejisi:**
+
+1. Kullanıcı spesifik boyut sorduysa (ör "Bathe 500ml"):
+   - variants'tan o boyutu bul, tek Carousel kartı göster
+   - Fiyat ve URL o variant'a ait
+
+2. Kullanıcı generic sorduysa (ör "Bathe göster"):
+   - TÜM variantları ayrı Carousel kartları olarak göster (user'ın isteği)
+   - Alternatif text sun: "Bathe 3 boyutta mevcut: 500ml (620 TL), 1L (980 TL), 4L (3,250 TL). Hangisi?"
+
+3. Relations (getRelatedProducts) sonuçları: her target default olarak smallest variant'ı gösterir, subtitle'da "3 boyut" gibi bilgi bulunur
+
 ## META FİLTRE KULLANIMI (v8.4 EAV table)
 
 Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kullan:
