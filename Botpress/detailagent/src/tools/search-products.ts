@@ -108,17 +108,14 @@ export const searchProducts = new Autonomous.Tool({
       .nullable()
       .optional()
       .describe(
-        "Ürün adında MUTLAKA geçmesi gereken TEK BİR SUBSTRING (case-insensitive). " +
-          "⚠️ KRİTİK KURAL: Birden fazla kelime/rakam BİRLEŞTİRME. Her seferinde SADECE " +
-          "BİR ayırıcı özellik koy. Doğru örnekler: '400' (Menzerna 400 serisi), " +
-          "'1000 ml' (hacim varyantı, SADECE hacim), 'Q2M-WYA' (SKU prefix), 'Bathe' " +
-          "(ürün adı parçası).\n\n" +
-          "❌ YANLIŞ: '3800 250ml' (iki özellik birleştirildi → 0 sonuç). " +
-          "❌ YANLIŞ: 'Gommanera Superlux 5 litre' (isim + hacim birleşti → 0 sonuç).\n\n" +
-          "Doğru yaklaşım: Menzerna 3800 250ml için → exactMatch='3800', limit=5 " +
-          "kullan. Sonuçlar arasında 250ml varyantını kullanıcıya göster. " +
-          "Kullanıcı belirli bir hacim istiyorsa önce rakam/ad ile filtrele, hacmi " +
-          "kullanıcıya sonuç listesinden seçtir.",
+        "Ürün adında MUTLAKA geçmesi gereken substring (case-insensitive). " +
+          "Tek ayırıcı özellik VEYA compound ürün adı (iki kelime birleşik ise) olabilir.\n\n" +
+          "✅ DOĞRU tek kelime: '400' (Menzerna 400), 'Bathe' (sade Bathe, Bathe+ değil), 'Q2M-WYA' (SKU prefix).\n" +
+          "✅ DOĞRU compound (iki kelime ürün adında birlikte): 'OdorRemover Pads' (sadece Pads), 'Bathe+ Plus', 'Cure Matte' (benzer isimde ürünler için variant ayırt et).\n\n" +
+          "❌ YANLIŞ: '3800 250ml' (isim + hacim karışık → 0 sonuç). " +
+          "❌ YANLIŞ: 'Gommanera Superlux 5 litre' (isim + hacim → 0 sonuç).\n\n" +
+          "KURAL: Hacim/ml/litre ile isim KARIŞTIRMA. Ama 'OdorRemover Pads' gibi compound ürün adı tek unit olarak kullanılır. " +
+          "Hacim için: önce isim ile filtrele (exactMatch='3800'), hacmi sonuç listesinden seçtir.",
       ),
     mainCat: z
       .string()
@@ -357,14 +354,22 @@ export const searchProducts = new Autonomous.Tool({
           filter: { ...filter, product_name: { $regex: needle, $options: 'i' } },
           limit: Math.max(limit * 3, 20),
         });
-        // v9.1: Multi-match preference — daha kısa product_name (daha generic)
-        // ilk sırada, "OdorRemover" → sprey, "OdorRemover Pads" ikinci
+        // v9.2: Multi-match preference — query-token match count önce, kısa name tie-breaker.
+        // "OdorRemover" → sprey (kısa, tek token match)
+        // "OdorRemover Pads" → pads (iki token match > sprey tek match)
+        const queryTokens = needle
+          .toLowerCase()
+          .split(/\s+/)
+          .filter((t) => t.length > 1);
         const postFiltered = broadRes.rows
           .filter((r) => strictRegex.test(String(r.product_name || '')))
           .sort((a, b) => {
-            const lenA = String(a.product_name || '').length;
-            const lenB = String(b.product_name || '').length;
-            return lenA - lenB;
+            const nameA = String(a.product_name || '').toLowerCase();
+            const nameB = String(b.product_name || '').toLowerCase();
+            const matchA = queryTokens.filter((t) => nameA.includes(t)).length;
+            const matchB = queryTokens.filter((t) => nameB.includes(t)).length;
+            if (matchA !== matchB) return matchB - matchA;
+            return nameA.length - nameB.length;
           });
         fetchResult = { ...broadRes, rows: postFiltered.slice(0, limit) };
 
