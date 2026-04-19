@@ -16,12 +16,18 @@ import { Autonomous, z, client } from '@botpress/runtime';
 export const searchFaq = new Autonomous.Tool({
   name: 'searchFaq',
   description:
-    "Ürün başına 2,119 hazır SSS (sıkça sorulan soru) koleksiyonunda semantic " +
-    "arama. Kullan: 'X ıslak kullanılır mı', 'X silikon içeriyor mu', " +
-    "'X ile uyumlu mu', 'X pH kaç', 'X nasıl saklanır' gibi SPESİFİK TEKNİK " +
-    "soru-cevap araması. Sonuçlar her bir ürünün ilgili SSS'ini döner (sku, " +
-    "question, answer). searchProducts'tan farkı: bu FAQ'larda yazılı hazır " +
-    "cevapları bulur, bulduğun cevabı aynen sunabilirsin.",
+    "FAQ koleksiyonunda semantic arama. ⚠️ KISITLI KULLANIM: Bu tool'u SADECE " +
+    "ürün bilinmiyor veya cross-product genel konuda kullan. " +
+    "\n\n❌ KULLANMA durumları (bu durumda getProductDetails kullan):" +
+    "\n - Spesifik bir ürün soruluyorsa (Pure EVO, CanCoat, Bathe vb.)" +
+    "\n - state.lastFocusSku DOLU ise (o ürünün tüm FAQ'ları getProductDetails.faqs'tan gelir)" +
+    "\n - Kullanıcı 'bu ürün' veya 'X ürünü' diyorsa" +
+    "\n\n✅ KULLAN durumları:" +
+    "\n - Kullanıcı bir ürün belirtmeden genel 'silikon içerir mi' / 'ıslak yüzey' soruyor" +
+    "\n - Cross-brand karşılaştırma 'hangi marka silikonsuz'" +
+    "\n - Marka-genel sorular (_BRAND:*, _CAT:* prefix'leri)" +
+    "\n\nSKU BİLİYORSAN sku parametresi ZORUNLU. SKU olmadan çağrı yanlış ürün " +
+    "cevabı riski taşır.",
   input: z.object({
     query: z
       .string()
@@ -69,21 +75,44 @@ export const searchFaq = new Autonomous.Tool({
       ),
   }),
   async handler({ query, sku, limit }) {
-    // v9.1: SKU filter — varsa sadece o ürünün FAQ'ları aranır (context-aware)
-    const filter = sku ? { sku: { $eq: sku } } : undefined;
+    // v9.2: SKU provided → tüm FAQ'ları döndür (semantic ranking'i bypass et).
+    // Kullanıcı'nın önerisi: "ürünün TÜM FAQ'larını getir, LLM içinden seçsin".
+    // Semantic top-N kurnazca yanlış FAQ'ı seçebiliyor ("iki kat" vs "açık havada" gibi).
+    if (sku) {
+      const allFaqs = await client.findTableRows({
+        table: 'productFaqTable',
+        filter: { sku: { $eq: sku } } as any,
+        limit: 50,
+      });
+      const results = allFaqs.rows.map((r) => ({
+        sku: r.sku as string,
+        question: r.question as string,
+        answer: r.answer as string,
+        similarity: null,
+      }));
+      return {
+        results,
+        totalReturned: results.length,
+        topSimilarity: null,
+        confidence: 'high' as const,
+        recommendation:
+          "SKU filter aktif: bu ürünün TÜM FAQ'ları döndü (semantic ranking yok). " +
+          'İçinden kullanıcının sorusuna EN UYGUN soruyu SEN seç ve cevabı sun. ' +
+          'Hiç uygun FAQ yoksa "bu konuda FAQ\'de net bilgi yok" de.',
+      };
+    }
+
+    // SKU yok → semantic arama (cross-product, _CAT:*, _BRAND:* için)
     const res = await client.findTableRows({
       table: 'productFaqTable',
       search: query,
-      filter,
       limit,
     });
 
-    // v8.4: Confidence flag — düşük similarity FAQ'lerini hallucinate etmeyi önlemek için
     const topSim = Number(res.rows[0]?.similarity ?? 0);
     const confidence: 'high' | 'low' | 'none' =
       topSim >= 0.6 ? 'high' : topSim >= 0.4 ? 'low' : 'none';
 
-    // v9.0: confidence='none' → results'u boşalt (bot hallucinate edemez)
     const rawResults = res.rows.map((r) => ({
       sku: r.sku as string,
       question: r.question as string,
