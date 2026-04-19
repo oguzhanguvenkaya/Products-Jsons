@@ -1,0 +1,1011 @@
+{
+  "generated_at": "2026-04-19",
+  "method": "5 parallel Explore subagents matched 100 sections against 99 GYEON primary SKUs in productsMasterTable",
+  "non_product_categories": {
+    "Brand Questions": "_BRAND:gyeon:brand",
+    "Sales & Distribution Questions": "_BRAND:gyeon:distribution",
+    "Certified Detailer Questions": "_BRAND:gyeon:certified_detailer",
+    "Gyeon Experience Center Questions": "_BRAND:gyeon:training",
+    "General Product Question (Q² Collection)": "_BRAND:gyeon:q2_general",
+    "General Product Question (Q²M Collection)": "_BRAND:gyeon:q2m_general"
+  },
+  "entries": [
+    {
+      "section_name": "Brand Questions",
+      "section_id": 360000211437,
+      "category": "General Brand Questions",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:brand",
+      "confidence": "non_product"
+    },
+    {
+      "section_name": "Sales & Distribution Questions",
+      "section_id": 360000211457,
+      "category": "General Brand Questions",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:distribution",
+      "confidence": "non_product"
+    },
+    {
+      "section_name": "Certified Detailer Questions",
+      "section_id": 360000211517,
+      "category": "General Brand Questions",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:certified_detailer",
+      "confidence": "non_product"
+    },
+    {
+      "section_name": "Gyeon Experience Center Questions",
+      "section_id": 360000211537,
+      "category": "General Brand Questions",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:training",
+      "confidence": "non_product"
+    },
+    {
+      "section_name": "General Product Question",
+      "section_id": 360000238957,
+      "category": "Q² Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2_general",
+      "confidence": "non_product"
+    },
+    {
+      "section_name": "Q² Wax",
+      "section_id": 360004441017,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-W175G",
+      "product_name": "GYEON Q Wax Hidrofobik Parlatıcı Boya Koruma - 175 gr",
+      "barcode": "8809432670315",
+      "confidence": "high",
+      "target_sku": "Q2-W175G"
+    },
+    {
+      "section_name": "Q² CanCoat EVO",
+      "section_id": 360000243078,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-CCE200M",
+      "product_name": "GYEON Q CanCoat EVO Hidrofobik Nano Seramik Kaplama Seti - 200 ml",
+      "barcode": "8809432670278",
+      "confidence": "high",
+      "target_sku": "Q2-CCE200M"
+    },
+    {
+      "section_name": "Q² One EVO",
+      "section_id": 360000239337,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-OLE100M",
+      "product_name": "GYEON Q One EVO Light Box Seramik Kaplama - 100ml",
+      "barcode": "8809432672463",
+      "confidence": "high",
+      "target_sku": "Q2-OLE100M"
+    },
+    {
+      "section_name": "Q² Pure EVO",
+      "section_id": 360000239717,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-PLE50M",
+      "product_name": "GYEON Q Pure EVO Light Box Seramik Kaplama - 50ml",
+      "barcode": "8809432672517",
+      "confidence": "high",
+      "target_sku": "Q2-PLE50M"
+    },
+    {
+      "section_name": "Q² Matte EVO",
+      "section_id": 360000244138,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-MTEL50M",
+      "product_name": "GYEON Q Matte EVO Light Box Mat Boyalı/PPF Kaplama Araçlara Özel Seramik Kaplama - 50 ml",
+      "barcode": "8809432672647",
+      "confidence": "high",
+      "target_sku": "Q2-MTEL50M"
+    },
+    {
+      "section_name": "Q² Mohs EVO",
+      "section_id": 360000240657,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-MLE100M",
+      "product_name": "GYEON Q Mohs EVO Light Box Seramik Kaplama - 100 ml",
+      "barcode": "8809432672586",
+      "confidence": "high",
+      "target_sku": "Q2-MLE100M"
+    },
+    {
+      "section_name": "Q² Syncro EVO",
+      "section_id": 360000244817,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-SLE50M",
+      "product_name": "GYEON Q Syncro EVO Light Box Çift Katman Seramik Kaplama - 50 ml + 50 ml",
+      "barcode": "8809432672623",
+      "confidence": "high",
+      "target_sku": "Q2-SLE50M"
+    },
+    {
+      "section_name": "Q² PPF EVO",
+      "section_id": 360001145057,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-PPFE50M",
+      "product_name": "GYEON Q PPF EVO Folyolara Özel Seramik Kaplama - 50 ml",
+      "barcode": "8809432670605",
+      "confidence": "high",
+      "target_sku": "Q2-PPFE50M"
+    },
+    {
+      "section_name": "Q² Booster",
+      "section_id": 360000245057,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-BS30M",
+      "product_name": "GYEON Q Booster Seramik Yenileyici Hidrofobik Kaplama - 30 ml",
+      "barcode": "8809432672609",
+      "confidence": "high",
+      "target_sku": "Q2-BS30M"
+    },
+    {
+      "section_name": "Q² Flash EVO",
+      "section_id": 360001130698,
+      "category": "Q² Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2_general",
+      "confidence": "missing",
+      "notes": "Q² Flash EVO not in our 99-SKU Gyeon catalog",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q² CanCoat Pro EVO",
+      "section_id": 360000239157,
+      "category": "Q² Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2_general",
+      "confidence": "missing",
+      "notes": "Pro EVO variant not in catalog (only base CanCoat EVO)",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q² Primer",
+      "section_id": 360000252018,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-PR1000M",
+      "product_name": "GYEON Q Primer Koruma Öncesi Seramik Bazlı Son Kat Cila - 1000 ml",
+      "barcode": "8809432673125",
+      "confidence": "high",
+      "target_sku": "Q2-PR1000M"
+    },
+    {
+      "section_name": "Q² Rim EVO",
+      "section_id": 360000252038,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-RE30M",
+      "product_name": "GYEON Q Rim EVO Jantlara Özel Koruyucu Seramik Kaplama - 30 ml",
+      "barcode": "8683492661007",
+      "confidence": "high",
+      "target_sku": "Q2-RE30M"
+    },
+    {
+      "section_name": "Q² Trim EVO",
+      "section_id": 360000252338,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-TRE30M",
+      "product_name": "GYEON Q Trim EVO Plastik Koruyucu Ve Solmuş Plastik Yenileyici Seramik Kaplama - 30ml",
+      "barcode": "8683492660994",
+      "confidence": "high",
+      "target_sku": "Q2-TRE30M"
+    },
+    {
+      "section_name": "Q² View EVO",
+      "section_id": 360000254018,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-VE20M",
+      "product_name": "GYEON Q View EVO Cam Su İtici Yağmur Kaydırıcı Seramik Kaplama - 20 ml",
+      "barcode": "8683492661014",
+      "confidence": "high",
+      "target_sku": "Q2-VE20M"
+    },
+    {
+      "section_name": "Q² QuickView",
+      "section_id": 360004607418,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-QV120M",
+      "product_name": "GYEON Q QuickView Cam Su Kaydırıcı - 120 ml",
+      "barcode": "8809432670322",
+      "confidence": "high",
+      "target_sku": "Q2-QV120M"
+    },
+    {
+      "section_name": "Q² FabricCoat",
+      "section_id": 360000254078,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-FCNA400M",
+      "product_name": "GYEON Q FabricCoat Araç Kumaş Koltuk Tente Koruyucu - 400 ml",
+      "barcode": "8683492661137",
+      "confidence": "high",
+      "target_sku": "Q2-FCNA400M"
+    },
+    {
+      "section_name": "Q² LeatherShield EVO",
+      "section_id": 360000250097,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-LSE50M",
+      "product_name": "GYEON Q Leather Shield EVO Deri Aksamlar İçin Koruyucu Seramik Kaplama - 50 ml",
+      "barcode": "8809432677574",
+      "confidence": "high",
+      "target_sku": "Q2-LSE50M"
+    },
+    {
+      "section_name": "Q² AntiFog",
+      "section_id": 360000250057,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-AF120M",
+      "product_name": "GYEON Q AntiFog Cam Buğu Önleyici Kaplama Seti - 120 ml",
+      "barcode": "8809432671503",
+      "confidence": "high",
+      "target_sku": "Q2-AF120M"
+    },
+    {
+      "section_name": "Q² LeatherCoat REDEFINED",
+      "section_id": 360000254258,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-LCR500M",
+      "product_name": "GYEON Q Leather Coat REDEFINED Deri Yüzeyler İçin Bakım Ve Koruma - 500 ml",
+      "barcode": "8809973751542",
+      "confidence": "high",
+      "target_sku": "Q2-LCR500M"
+    },
+    {
+      "section_name": "Q² Tire",
+      "section_id": 360000254298,
+      "category": "Q² Collection",
+      "primary_sku": "Q2-TYA500M",
+      "product_name": "GYEON Q Tire Lastik Parlatıcı Ve Koruyucu Jel - 500 ml",
+      "barcode": "8809973751559",
+      "confidence": "high",
+      "target_sku": "Q2-TYA500M"
+    },
+    {
+      "section_name": "General Product Question",
+      "section_id": 360000250397,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "non_product"
+    },
+    {
+      "section_name": "Q²M Bathe",
+      "section_id": 360000255517,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-BYA4000M",
+      "product_name": "GYEON QM Bathe PH Nötr Cilalı Oto Şampuanı - 4000 ml",
+      "barcode": "8809432671121",
+      "confidence": "high",
+      "target_sku": "Q2M-BYA4000M"
+    },
+    {
+      "section_name": "Q²M Bathe+",
+      "section_id": 360000255657,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-BPYA1000M",
+      "product_name": "GYEON QM Bathe+ Plus Seramik Bazlı PH Nötr Cilalı Oto Şampuanı 1000 ml",
+      "barcode": "8683492661120",
+      "confidence": "high",
+      "target_sku": "Q2M-BPYA1000M"
+    },
+    {
+      "section_name": "Q²M RestartWash",
+      "section_id": 5740847467281,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-RWYA1000M",
+      "product_name": "GYEON QM RestartWash Seramik Kaplama PPF Yenileyici Asidik Şampuan - 1000 ml",
+      "barcode": "8683492661397",
+      "confidence": "high",
+      "target_sku": "Q2M-RWYA1000M"
+    },
+    {
+      "section_name": "Q²M ECOWash",
+      "section_id": 18544419089052,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-EW1000M",
+      "product_name": "GYEON QM ECO Wash Seramik Katkılı Susuz Yıkama - 1000 ml",
+      "barcode": "8809432677833",
+      "confidence": "medium",
+      "notes": "Spacing diff: ECOWash vs ECO Wash",
+      "target_sku": "Q2M-EW1000M"
+    },
+    {
+      "section_name": "Q²M Foam",
+      "section_id": 360000260418,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-FYA4000M",
+      "product_name": "GYEON QM Foam Araç Ön Yıkama Şampuanı Konsantre - 4000 ml",
+      "barcode": "8683492661250",
+      "confidence": "high",
+      "target_sku": "Q2M-FYA4000M"
+    },
+    {
+      "section_name": "Q²M Bug & Grime",
+      "section_id": 360000260498,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-BGYA1000M",
+      "product_name": "GYEON QM Bug&Grime Araç Sinek Böcek Leke Temizleyici - 1000 ml",
+      "barcode": "8683492661175",
+      "confidence": "medium",
+      "notes": "Spacing diff: Bug & Grime vs Bug&Grime",
+      "target_sku": "Q2M-BGYA1000M"
+    },
+    {
+      "section_name": "Q²M APC",
+      "section_id": 5742678389009,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-APYA4000M",
+      "product_name": "GYEON QM APC Çok Amaçlı Genel Yüzey Temizleyici - 4000 ml",
+      "barcode": "8683492661151",
+      "confidence": "high",
+      "target_sku": "Q2M-APYA4000M"
+    },
+    {
+      "section_name": "Q²M Iron REDEFINED",
+      "section_id": 360000260578,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-IR4000M",
+      "product_name": "GYEON QM Iron REDEFINED Demir Tozu, Balata Tozu Temizleyici Ve Pas Sökücü PH Nötr - 4000 ml",
+      "barcode": "8683492661045",
+      "confidence": "high",
+      "target_sku": "Q2M-IR4000M"
+    },
+    {
+      "section_name": "Q²M Tar REDEFINED",
+      "section_id": 360000255497,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-TR4000M",
+      "product_name": "GYEON QM Tar REDEFINED Zift Katran Reçine Temizleyici - 4000 ml",
+      "barcode": "8683492661083",
+      "confidence": "high",
+      "target_sku": "Q2M-TR4000M"
+    },
+    {
+      "section_name": "Q²M WaterSpot",
+      "section_id": 360000260518,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-WSYA1000M",
+      "product_name": "GYEON QM WaterSpot Kireç Çözücü Cam Su Lekesi Temizleyici - 1000 ml",
+      "barcode": "8683492661434",
+      "confidence": "high",
+      "target_sku": "Q2M-WSYA1000M"
+    },
+    {
+      "section_name": "Q²M TotalRemover",
+      "section_id": 18544546706332,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-TOTR1000M",
+      "product_name": "GYEON QM Total Remover Balmumu Wax Cila Çözücü Koruma Sökücü - 1000 ml",
+      "barcode": "8809973750835",
+      "confidence": "medium",
+      "notes": "Spacing diff: TotalRemover vs Total Remover",
+      "target_sku": "Q2M-TOTR1000M"
+    },
+    {
+      "section_name": "Q²M Prep",
+      "section_id": 360000260658,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PYA4000M",
+      "product_name": "GYEON QM Prep Seramik PPF Folyo Kaplama Öncesi Yüzey Hazırlayıcı - 4000 ml",
+      "barcode": "8683492661366",
+      "confidence": "high",
+      "target_sku": "Q2M-PYA4000M"
+    },
+    {
+      "section_name": "Q²M WetCoat",
+      "section_id": 360000265218,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-WCYA4000M",
+      "product_name": "GYEON QM WetCoat Nano Boya Koruma Ve Seramik Sprey Hızlı Cila - 4000 ml",
+      "barcode": "8683492661458",
+      "confidence": "high",
+      "target_sku": "Q2M-WCYA4000M"
+    },
+    {
+      "section_name": "Q²M WetCoat Essence",
+      "section_id": 360000265238,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "missing",
+      "notes": "WetCoat Essence variant not in catalog (only WetCoat Nano exists)",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q²M QuickDetailer",
+      "section_id": 360000255037,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-QDYA1000M",
+      "product_name": "GYEON QM QuickDetailer Seramik Bazlı Parlatıcı Yüzey Detaylandırıcı",
+      "barcode": "8683492661380",
+      "confidence": "high",
+      "target_sku": "Q2M-QDYA1000M"
+    },
+    {
+      "section_name": "Q²M CeramicDetailer",
+      "section_id": 18544559625628,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-CDYA1000M",
+      "product_name": "GYEON QM CeramicDetailer Seramik Yüzey Detaylandırıcı ve Parlatıcı",
+      "barcode": "8683492661182",
+      "confidence": "high",
+      "target_sku": "Q2M-CDYA1000M"
+    },
+    {
+      "section_name": "Q²M Cure REDEFINED",
+      "section_id": 360000265258,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-CRYA250M",
+      "product_name": "GYEON QM Cure REDEFINED Araç Boya Koruma Ve Bakım Spreyi - 250 ml",
+      "barcode": "8683492661229",
+      "confidence": "high",
+      "target_sku": "Q2M-CRYA250M"
+    },
+    {
+      "section_name": "Q²M Cure Matte REDEFINED",
+      "section_id": 360000260877,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-CMR500M",
+      "product_name": "GYEON QM Cure Matte REDEFINED Mat Boyalı PPF Kaplı Araçlara Özel Koruyucu Bakım Spreyi",
+      "barcode": "8809973751627",
+      "confidence": "high",
+      "target_sku": "Q2M-CMR500M"
+    },
+    {
+      "section_name": "Q²M ClayLube REDEFINED",
+      "section_id": 360000260538,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-CLR500M",
+      "product_name": "GYEON QM Clay Lube REDEFINED Kil Kaydırıcı Yoğun Konsantre",
+      "barcode": "8683492661090",
+      "confidence": "high",
+      "target_sku": "Q2M-CLR500M"
+    },
+    {
+      "section_name": "Q²M ClayBars",
+      "section_id": 360000255437,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "missing",
+      "notes": "ClayBars (clay bar) not in catalog (only Clay Mild/Coarse EVO)",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q²M Iron WheelCleaner REDEFINED",
+      "section_id": 5741200835857,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-IWCR4000M",
+      "product_name": "GYEON QM Iron Wheel Cleaner REDEFINED Jant Temizleyici - 4000 ml",
+      "barcode": "8683492661311",
+      "confidence": "high",
+      "target_sku": "Q2M-IWCR4000M"
+    },
+    {
+      "section_name": "Q²M Tire Cleaner",
+      "section_id": 360000254438,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-TCYA1000M",
+      "product_name": "GYEON QM Tire Cleaner Araç Lastik Kauçuk Temizleyici",
+      "barcode": "8683492661403",
+      "confidence": "high",
+      "target_sku": "Q2M-TCYA1000M"
+    },
+    {
+      "section_name": "Q²M Tire Express",
+      "section_id": 360000250597,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-TEYA1000M",
+      "product_name": "GYEON QM Tire Express Lastik Parlatıcı ve Koruyucu",
+      "barcode": "8683492661410",
+      "confidence": "high",
+      "target_sku": "Q2M-TEYA1000M"
+    },
+    {
+      "section_name": "Q²M LeatherCleaner Natural",
+      "section_id": 360000251137,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-LCN1000M",
+      "product_name": "GYEON QM Leather Cleaner Natural Modern Napa Yarı Anilin Derilere Özel Temizleyici",
+      "barcode": "8809432677819",
+      "confidence": "high",
+      "target_sku": "Q2M-LCN1000M"
+    },
+    {
+      "section_name": "Q²M LeatherCleaner Strong",
+      "section_id": 360000250677,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-LCSYA1000M",
+      "product_name": "GYEON QM LeatherCleaner Strong Güçlü Deri Temizleyici",
+      "barcode": "8683492661328",
+      "confidence": "high",
+      "target_sku": "Q2M-LCSYA1000M"
+    },
+    {
+      "section_name": "Q²M Leather Set Natural",
+      "section_id": 360000250657,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-LSN200M",
+      "product_name": "GYEON QM LeatherSet Natural Modern Deri Günlük Hafif Temizlik ve Bakım Seti",
+      "barcode": "8809973750385",
+      "confidence": "high",
+      "target_sku": "Q2M-LSN200M"
+    },
+    {
+      "section_name": "Q²M Leather Set Strong",
+      "section_id": 360000254658,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-LSSYA200M",
+      "product_name": "GYEON QM LeatherSet Strong Güçlü Deri Temizlik ve Bakım Seti",
+      "barcode": "8683492661342",
+      "confidence": "high",
+      "target_sku": "Q2M-LSSYA200M"
+    },
+    {
+      "section_name": "Q²M Preserve",
+      "section_id": 360000265398,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PRYA250M",
+      "product_name": "GYEON QM Preserve İç Dış Plastik Trim Yenileyici Ve Koruyucu",
+      "barcode": "8683492661472",
+      "confidence": "high",
+      "target_sku": "Q2M-PRYA250M"
+    },
+    {
+      "section_name": "Q²M FabricCleaner",
+      "section_id": 5743360486545,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-FCNA1000M",
+      "product_name": "GYEON QM FabricCleaner Kumaş Koltuk Döşeme Ve Tekstil Temizleyici",
+      "barcode": "8683492661236",
+      "confidence": "high",
+      "target_sku": "Q2M-FCNA1000M"
+    },
+    {
+      "section_name": "Q²M TowelWash",
+      "section_id": 360000265518,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-TWYA500M",
+      "product_name": "GYEON QM TowelWash Mikrofiber Bez Havlu Eldiven Keçe Ped Yıkama Şampuanı",
+      "barcode": "8683492661427",
+      "confidence": "high",
+      "target_sku": "Q2M-TWYA500M"
+    },
+    {
+      "section_name": "Q²M Scents",
+      "section_id": 18544623622940,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "missing",
+      "notes": "Scents (fragrance) variant not in catalog",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q²M Glass",
+      "section_id": 360000261017,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "missing",
+      "notes": "Q²M Glass (sprey cam temizleyici) standalone product yok — Glass Polish (pasta) ile karıştırılmamalı",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q²M Glass+",
+      "section_id": 18544626040476,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-GPYA1000M",
+      "product_name": "GYEON QM Glass+ Plus Araç Cam Yağmur Kaydırıcı Su İtici ve Temizleyici",
+      "barcode": "8683492661267",
+      "confidence": "high",
+      "target_sku": "Q2M-GPYA1000M"
+    },
+    {
+      "section_name": "Q²M DeFrost",
+      "section_id": 18544633214236,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "missing",
+      "notes": "DeFrost (cam buz çözücü) not in catalog",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q²M Compound+ REDEFINED",
+      "section_id": 360000264658,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-CMPR1000M",
+      "product_name": "GYEON QM Compound+ Plus REDEFINED Ağır Çizik Giderici Kalın Pasta - 1000 ml",
+      "barcode": "8683492661106",
+      "confidence": "high",
+      "target_sku": "Q2M-CMPR1000M"
+    },
+    {
+      "section_name": "Q²M Compound",
+      "section_id": 360000260717,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-CM1000M",
+      "product_name": "GYEON QM Compound Çizik Giderici Pasta - 1000 ml",
+      "barcode": "8809432673828",
+      "confidence": "high",
+      "target_sku": "Q2M-CM1000M"
+    },
+    {
+      "section_name": "Q²M Polish",
+      "section_id": 360000265158,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PO1000M",
+      "product_name": "GYEON QM Polish Ara Kesim Hare Giderici Cila - 1000 ml",
+      "barcode": "8809432673927",
+      "confidence": "high",
+      "notes": "Q²M Collection'daki Polish — kimyasal cila",
+      "target_sku": "Q2M-PO1000M"
+    },
+    {
+      "section_name": "Q²M GlassPolish",
+      "section_id": 18544668616860,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-GP250M",
+      "product_name": "GYEON QM Glass Polish Cam Pastası Leke Temizleyici",
+      "barcode": "8809432677895",
+      "confidence": "high",
+      "notes": "Naming: GlassPolish ≡ Glass Polish",
+      "target_sku": "Q2M-GP250M"
+    },
+    {
+      "section_name": "Q²M MetalPolish",
+      "section_id": 360000251157,
+      "category": "Q²M Collection",
+      "primary_sku": null,
+      "target_sku": "_BRAND:gyeon:q2m_general",
+      "confidence": "missing",
+      "notes": "MetalPolish not in Gyeon catalog",
+      "action": "move_to_brand"
+    },
+    {
+      "section_name": "Q²M PPF Slip",
+      "section_id": 18544741236380,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PPFSL4000M",
+      "product_name": "GYEON QM PPF Slip PPF Folyo Montaj Yapıştırma Sıvısı - 4000 ml",
+      "barcode": "8809432677864",
+      "confidence": "high",
+      "target_sku": "Q2M-PPFSL4000M"
+    },
+    {
+      "section_name": "Q²M PPF Lift",
+      "section_id": 18544742985372,
+      "category": "Q²M Collection",
+      "primary_sku": "PPF-L500M",
+      "product_name": "GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml",
+      "barcode": "8809973751672",
+      "confidence": "high",
+      "target_sku": "PPF-L500M"
+    },
+    {
+      "section_name": "Q²M PPF Maintain REDEFINED",
+      "section_id": 360001148897,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PPFMR500M",
+      "product_name": "GYEON QM PPF Maintain REDEFINED PPF Folyo Bakım Ve Koruma Cilası - 500 ml",
+      "barcode": "8809973751658",
+      "confidence": "high",
+      "target_sku": "Q2M-PPFMR500M"
+    },
+    {
+      "section_name": "Q²M PPF Wash",
+      "section_id": 360001148877,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PPFW500M",
+      "product_name": "GYEON QM PPF Wash PPF Folyo Kaplı Araçlara Özel Yıkama Şampuanı - 500 ml",
+      "barcode": "8809973751665",
+      "confidence": "high",
+      "target_sku": "Q2M-PPFW500M"
+    },
+    {
+      "section_name": "Q²M PPF Renew",
+      "section_id": 360000254398,
+      "category": "Q²M Collection",
+      "primary_sku": "Q2M-PPR1000M",
+      "product_name": "GYEON QM PPF Renew PPF Folyo Temizleyici Yenileyici Ve Koruyucu Pasta - 1000 ml",
+      "barcode": "8809432674658",
+      "confidence": "high",
+      "target_sku": "Q2M-PPR1000M"
+    },
+    {
+      "section_name": "Q²M Wool Heavy Cut",
+      "section_id": 360001149077,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Polishing pad not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M Wool Cut",
+      "section_id": 360001149177,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Polishing pad not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M Heavy Cut",
+      "section_id": 360000262857,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Polishing pad not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M Cut",
+      "section_id": 360000266618,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Polishing pad not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M Polish",
+      "section_id": 360000266638,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Bu Q²M Polish, accessories kategorisinde — yani parlatma PED'i, kimyasal değil. Pad catalog'da yok.",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M Finish",
+      "section_id": 360000262957,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Polishing pad not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M Smoothie EVO",
+      "section_id": 360000263077,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-STE",
+      "product_name": "GYEON QM Smoothie EVO Mikrofiber Araç Yıkama Eldiveni",
+      "barcode": "8809432674856",
+      "confidence": "high",
+      "target_sku": "Q2M-STE"
+    },
+    {
+      "section_name": "Q²M SilkMitt EVO",
+      "section_id": 360000263097,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "SilkMitt EVO not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M SilkDryer EVO",
+      "section_id": 360000263117,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-SDE7090C",
+      "product_name": "GYEON QM SilkDryer EVO İnovatif Kurulama Havlusu - 70x90 cm",
+      "barcode": "8809432671480",
+      "confidence": "high",
+      "target_sku": "Q2M-SDE7090C"
+    },
+    {
+      "section_name": "Q²M SoftDryer EVO",
+      "section_id": 360000263137,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-SODE6080C",
+      "product_name": "GYEON QM Soft Dryer EVO Lazer Kesim Peluş Kurulama Havlusu - 60x80 cm",
+      "barcode": "8809432671435",
+      "confidence": "high",
+      "target_sku": "Q2M-SODE6080C"
+    },
+    {
+      "section_name": "Q²M WaffleDryer EVO",
+      "section_id": 360000266758,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-WD4060C",
+      "product_name": "GYEON QM Waffle Dryer Petek Dokulu Cam Silme Bezi Ve Yüzey Kurulama Havlusu - 40x60 cm",
+      "barcode": "8809432676201",
+      "confidence": "high",
+      "target_sku": "Q2M-WD4060C"
+    },
+    {
+      "section_name": "Q²M SoftWipe EVO",
+      "section_id": 360000266778,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-SWE4040C",
+      "product_name": "GYEON QM SoftWipe EVO Lazer Kesim Peluş Pasta Cila Bezi - 40x40 cm",
+      "barcode": "8809432671374",
+      "confidence": "high",
+      "target_sku": "Q2M-SWE4040C"
+    },
+    {
+      "section_name": "Q²M BaldWipe EVO",
+      "section_id": 360000266798,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-BWE4040",
+      "product_name": "GYEON QM Baldwipe EVO Lazer Kesim Tüysüz Çok Amaçlı Mikrofiber Bez - 40x40 cm",
+      "barcode": "8809432671381",
+      "confidence": "high",
+      "target_sku": "Q2M-BWE4040"
+    },
+    {
+      "section_name": "Q²M PolishWipe EVO",
+      "section_id": 360000263197,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-PWE4040C",
+      "product_name": "GYEON QM PolishWipe EVO Lazer Kesim Çift Yönlü Cila Bezi - 40x40 cm",
+      "barcode": "8809432671442",
+      "confidence": "high",
+      "target_sku": "Q2M-PWE4040C"
+    },
+    {
+      "section_name": "Q²M Suede EVO",
+      "section_id": 360000263257,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-SEP1010C",
+      "product_name": "GYEON QM Suede EVO Seramik Uygulamaları İçin Süet Silme Bezi 10x10cm - 10 lu Paket",
+      "barcode": "8809432671497",
+      "confidence": "high",
+      "target_sku": "Q2M-SEP1010C"
+    },
+    {
+      "section_name": "Q²M Wheel Brush",
+      "section_id": 360000266858,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-BL",
+      "product_name": "GYEON QM Wheel Brush Mikrofiber Jant Fırçası Büyük Boy 46 cm",
+      "barcode": "8809432675556",
+      "confidence": "high",
+      "target_sku": "Q2M-BL"
+    },
+    {
+      "section_name": "Q²M Detailing Bag",
+      "section_id": 360000266878,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Detailing Bag not in catalog",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²M MF Applicator EVO 2-pack",
+      "section_id": 360000255117,
+      "category": "Q²M Accessories Collection",
+      "primary_sku": "Q2M-MFAE",
+      "product_name": "GYEON QM MF Applicator EVO Parmak Tip Uygulama Aplikatörü - 2'li Paket",
+      "barcode": "8809432674870",
+      "confidence": "high",
+      "target_sku": "Q2M-MFAE"
+    },
+    {
+      "section_name": "Q²R Gelcoat",
+      "section_id": 360000266898,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R Teak",
+      "section_id": 360000263277,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R Degrease",
+      "section_id": 360000266918,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R Wash",
+      "section_id": 360000263297,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R Maintain",
+      "section_id": 360000266938,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R VinylCleaner",
+      "section_id": 360000263317,
+      "category": "Q²R Collection",
+      "primary_sku": "Q2M-TRC500M",
+      "target_sku": "Q2M-TRC500M",
+      "confidence": "medium",
+      "notes": "Q²R VinylCleaner → Q²M Trim Cleaner per user",
+      "action": "override_to_product",
+      "product_name": "GYEON QM Trim Cleaner Anti-Statik Plastik Trim Vinil Motor Parçalara Özel Temizleyici - 500 ml",
+      "barcode": "8809973750408"
+    },
+    {
+      "section_name": "Q²R GlassCleaner",
+      "section_id": 360000263337,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R FabricCoat",
+      "section_id": 360000266958,
+      "category": "Q²R Collection",
+      "primary_sku": "Q2-FCNA400M",
+      "target_sku": "Q2-FCNA400M",
+      "confidence": "medium",
+      "notes": "Q²R FabricCoat (marine) → Q² FabricCoat per user",
+      "action": "override_to_product",
+      "product_name": "GYEON Q FabricCoat Araç Kumaş Koltuk Tente Koruyucu - 400 ml",
+      "barcode": "8683492661137"
+    },
+    {
+      "section_name": "Q²R MetalPolish",
+      "section_id": 360000266978,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R MarinePolish S1 REDEFINED",
+      "section_id": 360000263357,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    },
+    {
+      "section_name": "Q²R MarinePolish S2",
+      "section_id": 360000266998,
+      "category": "Q²R Collection",
+      "primary_sku": null,
+      "target_sku": null,
+      "confidence": "missing",
+      "notes": "Q²R marine line not in DB",
+      "action": "skip"
+    }
+  ]
+}

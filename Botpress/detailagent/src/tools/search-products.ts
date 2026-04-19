@@ -329,13 +329,14 @@ export const searchProducts = new Autonomous.Tool({
       }
     }
 
-    // v8.5: exactMatch → product_name OR variant_skus regex filter.
-    // (variant_skus searchable kolonu pipe-separated variant SKU'ları taşır,
-    //  bot spesifik SKU ile aradığında primary row'u bulabilir.)
+    // v9.0: exactMatch → word-boundary + negative lookahead post-filter.
+    // Problem: regex "Bathe" hem "Q²M Bathe" hem "Q²M Bathe+" match ediyordu.
+    // Çözüm: DB'den oversample çek, JS'de strict regex ile post-filter.
+    // "\b<needle>(?![+\w])" → "Bathe+" ve "Bathecoat" elenir, "Bathe" match.
     let fetchResult;
     if (exactMatch) {
       const needle = exactMatch.trim();
-      // Try variant_skus first (for direct SKU lookup)
+      // Try variant_skus first (for direct SKU lookup, regex OK — SKU unique)
       const variantRes = await client.findTableRows({
         table: 'productSearchIndexTable',
         filter: { ...filter, variant_skus: { $regex: needle, $options: 'i' } },
@@ -344,12 +345,27 @@ export const searchProducts = new Autonomous.Tool({
       if (variantRes.rows.length > 0) {
         fetchResult = variantRes;
       } else {
-        // Fallback: product_name regex (for model name like "400", "Bathe")
-        fetchResult = await client.findTableRows({
+        // Product_name regex: DB-side broad fetch (raw needle), JS strict post-filter.
+        // NOT: DB-side '\b' ÇALIŞMAZ (Postgres POSIX = backspace, kelime sınırı değil).
+        // Bu yüzden word-boundary kontrolü sadece JS tarafında (PCRE).
+        const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+        // JS-side: word-boundary + negative lookahead (no '+' or word-char after)
+        const strictRegex = new RegExp(`\\b${escaped}(?![+\\w])`, 'i');
+
+        const broadRes = await client.findTableRows({
           table: 'productSearchIndexTable',
           filter: { ...filter, product_name: { $regex: needle, $options: 'i' } },
-          limit: Math.max(limit, 10),
+          limit: Math.max(limit * 3, 20),
         });
+        const postFiltered = broadRes.rows.filter((r) =>
+          strictRegex.test(String(r.product_name || ''))
+        );
+        fetchResult = { ...broadRes, rows: postFiltered.slice(0, limit) };
+
+        // Fallback: eğer strict post-filter 0 döndüyse, orijinal broad result'u kullan
+        if (fetchResult.rows.length === 0 && broadRes.rows.length > 0) {
+          fetchResult = { ...broadRes, rows: broadRes.rows.slice(0, limit) };
+        }
       }
     } else {
       fetchResult = await client.findTableRows({

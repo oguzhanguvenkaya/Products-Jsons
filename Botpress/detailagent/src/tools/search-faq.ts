@@ -66,28 +66,31 @@ export const searchFaq = new Autonomous.Tool({
       limit,
     });
 
-    const results = res.rows.map((r) => ({
+    // v8.4: Confidence flag — düşük similarity FAQ'lerini hallucinate etmeyi önlemek için
+    const topSim = Number(res.rows[0]?.similarity ?? 0);
+    const confidence: 'high' | 'low' | 'none' =
+      topSim >= 0.6 ? 'high' : topSim >= 0.4 ? 'low' : 'none';
+
+    // v9.0: confidence='none' → results'u boşalt (bot hallucinate edemez)
+    const rawResults = res.rows.map((r) => ({
       sku: r.sku as string,
       question: r.question as string,
       answer: r.answer as string,
       similarity: (r.similarity as number | null) ?? null,
     }));
+    const results = confidence === 'none' ? [] : rawResults;
 
-    // v8.4: Confidence flag — düşük similarity FAQ'lerini hallucinate etmeyi önlemek için
-    const topSim = Number(results[0]?.similarity ?? 0);
-    const confidence: 'high' | 'low' | 'none' =
-      topSim >= 0.6 ? 'high' : topSim >= 0.4 ? 'low' : 'none';
     const recommendation = {
       high: 'Cevabı doğal Türkçe cümleye çevirip direkt sun.',
-      low: "Cevabı 'En yakın SSS şunu söylüyor:' disclaimer ile sun; kullanıcı doğrulamalı.",
+      low: "Cevabı 'En yakın SSS şunu söylüyor:' disclaimer ile sun; kullanıcı doğrulamalı. Eğer kullanıcının sorusu sayısal teknik değer (pH, km, ay, ml) ise FAQ'yı ATLA, getProductDetails ile technicalSpecs'ten oku.",
       none:
-        "FAQ'de anlamlı eşleşme YOK. Bu bilgiyi KULLANMA. getProductDetails ile spec'ten ara veya 'bu konuda net bilgim yok' de.",
+        "FAQ'de anlamlı eşleşme YOK — results BOŞ. Bu durumda: sayısal/teknik değer sorgusu ise searchProducts + getProductDetails kullan. Nüanslı kullanım/uyumluluk sorusu ise 'bu konuda net bilgim yok' de ve ürünün resmi FAQ portalına yönlendir.",
     }[confidence];
 
     return {
       results,
       totalReturned: results.length,
-      topSimilarity: results[0]?.similarity ?? null,
+      topSimilarity: res.rows[0]?.similarity ?? null,
       confidence,
       recommendation,
     };

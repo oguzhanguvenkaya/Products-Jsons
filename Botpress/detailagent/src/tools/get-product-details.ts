@@ -41,7 +41,13 @@ export const getProductDetails = new Autonomous.Tool({
     targetSurface: z.string().nullable(),
     templateGroup: z.string(),
     templateSubType: z.string(),
-    technicalSpecs: z.record(z.unknown()),
+    technicalSpecs: z.record(z.unknown()).describe(
+      "Teknik specs JSON. Sık kullanılan alanlar: durability_months (ay), " +
+        "durability_km (km, örn. 25000), ph_tolerance (string 'X-Y'), " +
+        "consumption_ml_per_car (sayı), hardness (string, pazarlama iddiası), " +
+        "ratings (object: {durability, beading, self_cleaning} üretici 1-5 skor). " +
+        "Teknik/sayısal sorularda FAQ yerine BU alanı kullan.",
+    ),
     faqs: z.array(z.object({ question: z.string(), answer: z.string() })),
     howToUse: z.string().nullable(),
     whenToUse: z.string().nullable(),
