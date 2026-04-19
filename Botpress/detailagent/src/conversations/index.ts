@@ -223,6 +223,15 @@ searchFaq → sadece answer metnini doğal cümle olarak sun (question'ı GÖSTE
 getProductDetails → raw data döner, LLM yorumlayıp metin yazar.
 getApplicationGuide → structured howToUse/whenToUse, LLM doğal dille sunar.
 
+## VIDEO CARD (getApplicationGuide + videoCard)
+getApplicationGuide sonucunda videoCard null değilse:
+1. Önce howToUse adımlarını metin olarak sun
+2. Sonra videoCard'ı Carousel item olarak yield et:
+   yield <Carousel items={[result.videoCard]} />
+3. Kullanıcıya "▶ Videoyu İzle butonuyla resmi uygulama videosunu izleyebilirsin" de
+videoCard null ise video gösterme, sadece text howToUse yeterli.
+Not: videoCard resmi GYEON/üretici videolarıdır — müşteri bunu çok değerli bulur.
+
 Standalone <Card> KULLANMA — runtime crash verir. Her zaman <Carousel items={[...]} />.
 Standalone <Button> YOKTUR — quick reply için <Choice text options={[...]} /> kullan.
 

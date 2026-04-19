@@ -66,6 +66,13 @@ export const productsMasterTable = new Table({
           'Her variant için tam bilgi. Bot parse ederek Carousel için N kart oluşturur. ' +
           'Single-variant ürünlerde 1-item array.',
       ),
+    video_url: z
+      .string()
+      .nullable()
+      .describe(
+        'Üretici resmi YouTube uygulama videosu URL. Kullanıcı "nasıl uygulanır" sorduğunda ' +
+          'Carousel card olarak sunulur. Kaynak: gyeon.co WordPress API (78/98 GYEON ürünü).',
+      ),
   },
   keyColumn: 'sku',
 });

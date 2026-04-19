@@ -37,6 +37,24 @@ export const getApplicationGuide = new Autonomous.Tool({
     whenToUse: z.string().nullable().describe('Hangi senaryolarda kullanılır'),
     whyThisProduct: z.string().nullable().describe('Bu ürünün öne çıkan avantajları'),
     fullDescription: z.string().nullable().describe('HTML temizlenmiş tam açıklama'),
+    videoCard: z
+      .object({
+        title: z.string(),
+        subtitle: z.string(),
+        imageUrl: z.string().describe('YouTube thumbnail'),
+        actions: z.array(
+          z.object({
+            action: z.literal('url'),
+            label: z.string(),
+            value: z.string().describe('YouTube video URL'),
+          }),
+        ),
+      })
+      .nullable()
+      .describe(
+        'Üretici resmi uygulama videosu — Carousel item olarak yield edilir. ' +
+          'video_url yoksa null döner. Kullanıcı "nasıl uygulanır" sorduğunda mutlaka göster.',
+      ),
   }),
   async handler({ sku: inputSku }) {
     // v8.5: Primary SKU lookup (direct or via variant_skus)
@@ -73,6 +91,36 @@ export const getApplicationGuide = new Autonomous.Tool({
     const descPart2 = (desc2Res.rows[0]?.fullDescription as string) ?? '';
     const fullDescription = descPart1 + descPart2;
 
+    // Video card — resmi YouTube URL varsa Carousel item'a hazırla
+    const rawVideoUrl = (master.video_url as string | null) ?? null;
+    const videoUrl = rawVideoUrl && rawVideoUrl.trim().length > 0 ? rawVideoUrl.trim() : null;
+    let videoCard: {
+      title: string;
+      subtitle: string;
+      imageUrl: string;
+      actions: { action: 'url'; label: string; value: string }[];
+    } | null = null;
+    if (videoUrl) {
+      // youtu.be/XXXXX veya youtube.com/watch?v=XXXXX'den video ID çıkar
+      const byeMatch = videoUrl.match(/youtu\.be\/([^?&/]+)/);
+      const wwwMatch = videoUrl.match(/[?&]v=([^&]+)/);
+      const videoId = byeMatch?.[1] ?? wwwMatch?.[1] ?? null;
+      if (videoId) {
+        videoCard = {
+          title: (master.product_name as string) + ' — Uygulama Videosu',
+          subtitle: 'Üretici resmi rehberi',
+          imageUrl: 'https://img.youtube.com/vi/' + videoId + '/maxresdefault.jpg',
+          actions: [
+            {
+              action: 'url' as const,
+              label: '▶ Videoyu İzle',
+              value: videoUrl,
+            },
+          ],
+        };
+      }
+    }
+
     return {
       sku: master.sku as string,
       productName: master.product_name as string,
@@ -87,6 +135,7 @@ export const getApplicationGuide = new Autonomous.Tool({
       whenToUse: (content?.whenToUse as string | null) ?? null,
       whyThisProduct: (content?.whyThisProduct as string | null) ?? null,
       fullDescription: fullDescription || null,
+      videoCard,
     };
   },
 });
