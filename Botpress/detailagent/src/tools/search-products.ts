@@ -357,14 +357,32 @@ export const searchProducts = new Autonomous.Tool({
           filter: { ...filter, product_name: { $regex: needle, $options: 'i' } },
           limit: Math.max(limit * 3, 20),
         });
-        const postFiltered = broadRes.rows.filter((r) =>
-          strictRegex.test(String(r.product_name || ''))
-        );
+        // v9.1: Multi-match preference — daha kısa product_name (daha generic)
+        // ilk sırada, "OdorRemover" → sprey, "OdorRemover Pads" ikinci
+        const postFiltered = broadRes.rows
+          .filter((r) => strictRegex.test(String(r.product_name || '')))
+          .sort((a, b) => {
+            const lenA = String(a.product_name || '').length;
+            const lenB = String(b.product_name || '').length;
+            return lenA - lenB;
+          });
         fetchResult = { ...broadRes, rows: postFiltered.slice(0, limit) };
 
-        // Fallback: eğer strict post-filter 0 döndüyse, orijinal broad result'u kullan
+        // Fallback chain:
+        // 1) Strict 0 → broad result (word-boundary miss ama regex eşleşti)
+        // 2) Broad 0 → semantic search (yazım varyasyonu, "FabriCoat" vs "FabricCoat")
         if (fetchResult.rows.length === 0 && broadRes.rows.length > 0) {
           fetchResult = { ...broadRes, rows: broadRes.rows.slice(0, limit) };
+        }
+        if (fetchResult.rows.length === 0) {
+          // v9.1 semantic fallback — embedding similarity ile yakın ürünleri bul
+          const semanticRes = await client.findTableRows({
+            table: 'productSearchIndexTable',
+            search: query || needle,
+            filter: Object.keys(filter).length > 0 ? filter : undefined,
+            limit,
+          });
+          fetchResult = semanticRes;
         }
       }
     } else {

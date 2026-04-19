@@ -29,6 +29,15 @@ export const searchFaq = new Autonomous.Tool({
         "FAQ araması için kullanıcı sorusunun doğal dil hali " +
           "(ör: 'wetcoat ıslak yüzeyde mi kullanılır', 'Menzerna 300 silikon içerir mi')",
       ),
+    sku: z
+      .string()
+      .nullable()
+      .optional()
+      .describe(
+        "Opsiyonel SKU filtresi. Kullanıcı spesifik bir ürün hakkında soru soruyorsa " +
+          "(state.lastFocusSku veya yeni searchProducts sonucu), bu SKU'yu geç. " +
+          "FAQ araması SADECE o ürünün FAQ'ları içinde yapılır — yanlış ürün cevabı gelmez.",
+      ),
     limit: z
       .number()
       .int()
@@ -59,10 +68,13 @@ export const searchFaq = new Autonomous.Tool({
         "LLM için kullanım talimatı. Bot bu alanı okuyup confidence'a göre davranmalı.",
       ),
   }),
-  async handler({ query, limit }) {
+  async handler({ query, sku, limit }) {
+    // v9.1: SKU filter — varsa sadece o ürünün FAQ'ları aranır (context-aware)
+    const filter = sku ? { sku: { $eq: sku } } : undefined;
     const res = await client.findTableRows({
       table: 'productFaqTable',
       search: query,
+      filter,
       limit,
     });
 
