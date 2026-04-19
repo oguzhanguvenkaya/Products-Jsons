@@ -28,3 +28,4 @@ export { getProductDetails } from './get-product-details';
 export { getApplicationGuide } from './get-application-guide';
 export { searchByPriceRange } from './search-by-price-range';
 export { getRelatedProducts } from './get-related-products';
+export { searchByRating } from './search-by-rating';

@@ -1,0 +1,73 @@
+source_sku,source_name,relation_type,target_sku,target_name,source_blog,notes
+79280,SP1 PREWASH,use_after,79283,S2 FOAMY,blog1_lavaggio,Prewash sonrası ana yıkama
+79280,SP1 PREWASH,use_after,79286,S1 WASH&COAT,blog1_lavaggio,Prewash sonrası koruyucu yıkama
+79283,S2 FOAMY,use_before,79280,SP1 PREWASH,blog1_lavaggio,Ana yıkama öncesi prewash
+79283,S2 FOAMY,use_after,79291,D1 IRON,blog1_lavaggio;blog4_decon,Yıkama sonrası demir dekon
+79283,S2 FOAMY,use_with,81676,IK FOAM PRO 2,blog1_lavaggio,Köpük lansı ile
+79283,S2 FOAMY,use_with,3221A-RD,KLIN Wash Mitt,blog1_lavaggio,Yıkama eldiveni
+79283,S2 FOAMY,use_with,79472,Innovacar Kova Seti,blog1_lavaggio,Grit guard ile iki kova
+79286,S1 WASH&COAT,use_after,79301,W1 QUICK DETAILER,blog2_sealant,Yıkama sonrası quick detail
+79286,S1 WASH&COAT,use_with,79295,SC0 HYDRO SEALANT,blog2_sealant,Koruma bakımı
+79286,S1 WASH&COAT,use_with,79304,H2O COAT,blog2_sealant,Hidrofobik booster
+79291,D1 IRON,use_before,79293,D3 TAR,blog4_decon;blog5_detailing,Önce demir sonra zift
+79291,D1 IRON,use_after,79283,S2 FOAMY,blog4_decon,Kimyasal decon öncesi yıkama
+79291,D1 IRON,use_with,Q2M-CME,GYEON Clay Mild,blog4_decon,Clay bar ile birlikte dekontaminasyon fazı
+79293,D3 TAR,use_before,79290,DS SCALE,blog4_decon,Zift sonrası kireç
+79293,D3 TAR,use_after,79291,D1 IRON,blog4_decon,Demir sonrası zift
+79290,DS SCALE,use_before,701344,0 SCALE,blog4_decon,DS SCALE sonrası su izi
+79290,DS SCALE,use_after,79293,D3 TAR,blog4_decon,Zift sonrası kireç
+701344,0 SCALE,use_before,Q2M-CLR500M,GYEON Clay Lube,blog4_decon,Kimyasal decon sonrası clay
+Q2M-CLR500M,GYEON Clay Lube,use_with,Q2M-CME,GYEON Clay Mild,blog3_glaze;blog4_decon,Clay bar ile kayganlaştırıcı
+Q2M-CLR500M,GYEON Clay Lube,use_with,MGPS-2019KM,MG PS Mavi Clay,blog4_decon,Clay bar ile kayganlaştırıcı
+Q2M-CLR500M,GYEON Clay Lube,use_with,MGPS-2019KH,MG PS Mor Clay,blog4_decon,Clay bar ile kayganlaştırıcı
+Q2M-CLR500M,GYEON Clay Lube,use_with,MGPS-6016P,MG PS Clay Mitt,blog4_decon,Clay mitt ile kayganlaştırıcı
+Q2M-CME,GYEON Clay Mild,use_after,79292,D2 CHECK,blog2_sealant,Clay sonrası yağ temizleme
+Q2M-CME,GYEON Clay Mild,use_before,22200.261.001,Menzerna 400,blog2_sealant,Clay sonrası cila
+MGPS-2019KM,MG PS Mavi Clay,use_after,79292,D2 CHECK,blog4_decon,Clay sonrası yağ temizleme
+MGPS-2019KH,MG PS Mor Clay,use_after,79292,D2 CHECK,blog4_decon,Clay sonrası yağ temizleme
+MGPS-6016P,MG PS Clay Mitt,use_with,Q2M-CLR500M,GYEON Clay Lube,blog4_decon,Clay mitt ile lubricant
+79292,D2 CHECK,use_before,700405,SINH HYBRID,blog2_sealant;blog5_detailing,Seramik öncesi yağ temizleme kritik
+79292,D2 CHECK,use_before,79295,SC0 HYDRO SEALANT,blog2_sealant,Koruma öncesi yüzey hazırlığı
+79292,D2 CHECK,use_before,22200.261.001,Menzerna 400,blog5_detailing,Cila öncesi yüzey hazırlığı
+22200.261.001,Menzerna 400,use_before,22748.261.001,Menzerna One-Step,blog5_detailing,Ağır cila sonrası tek adım
+22200.261.001,Menzerna 400,use_with,26900.224.010,Menzerna Kırmızı Pad,blog2_sealant,Heavy cut pad
+22748.261.001,Menzerna One-Step,use_after,22200.261.001,Menzerna 400,blog5_detailing,Heavy cut sonrası tek adım
+22748.261.001,Menzerna One-Step,use_before,22992.261.001,Menzerna 3800,blog5_detailing,One-step sonrası finish
+22992.261.001,Menzerna 3800,use_after,22748.261.001,Menzerna One-Step,blog5_detailing,One-step sonrası finish hare giderme
+22992.261.001,Menzerna 3800,use_before,79295,SC0 HYDRO SEALANT,blog2_sealant;blog5_detailing,Finish sonrası koruma
+22992.261.001,Menzerna 3800,use_with,26900.224.012,Menzerna Yeşil Pad,blog3_glaze,Finish pad
+22992.261.001,Menzerna 3800,use_with,Q2M-PWE4040C,GYEON PolishWipe,blog2_sealant,Cila silme bezi
+79295,SC0 HYDRO SEALANT,use_after,22992.261.001,Menzerna 3800,blog5_detailing,Cila sonrası koruma
+79295,SC0 HYDRO SEALANT,use_after,79292,D2 CHECK,blog2_sealant,Yüzey hazırlığı sonrası koruma
+79295,SC0 HYDRO SEALANT,use_with,Q2M-BWE4040,GYEON BaldWipe,blog2_sealant,Aplikatör bez
+79295,SC0 HYDRO SEALANT,use_with,3215D,KLIN Buffing King,blog2_sealant,Final buffing bez
+79295,SC0 HYDRO SEALANT,use_before,79304,H2O COAT,blog2_sealant,Sealant sonrası booster
+79295,SC0 HYDRO SEALANT,use_before,79301,W1 QUICK DETAILER,blog2_sealant,Sealant sonrası parlatma
+79417,SC1 SEALANT,use_after,79292,D2 CHECK,blog2_sealant,Yüzey hazırlığı sonrası hızlı sealant
+79417,SC1 SEALANT,use_before,79304,H2O COAT,blog2_sealant,Sealant sonrası booster
+700405,SINH HYBRID,use_after,79292,D2 CHECK,blog2_sealant,Seramik öncesi yağ temizleme
+700405,SINH HYBRID,use_after,22992.261.001,Menzerna 3800,blog5_detailing,Finish cila sonrası seramik
+700405,SINH HYBRID,use_with,Q2M-SEP1010C,GYEON Suede EVO,blog2_sealant,Seramik aplikatör bez
+700405,SINH HYBRID,use_with,3235,KLIN Dual Foam Block,blog2_sealant,Aplikatör blok
+700405,SINH HYBRID,use_before,79295,SC0 HYDRO SEALANT,blog2_sealant,Seramik üstü koruyucu kat
+700405,SINH HYBRID,use_before,79286,S1 WASH&COAT,blog2_sealant,Seramik sonrası bakım
+79304,H2O COAT,use_after,79295,SC0 HYDRO SEALANT,blog2_sealant,Sealant üstü booster
+79304,H2O COAT,use_with,79286,S1 WASH&COAT,blog2_sealant,Yıkama sonrası booster
+79301,W1 QUICK DETAILER,use_after,79295,SC0 HYDRO SEALANT,blog2_sealant,Sealant sonrası bakım
+79301,W1 QUICK DETAILER,use_after,79286,S1 WASH&COAT,blog2_sealant,Yıkama sonrası parlatma
+701422,SM MICRON SHAMPOO,use_with,3221A-RD,KLIN Wash Mitt,blog2_sealant,Mikrofiber yıkama
+701422,SM MICRON SHAMPOO,use_with,Q2M-SDE7090C,GYEON SilkDryer,blog2_sealant,Kurutma bezi bakımı
+701422,SM MICRON SHAMPOO,use_with,Q2M-BWE4040,GYEON BaldWipe,blog2_sealant,Aplikatör bakımı
+22748.261.001,Menzerna One-Step,use_with,26900.224.011,Menzerna Sarı Pad,blog3_glaze,One-step pad
+22200.261.001,Menzerna 400,use_with,26907.099.001,Menzerna Kırmızı 95mm Pad,blog2_sealant,Dar alan heavy cut
+Q2M-CME,GYEON Clay Mild,accessories,Q2M-CLR500M,GYEON Clay Lube,blog4_decon,Clay ile lubricant set
+MGPS-2019KM,MG PS Mavi Clay,accessories,Q2M-CLR500M,GYEON Clay Lube,blog4_decon,Clay ile lubricant set
+MGPS-2019KH,MG PS Mor Clay,accessories,Q2M-CLR500M,GYEON Clay Lube,blog4_decon,Clay ile lubricant set
+MGPS-6016P,MG PS Clay Mitt,accessories,Q2M-CLR500M,GYEON Clay Lube,blog4_decon,Clay mitt ile lubricant
+22200.261.001,Menzerna 400,alternatives,Q2M-CMP1000M,GYEON Compound+,blog2_sealant,Alternatif heavy cut
+22748.261.001,Menzerna One-Step,alternatives,22748.281.001,Menzerna One-Step 250ml,blog2_sealant,Küçük boy varyant
+22992.261.001,Menzerna 3800,alternatives,Q2M-PO1000M,GYEON Polish,blog2_sealant,Alternatif finish
+79295,SC0 HYDRO SEALANT,alternatives,Q2M-WYA1000M,GYEON WetCoat 1000ml,blog2_sealant,Alternatif spray rinse sealant
+79417,SC1 SEALANT,alternatives,26919.271.001,Menzerna Ceramic Spray Sealant,blog2_sealant,Alternatif spray sealant
+700405,SINH HYBRID,alternatives,MXP-DPCN50KS,MX-PRO DIAMOND,blog2_sealant,Premium seramik alternatifi
+700405,SINH HYBRID,alternatives,Q2-MLE50M,GYEON Mohs EVO,blog2_sealant,Alternatif 9H seramik

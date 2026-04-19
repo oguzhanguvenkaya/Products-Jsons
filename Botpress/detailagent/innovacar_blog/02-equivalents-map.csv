@@ -1,0 +1,44 @@
+blog_product,blog_category,status,primary_sku,primary_brand,primary_name,alternative_skus,confidence,notes
+SP1 PREWASH,prewash,in_stock,79280,INNOVACAR,INNOVACAR SP1 PREWASH Enzimli Ön Yıkama Şampuanı Konsantre - 1 lt,79281,high,1lt ve 4.54lt varyantlar var
+S1 WASH&COAT,shampoo_protective,in_stock,79286,INNOVACAR,INNOVACAR S1 WASH&COAT SIO2 İçerikli Enzimli Su İtici Koruyucu Şampuan Konsantre - 1 lt,,high,SIO2 içerikli hidrofobik şampuan
+S2 FOAMY,shampoo_ph_neutral,in_stock,79283,INNOVACAR,INNOVACAR S2 FOAMY Enzimli PH Nötr Köpüklü Araç Yıkama Şampuanı Konsantre - 1 lt,79284;700507;700508,high,Mavi ve Yeşil renkli varyantlar da var
+S2 FOAMY COLOR BLUE,shampoo_colored,in_stock,700507,INNOVACAR,INNOVACAR S2 FOAMY Mavi Renkli Özel Kokulu Şampuan - 1 lt,,high,birebir
+S2 FOAMY COLOR GREEN,shampoo_colored,in_stock,700508,INNOVACAR,INNOVACAR S2 FOAMY Yeşil Renkli Özel Kokulu Şampuan - 1 lt,,high,birebir
+S2 FOAMY COLOR PINK,shampoo_colored,not_stocked,,,,,medium,Pembe varyant katalogda yok; mavi veya yeşil önerilebilir
+SM MICRON SHAMPOO,microfiber_shampoo,in_stock,701422,INNOVACAR,INNOVACAR SM MICRON SHAMPOO Mikrofiber Bez Yıkama Şampuanı - 1000 ml,,high,birebir
+D1 IRON,iron_remover,in_stock,79291,INNOVACAR,INNOVACAR D1 IRON Demir Tozu Çözücü PH Nötr Konsantre - 500 ml,,high,birebir
+D2 CHECK,oil_degreaser,in_stock,79292,INNOVACAR,INNOVACAR D2 CHECK Alkol Bazlı Yüzey Temizleyici - 500 ml,,high,birebir
+D3 TAR,tar_glue_remover,in_stock,79293,INNOVACAR,INNOVACAR D3 TAR Yapışkan Zift Ve Katran Temizleyici - 500 ml,Q2M-TR500M;Q2M-TR1000M,high,birebir; GYEON alternatifi mevcut
+DS SCALE,acid_shampoo,in_stock,79290,INNOVACAR,INNOVACAR DS SCALE Asidik Temizleyici Ve Kireç Sökücü Şampuan - 1 lt,,high,birebir
+100% SCALE,water_spot_remover,equivalent,701344,INNOVACAR,INNOVACAR 0 SCALE Su İzi Temizleyici Kireç Çözücü - 500 ml,701350,high,Innovacar yeni adlandırmada 0 SCALE = 100% SCALE kabul edilir
+SD1 IRON THIXO RAPID,iron_shampoo_combo,combination,79291,INNOVACAR,D1 IRON + S2 FOAMY ardışık kombinasyon,79283;Q2M-IR500M,medium,Birleşik ürün yok; ardışık kullanım önerilir
+F1 FORCE ONE,heavy_cut_compound,equivalent,22200.261.001,MENZERNA,MENZERNA 400 Yeşil Seri Ağır Çizik Giderici Kalın Pasta - 1 lt,22984.260.001;Q2M-CMP1000M,high,Ağır kesim heavy_cut_compound sub_type
+A1 ALL IN ONE,one_step_polish,equivalent,22748.261.001,MENZERNA,MENZERNA One-Step Polish 3in1 Tek Adım Pasta Cila Koruma - 1 lt,22748.281.001,high,one_step_polish sub_type bire bir
+P1 POLISH UP,finish_polish,equivalent,22992.261.001,MENZERNA,MENZERNA 3800 Süper Hare Giderici Cila - 1 lt,22992.281.001;Q2M-PO1000M,high,finish sub_type
+G1 GLOSSY,glaze,not_stocked_optional,,,,22748.261.001;79301,low,Kataloğumuzda saf glaze yok. Opsiyonel — akıştan çıkarılması tavsiye edilir
+SC0 HYDRO SEALANT,spray_sealant_water_based,in_stock,79295,INNOVACAR,INNOVACAR SC0 HYDRO SEALANT Hidrofobik Seramik Bazlı Nano Koruma - 500 ml,700097,high,500ml ve 4.54lt varyantlar var
+SC1 SEALANT,spray_sealant_alcohol_based,in_stock,79417,INNOVACAR,INNOVACAR SC1 SEALANT Hızlı Hidrofobik Seramik Bazlı Nano Koruma - 500 ml,700096,high,500ml ve 5lt varyantlar var
+SINH HYBRID COAT,ceramic_single_step,in_stock,700405,INNOVACAR,INNOVACAR SINH HYBRID Tek Adım Hidrofobik Seramik Kaplama 30ml,,high,birebir
+SINH TOP COAT,ceramic_premium,equivalent,700405,INNOVACAR,SINH HYBRID (yakın kategori) veya MX-PRO DIAMOND premium upgrade,MXP-DPCN50KS;Q2-MLE50M,high,TOP COAT bizde direkt yok; HYBRID en yakın Innovacar eşdeğeri
+H20 COAT,spray_rinse_sealant,in_stock,79304,INNOVACAR,INNOVACAR H2O COAT Anında Hidrofobik Etki Kazandırıcı Hızlı Cila - 1 lt,Q2M-WYA500M;Q2M-WYA1000M,high,birebir
+W1 QUICK DETAILER,quick_detailer,in_stock,79301,INNOVACAR,INNOVACAR W1 QUICK DETAILER Yüzey Koruyucu ve Parlatıcı Hızlı Cila - 500 ml,Q2M-QDYA500M;Q2M-CDYA500M,high,birebir
+CLAY BAR BLUE SOFT,clay_bar_soft,equivalent,Q2M-CME,GYEON,GYEON QM Clay Mild EVO Günlük Hafif Yüzey Temizleyici Kil Hamuru - 100 gr,,high,Hafif kil; günlük/hafif kontaminasyon için
+CLAY BAR YELLOW MEDIUM,clay_bar_medium,equivalent,MGPS-2019KM,MG PS,MG PS Orta Sert Yüzey Temizleyici Kil Hamuru 100 gr (Mavi),,high,Orta sertlikte kil
+CLAY BAR RED HARD,clay_bar_hard,equivalent,MGPS-2019KH,MG PS,MG PS Agresif Yüzey Temizleyici Kil Hamuru 100 gr (Mor),Q2M-CCE,high,Ağır kontaminasyon için
+CLAY MITT,clay_mitt,equivalent,MGPS-6016P,MG PS,MG PS Kil Eldiveni 21x16 cm (Kırmızı),MGPS-6009P;MGPS-6012K,high,Clay eldiveni birebir kategori
+DL LUBE,clay_lubricant,equivalent,Q2M-CLR500M,GYEON,GYEON QM Clay Lube REDEFINED Kil Kaydırıcı Yoğun Konsantre - 500 ml,,high,clay_lubricant sub_type birebir
+MICRON WASH MITT,wash_mitt,equivalent,3221A-RD,KLIN,KLIN Wash Mitt Mikrofiber Araç Yıkama Eldiveni (Kırmızı) - 20x18 cm,Q2M-STE;3227I-HD,high,wash_mitt sub_type
+MICRON UP,multi_purpose_cloth,equivalent,Q2M-BWE4040,GYEON,GYEON QM BaldWipe EVO Lazer Kesim Tüysüz Çok Amaçlı Mikrofiber Bez - 40x40 cm,3217HS-5G,high,coating_cloth / multi-purpose
+MICRON APP,coating_applicator,equivalent,Q2M-CA2P,GYEON,GYEON QM Coating Applicator Çift Taraflı Seramik Uygulama Pedi - 2li Paket,Q2M-MFAE;3229,high,coating_applicator sub_type
+MICRON 2FACE,buffing_cloth,equivalent,Q2M-PWE4040C,GYEON,GYEON QM PolishWipe EVO Lazer Kesim Çift Yönlü Cila Bezi - 40x40 cm,Q2M-SWE4040C,high,buffing_cloth sub_type çift yönlü
+MICRON BUFFING,buffing_cloth,equivalent,3215D,KLIN,KLIN Buffing King Çift Taraflı Peluş Cila Silme Bezi 1000 GSM - 45x37cm,Q2M-SWE4040C,high,Final buffing bezi
+MICRON SUEDE,suede_cloth,equivalent,Q2M-SEP1010C,GYEON,GYEON QM Suede EVO Seramik Uygulamaları İçin Süet Silme Bezi - 10lu Paket,,high,suede_cloth sub_type birebir
+MICRON XXL,drying_towel,equivalent,Q2M-SDE7090C,GYEON,GYEON QM SilkDryer EVO İnovatif Kurulama Havlusu - 70x90 cm,Q2M-SODE6080C;3213EMR,high,drying_towel sub_type
+MICRON XXL S2 FOAMY COLOR,drying_towel,equivalent,Q2M-SDE7090C,GYEON,GYEON QM SilkDryer EVO - 70x90 cm (renkli varyant bizde yok),3213EMR,medium,Renkli varyant eşdeğeri yok
+FOAM APP BLOCK,applicator_pad,equivalent,3235,KLIN,KLIN Dual Çift Taraflı Sünger Aplikatör 2li Paket,SGGD188-02;11075-RE,high,applicator_pad sub_type
+SOFT SPONGE PAD BLACK,polishing_pad_finishing,equivalent,SVPRO160F,MG PS,MG PS Rotary Cila/Boya Koruma Süngeri Waffle (Siyah) - 160 mm,26909.099.001,medium,Siyah finishing pad; glaze uygulamasına uygun
+HARD BRUSH,detail_brush,equivalent,SGGD421,SGCB,SGCB Detaylı Temizlik 3lü Fırça Seti,Q2M-BM;Q2M-TB,medium,Detay fırçası seti
+DET BOWL (GRIT GUARD),wash_bucket_accessory,in_stock,79472,INNOVACAR,INNOVACAR Araç Yıkama Kovası Seti 20 Lt Siyah (Süzgeç + Vidalı Kapak),,high,Kova + grit guard set
+LANCE FOAM LS3,foam_lance,equivalent,81676,IK SPRAYERS,IK FOAM PRO 2 Köpük Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,SGGD135;81776,high,foaming_pump_sprayer
+SPRAY PUMP ALKALINE,alkali_pump_sprayer,equivalent,81777,IK SPRAYERS,IK ALK 1.5 Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.5 Litre,18810;20417,high,alkali pump_sprayer
+GRADUATED BOTTLE,dispenser_bottle,equivalent,Q2M-P-DB300M,GYEON,GYEON QM Dispenser Bottle Dağıtıcı Şişe Biberon - 300 ml,79587-643;79588-643,high,Ölçekli sprey şişe alternatifi
