@@ -11,10 +11,7 @@ const EnvSchema = z.object({
   SUPABASE_URL: z.preprocess(emptyToUndef, z.string().url().optional()),
   SUPABASE_SERVICE_ROLE_KEY: z.preprocess(emptyToUndef, z.string().optional()),
   GEMINI_API_KEY: z.string().min(10),
-  RETRIEVAL_SHARED_SECRET: z.preprocess(
-    emptyToUndef,
-    z.string().min(16).optional(),
-  ),
+  RETRIEVAL_SHARED_SECRET: z.string().min(16),
   PORT: z.coerce.number().int().default(8787),
   LOG_LEVEL: z.enum(['debug', 'info', 'warn', 'error']).default('info'),
 });

@@ -1,7 +1,19 @@
 import { Hono } from 'hono';
 import { env } from './lib/env.ts';
+import { loggerMiddleware } from './middleware/logger.ts';
+import { authMiddleware } from './middleware/auth.ts';
+import { errorHandler } from './middleware/error.ts';
 
-const app = new Hono();
+type AppVariables = {
+  requestId: string;
+};
+
+const app = new Hono<{ Variables: AppVariables }>();
+
+app.use('*', loggerMiddleware);
+app.use('*', authMiddleware);
+
+app.onError(errorHandler);
 
 app.notFound((c) =>
   c.json(
@@ -9,13 +21,29 @@ app.notFound((c) =>
       error: 'not_found',
       path: c.req.path,
       method: c.req.method,
+      request_id: c.get('requestId'),
     },
     404,
   ),
 );
 
+app.get('/health', (c) =>
+  c.json({
+    status: 'ok',
+    version: '0.1.0',
+    request_id: c.get('requestId'),
+  }),
+);
+
 const port = env.PORT;
-console.log(`[retrieval-service] listening on :${port} (env=${env.LOG_LEVEL})`);
+console.log(
+  JSON.stringify({
+    t: new Date().toISOString(),
+    level: 'info',
+    message: `retrieval-service listening on :${port}`,
+    log_level: env.LOG_LEVEL,
+  }),
+);
 
 export default {
   port,
