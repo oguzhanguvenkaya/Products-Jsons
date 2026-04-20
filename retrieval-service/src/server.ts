@@ -3,6 +3,7 @@ import { env } from './lib/env.ts';
 import { loggerMiddleware } from './middleware/logger.ts';
 import { authMiddleware } from './middleware/auth.ts';
 import { errorHandler } from './middleware/error.ts';
+import { productsRoutes } from './routes/products.ts';
 
 type AppVariables = {
   requestId: string;
@@ -34,6 +35,8 @@ app.get('/health', (c) =>
     request_id: c.get('requestId'),
   }),
 );
+
+app.route('/', productsRoutes);
 
 const port = env.PORT;
 console.log(
