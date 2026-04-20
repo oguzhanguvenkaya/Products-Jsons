@@ -1,10 +1,6 @@
 // product_relations: expand CSV comma-lists to (sku, related_sku, type) rows.
-// Types mapped:
-//   use_before    → complement
-//   use_after     → complement
-//   use_with      → complement
-//   accessories   → complement
-//   alternatives  → alternative
+// Types preserved as-is (migration 005 extended the enum).
+// Order of intent: use_before, use_after, use_with, accessories, alternatives.
 
 import { readCsv, splitList } from './_csv.ts';
 import { sql } from '../src/lib/db.ts';
@@ -18,7 +14,14 @@ interface RelRow {
   alternatives: string;
 }
 
-type RelationType = 'primary' | 'variant' | 'complement' | 'alternative';
+type RelationType =
+  | 'primary'
+  | 'variant'
+  | 'use_with'
+  | 'use_before'
+  | 'use_after'
+  | 'accessories'
+  | 'alternatives';
 
 async function main() {
   console.log('[seed-relations] loading CSV...');
@@ -62,11 +65,11 @@ async function main() {
   }
 
   for (const r of rows) {
-    add(r.sku, r.use_before, 'complement');
-    add(r.sku, r.use_after, 'complement');
-    add(r.sku, r.use_with, 'complement');
-    add(r.sku, r.accessories, 'complement');
-    add(r.sku, r.alternatives, 'alternative');
+    add(r.sku, r.use_before, 'use_before');
+    add(r.sku, r.use_after, 'use_after');
+    add(r.sku, r.use_with, 'use_with');
+    add(r.sku, r.accessories, 'accessories');
+    add(r.sku, r.alternatives, 'alternatives');
   }
 
   console.log(
