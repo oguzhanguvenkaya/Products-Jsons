@@ -59,6 +59,10 @@ Botpress/*
 **/build/
 **/.DS_Store
 **/*.log
+
+# macOS iCloud/Dropbox sync duplicates (e.g. "foo 2.ts", "bar 2.csv")
+**/* 2.*
+**/* 2
 **/.turbo/
 
 # Temporary/inspection scripts (detailagent)
