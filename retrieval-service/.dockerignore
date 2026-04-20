@@ -1,0 +1,24 @@
+# Keep the image small + avoid leaking local-only files.
+
+node_modules
+.env
+.env.*
+!.env.example
+
+# Phase 1 data tooling is seed-only; it runs from a workstation,
+# not the running service.
+scripts
+migrations
+
+# VCS + editor noise
+.git
+.gitignore
+.DS_Store
+*.log
+.turbo
+dist
+build
+
+# macOS iCloud/Dropbox sync duplicates
+* 2.*
+* 2
