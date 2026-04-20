@@ -1,0 +1,116 @@
+<mxGraphModel adaptiveColors="auto">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- Title -->
+    <mxCell id="title" value="detailagent — Bot Mimarisi" style="text;html=1;fontSize=20;fontStyle=1;align=center;verticalAlign=middle;whiteSpace=wrap;" vertex="1" parent="1">
+      <mxGeometry x="250" y="10" width="500" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- USER -->
+    <mxCell id="user" value="Kullanici&lt;br&gt;(webchat / adk chat)" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="440" y="70" width="120" height="80" as="geometry"/>
+    </mxCell>
+
+    <!-- CONVERSATION HANDLER -->
+    <mxCell id="conv" value="Conversation Handler&lt;br&gt;&lt;i&gt;src/conversations/index.ts&lt;/i&gt;&lt;br&gt;&lt;br&gt;instructions (~620 satir)&lt;br&gt;temperature: 0.2&lt;br&gt;channel: *" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;verticalAlign=top;spacingTop=5;" vertex="1" parent="1">
+      <mxGeometry x="350" y="190" width="300" height="110" as="geometry"/>
+    </mxCell>
+
+    <!-- LLMz Runtime -->
+    <mxCell id="llmz" value="LLMz Runtime&lt;br&gt;&lt;i&gt;Autonomous Agent&lt;/i&gt;&lt;br&gt;Gemini 2.5 Flash" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="390" y="350" width="220" height="70" as="geometry"/>
+    </mxCell>
+
+    <!-- JSX Render -->
+    <mxCell id="jsx" value="JSX Render&lt;br&gt;&lt;i&gt;Carousel | Choice | Message&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="1">
+      <mxGeometry x="680" y="190" width="200" height="60" as="geometry"/>
+    </mxCell>
+
+    <!-- TOOLS Container -->
+    <mxCell id="tools_container" value="Autonomous Tools (6)" style="swimlane;startSize=30;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;fontStyle=1;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="340" width="310" height="350" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="t1" value="searchProducts&lt;br&gt;&lt;i&gt;semantic + filter + exactMatch&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="tools_container">
+      <mxGeometry x="15" y="40" width="275" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="t2" value="searchFaq&lt;br&gt;&lt;i&gt;2119 SSS semantic arama&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="tools_container">
+      <mxGeometry x="15" y="90" width="275" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="t3" value="getProductDetails&lt;br&gt;&lt;i&gt;4 tablo paralel JOIN&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="tools_container">
+      <mxGeometry x="15" y="140" width="275" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="t4" value="getApplicationGuide&lt;br&gt;&lt;i&gt;howToUse + whenToUse&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="tools_container">
+      <mxGeometry x="15" y="190" width="275" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="t5" value="searchByPriceRange&lt;br&gt;&lt;i&gt;fiyat + templateGroup filter&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="tools_container">
+      <mxGeometry x="15" y="240" width="275" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="t6" value="getRelatedProducts&lt;br&gt;&lt;i&gt;use_with / alternatives / accessories&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="tools_container">
+      <mxGeometry x="15" y="290" width="275" height="40" as="geometry"/>
+    </mxCell>
+
+    <!-- TABLES Container -->
+    <mxCell id="tables_container" value="Botpress Cloud Tables (7)" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="650" y="340" width="310" height="350" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db1" value="productSearchIndexTable&lt;br&gt;&lt;i&gt;622 satir | searchable: search_text&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=10;" vertex="1" parent="tables_container">
+      <mxGeometry x="15" y="35" width="275" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="db2" value="productsMasterTable&lt;br&gt;&lt;i&gt;622 satir | url, template_group, sub_type&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=10;" vertex="1" parent="tables_container">
+      <mxGeometry x="15" y="90" width="275" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="db3" value="productFaqTable&lt;br&gt;&lt;i&gt;2119 satir | question + answer&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=10;" vertex="1" parent="tables_container">
+      <mxGeometry x="15" y="145" width="275" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="db4" value="productContentTable&lt;br&gt;&lt;i&gt;622 satir | howToUse, fullDescription&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=10;" vertex="1" parent="tables_container">
+      <mxGeometry x="15" y="200" width="275" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="db5" value="productSpecsTable&lt;br&gt;&lt;i&gt;622 satir | specs_object (JSON)&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=10;" vertex="1" parent="tables_container">
+      <mxGeometry x="15" y="255" width="275" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="db6" value="productRelationsTable | productCategoriesTable&lt;br&gt;&lt;i&gt;622 + 75 satir&lt;/i&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;size=10;" vertex="1" parent="tables_container">
+      <mxGeometry x="15" y="310" width="275" height="30" as="geometry"/>
+    </mxCell>
+
+    <!-- EDGES -->
+    <mxCell id="e_user_conv" edge="1" parent="1" source="user" target="conv" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#333333;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_conv_llmz" edge="1" parent="1" source="conv" target="llmz" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#6c8ebf;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_llmz_tools" edge="1" parent="1" source="llmz" target="tools_container" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#b85450;" value="tool call">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_tools_tables" edge="1" parent="1" source="tools_container" target="tables_container" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#82b366;" value="findTableRows / upsertTableRows">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_llmz_jsx" edge="1" parent="1" source="llmz" target="jsx" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#9673a6;" value="yield JSX">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_jsx_user" edge="1" parent="1" source="jsx" target="user" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#9673a6;" value="Card / Carousel / Choice">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool to specific table mapping (dashed) -->
+    <mxCell id="e_t1_db1" edge="1" parent="1" source="t1" target="db1" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#999999;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" value="">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_t2_db3" edge="1" parent="1" source="t2" target="db3" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#999999;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_t3_db2" edge="1" parent="1" source="t3" target="db2" style="edgeStyle=orthogonalEdgeStyle;dashed=1;strokeColor=#999999;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- Legend -->
+    <mxCell id="legend" value="&lt;b&gt;Renk kodlari:&lt;/b&gt;&lt;br&gt;Mavi = Conversation / LLM&lt;br&gt;Kirmizi = Tools&lt;br&gt;Yesil = Tablolar&lt;br&gt;Mor = JSX Render" style="text;html=1;fontSize=10;align=left;verticalAlign=top;whiteSpace=wrap;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="70" width="180" height="90" as="geometry"/>
+    </mxCell>
+
+  </root>
+</mxGraphModel>

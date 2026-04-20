@@ -1,0 +1,300 @@
+<mxGraphModel adaptiveColors="auto">
+  <root>
+    <mxCell id="0"/>
+    <mxCell id="1" parent="0"/>
+
+    <!-- ================================================================== -->
+    <!-- TITLE -->
+    <!-- ================================================================== -->
+    <mxCell id="title" value="detailagent — System Blueprint &amp; Capability Map" style="text;html=1;fontSize=18;fontStyle=1;align=center;" vertex="1" parent="1">
+      <mxGeometry x="150" y="5" width="900" height="25" as="geometry"/>
+    </mxCell>
+    <mxCell id="subtitle" value="Her componentin ne yaptigini, hangi veriyi kullandigini ve birbirine nasil baglandigini gosterir.&lt;br&gt;Amac: Onboarding, debugging, architecture review." style="text;html=1;fontSize=9;fontStyle=2;align=center;fillColor=none;" vertex="1" parent="1">
+      <mxGeometry x="200" y="30" width="800" height="25" as="geometry"/>
+    </mxCell>
+
+    <!-- ================================================================== -->
+    <!-- LAYER 1: USER + LLM RUNTIME (top) -->
+    <!-- ================================================================== -->
+    <mxCell id="user_icon" value="Kullanici" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=10;fontStyle=1;" vertex="1" parent="1">
+      <mxGeometry x="30" y="65" width="60" height="55" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="runtime_box" value="LLMz Autonomous Runtime" style="swimlane;startSize=22;fillColor=#FFF9C4;strokeColor=#F9A825;fontSize=11;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="120" y="60" width="360" height="75" as="geometry"/>
+    </mxCell>
+    <mxCell id="rt_model" value="Model: Gemini 2.5 Flash | Temp: 0.2 | Max iter: 5" style="text;fontSize=8;fillColor=none;" vertex="1" parent="runtime_box">
+      <mxGeometry x="5" y="25" width="350" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="rt_desc" value="LLM TypeScript kodu uretir → sandbox calistirir → tool cagirir → JSX yield eder" style="text;fontSize=8;fontStyle=2;fillColor=none;" vertex="1" parent="runtime_box">
+      <mxGeometry x="5" y="42" width="350" height="15" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="jsx_box" value="JSX Components" style="swimlane;startSize=20;fillColor=#E1BEE7;strokeColor=#8E24AA;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="520" y="60" width="220" height="75" as="geometry"/>
+    </mxCell>
+    <mxCell id="jsx_list" value="Carousel items=[{title,subtitle,imageUrl,actions}]&lt;br&gt;Choice text=&quot;...&quot; options=[{label,value}]&lt;br&gt;Message (text wrapper)" style="text;fontSize=8;fillColor=none;align=left;spacingLeft=5;" vertex="1" parent="jsx_box">
+      <mxGeometry x="5" y="22" width="210" height="45" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="channel_box" value="Kanallar&lt;br&gt;webchat | adk chat" style="rounded=1;fillColor=#E8EAF6;strokeColor=#3F51B5;fontSize=9;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+      <mxGeometry x="780" y="70" width="100" height="45" as="geometry"/>
+    </mxCell>
+
+    <!-- Top row edges -->
+    <mxCell id="e_user_rt" edge="1" parent="1" source="user_icon" target="runtime_box" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#1565C0;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_rt_jsx" edge="1" parent="1" source="runtime_box" target="jsx_box" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#8E24AA;" value="yield">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_jsx_ch" edge="1" parent="1" source="jsx_box" target="channel_box" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#3F51B5;" value="render">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- ================================================================== -->
+    <!-- LAYER 2: SYSTEM PROMPT (center, large) -->
+    <!-- ================================================================== -->
+    <mxCell id="prompt_box" value="System Prompt (Instructions)" style="swimlane;startSize=25;fillColor=#E3F2FD;strokeColor=#1565C0;fontSize=12;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="30" y="155" width="850" height="175" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="p_meta" value="~620 satir | ~30K karakter | ~8K token | Her mesajda gonderilir" style="text;fontSize=8;fontStyle=2;fillColor=none;" vertex="1" parent="prompt_box">
+      <mxGeometry x="5" y="27" width="400" height="12" as="geometry"/>
+    </mxCell>
+
+    <!-- Prompt sections as cards -->
+    <mxCell id="ps1" value="&lt;b&gt;Rol &amp; Kapsam&lt;/b&gt;&lt;br&gt;MTS Kimya urun&lt;br&gt;danismani.&lt;br&gt;Siparis/kargo&lt;br&gt;kapsam disi." style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="5" y="42" width="95" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps2" value="&lt;b&gt;6 Tool Tanimi&lt;/b&gt;&lt;br&gt;Her tool icin:&lt;br&gt;- Ne zaman kullan&lt;br&gt;- Parametre kurallari&lt;br&gt;- Ornek cagrilar&lt;br&gt;- Keyword mapping" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="108" y="42" width="115" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps3" value="&lt;b&gt;Karar Tablosu&lt;/b&gt;&lt;br&gt;20+ soru tipi&lt;br&gt;→ dogru tool akisi&lt;br&gt;&lt;br&gt;&lt;i&gt;&quot;pH notr sampuan&quot;&lt;br&gt;→ car_shampoo +&lt;br&gt;ph_neutral_shampoo&lt;/i&gt;" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="231" y="42" width="120" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps4" value="&lt;b&gt;Clarifying Q&lt;/b&gt;&lt;br&gt;Genel sorularda&lt;br&gt;Choice ile sor:&lt;br&gt;mikrofiber, sampuan&lt;br&gt;pasta icin 3 pattern" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="359" y="42" width="105" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps5" value="&lt;b&gt;JSX Contract&lt;/b&gt;&lt;br&gt;Carousel items=[]&lt;br&gt;Choice options=[]&lt;br&gt;Card KULLANMA&lt;br&gt;Button YOK&lt;br&gt;URL non-empty" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="472" y="42" width="100" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps6" value="&lt;b&gt;Tool Cagri Kurallari&lt;/b&gt;&lt;br&gt;Max 5 call/turn&lt;br&gt;exactMatch zorunlu&lt;br&gt;(spesifik model)&lt;br&gt;Duplicate yasak&lt;br&gt;think KULLANMA" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="580" y="42" width="110" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps7" value="&lt;b&gt;Yanit Kurallari&lt;/b&gt;&lt;br&gt;Fiyat: TL formati&lt;br&gt;Max 4-5 paragraf&lt;br&gt;Halusination yok&lt;br&gt;Kapsam disi red&lt;br&gt;URL null fallback" style="rounded=1;fillColor=#BBDEFB;strokeColor=#1565C0;fontSize=8;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="prompt_box">
+      <mxGeometry x="698" y="42" width="105" height="75" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="ps_note" value="Her LLM call'da tam prompt gonderilir (~17K input token). Prompt caching AKTIF DEGIL. Token maliyeti dogrudan prompt boyutuna bagimli." style="text;fontSize=8;fontStyle=2;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;spacingLeft=5;spacingRight=5;" vertex="1" parent="prompt_box">
+      <mxGeometry x="5" y="130" width="600" height="20" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="e_rt_prompt" edge="1" parent="1" source="runtime_box" target="prompt_box" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=2;strokeColor=#1565C0;dashed=1;" value="instructions yukle">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+
+    <!-- ================================================================== -->
+    <!-- LAYER 3: 6 TOOLS (detail cards) -->
+    <!-- ================================================================== -->
+    <mxCell id="tools_title" value="6 Autonomous Tool — Her birinin kendi Zod schema, description ve handler'i var" style="text;html=1;fontSize=10;fontStyle=5;align=left;fillColor=#FFEBEE;strokeColor=#C62828;rounded=1;spacingLeft=5;" vertex="1" parent="1">
+      <mxGeometry x="30" y="350" width="520" height="18" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool 1: searchProducts (largest, most complex) -->
+    <mxCell id="tool1" value="searchProducts" style="swimlane;startSize=20;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="30" y="375" width="280" height="220" as="geometry"/>
+    </mxCell>
+    <mxCell id="t1_desc" value="&lt;b&gt;Amac:&lt;/b&gt; 622 urunde hibrit arama (semantic + filter + post-filter)" style="text;fontSize=8;fillColor=none;whiteSpace=wrap;" vertex="1" parent="tool1">
+      <mxGeometry x="5" y="22" width="270" height="18" as="geometry"/>
+    </mxCell>
+    <mxCell id="t1_in" value="&lt;b&gt;INPUT:&lt;/b&gt;&lt;br&gt;query (dogal dil, zorunlu)&lt;br&gt;templateGroup (25 enum)&lt;br&gt;templateSubType (157 string)&lt;br&gt;brand (tam eslesme)&lt;br&gt;exactMatch (substring)&lt;br&gt;limit (default 5)" style="text;fontSize=8;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="tool1">
+      <mxGeometry x="5" y="42" width="130" height="95" as="geometry"/>
+    </mxCell>
+    <mxCell id="t1_out" value="&lt;b&gt;OUTPUT:&lt;/b&gt;&lt;br&gt;results[]: sku, productName&lt;br&gt;brand, price, imageUrl, url&lt;br&gt;templateGroup, subType&lt;br&gt;targetSurface, snippet&lt;br&gt;similarity (0-1)" style="text;fontSize=8;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="tool1">
+      <mxGeometry x="140" y="42" width="135" height="95" as="geometry"/>
+    </mxCell>
+    <mxCell id="t1_cap" value="&lt;b&gt;Ozellikler:&lt;/b&gt;&lt;br&gt;- 3 asamali retrieval (pre + semantic + post)&lt;br&gt;- Bosluk normalize exactMatch&lt;br&gt;- Keyword tuzak mapping (tool desc)&lt;br&gt;- Tablo: &lt;b&gt;productSearchIndexTable&lt;/b&gt;" style="text;fontSize=8;fillColor=#FCE4EC;strokeColor=#C62828;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;dashed=1;" vertex="1" parent="tool1">
+      <mxGeometry x="5" y="145" width="270" height="65" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool 2: searchFaq -->
+    <mxCell id="tool2" value="searchFaq" style="swimlane;startSize=20;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="320" y="375" width="200" height="145" as="geometry"/>
+    </mxCell>
+    <mxCell id="t2_desc" value="&lt;b&gt;Amac:&lt;/b&gt; 2119 SSS uzerinde semantic arama" style="text;fontSize=8;fillColor=none;whiteSpace=wrap;" vertex="1" parent="tool2">
+      <mxGeometry x="5" y="22" width="190" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="t2_in" value="&lt;b&gt;IN:&lt;/b&gt; query, limit" style="text;fontSize=8;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;" vertex="1" parent="tool2">
+      <mxGeometry x="5" y="40" width="90" height="18" as="geometry"/>
+    </mxCell>
+    <mxCell id="t2_out" value="&lt;b&gt;OUT:&lt;/b&gt; sku, question, answer, sim" style="text;fontSize=8;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;" vertex="1" parent="tool2">
+      <mxGeometry x="5" y="62" width="190" height="18" as="geometry"/>
+    </mxCell>
+    <mxCell id="t2_cap" value="Kullanim: &quot;islak mi kuru mu&quot;, &quot;silikon icerir mi&quot;&lt;br&gt;Tablo: &lt;b&gt;productFaqTable&lt;/b&gt;&lt;br&gt;NOT: Teknik spec icin DEGiL (getProductDetails)" style="text;fontSize=8;fillColor=#FCE4EC;strokeColor=#C62828;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;dashed=1;" vertex="1" parent="tool2">
+      <mxGeometry x="5" y="85" width="190" height="50" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool 3: getProductDetails -->
+    <mxCell id="tool3" value="getProductDetails" style="swimlane;startSize=20;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="530" y="375" width="200" height="145" as="geometry"/>
+    </mxCell>
+    <mxCell id="t3_desc" value="&lt;b&gt;Amac:&lt;/b&gt; Tek SKU icin 4 tablo paralel JOIN" style="text;fontSize=8;fillColor=none;whiteSpace=wrap;" vertex="1" parent="tool3">
+      <mxGeometry x="5" y="22" width="190" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="t3_in" value="&lt;b&gt;IN:&lt;/b&gt; sku (zorunlu)" style="text;fontSize=8;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;" vertex="1" parent="tool3">
+      <mxGeometry x="5" y="40" width="100" height="18" as="geometry"/>
+    </mxCell>
+    <mxCell id="t3_out" value="&lt;b&gt;OUT:&lt;/b&gt; tum bilgi: ad, fiyat, url,&lt;br&gt;specs (JSON), FAQs, howToUse" style="text;fontSize=8;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="tool3">
+      <mxGeometry x="5" y="62" width="190" height="28" as="geometry"/>
+    </mxCell>
+    <mxCell id="t3_cap" value="4 tablo: &lt;b&gt;master + specs + faq + content&lt;/b&gt;&lt;br&gt;Promise.all paralel | Karsilastirma icin 2x cagir&lt;br&gt;Teknik spec sorusu (dayaniklilik, pH) → BU tool" style="text;fontSize=8;fillColor=#FCE4EC;strokeColor=#C62828;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;dashed=1;" vertex="1" parent="tool3">
+      <mxGeometry x="5" y="95" width="190" height="45" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool 4: getApplicationGuide -->
+    <mxCell id="tool4" value="getApplicationGuide" style="swimlane;startSize=20;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="740" y="375" width="200" height="145" as="geometry"/>
+    </mxCell>
+    <mxCell id="t4_desc" value="&lt;b&gt;Amac:&lt;/b&gt; Uygulama rehberi (adim adim)" style="text;fontSize=8;fillColor=none;whiteSpace=wrap;" vertex="1" parent="tool4">
+      <mxGeometry x="5" y="22" width="190" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="t4_in" value="&lt;b&gt;IN:&lt;/b&gt; sku" style="text;fontSize=8;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;" vertex="1" parent="tool4">
+      <mxGeometry x="5" y="40" width="55" height="18" as="geometry"/>
+    </mxCell>
+    <mxCell id="t4_out" value="&lt;b&gt;OUT:&lt;/b&gt; howToUse, whenToUse,&lt;br&gt;whyThisProduct, fullDescription" style="text;fontSize=8;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="tool4">
+      <mxGeometry x="5" y="62" width="190" height="28" as="geometry"/>
+    </mxCell>
+    <mxCell id="t4_cap" value="2 tablo: &lt;b&gt;content + master&lt;/b&gt; (paralel join)&lt;br&gt;&quot;Nasil uygulanir&quot;, &quot;kac adim&quot; sorulari icin&lt;br&gt;getProductDetails'in HAFIF versiyonu" style="text;fontSize=8;fillColor=#FCE4EC;strokeColor=#C62828;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;dashed=1;" vertex="1" parent="tool4">
+      <mxGeometry x="5" y="95" width="190" height="45" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool 5: searchByPriceRange -->
+    <mxCell id="tool5" value="searchByPriceRange" style="swimlane;startSize=20;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="30" y="610" width="230" height="130" as="geometry"/>
+    </mxCell>
+    <mxCell id="t5_desc" value="&lt;b&gt;Amac:&lt;/b&gt; Fiyat aralikli filter (vector search YAPAMAZ)" style="text;fontSize=8;fillColor=none;whiteSpace=wrap;" vertex="1" parent="tool5">
+      <mxGeometry x="5" y="22" width="220" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="t5_in" value="&lt;b&gt;IN:&lt;/b&gt; minPrice, maxPrice,&lt;br&gt;templateGroup, brand, limit" style="text;fontSize=8;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="tool5">
+      <mxGeometry x="5" y="40" width="110" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="t5_out" value="&lt;b&gt;OUT:&lt;/b&gt; products[]&lt;br&gt;fiyata gore artan" style="text;fontSize=8;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tool5">
+      <mxGeometry x="120" y="40" width="105" height="35" as="geometry"/>
+    </mxCell>
+    <mxCell id="t5_cap" value="Tablo: &lt;b&gt;productsMasterTable&lt;/b&gt; (orderBy:price)&lt;br&gt;templateGroup (enum value, Turkce DEGIL!)" style="text;fontSize=8;fillColor=#FCE4EC;strokeColor=#C62828;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;dashed=1;" vertex="1" parent="tool5">
+      <mxGeometry x="5" y="82" width="220" height="35" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool 6: getRelatedProducts -->
+    <mxCell id="tool6" value="getRelatedProducts" style="swimlane;startSize=20;fillColor=#FFCDD2;strokeColor=#C62828;fontSize=10;fontStyle=1;rounded=1;swimlaneLine=0;" vertex="1" parent="1">
+      <mxGeometry x="275" y="610" width="230" height="130" as="geometry"/>
+    </mxCell>
+    <mxCell id="t6_desc" value="&lt;b&gt;Amac:&lt;/b&gt; Iliskili urunler (cross-sell, workflow)" style="text;fontSize=8;fillColor=none;whiteSpace=wrap;" vertex="1" parent="tool6">
+      <mxGeometry x="5" y="22" width="220" height="15" as="geometry"/>
+    </mxCell>
+    <mxCell id="t6_in" value="&lt;b&gt;IN:&lt;/b&gt; sku, relationType&lt;br&gt;(use_with | alternatives&lt;br&gt;| use_before | use_after&lt;br&gt;| accessories)" style="text;fontSize=8;fillColor=#FFF9C4;strokeColor=#F9A825;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;" vertex="1" parent="tool6">
+      <mxGeometry x="5" y="40" width="120" height="55" as="geometry"/>
+    </mxCell>
+    <mxCell id="t6_out" value="&lt;b&gt;OUT:&lt;/b&gt; products[]&lt;br&gt;(virgul-ayirimli&lt;br&gt;SKU parse)" style="text;fontSize=8;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="tool6">
+      <mxGeometry x="130" y="40" width="95" height="40" as="geometry"/>
+    </mxCell>
+    <mxCell id="t6_cap" value="2 tablo: &lt;b&gt;relations → master&lt;/b&gt; ($in join)&lt;br&gt;&quot;birlikte ne kullanilir&quot;, &quot;alternatifi&quot;" style="text;fontSize=8;fillColor=#FCE4EC;strokeColor=#C62828;rounded=1;whiteSpace=wrap;html=1;align=left;spacingLeft=4;dashed=1;" vertex="1" parent="tool6">
+      <mxGeometry x="5" y="98" width="220" height="25" as="geometry"/>
+    </mxCell>
+
+
+    <!-- ================================================================== -->
+    <!-- LAYER 4: TABLES (right side) -->
+    <!-- ================================================================== -->
+    <mxCell id="tables_title" value="7 Botpress Cloud Table — Toplam 5304 satir" style="text;html=1;fontSize=10;fontStyle=5;align=left;fillColor=#E8F5E9;strokeColor=#43A047;rounded=1;spacingLeft=5;" vertex="1" parent="1">
+      <mxGeometry x="560" y="540" width="320" height="18" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_search" value="&lt;b&gt;productSearchIndexTable&lt;/b&gt; (622)&lt;br&gt;&lt;i&gt;searchable: sku, search_text&lt;/i&gt;&lt;br&gt;Kolonlar: product_name, brand, price&lt;br&gt;image_url, url, sub_cat, template_group&lt;br&gt;template_sub_type, target_surface" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;size=8;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="560" y="565" width="230" height="80" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_master" value="&lt;b&gt;productsMasterTable&lt;/b&gt; (622)&lt;br&gt;Canonical: sku, barcode, product_name&lt;br&gt;brand, price, image_url, url, main_cat&lt;br&gt;sub_cat, template_group, sub_type" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;size=8;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="800" y="565" width="220" height="72" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_faq" value="&lt;b&gt;productFaqTable&lt;/b&gt; (2119)&lt;br&gt;searchable: question, answer" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;size=8;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="560" y="655" width="170" height="45" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_content" value="&lt;b&gt;productContentTable&lt;/b&gt; (622)&lt;br&gt;howToUse, whenToUse, whyThisProduct" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;size=8;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="740" y="655" width="190" height="45" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_specs" value="&lt;b&gt;productSpecsTable&lt;/b&gt; (622)&lt;br&gt;specs_object (JSON)" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;size=8;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="560" y="710" width="145" height="40" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_rel" value="&lt;b&gt;productRelationsTable&lt;/b&gt; (622)&lt;br&gt;use_with, alternatives (CSV SKU)" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#C8E6C9;strokeColor=#2E7D32;fontSize=8;size=8;align=left;spacingLeft=8;" vertex="1" parent="1">
+      <mxGeometry x="715" y="710" width="180" height="40" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="db_cat" value="&lt;b&gt;productCategoriesTable&lt;/b&gt; (75) [pasif]" style="shape=cylinder3;whiteSpace=wrap;html=1;fillColor=#E8F5E9;strokeColor=#A5D6A7;fontSize=8;size=8;dashed=1;" vertex="1" parent="1">
+      <mxGeometry x="905" y="715" width="120" height="35" as="geometry"/>
+    </mxCell>
+
+    <!-- Tool → Table edges (dashed, labeled) -->
+    <mxCell id="e_t1_db" edge="1" parent="1" source="tool1" target="db_search" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#43A047;dashed=1;" value="vector search">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_t2_db" edge="1" parent="1" source="tool2" target="db_faq" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#43A047;dashed=1;" value="semantic Q&amp;A">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_t3_db" edge="1" parent="1" source="tool3" target="db_master" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#43A047;dashed=1;" value="4 tablo JOIN">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_t5_db" edge="1" parent="1" source="tool5" target="db_master" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#43A047;dashed=1;" value="price filter">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_t6_db" edge="1" parent="1" source="tool6" target="db_rel" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#43A047;dashed=1;" value="relations">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+    <!-- ================================================================== -->
+    <!-- LAYER 5: DATA PIPELINE (bottom) -->
+    <!-- ================================================================== -->
+    <mxCell id="pipe_title" value="Veri Pipeline (offline)" style="text;html=1;fontSize=10;fontStyle=5;align=left;fillColor=#FFF3E0;strokeColor=#E65100;rounded=1;spacingLeft=5;" vertex="1" parent="1">
+      <mxGeometry x="30" y="760" width="180" height="18" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="pipe1" value="Products_with_barcode.csv&lt;br&gt;&lt;i&gt;623 urun, URL kaynak&lt;/i&gt;" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=8;size=10;" vertex="1" parent="1">
+      <mxGeometry x="30" y="785" width="130" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="pipe2" value="refresh_data.py&lt;br&gt;&lt;i&gt;URL backfill +&lt;br&gt;enrichment&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=8;" vertex="1" parent="1">
+      <mxGeometry x="190" y="785" width="95" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="pipe3" value="output/csv/*.csv&lt;br&gt;&lt;i&gt;7 CSV dosyasi&lt;/i&gt;" style="shape=document;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=8;size=10;" vertex="1" parent="1">
+      <mxGeometry x="315" y="785" width="100" height="45" as="geometry"/>
+    </mxCell>
+    <mxCell id="pipe4" value="seed.ts&lt;br&gt;&lt;i&gt;batch upload&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF3E0;strokeColor=#E65100;fontSize=8;" vertex="1" parent="1">
+      <mxGeometry x="445" y="785" width="75" height="45" as="geometry"/>
+    </mxCell>
+
+    <mxCell id="e_p1" edge="1" parent="1" source="pipe1" target="pipe2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#E65100;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_p2" edge="1" parent="1" source="pipe2" target="pipe3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#E65100;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_p3" edge="1" parent="1" source="pipe3" target="pipe4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#E65100;">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+    <mxCell id="e_p4_cloud" edge="1" parent="1" source="pipe4" target="db_search" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeWidth=1;strokeColor=#E65100;dashed=1;" value="createTableRows">
+      <mxGeometry relative="1" as="geometry"/>
+    </mxCell>
+
+  </root>
+</mxGraphModel>

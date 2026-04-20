@@ -1,0 +1,33 @@
+{
+  "name": "detailagent-retrieval",
+  "version": "0.1.0",
+  "description": "Retrieval microservice for MTS Kimya detailagent bot — hybrid search over Supabase + pgvector + Turkish FTS",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "start": "bun src/server.ts",
+    "typecheck": "tsc --noEmit",
+    "seed:all": "bun scripts/seed-all.ts",
+    "seed:products": "bun scripts/seed-products.ts",
+    "seed:faqs": "bun scripts/seed-faqs.ts",
+    "seed:synonyms": "bun scripts/seed-synonyms.ts",
+    "seed:relations": "bun scripts/seed-relations.ts",
+    "seed:meta": "bun scripts/seed-meta.ts",
+    "embed:products": "bun scripts/embed-products.ts",
+    "embed:faqs": "bun scripts/embed-faqs.ts"
+  },
+  "dependencies": {
+    "@google/genai": "^1.30.0",
+    "@hono/node-server": "^1.17.1",
+    "hono": "^4.9.13",
+    "lru-cache": "^11.2.2",
+    "postgres": "^3.4.7",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.3.0",
+    "csv-parse": "^6.2.1",
+    "typescript": "^5.9.3"
+  }
+}

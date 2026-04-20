@@ -1,0 +1,25 @@
+{
+  "shop_names_detected": {
+    "gyeon": "GYEON Türkiye",
+    "menzerna": "Menzerna Türkiye",
+    "mgpolish": "MG Polishing Car Care"
+  },
+  "gyeon": {
+    "conversations": 1416,
+    "unanswered": 186,
+    "media_only": 247,
+    "total_turns": 12789
+  },
+  "menzerna": {
+    "conversations": 1422,
+    "unanswered": 258,
+    "media_only": 344,
+    "total_turns": 10528
+  },
+  "mgpolish": {
+    "conversations": 556,
+    "unanswered": 75,
+    "media_only": 123,
+    "total_turns": 3205
+  }
+}

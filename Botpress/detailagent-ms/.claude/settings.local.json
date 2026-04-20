@@ -1,0 +1,33 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__adk__adk_query_traces",
+      "Bash(python3 -c ':*)",
+      "Bash(grep:*)",
+      "Bash(pip3 list:*)",
+      "Bash(python3:*)",
+      "Bash(pip3 install:*)",
+      "Bash(claude --version)",
+      "Bash(ps -p 97374 -o etime=)",
+      "Bash(echo \"still running... $\\(ps -p 97374 -o etime= 2>/dev/null || echo 'process ended'\\)\")",
+      "Bash(claude -p --output-format text)",
+      "Bash(ls /tmp/claude-*.txt)",
+      "Bash(ls /tmp/*.tmp)",
+      "WebFetch(domain:en.innovacar.it)",
+      "WebFetch(domain:gyeon.zendesk.com)",
+      "Bash(bun run *)",
+      "Bash(bun -e \"const j=require\\('./docs/gyeon-faqs.json'\\); const c=j.categories[1]; console.log\\('cat:', c.name, 'articles:', c.articles.length\\); console.log\\(JSON.stringify\\(c.articles[0], null, 2\\).slice\\(0,800\\)\\)\")",
+      "Bash(awk -F',' 'tolower\\($4\\) ~ /innova/' \"/Users/projectx/Desktop/Claude Code Projects/Products Jsons/output/csv/products_master.csv\")",
+      "Bash(awk *)",
+      "Bash(bun -e ' *)",
+      "Bash(head -1 output/csv/product_content.csv)",
+      "Bash(ls output/csv/product_content.csv output/csv/product_search_index.csv)",
+      "Bash(cp /tmp/verify-gyeon.ts scripts/_verify-gyeon-tmp.ts)",
+      "Bash(adk run *)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "adk"
+  ]
+}

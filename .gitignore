@@ -1,16 +1,73 @@
 # ═══════════════════════════════════════════════════════════════
-# Sadece Botpress/detailagent/ içeriği tracked
-# Geri kalan her şey ignore edilir
+# Monorepo track kapsamı:
+#   - Botpress/detailagent/        (v9.2 frozen, prod bot)
+#   - Botpress/detailagent-ms/     (v10 microservice-ready bot)
+#   - retrieval-service/           (Fly.io microservice)
+#   - docs/                        (ortak referans dokümanlar)
+#   - data/csv/                    (seed kaynağı — botlar ve microservice ortak tüketir)
+#   - etl/                         (refresh_data.py)
+#   - assets/                      (manuel URL + barcode CSV)
+#   - .mcp.json                    (Claude Code MCP config)
+#
+# Açıkça ignore:
+#   - archive/                     (eski çalışmalar, 600MB+)
+#   - node_modules/                (her yerde)
+#   - .env, secrets                (her yerde)
+#   - .adk/, .botpress/            (ADK runtime artifact)
+#   - Product Groups/              (eski path ismi)
+#   - Scripts/                     (eski path ismi, şimdi etl/)
+#   - output/                      (eski path ismi, şimdi data/)
 # ═══════════════════════════════════════════════════════════════
 
-# Her şeyi ignore et
+# Default: ignore root-level entries, whitelist aşağıda
 /*
 
-# Ama bu dosyayı tut
+# Tracked root files
 !.gitignore
+!.mcp.json.example
+!README.md
 
-# detailagent dizinini whitelist (nested unignore)
+# .mcp.json local-only (contains project refs / tokens per developer)
+.mcp.json
+
+# Whitelisted top-level dirs
 !Botpress/
+!retrieval-service/
+!data/
+!etl/
+!assets/
+!docs/
+
+# Botpress: only detailagent + detailagent-ms
 Botpress/*
 !Botpress/detailagent/
 !Botpress/detailagent/**
+!Botpress/detailagent-ms/
+!Botpress/detailagent-ms/**
+
+# Global exclusions (every subdir)
+**/node_modules/
+**/.adk/
+**/.botpress/
+**/.env
+**/.env.*
+!**/.env.example
+**/bun.lock
+**/package-lock.json
+**/yarn.lock
+**/dist/
+**/build/
+**/.DS_Store
+**/*.log
+**/.turbo/
+
+# Temporary/inspection scripts (detailagent)
+Botpress/detailagent/scripts/_tmp_*
+
+# Runtime artifacts
+**/traces*.db
+**/traces*.json
+**/.adk/bot/traces/
+
+# Local secrets (used only for production secret ops)
+.local-secrets/
