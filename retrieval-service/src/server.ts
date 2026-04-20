@@ -6,6 +6,7 @@ import { errorHandler } from './middleware/error.ts';
 import { productsRoutes } from './routes/products.ts';
 import { searchPriceRoutes } from './routes/search-price.ts';
 import { searchRatingRoutes } from './routes/search-rating.ts';
+import { searchRoutes } from './routes/search.ts';
 
 type AppVariables = {
   requestId: string;
@@ -41,6 +42,7 @@ app.get('/health', (c) =>
 app.route('/', productsRoutes);
 app.route('/', searchPriceRoutes);
 app.route('/', searchRatingRoutes);
+app.route('/', searchRoutes);
 
 const port = env.PORT;
 console.log(
