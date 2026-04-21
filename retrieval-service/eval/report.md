@@ -55,3 +55,44 @@ Annotation: category-level (brand=33, template_group=125, sku=4).
 ## Wins (hybrid any@5 hit → pure_vector miss)
 
 - `manual-031` cam buğu önleyici
+
+## Step 3.10 / 3.11 Decision — Deploy First, Tune with Real Traffic
+
+The 151-query corpus is ceiling-bound at 98.5% any_hit@5 under
+pure_vector, so aggressive offline tuning would be optimizing
+noise. The hybrid pipeline ships with its default parameters:
+
+- RRF k = 60 (TREC standard)
+- BM25 OR-tsquery (`a | b | c`) so synonym-expanded queries don't
+  degrade to zero matches under default AND semantics
+- Candidate pool per leg = 50, rerank pool = limit × 4 (default 20)
+- Business boosts: rating coef 0.08, in_stock 1.05, featured 1.10
+  — effectively neutral today because catalog rating is NULL and
+  is_featured is all FALSE, but the code path is ready for data
+
+Phase 5 (shadow mode) will replay both modes on live bot traffic
+and surface the real failure modes. Separately, a data-enrichment
+workstream will tighten `search_text` and grow the synonym set —
+those changes move the baseline for BOTH modes, which makes
+offline parameter tuning meaningful again.
+
+## Production Deploy — 2026-04-21
+
+- `flyctl deploy --app detailagent-retrieval --strategy rolling`
+- 2 machines on version 2, iad region, 1/1 checks passing
+- Cold response (fresh image): hybrid 1039ms, pure_vector 83ms
+  (warm cache retained from prior deployment)
+- Warm p50 (10x): hybrid 380ms, pure_vector 317ms
+  → ~60ms hybrid overhead for the second parallel SQL query
+- `?mode=pure_vector` reachable (A/B + shadow mode input)
+- Slot extraction verified live: `{brand: GYEON, priceMax: 1000}`
+  applied to both BM25 and vector filter sets, candidate pool
+  correctly narrowed (50 → 40)
+- Auth negative still returns 401
+
+## Next steps (out of Phase 3)
+
+1. Phase 4 — Bot tool cutover (detailagent-ms handlers → HTTP)
+2. Phase 5 — Shadow mode + real-traffic eval replay
+3. Data-enrichment workstream (search_text expansion, synonym
+   growth 38 → ~100 entries, product-level FAQ review)
