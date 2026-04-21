@@ -1,4 +1,5 @@
-import { Autonomous, z, client } from '@botpress/runtime';
+import { Autonomous, z } from '@botpress/runtime';
+import { retrievalClient } from '../lib/retrieval-client.ts';
 
 /**
  * searchByPriceRange — Yapılandırılmış fiyat filtresiyle ürün arama.
@@ -84,72 +85,12 @@ export const searchByPriceRange = new Autonomous.Tool({
     totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
   }),
   async handler({ minPrice, maxPrice, templateGroup, brand, limit }) {
-    const filter: Record<string, unknown> = {};
-
-    if (minPrice !== undefined || maxPrice !== undefined) {
-      const priceFilter: Record<string, number> = {};
-      if (minPrice !== undefined) priceFilter.$gte = minPrice;
-      if (maxPrice !== undefined) priceFilter.$lte = maxPrice;
-      filter.price = priceFilter;
-    }
-
-    if (brand) {
-      filter.brand = { $eq: brand };
-    }
-
-    // v6.2: $or + $regex kombinasyonu Botpress API'de kırık ('Unrecognized key c_5').
-    // Artık template_group üzerinde $eq filter kullanıyoruz. 25 custom kategori
-    // değeri kesin eşleşme sağlar.
-    if (templateGroup) {
-      filter.template_group = { $eq: templateGroup };
-    }
-
-    const res = await client.findTableRows({
-      table: 'productsMasterTable',
-      filter,
-      orderBy: 'price',
-      orderDirection: 'asc',
+    return await retrievalClient.searchPrice({
+      minPrice: minPrice ?? null,
+      maxPrice: maxPrice ?? null,
+      templateGroup: templateGroup ?? null,
+      brand: brand ?? null,
       limit,
     });
-
-    // v7.0: UI-ready output
-    const rows = res.rows;
-    const hasRenderableUrl = (r: Record<string, unknown>): boolean => {
-      const url = typeof r.url === 'string' ? r.url.trim() : '';
-      return url.startsWith('http://') || url.startsWith('https://');
-    };
-
-    return {
-      carouselItems: rows
-        .filter(hasRenderableUrl)
-        .slice(0, 10) // revize_4: carousel max 10 item
-        .map((r) => ({
-          title: r.product_name as string,
-          subtitle: `${r.brand as string} \u2022 ${(r.price as number).toLocaleString('tr-TR')} TL`,
-          imageUrl: (r.image_url as string) || undefined,
-          actions: [
-            { action: 'url' as const, label: 'Ürün Sayfasına Git', value: (r.url as string).trim() },
-          ],
-        })),
-
-      textFallbackLines: rows
-        .filter((r) => !hasRenderableUrl(r))
-        .map((r) => ({
-          productName: r.product_name as string,
-          brand: r.brand as string,
-          price: r.price as number,
-          sku: r.sku as string,
-        })),
-
-      productSummaries: rows.map((r) => ({
-        sku: r.sku as string,
-        name: r.product_name as string,
-        brand: r.brand as string,
-        price: r.price as number,
-        templateGroup: r.template_group as string,
-      })),
-
-      totalReturned: rows.length,
-    };
   },
 });

@@ -1,4 +1,5 @@
-import { Autonomous, z, client } from '@botpress/runtime';
+import { Autonomous, z } from '@botpress/runtime';
+import { retrievalClient } from '../lib/retrieval-client.ts';
 
 /**
  * searchFaq — Ürün başına SSS (2,119 kayıt) üzerinde semantic arama.
@@ -75,65 +76,15 @@ export const searchFaq = new Autonomous.Tool({
       ),
   }),
   async handler({ query, sku, limit }) {
-    // v9.2: SKU provided → tüm FAQ'ları döndür (semantic ranking'i bypass et).
-    // Kullanıcı'nın önerisi: "ürünün TÜM FAQ'larını getir, LLM içinden seçsin".
-    // Semantic top-N kurnazca yanlış FAQ'ı seçebiliyor ("iki kat" vs "açık havada" gibi).
-    if (sku) {
-      const allFaqs = await client.findTableRows({
-        table: 'productFaqTable',
-        filter: { sku: { $eq: sku } } as any,
-        limit: 50,
-      });
-      const results = allFaqs.rows.map((r) => ({
-        sku: r.sku as string,
-        question: r.question as string,
-        answer: r.answer as string,
-        similarity: null,
-      }));
-      return {
-        results,
-        totalReturned: results.length,
-        topSimilarity: null,
-        confidence: 'high' as const,
-        recommendation:
-          "SKU filter aktif: bu ürünün TÜM FAQ'ları döndü (semantic ranking yok). " +
-          'İçinden kullanıcının sorusuna EN UYGUN soruyu SEN seç ve cevabı sun. ' +
-          'Hiç uygun FAQ yoksa "bu konuda FAQ\'de net bilgi yok" de.',
-      };
-    }
-
-    // SKU yok → semantic arama (cross-product, _CAT:*, _BRAND:* için)
-    const res = await client.findTableRows({
-      table: 'productFaqTable',
-      search: query,
+    // Phase 4 cutover: v9.2 SKU-bypass + confidence tier + recommendation
+    // string selection artık microservice'te
+    // (retrieval-service/src/routes/faq.ts). Bot handler raw response'u
+    // forward ediyor, LLM confidence/recommendation'a göre yanıt stilini
+    // seçiyor (conversation instruction bu davranışı anlatıyor).
+    return await retrievalClient.faq({
+      query,
+      sku: sku ?? null,
       limit,
     });
-
-    const topSim = Number(res.rows[0]?.similarity ?? 0);
-    const confidence: 'high' | 'low' | 'none' =
-      topSim >= 0.6 ? 'high' : topSim >= 0.4 ? 'low' : 'none';
-
-    const rawResults = res.rows.map((r) => ({
-      sku: r.sku as string,
-      question: r.question as string,
-      answer: r.answer as string,
-      similarity: (r.similarity as number | null) ?? null,
-    }));
-    const results = confidence === 'none' ? [] : rawResults;
-
-    const recommendation = {
-      high: 'Cevabı doğal Türkçe cümleye çevirip direkt sun.',
-      low: "Cevabı 'En yakın SSS şunu söylüyor:' disclaimer ile sun; kullanıcı doğrulamalı. Eğer kullanıcının sorusu sayısal teknik değer (pH, km, ay, ml) ise FAQ'yı ATLA, getProductDetails ile technicalSpecs'ten oku.",
-      none:
-        "FAQ'de anlamlı eşleşme YOK — results BOŞ. Bu durumda: sayısal/teknik değer sorgusu ise searchProducts + getProductDetails kullan. Nüanslı kullanım/uyumluluk sorusu ise 'bu konuda net bilgim yok' de ve ürünün resmi FAQ portalına yönlendir.",
-    }[confidence];
-
-    return {
-      results,
-      totalReturned: results.length,
-      topSimilarity: res.rows[0]?.similarity ?? null,
-      confidence,
-      recommendation,
-    };
   },
 });
