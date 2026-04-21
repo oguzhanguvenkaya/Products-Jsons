@@ -1,6 +1,5 @@
 {
-  "_NOTE": "BU BOT AYRI BİR BOTPRESS CLOUD BOT'UDUR. Deploy'dan önce Botpress Cloud'da yeni bot oluşturup aşağıdaki botId/workspaceId değerlerini güncelle. Detailagent (v9.2) ile AYNI botId'yi kullanma — çakışma olur.",
-  "botId": "REPLACE_WITH_NEW_BOT_ID",
+  "botId": "d436bea3-dde7-4899-8213-9d90f8bb5f78",
   "workspaceId": "wkspace_01KCCKM30YFWT88HC0NBHXP4J7",
   "apiUrl": "https://api.botpress.cloud"
 }
