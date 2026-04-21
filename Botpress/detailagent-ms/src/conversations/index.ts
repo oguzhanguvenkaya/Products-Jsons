@@ -9,10 +9,11 @@ import {
 } from '../tools';
 
 /**
- * Semantik arama stratejisi: Knowledge Base primitive'leri kullanılmıyor.
- * `searchProducts` ve `searchFaq` tool'ları `findTableRows({ search })` ile
- * productSearchIndexTable ve productFaqTable'ın built-in vector index'ine
- * doğrudan sorar. KB abstraction'ına gerek yok, aynı semantik kalite.
+ * Semantik arama stratejisi: retrieval microservice (v10).
+ * Tool handler'lar `detailagent-retrieval.fly.dev` üzerine HTTP call atar;
+ * microservice Turkish FTS + Gemini vector + RRF fusion + synonym expansion
+ * + slot extraction yürütür. Bot input/output contract (Phase 3 mirror)
+ * değişmedi — LLM arkadaki altyapıyı görmüyor.
  */
 
 /**
@@ -26,7 +27,8 @@ const CONTACT_INFO = 'mtskimya.com/pages/iletisim';
 /**
  * CARCAREAİ — Ana Conversation Handler
  *
- * v7.0: Instructions 647 → ~150 satır. Render mantığı tool handler'lara taşındı.
+ * v10 (Phase 4 cutover): Tool handler'lar microservice HTTP client'ına
+ * döndürüldü; instruction JSX/persona/confidence-tier kuralları korundu.
  * Tool'lar carouselItems + textFallbackLines + productSummaries döndürür,
  * LLM sadece yield <Carousel items={result.carouselItems} /> yapar.
  */
@@ -127,11 +129,17 @@ Sen ${BOT_NAME} olarak görev yapıyorsun. MTS Kimya'nın araç bakım ve detail
 |---|---|---|
 | Ürün arama / öneri | searchProducts | query + filter → yield Carousel |
 | Nüanslı teknik/kullanım FAQ | searchFaq | "ıslak mı", "silikon içerir mi", "uyumlu mu" |
-| Ürün detayı / spec | searchProducts → getProductDetails | SKU bul → 4-tablo join |
+| Ürün detayı / spec | searchProducts → getProductDetails | SKU bul → tüm bilgi tek çağrıda |
 | Uygulama rehberi | searchProducts → getApplicationGuide | SKU bul → howToUse adımları |
-| Fiyat filtresi | searchByPriceRange | min/max + templateGroup (enum value!) |
+| Fiyat filtresi (SALT fiyat) | searchByPriceRange | min/max + templateGroup (enum value!) |
 | İlişkili ürün | searchProducts → getRelatedProducts | SKU bul → use_with/alternatives/accessories |
 | Karşılaştırma (X vs Y) | searchProducts ×2 → getProductDetails ×2 | İki ürün detay + tablo |
+
+**searchProducts artık fiyat slot'larını OTOMATİK çıkarır (v10).** Kullanıcı
+"GYEON seramik kaplama 1000 TL altı" gibi query'yi doğrudan searchProducts'a
+geçebilirsin — microservice query'den priceMax=1000 extract edip filter
+uygular. Ayrı searchByPriceRange çağrısına yalnızca **pure fiyat** sorgularında
+("500-1500 TL arası pasta") ihtiyaç duyulur.
 
 ## CONTEXT-AWARE TOOL ÇAĞRI KURALI (v8.2)
 
@@ -354,7 +362,7 @@ Kullanıcı KARŞILAŞTIRMA sorduysa ("en iyi X", "top 3 Y", "self-cleaning en y
 
 ## searchFaq KULLANIM (v8.4 confidence-aware)
 
-2,119 hazır SSS koleksiyonunda semantic arama. "X ıslak mı kullanılır?", "X silikon içerir mi?" gibi nüanslı sorular için.
+3.156 hazır SSS koleksiyonunda (scope: product 2962 + brand 184 + category 10) semantic arama. "X ıslak mı kullanılır?", "X silikon içerir mi?" gibi nüanslı sorular için.
 
 **KRİTİK: searchFaq çıktısındaki \`confidence\` ve \`recommendation\` alanlarını MUTLAKA oku.**
 
@@ -367,11 +375,15 @@ Kullanıcı KARŞILAŞTIRMA sorduysa ("en iyi X", "top 3 Y", "self-cleaning en y
 - FAQ question kullanıcıya GÖSTERİLMEZ — sadece answer metnini doğal Türkçe cümleye çevir
 - Cevapta "SSS" kelimesi yerine bilgiyi direkt bot'un bilgisiymiş gibi sun (doğal akış)
 
-**FAQ SKU KONVANSİYONLARI** (v8.4):
-- **Normal SKU** (ör: Q2M-BYA500M) → ürün-spesifik FAQ, doğal olarak sun
-- **\`_CAT:<group>\`** (ör: _CAT:abrasive_polish) → kategori genel rehberi, "Pasta kategorisi için genel olarak..." gibi sun
-- **\`_BRAND:menzerna:<category>\`** → Menzerna marka rehberi (menzerna.com resmi FAQ'si), "Menzerna'nın önerisi şöyle..." gibi sun
-- **\`_BRAND:gyeon:<category>\`** → Gyeon marka rehberi (gyeon.zendesk.com resmi FAQ'si), "Gyeon'un önerisi şöyle..." gibi sun. Alt kategoriler: \`brand\`, \`distribution\`, \`certified_detailer\`, \`training\`, \`q2_general\`, \`q2m_general\`
+**FAQ SCOPE KONVANSİYONLARI (v10 microservice)**:
+Microservice FAQ'ları üç scope'a ayırır ve response'ta \`sku\` alanı bu
+scope'u yansıtır:
+- **sku DOLU** (ör: Q2M-BYA500M) → ürün-spesifik FAQ (scope='product'),
+  doğal olarak ürün bilgisi gibi sun
+- **sku BOŞ / null** → marka veya kategori geneli FAQ (scope='brand' veya
+  'category'). Bunu "Menzerna'nın / GYEON'un genel yaklaşımı şöyle..." ya
+  da "Pasta kategorisi için genellikle..." gibi sun. Belirli bir SKU'ya
+  atfetme, çünkü bu bilgi birden çok ürünü kapsıyor.
 
 ## VARIANT (BOYUT) AWARENESS (v8.5)
 
