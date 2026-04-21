@@ -11,7 +11,7 @@ import { z, defineConfig } from '@botpress/runtime';
  * Kapsam: SADECE ürün danışmanlığı (sipariş/kargo/iade kapsam dışı).
  */
 export default defineConfig({
-    name: 'detailagent',
+    name: 'detailagent-ms',
     description:
         "MTS Kimya yapay zeka ürün danışmanı — profesyonel oto detailing, polisaj, seramik kaplama, yıkama ve bakım ürünleri için Türkçe ürün önerisi, karşılaştırma ve uygulama rehberliği.",
 
