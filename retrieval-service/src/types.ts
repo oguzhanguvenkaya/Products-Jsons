@@ -134,6 +134,9 @@ export const MetaFilterSchema = z.object({
 });
 export type MetaFilter = z.infer<typeof MetaFilterSchema>;
 
+export const SearchModeSchema = z.enum(['pure_vector', 'hybrid']);
+export type SearchMode = z.infer<typeof SearchModeSchema>;
+
 export const SearchInputSchema = z.object({
   query: z.string().min(1),
   templateGroup: TemplateGroupSchema.nullable().optional(),
@@ -144,6 +147,9 @@ export const SearchInputSchema = z.object({
   subCat: z.string().nullable().optional(),
   limit: z.number().int().min(1).max(10).default(5),
   metaFilters: z.array(MetaFilterSchema).nullable().optional(),
+  /** Retrieval strategy. Default 'hybrid' (Phase 3); 'pure_vector'
+   *  routes to the Phase 2 baseline for A/B comparison. */
+  mode: SearchModeSchema.optional().default('hybrid'),
 });
 export type SearchInput = z.infer<typeof SearchInputSchema>;
 

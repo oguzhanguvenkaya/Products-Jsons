@@ -1,15 +1,16 @@
 /**
  * POST /search — semantic product search.
  *
- * Phase 2 handler is thin: validate input, delegate to the
- * pure-vector core, return the mirrored bot contract. Phase 3
- * will keep the same route but upgrade the core to hybrid RRF.
+ * Input schema carries a `mode` flag (default 'hybrid'). The core
+ * router picks between the Phase 2 pure-vector baseline and the
+ * Phase 3 hybrid pipeline. Both modes return the same mirror
+ * contract so bot cutover in Phase 4 stays a drop-in.
  */
 
 import { Hono } from 'hono';
 import { zValidator } from '@hono/zod-validator';
 import { SearchInputSchema } from '../types.ts';
-import { searchPureVector } from '../lib/searchCore.ts';
+import { search } from '../lib/searchCore.ts';
 
 type AppVariables = { requestId: string };
 
@@ -20,7 +21,7 @@ searchRoutes.post(
   zValidator('json', SearchInputSchema),
   async (c) => {
     const input = c.req.valid('json');
-    const result = await searchPureVector(input);
+    const result = await search(input);
     return c.json(result);
   },
 );

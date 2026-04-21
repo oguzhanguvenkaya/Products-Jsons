@@ -27,6 +27,10 @@ import type {
   SearchInput,
   SearchResult,
 } from '../types.ts';
+import { expandQuery } from './synonymExpander.ts';
+import { extractSlots } from './slotExtractor.ts';
+import { runBm25Query } from './bm25.ts';
+import { reciprocalRankFusion } from './rrf.ts';
 
 // Buffer over `limit` so post-filter (exactMatch) can still hit
 // `limit` results even after pruning unrelated variants.
@@ -259,4 +263,211 @@ export async function searchPureVector(
       },
     },
   };
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Hybrid pipeline (Phase 3): normalize → synonym → slot → embed →
+// [BM25 ∥ vector] → RRF → post-filter → format.
+// ─────────────────────────────────────────────────────────────────
+
+const HYBRID_CANDIDATE_LIMIT = 50;
+const HYBRID_RRF_K = 60;
+
+/**
+ * Fetches full ProductRow + search_text for a SKU list, preserving
+ * order via a `array_position` ORDER BY. Used after RRF to hydrate
+ * the fused list into display-ready rows.
+ */
+async function hydrateByRankedSkus(
+  orderedSkus: string[],
+): Promise<SearchHit[]> {
+  if (orderedSkus.length === 0) return [];
+  const rows = await sql<SearchHit[]>`
+    SELECT p.sku, p.name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
+           p.template_group, p.template_sub_type, p.target_surface,
+           p.price, p.rating, p.stock_status, p.url, p.image_url,
+           p.short_description, p.full_description, p.specs, p.sizes,
+           p.variant_skus, p.is_featured,
+           ps.search_text,
+           0::numeric AS similarity
+    FROM products p
+    LEFT JOIN product_search ps USING (sku)
+    WHERE p.sku = ANY(${orderedSkus})
+    ORDER BY array_position(${orderedSkus}::text[], p.sku)
+  `;
+  return rows;
+}
+
+export async function searchHybrid(
+  input: SearchInput,
+): Promise<SearchResult> {
+  const t0 = performance.now();
+  const limit = input.limit;
+
+  // 1. Meta filter → optional SKU allow-list (same as pure_vector)
+  const allowSet = input.metaFilters
+    ? await resolveMetaFilterSkus(input.metaFilters)
+    : null;
+
+  if (allowSet !== null && allowSet.size === 0) {
+    return {
+      carouselItems: [],
+      textFallbackLines: [],
+      productSummaries: [],
+      totalReturned: 0,
+      filtersApplied: {
+        templateGroup: input.templateGroup ?? null,
+        templateSubType: input.templateSubType ?? null,
+        brand: input.brand ?? null,
+        exactMatch: input.exactMatch ?? null,
+      },
+      debug: {
+        mode: 'hybrid',
+        latencyMs: Math.round(performance.now() - t0),
+        vecCount: 0,
+        bm25Count: 0,
+        slots: { reason: 'meta_filter_empty' },
+      },
+    };
+  }
+
+  // 2. Normalize + synonym expand + slot extract.
+  const expanded = await expandQuery(input.query);
+  const slots = extractSlots(input.query);
+
+  // Slot brand overrides input.brand ONLY if the caller did not
+  // provide one explicitly. LLM-derived brands win over regex guesses.
+  const effectiveBrand = input.brand ?? slots.brand ?? null;
+  const priceMin = slots.priceMin ?? null;
+  const priceMax = slots.priceMax ?? null;
+
+  const allowArr = allowSet ? [...allowSet] : null;
+  const tg = input.templateGroup ?? null;
+  const tst = input.templateSubType ?? null;
+  const mc = input.mainCat ?? null;
+  const sc = input.subCat ?? null;
+
+  // 3. Parallel: BM25 over expanded text + vector over original query.
+  const { vector, cached } = await cachedEmbed(input.query, embedText);
+  const vlit = vectorLiteral(vector);
+
+  const [bm25Hits, vecHits] = await Promise.all([
+    runBm25Query(
+      expanded.expanded,
+      {
+        brand: effectiveBrand,
+        templateGroup: tg,
+        templateSubType: tst,
+        mainCat: mc,
+        subCat: sc,
+        priceMin,
+        priceMax,
+        allowSkus: allowArr,
+      },
+      HYBRID_CANDIDATE_LIMIT,
+    ),
+    sql<Array<{ sku: string; similarity: string | number }>>`
+      SELECT p.sku,
+             (1 - (pe.embedding <=> ${vlit}::vector)) AS similarity
+      FROM product_embeddings pe
+      JOIN products p USING (sku)
+      WHERE (${tg}::text IS NULL OR p.template_group = ${tg})
+        AND (${tst}::text IS NULL OR p.template_sub_type = ${tst})
+        AND (${effectiveBrand}::text IS NULL OR p.brand = ${effectiveBrand})
+        AND (${mc}::text IS NULL OR p.main_cat ILIKE ${mc ? `%${mc}%` : null})
+        AND (${sc}::text IS NULL OR p.sub_cat ILIKE ${sc ? `%${sc}%` : null})
+        AND (${priceMin}::numeric IS NULL OR p.price >= ${priceMin})
+        AND (${priceMax}::numeric IS NULL OR p.price <= ${priceMax})
+        AND (${allowArr}::text[] IS NULL OR p.sku = ANY(${allowArr}))
+      ORDER BY pe.embedding <=> ${vlit}::vector
+      LIMIT ${HYBRID_CANDIDATE_LIMIT}
+    `,
+  ]);
+
+  // 4. RRF fuse.
+  const fused = reciprocalRankFusion(
+    [bm25Hits.map((h) => ({ sku: h.sku })), vecHits.map((h) => ({ sku: h.sku }))],
+    { k: HYBRID_RRF_K },
+  );
+
+  // Hydrate top (fetchLimit for exactMatch buffer, else limit).
+  const fetchLimit = input.exactMatch
+    ? Math.max(limit * OVERSAMPLE_FACTOR, 20)
+    : limit;
+  const topSkus = fused.slice(0, fetchLimit).map((f) => f.sku);
+  const hydrated = await hydrateByRankedSkus(topSkus);
+
+  // Attach per-row fused score for downstream boost / tie-break.
+  const rrfLookup = new Map<string, number>();
+  for (const f of fused) rrfLookup.set(f.sku, f.rrf_score);
+  const vecLookup = new Map<string, number>();
+  for (const v of vecHits) {
+    vecLookup.set(v.sku, typeof v.similarity === 'string' ? Number(v.similarity) : v.similarity);
+  }
+  for (const row of hydrated) {
+    // Put cosine similarity on the row so formatter / boost use it.
+    row.similarity = vecLookup.get(row.sku) ?? 0;
+  }
+
+  // 5. Post-filter (exactMatch) — preserves RRF order within matches.
+  const filtered = input.exactMatch
+    ? applyExactMatch(hydrated, input.exactMatch, limit)
+    : hydrated.slice(0, limit);
+
+  // 6. Format
+  const carouselItems = filtered.flatMap(toCarouselItemsWithVariants);
+  const textFallbackLines = filtered.flatMap(
+    toTextFallbackLinesFromVariants,
+  );
+  const productSummaries = filtered.map((r) =>
+    toProductSummary({
+      ...r,
+      similarity: r.similarity,
+      search_text: r.search_text,
+    }),
+  );
+
+  return {
+    carouselItems,
+    textFallbackLines,
+    productSummaries,
+    totalReturned: filtered.length,
+    filtersApplied: {
+      templateGroup: input.templateGroup ?? null,
+      templateSubType: input.templateSubType ?? null,
+      brand: effectiveBrand,
+      exactMatch: input.exactMatch ?? null,
+    },
+    debug: {
+      mode: 'hybrid',
+      latencyMs: Math.round(performance.now() - t0),
+      vecCount: vecHits.length,
+      bm25Count: bm25Hits.length,
+      slots: {
+        embedCached: cached,
+        oversampled: Boolean(input.exactMatch),
+        fetchLimit,
+        rrfK: HYBRID_RRF_K,
+        mergedCount: fused.length,
+        topRrfScore: fused[0]?.rrf_score ?? null,
+        addedAliases: expanded.addedAliases,
+        extractedSlots: {
+          brand: slots.brand ?? null,
+          priceMin: slots.priceMin ?? null,
+          priceMax: slots.priceMax ?? null,
+          ratingHint: slots.ratingHint ?? null,
+        },
+        metaAllowListSize: allowSet?.size ?? null,
+      },
+    },
+  };
+}
+
+/**
+ * Entry point: routes by input.mode.
+ */
+export async function search(input: SearchInput): Promise<SearchResult> {
+  return input.mode === 'pure_vector'
+    ? searchPureVector(input)
+    : searchHybrid(input);
 }
