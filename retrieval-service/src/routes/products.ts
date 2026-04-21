@@ -41,7 +41,7 @@ export const productsRoutes = new Hono<{ Variables: AppVariables }>();
 async function findProductByAnySku(inputSku: string): Promise<ProductRow | null> {
   // Direct lookup first
   const direct = await sql<ProductRow[]>`
-    SELECT sku, name, brand, main_cat, sub_cat, sub_cat2,
+    SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
            template_group, template_sub_type, target_surface,
            price, rating, stock_status, url, image_url,
            short_description, full_description, specs, sizes,
@@ -54,7 +54,7 @@ async function findProductByAnySku(inputSku: string): Promise<ProductRow | null>
 
   // Fall back: inputSku may be a secondary variant listed in variant_skus[]
   const viaVariant = await sql<ProductRow[]>`
-    SELECT sku, name, brand, main_cat, sub_cat, sub_cat2,
+    SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
            template_group, template_sub_type, target_surface,
            price, rating, stock_status, url, image_url,
            short_description, full_description, specs, sizes,
@@ -191,7 +191,7 @@ productsRoutes.get(
     }
 
     const related = await sql<ProductRow[]>`
-      SELECT p.sku, p.name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
+      SELECT p.sku, p.name, p.base_name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
              p.template_group, p.template_sub_type, p.target_surface,
              p.price, p.rating, p.stock_status, p.url, p.image_url,
              p.short_description, p.full_description, p.specs, p.sizes,

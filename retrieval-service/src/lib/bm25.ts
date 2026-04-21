@@ -21,6 +21,10 @@ export interface BM25Filters {
   brand?: string | null;
   templateGroup?: string | null;
   templateSubType?: string | null;
+  /** Pre-expanded sub_type family. If provided, takes precedence over
+   *  templateSubType — useful when paint_coating should also match
+   *  paint_coating_kit, multi_step_coating_kit, single_layer_coating. */
+  templateSubTypeFamily?: string[] | null;
   mainCat?: string | null;
   subCat?: string | null;
   priceMin?: number | null;
@@ -81,6 +85,12 @@ export async function runBm25Query(
 
   const tg = filters.templateGroup ?? null;
   const tst = filters.templateSubType ?? null;
+  const tstFamily =
+    filters.templateSubTypeFamily && filters.templateSubTypeFamily.length > 0
+      ? filters.templateSubTypeFamily
+      : tst
+        ? [tst]
+        : null;
   const br = filters.brand ?? null;
   const mc = filters.mainCat ?? null;
   const sc = filters.subCat ?? null;
@@ -101,7 +111,7 @@ export async function runBm25Query(
     JOIN products p USING (sku)
     WHERE ps.search_vector @@ to_tsquery('turkish', ${tsQueryExpr})
       AND (${tg}::text IS NULL OR p.template_group = ${tg})
-      AND (${tst}::text IS NULL OR p.template_sub_type = ${tst})
+      AND (${tstFamily}::text[] IS NULL OR p.template_sub_type = ANY(${tstFamily}))
       AND (${br}::text IS NULL OR p.brand = ${br})
       AND (${mc}::text IS NULL OR p.main_cat ILIKE ${mc ? `%${mc}%` : null})
       AND (${sc}::text IS NULL OR p.sub_cat ILIKE ${sc ? `%${sc}%` : null})

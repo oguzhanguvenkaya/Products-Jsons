@@ -340,6 +340,7 @@ export type RatingSearchResult = z.infer<typeof RatingSearchResultSchema>;
 export interface ProductRow {
   sku: string;
   name: string;
+  base_name?: string | null;
   brand: string | null;
   main_cat: string | null;
   sub_cat: string | null;

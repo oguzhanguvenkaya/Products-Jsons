@@ -94,6 +94,7 @@ async function main() {
     return {
       sku: m.sku,
       name: m.product_name,
+      base_name: (m.base_name || m.product_name || '').trim() || null,
       brand: m.brand || null,
       main_cat: m.main_cat || null,
       sub_cat: m.sub_cat || null,
@@ -122,13 +123,14 @@ async function main() {
     await sql`
       INSERT INTO products ${sql(
         batch as any,
-        'sku', 'name', 'brand', 'main_cat', 'sub_cat', 'sub_cat2',
+        'sku', 'name', 'base_name', 'brand', 'main_cat', 'sub_cat', 'sub_cat2',
         'template_group', 'template_sub_type', 'target_surface',
         'price', 'rating', 'url', 'image_url',
         'full_description', 'specs', 'sizes', 'variant_skus', 'video_url',
       )}
       ON CONFLICT (sku) DO UPDATE SET
         name = EXCLUDED.name,
+        base_name = EXCLUDED.base_name,
         brand = EXCLUDED.brand,
         main_cat = EXCLUDED.main_cat,
         sub_cat = EXCLUDED.sub_cat,

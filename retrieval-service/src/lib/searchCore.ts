@@ -46,6 +46,34 @@ function vectorLiteral(vec: number[]): string {
 }
 
 /**
+ * Expand a canonical sub_type slot into the family of related sub_types
+ * that live in the DB. Needed because our seeded catalog splits paint
+ * protection ceramic coatings across several `template_sub_type` values:
+ *
+ *   - paint_coating              (e.g. MX-PRO Crystal, SINH, Mohs EVO)
+ *   - paint_coating_kit          (GYEON Syncro — dual-layer kit)
+ *   - multi_step_coating_kit     (MX-PRO Hydro — multi-step kit)
+ *   - single_layer_coating       (GYEON Q One EVO, Primer)
+ *
+ * If the caller asks for "paint_coating" we must return all four,
+ * otherwise Syncro (50-month durability #1) and Hydro never reach the
+ * candidate pool and searchProducts for "en dayanıklı seramik" drops
+ * them silently. NULL input stays NULL (no filter).
+ */
+export function expandSubTypeFamily(sub: string | null): string[] | null {
+  if (!sub) return null;
+  if (sub === 'paint_coating') {
+    return [
+      'paint_coating',
+      'paint_coating_kit',
+      'multi_step_coating_kit',
+      'single_layer_coating',
+    ];
+  }
+  return [sub];
+}
+
+/**
  * Resolve meta filters to a concrete SKU set. If any filter yields
  * zero matches, returns null → caller can short-circuit with an
  * empty response. AND semantics across filters.
@@ -199,13 +227,14 @@ export async function searchPureVector(
   // 3. SQL with filters; postgres.js handles NULL short-circuits.
   const tg = input.templateGroup ?? slotsPure.templateGroup ?? null;
   const tst = input.templateSubType ?? slotsPure.templateSubType ?? null;
+  const tstFamily = expandSubTypeFamily(tst);
   const br = input.brand ?? slotsPure.brand ?? null;
   const mc = input.mainCat ?? null;
   const sc = input.subCat ?? null;
   const skuList = allowSkus ? [...allowSkus] : null;
 
   const rows = await sql<SearchHit[]>`
-    SELECT p.sku, p.name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
+    SELECT p.sku, p.name, p.base_name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
            p.template_group, p.template_sub_type, p.target_surface,
            p.price, p.rating, p.stock_status, p.url, p.image_url,
            p.short_description, p.full_description, p.specs, p.sizes,
@@ -216,7 +245,7 @@ export async function searchPureVector(
     JOIN products p USING (sku)
     LEFT JOIN product_search ps USING (sku)
     WHERE (${tg}::text IS NULL OR p.template_group = ${tg})
-      AND (${tst}::text IS NULL OR p.template_sub_type = ${tst})
+      AND (${tstFamily}::text[] IS NULL OR p.template_sub_type = ANY(${tstFamily}))
       AND (${br}::text IS NULL OR p.brand = ${br})
       AND (${mc}::text IS NULL OR p.main_cat ILIKE ${mc ? `%${mc}%` : null})
       AND (${sc}::text IS NULL OR p.sub_cat ILIKE ${sc ? `%${sc}%` : null})
@@ -313,7 +342,7 @@ async function hydrateByRankedSkus(
 ): Promise<SearchHit[]> {
   if (orderedSkus.length === 0) return [];
   const rows = await sql<SearchHit[]>`
-    SELECT p.sku, p.name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
+    SELECT p.sku, p.name, p.base_name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
            p.template_group, p.template_sub_type, p.target_surface,
            p.price, p.rating, p.stock_status, p.url, p.image_url,
            p.short_description, p.full_description, p.specs, p.sizes,
@@ -378,6 +407,8 @@ export async function searchHybrid(
   // heavy_cut_compound), use the inferred slot. Explicit input wins.
   const tg = input.templateGroup ?? slots.templateGroup ?? null;
   const tst = input.templateSubType ?? slots.templateSubType ?? null;
+  // paint_coating family (Syncro = paint_coating_kit, Hydro = multi_step_coating_kit)
+  const tstFamily = expandSubTypeFamily(tst);
   const mc = input.mainCat ?? null;
   const sc = input.subCat ?? null;
 
@@ -392,6 +423,7 @@ export async function searchHybrid(
         brand: effectiveBrand,
         templateGroup: tg,
         templateSubType: tst,
+        templateSubTypeFamily: tstFamily,
         mainCat: mc,
         subCat: sc,
         priceMin,
@@ -406,7 +438,7 @@ export async function searchHybrid(
       FROM product_embeddings pe
       JOIN products p USING (sku)
       WHERE (${tg}::text IS NULL OR p.template_group = ${tg})
-        AND (${tst}::text IS NULL OR p.template_sub_type = ${tst})
+        AND (${tstFamily}::text[] IS NULL OR p.template_sub_type = ANY(${tstFamily}))
         AND (${effectiveBrand}::text IS NULL OR p.brand = ${effectiveBrand})
         AND (${mc}::text IS NULL OR p.main_cat ILIKE ${mc ? `%${mc}%` : null})
         AND (${sc}::text IS NULL OR p.sub_cat ILIKE ${sc ? `%${sc}%` : null})

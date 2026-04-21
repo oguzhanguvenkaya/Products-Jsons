@@ -48,9 +48,13 @@ export function asNumberOrNull(
 }
 
 function baseNameFromRow(row: ProductRow): string {
-  // products table has one "name" column; sizes variants may expose a
-  // cleaner size-stripped baseline. For now, use row.name directly.
-  return row.name;
+  // Prefer products.base_name (migration 007) — CSV-seeded size-stripped
+  // version. Fallback to row.name if base_name is null (older rows until
+  // the next seed run). Using row.name alone produces carousel titles
+  // like "MENZERNA 3800 Super Hare Giderici Cila - 1 lt — 250 ml"
+  // (double size) because row.name already carries the largest variant
+  // size; sizeLabel then appends another suffix.
+  return (row.base_name && row.base_name.trim()) || row.name;
 }
 
 // ─────────────────────────────────────────────────────────────────
