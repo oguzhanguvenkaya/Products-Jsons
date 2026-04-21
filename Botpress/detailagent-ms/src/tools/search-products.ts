@@ -1,34 +1,29 @@
-import { Autonomous, z, client } from '@botpress/runtime';
+import { Autonomous, z } from '@botpress/runtime';
+import { retrievalClient } from '../lib/retrieval-client.ts';
 
 /**
- * searchProducts — MTS Kimya ürün kataloğu hibrit arama (semantic + filter + post-filter).
+ * searchProducts — Hibrit ürün arama (retrieval microservice üzerinden).
  *
- * v5.4: templateGroup/templateSubType filter kolonları productSearchIndexTable'a
- * eklendi, master-join kaldırıldı. Tek sorguda filter.
+ * Phase 4 cutover: tool handler artık `detailagent-retrieval` microservice'ine
+ * HTTP POST atıyor. Microservice Turkish FTS + Gemini vector + RRF fusion +
+ * synonym expansion + slot extraction + business boosts uyguluyor
+ * (retrieval-service/src/lib/searchCore.ts). Tool input/output contract
+ * (Phase 3 Step 3 mirror) aynı kalıyor; LLM arkadaki altyapı değişikliğini
+ * görmüyor.
  *
- * ÜÇ AŞAMALI RETRIEVAL STRATEJİSİ:
- *
- * 1. PRE-FILTER (MongoDB-style `findTableRows` filter param):
- *    - `templateGroup`, `templateSubType`, `brand`, `mainCat`, `subCat`
- *      search_index'te direkt sorgulanır. Semantic search bu alt küme içinde koşar.
- *    - Örnek: templateGroup="car_shampoo" → "Total Remover (wax sökücü)" asla
- *      "şampuan öner" sorgusunda gelmez.
- *
- * 2. SEMANTIC SEARCH (`search` param):
- *    - Botpress Tables'ın built-in vector search'ü `searchable: true` kolonlara
- *      (sku + search_text) uygulanır. Benzerlik skoruyla sıralı sonuç.
- *
- * 3. POST-FILTER (exactMatch):
- *    - Vector search rakam/kod/hacim aramasında zayıftır ("Menzerna 400" → 4000ml
- *      gelebilir). `exactMatch` varsa `limit × 5` oversample, sonra product_name
- *      içinde substring kontrolü ile kesin filtreleme yapılır.
- *    - Örnek: exactMatch="400" → sadece adında "400" geçen varyantlar döner.
- *    - Örnek: exactMatch="1000 ml" → sadece 1000ml varyantı.
+ * Eskiden bu handler'da bulunan ve şimdi microservice'te olan logic:
+ *   - MongoDB-style pre-filter (template_group, brand, mainCat ILIKE, ...)
+ *   - Botpress Tables vector search → Gemini embedding + HNSW cosine
+ *   - v9.0 word-boundary exactMatch post-filter (JS \b regex, microservice
+ *     aynı algoritmayı `applyExactMatch` içinde çalıştırıyor)
+ *   - v9.2 multi-token matching preference (microservice'te)
+ *   - metaFilter intersection (microservice `resolveMetaFilterSkus`)
+ *   - sizes JSON hydrate (microservice formatter'ında)
  */
 export const searchProducts = new Autonomous.Tool({
   name: 'searchProducts',
   description:
-    "MTS Kimya ürün kataloğunda (622 ürün) hibrit arama. Semantic similarity + " +
+    "MTS Kimya ürün kataloğunda (511 ürün) hibrit arama. Semantic similarity + " +
     "kategori/marka pre-filter + exactMatch post-filter. " +
     "Parametre detayları her alanın description'ında — oraları oku.",
   input: z.object({
@@ -241,268 +236,24 @@ export const searchProducts = new Autonomous.Tool({
       })
       .describe('Hangi filtrelerin uygulandığının özeti (debug için)'),
   }),
-  async handler({
-    query,
-    templateGroup,
-    templateSubType,
-    brand,
-    exactMatch,
-    mainCat,
-    subCat,
-    limit,
-    metaFilters,
-  }) {
-    // v5.4: Tüm filter kolonları artık productSearchIndexTable'da direct.
-    // Master-join kaldırıldı (sub_cat, template_group, template_sub_type,
-    // target_surface zaten search_index'te).
-    const filter: Record<string, unknown> = {};
-
-    if (templateGroup) {
-      filter.template_group = { $eq: templateGroup };
-    }
-    if (templateSubType) {
-      filter.template_sub_type = { $eq: templateSubType };
-    }
-    if (brand) {
-      filter.brand = { $eq: brand };
-    }
-    if (mainCat) {
-      filter.main_cat = { $regex: mainCat, $options: 'i' };
-    }
-    if (subCat) {
-      filter.sub_cat = { $regex: subCat, $options: 'i' };
-    }
-
-    // v8.4: metaFilters — productMetaTable'dan önce matching SKU listesi çek,
-    // sonra search_index'e sku IN (...) filter ekle. Her metaFilter AYRI SKU SET
-    // döner; hepsinin kesişimi (INTERSECTION) alınır (AND semantiği).
-    let metaMatchedSkus: Set<string> | null = null;
-    if (metaFilters && metaFilters.length > 0) {
-      for (const mf of metaFilters) {
-        const metaFilter: Record<string, unknown> = { key: { $eq: mf.key } };
-        if (mf.op === 'eq' && typeof mf.value === 'boolean') {
-          metaFilter.value_boolean = { $eq: mf.value };
-        } else if (mf.op === 'eq' && typeof mf.value === 'number') {
-          metaFilter.value_numeric = { $eq: mf.value };
-        } else if (mf.op === 'eq' && typeof mf.value === 'string') {
-          metaFilter.value_text = { $eq: mf.value };
-        } else if (mf.op === 'regex' && typeof mf.value === 'string') {
-          metaFilter.value_text = { $regex: mf.value, $options: 'i' };
-        } else if (['gte', 'lte', 'gt', 'lt'].includes(mf.op)) {
-          // numeric ops only work on value_numeric
-          const opKey = `$${mf.op}`;
-          metaFilter.value_numeric = { [opKey]: mf.value };
-        }
-        const metaRes = await client.findTableRows({
-          table: 'productMetaTable',
-          filter: metaFilter as any,
-          limit: 1000,
-        });
-        const thisSet = new Set(metaRes.rows.map((r) => r.sku as string));
-        if (metaMatchedSkus === null) {
-          metaMatchedSkus = thisSet;
-        } else {
-          metaMatchedSkus = new Set([...metaMatchedSkus].filter((s) => thisSet.has(s)));
-        }
-      }
-      // If after all meta filters nothing matches, early return empty
-      if (metaMatchedSkus && metaMatchedSkus.size === 0) {
-        return {
-          carouselItems: [],
-          textFallbackLines: [],
-          productSummaries: [],
-          totalReturned: 0,
-          filtersApplied: {
-            templateGroup: templateGroup ?? null,
-            templateSubType: templateSubType ?? null,
-            brand: brand ?? null,
-            exactMatch: exactMatch ?? null,
-          },
-        };
-      }
-      // Add sku $in filter to main search
-      if (metaMatchedSkus && metaMatchedSkus.size > 0) {
-        filter.sku = { $in: [...metaMatchedSkus] };
-      }
-    }
-
-    // v9.0: exactMatch → word-boundary + negative lookahead post-filter.
-    // Problem: regex "Bathe" hem "Q²M Bathe" hem "Q²M Bathe+" match ediyordu.
-    // Çözüm: DB'den oversample çek, JS'de strict regex ile post-filter.
-    // "\b<needle>(?![+\w])" → "Bathe+" ve "Bathecoat" elenir, "Bathe" match.
-    let fetchResult;
-    if (exactMatch) {
-      const needle = exactMatch.trim();
-      // Try variant_skus first (for direct SKU lookup, regex OK — SKU unique)
-      const variantRes = await client.findTableRows({
-        table: 'productSearchIndexTable',
-        filter: { ...filter, variant_skus: { $regex: needle, $options: 'i' } },
-        limit: Math.max(limit, 10),
-      });
-      if (variantRes.rows.length > 0) {
-        fetchResult = variantRes;
-      } else {
-        // Product_name regex: DB-side broad fetch (raw needle), JS strict post-filter.
-        // NOT: DB-side '\b' ÇALIŞMAZ (Postgres POSIX = backspace, kelime sınırı değil).
-        // Bu yüzden word-boundary kontrolü sadece JS tarafında (PCRE).
-        const escaped = needle.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-        // JS-side: word-boundary + negative lookahead (no '+' or word-char after)
-        const strictRegex = new RegExp(`\\b${escaped}(?![+\\w])`, 'i');
-
-        const broadRes = await client.findTableRows({
-          table: 'productSearchIndexTable',
-          filter: { ...filter, product_name: { $regex: needle, $options: 'i' } },
-          limit: Math.max(limit * 3, 20),
-        });
-        // v9.2: Multi-match preference — query-token match count önce, kısa name tie-breaker.
-        // "OdorRemover" → sprey (kısa, tek token match)
-        // "OdorRemover Pads" → pads (iki token match > sprey tek match)
-        const queryTokens = needle
-          .toLowerCase()
-          .split(/\s+/)
-          .filter((t) => t.length > 1);
-        const postFiltered = broadRes.rows
-          .filter((r) => strictRegex.test(String(r.product_name || '')))
-          .sort((a, b) => {
-            const nameA = String(a.product_name || '').toLowerCase();
-            const nameB = String(b.product_name || '').toLowerCase();
-            const matchA = queryTokens.filter((t) => nameA.includes(t)).length;
-            const matchB = queryTokens.filter((t) => nameB.includes(t)).length;
-            if (matchA !== matchB) return matchB - matchA;
-            return nameA.length - nameB.length;
-          });
-        fetchResult = { ...broadRes, rows: postFiltered.slice(0, limit) };
-
-        // Fallback chain:
-        // 1) Strict 0 → broad result (word-boundary miss ama regex eşleşti)
-        // 2) Broad 0 → semantic search (yazım varyasyonu, "FabriCoat" vs "FabricCoat")
-        if (fetchResult.rows.length === 0 && broadRes.rows.length > 0) {
-          fetchResult = { ...broadRes, rows: broadRes.rows.slice(0, limit) };
-        }
-        if (fetchResult.rows.length === 0) {
-          // v9.1 semantic fallback — embedding similarity ile yakın ürünleri bul
-          const semanticRes = await client.findTableRows({
-            table: 'productSearchIndexTable',
-            search: query || needle,
-            filter: Object.keys(filter).length > 0 ? filter : undefined,
-            limit,
-          });
-          fetchResult = semanticRes;
-        }
-      }
-    } else {
-      fetchResult = await client.findTableRows({
-        table: 'productSearchIndexTable',
-        search: query,
-        filter: Object.keys(filter).length > 0 ? filter : undefined,
-        limit,
-      });
-    }
-
-    const filteredRows = fetchResult.rows.slice(0, limit);
-
-    // v8.5: Fetch sizes JSON from master for each result row
-    // (search_index doesn't have sizes — master does)
-    const sizesBySku = new Map<string, Array<{
-      size_display: string; size_sort_value: number | null;
-      sku: string; barcode: string; url: string; price: number; image_url: string;
-    }>>();
-    if (filteredRows.length > 0) {
-      const skus = filteredRows.map((r) => r.sku as string);
-      const masterRes = await client.findTableRows({
-        table: 'productsMasterTable',
-        filter: { sku: { $in: skus } } as any,
-        limit: skus.length,
-      });
-      for (const m of masterRes.rows) {
-        try {
-          const sizesJson = m.sizes as string;
-          if (sizesJson) {
-            sizesBySku.set(m.sku as string, JSON.parse(sizesJson));
-          }
-        } catch {}
-      }
-    }
-
-    // URL sanitization
-    const hasRenderableUrl = (url: unknown): boolean => {
-      const u = typeof url === 'string' ? url.trim() : '';
-      return u.startsWith('http://') || u.startsWith('https://');
-    };
-
-    // v8.5: Each primary row expands to N Carousel cards (1 per variant with URL)
-    const carouselItems: Array<{
-      title: string; subtitle: string; imageUrl?: string;
-      actions: Array<{ action: 'url'; label: string; value: string }>;
-    }> = [];
-    const textFallbackLines: Array<{
-      productName: string; brand: string; price: number; sku: string;
-    }> = [];
-
-    for (const r of filteredRows) {
-      const baseName = (r.base_name as string) || (r.product_name as string);
-      const brand = r.brand as string;
-      const sizes = sizesBySku.get(r.sku as string) || [];
-
-      if (sizes.length === 0) {
-        // No sizes data (edge case) — fall back to single-card from search_index row
-        if (hasRenderableUrl(r.url)) {
-          carouselItems.push({
-            title: r.product_name as string,
-            subtitle: `${brand} \u2022 ${(r.price as number).toLocaleString('tr-TR')} TL`,
-            imageUrl: (r.image_url as string) || undefined,
-            actions: [{ action: 'url', label: 'Ürün Sayfasına Git', value: (r.url as string).trim() }],
-          });
-        } else {
-          textFallbackLines.push({
-            productName: r.product_name as string, brand, price: r.price as number, sku: r.sku as string,
-          });
-        }
-        continue;
-      }
-
-      // Each size = 1 Carousel card (user explicitly wanted per-size cards)
-      for (const s of sizes) {
-        const sizeLabel = s.size_display ? ` — ${s.size_display}` : '';
-        const titleWithSize = sizes.length > 1 ? `${baseName}${sizeLabel}` : baseName;
-        if (hasRenderableUrl(s.url)) {
-          carouselItems.push({
-            title: titleWithSize,
-            subtitle: `${brand} \u2022 ${s.price.toLocaleString('tr-TR')} TL`,
-            imageUrl: s.image_url || undefined,
-            actions: [{ action: 'url', label: 'Ürün Sayfasına Git', value: s.url.trim() }],
-          });
-        } else {
-          textFallbackLines.push({
-            productName: titleWithSize, brand, price: s.price, sku: s.sku,
-          });
-        }
-      }
-    }
-
-    return {
-      carouselItems,
-      textFallbackLines,
-
-      productSummaries: filteredRows.map((r) => ({
-        sku: r.sku as string,
-        name: (r.base_name as string) || (r.product_name as string),
-        brand: r.brand as string,
-        price: r.price as number,
-        templateGroup: r.template_group as string,
-        snippet: ((r.search_text as string) ?? '').slice(0, 200),
-        similarity: (r.similarity as number | null) ?? null,
-        variant_skus: (r.variant_skus as string) || undefined,
-        sizes: sizesBySku.get(r.sku as string) || [],
-      })),
-
-      totalReturned: filteredRows.length,
-      filtersApplied: {
-        templateGroup: templateGroup ?? null,
-        templateSubType: templateSubType ?? null,
-        brand: brand ?? null,
-        exactMatch: exactMatch ?? null,
-      },
-    };
+  async handler(input) {
+    // Phase 4 cutover: tüm pre-filter + vector search + exactMatch
+    // post-filter + metaFilter intersection + sizes hydrate logic
+    // microservice tarafında (retrieval-service/src/lib/searchCore.ts).
+    // Bot handler sadece input'u forward edip mirror contract'ı
+    // döndürür; Autonomous.Tool output zod şeması dönen shape'i
+    // runtime'da doğrular.
+    return await retrievalClient.search({
+      query: input.query,
+      templateGroup: input.templateGroup ?? null,
+      templateSubType: input.templateSubType ?? null,
+      brand: input.brand ?? null,
+      exactMatch: input.exactMatch ?? null,
+      mainCat: input.mainCat ?? null,
+      subCat: input.subCat ?? null,
+      limit: input.limit,
+      metaFilters: input.metaFilters ?? null,
+      mode: 'hybrid',
+    });
   },
 });
