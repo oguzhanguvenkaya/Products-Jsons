@@ -1,22 +1,22 @@
 /**
- * detailagent — Autonomous Tools (6 adet)
+ * detailagent-ms — Autonomous Tools (7 adet, tümü microservice HTTP)
  *
- * ### Semantik arama
- * - searchProducts  → productSearchIndexTable.search_text vector search +
+ * ### Semantik arama (microservice: /search, /faq)
+ * - searchProducts  → hybrid retrieval (BM25 Turkish FTS + vector + RRF)
  *                     templateGroup/templateSubType/brand/exactMatch filters
- * - searchFaq       → productFaqTable.question+answer semantic search
+ *                     slotExtractor inline (priceMin/priceMax)
+ * - searchFaq       → product/brand/category scope + SKU-bypass + confidence tier
  *
- * ### Yapısal lookup
- * - getProductDetails(sku)            → master + specs + faq + content (4 tablo JOIN)
- * - getApplicationGuide(sku)          → content + master join (url, productName)
- * - searchByPriceRange({min,max,...}) → master üzerinde fiyat + filter
- * - getRelatedProducts(sku, type)     → relations tablosundan SKU → master JOIN
+ * ### Yapısal lookup (microservice: /products/*)
+ * - getProductDetails(sku)            → /products/:sku — full payload (specs + faqs[] + variants[])
+ * - getApplicationGuide(sku)          → /products/:sku/guide — hafif payload + videoCard
+ * - getRelatedProducts(sku, type)     → /products/:sku/related?relationType=X — 5 granular type
+ * - searchByPriceRange({min,max,...}) → /search/price — range filter, artan sıra
+ * - searchByRating({metric,...})      → /search/rating — specs.ratings JSONB üzerinden top-N
  *
- * ### Mimari not
- * Botpress Tables'ın built-in vector search'ü `searchable: true` kolonlara
- * (sku + search_text) otomatik uygulanır. `client.findTableRows({search})` ile
- * doğrudan similarity tabanlı sorgulanır — Knowledge Base abstraction'ına
- * gerek yok.
+ * ### Mimari (Phase 4 sonrası)
+ * Tüm tool'lar `retrievalClient` üzerinden HTTP call atar. Botpress Tables
+ * bağımlılığı kalmadı. 3s timeout, Bearer auth, hard cutover (5xx → throw).
  *
  * compareProducts eklenmedi: LLM getProductDetails'i 2 kez çağırarak aynı işi
  * yapar; heterojen spec şemaları için ayrı tool karmaşa yaratıyor.

@@ -2,10 +2,11 @@ import { Autonomous, z } from '@botpress/runtime';
 import { retrievalClient } from '../lib/retrieval-client.ts';
 
 /**
- * searchFaq — Ürün başına SSS (2,119 kayıt) üzerinde semantic arama.
+ * searchFaq — Ürün/marka/kategori FAQ'larında (3,156 kayıt) semantic arama.
  *
- * productFaqTable'da `searchable: true` olan `sku`, `question`, `answer`
- * kolonları üzerinde findTableRows({ search }) ile semantic eşleştirme yapar.
+ * Phase 4 cutover: microservice `/faq` endpoint hybrid retrieval (BM25 + vector)
+ * çalıştırır, SKU-bypass + confidence tier logic server-side. v9.2 davranışı
+ * microservice'te aynen korundu.
  *
  * Bu tool, kullanıcı "X kullanılabilir mi", "X ile uyumlu mu", "X silikon
  * içeriyor mu" gibi NÜANSLI teknik sorular sorduğunda devreye girer.

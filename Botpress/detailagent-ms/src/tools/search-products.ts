@@ -159,7 +159,7 @@ export const searchProducts = new Autonomous.Tool({
       .nullable()
       .optional()
       .describe(
-        "productMetaTable'dan spesifik özellik filtresi. SADECE KULLANICI AÇIKÇA ÖZELLİK " +
+        "Microservice meta EAV filtresi. SADECE KULLANICI AÇIKÇA ÖZELLİK " +
           "SORDUĞUNDA kullan. Örnekler:\n" +
           "- 'silikonsuz heavy cut' → [{key:'silicone_free', op:'eq', value:true}]\n" +
           "- 'pH nötr şampuan' → [{key:'ph_level', op:'gte', value:6.5}, " +

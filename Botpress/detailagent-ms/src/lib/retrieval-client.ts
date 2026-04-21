@@ -64,6 +64,10 @@ export class RetrievalClient {
     return request<T>('GET', `/products/${encodeURIComponent(sku)}`);
   }
 
+  async getGuide<T = unknown>(sku: string): Promise<T> {
+    return request<T>('GET', `/products/${encodeURIComponent(sku)}/guide`);
+  }
+
   async getRelated<T = unknown>(
     sku: string,
     relationType: string,

@@ -12,7 +12,7 @@ import { retrievalClient } from '../lib/retrieval-client.ts';
  *     templateGroup='ceramic_coating', limit=3
  *   - "Boncuklanma puanı en yüksek ürünler" → metric='beading', limit=5
  *
- * Veri kaynağı: productSpecsTable.specs_object JSON içindeki `ratings` alanı.
+ * Veri kaynağı: products.specs JSONB içindeki `ratings` alanı (microservice tarafında).
  * 28 GYEON ürünü (Faz 3d enrichment) ratings'e sahip. Diğer markalar için
  * ratings null — karşılaştırmaya dahil edilmez.
  */
