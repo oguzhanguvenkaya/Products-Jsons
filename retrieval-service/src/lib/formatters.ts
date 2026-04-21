@@ -240,3 +240,34 @@ export function targetSurfaceToString(
 export function variantsFromRow(row: ProductRow): SizeVariant[] {
   return row.sizes ?? [];
 }
+
+// ─────────────────────────────────────────────────────────────────
+// Video card — YouTube Carousel item for getApplicationGuide
+// ─────────────────────────────────────────────────────────────────
+
+export function formatVideoCard(
+  videoUrl: string | null | undefined,
+  productName: string,
+): CarouselItem | null {
+  if (!videoUrl) return null;
+  const trimmed = videoUrl.trim();
+  if (!trimmed) return null;
+
+  const byeMatch = trimmed.match(/youtu\.be\/([^?&/]+)/);
+  const wwwMatch = trimmed.match(/[?&]v=([^&]+)/);
+  const videoId = byeMatch?.[1] ?? wwwMatch?.[1] ?? null;
+  if (!videoId) return null;
+
+  return {
+    title: `${productName} — Uygulama Videosu`,
+    subtitle: 'Üretici resmi rehberi',
+    imageUrl: `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`,
+    actions: [
+      {
+        action: 'url' as const,
+        label: '▶ Videoyu İzle',
+        value: trimmed,
+      },
+    ],
+  };
+}

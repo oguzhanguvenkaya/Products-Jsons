@@ -234,6 +234,28 @@ export const ProductDetailsSchema = z.object({
 export type ProductDetails = z.infer<typeof ProductDetailsSchema>;
 
 // ─────────────────────────────────────────────────────────────────
+// /products/:sku/guide — getApplicationGuide mirror (hafif payload + videoCard)
+// ─────────────────────────────────────────────────────────────────
+
+export const ProductGuideSchema = z.object({
+  sku: z.string(),
+  productName: z.string(),
+  brand: z.string(),
+  price: z.number(),
+  imageUrl: z.string().nullable(),
+  url: z.string(),
+  targetSurface: z.string().nullable(),
+  templateGroup: z.string(),
+  templateSubType: z.string(),
+  howToUse: z.string().nullable(),
+  whenToUse: z.string().nullable(),
+  whyThisProduct: z.string().nullable(),
+  fullDescription: z.string().nullable(),
+  videoCard: CarouselItemSchema.nullable(),
+});
+export type ProductGuide = z.infer<typeof ProductGuideSchema>;
+
+// ─────────────────────────────────────────────────────────────────
 // /products/:sku/related — getRelatedProducts mirror
 // ─────────────────────────────────────────────────────────────────
 
@@ -333,6 +355,7 @@ export interface ProductRow {
   sizes: SizeVariant[] | null;
   variant_skus: string[] | null;
   is_featured: boolean | null;
+  video_url?: string | null;
 }
 
 export interface ProductSearchRow {

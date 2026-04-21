@@ -109,6 +109,7 @@ async function main() {
       specs: Object.keys(specsJson).length > 0 ? specsJson : null,
       sizes: sizesJson,
       variant_skus: variantSkus.length > 0 ? variantSkus : null,
+      video_url: m.video_url?.trim() ? m.video_url.trim() : null,
     };
   });
 
@@ -124,7 +125,7 @@ async function main() {
         'sku', 'name', 'brand', 'main_cat', 'sub_cat', 'sub_cat2',
         'template_group', 'template_sub_type', 'target_surface',
         'price', 'rating', 'url', 'image_url',
-        'full_description', 'specs', 'sizes', 'variant_skus',
+        'full_description', 'specs', 'sizes', 'variant_skus', 'video_url',
       )}
       ON CONFLICT (sku) DO UPDATE SET
         name = EXCLUDED.name,
@@ -142,6 +143,7 @@ async function main() {
         specs = EXCLUDED.specs,
         sizes = EXCLUDED.sizes,
         variant_skus = EXCLUDED.variant_skus,
+        video_url = EXCLUDED.video_url,
         updated_at = now()
     `;
     inserted += batch.length;

@@ -16,11 +16,13 @@ import { sql } from '../lib/db.ts';
 import type { ProductRow, FaqRow } from '../types.ts';
 import {
   ProductDetailsSchema,
+  ProductGuideSchema,
   RelatedInputSchema,
   RelatedResultSchema,
 } from '../types.ts';
 import {
   asNumber,
+  formatVideoCard,
   targetSurfaceToString,
   toCarouselItemsWithVariants,
   toLiteProductSummary,
@@ -43,7 +45,7 @@ async function findProductByAnySku(inputSku: string): Promise<ProductRow | null>
            template_group, template_sub_type, target_surface,
            price, rating, stock_status, url, image_url,
            short_description, full_description, specs, sizes,
-           variant_skus, is_featured
+           variant_skus, is_featured, video_url
     FROM products
     WHERE sku = ${inputSku}
     LIMIT 1
@@ -56,7 +58,7 @@ async function findProductByAnySku(inputSku: string): Promise<ProductRow | null>
            template_group, template_sub_type, target_surface,
            price, rating, stock_status, url, image_url,
            short_description, full_description, specs, sizes,
-           variant_skus, is_featured
+           variant_skus, is_featured, video_url
     FROM products
     WHERE ${inputSku} = ANY(variant_skus)
     LIMIT 1
@@ -118,6 +120,51 @@ productsRoutes.get('/products/:sku', async (c) => {
   });
 
   return c.json(details);
+});
+
+// ─────────────────────────────────────────────────────────────────
+// GET /products/:sku/guide
+//
+// getApplicationGuide tool mirror: hafif payload (14 alan) + videoCard.
+// getProductDetails'in faqs[] + technicalSpecs + variants[] alanlarını
+// DÖNMEZ — "nasıl uygulanır" sorularında LLM context'i 3-4x daha küçük.
+// ─────────────────────────────────────────────────────────────────
+
+productsRoutes.get('/products/:sku/guide', async (c) => {
+  const inputSku = c.req.param('sku');
+
+  const row = await findProductByAnySku(inputSku);
+  if (!row) {
+    return c.json(
+      {
+        error: 'product_not_found',
+        sku: inputSku,
+        request_id: c.get('requestId'),
+      },
+      404,
+    );
+  }
+
+  const unpacked = unpackProductContent(row.specs);
+
+  const guide = ProductGuideSchema.parse({
+    sku: row.sku,
+    productName: row.name,
+    brand: row.brand ?? '',
+    price: asNumber(row.price),
+    imageUrl: row.image_url,
+    url: row.url ?? '',
+    targetSurface: targetSurfaceToString(row.target_surface),
+    templateGroup: row.template_group ?? '',
+    templateSubType: row.template_sub_type ?? '',
+    howToUse: unpacked.howToUse,
+    whenToUse: unpacked.whenToUse,
+    whyThisProduct: unpacked.whyThisProduct,
+    fullDescription: row.full_description,
+    videoCard: formatVideoCard(row.video_url, row.name),
+  });
+
+  return c.json(guide);
 });
 
 // ─────────────────────────────────────────────────────────────────
