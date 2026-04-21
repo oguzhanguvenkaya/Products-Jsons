@@ -71,9 +71,25 @@ function wordBoundaryRegex(phrase: string): RegExp {
   return new RegExp(`(?:^|\\s)${escapeRegex(phrase)}(?=\\s|$)`, 'i');
 }
 
+/**
+ * Collapse Turkish dotless-ı ↔ dotted-i ambiguity so typos like "polısaj"
+ * still match the "polisaj" synonym entry. Done here (not in
+ * turkishNormalize) because the two letters are semantically distinct in
+ * Turkish and we don't want to lose that elsewhere (e.g. "kırık" vs
+ * "kirik"). Synonym matching is a forgiving layer, so collapse here.
+ */
+function foldDotlessI(s: string): string {
+  return s.replace(/ı/g, 'i');
+}
+
 function containsPhrase(haystack: string, phrase: string): boolean {
   if (!phrase) return false;
-  return wordBoundaryRegex(phrase).test(haystack);
+  if (wordBoundaryRegex(phrase).test(haystack)) return true;
+  // Typo-tolerant pass: collapse ı→i on both sides and retry.
+  const folded = foldDotlessI(haystack);
+  const foldedPhrase = foldDotlessI(phrase);
+  if (folded === haystack && foldedPhrase === phrase) return false;
+  return wordBoundaryRegex(foldedPhrase).test(folded);
 }
 
 /**

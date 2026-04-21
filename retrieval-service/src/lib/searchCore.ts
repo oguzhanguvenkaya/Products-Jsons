@@ -192,10 +192,14 @@ export async function searchPureVector(
   const { vector, cached } = await cachedEmbed(input.query, embedText);
   const vlit = vectorLiteral(vector);
 
+  // Slot extraction — give pure_vector the same sub_type inference as
+  // hybrid (issue #3, #10).
+  const slotsPure = extractSlots(input.query);
+
   // 3. SQL with filters; postgres.js handles NULL short-circuits.
-  const tg = input.templateGroup ?? null;
-  const tst = input.templateSubType ?? null;
-  const br = input.brand ?? null;
+  const tg = input.templateGroup ?? slotsPure.templateGroup ?? null;
+  const tst = input.templateSubType ?? slotsPure.templateSubType ?? null;
+  const br = input.brand ?? slotsPure.brand ?? null;
   const mc = input.mainCat ?? null;
   const sc = input.subCat ?? null;
   const skuList = allowSkus ? [...allowSkus] : null;
@@ -368,8 +372,12 @@ export async function searchHybrid(
   const priceMax = slots.priceMax ?? null;
 
   const allowArr = allowSet ? [...allowSet] : null;
-  const tg = input.templateGroup ?? null;
-  const tst = input.templateSubType ?? null;
+  // Inferred taxonomy: sub_type extraction (issue #3, #10) — if the LLM
+  // did not pass templateGroup/templateSubType but the query clearly
+  // implies one (e.g. "cam kaplama" → glass_coating, "kalın pasta" →
+  // heavy_cut_compound), use the inferred slot. Explicit input wins.
+  const tg = input.templateGroup ?? slots.templateGroup ?? null;
+  const tst = input.templateSubType ?? slots.templateSubType ?? null;
   const mc = input.mainCat ?? null;
   const sc = input.subCat ?? null;
 
@@ -484,8 +492,8 @@ export async function searchHybrid(
     productSummaries,
     totalReturned: filtered.length,
     filtersApplied: {
-      templateGroup: input.templateGroup ?? null,
-      templateSubType: input.templateSubType ?? null,
+      templateGroup: tg,
+      templateSubType: tst,
       brand: effectiveBrand,
       exactMatch: input.exactMatch ?? null,
     },
@@ -513,6 +521,8 @@ export async function searchHybrid(
           priceMin: slots.priceMin ?? null,
           priceMax: slots.priceMax ?? null,
           ratingHint: slots.ratingHint ?? null,
+          templateSubType: slots.templateSubType ?? null,
+          templateGroup: slots.templateGroup ?? null,
         },
         metaAllowListSize: allowSet?.size ?? null,
       },
