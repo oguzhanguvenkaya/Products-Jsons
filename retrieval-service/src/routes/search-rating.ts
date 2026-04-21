@@ -1,11 +1,17 @@
 /**
- * POST /search/rating — Manufacturer rating top-N.
+ * POST /search/rating — Manufacturer rating top-N with durability fallback.
  *
- * Mirrors the Botpress searchByRating tool. Supabase `products.specs`
- * JSONB holds a `ratings` object with `durability`, `beading`,
- * `self_cleaning` keys (mostly seeded for GYEON Phase 3d enrichment;
- * other brands carry nulls). We extract the chosen metric inline
- * with the jsonb path operator and return descending by rating.
+ * Phase 4 revision (issue #8): specs.ratings is subjective 1-5 and sparse
+ * (only 15/23 ceramic_coating products carry it; some brands have none).
+ * specs.durability_months is objective and more broadly populated. For
+ * `metric='durability'` we now rank by a composite: COALESCE(ratings.durability
+ * normalized, durability_months / 12) — preserving rating-ordered results
+ * where available, but surfacing MX-PRO / INNOVACAR etc. that lack ratings
+ * but have concrete month/km durability figures.
+ *
+ * Response also includes specs.durability_months, specs.durability_km, and
+ * specs.hardness so the LLM can cite concrete numbers rather than just
+ * the subjective rating.
  */
 
 import { Hono } from 'hono';
@@ -33,6 +39,9 @@ interface RatingRow {
   durability: string | number | null;
   beading: string | number | null;
   self_cleaning: string | number | null;
+  durability_months: string | number | null;
+  durability_km: string | number | null;
+  hardness: string | null;
   total_candidates: string | number;
 }
 
@@ -61,29 +70,56 @@ searchRatingRoutes.post(
   async (c) => {
     const { metric, templateGroup, limit } = c.req.valid('json');
 
-    // Extract the chosen metric via jsonb path. The total_candidates
-    // window function gives us the pre-LIMIT count without a second
-    // roundtrip. `tg` is explicitly cast to text so postgres.js can
-    // bind NULL.
     const tg = templateGroup ?? null;
-    const rows = await sql<RatingRow[]>`
-      SELECT sku,
-             name,
-             brand,
-             price,
-             url,
-             image_url,
-             (specs #>> ARRAY['ratings', ${metric}])::numeric AS rating_value,
-             (specs #>> ARRAY['ratings','durability'])::numeric AS durability,
-             (specs #>> ARRAY['ratings','beading'])::numeric AS beading,
-             (specs #>> ARRAY['ratings','self_cleaning'])::numeric AS self_cleaning,
-             COUNT(*) OVER () AS total_candidates
-      FROM products
-      WHERE specs #>> ARRAY['ratings', ${metric}] IS NOT NULL
-        AND (${tg}::text IS NULL OR template_group = ${tg})
-      ORDER BY rating_value DESC NULLS LAST, name ASC
-      LIMIT ${limit}
-    `;
+
+    // Durability metric: composite sort so products with concrete
+    // durability_months (but no rating) still surface. Rating scale 1-5,
+    // months scale 12-60 — we normalize months to a 0-5.5 scale via /10.
+    // Other metrics (beading, self_cleaning) keep the rating-only sort.
+    let rows: RatingRow[];
+    if (metric === 'durability') {
+      rows = await sql<RatingRow[]>`
+        SELECT sku, name, brand, price, url, image_url,
+               (specs #>> ARRAY['ratings','durability'])::numeric AS rating_value,
+               (specs #>> ARRAY['ratings','durability'])::numeric AS durability,
+               (specs #>> ARRAY['ratings','beading'])::numeric    AS beading,
+               (specs #>> ARRAY['ratings','self_cleaning'])::numeric AS self_cleaning,
+               (specs ->> 'durability_months')::numeric AS durability_months,
+               (specs ->> 'durability_km')::numeric     AS durability_km,
+                specs ->> 'hardness'                    AS hardness,
+               COUNT(*) OVER () AS total_candidates
+        FROM products
+        WHERE (
+                specs #>> ARRAY['ratings','durability'] IS NOT NULL
+                OR specs ->> 'durability_months' IS NOT NULL
+              )
+          AND (${tg}::text IS NULL OR template_group = ${tg})
+        ORDER BY
+          COALESCE(
+            (specs #>> ARRAY['ratings','durability'])::numeric,
+            (specs ->> 'durability_months')::numeric / 10.0
+          ) DESC NULLS LAST,
+          name ASC
+        LIMIT ${limit}
+      `;
+    } else {
+      rows = await sql<RatingRow[]>`
+        SELECT sku, name, brand, price, url, image_url,
+               (specs #>> ARRAY['ratings', ${metric}])::numeric AS rating_value,
+               (specs #>> ARRAY['ratings','durability'])::numeric AS durability,
+               (specs #>> ARRAY['ratings','beading'])::numeric    AS beading,
+               (specs #>> ARRAY['ratings','self_cleaning'])::numeric AS self_cleaning,
+               (specs ->> 'durability_months')::numeric AS durability_months,
+               (specs ->> 'durability_km')::numeric     AS durability_km,
+                specs ->> 'hardness'                    AS hardness,
+               COUNT(*) OVER () AS total_candidates
+        FROM products
+        WHERE specs #>> ARRAY['ratings', ${metric}] IS NOT NULL
+          AND (${tg}::text IS NULL OR template_group = ${tg})
+        ORDER BY rating_value DESC NULLS LAST, name ASC
+        LIMIT ${limit}
+      `;
+    }
 
     const totalCandidates = rows[0]
       ? Number(rows[0].total_candidates)
@@ -92,9 +128,19 @@ searchRatingRoutes.post(
     const rankedProducts: RankedProduct[] = rows.map((r) => {
       const price = toNumberOrNull(r.price) ?? 0;
       const rv = toNumberOrNull(r.rating_value) ?? 0;
+      const months = toNumberOrNull(r.durability_months);
+      const km = toNumberOrNull(r.durability_km);
       const label = metricLabel(metric);
       const url = (r.url ?? '').trim();
-      const subtitle = `${r.brand ?? ''} \u2022 ${label}: ${rv} \u2022 ${formatPriceTL(price)} TL`;
+
+      // Subtitle prefers concrete data: "GYEON • 50 ay / 50.000 km • 7.250 TL"
+      // Falls back to rating if no months data.
+      const durabilityBadge =
+        metric === 'durability' && months != null
+          ? `${months} ay${km != null ? ` / ${km.toLocaleString('tr-TR')} km` : ''}`
+          : `${label}: ${rv}`;
+      const subtitle = `${r.brand ?? ''} • ${durabilityBadge} • ${formatPriceTL(price)} TL`;
+
       return {
         sku: r.sku,
         productName: r.name,
@@ -105,6 +151,9 @@ searchRatingRoutes.post(
           beading: toNumberOrNull(r.beading),
           self_cleaning: toNumberOrNull(r.self_cleaning),
         },
+        durabilityMonths: months,
+        durabilityKm: km,
+        hardness: r.hardness,
         price,
         url,
         imageUrl: r.image_url,

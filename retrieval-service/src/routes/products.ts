@@ -204,8 +204,8 @@ productsRoutes.get(
       LIMIT 20
     `;
 
-    const carouselItems = related.flatMap(toCarouselItemsWithVariants);
-    const textFallbackLines = related.flatMap(toTextFallbackLinesFromVariants);
+    const carouselItems = related.flatMap((r) => toCarouselItemsWithVariants(r));
+    const textFallbackLines = related.flatMap((r) => toTextFallbackLinesFromVariants(r));
     const productSummaries = related.map(toLiteProductSummary);
 
     const result = RelatedResultSchema.parse({

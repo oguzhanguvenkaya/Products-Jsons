@@ -1,12 +1,12 @@
 /**
- * formatters.ts — DB row → bot-facing response transformers.
+ * formatters.ts — DB row to bot-facing response transformers.
  *
  * Botpress runtime rejects Carousel actions where `value` is empty,
  * so all URL handling funnels through `hasRenderableUrl`. URL-less
  * products fall through to `textFallbackLines`.
  *
  * Price formatting matches the bot: "tr-TR" locale, no currency
- * symbol on the number, " • " between brand and price in subtitles.
+ * symbol on the number, bullet between brand and price in subtitles.
  */
 
 import type {
@@ -54,6 +54,22 @@ function baseNameFromRow(row: ProductRow): string {
 }
 
 // ─────────────────────────────────────────────────────────────────
+// Variant price filter (issue #9 — post-SELECT per-variant bounds)
+// ─────────────────────────────────────────────────────────────────
+
+export interface VariantFilter {
+  minPrice?: number | null;
+  maxPrice?: number | null;
+}
+
+function withinPriceRange(price: number, filter?: VariantFilter): boolean {
+  if (!filter) return true;
+  if (filter.minPrice != null && price < filter.minPrice) return false;
+  if (filter.maxPrice != null && price > filter.maxPrice) return false;
+  return true;
+}
+
+// ─────────────────────────────────────────────────────────────────
 // Carousel / text fallback
 // ─────────────────────────────────────────────────────────────────
 
@@ -67,7 +83,7 @@ export function toCarouselItem(row: ProductRow): CarouselItem | null {
   const brand = row.brand ?? '';
   return {
     title: row.name,
-    subtitle: `${brand} \u2022 ${formatPriceTL(price)} TL`,
+    subtitle: `${brand} • ${formatPriceTL(price)} TL`,
     imageUrl: row.image_url ?? undefined,
     actions: [
       {
@@ -82,15 +98,22 @@ export function toCarouselItem(row: ProductRow): CarouselItem | null {
 /**
  * Builds one Carousel card per size variant (v8.5 pattern).
  * If sizes is empty, falls back to a single card from the product row.
+ *
+ * Optional `variantFilter` applies post-SELECT price bounds per-variant
+ * so that e.g. a 1500-2500 TL query does not leak a 600 TL 250ml variant
+ * of a 1700 TL primary.
  */
 export function toCarouselItemsWithVariants(
   row: ProductRow,
+  variantFilter?: VariantFilter,
 ): CarouselItem[] {
   const brand = row.brand ?? '';
   const baseName = baseNameFromRow(row);
   const sizes = row.sizes ?? [];
 
   if (sizes.length === 0) {
+    const price = asNumber(row.price);
+    if (!withinPriceRange(price, variantFilter)) return [];
     const single = toCarouselItem(row);
     return single ? [single] : [];
   }
@@ -98,11 +121,12 @@ export function toCarouselItemsWithVariants(
   const items: CarouselItem[] = [];
   for (const s of sizes) {
     if (!hasRenderableUrl(s.url)) continue;
+    if (!withinPriceRange(s.price, variantFilter)) continue;
     const sizeLabel = s.size_display ? ` — ${s.size_display}` : '';
     const title = sizes.length > 1 ? `${baseName}${sizeLabel}` : baseName;
     items.push({
       title,
-      subtitle: `${brand} \u2022 ${formatPriceTL(s.price)} TL`,
+      subtitle: `${brand} • ${formatPriceTL(s.price)} TL`,
       imageUrl: s.image_url || undefined,
       actions: [
         {
@@ -127,18 +151,21 @@ export function toTextFallbackLine(row: ProductRow): TextFallbackLine {
 
 export function toTextFallbackLinesFromVariants(
   row: ProductRow,
+  variantFilter?: VariantFilter,
 ): TextFallbackLine[] {
   const brand = row.brand ?? '';
   const baseName = baseNameFromRow(row);
   const sizes = row.sizes ?? [];
 
   if (sizes.length === 0) {
+    if (!withinPriceRange(asNumber(row.price), variantFilter)) return [];
     return hasRenderableUrl(row.url) ? [] : [toTextFallbackLine(row)];
   }
 
   const out: TextFallbackLine[] = [];
   for (const s of sizes) {
     if (hasRenderableUrl(s.url)) continue;
+    if (!withinPriceRange(s.price, variantFilter)) continue;
     const sizeLabel = s.size_display ? ` — ${s.size_display}` : '';
     const title = sizes.length > 1 ? `${baseName}${sizeLabel}` : baseName;
     out.push({

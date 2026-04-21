@@ -49,8 +49,16 @@ searchPriceRoutes.post(
       LIMIT ${limit}
     `;
 
-    const carouselItems = rows.flatMap(toCarouselItemsWithVariants);
-    const textFallbackLines = rows.flatMap(toTextFallbackLinesFromVariants);
+    const variantFilter = {
+      minPrice: minPrice ?? null,
+      maxPrice: maxPrice ?? null,
+    };
+    const carouselItems = rows.flatMap((r) =>
+      toCarouselItemsWithVariants(r, variantFilter),
+    );
+    const textFallbackLines = rows.flatMap((r) =>
+      toTextFallbackLinesFromVariants(r, variantFilter),
+    );
     const productSummaries = rows.map(toLiteProductSummary);
 
     const result = PriceSearchResultSchema.parse({

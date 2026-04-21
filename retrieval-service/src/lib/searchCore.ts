@@ -227,9 +227,9 @@ export async function searchPureVector(
     : rows.slice(0, limit);
 
   // 5. Format
-  const carouselItems = filtered.flatMap(toCarouselItemsWithVariants);
-  const textFallbackLines = filtered.flatMap(
-    toTextFallbackLinesFromVariants,
+  const carouselItems = filtered.flatMap((r) => toCarouselItemsWithVariants(r));
+  const textFallbackLines = filtered.flatMap((r) =>
+    toTextFallbackLinesFromVariants(r),
   );
   const productSummaries = filtered.map((r) =>
     toProductSummary({
@@ -466,9 +466,9 @@ export async function searchHybrid(
     : poolAfterBoost.slice(0, limit);
 
   // 6. Format
-  const carouselItems = filtered.flatMap(toCarouselItemsWithVariants);
-  const textFallbackLines = filtered.flatMap(
-    toTextFallbackLinesFromVariants,
+  const carouselItems = filtered.flatMap((r) => toCarouselItemsWithVariants(r));
+  const textFallbackLines = filtered.flatMap((r) =>
+    toTextFallbackLinesFromVariants(r),
   );
   const productSummaries = filtered.map((r) =>
     toProductSummary({

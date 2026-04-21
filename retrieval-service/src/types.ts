@@ -279,10 +279,10 @@ export type RelatedResult = z.infer<typeof RelatedResultSchema>;
 // ─────────────────────────────────────────────────────────────────
 
 export const PriceSearchInputSchema = z.object({
-  minPrice: z.number().int().optional(),
-  maxPrice: z.number().int().optional(),
-  templateGroup: z.string().optional(),
-  brand: z.string().optional(),
+  minPrice: z.number().int().nullable().optional(),
+  maxPrice: z.number().int().nullable().optional(),
+  templateGroup: z.string().nullable().optional(),
+  brand: z.string().nullable().optional(),
   limit: z.number().int().min(1).max(20).default(10),
 });
 export type PriceSearchInput = z.infer<typeof PriceSearchInputSchema>;
@@ -316,6 +316,9 @@ export const RankedProductSchema = z.object({
     beading: z.number().nullable(),
     self_cleaning: z.number().nullable(),
   }),
+  durabilityMonths: z.number().nullable().optional(),
+  durabilityKm: z.number().nullable().optional(),
+  hardness: z.string().nullable().optional(),
   price: z.number(),
   url: z.string(),
   imageUrl: z.string().nullable(),
