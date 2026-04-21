@@ -15,7 +15,9 @@
     "seed:relations": "bun scripts/seed-relations.ts",
     "seed:meta": "bun scripts/seed-meta.ts",
     "embed:products": "bun scripts/embed-products.ts",
-    "embed:faqs": "bun scripts/embed-faqs.ts"
+    "embed:faqs": "bun scripts/embed-faqs.ts",
+    "eval:build": "bun eval/build-corpus.ts",
+    "eval": "bun eval/run-eval.ts"
   },
   "dependencies": {
     "@google/genai": "^1.30.0",
