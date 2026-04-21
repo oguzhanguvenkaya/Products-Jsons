@@ -273,6 +273,32 @@ export async function searchPureVector(
 const HYBRID_CANDIDATE_LIMIT = 50;
 const HYBRID_RRF_K = 60;
 
+// Business boost multipliers. Applied post-RRF so the fusion math
+// stays clean and tunable in Step 3.10.
+const BOOST_RATING_COEF = 0.08; // rating/5 scaled by this (max +8%).
+const BOOST_IN_STOCK = 1.05;
+const BOOST_OUT_OF_STOCK = 0.85;
+const BOOST_FEATURED = 1.1;
+
+/**
+ * Applies rating / stock / featured multipliers on top of an RRF
+ * score. A rating of 0 or null treats as neutral (3/5 default) so we
+ * don't penalize products that simply aren't rated yet.
+ */
+function applyBusinessBoost(
+  rrfScore: number,
+  row: Pick<ProductRow, 'rating' | 'stock_status' | 'is_featured'>,
+): number {
+  const rating = row.rating == null ? 3 : Number(row.rating);
+  const ratingMultiplier = 1 + (BOOST_RATING_COEF * rating) / 5;
+  const stockMultiplier =
+    row.stock_status === 'in_stock' || row.stock_status == null
+      ? BOOST_IN_STOCK
+      : BOOST_OUT_OF_STOCK;
+  const featuredMultiplier = row.is_featured ? BOOST_FEATURED : 1;
+  return rrfScore * ratingMultiplier * stockMultiplier * featuredMultiplier;
+}
+
 /**
  * Fetches full ProductRow + search_text for a SKU list, preserving
  * order via a `array_position` ORDER BY. Used after RRF to hydrate
@@ -390,14 +416,17 @@ export async function searchHybrid(
     { k: HYBRID_RRF_K },
   );
 
-  // Hydrate top (fetchLimit for exactMatch buffer, else limit).
-  const fetchLimit = input.exactMatch
+  // Hydrate a wider candidate set so the business-boost re-rank
+  // has something to work with. We pull up to 20 candidates from
+  // the fused list (or more when exactMatch oversamples), re-rank,
+  // then slice to `limit`.
+  const rerankPoolSize = input.exactMatch
     ? Math.max(limit * OVERSAMPLE_FACTOR, 20)
-    : limit;
-  const topSkus = fused.slice(0, fetchLimit).map((f) => f.sku);
+    : Math.max(limit * 4, 20);
+  const topSkus = fused.slice(0, rerankPoolSize).map((f) => f.sku);
   const hydrated = await hydrateByRankedSkus(topSkus);
 
-  // Attach per-row fused score for downstream boost / tie-break.
+  // Attach per-row fused score + cosine similarity for downstream use.
   const rrfLookup = new Map<string, number>();
   for (const f of fused) rrfLookup.set(f.sku, f.rrf_score);
   const vecLookup = new Map<string, number>();
@@ -409,10 +438,32 @@ export async function searchHybrid(
     row.similarity = vecLookup.get(row.sku) ?? 0;
   }
 
-  // 5. Post-filter (exactMatch) — preserves RRF order within matches.
+  // 4b. Business boost: rating × stock × featured multipliers.
+  // Re-rank within the hydrated pool; this can change the top-N
+  // ordering vs. pure RRF. Ties broken by cosine similarity then SKU.
+  const boosted = hydrated
+    .map((row) => {
+      const baseScore = rrfLookup.get(row.sku) ?? 0;
+      const finalScore = applyBusinessBoost(baseScore, row);
+      return { row, baseScore, finalScore };
+    })
+    .sort((a, b) => {
+      if (b.finalScore !== a.finalScore) return b.finalScore - a.finalScore;
+      if (b.row.similarity !== a.row.similarity)
+        return b.row.similarity - a.row.similarity;
+      return a.row.sku.localeCompare(b.row.sku);
+    })
+    .map((b) => b.row);
+
+  // Trim to `limit` (exactMatch still operates on oversampled pool).
+  const poolAfterBoost = input.exactMatch
+    ? boosted
+    : boosted.slice(0, Math.max(limit * 2, limit));
+
+  // 5. Post-filter (exactMatch) — preserves boosted order within matches.
   const filtered = input.exactMatch
-    ? applyExactMatch(hydrated, input.exactMatch, limit)
-    : hydrated.slice(0, limit);
+    ? applyExactMatch(poolAfterBoost, input.exactMatch, limit)
+    : poolAfterBoost.slice(0, limit);
 
   // 6. Format
   const carouselItems = filtered.flatMap(toCarouselItemsWithVariants);
@@ -446,10 +497,16 @@ export async function searchHybrid(
       slots: {
         embedCached: cached,
         oversampled: Boolean(input.exactMatch),
-        fetchLimit,
+        rerankPoolSize,
         rrfK: HYBRID_RRF_K,
         mergedCount: fused.length,
         topRrfScore: fused[0]?.rrf_score ?? null,
+        businessBoost: {
+          ratingCoef: BOOST_RATING_COEF,
+          inStock: BOOST_IN_STOCK,
+          outOfStock: BOOST_OUT_OF_STOCK,
+          featured: BOOST_FEATURED,
+        },
         addedAliases: expanded.addedAliases,
         extractedSlots: {
           brand: slots.brand ?? null,
