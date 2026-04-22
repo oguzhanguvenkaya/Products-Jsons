@@ -47,7 +47,7 @@ export type SampleProduct = {
   brand: string;
   price: number;
   image_url: string | null;
-  url: string;
+  url: string | null;
   template_group: string;
   template_sub_type: string;
   target_surface: string | null;
@@ -74,7 +74,7 @@ export const SAMPLE_PRODUCTS: Record<string, SampleProduct> = {
     brand: "GYEON",
     price: 3650,
     image_url: null,
-    url: "https://mtskimya.com/products/gyeon-onelight-evo",
+    url: null,
     template_group: "ceramic_coating",
     template_sub_type: "paint_coating",
     target_surface: "Boya",
@@ -203,7 +203,7 @@ export const SAMPLE_PRODUCTS: Record<string, SampleProduct> = {
     brand: "MENZERNA",
     price: 750,
     image_url: null,
-    url: "https://mtskimya.com/products/menzerna-400",
+    url: null,
     template_group: "abrasive_polish",
     template_sub_type: "heavy_cut_compound",
     target_surface: "Boya",
@@ -293,7 +293,7 @@ export const SAMPLE_PRODUCTS: Record<string, SampleProduct> = {
     brand: "MX-PRO",
     price: 3400,
     image_url: null,
-    url: "https://mtskimya.com/products/mxpro-diamond",
+    url: null,
     template_group: "ceramic_coating",
     template_sub_type: "paint_coating_kit",
     target_surface: "Boya",

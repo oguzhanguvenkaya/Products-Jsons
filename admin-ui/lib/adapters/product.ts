@@ -71,7 +71,7 @@ export function liveToSampleProduct(
     brand: p.brand ?? "(no brand)",
     price: p.price ?? 0,
     image_url: p.imageUrl,
-    url: p.url ?? "#",
+    url: p.url ?? null,
     template_group: p.templateGroup ?? "(null)",
     template_sub_type: p.templateSubType ?? "(null)",
     target_surface: Array.isArray(p.targetSurface)

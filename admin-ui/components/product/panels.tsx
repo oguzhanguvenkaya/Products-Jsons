@@ -1,13 +1,23 @@
-import { ExternalLink, Info, Share2, History, MessageCircleQuestion, Ruler, Tag } from "lucide-react";
+import { ExternalLink, Info, Share2, History, MessageCircleQuestion, Ruler, Tag, ImageOff } from "lucide-react";
 import type { SampleProduct, Faq, Relation, HistoryEvent, Variant } from "@/lib/data/sample-products";
 import { cn } from "@/lib/utils";
 import { EditableCell } from "@/components/edit/editable-cell";
 
 const fmtTL = (n: number) => `${n.toLocaleString("tr-TR")} TL`;
 
+function shortHost(url: string | null | undefined): string {
+  if (!url) return "—";
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return url.slice(0, 30) + "…";
+  }
+}
+
 /* -------------------------------------------------- Info panel */
 
 export function InfoPanel({ product: p }: { product: SampleProduct }) {
+  const hasUrl = !!p.url && p.url !== "#";
   const rows: Array<[string, React.ReactNode]> = [
     ["SKU", <code className="font-mono text-[12px]">{p.sku}</code>],
     ["Marka", p.brand],
@@ -39,21 +49,36 @@ export function InfoPanel({ product: p }: { product: SampleProduct }) {
     ],
     ["Variant sayısı", p.sizes.length],
     [
-      "URL",
-      <a
-        href={p.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-1 text-terracotta-600 hover:text-terracotta-700"
-      >
-        mtskimya.com <ExternalLink className="size-3" />
-      </a>,
+      "Mağaza linki",
+      hasUrl && p.url ? (
+        <a
+          href={p.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="group inline-flex max-w-full items-center gap-1.5 rounded-md border border-border bg-cream-100 px-2 py-1 text-[12px] text-terracotta-600 hover:border-terracotta-500/50 hover:text-terracotta-700"
+          title={p.url}
+        >
+          <ExternalLink className="size-3 shrink-0" aria-hidden />
+          <span className="truncate">{shortHost(p.url)}</span>
+          <span className="hidden font-mono text-[10px] text-foreground-muted group-hover:inline">
+            ↗
+          </span>
+        </a>
+      ) : (
+        <span className="text-foreground-muted">—</span>
+      ),
     ],
     ["Video", p.video_url ? "Var" : "Yok"],
   ];
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr),260px]">
+    <div className="grid gap-6 lg:grid-cols-[150px,minmax(0,1fr),240px]">
+      <Thumbnail
+        src={p.image_url}
+        alt={p.base_name}
+        href={hasUrl && p.url ? p.url : undefined}
+      />
+
       <div>
         <h3 className="font-display text-lg text-stone-700">Temel bilgiler</h3>
         <dl className="mt-3 grid grid-cols-1 gap-y-2 text-sm sm:grid-cols-[160px,1fr]">
@@ -77,10 +102,68 @@ export function InfoPanel({ product: p }: { product: SampleProduct }) {
         </div>
         Tıklanabilir alanlar (<span className="font-mono text-stone-700">price</span>,{" "}
         <span className="font-mono text-stone-700">base_name</span>) değişiklikleri
-        browser-local staging kuyruğuna düşer. DB yazımı Phase 4.9.8 Commit
-        Workflow üzerinden onayla yapılır.
+        browser-local staging kuyruğuna düşer. DB yazımı Commit Workflow
+        üzerinden onayla yapılır.
+        {!hasUrl && (
+          <div className="mt-3 rounded border border-amber-500/40 bg-amber-500/5 p-2 font-mono text-[10px] text-amber-700">
+            Bu üründe products.url alanı boş — mağaza linki gösterilemiyor.
+          </div>
+        )}
       </aside>
     </div>
+  );
+}
+
+function Thumbnail({
+  src,
+  alt,
+  href,
+}: {
+  src: string | null;
+  alt: string;
+  href?: string;
+}) {
+  const Wrapper: React.FC<{ children: React.ReactNode }> = ({ children }) =>
+    href ? (
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block group"
+        aria-label={`${alt} mağazada aç`}
+      >
+        {children}
+      </a>
+    ) : (
+      <div>{children}</div>
+    );
+
+  return (
+    <Wrapper>
+      <div className="size-[150px] overflow-hidden rounded-md border border-border bg-cream-100 shadow-sm">
+        {src ? (
+          // eslint-disable-next-line @next/next/no-img-element
+          <img
+            src={src}
+            alt={alt}
+            width={150}
+            height={150}
+            loading="lazy"
+            className="size-full object-cover transition-transform group-hover:scale-105"
+          />
+        ) : (
+          <div className="flex size-full items-center justify-center text-foreground-muted">
+            <ImageOff className="size-6" aria-hidden />
+          </div>
+        )}
+      </div>
+      {href && (
+        <div className="mt-1 flex items-center gap-1 text-[10px] text-foreground-muted">
+          <ExternalLink className="size-2.5" aria-hidden />
+          <span>mağazada aç</span>
+        </div>
+      )}
+    </Wrapper>
   );
 }
 
