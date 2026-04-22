@@ -2,6 +2,7 @@
 
 import { Command, Sparkles } from "lucide-react";
 import { StagingBadge } from "./staging-badge";
+import { ThemeToggle } from "./theme-toggle";
 
 export function Topbar() {
   return (
@@ -20,6 +21,7 @@ export function Topbar() {
 
       <div className="ml-auto flex items-center gap-2">
         <StagingBadge />
+        <ThemeToggle />
         <button
           type="button"
           className="inline-flex items-center gap-1.5 rounded-md bg-terracotta-500 px-3 py-1.5 text-sm text-cream-50 hover:bg-terracotta-600 transition-colors"

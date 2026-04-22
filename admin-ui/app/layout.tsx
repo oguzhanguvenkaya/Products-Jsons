@@ -38,13 +38,30 @@ export default function RootLayout({
     <html
       lang="tr"
       className={`${fraunces.variable} ${plexSans.variable} ${plexMono.variable} h-full antialiased`}
+      suppressHydrationWarning
     >
+      <head>
+        {/* FOUC guard: apply persisted theme before paint */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(()=>{try{var s=localStorage.getItem('catalog-atelier.theme');var d=window.matchMedia('(prefers-color-scheme: dark)').matches;var m=s||(d?'dark':'light');document.documentElement.dataset.theme=m;}catch(e){}})();`,
+          }}
+        />
+      </head>
       <body className="min-h-full bg-background text-foreground">
+        <a
+          href="#main"
+          className="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:left-4 focus-visible:top-4 focus-visible:z-50 focus-visible:rounded-md focus-visible:bg-terracotta-500 focus-visible:px-3 focus-visible:py-1.5 focus-visible:text-sm focus-visible:text-cream-50"
+        >
+          İçeriğe atla
+        </a>
         <div className="flex min-h-screen">
           <Sidebar />
           <div className="flex flex-1 flex-col min-w-0">
             <Topbar />
-            <main className="flex-1 overflow-auto">{children}</main>
+            <main id="main" className="flex-1 overflow-auto" tabIndex={-1}>
+              {children}
+            </main>
           </div>
         </div>
       </body>
