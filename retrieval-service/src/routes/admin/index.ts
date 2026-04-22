@@ -5,6 +5,8 @@ import { adminCoverageRoutes } from './coverage.ts';
 import { adminProductsRoutes } from './products.ts';
 import { adminAgentsRoutes } from './agents.ts';
 import { adminStagingRoutes } from './staging.ts';
+import { adminFaqsRoutes } from './faqs.ts';
+import { adminRelationsRoutes } from './relations.ts';
 
 type AppVariables = { requestId: string };
 
@@ -26,6 +28,9 @@ adminRoutes.get('/', (c) =>
       'POST /admin/staging/commit',
       'GET /admin/audit/recent?limit=',
       'GET /admin/audit/by-sku/:sku',
+      'GET /admin/faqs?sku=&scope=&brand=&category=&q=&limit=&offset=',
+      'GET /admin/faqs/:id',
+      'GET /admin/relations?sku=&relatedSku=&type=&limit=&offset=',
     ],
   }),
 );
@@ -35,3 +40,5 @@ adminRoutes.route('/', adminCoverageRoutes);
 adminRoutes.route('/', adminProductsRoutes);
 adminRoutes.route('/', adminAgentsRoutes);
 adminRoutes.route('/', adminStagingRoutes);
+adminRoutes.route('/', adminFaqsRoutes);
+adminRoutes.route('/', adminRelationsRoutes);
