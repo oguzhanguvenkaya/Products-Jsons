@@ -14,12 +14,12 @@ import type { SampleProduct } from "@/lib/data/sample-products";
 import { ProductTabs } from "@/components/product/tabs";
 import {
   InfoPanel,
-  FaqPanel,
-  RelationsPanel,
   HistoryPanel,
 } from "@/components/product/panels";
 import { SpecEditor } from "@/components/edit/spec-editor";
 import { VariantEditor } from "@/components/edit/variant-editor";
+import { FaqEditor } from "@/components/edit/faq-editor";
+import { RelationEditor } from "@/components/edit/relation-editor";
 import { adminFetch, type AdminProductDetailResponse } from "@/lib/api";
 import { liveToSampleProduct } from "@/lib/adapters/product";
 
@@ -122,14 +122,14 @@ export default async function ProductDetailPage({ params }: PageProps) {
       label: "FAQ",
       icon: <MessageCircleQuestion className={iconCls} />,
       count: product.faqs.length,
-      content: <FaqPanel faqs={product.faqs} />,
+      content: <FaqEditor sku={product.sku} faqs={product.faqs} />,
     },
     {
       id: "relations",
       label: "Relations",
       icon: <Share2 className={iconCls} />,
       count: product.relations.length,
-      content: <RelationsPanel relations={product.relations} />,
+      content: <RelationEditor sku={product.sku} relations={product.relations} />,
     },
     {
       id: "history",
