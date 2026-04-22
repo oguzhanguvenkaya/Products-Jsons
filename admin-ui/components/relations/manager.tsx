@@ -348,7 +348,7 @@ export function RelationsManager({ initial }: Props) {
                         {item.sourceSku}
                       </Link>
                       {item.sourceName && (
-                        <div className="text-[11px] text-foreground-muted truncate max-w-64">
+                        <div className="text-[11px] text-foreground-muted leading-snug break-words max-w-72">
                           {item.sourceName}
                         </div>
                       )}
@@ -372,7 +372,7 @@ export function RelationsManager({ initial }: Props) {
                         {item.targetSku}
                       </Link>
                       {item.targetName && (
-                        <div className="text-[11px] text-foreground-muted truncate max-w-64">
+                        <div className="text-[11px] text-foreground-muted leading-snug break-words max-w-72">
                           {item.targetName}
                         </div>
                       )}
