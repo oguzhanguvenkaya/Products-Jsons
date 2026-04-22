@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import {
   MessageCircleQuestion,
   Plus,
@@ -29,8 +29,10 @@ function newId() {
 }
 
 export function FaqEditor({ sku, faqs }: Props) {
-  const pending = useStagingStore((s) =>
-    s.changes.filter((c) => c.sku === sku && c.scope === "faq"),
+  const allChanges = useStagingStore((s) => s.changes);
+  const pending = useMemo(
+    () => allChanges.filter((c) => c.sku === sku && c.scope === "faq"),
+    [allChanges, sku],
   );
   const stageChange = useStagingStore((s) => s.stageChange);
   const revertChange = useStagingStore((s) => s.revertChange);

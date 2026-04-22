@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Plus, Trash2, Share2, Check, X } from "lucide-react";
 import { useStagingStore } from "@/lib/stores/staging";
 import type { Relation } from "@/lib/data/sample-products";
@@ -40,8 +40,10 @@ function makeKey(r: Pick<Relation, "target_sku" | "relation_type">) {
 }
 
 export function RelationEditor({ sku, relations }: Props) {
-  const pending = useStagingStore((s) =>
-    s.changes.filter((c) => c.sku === sku && c.scope === "relation"),
+  const allChanges = useStagingStore((s) => s.changes);
+  const pending = useMemo(
+    () => allChanges.filter((c) => c.sku === sku && c.scope === "relation"),
+    [allChanges, sku],
   );
   const stageChange = useStagingStore((s) => s.stageChange);
   const revertChange = useStagingStore((s) => s.revertChange);

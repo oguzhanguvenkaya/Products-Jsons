@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import Link from "next/link";
 import {
   Search,
@@ -76,14 +76,15 @@ export function RelationsManager({ initial }: Props) {
   const [newType, setNewType] = useState<string>("use_with");
 
   const stageChange = useStagingStore((s) => s.stageChange);
-  const revertByField = useStagingStore((s) => {
-    const map = new Map<string, (typeof s.changes)[number]>();
-    for (const c of s.changes) {
+  const allChanges = useStagingStore((s) => s.changes);
+  const revertByField = useMemo(() => {
+    const map = new Map<string, (typeof allChanges)[number]>();
+    for (const c of allChanges) {
       if (c.scope !== "relation") continue;
       map.set(`${c.sku}::${c.field}`, c);
     }
     return map;
-  });
+  }, [allChanges]);
 
   useEffect(() => {
     const url = new URL("/api/admin/relations", window.location.origin);

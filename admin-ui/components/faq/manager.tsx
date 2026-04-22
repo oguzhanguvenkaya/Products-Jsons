@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useTransition } from "react";
+import { useEffect, useMemo, useState, useTransition } from "react";
 import Link from "next/link";
 import {
   Search,
@@ -63,15 +63,16 @@ export function FaqManager({ initial }: Props) {
   const [draftA, setDraftA] = useState("");
 
   const stageChange = useStagingStore((s) => s.stageChange);
-  const pendingByKey = useStagingStore((s) => {
-    const map = new Map<string, (typeof s.changes)[number]>();
-    for (const c of s.changes) {
+  const allChanges = useStagingStore((s) => s.changes);
+  const pendingByKey = useMemo(() => {
+    const map = new Map<string, (typeof allChanges)[number]>();
+    for (const c of allChanges) {
       if (c.scope !== "faq") continue;
       const key = `${c.sku ?? "__"}::${c.field}`;
       map.set(key, c);
     }
     return map;
-  });
+  }, [allChanges]);
 
   useEffect(() => {
     const url = new URL("/api/admin/faqs", window.location.origin);
