@@ -143,7 +143,7 @@ export function NotesPanel() {
   return (
     <aside
       aria-label="Notlar"
-      className="flex h-[calc(100vh-3.5rem)] w-80 shrink-0 flex-col border-r border-border bg-cream-50/80 backdrop-blur-sm"
+      className="flex h-full w-80 shrink-0 flex-col border-r border-border bg-cream-50/80 backdrop-blur-sm"
     >
       <header className="flex items-center justify-between border-b border-border px-3 py-2.5">
         <div className="flex items-center gap-2">

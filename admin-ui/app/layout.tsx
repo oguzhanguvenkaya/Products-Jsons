@@ -49,20 +49,24 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full bg-background text-foreground">
+      <body className="h-screen overflow-hidden bg-background text-foreground">
         <a
           href="#main"
           className="sr-only focus-visible:not-sr-only focus-visible:fixed focus-visible:left-4 focus-visible:top-4 focus-visible:z-50 focus-visible:rounded-md focus-visible:bg-terracotta-500 focus-visible:px-3 focus-visible:py-1.5 focus-visible:text-sm focus-visible:text-cream-50"
         >
           İçeriğe atla
         </a>
-        <div className="flex min-h-screen">
+        <div className="flex h-screen">
           <Sidebar />
           <div className="flex flex-1 flex-col min-w-0">
             <Topbar />
             <div className="flex flex-1 min-h-0">
               <NotesPanel />
-              <main id="main" className="flex-1 overflow-auto" tabIndex={-1}>
+              <main
+                id="main"
+                className="flex-1 overflow-auto"
+                tabIndex={-1}
+              >
                 {children}
               </main>
             </div>

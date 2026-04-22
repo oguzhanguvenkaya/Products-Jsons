@@ -15,7 +15,7 @@ export function CatalogShell({ taxonomy, initialGroup = "ceramic_coating" }: Pro
   const [sub, setSub] = useState<string | null>(null);
 
   return (
-    <div className="flex h-[calc(100vh-3.5rem)] min-h-0">
+    <div className="flex h-full min-h-0">
       <aside className="w-72 shrink-0 border-r border-border bg-cream-50/50">
         <CatalogTree
           taxonomy={taxonomy}
