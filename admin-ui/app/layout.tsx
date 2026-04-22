@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Sans, IBM_Plex_Mono } from "next/font/google";
 import { Sidebar } from "@/components/shell/sidebar";
 import { Topbar } from "@/components/shell/topbar";
+import { NotesPanel } from "@/components/notes/panel";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -59,9 +60,12 @@ export default function RootLayout({
           <Sidebar />
           <div className="flex flex-1 flex-col min-w-0">
             <Topbar />
-            <main id="main" className="flex-1 overflow-auto" tabIndex={-1}>
-              {children}
-            </main>
+            <div className="flex flex-1 min-h-0">
+              <NotesPanel />
+              <main id="main" className="flex-1 overflow-auto" tabIndex={-1}>
+                {children}
+              </main>
+            </div>
           </div>
         </div>
       </body>

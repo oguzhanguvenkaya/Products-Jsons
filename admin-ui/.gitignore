@@ -34,6 +34,9 @@ yarn-error.log*
 .env*
 !.env.example
 
+# operator scratch notes
+.notes/
+
 # vercel
 .vercel
 
