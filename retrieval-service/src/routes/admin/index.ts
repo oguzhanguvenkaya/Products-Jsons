@@ -7,6 +7,7 @@ import { adminAgentsRoutes } from './agents.ts';
 import { adminStagingRoutes } from './staging.ts';
 import { adminFaqsRoutes } from './faqs.ts';
 import { adminRelationsRoutes } from './relations.ts';
+import { adminToolsRoutes } from './tools.ts';
 
 type AppVariables = { requestId: string };
 
@@ -31,6 +32,8 @@ adminRoutes.get('/', (c) =>
       'GET /admin/faqs?sku=&scope=&brand=&category=&q=&limit=&offset=',
       'GET /admin/faqs/:id',
       'GET /admin/relations?sku=&relatedSku=&type=&limit=&offset=',
+      'GET /admin/tools?bot=',
+      'GET /admin/tools/:name?bot=',
     ],
   }),
 );
@@ -42,3 +45,4 @@ adminRoutes.route('/', adminAgentsRoutes);
 adminRoutes.route('/', adminStagingRoutes);
 adminRoutes.route('/', adminFaqsRoutes);
 adminRoutes.route('/', adminRelationsRoutes);
+adminRoutes.route('/', adminToolsRoutes);
