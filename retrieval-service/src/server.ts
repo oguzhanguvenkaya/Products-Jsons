@@ -8,6 +8,7 @@ import { searchPriceRoutes } from './routes/search-price.ts';
 import { searchRatingRoutes } from './routes/search-rating.ts';
 import { searchRoutes } from './routes/search.ts';
 import { faqRoutes } from './routes/faq.ts';
+import { adminRoutes } from './routes/admin/index.ts';
 
 type AppVariables = {
   requestId: string;
@@ -45,6 +46,7 @@ app.route('/', searchPriceRoutes);
 app.route('/', searchRatingRoutes);
 app.route('/', searchRoutes);
 app.route('/', faqRoutes);
+app.route('/admin', adminRoutes);
 
 const port = env.PORT;
 console.log(

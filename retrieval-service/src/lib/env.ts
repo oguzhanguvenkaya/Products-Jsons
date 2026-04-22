@@ -12,6 +12,10 @@ const EnvSchema = z.object({
   SUPABASE_SERVICE_ROLE_KEY: z.preprocess(emptyToUndef, z.string().optional()),
   GEMINI_API_KEY: z.string().min(10),
   RETRIEVAL_SHARED_SECRET: z.string().min(16),
+  // Distinct from RETRIEVAL_SHARED_SECRET; required for /admin/* read-only
+  // endpoints that power the Catalog Atelier UI. Keeping it separate means
+  // rotating UI access never disturbs the Botpress bots.
+  RETRIEVAL_ADMIN_SECRET: z.preprocess(emptyToUndef, z.string().min(16).optional()),
   PORT: z.coerce.number().int().default(8787),
   LOG_LEVEL: z.enum(['debug', 'info', 'warn', 'error']).default('info'),
 });
