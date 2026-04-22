@@ -5,9 +5,6 @@ import { Tag } from "lucide-react";
 import { cn } from "@/lib/utils";
 import type { Variant } from "@/lib/data/sample-products";
 
-const fmtTL = (n: number | null) =>
-  typeof n === "number" ? `${n.toLocaleString("tr-TR")} TL` : "—";
-
 type Props = {
   sku: string;
   sizes: Variant[];
@@ -84,7 +81,7 @@ export function VariantEditor({ sku, sizes }: Props) {
                   value={v.price}
                   kind="number"
                   label={`sizes[${index}].price`}
-                  display={(x) => (typeof x === "number" ? fmtTL(x) : "—")}
+                  formatAs="tl"
                 />
               </td>
               <td className="px-3 py-1.5 text-right">

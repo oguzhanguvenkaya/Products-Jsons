@@ -34,7 +34,7 @@ export function InfoPanel({ product: p }: { product: SampleProduct }) {
         value={p.price}
         kind="number"
         label="Fiyat"
-        display={(v) => (typeof v === "number" ? fmtTL(v) : "—")}
+        formatAs="tl"
       />,
     ],
     ["Variant sayısı", p.sizes.length],

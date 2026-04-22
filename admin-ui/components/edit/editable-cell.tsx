@@ -13,9 +13,18 @@ type Props = {
   kind?: "text" | "number";
   label?: string;
   className?: string;
-  display?: (v: string | number | null) => React.ReactNode;
+  /** Serializable display-format hint (replaces function props across RSC) */
+  formatAs?: "plain" | "tl";
   hint?: string;
 };
+
+function formatDisplay(v: string | number | null, as: "plain" | "tl") {
+  if (v === null || v === undefined) return "—";
+  if (as === "tl" && typeof v === "number") {
+    return `${v.toLocaleString("tr-TR")} TL`;
+  }
+  return String(v);
+}
 
 export function EditableCell({
   sku,
@@ -25,7 +34,7 @@ export function EditableCell({
   kind = "text",
   label,
   className,
-  display,
+  formatAs = "plain",
   hint,
 }: Props) {
   const pending = useStagingStore((s) =>
@@ -132,7 +141,7 @@ export function EditableCell({
       title={hint}
     >
       <span className="font-mono text-sm text-stone-700">
-        {display ? display(current) : current === null ? "—" : String(current)}
+        {formatDisplay(current, formatAs)}
       </span>
       {pending && (
         <span className="font-mono text-[10px] text-amber-600">
