@@ -8,6 +8,7 @@ import {
   ClipboardList,
   GitCommit,
   Sparkles,
+  History,
   type LucideIcon,
 } from "lucide-react";
 
@@ -36,6 +37,7 @@ export const NAV_ITEMS: NavItem[] = [
   // Flow
   { href: "/staging", label: "Staging", icon: Package, group: "flow" },
   { href: "/commit", label: "Commit", icon: GitCommit, group: "flow" },
+  { href: "/activity", label: "Activity", icon: History, group: "flow" },
 ];
 
 export const GROUP_LABELS: Record<NavItem["group"], string> = {

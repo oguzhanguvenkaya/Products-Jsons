@@ -184,6 +184,15 @@ adminStagingRoutes.post(
       error?: string;
     }> = [];
 
+    const auditRows: Array<{
+      sku: string;
+      scope: string;
+      field: string;
+      before: unknown;
+      after: unknown;
+      changeId: string;
+    }> = [];
+
     try {
       await sql.begin(async (tx) => {
         for (const c of changes) {
@@ -201,6 +210,14 @@ adminStagingRoutes.post(
               sku: c.sku,
               status: 'applied',
               rows: res.count ?? 0,
+            });
+            auditRows.push({
+              sku: c.sku,
+              scope: c.scope,
+              field: c.field,
+              before: c.before,
+              after: c.after,
+              changeId: c.id,
             });
             continue;
           }
@@ -240,6 +257,14 @@ adminStagingRoutes.post(
                 rows: res.count ?? 0,
               });
             }
+            auditRows.push({
+              sku: c.sku,
+              scope: c.scope,
+              field: c.field,
+              before: c.before,
+              after: c.after,
+              changeId: c.id,
+            });
           }
         }
       });
@@ -257,13 +282,130 @@ adminStagingRoutes.post(
       );
     }
 
+    // Fire-and-forget audit writes. Absent table = silent skip; the
+    // commit itself has already succeeded, so users never see this fail.
+    const requestId = c.get('requestId');
+    let auditInserted = 0;
+    if (auditRows.length > 0) {
+      try {
+        for (const r of auditRows) {
+          await sql`
+            INSERT INTO audit_log
+              (sku, scope, field, before_value, after_value, change_id, request_id)
+            VALUES
+              (${r.sku}, ${r.scope}, ${r.field},
+               ${JSON.stringify(r.before)}::jsonb,
+               ${JSON.stringify(r.after)}::jsonb,
+               ${r.changeId}, ${requestId})
+          `;
+          auditInserted++;
+        }
+      } catch {
+        // audit table absent; swallow — commit already durable
+      }
+    }
+
     return c.json({
       committed_at: new Date().toISOString(),
       total_applied: applied,
       planned: planned.length,
       unsupported: steps.filter((s) => s.status === 'unsupported').length,
       skipped: steps.filter((s) => s.status === 'skipped').length,
+      audit_logged: auditInserted,
       outcome,
     });
   },
 );
+
+/* ---------------------------------------- read-only audit surface */
+
+adminStagingRoutes.get('/audit/recent', async (c) => {
+  const limit = Math.min(
+    Number(new URL(c.req.url).searchParams.get('limit') ?? '25') || 25,
+    200,
+  );
+  try {
+    const rows = await sql<
+      Array<{
+        id: number;
+        happened_at: Date;
+        actor: string;
+        sku: string | null;
+        scope: string;
+        field: string;
+        before_value: unknown;
+        after_value: unknown;
+      }>
+    >`
+      SELECT id, happened_at, actor, sku, scope, field,
+             before_value, after_value
+      FROM audit_log
+      ORDER BY happened_at DESC
+      LIMIT ${limit}
+    `;
+    return c.json({
+      count: rows.length,
+      items: rows.map((r) => ({
+        id: r.id,
+        at: r.happened_at.toISOString(),
+        actor: r.actor,
+        sku: r.sku,
+        scope: r.scope,
+        field: r.field,
+        before: r.before_value,
+        after: r.after_value,
+      })),
+    });
+  } catch (err) {
+    return c.json({
+      count: 0,
+      items: [],
+      hint: 'audit_log tablosu yok (migration 008 henüz uygulanmamış) ya da okunamadı',
+      error: err instanceof Error ? err.message : String(err),
+    });
+  }
+});
+
+adminStagingRoutes.get('/audit/by-sku/:sku', async (c) => {
+  const sku = c.req.param('sku');
+  try {
+    const rows = await sql<
+      Array<{
+        id: number;
+        happened_at: Date;
+        actor: string;
+        scope: string;
+        field: string;
+        before_value: unknown;
+        after_value: unknown;
+      }>
+    >`
+      SELECT id, happened_at, actor, scope, field,
+             before_value, after_value
+      FROM audit_log
+      WHERE sku = ${sku}
+      ORDER BY happened_at DESC
+      LIMIT 100
+    `;
+    return c.json({
+      sku,
+      count: rows.length,
+      items: rows.map((r) => ({
+        id: r.id,
+        at: r.happened_at.toISOString(),
+        actor: r.actor,
+        scope: r.scope,
+        field: r.field,
+        before: r.before_value,
+        after: r.after_value,
+      })),
+    });
+  } catch (err) {
+    return c.json({
+      sku,
+      count: 0,
+      items: [],
+      error: err instanceof Error ? err.message : String(err),
+    });
+  }
+});

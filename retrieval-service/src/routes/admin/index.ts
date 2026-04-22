@@ -24,6 +24,8 @@ adminRoutes.get('/', (c) =>
       'GET /admin/agents/:name',
       'POST /admin/staging/preview',
       'POST /admin/staging/commit',
+      'GET /admin/audit/recent?limit=',
+      'GET /admin/audit/by-sku/:sku',
     ],
   }),
 );
