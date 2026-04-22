@@ -1,6 +1,6 @@
-import { Info } from "lucide-react";
 import type { TemplateGroup } from "@/lib/data/taxonomy";
 import { NULL_HOTSPOTS, TOP_GROUPS } from "@/lib/data/snapshot";
+import { ProductList } from "./product-list";
 
 type Props = {
   taxonomy: TemplateGroup[];
@@ -58,15 +58,8 @@ export function NodeDetail({ taxonomy, group, sub }: Props) {
           Bu sub_type altında <strong>{s.count}</strong> ürün bulunuyor.
         </div>
 
-        <div className="mt-6 rounded-lg border border-dashed border-border bg-cream-100 p-5 text-sm text-foreground-muted">
-          <div className="flex gap-2">
-            <Info className="size-4 text-sage-600" aria-hidden />
-            <div>
-              Ürün listesi <code className="font-mono">/admin/products?group={group}&sub={sub}</code>{" "}
-              endpoint'ine bağlanacak (Phase 4.9.4). Tıklandığında ürün
-              detayı (6-sekme) açılır.
-            </div>
-          </div>
+        <div className="mt-6">
+          <ProductList group={group} sub={sub} />
         </div>
       </div>
     );
@@ -174,6 +167,13 @@ export function NodeDetail({ taxonomy, group, sub }: Props) {
           })}
         </tbody>
       </table>
+
+      <h3 className="mt-8 text-sm font-medium text-stone-600">
+        Bu gruptaki ürünler
+      </h3>
+      <div className="mt-2">
+        <ProductList group={g.group} />
+      </div>
     </div>
   );
 }
