@@ -33,10 +33,17 @@
 # Whitelisted top-level dirs
 !Botpress/
 !retrieval-service/
+!admin-ui/
 !data/
 !etl/
 !assets/
 !docs/
+
+# admin-ui: ignore Next.js/pnpm build artifacts
+admin-ui/.next/
+admin-ui/.env*
+!admin-ui/.env.example
+admin-ui/next-env.d.ts
 
 # Botpress: only detailagent + detailagent-ms
 Botpress/*

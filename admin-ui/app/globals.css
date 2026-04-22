@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+/* ---------------------------------------------------------
+   Catalog Atelier — warm design tokens
+   Spec: docs/design/admin-ui-design-plan.md §5
+--------------------------------------------------------- */
+
+:root {
+  /* Base surfaces (warm cream) */
+  --cream-50:  #FEFBF4;
+  --cream-100: #FAF6ED;
+  --cream-200: #F4EDDB;
+  --cream-300: #EADFC2;
+
+  /* Primary accent (terracotta) */
+  --terracotta-400: #D97955;
+  --terracotta-500: #C65D3F;
+  --terracotta-600: #A84D33;
+  --terracotta-700: #8B3E28;
+
+  /* Secondary (sage) */
+  --sage-400: #94A36B;
+  --sage-500: #7A8B56;
+  --sage-600: #62724A;
+
+  /* Warning / staging */
+  --amber-400: #E4AB56;
+  --amber-500: #D4953E;
+  --amber-600: #B07926;
+
+  /* Error / destructive (clay red) */
+  --clay-red-400: #CF6850;
+  --clay-red-500: #B8543C;
+  --clay-red-600: #9A4431;
+
+  /* Neutral / text (warm stone) */
+  --stone-50:  #F7F3EB;
+  --stone-100: #EDE7DA;
+  --stone-200: #D9CFBD;
+  --stone-300: #B8AC96;
+  --stone-400: #8B806A;
+  --stone-500: #5E5540;
+  --stone-600: #433C2C;
+  --stone-700: #2C2820;
+  --stone-800: #1A1712;
+
+  /* Semantic mapping */
+  --background: var(--cream-100);
+  --surface:    #ffffff;
+  --border:     var(--stone-200);
+  --border-strong: var(--stone-300);
+  --muted:      var(--cream-200);
+  --foreground: var(--stone-700);
+  --foreground-muted: var(--stone-500);
+  --primary:    var(--terracotta-500);
+  --primary-hover: var(--terracotta-600);
+  --secondary:  var(--sage-500);
+  --warning:    var(--amber-500);
+  --danger:     var(--clay-red-500);
+  --focus-ring: var(--terracotta-400);
+
+  /* Radii + elevation */
+  --radius-sm: 4px;
+  --radius:    8px;
+  --radius-lg: 12px;
+  --shadow-sm: 0 1px 2px rgba(67,60,44,0.06);
+  --shadow:    0 2px 6px rgba(67,60,44,0.08);
+  --shadow-lg: 0 8px 24px rgba(67,60,44,0.12);
+}
+
+/* Dark mode override (manual toggle via [data-theme="dark"]) */
+[data-theme="dark"] {
+  --background: #1A1712;
+  --surface:    #2C2820;
+  --border:     #433C2C;
+  --border-strong: #5E5540;
+  --muted:      #2C2820;
+  --foreground: #F4EDDB;
+  --foreground-muted: #B8AC96;
+}
+
+@theme inline {
+  /* Tailwind v4 token bindings */
+  --color-background: var(--background);
+  --color-surface:    var(--surface);
+  --color-border:     var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-muted:      var(--muted);
+  --color-foreground: var(--foreground);
+  --color-foreground-muted: var(--foreground-muted);
+
+  --color-cream-50:  var(--cream-50);
+  --color-cream-100: var(--cream-100);
+  --color-cream-200: var(--cream-200);
+  --color-cream-300: var(--cream-300);
+
+  --color-terracotta-400: var(--terracotta-400);
+  --color-terracotta-500: var(--terracotta-500);
+  --color-terracotta-600: var(--terracotta-600);
+  --color-terracotta-700: var(--terracotta-700);
+
+  --color-sage-400: var(--sage-400);
+  --color-sage-500: var(--sage-500);
+  --color-sage-600: var(--sage-600);
+
+  --color-amber-400: var(--amber-400);
+  --color-amber-500: var(--amber-500);
+  --color-amber-600: var(--amber-600);
+
+  --color-clay-red-400: var(--clay-red-400);
+  --color-clay-red-500: var(--clay-red-500);
+  --color-clay-red-600: var(--clay-red-600);
+
+  --color-stone-50:  var(--stone-50);
+  --color-stone-100: var(--stone-100);
+  --color-stone-200: var(--stone-200);
+  --color-stone-300: var(--stone-300);
+  --color-stone-400: var(--stone-400);
+  --color-stone-500: var(--stone-500);
+  --color-stone-600: var(--stone-600);
+  --color-stone-700: var(--stone-700);
+  --color-stone-800: var(--stone-800);
+
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-secondary: var(--secondary);
+  --color-warning: var(--warning);
+  --color-danger:  var(--danger);
+
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-plex-sans);
+  --font-mono: var(--font-plex-mono);
+
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+/* Base element styling */
+html, body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+body {
+  font-family: var(--font-plex-sans), system-ui, -apple-system, sans-serif;
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Display typography for headings — serif accent */
+h1, h2, h3 {
+  font-family: var(--font-fraunces), Georgia, serif;
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}
+
+code, pre, .font-mono {
+  font-family: var(--font-plex-mono), ui-monospace, SFMono-Regular, monospace;
+}
+
+/* Focus ring — warm terracotta, accessible */
+:where(a, button, input, select, textarea, [role="button"]):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Scrollbar — subtle warm */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--stone-200);
+  border-radius: 10px;
+  border: 2px solid var(--background);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--stone-300); }
