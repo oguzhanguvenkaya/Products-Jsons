@@ -1,6 +1,7 @@
 import { ExternalLink, Info, Share2, History, MessageCircleQuestion, Ruler, Tag } from "lucide-react";
 import type { SampleProduct, Faq, Relation, HistoryEvent, Variant } from "@/lib/data/sample-products";
 import { cn } from "@/lib/utils";
+import { EditableCell } from "@/components/edit/editable-cell";
 
 const fmtTL = (n: number) => `${n.toLocaleString("tr-TR")} TL`;
 
@@ -10,9 +11,32 @@ export function InfoPanel({ product: p }: { product: SampleProduct }) {
   const rows: Array<[string, React.ReactNode]> = [
     ["SKU", <code className="font-mono text-[12px]">{p.sku}</code>],
     ["Marka", p.brand],
+    [
+      "Base name",
+      <EditableCell
+        sku={p.sku}
+        scope="product"
+        field="base_name"
+        value={p.base_name}
+        kind="text"
+        label="Base name"
+        hint="Carousel / liste başlığında görünen kısa ad. Boyut eki YOK."
+      />,
+    ],
     ["Kategori", `${p.template_group} › ${p.template_sub_type}`],
     ["Yüzey", p.target_surface ?? "—"],
-    ["Fiyat (primary)", fmtTL(p.price)],
+    [
+      "Fiyat (primary)",
+      <EditableCell
+        sku={p.sku}
+        scope="product"
+        field="price"
+        value={p.price}
+        kind="number"
+        label="Fiyat"
+        display={(v) => (typeof v === "number" ? fmtTL(v) : "—")}
+      />,
+    ],
     ["Variant sayısı", p.sizes.length],
     [
       "URL",
@@ -49,11 +73,12 @@ export function InfoPanel({ product: p }: { product: SampleProduct }) {
 
       <aside className="rounded-md border border-border bg-cream-100 p-4 text-xs text-foreground-muted">
         <div className="mb-2 flex items-center gap-1.5 text-sage-600">
-          <Info className="size-3.5" aria-hidden /> Read-only önizleme
+          <Info className="size-3.5" aria-hidden /> Inline edit aktif
         </div>
-        Bu ekran Phase 4.9.3 snapshot'ı. Inline düzenleme, SpecEditor ve
-        VariantEditor Phase 4.9.5'te aynı sekme yapısı korunarak bağlanır.
-        DB yazımı 4.9.8 Commit Workflow üzerinden yapılır.
+        Tıklanabilir alanlar (<span className="font-mono text-stone-700">price</span>,{" "}
+        <span className="font-mono text-stone-700">base_name</span>) değişiklikleri
+        browser-local staging kuyruğuna düşer. DB yazımı Phase 4.9.8 Commit
+        Workflow üzerinden onayla yapılır.
       </aside>
     </div>
   );
