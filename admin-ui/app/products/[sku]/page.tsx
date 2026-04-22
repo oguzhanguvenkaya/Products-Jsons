@@ -7,8 +7,10 @@ import {
   Share2,
   History,
   ArrowLeft,
+  AlertTriangle,
 } from "lucide-react";
 import { findProduct, SAMPLE_SKUS } from "@/lib/data/sample-products";
+import type { SampleProduct } from "@/lib/data/sample-products";
 import { ProductTabs } from "@/components/product/tabs";
 import {
   InfoPanel,
@@ -18,6 +20,8 @@ import {
   RelationsPanel,
   HistoryPanel,
 } from "@/components/product/panels";
+import { adminFetch, type AdminProductDetailResponse } from "@/lib/api";
+import { liveToSampleProduct } from "@/lib/adapters/product";
 
 type PageProps = {
   params: Promise<{ sku: string }>;
@@ -25,10 +29,38 @@ type PageProps = {
 
 const fmtTL = (n: number) => `${n.toLocaleString("tr-TR")} TL`;
 
+type Source = "live" | "sample" | "missing";
+
+async function loadProduct(sku: string): Promise<{
+  product: SampleProduct | null;
+  source: Source;
+  error?: string;
+}> {
+  const useLive = process.env.NEXT_PUBLIC_CATALOG_USE_LIVE_API !== "0";
+
+  if (useLive) {
+    try {
+      const live = await adminFetch<AdminProductDetailResponse>(
+        `/products/${encodeURIComponent(sku)}`,
+      );
+      return { product: liveToSampleProduct(live), source: "live" };
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err);
+      const sample = findProduct(sku);
+      if (sample) return { product: sample, source: "sample", error: message };
+      return { product: null, source: "missing", error: message };
+    }
+  }
+
+  const sample = findProduct(sku);
+  if (sample) return { product: sample, source: "sample" };
+  return { product: null, source: "missing" };
+}
+
 export default async function ProductDetailPage({ params }: PageProps) {
   const { sku } = await params;
   const decoded = decodeURIComponent(sku);
-  const product = findProduct(decoded);
+  const { product, source, error } = await loadProduct(decoded);
 
   if (!product) {
     return (
@@ -42,8 +74,13 @@ export default async function ProductDetailPage({ params }: PageProps) {
         <h1 className="mt-4 font-display text-2xl text-stone-700">
           {decoded} bulunamadı
         </h1>
-        <p className="mt-2 text-sm text-foreground-muted">
-          Read-only önizleme yalnızca şu örnek SKU'ları içerir:{" "}
+        {error && (
+          <div className="mt-3 rounded-md border border-clay-red-500/30 bg-clay-red-500/5 p-3 text-xs text-clay-red-500 font-mono">
+            {error}
+          </div>
+        )}
+        <p className="mt-3 text-sm text-foreground-muted">
+          Örnek SKU'lar (offline fallback):{" "}
           {SAMPLE_SKUS.map((s) => (
             <Link
               key={s}
@@ -53,10 +90,6 @@ export default async function ProductDetailPage({ params }: PageProps) {
               {s}
             </Link>
           ))}
-        </p>
-        <p className="mt-3 text-sm text-foreground-muted">
-          Gerçek katalog okuması Phase 4.9.4 Admin API'si ile bağlanacak
-          (<code className="font-mono text-xs">GET /admin/products/:sku</code>).
         </p>
       </div>
     );
@@ -117,8 +150,11 @@ export default async function ProductDetailPage({ params }: PageProps) {
       </Link>
 
       <header className="mt-3 mb-6">
-        <div className="font-mono text-[11px] uppercase tracking-widest text-foreground-muted">
-          {product.template_group} › {product.template_sub_type}
+        <div className="flex items-center gap-3">
+          <div className="font-mono text-[11px] uppercase tracking-widest text-foreground-muted">
+            {product.template_group} › {product.template_sub_type}
+          </div>
+          <SourceBadge source={source} />
         </div>
         <h1 className="mt-1 font-display text-3xl text-stone-700">
           {product.base_name}
@@ -139,20 +175,37 @@ export default async function ProductDetailPage({ params }: PageProps) {
         </div>
       </header>
 
-      <ProductTabs tabs={tabs} />
+      {source === "sample" && error && (
+        <div className="mb-4 flex items-start gap-2 rounded-md border border-amber-500/40 bg-amber-500/5 p-3 text-sm text-stone-700">
+          <AlertTriangle className="size-4 shrink-0 text-amber-600" aria-hidden />
+          <div>
+            <div className="font-medium">Admin API'ye ulaşılamadı — örnek veriye geçildi.</div>
+            <code className="mt-1 block font-mono text-[11px] text-foreground-muted">
+              {error}
+            </code>
+          </div>
+        </div>
+      )}
 
-      <div className="mt-6 rounded-md border border-dashed border-border bg-cream-100 px-4 py-3 text-xs text-foreground-muted">
-        <strong className="font-medium text-stone-700">Öncelikle hızlı erişim:</strong>{" "}
-        {SAMPLE_SKUS.filter((s) => s !== product.sku).map((s) => (
-          <Link
-            key={s}
-            href={`/products/${encodeURIComponent(s)}`}
-            className="mx-1 font-mono text-terracotta-600 hover:text-terracotta-700"
-          >
-            {s}
-          </Link>
-        ))}
-      </div>
+      <ProductTabs tabs={tabs} />
     </div>
   );
+}
+
+function SourceBadge({ source }: { source: Source }) {
+  if (source === "live")
+    return (
+      <span className="inline-flex items-center gap-1 rounded bg-sage-500/10 px-1.5 py-0.5 font-mono text-[10px] text-sage-600">
+        <span className="size-1.5 rounded-full bg-sage-500" />
+        live API
+      </span>
+    );
+  if (source === "sample")
+    return (
+      <span className="inline-flex items-center gap-1 rounded bg-amber-500/10 px-1.5 py-0.5 font-mono text-[10px] text-amber-600">
+        <span className="size-1.5 rounded-full bg-amber-500" />
+        offline sample
+      </span>
+    );
+  return null;
 }

@@ -1,8 +1,9 @@
 import { Info } from "lucide-react";
-import { findGroup } from "@/lib/data/taxonomy";
+import type { TemplateGroup } from "@/lib/data/taxonomy";
 import { NULL_HOTSPOTS, TOP_GROUPS } from "@/lib/data/snapshot";
 
 type Props = {
+  taxonomy: TemplateGroup[];
   group: string | null;
   sub: string | null;
 };
@@ -11,7 +12,7 @@ const FRAGMENTATION_BY_GROUP = Object.fromEntries(
   TOP_GROUPS.map((g) => [g.group, g]),
 );
 
-export function NodeDetail({ group, sub }: Props) {
+export function NodeDetail({ taxonomy, group, sub }: Props) {
   if (!group) {
     return (
       <div className="mx-auto max-w-xl px-6 py-16 text-center">
@@ -25,7 +26,7 @@ export function NodeDetail({ group, sub }: Props) {
     );
   }
 
-  const g = findGroup(group);
+  const g = taxonomy.find((x) => x.group === group);
   if (!g) {
     return (
       <div className="mx-auto max-w-xl px-6 py-16 text-center text-sm text-clay-red-500">

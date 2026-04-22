@@ -2,16 +2,17 @@
 
 import { useMemo, useState } from "react";
 import { ChevronRight, Search } from "lucide-react";
-import { TAXONOMY, type TemplateGroup } from "@/lib/data/taxonomy";
+import type { TemplateGroup } from "@/lib/data/taxonomy";
 import { cn } from "@/lib/utils";
 
 type Props = {
+  taxonomy: TemplateGroup[];
   selectedGroup: string | null;
   selectedSub: string | null;
   onSelect: (group: string, sub: string | null) => void;
 };
 
-export function CatalogTree({ selectedGroup, selectedSub, onSelect }: Props) {
+export function CatalogTree({ taxonomy, selectedGroup, selectedSub, onSelect }: Props) {
   const [query, setQuery] = useState("");
   const [expanded, setExpanded] = useState<Record<string, boolean>>(() => ({
     // Default: auto-expand selected group
@@ -20,8 +21,8 @@ export function CatalogTree({ selectedGroup, selectedSub, onSelect }: Props) {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    if (!q) return TAXONOMY;
-    return TAXONOMY.map((g) => {
+    if (!q) return taxonomy;
+    return taxonomy.map((g) => {
       const groupMatch = g.group.toLowerCase().includes(q);
       const subMatches = g.subs.filter((s) =>
         s.sub.toLowerCase().includes(q),
@@ -30,7 +31,7 @@ export function CatalogTree({ selectedGroup, selectedSub, onSelect }: Props) {
       if (subMatches.length) return { ...g, subs: subMatches };
       return null;
     }).filter((x): x is TemplateGroup => x !== null);
-  }, [query]);
+  }, [query, taxonomy]);
 
   // Auto-expand matched groups while searching
   const effectiveExpanded = query
