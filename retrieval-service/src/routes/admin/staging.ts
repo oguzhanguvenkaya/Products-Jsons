@@ -131,12 +131,101 @@ function plan(change: Change): PlannedStep {
     };
   }
 
+  if (change.scope === 'faq') {
+    // field format: "faq[<id>]" where id is either a numeric SERIAL id or
+    // "new-<tmp>" for rows created in the UI that haven't hit the DB yet.
+    const match = /^faq\[(.+)\]$/.exec(change.field);
+    const idRaw = match?.[1] ?? '';
+    const isNew = idRaw.startsWith('new-');
+    const afterFaq = change.after as null | {
+      id?: string | number;
+      question?: string;
+      answer?: string;
+      scope?: string;
+      brand?: string | null;
+      category?: string | null;
+    };
+
+    if (change.before === null && afterFaq) {
+      return {
+        ...base,
+        status: 'planned',
+        sql:
+          `INSERT INTO product_faqs (sku, scope, brand, category, question, answer) ` +
+          `VALUES (${formatLiteral(change.sku)}, ` +
+          `${formatLiteral(afterFaq.scope ?? 'product')}, ` +
+          `${formatLiteral(afterFaq.brand ?? null)}, ` +
+          `${formatLiteral(afterFaq.category ?? null)}, ` +
+          `${formatLiteral(afterFaq.question ?? '')}, ` +
+          `${formatLiteral(afterFaq.answer ?? '')})`,
+      };
+    }
+
+    if (change.after === null && !isNew) {
+      const idNum = Number(idRaw);
+      if (!Number.isFinite(idNum)) {
+        return { ...base, reason: `faq id parse fail: ${idRaw}` };
+      }
+      return {
+        ...base,
+        status: 'planned',
+        sql: `DELETE FROM product_faqs WHERE id = ${idNum}`,
+      };
+    }
+
+    if (!isNew && afterFaq) {
+      const idNum = Number(idRaw);
+      if (!Number.isFinite(idNum)) {
+        return { ...base, reason: `faq id parse fail: ${idRaw}` };
+      }
+      return {
+        ...base,
+        status: 'planned',
+        sql:
+          `UPDATE product_faqs SET ` +
+          `question = ${formatLiteral(afterFaq.question ?? '')}, ` +
+          `answer = ${formatLiteral(afterFaq.answer ?? '')} ` +
+          `WHERE id = ${idNum}`,
+      };
+    }
+  }
+
+  if (change.scope === 'relation') {
+    // field format: "<relation_type>:<target_sku>"
+    const match = /^([a-z_]+):(.+)$/.exec(change.field);
+    if (!match) {
+      return {
+        ...base,
+        reason: `relation field parse fail: ${change.field}`,
+      };
+    }
+    const [, relType, targetSku] = match as unknown as [string, string, string];
+
+    if (change.before === null) {
+      return {
+        ...base,
+        status: 'planned',
+        sql:
+          `INSERT INTO product_relations (sku, related_sku, relation_type) ` +
+          `VALUES (${formatLiteral(change.sku)}, ${formatLiteral(targetSku)}, ${formatLiteral(relType)})`,
+      };
+    }
+    if (change.after === null) {
+      return {
+        ...base,
+        status: 'planned',
+        sql:
+          `DELETE FROM product_relations WHERE ` +
+          `sku = ${formatLiteral(change.sku)} AND ` +
+          `related_sku = ${formatLiteral(targetSku)} AND ` +
+          `relation_type = ${formatLiteral(relType)}`,
+      };
+    }
+  }
+
   return {
     ...base,
-    reason:
-      change.scope === 'faq' || change.scope === 'relation'
-        ? 'faq/relation commit plumbing Phase 4.9.8b'
-        : `${change.scope}/${change.field} henüz desteklenmiyor`,
+    reason: `${change.scope}/${change.field} henüz desteklenmiyor`,
   };
 }
 
@@ -265,6 +354,126 @@ adminStagingRoutes.post(
               after: c.after,
               changeId: c.id,
             });
+            continue;
+          }
+
+          if (c.scope === 'faq') {
+            const match = /^faq\[(.+)\]$/.exec(c.field);
+            const idRaw = match?.[1] ?? '';
+            const isNew = idRaw.startsWith('new-');
+            const after = c.after as null | {
+              question?: string;
+              answer?: string;
+              scope?: string;
+              brand?: string | null;
+              category?: string | null;
+            };
+
+            if (c.before === null && after) {
+              const res = await tx`
+                INSERT INTO product_faqs
+                  (sku, scope, brand, category, question, answer)
+                VALUES
+                  (${c.sku}, ${after.scope ?? 'product'},
+                   ${after.brand ?? null}, ${after.category ?? null},
+                   ${after.question ?? ''}, ${after.answer ?? ''})
+              `;
+              applied += res.count ?? 0;
+              outcome.push({
+                id: c.id,
+                sku: c.sku,
+                status: 'applied',
+                rows: res.count ?? 0,
+              });
+            } else if (c.after === null && !isNew) {
+              const idNum = Number(idRaw);
+              if (Number.isFinite(idNum)) {
+                const res = await tx`
+                  DELETE FROM product_faqs WHERE id = ${idNum}
+                `;
+                applied += res.count ?? 0;
+                outcome.push({
+                  id: c.id,
+                  sku: c.sku,
+                  status: 'applied',
+                  rows: res.count ?? 0,
+                });
+              }
+            } else if (!isNew && after) {
+              const idNum = Number(idRaw);
+              if (Number.isFinite(idNum)) {
+                const res = await tx`
+                  UPDATE product_faqs
+                     SET question = ${after.question ?? ''},
+                         answer = ${after.answer ?? ''}
+                   WHERE id = ${idNum}
+                `;
+                applied += res.count ?? 0;
+                outcome.push({
+                  id: c.id,
+                  sku: c.sku,
+                  status: 'applied',
+                  rows: res.count ?? 0,
+                });
+              }
+            }
+            auditRows.push({
+              sku: c.sku,
+              scope: c.scope,
+              field: c.field,
+              before: c.before,
+              after: c.after,
+              changeId: c.id,
+            });
+            continue;
+          }
+
+          if (c.scope === 'relation') {
+            const match = /^([a-z_]+):(.+)$/.exec(c.field);
+            if (!match) continue;
+            const [, relType, targetSku] = match as unknown as [
+              string,
+              string,
+              string,
+            ];
+
+            if (c.before === null) {
+              const res = await tx`
+                INSERT INTO product_relations (sku, related_sku, relation_type)
+                VALUES (${c.sku}, ${targetSku}, ${relType})
+                ON CONFLICT (sku, related_sku, relation_type) DO NOTHING
+              `;
+              applied += res.count ?? 0;
+              outcome.push({
+                id: c.id,
+                sku: c.sku,
+                status: 'applied',
+                rows: res.count ?? 0,
+              });
+            } else if (c.after === null) {
+              const res = await tx`
+                DELETE FROM product_relations
+                 WHERE sku = ${c.sku}
+                   AND related_sku = ${targetSku}
+                   AND relation_type = ${relType}
+              `;
+              applied += res.count ?? 0;
+              outcome.push({
+                id: c.id,
+                sku: c.sku,
+                status: 'applied',
+                rows: res.count ?? 0,
+              });
+            }
+            auditRows.push({
+              sku: c.sku,
+              scope: c.scope,
+              field: c.field,
+              before: c.before,
+              after: c.after,
+              changeId: c.id,
+            });
+            continue;
           }
         }
       });
