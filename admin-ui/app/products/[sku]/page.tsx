@@ -14,12 +14,12 @@ import type { SampleProduct } from "@/lib/data/sample-products";
 import { ProductTabs } from "@/components/product/tabs";
 import {
   InfoPanel,
-  SpecsPanel,
-  SizesPanel,
   FaqPanel,
   RelationsPanel,
   HistoryPanel,
 } from "@/components/product/panels";
+import { SpecEditor } from "@/components/edit/spec-editor";
+import { VariantEditor } from "@/components/edit/variant-editor";
 import { adminFetch, type AdminProductDetailResponse } from "@/lib/api";
 import { liveToSampleProduct } from "@/lib/adapters/product";
 
@@ -108,14 +108,14 @@ export default async function ProductDetailPage({ params }: PageProps) {
       label: "Specs",
       icon: <Sparkles className={iconCls} />,
       count: Object.keys(product.specs).length,
-      content: <SpecsPanel product={product} />,
+      content: <SpecEditor sku={product.sku} specs={product.specs} />,
     },
     {
       id: "sizes",
       label: "Sizes",
       icon: <Ruler className={iconCls} />,
       count: product.sizes.length,
-      content: <SizesPanel sizes={product.sizes} />,
+      content: <VariantEditor sku={product.sku} sizes={product.sizes} />,
     },
     {
       id: "faq",
