@@ -9,6 +9,7 @@ import {
   GitCommit,
   Sparkles,
   History,
+  Network,
   type LucideIcon,
 } from "lucide-react";
 
@@ -33,6 +34,7 @@ export const NAV_ITEMS: NavItem[] = [
 
   // Prompt Lab
   { href: "/prompts", label: "Prompt Lab", icon: Sparkles, group: "lab" },
+  { href: "/architecture", label: "Architecture", icon: Network, group: "lab" },
 
   // Flow
   { href: "/staging", label: "Staging", icon: Package, group: "flow" },

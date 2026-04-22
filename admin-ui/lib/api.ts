@@ -229,3 +229,33 @@ export type AdminAgentDetailResponse = {
   instruction: string;
   source: string;
 };
+
+export type AdminToolsResponse = {
+  bots: string[];
+  total: number;
+  tools: Array<{
+    bot: string;
+    name: string;
+    filename: string;
+    bytes: number;
+    lastModified: string | null;
+    jsdoc: string | null;
+    description: string | null;
+    hasInputSchema: boolean;
+    hasOutputSchema: boolean;
+  }>;
+};
+
+export type AdminToolDetailResponse = {
+  bot: string;
+  name: string;
+  filename: string;
+  path: string;
+  bytes: number;
+  lastModified: string | null;
+  jsdoc: string | null;
+  description: string | null;
+  inputSchema: string | null;
+  outputSchema: string | null;
+  source: string;
+};

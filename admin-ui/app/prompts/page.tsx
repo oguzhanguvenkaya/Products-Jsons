@@ -1,31 +1,37 @@
 import Link from "next/link";
 import {
   Sparkles,
-  FileText,
   AlertTriangle,
   ShieldCheck,
   Clock,
   ArrowRight,
+  Wrench,
+  Code,
 } from "lucide-react";
-import { adminFetch, type AdminAgentsResponse } from "@/lib/api";
+import {
+  adminFetch,
+  type AdminAgentsResponse,
+  type AdminToolsResponse,
+} from "@/lib/api";
 
-async function loadAgents(): Promise<{
-  agents: AdminAgentsResponse["agents"];
-  error?: string;
-}> {
+async function load() {
   try {
-    const res = await adminFetch<AdminAgentsResponse>("/agents");
-    return { agents: res.agents };
+    const [agents, tools] = await Promise.all([
+      adminFetch<AdminAgentsResponse>("/agents"),
+      adminFetch<AdminToolsResponse>("/tools"),
+    ]);
+    return { agents: agents.agents, tools: tools.tools, error: null };
   } catch (err) {
     return {
       agents: [],
+      tools: [],
       error: err instanceof Error ? err.message : String(err),
     };
   }
 }
 
 export default async function PromptLabLanding() {
-  const { agents, error } = await loadAgents();
+  const { agents, tools, error } = await load();
 
   return (
     <div className="mx-auto max-w-5xl px-8 py-10">
@@ -38,8 +44,8 @@ export default async function PromptLabLanding() {
         </h1>
         <p className="mt-2 max-w-2xl text-foreground-muted">
           detailagent ve detailagent-ms'in conversation prompt'larını + 7 tool
-          description'ını tek yerden incele. Bu ilk sürüm read-only; inline
-          düzenleme + staging 4.9.8'in üzerine binerek 4.9.11'de açılır.
+          description + zod input/output şemasını tek yerden incele. Bu sürüm
+          read-only; inline düzenleme + staging 4.9.11'de etkinleşir.
         </p>
       </header>
 
@@ -47,7 +53,7 @@ export default async function PromptLabLanding() {
         <div className="mb-5 flex items-start gap-2 rounded-md border border-amber-500/40 bg-amber-500/5 p-3 text-sm text-stone-700">
           <AlertTriangle className="size-4 shrink-0 text-amber-600" aria-hidden />
           <div>
-            Admin API'ye ulaşılamadı — agent listesi yüklenemedi.
+            Admin API'ye ulaşılamadı.
             <code className="mt-1 block font-mono text-[11px] text-foreground-muted">
               {error}
             </code>
@@ -55,13 +61,8 @@ export default async function PromptLabLanding() {
         </div>
       )}
 
-      <section aria-label="Agent'lar" className="space-y-3">
+      <section aria-label="Agent'lar" className="mb-10 space-y-3">
         <h2 className="text-lg text-stone-600">Bot yapılandırmaları</h2>
-        {agents.length === 0 && !error && (
-          <p className="text-sm text-foreground-muted">
-            Filesystem'de agent bulunamadı.
-          </p>
-        )}
         <div className="grid gap-4 md:grid-cols-2">
           {agents.map((a) => (
             <Link
@@ -96,9 +97,11 @@ export default async function PromptLabLanding() {
                   </p>
                 </div>
               </div>
-
               <dl className="grid grid-cols-3 gap-2 text-[11px]">
-                <Stat label="instruction" value={`${(a.instructionBytes / 1024).toFixed(1)} KB`} />
+                <Stat
+                  label="instruction"
+                  value={`${(a.instructionBytes / 1024).toFixed(1)} KB`}
+                />
                 <Stat
                   label="last modified"
                   value={
@@ -114,7 +117,6 @@ export default async function PromptLabLanding() {
                   mono
                 />
               </dl>
-
               <span className="inline-flex items-center gap-1 text-xs text-terracotta-600 group-hover:text-terracotta-700">
                 Instruction'ı aç
                 <ArrowRight className="size-3" aria-hidden />
@@ -124,25 +126,76 @@ export default async function PromptLabLanding() {
         </div>
       </section>
 
-      <section aria-label="Tool registry" className="mt-10">
-        <div className="flex items-baseline justify-between">
+      <section aria-label="Tool registry">
+        <div className="mb-3 flex items-baseline justify-between">
           <h2 className="text-lg text-stone-600">Tool registry</h2>
-          <span className="text-xs text-foreground-muted">yakında</span>
+          <span className="text-xs text-foreground-muted">
+            {tools.length} tool · detailagent-ms
+          </span>
         </div>
-        <div className="mt-3 flex items-start gap-3 rounded-md border border-dashed border-border bg-cream-100 p-4 text-sm text-foreground-muted">
-          <FileText className="size-4 shrink-0 text-sage-600" aria-hidden />
-          <div>
-            7 tool (<code className="font-mono">searchProducts</code>,{" "}
-            <code className="font-mono">searchFaq</code>,{" "}
-            <code className="font-mono">getProductDetails</code>,{" "}
-            <code className="font-mono">getApplicationGuide</code>,{" "}
-            <code className="font-mono">searchByPriceRange</code>,{" "}
-            <code className="font-mono">searchByRating</code>,{" "}
-            <code className="font-mono">getRelatedProducts</code>) için
-            description + zod input shape + örnek output JSON burada
-            görünecek (4.9.10'da eklenecek).
-          </div>
+
+        {tools.length === 0 && !error && (
+          <p className="text-sm text-foreground-muted">Tool bulunamadı.</p>
+        )}
+
+        <div className="grid gap-3 md:grid-cols-2">
+          {tools.map((t) => (
+            <Link
+              key={t.name}
+              href={`/prompts/tools/${encodeURIComponent(t.name)}`}
+              className="group flex flex-col gap-2 rounded-lg border border-border bg-surface p-4 transition-colors hover:border-terracotta-500/50"
+            >
+              <div className="flex items-start gap-2">
+                <Wrench
+                  className="mt-0.5 size-4 shrink-0 text-terracotta-500"
+                  aria-hidden
+                />
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-baseline justify-between gap-2">
+                    <code className="font-mono text-sm font-medium text-stone-700">
+                      {t.name}
+                    </code>
+                    <span className="font-mono text-[10px] text-foreground-muted">
+                      {(t.bytes / 1024).toFixed(1)} KB
+                    </span>
+                  </div>
+                  <p className="mt-1 text-xs text-foreground-muted leading-relaxed line-clamp-3">
+                    {t.description ?? "(description ayrıştırılamadı)"}
+                  </p>
+                </div>
+              </div>
+              <div className="flex items-center gap-1.5 text-[10px] text-foreground-muted">
+                {t.hasInputSchema && (
+                  <span className="rounded bg-sage-500/10 px-1.5 py-0.5 font-mono text-sage-600">
+                    z.input
+                  </span>
+                )}
+                {t.hasOutputSchema && (
+                  <span className="rounded bg-terracotta-500/10 px-1.5 py-0.5 font-mono text-terracotta-600">
+                    z.output
+                  </span>
+                )}
+                {t.jsdoc && (
+                  <span className="rounded bg-cream-200 px-1.5 py-0.5 font-mono">
+                    jsdoc
+                  </span>
+                )}
+                <span className="ml-auto inline-flex items-center gap-1 text-terracotta-600 group-hover:text-terracotta-700">
+                  Detay <ArrowRight className="size-3" aria-hidden />
+                </span>
+              </div>
+            </Link>
+          ))}
         </div>
+
+        <p className="mt-4 flex items-center gap-1 text-[11px] text-foreground-muted">
+          <Code className="size-3" aria-hidden />
+          Source dosyaları{" "}
+          <code className="font-mono">
+            Botpress/detailagent-ms/src/tools/*.ts
+          </code>{" "}
+          adresinden okunuyor.
+        </p>
       </section>
     </div>
   );
