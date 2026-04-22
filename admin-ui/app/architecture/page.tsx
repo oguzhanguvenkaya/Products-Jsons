@@ -7,6 +7,126 @@ import {
   Layers,
 } from "lucide-react";
 import { MermaidDiagram } from "@/components/architecture/mermaid";
+import { Glossary, type GlossaryEntry } from "@/components/architecture/glossary";
+
+/* ─────────────────────────── Servis topolojisi ─────────────────────────── */
+
+const FLOW_GLOSSARY: GlossaryEntry[] = [
+  {
+    id: "U",
+    label: "Müşteri webchat",
+    layer: "Kullanıcı",
+    body: "mtskimya.com sitesindeki Botpress webchat widget'ı. Tarayıcıda HTTPS üzerinden Botpress messaging-server'a bağlanır; tüm kullanıcı mesajlarının başlangıç noktası.",
+  },
+  {
+    id: "DAMS",
+    label: "detailagent-ms (v10, active)",
+    layer: "Botpress Cloud",
+    tone: "primary",
+    body: "Aktif bot. Phase 4'te microservice'e geçirilen yeni nesil ajan. 7 tool çağrısı (searchProducts, searchFaq, getProductDetails, getApplicationGuide, getRelatedProducts, searchByPriceRange, searchByRating) doğrudan retrieval-service'e HTTP yapar.",
+  },
+  {
+    id: "DA",
+    label: "detailagent (v9.2, frozen)",
+    layer: "Botpress Cloud",
+    body: "Eski bot, şu an dokunulmaz. Botpress Tables'a doğrudan bağlı; Phase 6 cutover'a kadar emergency rollback için canlı tutuluyor.",
+  },
+  {
+    id: "Mid",
+    label: "middleware",
+    layer: "retrieval-service · Fly.io iad",
+    body: "Tüm /search ve /admin isteklerinden önce çalışır: Bearer auth (timing-safe compare), JSON request logger, error handler. /health ve /admin path'leri kendi auth'larını kullanır.",
+  },
+  {
+    id: "S",
+    label: "/search (hybrid)",
+    layer: "retrieval-service · Fly.io iad",
+    tone: "primary",
+    body: "Ana arama endpoint'i. Türkçe normalize → synonym expand → slot extract → BM25 + vector parallel → RRF fusion → business boosts pipeline'ını koşturur. mode=hybrid|pure_vector flag'i.",
+  },
+  {
+    id: "F",
+    label: "/faq",
+    layer: "retrieval-service · Fly.io iad",
+    body: "FAQ semantic + SKU bypass. SKU verilmişse ürüne özel FAQ kümesini, verilmemişse cross-product semantic vector arama yapar. Confidence + recommendation string ile döner.",
+  },
+  {
+    id: "P",
+    label: "/products/:sku · /related · /guide",
+    layer: "retrieval-service · Fly.io iad",
+    body: "Deterministik lookup endpoint'leri: tek SKU detayı (6-tablo JOIN), 5 granular relation_type (use_with/use_before/use_after/accessories/alternatives), application guide (3-4× daha küçük payload + videoCard).",
+  },
+  {
+    id: "SR",
+    label: "/search/price · /search/rating",
+    layer: "retrieval-service · Fly.io iad",
+    body: "Spesifik amaçlı arama: fiyat aralığı (variant fiyatı dahil EXISTS branch), rating-based sıralama (specs.ratings JSONB extract). LLM multi-step yerine tek çağrı.",
+  },
+  {
+    id: "Adm",
+    label: "/admin/* (Catalog Atelier)",
+    layer: "retrieval-service · Fly.io iad",
+    tone: "warn",
+    body: "Bu admin UI'nin bağlandığı surface. Ayrı RETRIEVAL_ADMIN_SECRET ile korunur. taxonomy/coverage/products/faqs/relations/agents/tools/staging endpoint grupları.",
+  },
+  {
+    id: "T1",
+    label: "products (511)",
+    layer: "Supabase Postgres · us-east-1",
+    body: "Ana ürün tablosu. JSONB `specs` (howToUse/whenToUse/whyThisProduct + 156+ key) ve `sizes[]` (variant array) tek satırda. Trigger ile updated_at otomatik güncellenir.",
+  },
+  {
+    id: "T2",
+    label: "product_faqs (3 156)",
+    layer: "Supabase Postgres · us-east-1",
+    body: "3 scope (product/brand/category). Her satır için Turkish FTS tsvector + Gemini embedding. SKU NULL ise scope=brand veya category demektir.",
+  },
+  {
+    id: "T3",
+    label: "product_relations (1 301)",
+    layer: "Supabase Postgres · us-east-1",
+    body: "(sku, related_sku, relation_type) primary key. Phase 4'te eski 4 tip (primary/variant/complement/alternative) yanına 5 granular tip eklendi (use_with/use_before/use_after/accessories/alternatives).",
+  },
+  {
+    id: "T4",
+    label: "product_meta (1 961)",
+    layer: "Supabase Postgres · us-east-1",
+    body: "EAV tablosu (key + value_text/value_numeric/value_boolean). Filtre tabanlı arama için (silicone_free, contains_sio2, ph_level vs.). Specs JSONB ile çakışan alanlar var, normalize edilmeli.",
+  },
+  {
+    id: "T5",
+    label: "synonyms (38)",
+    layer: "Supabase Postgres · us-east-1",
+    body: "Türkçe synonym sözlüğü (cila → polish/pasta, seramik → ceramic_coating). synonymExpander pipeline aşamasında query'i genişletir. Phase 6.5'te ~100'e çıkarılacak.",
+  },
+  {
+    id: "E",
+    label: "product_embeddings (768d)",
+    layer: "Supabase Postgres · us-east-1",
+    tone: "secondary",
+    body: "pgvector 0.8 sütunu. Her ürünün search_text'i (name + brand + sub_cat + specs özeti) Gemini embedding-001 ile vektörlenir. ivfflat index ile cosine similarity araması.",
+  },
+  {
+    id: "FE",
+    label: "faq_embeddings (768d)",
+    layer: "Supabase Postgres · us-east-1",
+    tone: "secondary",
+    body: "FAQ soru+cevap birleşik metninin vektörü. Cross-product semantic search için kullanılır (\"silikon içerir mi\" → ürün-bağımsız cevap çekme).",
+  },
+  {
+    id: "FTS",
+    label: "Turkish FTS GIN",
+    layer: "Supabase Postgres · us-east-1",
+    body: "Postgres `to_tsvector('turkish', ...)` üzerine GIN index. Snowball stemmer ile Türkçe kök bulma. BM25 skoru için ts_rank_cd kullanılır.",
+  },
+  {
+    id: "G",
+    label: "Gemini embedding-001",
+    layer: "Dış servisler",
+    tone: "secondary",
+    body: "Google AI Studio'nun multilingual embedding modeli, 768 boyut. Hem ürün/FAQ embed pipeline'ında hem her query'de tek seferlik vektörleme için. LRU cache (1000 query / 24h) ile maliyet düşürülür.",
+  },
+];
 
 const FLOW_DIAGRAM = `
 flowchart TB
@@ -100,6 +220,81 @@ flowchart LR
     style Out fill:#7A8B56,color:#FAF6ED,stroke:#62724A
 `;
 
+/* ─────────────────────────── RAG glossary ─────────────────────────── */
+
+const RAG_GLOSSARY: GlossaryEntry[] = [
+  {
+    id: "Q",
+    label: "Kullanıcı sorgusu",
+    layer: "Giriş",
+    tone: "primary",
+    body: "Bot'un searchProducts/searchFaq tool'undan gelen ham metin. Ortalama 3-8 kelime, Türkçe yazım hataları + casing varyantları içerir (\"polısaj\", \"GYEON\" vs. \"gyeon\").",
+  },
+  {
+    id: "TN",
+    label: "turkishNormalize",
+    layer: "1. Normalize",
+    body: "ı↔i typo toleransı, ş/ç/ğ/ö/ü diakritiklerini koruyarak normalize. Casing'i lowercase'e çekmez (özel isimler için). Phase 3'te eklenmişti, FTS skoru ve embed kalitesini ikisini de iyileştirdi.",
+  },
+  {
+    id: "SE",
+    label: "synonymExpander",
+    layer: "2. Synonym",
+    body: "synonyms tablosundaki 38 eşanlamlı eşlemesini OR olarak query'e enjekte eder. \"cila\" gelirse \"cila|polish|pasta\" olur. BM25 recall'unu yükseltir; vektör arama zaten semantic.",
+  },
+  {
+    id: "SX",
+    label: "slotExtractor",
+    layer: "3. Slot extraction",
+    body: "Regex + keyword tabanlı brand/template_group/sub_type/priceMin/priceMax/rating çıkarımı. \"GYEON 1000 TL altı seramik\" → {brand:'GYEON', priceMax:1000, sub_type:'paint_coating'}. Slot'lar SQL filter'a döner.",
+  },
+  {
+    id: "E",
+    label: "Gemini embed (768d)",
+    layer: "4. Hybrid retrieval",
+    tone: "secondary",
+    body: "Query string'i Gemini embedding-001'e gönderir. Cevap LRU cache'lenir (5 dk TTL, 500 entry). Vector branch'in girdisi.",
+  },
+  {
+    id: "BM",
+    label: "BM25 Turkish FTS",
+    layer: "4. Hybrid retrieval",
+    body: "OR-tsquery formatı: tüm query token'ları | ile birleştirilir, normalize edilir. ts_rank_cd ile skorlanır. Tarihsel/exact-match avantajı yüksek (\"Menzerna 400\" gibi).",
+  },
+  {
+    id: "VEC",
+    label: "pgvector cosine",
+    layer: "4. Hybrid retrieval",
+    body: "product_embeddings tablosuna cosine distance ile yakın komşu sorgusu. Top 50 aday döner. Semantic genelleme avantajı yüksek (\"böcek temizleyici\" → bug remover ürünleri).",
+  },
+  {
+    id: "RRF",
+    label: "RRF fusion (k=60)",
+    layer: "4. Hybrid retrieval",
+    tone: "warn",
+    body: "Reciprocal Rank Fusion: rank(BM25) ve rank(vector) listelerini 1/(k+rank) formülüyle birleştirir. k=60 standart parametre. İki sinyalin tek skor matrisine indirgenmesi.",
+  },
+  {
+    id: "B",
+    label: "business boosts",
+    layer: "5. Post-processing",
+    body: "is_featured, stock_status='in_stock', rating yüksekliği gibi business sinyallerle skor ayarı. Ranking'i kullanılabilirlik + öneri kalitesine yönlendirir.",
+  },
+  {
+    id: "F",
+    label: "formatter",
+    layer: "5. Post-processing",
+    body: "DB satırlarını bot tool output şemasına çevirir: productSummaries[] (carousel-ready: title/subtitle/imageUrl/actions), rankedProducts[] (raw + debug), filtersApplied (LLM'in görmesi gereken sinyaller).",
+  },
+  {
+    id: "Out",
+    label: "Bot tool output",
+    layer: "Çıkış",
+    tone: "secondary",
+    body: "JSX render'a hazır, ortalama 5 ürün × 3 alan (title/subtitle/url). Bot LLM bu output'u alır, kullanıcıya carousel + metin yanıt olarak yield eder.",
+  },
+];
+
 const STAGING_FLOW = `
 flowchart LR
     Op[Operatör]
@@ -125,6 +320,63 @@ flowchart LR
     style Cmt fill:#C65D3F,color:#FAF6ED
     style DB fill:#7A8B56,color:#FAF6ED
 `;
+
+/* ─────────────────────────── Staging glossary ─────────────────────────── */
+
+const STAGING_GLOSSARY: GlossaryEntry[] = [
+  {
+    id: "Op",
+    label: "Operatör",
+    layer: "Aktör",
+    tone: "primary",
+    body: "Catalog Atelier kullanıcısı (sen). Ürün detayında EditableCell'den, FAQ Manager'dan veya Bulk wizard'larından düzenleme tetikler. Hata yapma riski yüksek olduğu için tüm değişiklikler önce browser-local kalır.",
+  },
+  {
+    id: "UI",
+    label: "Admin UI bileşenleri",
+    layer: "Tarayıcı",
+    body: "InfoPanel inline edit, SpecEditor, VariantEditor, FaqEditor, RelationEditor, Bulk wizard'ları. Her biri stageChange() çağırarak Zustand store'a düşer; doğrudan DB'ye fetch ATMAZ.",
+  },
+  {
+    id: "LS",
+    label: "Zustand + localStorage",
+    layer: "Tarayıcı",
+    tone: "warn",
+    body: "useStagingStore (catalog-atelier.staging key'i ile localStorage persist). Her diff: {sku, scope, field, before, after, label}. Aynı (sku,scope,field) tuple'ı ikinci defa düzenlenirse coalesce edilir, drawer'da tekilleşir.",
+  },
+  {
+    id: "Stg",
+    label: "/staging drawer",
+    layer: "Review",
+    body: "Bekleyen tüm diff'leri SKU bazlı gruplayarak listeler. Her satırın yanında 'geri al' butonu var; tüm staging'i temizleme + commit'e geçiş bağlantıları üstte.",
+  },
+  {
+    id: "Prev",
+    label: "/admin/staging/preview",
+    layer: "Backend",
+    body: "POST endpoint. Diff array'ini alır, her satırı plan() fonksiyonundan geçirip 'planned' / 'unsupported' / 'skipped' kategorisine ayırır. Plan SQL string'i üretir AMA çalıştırmaz. Operatör SQL'i tek tek görür.",
+  },
+  {
+    id: "Cmt",
+    label: "/admin/staging/commit",
+    layer: "Backend",
+    tone: "primary",
+    body: "POST endpoint. sql.begin() içinde her planned değişikliği (UPDATE products / jsonb_set specs / INSERT FAQ / DELETE relation vs.) çalıştırır. Bir satır fail ederse TÜM commit rollback olur — partial write yok.",
+  },
+  {
+    id: "DB",
+    label: "Supabase tabloları",
+    layer: "Persistence",
+    tone: "secondary",
+    body: "products, product_faqs, product_relations, product_meta. Commit transaction'ı bu tablolara yazar. updated_at trigger'ı products satırlarında otomatik döner; FAQ/relation için yeni satır timestamp'i create_at'tan gelir.",
+  },
+  {
+    id: "Aud",
+    label: "audit_log",
+    layer: "Persistence",
+    body: "Migration 008 ile gelen append-only tablo. Her commit step'i için (sku, scope, field, before_value, after_value, change_id, request_id) satırı yazılır. Yazım fire-and-forget — tablo yoksa commit yine başarılı sayılır. /activity feed buradan okur.",
+  },
+];
 
 export default function ArchitecturePage() {
   return (
@@ -159,6 +411,7 @@ export default function ArchitecturePage() {
         <div className="rounded-lg border border-border bg-surface p-5">
           <MermaidDiagram chart={FLOW_DIAGRAM} id="flow" />
         </div>
+        <Glossary entries={FLOW_GLOSSARY} />
       </section>
 
       <section className="mb-10">
@@ -177,6 +430,7 @@ export default function ArchitecturePage() {
         <div className="rounded-lg border border-border bg-surface p-5">
           <MermaidDiagram chart={RAG_PIPELINE} id="rag" />
         </div>
+        <Glossary entries={RAG_GLOSSARY} />
       </section>
 
       <section className="mb-10">
@@ -196,6 +450,7 @@ export default function ArchitecturePage() {
         <div className="rounded-lg border border-border bg-surface p-5">
           <MermaidDiagram chart={STAGING_FLOW} id="staging" />
         </div>
+        <Glossary entries={STAGING_GLOSSARY} />
       </section>
 
       <section className="mb-6 grid gap-4 md:grid-cols-3">
