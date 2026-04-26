@@ -59,11 +59,16 @@ type PlannedStep = {
   reason?: string;
 };
 
-type SupportedProductField = 'price' | 'base_name' | 'template_sub_type';
+type SupportedProductField =
+  | 'price'
+  | 'base_name'
+  | 'template_sub_type'
+  | 'template_group';
 const PRODUCT_FIELD_WHITELIST: readonly SupportedProductField[] = [
   'price',
   'base_name',
   'template_sub_type',
+  'template_group',
 ];
 
 function isSupportedProductField(f: string): f is SupportedProductField {

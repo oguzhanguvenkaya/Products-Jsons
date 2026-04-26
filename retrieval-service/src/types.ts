@@ -17,6 +17,7 @@ import { z } from 'zod';
 
 export const TEMPLATE_GROUPS = [
   'abrasive_polish',
+  'air_equipment',          // Phase 19 (eski accessory)
   'applicators',
   'brushes',
   'car_shampoo',
@@ -37,10 +38,10 @@ export const TEMPLATE_GROUPS = [
   'polishing_pad',
   'ppf_tools',
   'product_sets',
-  'spare_part',
   'sprayers_bottles',
   'storage_accessories',
   'tire_care',
+  'wash_tools',             // Phase 2R §14 (yeni grup)
 ] as const;
 
 export const TemplateGroupSchema = z.enum(TEMPLATE_GROUPS);

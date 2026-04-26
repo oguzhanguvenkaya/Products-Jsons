@@ -27,7 +27,7 @@ export const adminCoverageRoutes = new Hono<{ Variables: AppVariables }>();
 
 const QuerySchema = z.object({
   group: z.string().trim().min(1).optional(),
-  limit: z.coerce.number().int().min(1).max(80).default(25),
+  limit: z.coerce.number().int().min(1).max(2000).default(25),
 });
 
 type GlobalRow = { key: string; product_count: number; total: number };

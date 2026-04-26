@@ -95,14 +95,7 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       'yagmur kaydirici', 'yağmur kaydırıcı', 'cam bakimi', 'cam bakımı',
     ],
   },
-  {
-    canonical: 'tire_coating',
-    templateGroup: 'ceramic_coating',
-    patterns: [
-      'lastik kaplama', 'lastik parlatici', 'lastik parlatıcı',
-      'lastik koruyucu', 'teker kaplama', 'tire coating',
-    ],
-  },
+  // Phase 2R: tire_coating sub_type kaldırıldı (tire_dressing'e merge edildi, tire_care altına taşındı)
   {
     canonical: 'wheel_coating',
     templateGroup: 'ceramic_coating',
@@ -116,32 +109,26 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       'trim restorasyon', 'plastik yenileyici',
     ],
   },
-  {
-    canonical: 'leather_coating',
-    templateGroup: 'ceramic_coating',
-    patterns: [
-      'deri kaplama', 'deri koruyucu', 'deri seramik',
-      'koltuk kaplama deri',
-    ],
-  },
+  // Phase 2R: leather_coating, interior_coating → fabric_coating (merge edildi)
   {
     canonical: 'fabric_coating',
     templateGroup: 'ceramic_coating',
     patterns: [
+      // fabric (kumaş)
       'kumas kaplama', 'kumaş kaplama', 'koltuk kumas', 'koltuk kumaş',
       'tente kaplama', 'kumas koruyucu', 'kumaş koruyucu',
-    ],
-  },
-  {
-    canonical: 'interior_coating',
-    templateGroup: 'ceramic_coating',
-    patterns: [
+      // leather (deri) — Phase 2R: fabric_coating'e merge edildi
+      'deri kaplama', 'deri seramik',
+      'koltuk kaplama deri',
+      // interior — Phase 2R: fabric_coating'e merge edildi
       'ic mekan kaplama', 'iç mekan kaplama', 'iç yüzey kaplama',
       'antibakteriyel kaplama',
     ],
   },
+  // Phase 2R: spray_coating → paint_coating (merge edildi) — pattern'ler ana paint_coating bloğuna taşındı
+  // Aşağıdaki entry sadece Türkçe "sprey" aramalarını paint_coating'e yönlendirir
   {
-    canonical: 'spray_coating',
+    canonical: 'paint_coating',
     templateGroup: 'ceramic_coating',
     patterns: ['sprey seramik', 'sprey kaplama', 'spray coating', 'hizli seramik', 'hızlı seramik'],
   },
@@ -170,23 +157,293 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       'finish polish', 'ucuncu adim', 'üçüncü adım',
     ],
   },
+  // Phase 2R: one_step_polish + metal_polish → polish (merge edildi)
+  //           sanding_paste → heavy_cut_compound (merge edildi)
+  // Pattern'ler polish ve heavy_cut_compound canonical'larına yönlendiriliyor
   {
-    canonical: 'one_step_polish',
+    canonical: 'polish',
     templateGroup: 'abrasive_polish',
     patterns: [
+      // one_step_polish pattern'leri — Phase 2R: polish'e merge
       'tek adim pasta', 'tek adım pasta', 'all in one pasta',
       '3 in 1', '3in1', 'tek adim cila',
+      // metal_polish pattern'leri — Phase 2R: polish'e merge
+      'metal parlatici', 'metal parlatıcı', 'krom parlatici', 'krom parlatıcı',
     ],
   },
   {
-    canonical: 'metal_polish',
+    canonical: 'heavy_cut_compound',
     templateGroup: 'abrasive_polish',
-    patterns: ['metal parlatici', 'metal parlatıcı', 'krom parlatici', 'krom parlatıcı'],
+    patterns: [
+      // sanding_paste pattern'leri — Phase 2R: heavy_cut_compound'a merge
+      'zimpara pasta', 'zımpara pasta', 'matlastirici', 'matlaştırıcı',
+    ],
+  },
+  // --- Phase 2R: microfiber / cleaning_cloth hub ---
+  {
+    canonical: 'cleaning_cloth',
+    templateGroup: 'microfiber',
+    patterns: [
+      'mikrofiber bez', 'temizlik bezi', 'silme bezi', 'cam bezi',
+      'ic mekan bezi', 'iç mekan bezi', 'koltuk bezi',
+      'cam silme bezi', 'deri silme bezi', 'interior wipe',
+    ],
   },
   {
-    canonical: 'sanding_paste',
-    templateGroup: 'abrasive_polish',
-    patterns: ['zimpara pasta', 'zımpara pasta', 'matlastirici', 'matlaştırıcı'],
+    canonical: 'buffing_cloth',
+    templateGroup: 'microfiber',
+    patterns: ['pasta sonrasi bez', 'pasta sonrası bez', 'cila silme bezi', 'buffing cloth', 'pasta bezi'],
+  },
+  // Phase 2R: drying_towel sub_type microfiber'dan wash_tools'a taşındı (yeni entry alttaki wash_tools bölümünde)
+  // --- Phase 2R: interior_cleaner hub ---
+  {
+    canonical: 'fabric_leather_cleaner',
+    templateGroup: 'interior_cleaner',
+    patterns: [
+      'kumas temizleyici', 'kumaş temizleyici', 'deri temizleyici',
+      'koltuk temizleyici', 'ic mekan temizleyici', 'iç mekan temizleyici',
+      'dosemesi temizleyici', 'döşeme temizleyici', 'tekstil temizleyici',
+    ],
+  },
+  {
+    canonical: 'interior_apc',
+    templateGroup: 'interior_cleaner',
+    patterns: [
+      'all purpose cleaner', 'apc', 'cok amacli temizleyici', 'çok amaçlı temizleyici',
+      'genel yuzey temizleyici', 'genel yüzey temizleyici',
+    ],
+  },
+  {
+    canonical: 'plastic_dressing',
+    templateGroup: 'interior_cleaner',
+    patterns: [
+      'plastik parlatici', 'plastik parlatıcı', 'plastik yenileyici',
+      'torpido parlatici', 'torpido parlatıcı', 'plastik bakim', 'plastik bakım',
+    ],
+  },
+  // --- Phase 2R: leather_care (tire_dressing paraleli) ---
+  {
+    canonical: 'leather_dressing',
+    templateGroup: 'leather_care',
+    patterns: [
+      'deri besleyici', 'deri kremi', 'deri bakim', 'deri bakım',
+      'deri koruyucu', 'leather cream', 'leather conditioner',
+      'deri dressing', 'leather dressing', 'deri yaglayici', 'deri yağlayıcı',
+    ],
+  },
+  // --- Phase 2R: contaminant_solvers / surface_prep ---
+  {
+    canonical: 'surface_prep',
+    templateGroup: 'contaminant_solvers',
+    patterns: [
+      'yuzey hazirlayici', 'yüzey hazırlayıcı', 'panel wipe', 'panel temizleyici',
+      'ipa temizleyici', 'alkol bazli temizleyici', 'alkol bazlı temizleyici',
+      'kaplama oncesi temizleyici', 'kaplama öncesi temizleyici', 'prep',
+    ],
+  },
+  // --- Phase 2R: tire_care / tire_dressing (tire_gel merged) ---
+  {
+    canonical: 'tire_dressing',
+    templateGroup: 'tire_care',
+    patterns: [
+      'lastik parlatici', 'lastik parlatıcı', 'lastik cilasi', 'lastik cilası',
+      'lastik koruyucu', 'tire dressing', 'jel lastik', 'lastik jeli',
+    ],
+  },
+  // --- Phase 2R: polisher_machine new structure ---
+  {
+    canonical: 'rotary',
+    templateGroup: 'polisher_machine',
+    patterns: [
+      'rotary polisaj', 'dairesel polisaj', 'rotary makine',
+      'yuksek torklu polisaj', 'yüksek torklu polisaj',
+    ],
+  },
+  {
+    canonical: 'orbital',
+    templateGroup: 'polisher_machine',
+    patterns: [
+      'orbital polisaj', 'da polisaj', 'dual action polisaj',
+      'random orbital', 'orbital makine',
+    ],
+  },
+  {
+    canonical: 'dual_action_polisher',
+    templateGroup: 'polisher_machine',
+    patterns: [
+      'pozitif surus', 'pozitif sürüş', 'gear driven', 'forced rotation',
+      'rotary orbital', 'nano polisaj', 'mini polisaj',
+    ],
+  },
+  {
+    canonical: 'sander',
+    templateGroup: 'polisher_machine',
+    patterns: ['zimpara makinesi', 'zımpara makinesi', 'sander', 'zimpara'],
+  },
+  // --- Phase 2R §14: wash_tools yeni grup ---
+  {
+    canonical: 'wash_mitt',
+    templateGroup: 'wash_tools',
+    patterns: [
+      'yikama eldiveni', 'yıkama eldiveni', 'yikama padi', 'yıkama padı',
+      'yikama sungeri', 'yıkama süngeri', 'wash mitt', 'wash pad', 'wash sponge',
+      'oto yikama eldiveni', 'oto yıkama eldiveni', 'arac yikama eldiveni', 'araç yıkama eldiveni',
+    ],
+  },
+  {
+    canonical: 'drying_towel',
+    templateGroup: 'wash_tools',
+    patterns: [
+      'kurulama bezi', 'kurulama havlusu', 'drying towel', 'waffle havlu',
+      'guderi', 'güderi', 'chamois', 'sentetik guderi', 'sentetik güderi',
+      'oto kurulama', 'arac kurulama', 'araç kurulama',
+    ],
+  },
+  {
+    canonical: 'foam_tool',
+    templateGroup: 'wash_tools',
+    patterns: [
+      'kopuk tabancasi', 'köpük tabancası', 'foam lance', 'foam gun',
+      'kopuk yapici', 'köpük yapıcı', 'foam cannon', 'tornador foam',
+      'basincli kopuk', 'basınçlı köpük', 'karcher kopuk', 'karcher köpük',
+      'hava tabancasi kopuk', 'hava tabancası köpük', 'foam tool',
+    ],
+  },
+  // --- Phase 2R §14: bez/havlu yıkama şampuanı (mikrofiber bezleri yıkamak için) ---
+  {
+    canonical: 'towel_wash',
+    templateGroup: 'wash_tools',
+    patterns: [
+      'havlu sampuani', 'havlu şampuanı', 'bez sampuani', 'bez şampuanı',
+      'mikrofiber yikama sampuani', 'mikrofiber yıkama şampuanı',
+      'mikrofiber sampuan', 'mikrofiber şampuan',
+      'towel wash', 'havlumu nasil yikarim', 'havlumu nasıl yıkarım',
+      'bezimi nasil yikarim', 'bezimi nasıl yıkarım',
+      'eldiven yikama sampuani', 'eldiven yıkama şampuanı',
+    ],
+  },
+  // --- Phase 2R §15: spare_part eritildi → polisher_machine accessory'leri ---
+  {
+    canonical: 'backing_plate',
+    templateGroup: 'polisher_machine',
+    patterns: [
+      'tabanlik', 'tabanlık', 'backing plate', 'pad destek', 'velcro taban',
+      'pad support', 'polisaj tabani', 'polisaj tabanı', 'polisaj makinesi tabani',
+    ],
+  },
+  {
+    canonical: 'battery',
+    templateGroup: 'polisher_machine',
+    patterns: ['yedek aku', 'yedek akü', 'akü', 'battery', 'lithium aku', 'lithium akü'],
+  },
+  {
+    canonical: 'charger',
+    templateGroup: 'polisher_machine',
+    patterns: ['sarj cihazi', 'şarj cihazı', 'charger', 'sarj aleti', 'şarj aleti'],
+  },
+  {
+    canonical: 'carbon_brush',
+    templateGroup: 'polisher_machine',
+    patterns: ['komur takimi', 'kömür takımı', 'yedek komur', 'yedek kömür', 'carbon brush'],
+  },
+  // --- Phase 2R §15: spare_part eritildi → sprayers_bottles parçaları ---
+  {
+    canonical: 'trigger_head',
+    templateGroup: 'sprayers_bottles',
+    patterns: [
+      'yedek baslik', 'yedek başlık', 'puskurtucu baslik', 'püskürtücü başlık',
+      'trigger head', 'spray head', 'sprey baslik', 'sprey başlık',
+    ],
+  },
+  {
+    canonical: 'nozzle',
+    templateGroup: 'sprayers_bottles',
+    patterns: ['yedek nozzle', 'nozzle ucu', 'tabanca ucu', 'sprey ucu'],
+  },
+  {
+    canonical: 'maintenance_kit',
+    templateGroup: 'sprayers_bottles',
+    patterns: [
+      'bakim kiti', 'bakım kiti', 'yedek kit', 'yedek bakim', 'yedek bakım',
+      'maintenance kit', 'pompa bakim', 'pompa bakım',
+    ],
+  },
+  {
+    canonical: 'hose',
+    templateGroup: 'sprayers_bottles',
+    patterns: ['hortum', 'uzatma hortumu', 'spiral hortum', 'pompa hortumu'],
+  },
+  {
+    canonical: 'handle',
+    templateGroup: 'sprayers_bottles',
+    patterns: [
+      'yedek tabanca', 'puskurtme kolu', 'püskürtme kolu', 'pompa kolu',
+      'handle', 'tutamak', 'tetik kolu',
+    ],
+  },
+  // --- Phase 19: industrial solid_compound (katı pasta, abrasive_polish'in sıvı pastasından AYRI) ---
+  {
+    canonical: 'solid_compound',
+    templateGroup: 'industrial_products',
+    patterns: [
+      'kati pasta', 'katı pasta', 'kati cila', 'katı cila',
+      'metal cilasi', 'metal cilası', 'metal parlatici', 'metal parlatıcı',
+      'aluminyum parlatici', 'alüminyum parlatıcı', 'paslanmaz cila',
+      'krom parlatici', 'krom parlatıcı', 'pirinç cila', 'pirinc cila',
+      'menzerna kati', 'menzerna katı', 'solid compound', 'solid bar',
+    ],
+  },
+  // --- Phase 19: air_equipment (Phase 19'da accessory'den taşındı) ---
+  {
+    canonical: 'air_blow_gun',
+    templateGroup: 'air_equipment',
+    patterns: ['hava tabancasi', 'hava tabancası', 'air blow gun', 'kompresor tabancasi', 'kompresör tabancası', 'kisa nozul', 'kısa nozul'],
+  },
+  {
+    canonical: 'tornador_gun',
+    templateGroup: 'air_equipment',
+    patterns: ['tornador tabancasi', 'tornador tabancası', 'tornador gun', 'detayli temizlik tabancasi', 'detaylı temizlik tabancası'],
+  },
+  {
+    canonical: 'tornador_part',
+    templateGroup: 'air_equipment',
+    patterns: ['tornador yedek', 'tornador parca', 'tornador parça', 'yedek boncuk', 'yedek kilcal', 'yedek kılcal', 'tornador hortum'],
+  },
+  // --- Phase 19: marin_products yeniden adlandırma ---
+  {
+    canonical: 'marine_polish',
+    templateGroup: 'marin_products',
+    patterns: ['marin pasta', 'marin cila', 'tekne pasta', 'tekne cila', 'jelkot pasta', 'gelcoat pasta', 'gelcoat polish', 'marine polish'],
+  },
+  {
+    canonical: 'marine_metal_cleaner',
+    templateGroup: 'marin_products',
+    patterns: [
+      'marin metal temizleyici', 'tekne metal temizleyici', 'tekne pas kireç', 'tekne pas kirec',
+      'marin pas çözücü', 'marin pas cozucu', 'marin krom çelik', 'marin krom celik',
+      'tekne çelik temizleyici', 'tekne celik temizleyici', 'marine metal cleaner',
+    ],
+  },
+  {
+    canonical: 'marine_surface_cleaner',
+    templateGroup: 'marin_products',
+    patterns: ['marin yuzey temizleyici', 'marin yüzey temizleyici', 'tekne plastik', 'tekne fiberglass', 'fiberglas temizleyici', 'marin yag cozucu', 'marin yağ çözücü', 'marine surface cleaner'],
+  },
+  {
+    canonical: 'marine_general_cleaner',
+    templateGroup: 'marin_products',
+    patterns: ['marin temizleyici', 'tekne temizleyici', 'marin alkol', 'marin tuvalet', 'tekne wc', 'marine general cleaner'],
+  },
+  {
+    canonical: 'marine_wood_care',
+    templateGroup: 'marin_products',
+    patterns: ['marin ahsap', 'marin ahşap', 'tekne ahsap', 'tekne ahşap', 'marin tik', 'tik temizleyici', 'tekne tik', 'marine wood'],
+  },
+  // --- Phase 19: wool_pad (NPMW6555 keçe için) ---
+  {
+    canonical: 'wool_pad',
+    templateGroup: 'polishing_pad',
+    patterns: ['yun ped', 'yün ped', 'wool pad', 'kuzu postu', 'pasta keçesi', 'pasta kecesi', 'kece ped', 'keçe ped'],
   },
 ];
 
