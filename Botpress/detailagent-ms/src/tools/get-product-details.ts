@@ -38,9 +38,17 @@ export const getProductDetails = new Autonomous.Tool({
     templateGroup: z.string(),
     templateSubType: z.string(),
     technicalSpecs: z.record(z.unknown()).describe(
-      "Teknik specs JSON. Sık kullanılan alanlar: durability_months (ay), " +
-        "durability_km (km, örn. 25000), ph_tolerance (string 'X-Y'), " +
-        "consumption_ml_per_car (sayı), hardness (string, pazarlama iddiası), " +
+      "Teknik specs JSON (Phase 1 canonical, 2026-04-25). Sık kullanılan alanlar: " +
+        "ph_level (number 1-14, ürün kendi pH'ı), ph_tolerance (string range, kaplama dayanım), " +
+        "durability_months (ay), durability_km (km, örn. 25000), " +
+        "volume_ml (içerik), capacity_ml (sprayer tankı), capacity_usable_ml (pump sprayer güvenli), " +
+        "consumption_per_car_ml (sayı, araç başı tüketim — seramik kaplama default 25 ml/oto, motosiklet için volume_ml÷15), " +
+        "dilution (nested: {ratio, bucket, foam_lance, pump_sprayer, manual} — boş alt-key'ler uydurma değildir), " +
+        "target_surface (array: paint, leather, fabric, glass, ppf, ...), " +
+        "compatibility (array: ceramic_coating, ppf — üzerine uygulanabilir), " +
+        "substrate_safe (array: aluminum, fiberglass, plexiglass — zarar vermediği), " +
+        "product_type (machine|accessory|part — polisher_machine/sprayers_bottles ayrımı), " +
+        "hardness (string, pazarlama iddiası), " +
         "ratings (object: {durability, beading, self_cleaning} üretici 1-5 skor). " +
         "Teknik/sayısal sorularda FAQ yerine BU alanı kullan.",
     ),

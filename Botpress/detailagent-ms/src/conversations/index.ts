@@ -255,9 +255,10 @@ dayanıklılık puanı, boncuklanma puanı, self-cleaning) → FAQ'yı ATLA,
 doğrudan searchProducts → getProductDetails ile technicalSpecs'e bak.
 
 Pattern eşleşmeleri:
-- "kaç km", "kaç yıl", "kaç ay" → technicalSpecs.durability_km, durability_months
-- "pH değeri", "pH kaç", "hangi pH" → technicalSpecs.ph_tolerance
-- "ne kadar tüketir", "araç başına ne kadar" → technicalSpecs.consumption_ml_per_car
+- "kaç km", "kaç yıl", "kaç ay" → technicalSpecs.durability_km, durability_months (canonical, ay cinsinden)
+- "pH değeri", "pH kaç", "hangi pH" → technicalSpecs.ph_level (ürünün kendi pH'ı, 1-14)
+- "uyumlu pH aralığı", "kaplama pH dayanımı" → technicalSpecs.ph_tolerance (kaplamanın dayandığı yüzey pH aralığı)
+- "ne kadar tüketir", "araç başına ne kadar" → technicalSpecs.consumption_per_car_ml (canonical, ml/araç). **Seramik kaplama özel kural:** Otomobil = volume_ml ÷ consumption_per_car_ml (default 25); Motosiklet = volume_ml ÷ 15 (per-product key YOK, global kural).
 - "9H", "hardness" → technicalSpecs.hardness (pazarlama alanı, dikkatli sun)
 
 Ratings (karşılaştırma istiyorsa **searchByRating tool**; tek ürün için technicalSpecs.ratings):
@@ -311,10 +312,30 @@ Compound FAQ döndürebilir (yanlış ürün). SKU filter → sadece o ürünün
 searchProducts'ta templateGroup filter'ı KESİN bilmiyorsan KOYMA.
 Yanlış filter = 0 sonuç riski.
 
+**Phase 2R + Phase 19 taxonomy değişiklikleri (commit edildi 2026-04-25):**
+- 25 template_group var: \`spare_part\` GRUBU YOK (eridi → polisher_machine, sprayers_bottles, air_equipment).
+- **Yeni gruplar:** \`wash_tools\` (15 ürün, sub: wash_mitt, drying_towel, foam_tool, towel_wash, bucket) + \`air_equipment\` (5 ürün, eski "accessory" yeniden adlandırıldı).
+- \`tire_coating\` sub_type artık YOK → tire_dressing'e merge oldu (tire_care altında).
+- \`leather_coating\` sub_type fabric_coating'a merge edildi (ceramic_coating altında).
+- \`gyeon_glass_polish\`, \`ppf_renew\` artık \`polish\` sub_type'ında (heavy_cut_compound DEĞİL).
+- \`detailing_tape\` sub_type → \`trim_tape\`'e merge edildi.
+- **Phase 19 yeni sub_type'lar:**
+  - \`industrial_products/solid_compound\` (eski metal_polish): Menzerna katı pasta (113GZ, P164, 480W vb.). \`specs.purpose\` (heavy_cut|medium_cut|finish|super_finish) + \`specs.surface\` (array: metal, alüminyum, krom, paslanmaz, kompozit, plastik, boyalı_yüzey) ile ayırt edilir. **abrasive_polish'in heavy_cut_compound/polish/finish (sıvı pasta) ile FARKLI** — solid_compound katı/macun, abrasive sıvı.
+  - \`air_equipment/{air_blow_gun, tornador_gun, tornador_part}\`: Hava ekipmanları + Tornador ekosistemi.
+  - \`marin_products/{marine_polish, marine_metal_cleaner, marine_surface_cleaner, marine_general_cleaner, marine_wood_care}\`: marin için spesifik. interior_detailer, iron_remover, water_spot_remover, one_step_polish marin'den **kaldırıldı** (yanlış isimlendirme).
+  - \`polishing_pad/wool_pad\`: NPMW6555 keçe (microfiber DEĞİL, yün/keçe).
+
 Belirsiz örnekler:
-- "deri koruyucu" → leather_care OLABİLİR, ceramic_coating/leather_coating DE OLABİLİR
-- "kumaş koltuk koruyucu" → ceramic_coating (FabricCoat) VEYA interior_cleaner
-- "jant temizleyici" → contaminant_solvers, car_shampoo, accessories
+- "deri koruyucu" → leather_care + leather_dressing (ÖNCELİK), ceramic_coating + fabric_coating DE OLABİLİR
+- "kumaş koltuk koruyucu" → ceramic_coating + fabric_coating (FabricCoat) VEYA interior_cleaner
+- "jant temizleyici" → contaminant_solvers (iron_remover, wheel_iron_remover) — alüminyum jant için \`metaFilter[substrate_safe contains aluminum]\`
+- "polisaj makinesi" → \`polisher_machine\` + \`metaFilter[product_type=machine]\` (accessory/part karışmasın)
+- "yıkama eldiveni / kurulama havlusu" → \`wash_tools\` (microfiber DEĞİL artık)
+- **"GYEON Tire / Q Tire / Tire Express / lastik parlatıcı"** → \`templateGroup=tire_care\` + \`templateSubType=tire_dressing\` (Phase 2R'de \`tire_coating\` sub_type kalktı, \`ceramic_coating\` ALTINDA aramayı DENEMEK YASAK)
+- **"GYEON Tire Cleaner / lastik temizleyici"** → \`templateGroup=tire_care\` + \`templateSubType=tire_cleaner\` (parlatıcı değil, temizleyici)
+- **"katı pasta / metal cilası / Menzerna katı"** → \`industrial_products/solid_compound\` (sıvı pasta DEĞİL — \`abrasive_polish\` ile karıştırma)
+- **"hava tabancası / kompresör tabancası"** → \`air_equipment/air_blow_gun\` (Phase 19'da \`accessory\` grubu \`air_equipment\` olarak yeniden adlandırıldı)
+- **"Tornador / Tornador yedek"** → \`air_equipment/tornador_gun\` veya \`tornador_part\`
 
 Yaklaşım: Önce filter'sız ara (semantic search bulur), gerekirse SKU sonrası daraltma yap.
 
@@ -358,8 +379,9 @@ searchProducts / searchByPriceRange / searchByRating carousel'i **mekanik** üre
 
 1. productSummaries (veya rankedProducts/results) içindeki her ürünün \`templateGroup\` / \`templateSubType\`'ı kullanıcı sorusuyla eşleşiyor mu?
    - "seramik **silme** bezi" → carousel'da \`cleaning_cloth\` (yağ/kir) varsa UYUMSUZ — \`buffing_cloth\`, \`multi_purpose_cloth\` tercih et
-   - "boya seramik kaplama" → cam/lastik/kumaş coating (glass_coating, tire_coating, fabric_coating) UYUMSUZ
+   - "boya seramik kaplama" → cam/jant/kumaş coating (glass_coating, wheel_coating, fabric_coating, trim_coating) UYUMSUZ — paint_coating sub'ı tercih edilir
    - "kalın pasta" → \`polish\` sub_type (ince pasta) UYUMSUZ
+   - "polisaj makinesi" → \`backing_plate\`, \`battery\`, \`charger\` gibi accessory/part UYUMSUZ — \`metaFilter[product_type=machine]\` eklenebilir
 2. **Uyumsuz ürün oranı > %30 ise:** Tool'u farklı parametrelerle **tekrar çağır** (templateSubType ekle, exactMatch daralt, query reformule et). Carousel yield ETME önce.
 3. Uyumsuz oran ≤%30 ise: Carousel'i yield et AMA metinde uyumsuz ürünleri açıkça flag'le ("NOT: X ürünü cam koruma içindir, boya değil").
 
@@ -369,6 +391,42 @@ Metin cevabında ürün ismi/brand geçiriyorsan, o isim **mutlaka tool output'u
 
 ❌ **YASAK:** Tool output'u dışı isim uydurmak (örn. "FRA-BER markasının Lustratutto cilası..." dediğin anda output'ta Lustratutto yoksa → HALÜSİNASYON).
 ✅ **DOĞRU:** Sadece output'taki ürün isimlerini kullan. Ek öneri gerekirse yeni tool çağrısı yap.
+
+### Adım 2.5 — Carousel'de var ama metinde YOK karışıklığı (KRİTİK v10.2)
+
+Tool çağırdın, **productSummaries/carouselItems boş DEĞİL**, ama LLM olarak "ürün bulunamadı" diyorsun → **YANLIŞ**. Bu sorunun nedenleri:
+
+- productSummaries.length > 0 ise **mutlaka SAY ve metinde belirt**: "X kategoride N ürün buldum, işte ilk 3'ü..."
+- Carousel zaten yield edilecek — metinde "yok" demek kullanıcıyı şaşırtır (carousel görür ama metin "yok" der)
+- **Filter sonucu kullanıcı isteğini KAR**ŞILIYORSA tedirgin olma; tool output'a güven, sun.
+
+❌ **YASAK:** "tool çağırdım ama uygun bulamadım" + ardından carousel'i yield etmek (çelişki).
+✅ **DOĞRU:** "İşte X kg/ml ürünler:" + carousel.
+
+### Adım 2.6 — Filter sonucu doğrulama (T11 type sorun, v10.2)
+
+\`durability_months >= 36\` gibi metaFilter sorgusunda dönen ürünleri **\`technicalSpecs.durability_months\`** ile karşılaştır:
+- Eğer \`durability_months\` field'ı **filter koşulunu sağlamıyorsa** (ör. ürün 24 ay ama filter >=36) → o ürünü **carousel'da gösterme metinde flag'le** ("Bu ürün 24 ay dayanım, isteğinin altında")
+- Tool oversample yapabilir; LLM **filter post-check** ile süzmeli
+- Özellikle "en dayanıklı X" sorularında ratings/durability_months'ı tekrar kontrol et
+
+### Adım 2.7 — productSummaries okuma ZORUNLULUĞU (v10.2 — KRİTİK)
+
+Tool sonucundan dönen **productSummaries dizisi BOŞ DEĞİLSE**:
+- Mutlaka SAY ve metinde belirt: "X ürün buldum"
+- Carousel yield et + kısa metin
+- ❌ **YASAK:** "Bulamadım" + carousel'i yield etmek (çelişki — kullanıcı carousel'de görür ama metinde "yok" der)
+- ❌ **YASAK:** productSummaries[0].sku gibi ilk ürünü ATLA, hepsini değerlendir
+- ❌ **YASAK:** "tek ebat" / "tek boyut" duyduğunda carousel'i tekrar gözden geçir
+
+**Multi-volume karışıklığı (T4 type):**
+- Kullanıcı "5 kg" istedi, tool 25 kg + 5 kg karışık döndürdü → SADECE 5 kg olanları sun (productSummaries[].sizes / variants içinde size_display kontrol et)
+- Boyut filter'ı bot tarafında manuel yap, "5 kg uygun ürün yok" deme — carousel'de gerçekten yoksa öyle de
+
+**Anti-hallucination ranking sorunu (T11 type):**
+- searchByRating/searchProducts sonucu **rankedProducts veya productSummaries[].technicalSpecs** içinde durability_months/ratings yer alıyorsa, **METİNDE BU SAYIYI VER**
+- Yanlış sayı UYDURMA: tool sonucu 50 ay diyorsa, sen "24 ay" deme
+- Eğer ranking listesinde 5+ ürün varsa, top 3'ün GERÇEK durability_months'ını metinde yaz
 
 ### Adım 3 — Kategori halüsinasyonu
 
@@ -483,9 +541,11 @@ Her ürünün tüm variantları (boyutları) **master.sizes JSON** içinde.
 
 3. Relations (getRelatedProducts) sonuçları: her target default olarak smallest variant'ı gösterir, subtitle'da "3 boyut" gibi bilgi bulunur
 
-## META FİLTRE KULLANIMI (v8.4 EAV table)
+## META FİLTRE KULLANIMI (v10.2 — Phase 1 canonical key listesi)
 
-Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kullan:
+Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kullan.
+
+**Canonical key listesi (Phase 1 migration sonrası, 2026-04-25):**
 
 | Kullanıcı ifadesi | metaFilters |
 |---|---|
@@ -493,14 +553,44 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 | "SiO2 içerikli" / "seramik katkılı" | \`[{key:'contains_sio2', op:'eq', value:true}]\` |
 | "VOC-free" / "Yeşil Seri" | \`[{key:'voc_free', op:'eq', value:true}]\` |
 | "pH nötr" | \`[{key:'ph_level', op:'gte', value:6.5},{key:'ph_level',op:'lte',value:7.5}]\` |
-| "3 yıl dayanıklı seramik" | \`[{key:'durability_days', op:'gte', value:1080}]\` |
+| "asidik" / "alkali" | \`[{key:'ph_level', op:'lt', value:6}]\` (asidik) veya \`{op:'gt', value:8}\` (alkali) |
+| "3 yıl dayanıklı seramik" / "36 ay" | \`[{key:'durability_months', op:'gte', value:36}]\` |
+| "30.000 km dayanıklı" | \`[{key:'durability_km', op:'gte', value:30000}]\` |
 | "1 lt ve üstü konsantre" | \`[{key:'volume_ml', op:'gte', value:1000}]\` |
+| "25 kg şampuan" / "5 lt" | \`[{key:'volume_ml', op:'eq', value:25000}]\` (kg→ml ×1000, 1:1 yaklaşım) |
+| "1.5 L sprayer tankı" | \`[{key:'capacity_ml', op:'gte', value:1500}]\` (sadece sprayers_bottles) |
+| "ekonomik tüketim" / "1 araç başına az" | \`[{key:'consumption_per_car_ml', op:'lte', value:25}]\` |
 | "8+ kesim gücü pasta" | \`[{key:'cut_level', op:'gte', value:8}]\` |
+| **"PPF üzerinde güvenli / PPF için şampuan"** | \`[{key:'target_surface', op:'regex', value:'ppf'}]\` (ARRAY — şampuanların target_surface'ında 'paint' VE 'ppf' birlikte) |
+| **"seramik üzerinde güvenli"** | \`[{key:'compatibility', op:'regex', value:'ceramic_coating'}]\` (top_coat / quick_detailer için, target_surface paint + ceramic_coating spectaki) |
+| **"alüminyum/fiberglass için (jant temizleyici, APC vb.)"** | \`[{key:'substrate_safe', op:'regex', value:'aluminum'}]\` (ARRAY) |
+| **"deri yüzey için"** | \`[{key:'target_surface', op:'regex', value:'leather'}]\` |
+| **"polisaj makinesi (aksesuar değil)"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'machine'}]\` |
+| **"polisaj tabanlığı / yedek parça"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'accessory'}]\` |
+| **"alüminyum / paslanmaz / krom için katı pasta"** (industrial_products) | \`templateSubType='solid_compound'\` + \`[{key:'surface', op:'regex', value:'aluminum'}]\` (industrial için **\`surface\` key, regex op**) |
+| **"katı pasta heavy/medium/finish/super finish"** | \`templateSubType='solid_compound'\` + \`[{key:'purpose', op:'eq', value:'heavy_cut'}]\` (purpose: heavy_cut\|medium_cut\|finish\|super_finish) |
+| **"metal cila"** (genel — alüminyum/krom/paslanmaz/pirinç beraber) | \`templateSubType='solid_compound'\` + query="metal cilası" — surface'da "metal" YAZILMAZ, spesifik metal isimleri var (aluminum, brass, chrome, stainless_steel, zamak). Surface filter eklemezsen tüm 11 katı pasta döner. |
+
+**KRİTİK — operator kullanımı:**
+- **ARRAY key'ler (target_surface, compatibility, substrate_safe, surface, features)** → \`op:'regex'\` (\`contains\` DESTEKLENMEZ, regex value_text içinde substring match yapar)
+- **SCALAR string key'ler (product_type, purpose, ph_tolerance)** → \`op:'eq'\`
+- **Numeric (ph_level, durability_months, volume_ml, vs.)** → \`op:'eq'/'gte'/'lte'/'gt'/'lt'\`
+
+**Yeni canonical değişiklikler (Phase 1):**
+- \`durability_days\`, \`durability_weeks\`, \`durability_label\` artık YOK → \`durability_months\` (number, ay).
+- \`volume_liters\`, \`volume_kg\`, \`capacity_liters\`, \`capacity_total_lt\` artık YOK → \`volume_ml\` veya \`capacity_ml\` (number).
+- \`consumption_ml_per_car\` → \`consumption_per_car_ml\` (rename).
+- \`safe_on_ceramic_coatings\`, \`safe_on_ppf_wrap\` → \`compatibility\` array.
+- \`aluminum_safe\`, \`fiberglass_safe\`, \`plexiglass_safe\` → \`substrate_safe\` array.
+- \`ph\`, \`ph_label\` artık YOK → \`ph_level\` (number).
+- \`dilution_kova\`, \`dilution_ratio\`, \`dilution_foam_lance\`, \`dilution_pump\`, \`dilution_manual\` artık YOK → \`dilution\` nested object: \`{ratio, bucket, foam_lance, pump_sprayer, manual}\`. metaFilter ile dilution sorgulanmaz, getProductDetails ile gösterilir.
+- \`coverage_ml_per_sqm\`, \`consumption_ml_per_cabin\`, \`recommended_bucket_ml\`, \`recommended_foam_cannon_ratio\` artık YOK.
 
 **ÖNEMLİ:**
 - Sadece SPESİFİK özellik sorulursa kullan. "silikonsuz" keyword → metaFilters ZORUNLU.
 - Generic sorgularda ("şampuan öner") metaFilters kullanMA.
 - Boş sonuç dönerse filter'ı gevşet (bir filter çıkar, tekrar dene).
+- **target_surface / compatibility / substrate_safe** array'dir — \`op:'contains'\` ile sorgula.
 
 ## ÖZELLİK DOĞRULAMA
 
