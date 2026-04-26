@@ -1,0 +1,1472 @@
+{
+  "total_changes": 129,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1D-24952-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "24952",
+          "field": "specs.dilution_scale",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-700210-dilution-set",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf veya 1:1 - 1:2",
+            "bucket": "Saf veya 1:1 - 1:2",
+            "foam_lance": "Saf veya 1:1 - 1:2",
+            "pump_sprayer": "Saf veya 1:1 - 1:2",
+            "manual": "Saf veya 1:1 - 1:2"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf veya 1:1 - 1:2)"
+        },
+        {
+          "id": "phase1D-700210-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.dilution_ratio",
+          "before": "Saf veya 1:1 - 1:2",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-700387-dilution-set",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "foam_lance": "1:2 - 1:3",
+            "pump_sprayer": "1:25 - 1:50"
+          },
+          "label": "Phase 1D: nested {foam_lance,pump_sprayer} — spesifik+genel (foam_lance,pump_sprayer)"
+        },
+        {
+          "id": "phase1D-700387-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.dilution_foam_lance",
+          "before": "1:2 - 1:3",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-700387-dilution_pump-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.dilution_pump",
+          "before": "1:25 - 1:50",
+          "after": null,
+          "label": "Phase 1D: pump→dilution.pump_sprayer, drop"
+        },
+        {
+          "id": "phase1D-700466-dilution-set",
+          "scope": "product.specs",
+          "sku": "700466",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:10",
+            "bucket": "1:10",
+            "foam_lance": "1:10",
+            "pump_sprayer": "1:10",
+            "manual": "1:10"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:10)"
+        },
+        {
+          "id": "phase1D-700466-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "700466",
+          "field": "specs.dilution_ratio",
+          "before": "1:10",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-700507-dilution-set",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "foam_lance": "1:9 - 1:12"
+          },
+          "label": "Phase 1D: nested {foam_lance} — spesifik+genel (foam_lance)"
+        },
+        {
+          "id": "phase1D-700507-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.dilution_foam_lance",
+          "before": "1:9 - 1:12",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-700662-dilution-set",
+          "scope": "product.specs",
+          "sku": "700662",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:10 - 1:20",
+            "bucket": "1:10 - 1:20",
+            "foam_lance": "1:10 - 1:20",
+            "pump_sprayer": "1:10 - 1:20",
+            "manual": "1:10 - 1:20"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:10 - 1:20)"
+        },
+        {
+          "id": "phase1D-700662-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "700662",
+          "field": "specs.dilution_ratio",
+          "before": "1:10 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-700888-dilution-set",
+          "scope": "product.specs",
+          "sku": "700888",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "manual": "1:3 - 1:5"
+          },
+          "label": "Phase 1D: nested {manual} — spesifik+genel (manual)"
+        },
+        {
+          "id": "phase1D-700888-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "700888",
+          "field": "specs.dilution_ratio",
+          "before": "{\"manual\": \"1:3 - 1:5\", \"automatic\": \"10-30 ml/araç\"}",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-701003-dilution-set",
+          "scope": "product.specs",
+          "sku": "701003",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:50",
+            "bucket": "1:33 - 1:49",
+            "foam_lance": "1:3"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance} — spesifik+genel (ratio,bucket,foam_lance)"
+        },
+        {
+          "id": "phase1D-701003-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701003",
+          "field": "specs.dilution_ratio",
+          "before": "1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-701003-dilution_kova-drop",
+          "scope": "product.specs",
+          "sku": "701003",
+          "field": "specs.dilution_kova",
+          "before": "1:33 - 1:49",
+          "after": null,
+          "label": "Phase 1D: kova→dilution.bucket migrate, drop"
+        },
+        {
+          "id": "phase1D-701003-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "701003",
+          "field": "specs.dilution_foam_lance",
+          "before": "1:3",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-701010-dilution-set",
+          "scope": "product.specs",
+          "sku": "701010",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf - 1:10",
+            "bucket": "Saf - 1:10",
+            "foam_lance": "Saf - 1:10",
+            "pump_sprayer": "Saf - 1:10",
+            "manual": "Saf - 1:10"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf - 1:10)"
+        },
+        {
+          "id": "phase1D-701010-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701010",
+          "field": "specs.dilution_ratio",
+          "before": "Saf - 1:10",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-701285-dilution-set",
+          "scope": "product.specs",
+          "sku": "701285",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:25 - 1:50",
+            "bucket": "1:25 - 1:50",
+            "foam_lance": "1:25 - 1:50",
+            "pump_sprayer": "1:25 - 1:50",
+            "manual": "1:25 - 1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:25 - 1:50)"
+        },
+        {
+          "id": "phase1D-701285-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701285",
+          "field": "specs.dilution_ratio",
+          "before": "1:25 - 1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-701350-dilution-set",
+          "scope": "product.specs",
+          "sku": "701350",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf veya 1:5",
+            "bucket": "Saf veya 1:5",
+            "foam_lance": "Saf veya 1:5",
+            "pump_sprayer": "Saf veya 1:5",
+            "manual": "Saf veya 1:5"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf veya 1:5)"
+        },
+        {
+          "id": "phase1D-701350-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701350",
+          "field": "specs.dilution_ratio",
+          "before": "Saf veya 1:5",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-701851-dilution-set",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:9 (Genel) - 1:5 (İnatçı Kir)",
+            "bucket": "1:9 (Genel) - 1:5 (İnatçı Kir)",
+            "foam_lance": "1:9 (Genel) - 1:5 (İnatçı Kir)",
+            "pump_sprayer": "1:9 (Genel) - 1:5 (İnatçı Kir)",
+            "manual": "1:9 (Genel) - 1:5 (İnatçı Kir)"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:9 (Genel) - 1:5 (İnatçı Kir))"
+        },
+        {
+          "id": "phase1D-701851-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.dilution_ratio",
+          "before": "1:9 (Genel) - 1:5 (İnatçı Kir)",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-701980-dilution-set",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "foam_lance": "1:4 - 1:9"
+          },
+          "label": "Phase 1D: nested {foam_lance} — spesifik+genel (foam_lance)"
+        },
+        {
+          "id": "phase1D-701980-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.dilution_foam_lance",
+          "before": "1:4 - 1:9",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-70545-dilution-set",
+          "scope": "product.specs",
+          "sku": "70545",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:200",
+            "bucket": "1:200",
+            "foam_lance": "1:200",
+            "pump_sprayer": "1:200",
+            "manual": "1:200"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:200)"
+        },
+        {
+          "id": "phase1D-70545-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70545",
+          "field": "specs.dilution_ratio",
+          "before": "1:200",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-70616-dilution-set",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:120",
+            "bucket": "1:120",
+            "foam_lance": "1:120",
+            "pump_sprayer": "1:120",
+            "manual": "1:120"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:120)"
+        },
+        {
+          "id": "phase1D-70616-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.dilution_ratio",
+          "before": "1:120",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-70640-dilution-set",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "foam_lance": "1:9 - 1:12"
+          },
+          "label": "Phase 1D: nested {foam_lance} — spesifik+genel (foam_lance)"
+        },
+        {
+          "id": "phase1D-70640-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.dilution_foam_lance",
+          "before": "1:9 - 1:12",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-70723-dilution-set",
+          "scope": "product.specs",
+          "sku": "70723",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:25 - 1:50",
+            "bucket": "1:25 - 1:50",
+            "foam_lance": "1:25 - 1:50",
+            "pump_sprayer": "1:25 - 1:50",
+            "manual": "1:25 - 1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:25 - 1:50)"
+        },
+        {
+          "id": "phase1D-70723-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70723",
+          "field": "specs.dilution_ratio",
+          "before": "1:25 - 1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-70868-dilution-set",
+          "scope": "product.specs",
+          "sku": "70868",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf veya 1:2",
+            "bucket": "Saf veya 1:2",
+            "foam_lance": "Saf veya 1:2",
+            "pump_sprayer": "Saf veya 1:2",
+            "manual": "Saf veya 1:2"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf veya 1:2)"
+        },
+        {
+          "id": "phase1D-70868-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70868",
+          "field": "specs.dilution_ratio",
+          "before": "Saf veya 1:2",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-70933-dilution-set",
+          "scope": "product.specs",
+          "sku": "70933",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:5 - 1:10",
+            "bucket": "1:5 - 1:10",
+            "foam_lance": "1:5 - 1:10",
+            "pump_sprayer": "1:5 - 1:10",
+            "manual": "1:5 - 1:10"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:5 - 1:10)"
+        },
+        {
+          "id": "phase1D-70933-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70933",
+          "field": "specs.dilution_ratio",
+          "before": "1:5 - 1:10",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-70942-dilution-set",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "manual": "1:50 (kaporta), 1:10 (jant)"
+          },
+          "label": "Phase 1D: nested {manual} — spesifik+genel (manual)"
+        },
+        {
+          "id": "phase1D-70942-dilution_manual-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.dilution_manual",
+          "before": "1:50 (kaporta), 1:10 (jant)",
+          "after": null,
+          "label": "Phase 1D: manual→dilution.manual, drop"
+        },
+        {
+          "id": "phase1D-71110-dilution-set",
+          "scope": "product.specs",
+          "sku": "71110",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:3 - 1:15",
+            "bucket": "1:3 - 1:15",
+            "foam_lance": "1:3 - 1:15",
+            "pump_sprayer": "1:3 - 1:15",
+            "manual": "1:3 - 1:15"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:3 - 1:15)"
+        },
+        {
+          "id": "phase1D-71110-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71110",
+          "field": "specs.dilution_ratio",
+          "before": "1:3 - 1:15",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-71132-dilution-set",
+          "scope": "product.specs",
+          "sku": "71132",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Kullanıma hazır",
+            "bucket": "Kullanıma hazır",
+            "foam_lance": "Kullanıma hazır",
+            "pump_sprayer": "Kullanıma hazır",
+            "manual": "Kullanıma hazır"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Kullanıma hazır)"
+        },
+        {
+          "id": "phase1D-71176-dilution-set",
+          "scope": "product.specs",
+          "sku": "71176",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:10",
+            "bucket": "1:10",
+            "foam_lance": "1:10",
+            "pump_sprayer": "1:10",
+            "manual": "1:10"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:10)"
+        },
+        {
+          "id": "phase1D-71176-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71176",
+          "field": "specs.dilution_ratio",
+          "before": "1:10",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-71180-dilution-set",
+          "scope": "product.specs",
+          "sku": "71180",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:80",
+            "foam_lance": "saf - 1:3"
+          },
+          "label": "Phase 1D: nested {ratio,foam_lance} — spesifik+genel (ratio,foam_lance)"
+        },
+        {
+          "id": "phase1D-71180-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71180",
+          "field": "specs.dilution_ratio",
+          "before": "1:80",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-71180-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "71180",
+          "field": "specs.dilution_foam_lance",
+          "before": "saf - 1:3",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-71331-dilution-set",
+          "scope": "product.specs",
+          "sku": "71331",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:200",
+            "bucket": "1:200",
+            "foam_lance": "1:200",
+            "pump_sprayer": "1:200",
+            "manual": "1:200"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:200)"
+        },
+        {
+          "id": "phase1D-71331-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71331",
+          "field": "specs.dilution_ratio",
+          "before": "1:200",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-71490-dilution-set",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:50",
+            "foam_lance": "1:2 - 1:12",
+            "pump_sprayer": "1:25 - 1:50"
+          },
+          "label": "Phase 1D: nested {ratio,foam_lance,pump_sprayer} — spesifik+genel (ratio,foam_lance,pump_sprayer)"
+        },
+        {
+          "id": "phase1D-71490-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.dilution_ratio",
+          "before": "1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-71490-dilution_foam_lance-drop",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.dilution_foam_lance",
+          "before": "1:2 - 1:12",
+          "after": null,
+          "label": "Phase 1D: foam_lance→dilution.foam_lance, drop"
+        },
+        {
+          "id": "phase1D-71490-dilution_pump-drop",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.dilution_pump",
+          "before": "1:25 - 1:50",
+          "after": null,
+          "label": "Phase 1D: pump→dilution.pump_sprayer, drop"
+        },
+        {
+          "id": "phase1D-71676-dilution-set",
+          "scope": "product.specs",
+          "sku": "71676",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:80 - 1:100",
+            "bucket": "1:80 - 1:100",
+            "foam_lance": "1:80 - 1:100",
+            "pump_sprayer": "1:80 - 1:100",
+            "manual": "1:80 - 1:100"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:80 - 1:100)"
+        },
+        {
+          "id": "phase1D-71676-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71676",
+          "field": "specs.dilution_ratio",
+          "before": "1:80 - 1:100",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-71706-dilution-set",
+          "scope": "product.specs",
+          "sku": "71706",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:3 - 1:5",
+            "bucket": "1:3 - 1:5",
+            "foam_lance": "1:3 - 1:5",
+            "pump_sprayer": "1:3 - 1:5",
+            "manual": "1:3 - 1:5"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:3 - 1:5)"
+        },
+        {
+          "id": "phase1D-71706-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "71706",
+          "field": "specs.dilution_ratio",
+          "before": "1:3 - 1:5",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-72042-dilution-set",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "manual": "1:50 (kaporta), 1:10 (jant)"
+          },
+          "label": "Phase 1D: nested {manual} — spesifik+genel (manual)"
+        },
+        {
+          "id": "phase1D-72042-dilution_manual-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.dilution_manual",
+          "before": "1:50 (kaporta), 1:10 (jant)",
+          "after": null,
+          "label": "Phase 1D: manual→dilution.manual, drop"
+        },
+        {
+          "id": "phase1D-73378-dilution-set",
+          "scope": "product.specs",
+          "sku": "73378",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:50",
+            "bucket": "1:50",
+            "foam_lance": "1:50",
+            "pump_sprayer": "1:50",
+            "manual": "1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:50)"
+        },
+        {
+          "id": "phase1D-73378-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "73378",
+          "field": "specs.dilution_ratio",
+          "before": "1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-73575-dilution-set",
+          "scope": "product.specs",
+          "sku": "73575",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:80",
+            "manual": "1:50 (kaporta), 1:10 (jant)"
+          },
+          "label": "Phase 1D: nested {ratio,manual} — spesifik+genel (ratio,manual)"
+        },
+        {
+          "id": "phase1D-73575-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "73575",
+          "field": "specs.dilution_ratio",
+          "before": "1:80",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-73575-dilution_manual-drop",
+          "scope": "product.specs",
+          "sku": "73575",
+          "field": "specs.dilution_manual",
+          "before": "1:50 (kaporta), 1:10 (jant)",
+          "after": null,
+          "label": "Phase 1D: manual→dilution.manual, drop"
+        },
+        {
+          "id": "phase1D-74059-dilution-set",
+          "scope": "product.specs",
+          "sku": "74059",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf - 1:25",
+            "bucket": "Saf - 1:25",
+            "foam_lance": "Saf - 1:25",
+            "pump_sprayer": "Saf - 1:25",
+            "manual": "Saf - 1:25"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf - 1:25)"
+        },
+        {
+          "id": "phase1D-74059-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "74059",
+          "field": "specs.dilution_ratio",
+          "before": "Saf - 1:25",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-74062-dilution-set",
+          "scope": "product.specs",
+          "sku": "74062",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:100",
+            "bucket": "1:100",
+            "foam_lance": "1:100",
+            "pump_sprayer": "1:100",
+            "manual": "1:100"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:100)"
+        },
+        {
+          "id": "phase1D-74062-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "74062",
+          "field": "specs.dilution_ratio",
+          "before": "1:100",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-74955-dilution-set",
+          "scope": "product.specs",
+          "sku": "74955",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:10 - 1:15",
+            "bucket": "1:10 - 1:15",
+            "foam_lance": "1:10 - 1:15",
+            "pump_sprayer": "1:10 - 1:15",
+            "manual": "1:10 - 1:15"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:10 - 1:15)"
+        },
+        {
+          "id": "phase1D-74955-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "74955",
+          "field": "specs.dilution_ratio",
+          "before": "1:10 - 1:15",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-75021-dilution-set",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "manual": "1:50 (kaporta), 1:10 (jant)"
+          },
+          "label": "Phase 1D: nested {manual} — spesifik+genel (manual)"
+        },
+        {
+          "id": "phase1D-75021-dilution_manual-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.dilution_manual",
+          "before": "1:50 (kaporta), 1:10 (jant)",
+          "after": null,
+          "label": "Phase 1D: manual→dilution.manual, drop"
+        },
+        {
+          "id": "phase1D-75132-dilution-set",
+          "scope": "product.specs",
+          "sku": "75132",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf - 1:50",
+            "bucket": "Saf - 1:50",
+            "foam_lance": "Saf - 1:50",
+            "pump_sprayer": "Saf - 1:50",
+            "manual": "Saf - 1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf - 1:50)"
+        },
+        {
+          "id": "phase1D-75132-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "75132",
+          "field": "specs.dilution_ratio",
+          "before": "Saf - 1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-75404-dilution-set",
+          "scope": "product.specs",
+          "sku": "75404",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:25 - 1:50",
+            "bucket": "1:25 - 1:50",
+            "foam_lance": "1:25 - 1:50",
+            "pump_sprayer": "1:25 - 1:50",
+            "manual": "1:25 - 1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:25 - 1:50)"
+        },
+        {
+          "id": "phase1D-75404-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "75404",
+          "field": "specs.dilution_ratio",
+          "before": "1:25 - 1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-77019-dilution-set",
+          "scope": "product.specs",
+          "sku": "77019",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:50",
+            "bucket": "1:50",
+            "foam_lance": "1:50",
+            "pump_sprayer": "1:50",
+            "manual": "1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:50)"
+        },
+        {
+          "id": "phase1D-77019-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "77019",
+          "field": "specs.dilution_ratio",
+          "before": "1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-77080-dilution-set",
+          "scope": "product.specs",
+          "sku": "77080",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:20 (Zemin) - Saf (Yüzey)",
+            "bucket": "1:20 (Zemin) - Saf (Yüzey)",
+            "foam_lance": "1:20 (Zemin) - Saf (Yüzey)",
+            "pump_sprayer": "1:20 (Zemin) - Saf (Yüzey)",
+            "manual": "1:20 (Zemin) - Saf (Yüzey)"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:20 (Zemin) - Saf (Yüzey))"
+        },
+        {
+          "id": "phase1D-77080-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "77080",
+          "field": "specs.dilution_ratio",
+          "before": "1:20 (Zemin) - Saf (Yüzey)",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-78779-dilution-set",
+          "scope": "product.specs",
+          "sku": "78779",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:400 (Püskürtme) - 1:15 (Köpük)",
+            "bucket": "1:400 (Püskürtme) - 1:15 (Köpük)",
+            "foam_lance": "1:400 (Püskürtme) - 1:15 (Köpük)",
+            "pump_sprayer": "1:400 (Püskürtme) - 1:15 (Köpük)",
+            "manual": "1:400 (Püskürtme) - 1:15 (Köpük)"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:400 (Püskürtme) - 1:15 (Köpük))"
+        },
+        {
+          "id": "phase1D-78779-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "78779",
+          "field": "specs.dilution_ratio",
+          "before": "1:400 (Püskürtme) - 1:15 (Köpük)",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79290-dilution-set",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:50 (Bakım) - 1:5 (Dekontaminasyon)",
+            "bucket": "1:50 (Bakım) - 1:5 (Dekontaminasyon)",
+            "foam_lance": "1:50 (Bakım) - 1:5 (Dekontaminasyon)",
+            "pump_sprayer": "1:50 (Bakım) - 1:5 (Dekontaminasyon)",
+            "manual": "1:50 (Bakım) - 1:5 (Dekontaminasyon)"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:50 (Bakım) - 1:5 (Dekontaminasyon))"
+        },
+        {
+          "id": "phase1D-79290-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.dilution_ratio",
+          "before": "1:50 (Bakım) - 1:5 (Dekontaminasyon)",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79291-dilution-set",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf veya 1:1 - 1:2",
+            "bucket": "Saf veya 1:1 - 1:2",
+            "foam_lance": "Saf veya 1:1 - 1:2",
+            "pump_sprayer": "Saf veya 1:1 - 1:2",
+            "manual": "Saf veya 1:1 - 1:2"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf veya 1:1 - 1:2)"
+        },
+        {
+          "id": "phase1D-79291-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.dilution_ratio",
+          "before": "Saf veya 1:1 - 1:2",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79292-dilution-set",
+          "scope": "product.specs",
+          "sku": "79292",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:3 - 1:5",
+            "bucket": "1:3 - 1:5",
+            "foam_lance": "1:3 - 1:5",
+            "pump_sprayer": "1:3 - 1:5",
+            "manual": "1:3 - 1:5"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:3 - 1:5)"
+        },
+        {
+          "id": "phase1D-79292-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79292",
+          "field": "specs.dilution_ratio",
+          "before": "1:3 - 1:5",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79586-643-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "79586-643",
+          "field": "specs.dilution_scale",
+          "before": "1:1 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79586-643-dilution_steps_ml-drop",
+          "scope": "product.specs",
+          "sku": "79586-643",
+          "field": "specs.dilution_steps_ml",
+          "before": "50",
+          "after": null,
+          "label": "Phase 1D: dilution_steps_ml drop (kullanıcı: uydurma yok)"
+        },
+        {
+          "id": "phase1D-79586-644-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "79586-644",
+          "field": "specs.dilution_scale",
+          "before": "1:1 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79587-643-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "79587-643",
+          "field": "specs.dilution_scale",
+          "before": "1:1 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79587-643-dilution_steps_ml-drop",
+          "scope": "product.specs",
+          "sku": "79587-643",
+          "field": "specs.dilution_steps_ml",
+          "before": "50",
+          "after": null,
+          "label": "Phase 1D: dilution_steps_ml drop (kullanıcı: uydurma yok)"
+        },
+        {
+          "id": "phase1D-79587-644-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "79587-644",
+          "field": "specs.dilution_scale",
+          "before": "1:1 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79588-643-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "79588-643",
+          "field": "specs.dilution_scale",
+          "before": "1:1 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79588-643-dilution_steps_ml-drop",
+          "scope": "product.specs",
+          "sku": "79588-643",
+          "field": "specs.dilution_steps_ml",
+          "before": "50",
+          "after": null,
+          "label": "Phase 1D: dilution_steps_ml drop (kullanıcı: uydurma yok)"
+        },
+        {
+          "id": "phase1D-79588-644-dilution_scale-drop",
+          "scope": "product.specs",
+          "sku": "79588-644",
+          "field": "specs.dilution_scale",
+          "before": "1:1 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79771-dilution-set",
+          "scope": "product.specs",
+          "sku": "79771",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:5 - 1:20",
+            "bucket": "1:5 - 1:20",
+            "foam_lance": "1:5 - 1:20",
+            "pump_sprayer": "1:5 - 1:20",
+            "manual": "1:5 - 1:20"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:5 - 1:20)"
+        },
+        {
+          "id": "phase1D-79771-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79771",
+          "field": "specs.dilution_ratio",
+          "before": "1:5 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-79818-dilution-set",
+          "scope": "product.specs",
+          "sku": "79818",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:5 - 1:20",
+            "bucket": "1:5 - 1:20",
+            "foam_lance": "1:5 - 1:20",
+            "pump_sprayer": "1:5 - 1:20",
+            "manual": "1:5 - 1:20"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:5 - 1:20)"
+        },
+        {
+          "id": "phase1D-79818-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79818",
+          "field": "specs.dilution_ratio",
+          "before": "1:5 - 1:20",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-PPF-L500M-dilution-set",
+          "scope": "product.specs",
+          "sku": "PPF-L500M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:50",
+            "bucket": "1:50",
+            "foam_lance": "1:50",
+            "pump_sprayer": "1:50",
+            "manual": "1:50"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:50)"
+        },
+        {
+          "id": "phase1D-PPF-L500M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "PPF-L500M",
+          "field": "specs.dilution_ratio",
+          "before": "1:50",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-APYA4000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:15 - 1:1",
+            "bucket": "1:15 - 1:1",
+            "foam_lance": "1:15 - 1:1",
+            "pump_sprayer": "1:15 - 1:1",
+            "manual": "1:15 - 1:1"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:15 - 1:1)"
+        },
+        {
+          "id": "phase1D-Q2M-APYA4000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:15 - 1:1",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-BYA4000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:500",
+            "bucket": "1:500",
+            "foam_lance": "1:500",
+            "pump_sprayer": "1:500",
+            "manual": "1:500"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:500)"
+        },
+        {
+          "id": "phase1D-Q2M-BYA4000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:500",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-CLR500M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-CLR500M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:10 - 1:25",
+            "bucket": "1:10 - 1:25",
+            "foam_lance": "1:10 - 1:25",
+            "pump_sprayer": "1:10 - 1:25",
+            "manual": "1:10 - 1:25"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:10 - 1:25)"
+        },
+        {
+          "id": "phase1D-Q2M-CLR500M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CLR500M",
+          "field": "specs.dilution_ratio",
+          "before": "1:10 - 1:25",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-EW1000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-EW1000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:10 (Susuz) - 1:256 (Durulamasız)",
+            "bucket": "1:10 (Susuz) - 1:256 (Durulamasız)",
+            "foam_lance": "1:10 (Susuz) - 1:256 (Durulamasız)",
+            "pump_sprayer": "1:10 (Susuz) - 1:256 (Durulamasız)",
+            "manual": "1:10 (Susuz) - 1:256 (Durulamasız)"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:10 (Susuz) - 1:256 (Durulamasız))"
+        },
+        {
+          "id": "phase1D-Q2M-EW1000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-EW1000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:10 (Susuz) - 1:256 (Durulamasız)",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-FYA4000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:5 - 1:15",
+            "bucket": "1:5 - 1:15",
+            "foam_lance": "1:5 - 1:15",
+            "pump_sprayer": "1:5 - 1:15",
+            "manual": "1:5 - 1:15"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:5 - 1:15)"
+        },
+        {
+          "id": "phase1D-Q2M-FYA4000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:5 - 1:15",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-LCN1000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-LCN1000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf veya 1:1",
+            "bucket": "Saf veya 1:1",
+            "foam_lance": "Saf veya 1:1",
+            "pump_sprayer": "Saf veya 1:1",
+            "manual": "Saf veya 1:1"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf veya 1:1)"
+        },
+        {
+          "id": "phase1D-Q2M-LCN1000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LCN1000M",
+          "field": "specs.dilution_ratio",
+          "before": "Saf veya 1:1",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-LCSYA1000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-LCSYA1000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "Saf veya 1:1-1:3 seyreltme",
+            "bucket": "Saf veya 1:1-1:3 seyreltme",
+            "foam_lance": "Saf veya 1:1-1:3 seyreltme",
+            "pump_sprayer": "Saf veya 1:1-1:3 seyreltme",
+            "manual": "Saf veya 1:1-1:3 seyreltme"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=Saf veya 1:1-1:3 seyreltme)"
+        },
+        {
+          "id": "phase1D-Q2M-LSSYA200M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-LSSYA200M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:5 - 1:10",
+            "bucket": "1:5 - 1:10",
+            "foam_lance": "1:5 - 1:10",
+            "pump_sprayer": "1:5 - 1:10",
+            "manual": "1:5 - 1:10"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:5 - 1:10)"
+        },
+        {
+          "id": "phase1D-Q2M-LSSYA200M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LSSYA200M",
+          "field": "specs.dilution_ratio",
+          "before": "1:5 - 1:10",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-PPFSL4000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFSL4000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:100",
+            "bucket": "1:100",
+            "foam_lance": "1:100",
+            "pump_sprayer": "1:100",
+            "manual": "1:100"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:100)"
+        },
+        {
+          "id": "phase1D-Q2M-PPFSL4000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFSL4000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:100",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-PPFW500M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFW500M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:500",
+            "bucket": "1:500",
+            "foam_lance": "1:500",
+            "pump_sprayer": "1:500",
+            "manual": "1:500"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:500)"
+        },
+        {
+          "id": "phase1D-Q2M-PPFW500M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFW500M",
+          "field": "specs.dilution_ratio",
+          "before": "1:500",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-RW1000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:500",
+            "bucket": "1:500",
+            "foam_lance": "1:500",
+            "pump_sprayer": "1:500",
+            "manual": "1:500"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:500)"
+        },
+        {
+          "id": "phase1D-Q2M-RW1000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:500",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        },
+        {
+          "id": "phase1D-Q2M-RWYA1000M-dilution-set",
+          "scope": "product.specs",
+          "sku": "Q2M-RWYA1000M",
+          "field": "specs.dilution",
+          "before": null,
+          "after": {
+            "ratio": "1:500",
+            "bucket": "1:500",
+            "foam_lance": "1:500",
+            "pump_sprayer": "1:500",
+            "manual": "1:500"
+          },
+          "label": "Phase 1D: nested {ratio,bucket,foam_lance,pump_sprayer,manual} — tek değer fallback (hepsi=1:500)"
+        },
+        {
+          "id": "phase1D-Q2M-RWYA1000M-dilution_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RWYA1000M",
+          "field": "specs.dilution_ratio",
+          "before": "1:500",
+          "after": null,
+          "label": "Phase 1D: alias drop"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1729 @@
+{
+  "total_changes": 191,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1B-22070.261.001-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "22070.261.001",
+          "field": "specs.durability_label",
+          "before": "6 Ay+",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-26919.271.001-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "26919.271.001",
+          "field": "specs.durability_label",
+          "before": "3 Ay",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-700096-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "700096",
+          "field": "specs.durability_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-700097-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "700097",
+          "field": "specs.durability_label",
+          "before": "5-9 Ay",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-74059-durability_months-set",
+          "scope": "product.specs",
+          "sku": "74059",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (weeks/4)"
+        },
+        {
+          "id": "phase1B-74059-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "74059",
+          "field": "specs.durability_weeks",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-74059-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "74059",
+          "field": "specs.durability_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-75182-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "75182",
+          "field": "specs.durability_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-79304-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "79304",
+          "field": "specs.durability_label",
+          "before": "3 Ay",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-ED0101-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ED0101",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ED0101-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ED0101",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-ED0202-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ED0202",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ED0202-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ED0202",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-ED0303-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ED0303",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ED0303-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ED0303",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-ED0606-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ED0606",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ED0606-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ED0606",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-ED1515-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ED1515",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ED1515-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ED1515",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0101-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF0101",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF0101-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF0101",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0101-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF0101",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF0202-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF0202",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF0202-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF0202",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0202-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF0202",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF0220-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF0220",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF0220-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF0220",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0220-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF0220",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF0303-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF0303",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF0303-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF0303",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0303-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF0303",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF0606-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF0606",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF0606-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF0606",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0606-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF0606",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF0808-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF0808",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF0808-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF0808",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF0808-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF0808",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1212-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1212",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1212-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1212",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1212-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1212",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1313-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1313",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1313-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1313",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1313-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1313",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1515-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1515",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1515-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1515",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1616-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1616",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1616-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1616",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1616-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1616",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1655-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1655",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1655-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1655",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1655-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1655",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1717-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1717",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1717-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1717",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1717-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1717",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1754-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1754",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1754-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1754",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1754-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1754",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1818-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1818",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1818-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1818",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1818-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1818",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF1919-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF1919",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF1919-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF1919",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF1919-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF1919",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF3963-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF3963",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF3963-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF3963",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF3963-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF3963",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EF4064-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EF4064",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EF4064-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EF4064",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EF4064-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "EF4064",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-EP0101-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EP0101",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EP0101-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EP0101",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EP0309-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EP0309",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EP0309-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EP0309",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EP2455-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EP2455",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EP2455-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EP2455",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EP2754-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EP2754",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EP2754-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EP2754",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EP3539-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EP3539",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EP3539-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EP3539",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EY0202-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EY0202",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EY0202-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EY0202",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EY1213-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EY1213",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EY1213-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EY1213",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EY2409-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EY2409",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EY2409-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EY2409",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-EY3311-durability_months-set",
+          "scope": "product.specs",
+          "sku": "EY3311",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-EY3311-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "EY3311",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-ID0404-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ID0404",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ID0404-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ID0404",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-ID0909-durability_months-set",
+          "scope": "product.specs",
+          "sku": "ID0909",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-ID0909-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "ID0909",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF0404-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF0404",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF0404-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF0404",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF0404-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF0404",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IF0453-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF0453",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF0453-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF0453",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF0453-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF0453",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IF0909-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF0909",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF0909-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF0909",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF0909-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF0909",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IF1111-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF1111",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF1111-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF1111",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF1111-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF1111",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IF1414-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF1414",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF1414-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF1414",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF1414-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF1414",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IF2939-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF2939",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF2939-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF2939",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF2939-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF2939",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IF3243-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IF3243",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IF3243-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IF3243",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IF3243-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "IF3243",
+          "field": "specs.durability_label",
+          "before": "45 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-IY1401-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IY1401",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IY1401-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IY1401",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-IY2939-durability_months-set",
+          "scope": "product.specs",
+          "sku": "IY2939",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-IY2939-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "IY2939",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-LE3620-durability_months-set",
+          "scope": "product.specs",
+          "sku": "LE3620",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-LE3620-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "LE3620",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-LE3739-durability_months-set",
+          "scope": "product.specs",
+          "sku": "LE3739",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-LE3739-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "LE3739",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-LE3801-durability_months-set",
+          "scope": "product.specs",
+          "sku": "LE3801",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-LE3801-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "LE3801",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-LO2601-durability_months-set",
+          "scope": "product.specs",
+          "sku": "LO2601",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-LO2601-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "LO2601",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-LO2602-durability_months-set",
+          "scope": "product.specs",
+          "sku": "LO2602",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-LO2602-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "LO2602",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0101-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0101",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0101-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0101",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0101-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0101",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS0313-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0313",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0313-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0313",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0313-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0313",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS0404-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0404",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0404-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0404",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0404-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0404",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS0606-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0606",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0606-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0606",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0606-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0606",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS0707-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0707",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0707-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0707",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0707-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0707",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS0821-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0821",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0821-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0821",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0821-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0821",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS0931-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS0931",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS0931-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS0931",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS0931-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS0931",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-PS2002-durability_months-set",
+          "scope": "product.specs",
+          "sku": "PS2002",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1,
+          "label": "Phase 1B: durability_months=1 (days/30)"
+        },
+        {
+          "id": "phase1B-PS2002-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "PS2002",
+          "field": "specs.durability_days",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-PS2002-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "PS2002",
+          "field": "specs.durability_label",
+          "before": "30 Gün",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2-LCR500M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2-LCR500M",
+          "field": "specs.durability_label",
+          "before": "3 Ay",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2-QV120M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2-QV120M",
+          "field": "specs.durability_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2-TYA500M-durability_km-set",
+          "scope": "product.specs",
+          "sku": "Q2-TYA500M",
+          "field": "specs.durability_km",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1B: Q2-TYA500M durability_km=1000 (kullanıcı kararı, washes→km)"
+        },
+        {
+          "id": "phase1B-Q2-TYA500M-durability_washes-drop",
+          "scope": "product.specs",
+          "sku": "Q2-TYA500M",
+          "field": "specs.durability_washes",
+          "before": "5+ Yıkama",
+          "after": null,
+          "label": "Phase 1B: alias drop"
+        },
+        {
+          "id": "phase1B-Q2-W175G-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2-W175G",
+          "field": "specs.durability_label",
+          "before": "Haftalarca",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2M-BPYA1000M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 2,
+          "label": "Phase 1B: durability_months=2 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-BPYA1000M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.durability_weeks",
+          "before": 8,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-CDYA1000M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-CDYA1000M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-CDYA1000M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CDYA1000M",
+          "field": "specs.durability_weeks",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-CDYA1000M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CDYA1000M",
+          "field": "specs.durability_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2M-CMR500M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-CMR500M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-CMR500M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CMR500M",
+          "field": "specs.durability_weeks",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-CRYA250M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-CRYA250M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-CRYA250M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CRYA250M",
+          "field": "specs.durability_weeks",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-CRYA250M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CRYA250M",
+          "field": "specs.durability_label",
+          "before": "6+ Hafta",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2M-GPYA1000M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-GPYA1000M",
+          "field": "specs.durability_label",
+          "before": "4 Hafta",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2M-PPFMR500M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFMR500M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-PPFMR500M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFMR500M",
+          "field": "specs.durability_weeks",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-PRYA250M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PRYA250M",
+          "field": "specs.durability_label",
+          "before": "3 Ay",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2M-QDYA1000M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-QDYA1000M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 0.5,
+          "label": "Phase 1B: durability_months=0.5 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-QDYA1000M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-QDYA1000M",
+          "field": "specs.durability_weeks",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-TOTR1000M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TOTR1000M",
+          "field": "specs.durability_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-Q2M-WCYA4000M-durability_months-set",
+          "scope": "product.specs",
+          "sku": "Q2M-WCYA4000M",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 3,
+          "label": "Phase 1B: durability_months=3 (weeks/4)"
+        },
+        {
+          "id": "phase1B-Q2M-WCYA4000M-durability_weeks-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-WCYA4000M",
+          "field": "specs.durability_weeks",
+          "before": 12,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-Q2M-WCYA4000M-durability_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-WCYA4000M",
+          "field": "specs.durability_label",
+          "before": "12 Hafta",
+          "after": null,
+          "label": "Phase 1B: durability_label drop (numerik durability_months yeterli)"
+        },
+        {
+          "id": "phase1B-SC0223-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC0223",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC0223-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC0223",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SC0922-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC0922",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC0922-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC0922",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SC1515-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC1515",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC1515-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC1515",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SC2201-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC2201",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC2201-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC2201",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SC2304-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC2304",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC2304-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC2304",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SC2424-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC2424",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC2424-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC2424",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SC2508-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SC2508",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SC2508-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SC2508",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        },
+        {
+          "id": "phase1B-SJ0402-durability_months-set",
+          "scope": "product.specs",
+          "sku": "SJ0402",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Phase 1B: durability_months=1.5 (days/30)"
+        },
+        {
+          "id": "phase1B-SJ0402-durability_days-drop",
+          "scope": "product.specs",
+          "sku": "SJ0402",
+          "field": "specs.durability_days",
+          "before": 45,
+          "after": null,
+          "label": "Phase 1B: alias drop (canonical durability_months)"
+        }
+      ]
+    }
+  ]
+}

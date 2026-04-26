@@ -1,0 +1,1486 @@
+{
+  "total_changes": 164,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1G-06008.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "06008.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07001.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07001.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07006.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07006.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07008.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07008.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07163.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07163.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07201.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07201.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07933.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07933.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07945.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07945.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-07984.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "07984.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-12001.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "12001.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-12002.056.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "12002.056.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-12918-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "12918",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-12922-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "12922",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-13724-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "13724",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-14992.203.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "14992.203.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-18848-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "18848",
+          "field": "specs.sub_type",
+          "before": "foaming_pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-19771-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.sub_type",
+          "before": "foaming_pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-19956-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "19956",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-19976-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "19976",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-20009-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "20009",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-20102-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "20102",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-20144.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "20144.261.001",
+          "field": "specs.sub_type",
+          "before": "sanding_paste",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-20417-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-20444-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "20444",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22029.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22029.261.001",
+          "field": "specs.sub_type",
+          "before": "finish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22070.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22070.261.001",
+          "field": "specs.sub_type",
+          "before": "liquid_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22200.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22200.261.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22202.260.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22202.260.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22203.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22203.261.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22748.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22748.261.001",
+          "field": "specs.sub_type",
+          "before": "one_step_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22771.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22771.261.001",
+          "field": "specs.sub_type",
+          "before": "polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22828.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22828.261.001",
+          "field": "specs.sub_type",
+          "before": "polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22870.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22870.261.001",
+          "field": "specs.sub_type",
+          "before": "liquid_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22911.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22911.261.001",
+          "field": "specs.sub_type",
+          "before": "finish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22930.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22930.261.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22984.260.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22984.260.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22984.281.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22984.281.001",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-22992.261.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "22992.261.001",
+          "field": "specs.sub_type",
+          "before": "polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-23003.391.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "23003.391.001",
+          "field": "specs.sub_type",
+          "before": "metal_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-23822-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "23822",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-23841-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "23841",
+          "field": "specs.sub_type",
+          "before": "foaming_pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-24011.261.080-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "24011.261.080",
+          "field": "specs.sub_type",
+          "before": "one_step_polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-24952-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "24952",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26900.223.003-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26900.223.003",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26900.224.010-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26900.224.010",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26900.224.011-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26900.224.011",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26900.224.012-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26900.224.012",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26906.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26906.099.001",
+          "field": "specs.sub_type",
+          "before": "wool_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26907.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26907.099.001",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26908.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26908.099.001",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26909.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26909.099.001",
+          "field": "specs.sub_type",
+          "before": "foam_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26913.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26913.099.001",
+          "field": "specs.sub_type",
+          "before": "wool_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26915.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26915.099.001",
+          "field": "specs.sub_type",
+          "before": "wool_pad",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26919.271.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26919.271.001",
+          "field": "specs.sub_type",
+          "before": "spray_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26931.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26931.099.001",
+          "field": "specs.sub_type",
+          "before": "backing_plate",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26934.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26934.099.001",
+          "field": "specs.sub_type",
+          "before": "backing_plate",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-26935.099.001-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "26935.099.001",
+          "field": "specs.sub_type",
+          "before": "backing_plate",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-3219-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-3236NBR2-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-463302-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "463302",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-486728-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "486728",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-513547-01-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "513547-01",
+          "field": "specs.sub_type",
+          "before": "mini_cordless_polisher",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-516112-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "516112",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-530375-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "530375",
+          "field": "specs.sub_type",
+          "before": "mini_cordless_polisher",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-530537-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "530537",
+          "field": "specs.sub_type",
+          "before": "mini_cordless_polisher",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-532579-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "532579",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-700096-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "700096",
+          "field": "specs.sub_type",
+          "before": "spray_wipe_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-700209-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "700209",
+          "field": "specs.sub_type",
+          "before": "polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-700210-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.sub_type",
+          "before": "wheel_iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-700387-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-700508-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-700888-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "700888",
+          "field": "specs.sub_type",
+          "before": "water_spot_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701010-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701010",
+          "field": "specs.sub_type",
+          "before": "interior_apc",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701062-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701350-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701350",
+          "field": "specs.sub_type",
+          "before": "water_spot_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701422-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701606-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701606",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701851-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701908-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701908",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-701980-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.sub_type",
+          "before": "prewash_foaming_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70616-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.sub_type",
+          "before": "prewash_foaming_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70640-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70723-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70723",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70864-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70864",
+          "field": "specs.sub_type",
+          "before": "wheel_iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70868-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70868",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70894-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70894",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70919-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70933-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70933",
+          "field": "specs.sub_type",
+          "before": "interior_apc",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-70942-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-71110-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "71110",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-71676-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "71676",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-71706-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "71706",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-72042-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-74059-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "74059",
+          "field": "specs.sub_type",
+          "before": "spray_wipe_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-74258-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-74391-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "74391",
+          "field": "specs.sub_type",
+          "before": "polish",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-74955-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "74955",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75021-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.sub_type",
+          "before": "prewash_foaming_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75132-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75132",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75138-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75138",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75140-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75140",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75182-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75182",
+          "field": "specs.sub_type",
+          "before": "spray_wipe_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75277-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75277",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-75404-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "75404",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-76006-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "76006",
+          "field": "specs.sub_type",
+          "before": "wheel_iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-77192-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "77192",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-78784-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79281-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.sub_type",
+          "before": "prewash_foaming_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79284-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.sub_type",
+          "before": "prewash_foaming_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79291-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.sub_type",
+          "before": "iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79293-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79293",
+          "field": "specs.sub_type",
+          "before": "bug_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79298-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79298",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79586-643-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79586-643",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79586-644-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79586-644",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79587-644-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79587-644",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-79588-644-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "79588-644",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-81671901-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "81671901",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-81686-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "81686",
+          "field": "specs.sub_type",
+          "before": "foaming_pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-81773-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "81773",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-81781-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "81781",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-82672-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "82672",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-82679-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "82679",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-84170-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "84170",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-GPRO6555-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "GPRO6555",
+          "field": "specs.sub_type",
+          "before": "mini_cordless_polisher",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-MGPS-2019KH-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "MGPS-2019KH",
+          "field": "specs.sub_type",
+          "before": "iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-MGPS-2019KM-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "MGPS-2019KM",
+          "field": "specs.sub_type",
+          "before": "iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-MGPS-6031B-P-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "MGPS-6031B-P",
+          "field": "specs.sub_type",
+          "before": "microfiber_cloth",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-MXP-HC50KS-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "MXP-HC50KS",
+          "field": "specs.sub_type",
+          "before": "multi_step_coating_kit",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-P0140AK1#26263-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "P0140AK1#26263",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2-OLE100M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2-OLE100M",
+          "field": "specs.sub_type",
+          "before": "single_layer_coating",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2-PR1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.sub_type",
+          "before": "single_layer_coating",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2-QV120M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2-QV120M",
+          "field": "specs.sub_type",
+          "before": "spray_wipe_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-APYA4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.sub_type",
+          "before": "interior_apc",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-BGYA1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BGYA1000M",
+          "field": "specs.sub_type",
+          "before": "bug_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-BYA4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-CCE-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CCE",
+          "field": "specs.sub_type",
+          "before": "iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-CDYA1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CDYA1000M",
+          "field": "specs.sub_type",
+          "before": "quick_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-CLR500M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CLR500M",
+          "field": "specs.sub_type",
+          "before": "iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-DT10P-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-DT10P",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-FYA4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.sub_type",
+          "before": "prewash_foaming_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-GP250M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-GP250M",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-IDYA4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IDYA4000M",
+          "field": "specs.sub_type",
+          "before": "interior_disinfectant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-IR4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IR4000M",
+          "field": "specs.sub_type",
+          "before": "iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-IWCR4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IWCR4000M",
+          "field": "specs.sub_type",
+          "before": "wheel_iron_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-LCN1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LCN1000M",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-LSN200M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LSN200M",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-LSSYA200M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LSSYA200M",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-PPR1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PPR1000M",
+          "field": "specs.sub_type",
+          "before": "heavy_cut_compound",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-PYA4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PYA4000M",
+          "field": "specs.sub_type",
+          "before": "single_layer_coating",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-RW1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-TCYA1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TCYA1000M",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-TEYA1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TEYA1000M",
+          "field": "specs.sub_type",
+          "before": "interior_detailer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-TOTR1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TOTR1000M",
+          "field": "specs.sub_type",
+          "before": "spray_wipe_sealant",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-TR4000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TR4000M",
+          "field": "specs.sub_type",
+          "before": "bug_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-TWYA500M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TWYA500M",
+          "field": "specs.sub_type",
+          "before": "ph_neutral_shampoo",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-WP-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-WP",
+          "field": "specs.sub_type",
+          "before": "wash_mitt",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-Q2M-WSYA1000M-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-WSYA1000M",
+          "field": "specs.sub_type",
+          "before": "water_spot_remover",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGC055-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGC055",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGC086-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGC086",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGC091-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGC091",
+          "field": "specs.sub_type",
+          "before": "foaming_pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGD004-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGD004",
+          "field": "specs.sub_type",
+          "before": "pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGD135-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGD135",
+          "field": "specs.sub_type",
+          "before": "foaming_pump_sprayer",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGD402-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGD402",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        },
+        {
+          "id": "phase1G-SGGS003-specs.sub_type-drop",
+          "scope": "product.specs",
+          "sku": "SGGS003",
+          "field": "specs.sub_type",
+          "before": "other",
+          "after": null,
+          "label": "Phase 1G: redundant specs.sub_type drop (template_sub_type kolonu yeterli)"
+        }
+      ]
+    }
+  ]
+}

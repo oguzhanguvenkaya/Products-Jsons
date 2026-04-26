@@ -1,0 +1,1711 @@
+{
+  "total_changes": 189,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1A-123456-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "123456",
+          "field": "specs.capacity_liters",
+          "before": 10,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-12918-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "12918",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-12922-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "12922",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-13724-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "13724",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18802-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "18802",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_ml=1800 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-18802-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "18802",
+          "field": "specs.capacity_liters",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18802-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "18802",
+          "field": "specs.capacity_total_lt",
+          "before": 1.86,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18802-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "18802",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_usable_ml=1500"
+        },
+        {
+          "id": "phase1A-18802-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "18802",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-18810-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "18810",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_ml=1800 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-18810-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "18810",
+          "field": "specs.capacity_liters",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18810-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "18810",
+          "field": "specs.capacity_total_lt",
+          "before": 1.86,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18810-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "18810",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_usable_ml=1500"
+        },
+        {
+          "id": "phase1A-18810-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "18810",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-18848-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "18848",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1860,
+          "label": "Phase 1A: capacity_ml=1860 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-18848-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "18848",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18848-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "18848",
+          "field": "specs.capacity_total_lt",
+          "before": 1.86,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-18848-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "18848",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-18848-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "18848",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-19771-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-19771-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-19771-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-19771-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_usable_ml=1800"
+        },
+        {
+          "id": "phase1A-19771-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-19956-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "19956",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-19956-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "19956",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-19956-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "19956",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-19956-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "19956",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_usable_ml=1800"
+        },
+        {
+          "id": "phase1A-19956-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "19956",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-19976-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "19976",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-19976-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "19976",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-19976-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "19976",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-19976-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "19976",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_usable_ml=1800"
+        },
+        {
+          "id": "phase1A-19976-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "19976",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-20009-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "20009",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-20009-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "20009",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20009-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "20009",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20009-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "20009",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_usable_ml=1800"
+        },
+        {
+          "id": "phase1A-20009-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "20009",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-20102-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "20102",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-20102-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "20102",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20102-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "20102",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20102-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "20102",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_usable_ml=1800"
+        },
+        {
+          "id": "phase1A-20102-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "20102",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-20417-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1310,
+          "label": "Phase 1A: capacity_ml=1310 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-20417-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20417-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.capacity_total_lt",
+          "before": 1.31,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20417-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-20417-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-20444-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "20444",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1310,
+          "label": "Phase 1A: capacity_ml=1310 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-20444-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "20444",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20444-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "20444",
+          "field": "specs.capacity_total_lt",
+          "before": 1.31,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20444-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "20444",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-20444-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "20444",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-20450-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "20450",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1300,
+          "label": "Phase 1A: capacity_ml=1300 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-20450-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "20450",
+          "field": "specs.capacity_liters",
+          "before": 1.3,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20450-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "20450",
+          "field": "specs.capacity_total_lt",
+          "before": 1.31,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-20450-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "20450",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-20450-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "20450",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-21746-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "21746",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 11000,
+          "label": "Phase 1A: capacity_ml=11000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-21746-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "21746",
+          "field": "specs.capacity_liters",
+          "before": 11,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-21746-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "21746",
+          "field": "specs.capacity_total_lt",
+          "before": 11.23,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-21746-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "21746",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 6000,
+          "label": "Phase 1A: capacity_usable_ml=6000"
+        },
+        {
+          "id": "phase1A-21746-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "21746",
+          "field": "specs.capacity_usable_lt",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-23822-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "23822",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 9880,
+          "label": "Phase 1A: capacity_ml=9880 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-23822-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "23822",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-23822-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "23822",
+          "field": "specs.capacity_total_lt",
+          "before": 9.88,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-23822-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "23822",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 9000,
+          "label": "Phase 1A: capacity_usable_ml=9000"
+        },
+        {
+          "id": "phase1A-23822-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "23822",
+          "field": "specs.capacity_usable_lt",
+          "before": 9,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-23841-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "23841",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 9900,
+          "label": "Phase 1A: capacity_ml=9900 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-23841-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "23841",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-23841-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "23841",
+          "field": "specs.capacity_total_lt",
+          "before": 9.9,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-23841-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "23841",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 5000,
+          "label": "Phase 1A: capacity_usable_ml=5000"
+        },
+        {
+          "id": "phase1A-23841-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "23841",
+          "field": "specs.capacity_usable_lt",
+          "before": 5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-24952-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "24952",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-26005-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "26005",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1800,
+          "label": "Phase 1A: capacity_ml=1800 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-26005-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "26005",
+          "field": "specs.capacity_liters",
+          "before": 1.8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-26005-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "26005",
+          "field": "specs.capacity_total_lt",
+          "before": 1.86,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-26005-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "26005",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_usable_ml=1500"
+        },
+        {
+          "id": "phase1A-26005-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "26005",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-3219-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-3236NBR2-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-700743-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "700743",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-700743-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "700743",
+          "field": "specs.capacity_liters",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-700743-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "700743",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-701062-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-701062-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-701980-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 5000,
+          "label": "Phase 1A: volume_ml=5000 (volume_kg=5×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-701980-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.volume_kg",
+          "before": 5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-70616-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-70616-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-70640-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-70640-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-70919-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-70942-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-70942-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-71180-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "71180",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-71180-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "71180",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-72042-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-72042-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-73575-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "73575",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-73575-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "73575",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-74258-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 10000,
+          "label": "Phase 1A: volume_ml=10000 (volume_kg=10×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-74258-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.volume_kg",
+          "before": 10,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-75021-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-75021-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-78784-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 25000,
+          "label": "Phase 1A: volume_ml=25000 (volume_kg=25×1000 (1:1))"
+        },
+        {
+          "id": "phase1A-78784-volume_kg-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.volume_kg",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-79281-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 4540,
+          "label": "Phase 1A: volume_ml=4540 (volume_liters=4.54×1000)"
+        },
+        {
+          "id": "phase1A-79281-volume_liters-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.volume_liters",
+          "before": 4.54,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-79284-volume_ml-set",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 4540,
+          "label": "Phase 1A: volume_ml=4540 (volume_liters=4.54×1000)"
+        },
+        {
+          "id": "phase1A-79284-volume_liters-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.volume_liters",
+          "before": 4.54,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical volume_ml)"
+        },
+        {
+          "id": "phase1A-79586-643-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "79586-643",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-79586-644-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "79586-644",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-79587-643-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "79587-643",
+          "field": "specs.capacity_liters",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-79587-644-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "79587-644",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-79588-643-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "79588-643",
+          "field": "specs.capacity_liters",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-79588-644-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "79588-644",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81671901-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81671901",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81675-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81675",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-81675-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81675",
+          "field": "specs.capacity_liters",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81675-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81675",
+          "field": "specs.capacity_total_lt",
+          "before": 1.9,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81675-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81675",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_usable_ml=1500"
+        },
+        {
+          "id": "phase1A-81675-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81675",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-81678-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81678",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-81678-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81678",
+          "field": "specs.capacity_liters",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81678-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81678",
+          "field": "specs.capacity_total_lt",
+          "before": 1.9,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81678-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81678",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1250,
+          "label": "Phase 1A: capacity_usable_ml=1250"
+        },
+        {
+          "id": "phase1A-81678-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81678",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-81686-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81686",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 2000,
+          "label": "Phase 1A: capacity_ml=2000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-81686-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81686",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81686-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81686",
+          "field": "specs.capacity_total_lt",
+          "before": 2,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81686-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81686",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1250,
+          "label": "Phase 1A: capacity_usable_ml=1250"
+        },
+        {
+          "id": "phase1A-81686-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81686",
+          "field": "specs.capacity_usable_lt",
+          "before": 1.25,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-81773-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81773",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_ml=1500 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-81773-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81773",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81773-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81773",
+          "field": "specs.capacity_total_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81773-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81773",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-81773-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81773",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-81774-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81774",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_ml=1500 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-81774-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81774",
+          "field": "specs.capacity_liters",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81776-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81776",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_ml=1500 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-81776-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81776",
+          "field": "specs.capacity_liters",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81776-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81776",
+          "field": "specs.capacity_total_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81776-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81776",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 750,
+          "label": "Phase 1A: capacity_usable_ml=750"
+        },
+        {
+          "id": "phase1A-81776-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81776",
+          "field": "specs.capacity_usable_lt",
+          "before": 0.75,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-81777-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81777",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_ml=1500 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-81777-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81777",
+          "field": "specs.capacity_liters",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81777-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81777",
+          "field": "specs.capacity_total_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81777-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81777",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-81777-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81777",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-81781-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "81781",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1500,
+          "label": "Phase 1A: capacity_ml=1500 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-81781-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "81781",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81781-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "81781",
+          "field": "specs.capacity_total_lt",
+          "before": 1.5,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-81781-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "81781",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_usable_ml=1000"
+        },
+        {
+          "id": "phase1A-81781-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "81781",
+          "field": "specs.capacity_usable_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-82672-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "82672",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 8000,
+          "label": "Phase 1A: capacity_ml=8000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-82672-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "82672",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-82672-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "82672",
+          "field": "specs.capacity_total_lt",
+          "before": 8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-82672-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "82672",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 6000,
+          "label": "Phase 1A: capacity_usable_ml=6000"
+        },
+        {
+          "id": "phase1A-82672-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "82672",
+          "field": "specs.capacity_usable_lt",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-82676-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "82676",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 12000,
+          "label": "Phase 1A: capacity_ml=12000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-82676-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "82676",
+          "field": "specs.capacity_liters",
+          "before": 12,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-82676-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "82676",
+          "field": "specs.capacity_total_lt",
+          "before": 10,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-82676-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "82676",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 6000,
+          "label": "Phase 1A: capacity_usable_ml=6000"
+        },
+        {
+          "id": "phase1A-82676-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "82676",
+          "field": "specs.capacity_usable_lt",
+          "before": 6,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-82679-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "82679",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 10000,
+          "label": "Phase 1A: capacity_ml=10000 (capacity_total_lt×1000)"
+        },
+        {
+          "id": "phase1A-82679-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "82679",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-82679-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "82679",
+          "field": "specs.capacity_total_lt",
+          "before": 10,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-82679-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "82679",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 8000,
+          "label": "Phase 1A: capacity_usable_ml=8000"
+        },
+        {
+          "id": "phase1A-82679-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "82679",
+          "field": "specs.capacity_usable_lt",
+          "before": 8,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-83371-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "83371",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 12000,
+          "label": "Phase 1A: capacity_ml=12000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-83371-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "83371",
+          "field": "specs.capacity_liters",
+          "before": 12,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-83371-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "83371",
+          "field": "specs.capacity_total_lt",
+          "before": 15,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-83371-capacity_usable_ml-set",
+          "scope": "product.specs",
+          "sku": "83371",
+          "field": "specs.capacity_usable_ml",
+          "before": null,
+          "after": 12000,
+          "label": "Phase 1A: capacity_usable_ml=12000"
+        },
+        {
+          "id": "phase1A-83371-capacity_usable_lt-drop",
+          "scope": "product.specs",
+          "sku": "83371",
+          "field": "specs.capacity_usable_lt",
+          "before": 12,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_usable_ml)"
+        },
+        {
+          "id": "phase1A-84170-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "84170",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-84173-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "84173",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 600,
+          "label": "Phase 1A: capacity_ml=600 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-84173-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "84173",
+          "field": "specs.capacity_liters",
+          "before": 0.6,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-84174-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "84174",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_ml=1000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-84174-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "84174",
+          "field": "specs.capacity_liters",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-84174-capacity_total_lt-drop",
+          "scope": "product.specs",
+          "sku": "84174",
+          "field": "specs.capacity_total_lt",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-84177-capacity_ml-set",
+          "scope": "product.specs",
+          "sku": "84177",
+          "field": "specs.capacity_ml",
+          "before": null,
+          "after": 1000,
+          "label": "Phase 1A: capacity_ml=1000 (capacity_liters×1000)"
+        },
+        {
+          "id": "phase1A-84177-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "84177",
+          "field": "specs.capacity_liters",
+          "before": 1,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-P0140AK1#26263-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "P0140AK1#26263",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-Q2M-P-DB300M-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-P-DB300M",
+          "field": "specs.capacity_liters",
+          "before": 0.3,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-SGGC091-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "SGGC091",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-SGGD004-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "SGGD004",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        },
+        {
+          "id": "phase1A-SGGD135-capacity_liters-drop",
+          "scope": "product.specs",
+          "sku": "SGGD135",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "Phase 1A: alias drop (canonical capacity_ml)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+id,scope,sku,field,before,after,label
+phase2-interior_cleaner-Q2M-TRC500M-subtype,product,Q2M-TRC500M,template_sub_type,plastic_cleaner,interior_apc,P0 merge: plastic_cleaner -> interior_apc (Tek ürün; plastik temizleyici APC kapsamında)
+phase2-interior_cleaner-75132-subtype,product,75132,template_sub_type,wood_cleaner,interior_apc,P0 merge: wood_cleaner -> interior_apc (Tek ürün; ahşap temizleyici iç mekan APC)
+phase2-interior_cleaner-70901-subtype,product,70901,template_sub_type,foam_cleaner,interior_apc,P0 merge: foam_cleaner -> interior_apc (Tek ürün; köpük temizleyici APC formu)
+phase2-interior_cleaner-Q2M-DT10P-subtype,product,Q2M-DT10P,template_sub_type,degreaser,heavy_duty_cleaner,P0 merge: degreaser -> heavy_duty_cleaner (Tek ürün; yağ çözücü = ağır kir temizleyici)
+phase2-interior_cleaner-Q2M-FCNA1000M-subtype,product,Q2M-FCNA1000M,template_sub_type,fabric_cleaner,fabric_cleaner_concentrate,P0 merge: fabric_cleaner -> fabric_cleaner_concentrate (Tek ürün; kumaş temizleyici konsantre alt-türüne taşı)
+phase2-interior_cleaner-79818-subtype,product,79818,template_sub_type,fabric_leather_cleaner,fabric_cleaner_concentrate,"P1 merge: fabric_leather_cleaner -> fabric_cleaner_concentrate (Tek ürün; kumaş+deri ortak; ya yeni ""upholstery_cleaner"" ya da fabric_concentrate altı)"
+phase2-interior_cleaner-Q2M-IDYA4000M-subtype,product,Q2M-IDYA4000M,template_sub_type,interior_disinfectant,surface_disinfectant,P0 merge: interior_disinfectant -> surface_disinfectant (Tek ürün; iç dezenfektan = yüzey dezenfektan)
+phase2-interior_cleaner-Q2M-PM500M-subtype,product,Q2M-PM500M,template_sub_type,interior_detailer,plastic_dressing,P1 merge: interior_detailer -> plastic_dressing (Tek ürün; iç detayer plastik dressing fonksiyonu)
+phase2-interior_cleaner-Q2M-PRYA250M-subtype,product,Q2M-PRYA250M,template_sub_type,plastic_restorer,plastic_dressing,P1 merge: plastic_restorer -> plastic_dressing (Tek ürün; plastik canlandırıcı dressing alt türü)
+phase2-interior_cleaner-77192-subtype,product,77192,template_sub_type,wood_protector,plastic_dressing,P2 merge: wood_protector -> plastic_dressing (Tek ürün; ahşap koruyucu dressing/conditioner; yeni sub gerekebilir)
+phase2-interior_cleaner-75277-subtype,product,75277,template_sub_type,fabric_protector,fabric_cleaner_concentrate,P2 merge: fabric_protector -> fabric_cleaner_concentrate (Tek ürün; kumaş koruyucu farklı işlev (waterproof); ileride ayrı sub)

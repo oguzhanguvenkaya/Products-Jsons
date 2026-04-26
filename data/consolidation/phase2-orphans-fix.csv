@@ -1,0 +1,7 @@
+id,scope,sku,field,before,after,label
+phase2c-orphan-1,product,26942.099.001,template_sub_type,,microfiber_cloth,P0 accessory grup orphan — mikrofiber bez seti
+phase2c-orphan-2,product,516112,template_sub_type,other,extension_shaft,P0 polisher_machine — FLEX FS 140 esnek uzatma aparatı (specs.accessory_type=extension_shaft canonical)
+phase2c-orphan-3,product,532579,template_sub_type,other,heat_gun,P0 polisher_machine — FLEX HG 650 sıcak hava tabancası (specs.product_type=heat_gun canonical)
+phase2c-orphan-4,product,SGGC055,template_sub_type,other,tornador_gun,P0 polisher_machine — SGCB Tornador Detaylı Temizlik Tabancası
+phase2c-orphan-5,product,SGGC086,template_sub_type,other,air_blow_gun,P0 polisher_machine — SGCB Air Blow Gun (specs.product_type=air_blow_gun canonical)
+phase2c-orphan-6,product,SGGS003,template_sub_type,other,air_blow_gun,P0 polisher_machine — SCCB Kısa Nozul Hava Tabancası (specs.product_type=air_blow_gun canonical)

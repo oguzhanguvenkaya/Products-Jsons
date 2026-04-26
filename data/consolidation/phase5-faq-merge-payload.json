@@ -1,0 +1,692 @@
+{
+  "changes": [
+    {
+      "id": "c1-del-2455",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2455]",
+      "before": {
+        "id": 2455,
+        "question": "Bu ürün nedir?",
+        "answer": "Q² FabricCoat, gelişmiş kuvars bazlı, yüksek hidrofobiklik özelliği olan bir kumaş koruyucudur.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3066"
+    },
+    {
+      "id": "c2-del-2508",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2508]",
+      "before": {
+        "id": 2508,
+        "question": "Nasıl uygulanır?",
+        "answer": "Q² FabricCoat'u yalnızca temiz ve tamamen kuru bir yüzeye uygulayın. Zor çıkan overspray'i önlemek için çevredeki elemanları maskeleyin. Ürünü her zaman Q²M LeatherBrush ile silerek eşit bir bitiş oluşturun ve emilimi destekleyin. Aşırı dozdan kaçının. 1 kalın kat yerine 2 ince kat uygulamanızı öneririz.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3065"
+    },
+    {
+      "id": "c3-del-3064",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[3064]",
+      "before": {
+        "id": 3064,
+        "question": "Nereye uygulanır?",
+        "answer": "Bu kaplama, açılır soft top'lar ve Alcantara dahil her tür kumaş için tasarlanmıştır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2487"
+    },
+    {
+      "id": "c4-del-2550",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2550]",
+      "before": {
+        "id": 2550,
+        "question": "Ne kadar dayanır?",
+        "answer": "Q² FabricCoat 6 aya kadar dayanır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3063"
+    },
+    {
+      "id": "c5-del-3062",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[3062]",
+      "before": {
+        "id": 3062,
+        "question": "Birden fazla kat uygulayabilir miyim?",
+        "answer": "Evet.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2529"
+    },
+    {
+      "id": "c6-del-2571",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2571]",
+      "before": {
+        "id": 2571,
+        "question": "Ürünün kuruması/kürlenmesi ne kadar sürer?",
+        "answer": "Tamamen kuruyana kadar yüzeye dokunmayın. Aracı en az 12 saat kullanmayın.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3061"
+    },
+    {
+      "id": "c7-del-3060",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[3060]",
+      "before": {
+        "id": 3060,
+        "question": "Bu ürünle kaplı bir araç nasıl bakım görür?",
+        "answer": "Yalnızca normal, pH nötr şampuanlar kullanın. Tekrar kaplama yapmayı planlamıyorsanız tekstile özel temizleyicileri kullanmayın.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2591"
+    },
+    {
+      "id": "c8-del-2664",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2664]",
+      "before": {
+        "id": 2664,
+        "question": "Su artık boncuklanmıyor — ne yapmalıyım?",
+        "answer": "Boncuklanma korumanın tek göstergesi değildir. Q² FabricCoat boncuklanmasa bile yüzeyi UV ışınlarına ve renk değişikliğine karşı korur.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3059"
+    },
+    {
+      "id": "c9-del-2706",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2706]",
+      "before": {
+        "id": 2706,
+        "question": "Ürünü kullandığım yüzey yapışkan — bu normal mi?",
+        "answer": "Hayır, yapışkan olmamalı. Q² FabricCoat hızlı kuruyacak şekilde formüle edilmiştir. Çok yavaş kurursa (ürünü aşırı uyguladıysanız) yapışkan/tutucu olabilir. Bu durumda tekstili sıcak suya batırılmış kısa tüylü mikrofiber bezle temizleyin.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3058"
+    },
+    {
+      "id": "c10-del-2694",
+      "scope": "faq",
+      "sku": "Q2-FCNA400M",
+      "field": "faq[2694]",
+      "before": {
+        "id": 2694,
+        "question": "Üründen biraz cam/boya üzerine sıktım — nasıl temizlerim?",
+        "answer": "Q²M Prep ve Q²M BaldWipe ile birden fazla kez silin.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 3057"
+    },
+    {
+      "id": "c11-del-909",
+      "scope": "faq",
+      "sku": "Q2M-LCSYA1000M",
+      "field": "faq[909]",
+      "before": {
+        "id": 909,
+        "question": "Neden yumuşatıcı içermiyor?",
+        "answer": "Kaplama öncesi hazırlık için. Yumuşatıcı kalıntıları kaplamanın tutunmasını engeller. Bu formül tamamen temiz bir yüzey bırakır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 904"
+    },
+    {
+      "id": "c12-del-1305",
+      "scope": "faq",
+      "sku": "Q2M-CRYA250M",
+      "field": "faq[1305]",
+      "before": {
+        "id": 1305,
+        "question": "Wax veya sealant üzerinde kullanabilir miyim?",
+        "answer": "Evet, mevcut korumayı bozmaz, ekstra kayganlık ekler.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 327"
+    },
+    {
+      "id": "c13-del-1247",
+      "scope": "faq",
+      "sku": "Q2M-IWCR4000M",
+      "field": "faq[1247]",
+      "before": {
+        "id": 1247,
+        "question": "Jant kaplamasını aşındırır mı?",
+        "answer": "Hayır, pH nötr formül en hassas kaplamaları bile korur.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1244"
+    },
+    {
+      "id": "c27-del-1347",
+      "scope": "faq",
+      "sku": "Q2M-QDYA1000M",
+      "field": "faq[1347]",
+      "before": {
+        "id": 1347,
+        "question": "Ürün yüzeyde kurursa iz kalır mı?",
+        "answer": "Hayır; kuru mikrofiberle hafif silmek izleri anında kaldırır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1298"
+    },
+    {
+      "id": "c28-del-323",
+      "scope": "faq",
+      "sku": "Q2M-PYA4000M",
+      "field": "faq[323]",
+      "before": {
+        "id": 323,
+        "question": "Prep sonrası ne kadar sürede kaplama yapmalıyım?",
+        "answer": "En geç 15-20 dk içinde; toz ve parmak izi oluşmadan kaplamaya geçin.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1214"
+    },
+    {
+      "id": "c29-del-321",
+      "scope": "faq",
+      "sku": "Q2M-PYA4000M",
+      "field": "faq[321]",
+      "before": {
+        "id": 321,
+        "question": "Sıcak panelde kullanabilir miyim?",
+        "answer": "Tavsiye edilmez; ürün buharlaşmadan silmek zorlaşır, iz riski artar.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1213"
+    },
+    {
+      "id": "c30-del-1337",
+      "scope": "faq",
+      "sku": "Q2M-WCYA4000M",
+      "field": "faq[1337]",
+      "before": {
+        "id": 1337,
+        "question": "Seramik kaplama üzerine uygulanabilir mi?",
+        "answer": "Evet, kaplamayı tazeler ve boncuklama etkisini geri kazandırır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1287"
+    },
+    {
+      "id": "c31-del-1346",
+      "scope": "faq",
+      "sku": "Q2M-CDYA1000M",
+      "field": "faq[1346]",
+      "before": {
+        "id": 1346,
+        "question": "Ne sıklıkla kullanılmalı?",
+        "answer": "Hidrofobinin zayıfladığını gördüğünüzde veya 4-6 haftada bir yenileyin.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1297"
+    },
+    {
+      "id": "c32-del-1345",
+      "scope": "faq",
+      "sku": "Q2M-CDYA1000M",
+      "field": "faq[1345]",
+      "before": {
+        "id": 1345,
+        "question": "Camda yağlı film oluşturur mu?",
+        "answer": "Hayır; camda da boncuklanma sağlar, fazla ürün kalırsa kuru bezle silin.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1296"
+    },
+    {
+      "id": "c33-del-1353",
+      "scope": "faq",
+      "sku": "Q2M-TOTR1000M",
+      "field": "faq[1353]",
+      "before": {
+        "id": 1353,
+        "question": "Mat/satin boyada iz bırakır mı?",
+        "answer": "Hayır, aşındırıcı içermez; mat dokuyu parlatmaz.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1350"
+    },
+    {
+      "id": "c34-del-159",
+      "scope": "faq",
+      "sku": "Q2M-BYA4000M",
+      "field": "faq[159]",
+      "before": {
+        "id": 159,
+        "question": "Sıcak panelde kullanabilir miyim?",
+        "answer": "Hayır; yüzeyin soğumasını bekleyin, aksi halde leke kalabilir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 85"
+    },
+    {
+      "id": "c35-del-2564",
+      "scope": "faq",
+      "sku": "Q2-W175G",
+      "field": "faq[2564]",
+      "before": {
+        "id": 2564,
+        "question": "Islak yüzeye uygulanabilir mi?",
+        "answer": "Hayır, yalnızca iyi hazırlanmış, dekontamine edilmiş ve Q²M Prep ile yağdan arındırılmış yüzeylere veya başka bir seramik kaplamanın üzerine uygulanır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2109"
+    },
+    {
+      "id": "c36-del-2543",
+      "scope": "faq",
+      "sku": "Q2-W175G",
+      "field": "faq[2543]",
+      "before": {
+        "id": 2543,
+        "question": "Birden fazla kat uygulayabilir miyim?",
+        "answer": "Evet.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2108"
+    },
+    {
+      "id": "c37-del-2095",
+      "scope": "faq",
+      "sku": "Q2-OLE100M",
+      "field": "faq[2095]",
+      "before": {
+        "id": 2095,
+        "question": "Birden fazla kat uygulayabilir miyim?",
+        "answer": "Evet. Katlar arasında en az bir saat bekleyin.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2600"
+    },
+    {
+      "id": "c38-del-325",
+      "scope": "faq",
+      "sku": "Q2-OLE100M",
+      "field": "faq[325]",
+      "before": {
+        "id": 325,
+        "question": "Soğuk havada uygulama yapılır mı?",
+        "answer": "5°C altı önerilmez; ılık ortamda en iyi sonucu verir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 237"
+    },
+    {
+      "id": "c39-del-320",
+      "scope": "faq",
+      "sku": "Q2-SLE50M",
+      "field": "faq[320]",
+      "before": {
+        "id": 320,
+        "question": "Mat boyada parlaklık yapar mı?",
+        "answer": "Hayır. Mat dokuyu korur, görünümü değiştirmez.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 246"
+    },
+    {
+      "id": "c40-del-2029",
+      "scope": "faq",
+      "sku": "Q2-PLE50M",
+      "field": "faq[2029]",
+      "before": {
+        "id": 2029,
+        "question": "Birden fazla kat uygulayabilir miyim?",
+        "answer": "Q² Pure EVO tek katmanlı bir kaplama olarak tasarlanmıştır. Tek kat, tam performansı size sunar.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 2559"
+    },
+    {
+      "id": "c41-del-1982",
+      "scope": "faq",
+      "sku": "22202.260.001",
+      "field": "faq[1982]",
+      "before": {
+        "id": 1982,
+        "question": "Diğer boyutlarla aynı formül mü?",
+        "answer": "Evet, 1 lt ve 1 kg ile aynı YENİ 400 formülüdür.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1934"
+    },
+    {
+      "id": "c42-del-1958",
+      "scope": "faq",
+      "sku": "22748.261.001",
+      "field": "faq[1958]",
+      "before": {
+        "id": 1958,
+        "question": "Elle uygulama yapabilir miyim?",
+        "answer": "Evet, hem makine hem de elle uygulamaya uygundur.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1898"
+    },
+    {
+      "id": "c43-del-1864",
+      "scope": "faq",
+      "sku": "26915.099.001",
+      "field": "faq[1864]",
+      "before": {
+        "id": 1864,
+        "question": "Bu keçe hangi pastalarla kullanılır?",
+        "answer": "Heavy Cut Compound 1000, 400 ve 400 GREEN LINE için optimize edilmiştir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1845"
+    },
+    {
+      "id": "c44-del-1640",
+      "scope": "faq",
+      "sku": "82672",
+      "field": "faq[1640]",
+      "before": {
+        "id": 1640,
+        "question": "Köpük yapıcı mı?",
+        "answer": "Hayır, sıvı atım yapan basınçlı pompadır. Köpük için IK FOAM PRO 12 önerilir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1637"
+    },
+    {
+      "id": "c45-del-1608",
+      "scope": "faq",
+      "sku": "21746",
+      "field": "faq[1608]",
+      "before": {
+        "id": 1608,
+        "question": "Hangi kimyasallarla uyumlu?",
+        "answer": "Alkali ürünler, ketonlar (aseton dahil), alkoller ve oksijenli çözücülerle uyumludur. Aromatik hidrokarbonlar ve güçlü asitler önerilmez.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1595"
+    },
+    {
+      "id": "c46-del-1607",
+      "scope": "faq",
+      "sku": "21746",
+      "field": "faq[1607]",
+      "before": {
+        "id": 1607,
+        "question": "Köpük yoğunluğu nasıl ayarlanır?",
+        "answer": "Memeyi söküp keçe diski çıkararak ve plastik ara parça takarak farklı köpük yoğunlukları elde edebilirsiniz.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1593"
+    },
+    {
+      "id": "c47-del-1480",
+      "scope": "faq",
+      "sku": "492361",
+      "field": "faq[1480]",
+      "before": {
+        "id": 1480,
+        "question": "Hangi işler için uygundur?",
+        "answer": "Far kenarları, ayna köşeleri ve dar detay alanlarında hassas polisaj için idealdir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1485"
+    },
+    {
+      "id": "c48-del-1472",
+      "scope": "faq",
+      "sku": "487988",
+      "field": "faq[1472]",
+      "before": {
+        "id": 1472,
+        "question": "Hangi makinelerle uyumlu?",
+        "answer": "FLEX XFE 7-15 125, XCE 8 125 18.0-EC ve XCE 10-8 125 modelleri ile uyumludur.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1475"
+    },
+    {
+      "id": "c49-del-1112",
+      "scope": "faq",
+      "sku": "GRY6555",
+      "field": "faq[1112]",
+      "before": {
+        "id": 1112,
+        "question": "Hangi makinelerle kullanılır?",
+        "answer": "Nano ve mini polisaj makineleri ile kullanılır.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1439"
+    },
+    {
+      "id": "c50-del-1166",
+      "scope": "faq",
+      "sku": "Q2M-PPFSL4000M",
+      "field": "faq[1166]",
+      "before": {
+        "id": 1166,
+        "question": "Neden bebek şampuanı yerine PPF Slip kullanmalıyım?",
+        "answer": "Bebek şampuanları boya ve krem içerir, bu maddeler yapıştırıcı performansını düşürür ve sararmaya neden olabilir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1162"
+    },
+    {
+      "id": "c51-del-846",
+      "scope": "faq",
+      "sku": "Q2M-APYA4000M",
+      "field": "faq[846]",
+      "before": {
+        "id": 846,
+        "question": "Kumaş koltukta renk solması yapar mı?",
+        "answer": "Önce gizli bir bölgede 1:15 oranla test yapın, sonra kullanın.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 775"
+    },
+    {
+      "id": "c52-del-773",
+      "scope": "faq",
+      "sku": "Q2M-APYA4000M",
+      "field": "faq[773]",
+      "before": {
+        "id": 773,
+        "question": "APC boyalı yüzeyde cilayı söker mi?",
+        "answer": "Doğru seyreltme (1:10 ve üstü) kullanıldığında wax/kaplamaya zarar vermez.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 844"
+    },
+    {
+      "id": "c53-del-1079",
+      "scope": "faq",
+      "sku": "GPRO180F-C",
+      "field": "faq[1079]",
+      "before": {
+        "id": 1079,
+        "question": "Taban çapı nedir?",
+        "answer": "Taban çapı 155mm, yüzey çapı 175mm'dir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1051"
+    },
+    {
+      "id": "c54-del-1133",
+      "scope": "faq",
+      "sku": "RE180F-C",
+      "field": "faq[1133]",
+      "before": {
+        "id": 1133,
+        "question": "Taban çapı nedir?",
+        "answer": "Taban çapı 130mm, yüzey çapı 150mm'dir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1071"
+    },
+    {
+      "id": "c55-del-1081",
+      "scope": "faq",
+      "sku": "GE180F-C",
+      "field": "faq[1081]",
+      "before": {
+        "id": 1081,
+        "question": "Taban çapı nedir?",
+        "answer": "Taban çapı 130mm, yüzey çapı 150mm'dir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 1063"
+    },
+    {
+      "id": "c56-del-957",
+      "scope": "faq",
+      "sku": "MT14850M",
+      "field": "faq[957]",
+      "before": {
+        "id": 957,
+        "question": "24mm yerine ne zaman kullanılır?",
+        "answer": "Dar kenarlar, ince hatlar ve detaylı maskeleme gerektiren alanlarda 18mm tercih edilir.",
+        "scope": "product",
+        "brand": null,
+        "category": null
+      },
+      "after": null,
+      "label": "merge into faq 959"
+    }
+  ]
+}

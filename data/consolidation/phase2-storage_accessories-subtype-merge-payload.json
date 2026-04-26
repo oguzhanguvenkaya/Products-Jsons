@@ -1,0 +1,22 @@
+{
+  "changes": [
+    {
+      "id": "phase2-storage_accessories-79472-1",
+      "scope": "product",
+      "sku": "79472",
+      "field": "template_sub_type",
+      "before": "bucket_accessories",
+      "after": "wash_accessory",
+      "label": "P1 merge: bucket aksesuarları yıkama-aksesuarı sınıfına"
+    },
+    {
+      "id": "phase2-storage_accessories-SGGD402-2",
+      "scope": "product",
+      "sku": "SGGD402",
+      "field": "template_sub_type",
+      "before": "water_spray_gun",
+      "after": "wash_accessory",
+      "label": "P1 merge: sprey tabancası yıkama-aksesuarı sınıfına"
+    }
+  ]
+}

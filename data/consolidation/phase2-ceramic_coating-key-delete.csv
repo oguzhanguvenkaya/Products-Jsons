@@ -1,0 +1,5 @@
+id,scope,sku,field,before,after,label
+phase2-ceramic_coating-Q2-PR1000M-key-cut_level,product.specs,Q2-PR1000M,specs.cut_level,1,null,P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde cut_level alanı kategoriyle uyumsuz
+phase2-ceramic_coating-Q2-PR1000M-key-filler_free,product.specs,Q2-PR1000M,specs.filler_free,True,null,P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde filler_free alanı kategoriyle uyumsuz
+phase2-ceramic_coating-Q2-PR1000M-key-gloss_level,product.specs,Q2-PR1000M,specs.gloss_level,10,null,P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde gloss_level alanı kategoriyle uyumsuz
+phase2-ceramic_coating-Q2-PR1000M-key-silicone_free,product.specs,Q2-PR1000M,specs.silicone_free,True,null,P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde silicone_free alanı kategoriyle uyumsuz

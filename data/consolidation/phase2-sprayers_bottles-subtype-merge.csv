@@ -1,0 +1,2 @@
+id,scope,sku,field,before,after,label
+phase2-sprayers_bottles-Q2M-P-DB300M-subtype,product,Q2M-P-DB300M,template_sub_type,dispenser_bottle,pump_sprayer,P0 merge: dispenser_bottle -> pump_sprayer (Tek ürün; pump sprayer ile aynı işlev (sıvı dispense))

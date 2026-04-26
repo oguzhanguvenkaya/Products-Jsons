@@ -1,0 +1,49 @@
+{
+  "changes": [
+    {
+      "id": "phase2-contaminant_solvers-Q2M-IR4000M-1",
+      "scope": "product",
+      "sku": "Q2M-IR4000M",
+      "field": "template_sub_type",
+      "before": "iron_remover",
+      "after": "wheel_iron_remover",
+      "label": "P1 merge: iron_remover = wheel_iron_remover üst-aile; surface farkı specs.target_surface ile"
+    },
+    {
+      "id": "phase2-contaminant_solvers-Q2M-PYA4000M-2",
+      "scope": "product",
+      "sku": "Q2M-PYA4000M",
+      "field": "template_sub_type",
+      "before": "single_layer_coating",
+      "after": "surface_prep",
+      "label": "P0 merge: YANLIS GRUP: prep ürünü; group → ceramic_coating, sub → surface_prep"
+    },
+    {
+      "id": "phase2-contaminant_solvers-Q2M-PYA4000M-3",
+      "scope": "product",
+      "sku": "Q2M-PYA4000M",
+      "field": "template_group",
+      "before": "contaminant_solvers",
+      "after": "ceramic_coating",
+      "label": "P0 group fix: surface prep ürünü; ceramic_coating ekosistemine taşı"
+    },
+    {
+      "id": "phase2-contaminant_solvers-Q2M-TOTR1000M-4",
+      "scope": "product",
+      "sku": "Q2M-TOTR1000M",
+      "field": "template_sub_type",
+      "before": "wax_remover",
+      "after": "tar_glue_remover",
+      "label": "P1 merge: solvent tabanlı sökücü; ortak meta key set"
+    },
+    {
+      "id": "phase2-contaminant_solvers-79291-5",
+      "scope": "product",
+      "sku": "79291",
+      "field": "template_sub_type",
+      "before": "iron_remover",
+      "after": "wheel_iron_remover",
+      "label": "P1 merge: iron_remover = wheel_iron_remover üst-aile; surface farkı specs.target_surface ile"
+    }
+  ]
+}

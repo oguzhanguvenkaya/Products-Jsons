@@ -1,0 +1,85 @@
+source,id,sku,field,after,final_group,final_sub_type,label
+phase3a,phase3a-Q2M-CM1000M-application_method-1,Q2M-CM1000M,specs.application_method,both,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-Q2M-GP250M-application_method-1,Q2M-GP250M,specs.application_method,machine,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-Q2M-PPR1000M-application_method-1,Q2M-PPR1000M,specs.application_method,both,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-22984.260.001-skill_level-1,22984.260.001,specs.skill_level,pro,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-22984.281.001-skill_level-1,22984.281.001,specs.skill_level,pro,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-22771.261.001-application_method-1,22771.261.001,specs.application_method,machine,abrasive_polish,polish,Faz3 extract
+phase3a,phase3a-22828.261.001-application_method-1,22828.261.001,specs.application_method,machine,abrasive_polish,polish,Faz3 extract
+phase3a,phase3a-22029.261.001-application_method-1,22029.261.001,specs.application_method,machine,abrasive_polish,finish,Faz3 extract
+phase3a,phase3a-22911.261.001-application_method-1,22911.261.001,specs.application_method,machine,abrasive_polish,finish,Faz3 extract
+phase3a,phase3a-22992.261.001-application_method-1,22992.261.001,specs.application_method,machine,abrasive_polish,polish,Faz3 extract
+phase3a,phase3a-22200.261.001-application_method-1,22200.261.001,specs.application_method,machine,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-20144.261.001-application_method-1,20144.261.001,specs.application_method,machine,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-22748.261.001-application_method-1,22748.261.001,specs.application_method,machine,abrasive_polish,polish,Faz3 extract
+phase3a,phase3a-22202.260.001-application_method-1,22202.260.001,specs.application_method,machine,abrasive_polish,heavy_cut_compound,Faz3 extract
+phase3a,phase3a-701851-rinse_required-1,701851,specs.rinse_required,True,car_shampoo,ph_neutral_shampoo,Faz3 extract
+phase3a,phase3a-71490-dwell_time_minutes-1,71490,specs.dwell_time_minutes,2,car_shampoo,prewash_foaming_shampoo,Faz3 extract
+phase3a,phase3a-700387-dwell_time_minutes-1,700387,specs.dwell_time_minutes,3,car_shampoo,prewash_foaming_shampoo,Faz3 extract
+phase3a,phase3a-Q2M-FYA4000M-dwell_time_minutes-1,Q2M-FYA4000M,specs.dwell_time_minutes,5,car_shampoo,prewash_foaming_shampoo,Faz3 extract
+phase3a,phase3a-701422-rinse_required-1,701422,specs.rinse_required,True,car_shampoo,towel_wash,Faz3 extract
+phase3a,phase3a-79281-dwell_time_minutes-1,79281,specs.dwell_time_minutes,3,car_shampoo,prewash_foaming_shampoo,Faz3 extract
+phase3a,phase3a-Q2-BS30M-cure_time_hours-1,Q2-BS30M,specs.cure_time_hours,1,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-CCE200M-cure_time_hours-1,Q2-CCE200M,specs.cure_time_hours,12,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-FCNA400M-cure_time_hours-1,Q2-FCNA400M,specs.cure_time_hours,12,ceramic_coating,fabric_coating,Faz3 extract
+phase3a,phase3a-Q2-MTEL50M-cure_time_hours-1,Q2-MTEL50M,specs.cure_time_hours,12,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-MTEL50M-application_temperature_min_c-1,Q2-MTEL50M,specs.application_temperature_min_c,10,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-MTEL50M-application_temperature_max_c-1,Q2-MTEL50M,specs.application_temperature_max_c,30,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-OLE100M-cure_time_hours-1,Q2-OLE100M,specs.cure_time_hours,12,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-PPFE50M-cure_time_hours-1,Q2-PPFE50M,specs.cure_time_hours,12,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-PPFE50M-application_temperature_min_c-1,Q2-PPFE50M,specs.application_temperature_min_c,15,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-PPFE50M-application_temperature_max_c-1,Q2-PPFE50M,specs.application_temperature_max_c,25,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-PR1000M-cure_time_hours-1,Q2-PR1000M,specs.cure_time_hours,24,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-PR1000M-skill_level-1,Q2-PR1000M,specs.skill_level,pro,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-PLE50M-cure_time_hours-1,Q2-PLE50M,specs.cure_time_hours,12,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-SLE50M-cure_time_hours-1,Q2-SLE50M,specs.cure_time_hours,12,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-SLE50M-application_temperature_min_c-1,Q2-SLE50M,specs.application_temperature_min_c,15,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-Q2-SLE50M-application_temperature_max_c-1,Q2-SLE50M,specs.application_temperature_max_c,25,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-700405-application_temperature_min_c-1,700405,specs.application_temperature_min_c,5,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-700405-application_temperature_max_c-1,700405,specs.application_temperature_max_c,25,ceramic_coating,paint_coating,Faz3 extract
+phase3a,phase3a-700210-dwell_time_minutes-1,700210,specs.dwell_time_minutes,5,contaminant_solvers,wheel_iron_remover,Faz3 extract
+phase3a,phase3a-70864-dwell_time_minutes-1,70864,specs.dwell_time_minutes,2,contaminant_solvers,wheel_iron_remover,Faz3 extract
+phase3a,phase3a-Q2M-IWCR4000M-dwell_time_minutes-1,Q2M-IWCR4000M,specs.dwell_time_minutes,2,contaminant_solvers,wheel_iron_remover,Faz3 extract
+phase3a,phase3a-79291-dwell_time_minutes-1,79291,specs.dwell_time_minutes,5,contaminant_solvers,wheel_iron_remover,Faz3 extract
+phase3a,phase3a-79293-rinse_required-1,79293,specs.rinse_required,True,contaminant_solvers,tar_glue_remover,Faz3 extract
+phase3b,phase3b-70894-indoor_use-13,70894,specs.indoor_use,True,interior_cleaner,plastic_dressing,phase3b extract (high)
+phase3b,phase3b-77019-rinse_required-14,77019,specs.rinse_required,True,interior_cleaner,heavy_duty_cleaner,phase3b extract (high)
+phase3b,phase3b-73378-rinse_required-18,73378,specs.rinse_required,True,interior_cleaner,fabric_leather_cleaner,phase3b extract (high)
+phase3b,phase3b-701010-dwell_time_minutes-19,701010,specs.dwell_time_minutes,1,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-701010-rinse_required-21,701010,specs.rinse_required,True,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-701285-rinse_required-22,701285,specs.rinse_required,True,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-70901-indoor_use-23,70901,specs.indoor_use,True,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-Q2M-APYA4000M-dwell_time_minutes-26,Q2M-APYA4000M,specs.dwell_time_minutes,2,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-Q2M-APYA4000M-rinse_required-27,Q2M-APYA4000M,specs.rinse_required,True,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-Q2M-DT10P-rinse_required-28,Q2M-DT10P,specs.rinse_required,True,interior_cleaner,heavy_duty_cleaner,phase3b extract (high)
+phase3b,phase3b-Q2M-FCNA1000M-dwell_time_minutes-29,Q2M-FCNA1000M,specs.dwell_time_minutes,2,interior_cleaner,fabric_leather_cleaner,phase3b extract (high)
+phase3b,phase3b-79771-dwell_time_minutes-30,79771,specs.dwell_time_minutes,3,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-79771-rinse_required-31,79771,specs.rinse_required,True,interior_cleaner,interior_apc,phase3b extract (high)
+phase3b,phase3b-79818-indoor_use-33,79818,specs.indoor_use,True,interior_cleaner,fabric_leather_cleaner,phase3b extract (high)
+phase3b,phase3b-700097-durability_months-61,700097,specs.durability_months,9,paint_protection_quick,spray_sealant,phase3b extract (high)
+phase3b,phase3b-700096-durability_months-62,700096,specs.durability_months,8,paint_protection_quick,spray_sealant,phase3b extract (high)
+phase3c,phase3c-13724-volume_ml-7,13724,specs.volume_ml,600,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=600 [high] ev=""600 ml"""
+phase3c,phase3c-18802-volume_ml-10,18802,specs.volume_ml,1860,sprayers_bottles,pump_sprayer,"phase3c extract: volume_ml=1860 [high] ev=""1860 ml"""
+phase3c,phase3c-18810-volume_ml-15,18810,specs.volume_ml,1860,sprayers_bottles,pump_sprayer,"phase3c extract: volume_ml=1860 [high] ev=""1860 ml"""
+phase3c,phase3c-19771-volume_ml-25,19771,specs.volume_ml,2000,sprayers_bottles,foaming_pump_sprayer,"phase3c extract: volume_ml=2000 [high] ev=""2000 ml"""
+phase3c,phase3c-20417-volume_ml-41,20417,specs.volume_ml,1310,sprayers_bottles,pump_sprayer,"phase3c extract: volume_ml=1310 [high] ev=""1310 ml"""
+phase3c,phase3c-21746-volume_ml-50,21746,specs.volume_ml,230,sprayers_bottles,foaming_pump_sprayer,"phase3c extract: volume_ml=230 [high] ev=""230 ml"""
+phase3c,phase3c-24952-volume_ml-60,24952,specs.volume_ml,600,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=600 [high] ev=""600 ml"""
+phase3c,phase3c-26005-volume_ml-64,26005,specs.volume_ml,1860,sprayers_bottles,pump_sprayer,"phase3c extract: volume_ml=1860 [high] ev=""1860 ml"""
+phase3c,phase3c-418072-skill_level-115,418072,specs.skill_level,pro,polisher_machine,dual_action_polisher,"phase3c extract: skill_level=""pro"" [high] ev=""profesyonel/usta"""
+phase3c,phase3c-418080-skill_level-118,418080,specs.skill_level,pro,polisher_machine,orbital,"phase3c extract: skill_level=""pro"" [high] ev=""profesyonel/usta"""
+phase3c,phase3c-447129-skill_level-127,447129,specs.skill_level,pro,polisher_machine,orbital,"phase3c extract: skill_level=""pro"" [high] ev=""profesyonel/usta"""
+phase3c,phase3c-502561-volume_ml-149,502561,specs.volume_ml,500,storage_accessories,bag_carrier,"phase3c extract: volume_ml=500 [high] ev=""500ml"""
+phase3c,phase3c-533020-skill_level-174,533020,specs.skill_level,pro,polisher_machine,dual_action_polisher,"phase3c extract: skill_level=""pro"" [high] ev=""profesyonel/usta"""
+phase3c,phase3c-533021-skill_level-177,533021,specs.skill_level,pro,polisher_machine,orbital,"phase3c extract: skill_level=""pro"" [high] ev=""profesyonel/usta"""
+phase3c,phase3c-79586-643-volume_ml-204,79586-643,specs.volume_ml,1000,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000 ml"""
+phase3c,phase3c-79586-644-volume_ml-209,79586-644,specs.volume_ml,1000,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000ml"""
+phase3c,phase3c-79587-643-volume_ml-211,79587-643,specs.volume_ml,1000,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000 ml"""
+phase3c,phase3c-79587-644-volume_ml-216,79587-644,specs.volume_ml,1000,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000ml"""
+phase3c,phase3c-79588-643-volume_ml-218,79588-643,specs.volume_ml,1000,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000 ml"""
+phase3c,phase3c-79588-644-volume_ml-223,79588-644,specs.volume_ml,1000,sprayers_bottles,trigger_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000ml"""
+phase3c,phase3c-PPF-L500M-volume_ml-341,PPF-L500M,specs.volume_ml,500,ppf_tools,ppf_install_solution,"phase3c extract: volume_ml=500 [high] ev=""500 ml"""
+phase3c,phase3c-Q2M-ES98M-volume_ml-346,Q2M-ES98M,specs.volume_ml,80,product_sets,experience_set,"phase3c extract: volume_ml=80 [high] ev=""80 ml"""
+phase3c,phase3c-Q2M-P-DB300M-volume_ml-350,Q2M-P-DB300M,specs.volume_ml,300,sprayers_bottles,dispenser_bottle,"phase3c extract: volume_ml=300 [high] ev=""300 ml"""
+phase3c,phase3c-Q2M-WCS98M-volume_ml-371,Q2M-WCS98M,specs.volume_ml,80,product_sets,experience_set,"phase3c extract: volume_ml=80 [high] ev=""80 ml"""
+phase3c,phase3c-SGGC091-volume_ml-384,SGGC091,specs.volume_ml,1000,sprayers_bottles,foaming_pump_sprayer,"phase3c extract: volume_ml=1000 [high] ev=""1000ml"""

@@ -1,0 +1,12 @@
+id,sku,key,value,confidence,evidence
+phase3b-PS0931-skill_level-1,PS0931,skill_level,"""diy""",medium,
+phase3b-PS0707-skill_level-2,PS0707,skill_level,"""diy""",medium,
+phase3b-PS0606-skill_level-3,PS0606,skill_level,"""diy""",medium,
+phase3b-PS0101-skill_level-4,PS0101,skill_level,"""diy""",medium,
+phase3b-PS2002-skill_level-5,PS2002,skill_level,"""diy""",medium,
+phase3b-PS0821-skill_level-6,PS0821,skill_level,"""diy""",medium,
+phase3b-06008.056.001-skill_level-12,06008.056.001,skill_level,"""diy""",medium,ici - derin çizikleri giderir • Tripel/diyatomlu toprak içerir • Ekonomik endüstriy
+phase3b-75132-confidence_level-15,75132,confidence_level,"""high""",medium,
+phase3b-3236NBR2-skill_level-46,3236NBR2,skill_level,"""diy""",medium,
+phase3b-3218-confidence_level-47,3218,confidence_level,"""high""",medium,
+phase3b-373680-confidence_level-65,373680,confidence_level,"""high""",medium,

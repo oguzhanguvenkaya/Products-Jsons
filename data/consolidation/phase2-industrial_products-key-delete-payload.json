@@ -1,0 +1,418 @@
+{
+  "changes": [
+    {
+      "id": "phase2-industrial_products-06008.056.001-key1",
+      "scope": "product.specs",
+      "sku": "06008.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-06008.056.001-key2",
+      "scope": "product.specs",
+      "sku": "06008.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-06008.056.001-key3",
+      "scope": "product.specs",
+      "sku": "06008.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-06008.056.001-key4",
+      "scope": "product.specs",
+      "sku": "06008.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07001.056.001-key5",
+      "scope": "product.specs",
+      "sku": "07001.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07001.056.001-key6",
+      "scope": "product.specs",
+      "sku": "07001.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07001.056.001-key7",
+      "scope": "product.specs",
+      "sku": "07001.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07001.056.001-key8",
+      "scope": "product.specs",
+      "sku": "07001.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07008.056.001-key9",
+      "scope": "product.specs",
+      "sku": "07008.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07008.056.001-key10",
+      "scope": "product.specs",
+      "sku": "07008.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07008.056.001-key11",
+      "scope": "product.specs",
+      "sku": "07008.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07008.056.001-key12",
+      "scope": "product.specs",
+      "sku": "07008.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07006.056.001-key13",
+      "scope": "product.specs",
+      "sku": "07006.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07006.056.001-key14",
+      "scope": "product.specs",
+      "sku": "07006.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07006.056.001-key15",
+      "scope": "product.specs",
+      "sku": "07006.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07006.056.001-key16",
+      "scope": "product.specs",
+      "sku": "07006.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12002.056.001-key17",
+      "scope": "product.specs",
+      "sku": "12002.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12002.056.001-key18",
+      "scope": "product.specs",
+      "sku": "12002.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12002.056.001-key19",
+      "scope": "product.specs",
+      "sku": "12002.056.001",
+      "field": "specs.flagship",
+      "before": "True",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda flagship anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12002.056.001-key20",
+      "scope": "product.specs",
+      "sku": "12002.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12002.056.001-key21",
+      "scope": "product.specs",
+      "sku": "12002.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12001.056.001-key22",
+      "scope": "product.specs",
+      "sku": "12001.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12001.056.001-key23",
+      "scope": "product.specs",
+      "sku": "12001.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12001.056.001-key24",
+      "scope": "product.specs",
+      "sku": "12001.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-12001.056.001-key25",
+      "scope": "product.specs",
+      "sku": "12001.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07933.056.001-key26",
+      "scope": "product.specs",
+      "sku": "07933.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07933.056.001-key27",
+      "scope": "product.specs",
+      "sku": "07933.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07933.056.001-key28",
+      "scope": "product.specs",
+      "sku": "07933.056.001",
+      "field": "specs.premium",
+      "before": "True",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda premium anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07933.056.001-key29",
+      "scope": "product.specs",
+      "sku": "07933.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07933.056.001-key30",
+      "scope": "product.specs",
+      "sku": "07933.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07201.056.001-key31",
+      "scope": "product.specs",
+      "sku": "07201.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07201.056.001-key32",
+      "scope": "product.specs",
+      "sku": "07201.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07201.056.001-key33",
+      "scope": "product.specs",
+      "sku": "07201.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07201.056.001-key34",
+      "scope": "product.specs",
+      "sku": "07201.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07163.056.001-key35",
+      "scope": "product.specs",
+      "sku": "07163.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07163.056.001-key36",
+      "scope": "product.specs",
+      "sku": "07163.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07163.056.001-key37",
+      "scope": "product.specs",
+      "sku": "07163.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07163.056.001-key38",
+      "scope": "product.specs",
+      "sku": "07163.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07945.056.001-key39",
+      "scope": "product.specs",
+      "sku": "07945.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07945.056.001-key40",
+      "scope": "product.specs",
+      "sku": "07945.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07945.056.001-key41",
+      "scope": "product.specs",
+      "sku": "07945.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07945.056.001-key42",
+      "scope": "product.specs",
+      "sku": "07945.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07984.056.001-key43",
+      "scope": "product.specs",
+      "sku": "07984.056.001",
+      "field": "specs.fit",
+      "before": "weak",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda fit anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07984.056.001-key44",
+      "scope": "product.specs",
+      "sku": "07984.056.001",
+      "field": "specs.source",
+      "before": "group",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda source anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07984.056.001-key45",
+      "scope": "product.specs",
+      "sku": "07984.056.001",
+      "field": "specs.confidence",
+      "before": 0.5,
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda confidence anlamsız"
+    },
+    {
+      "id": "phase2-industrial_products-07984.056.001-key46",
+      "scope": "product.specs",
+      "sku": "07984.056.001",
+      "field": "specs.gap_reason",
+      "before": "cleaner_liquid:exterior_cleaner",
+      "after": null,
+      "label": "P0 ilgisiz: industrial_products grubunda gap_reason anlamsız"
+    }
+  ]
+}

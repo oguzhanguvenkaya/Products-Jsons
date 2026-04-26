@@ -1,0 +1,31 @@
+{
+  "changes": [
+    {
+      "id": "phase2-clay_products-MGPS-6009P-1",
+      "scope": "product",
+      "sku": "MGPS-6009P",
+      "field": "template_sub_type",
+      "before": "clay_cloth",
+      "after": "clay_pad",
+      "label": "P0 merge: tek ürün; form=cloth specs.format ile ayırt"
+    },
+    {
+      "id": "phase2-clay_products-MGPS-6012K-2",
+      "scope": "product",
+      "sku": "MGPS-6012K",
+      "field": "template_sub_type",
+      "before": "clay_disc",
+      "after": "clay_pad",
+      "label": "P0 merge: tek ürün; form=disc specs.format ile ayırt"
+    },
+    {
+      "id": "phase2-clay_products-MGPS-6016P-3",
+      "scope": "product",
+      "sku": "MGPS-6016P",
+      "field": "template_sub_type",
+      "before": "clay_mitt",
+      "after": "clay_pad",
+      "label": "P0 merge: tek ürün; form=mitt specs.format ile ayırt"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+id,scope,sku,field,before,after,label
+phase2c-glass-key-1,product.specs,701606,specs.sub_type,glass_cleaner_additive,,P2 redundant — template_sub_type ile dup
+phase2c-glass-key-2,product.specs,74955,specs.sub_type,glass_cleaner_additive,,P2 redundant — template_sub_type ile dup
+phase2c-glass-key-3,product.specs,701606,specs.scented,true,,P1 dup — scent alanı zaten var
+phase2c-glass-key-4,product.specs,74955,specs.scented,true,,P1 dup — scent alanı zaten var
+phase2c-glass-key-5,product.specs,701606,specs.form,liquid,,P2 düşük bilgi — additive zaten sıvı
+phase2c-glass-key-6,product.specs,701606,specs.uv_protection,,,P2 ürünle ilgisiz — cam suyu katkısı uv koruma yapmaz (yanlış key)
+phase2c-glass-key-7,product.specs,74955,specs.uv_protection,,,P2 ürünle ilgisiz — cam suyu katkısı uv koruma yapmaz (yanlış key)
+phase2c-glass-key-8,product.specs,701606,specs.safe_on_screens,,,P2 cam suyu katkısı — ekran kullanımı yok; ilgisiz
+phase2c-glass-key-9,product.specs,74955,specs.safe_on_screens,,,P2 cam suyu katkısı — ekran kullanımı yok; ilgisiz
+phase2c-glass-key-10,product.specs,701606,specs.target_surfaces,Ön cam su deposu,,P2 cam suyu deposu sabit — düşük bilgi (template'tan infer edilebilir)
+phase2c-glass-key-11,product.specs,74955,specs.target_surfaces,Ön cam su deposu,,P2 düşük bilgi
+phase2c-glass-key-12,product.specs,701606,specs.anti_bacterial_claim,,,P2 cam suyu katkısı için ilgisiz
+phase2c-glass-key-13,product.specs,74955,specs.anti_bacterial_claim,,,P2 cam suyu katkısı için ilgisiz
+phase2c-glass-key-14,product.specs,701606,specs.finish,parfümlü,,P2 finish değeri "parfümlü" anlamsız — finish parlaklık/matlık için kullanılır
+phase2c-glass-key-15,product.specs,74955,specs.finish,parfümlü,,P2 finish değeri "parfümlü" anlamsız

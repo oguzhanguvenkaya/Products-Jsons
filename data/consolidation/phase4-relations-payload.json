@@ -1,0 +1,592 @@
+{
+  "changes": [
+    {
+      "id": "phase4-76280-76384-use_with",
+      "scope": "relation",
+      "sku": "76280",
+      "field": "use_with:76384",
+      "before": null,
+      "after": {
+        "sourceSku": "76280",
+        "targetSku": "76384",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#728)"
+    },
+    {
+      "id": "phase4-SGGF181-57-SGGF181-use_with",
+      "scope": "relation",
+      "sku": "SGGF181-57",
+      "field": "use_with:SGGF181",
+      "before": null,
+      "after": {
+        "sourceSku": "SGGF181-57",
+        "targetSku": "SGGF181",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#1491)"
+    },
+    {
+      "id": "phase4-SGYC011-SGGC055-accessories",
+      "scope": "relation",
+      "sku": "SGYC011",
+      "field": "accessories:SGGC055",
+      "before": null,
+      "after": {
+        "sourceSku": "SGYC011",
+        "targetSku": "SGGC055",
+        "relationType": "accessories",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X için yedek/spare (description)"
+    },
+    {
+      "id": "phase4-76283-76389-use_with",
+      "scope": "relation",
+      "sku": "76283",
+      "field": "use_with:76389",
+      "before": null,
+      "after": {
+        "sourceSku": "76283",
+        "targetSku": "76389",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#724)"
+    },
+    {
+      "id": "phase4-492361-418102-use_with",
+      "scope": "relation",
+      "sku": "492361",
+      "field": "use_with:418102",
+      "before": null,
+      "after": {
+        "sourceSku": "492361",
+        "targetSku": "418102",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (description)"
+    },
+    {
+      "id": "phase4-DOR150F-C-22748.261.001-use_with",
+      "scope": "relation",
+      "sku": "DOR150F-C",
+      "field": "use_with:22748.261.001",
+      "before": null,
+      "after": {
+        "sourceSku": "DOR150F-C",
+        "targetSku": "22748.261.001",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile (birlikte) kullan (faq#1083)"
+    },
+    {
+      "id": "phase4-DOR160F-22748.261.001-use_with",
+      "scope": "relation",
+      "sku": "DOR160F",
+      "field": "use_with:22748.261.001",
+      "before": null,
+      "after": {
+        "sourceSku": "DOR160F",
+        "targetSku": "22748.261.001",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile (birlikte) kullan (faq#1088)"
+    },
+    {
+      "id": "phase4-Q2M-PYA4000M-Q2-CCE200M-use_after",
+      "scope": "relation",
+      "sku": "Q2M-PYA4000M",
+      "field": "use_after:Q2-CCE200M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PYA4000M",
+        "targetSku": "Q2-CCE200M",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-Q2M-PWE4040C-Q2M-SDE7090C-use_after",
+      "scope": "relation",
+      "sku": "Q2M-PWE4040C",
+      "field": "use_after:Q2M-SDE7090C",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PWE4040C",
+        "targetSku": "Q2M-SDE7090C",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-26935.099.001-26934.099.001-use_with",
+      "scope": "relation",
+      "sku": "26935.099.001",
+      "field": "use_with:26934.099.001",
+      "before": null,
+      "after": {
+        "sourceSku": "26935.099.001",
+        "targetSku": "26934.099.001",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#1969)"
+    },
+    {
+      "id": "phase4-82671836-20102-use_with",
+      "scope": "relation",
+      "sku": "82671836",
+      "field": "use_with:20102",
+      "before": null,
+      "after": {
+        "sourceSku": "82671836",
+        "targetSku": "20102",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#1511)"
+    },
+    {
+      "id": "phase4-82671872-20102-use_with",
+      "scope": "relation",
+      "sku": "82671872",
+      "field": "use_with:20102",
+      "before": null,
+      "after": {
+        "sourceSku": "82671872",
+        "targetSku": "20102",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#1518)"
+    },
+    {
+      "id": "phase4-GRY180F-C-487988-use_with",
+      "scope": "relation",
+      "sku": "GRY180F-C",
+      "field": "use_with:487988",
+      "before": null,
+      "after": {
+        "sourceSku": "GRY180F-C",
+        "targetSku": "487988",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile (birlikte) kullan (faq#1128)"
+    },
+    {
+      "id": "phase4-PU150F-C-487988-use_with",
+      "scope": "relation",
+      "sku": "PU150F-C",
+      "field": "use_with:487988",
+      "before": null,
+      "after": {
+        "sourceSku": "PU150F-C",
+        "targetSku": "487988",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile (birlikte) kullan (faq#1048)"
+    },
+    {
+      "id": "phase4-SGGA081-487988-use_with",
+      "scope": "relation",
+      "sku": "SGGA081",
+      "field": "use_with:487988",
+      "before": null,
+      "after": {
+        "sourceSku": "SGGA081",
+        "targetSku": "487988",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile (birlikte) kullan (description)"
+    },
+    {
+      "id": "phase4-DOR150F-C-22748.261.001-alternatives",
+      "scope": "relation",
+      "sku": "DOR150F-C",
+      "field": "alternatives:22748.261.001",
+      "before": null,
+      "after": {
+        "sourceSku": "DOR150F-C",
+        "targetSku": "22748.261.001",
+        "relationType": "alternatives",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X benzeri/muadili (faq#1083)"
+    },
+    {
+      "id": "phase4-DOR160F-22748.261.001-alternatives",
+      "scope": "relation",
+      "sku": "DOR160F",
+      "field": "alternatives:22748.261.001",
+      "before": null,
+      "after": {
+        "sourceSku": "DOR160F",
+        "targetSku": "22748.261.001",
+        "relationType": "alternatives",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X benzeri/muadili (faq#1088)"
+    },
+    {
+      "id": "phase4-GRY6555-487988-use_with",
+      "scope": "relation",
+      "sku": "GRY6555",
+      "field": "use_with:487988",
+      "before": null,
+      "after": {
+        "sourceSku": "GRY6555",
+        "targetSku": "487988",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#1439)"
+    },
+    {
+      "id": "phase4-Q2M-PYA4000M-Q2M-RWYA1000M-use_before",
+      "scope": "relation",
+      "sku": "Q2M-PYA4000M",
+      "field": "use_before:Q2M-RWYA1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PYA4000M",
+        "targetSku": "Q2M-RWYA1000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-SDE7090C-Q2M-PYA4000M-use_after",
+      "scope": "relation",
+      "sku": "Q2M-SDE7090C",
+      "field": "use_after:Q2M-PYA4000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-SDE7090C",
+        "targetSku": "Q2M-PYA4000M",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-Q2-PR1000M-Q2M-RWYA1000M-use_after",
+      "scope": "relation",
+      "sku": "Q2-PR1000M",
+      "field": "use_after:Q2M-RWYA1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2-PR1000M",
+        "targetSku": "Q2M-RWYA1000M",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X üzerine uygulanır (description)"
+    },
+    {
+      "id": "phase4-MGPS-2019KM-Q2M-IR4000M-use_before",
+      "scope": "relation",
+      "sku": "MGPS-2019KM",
+      "field": "use_before:Q2M-IR4000M",
+      "before": null,
+      "after": {
+        "sourceSku": "MGPS-2019KM",
+        "targetSku": "Q2M-IR4000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2-PR1000M-Q2M-PO1000M-use_before",
+      "scope": "relation",
+      "sku": "Q2-PR1000M",
+      "field": "use_before:Q2M-PO1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2-PR1000M",
+        "targetSku": "Q2M-PO1000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2-VE20M-Q2M-CME-use_before",
+      "scope": "relation",
+      "sku": "Q2-VE20M",
+      "field": "use_before:Q2M-CME",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2-VE20M",
+        "targetSku": "Q2M-CME",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-PO1000M-Q2M-CM1000M-use_before",
+      "scope": "relation",
+      "sku": "Q2M-PO1000M",
+      "field": "use_before:Q2M-CM1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PO1000M",
+        "targetSku": "Q2M-CM1000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-PPFSL4000M-Q2M-CAP10P-use_before",
+      "scope": "relation",
+      "sku": "Q2M-PPFSL4000M",
+      "field": "use_before:Q2M-CAP10P",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PPFSL4000M",
+        "targetSku": "Q2M-CAP10P",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-GP250M-Q2-QV120M-use_before",
+      "scope": "relation",
+      "sku": "Q2M-GP250M",
+      "field": "use_before:Q2-QV120M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-GP250M",
+        "targetSku": "Q2-QV120M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (faq#22)"
+    },
+    {
+      "id": "phase4-Q2M-IWCR4000M-Q2M-SPE-use_after",
+      "scope": "relation",
+      "sku": "Q2M-IWCR4000M",
+      "field": "use_after:Q2M-SPE",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-IWCR4000M",
+        "targetSku": "Q2M-SPE",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-Q2M-SDE7090C-Q2M-PYA4000M-use_before",
+      "scope": "relation",
+      "sku": "Q2M-SDE7090C",
+      "field": "use_before:Q2M-PYA4000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-SDE7090C",
+        "targetSku": "Q2M-PYA4000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-WSYA1000M-Q2M-PYA4000M-use_before",
+      "scope": "relation",
+      "sku": "Q2M-WSYA1000M",
+      "field": "use_before:Q2M-PYA4000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-WSYA1000M",
+        "targetSku": "Q2M-PYA4000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-SGGD166-SGGF273-use_with",
+      "scope": "relation",
+      "sku": "SGGD166",
+      "field": "use_with:SGGF273",
+      "before": null,
+      "after": {
+        "sourceSku": "SGGD166",
+        "targetSku": "SGGF273",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile uyumlu (faq#1488)"
+    },
+    {
+      "id": "phase4-22870.261.001-22992.261.001-use_before",
+      "scope": "relation",
+      "sku": "22870.261.001",
+      "field": "use_before:22992.261.001",
+      "before": null,
+      "after": {
+        "sourceSku": "22870.261.001",
+        "targetSku": "22992.261.001",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X uygulamadan önce (description)"
+    },
+    {
+      "id": "phase4-406813-Q2M-CM1000M-use_with",
+      "scope": "relation",
+      "sku": "406813",
+      "field": "use_with:Q2M-CM1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "406813",
+        "targetSku": "Q2M-CM1000M",
+        "relationType": "use_with",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X ile (birlikte) kullan (faq#1368)"
+    },
+    {
+      "id": "phase4-Q2M-CDYA1000M-Q2M-CA10P-use_before",
+      "scope": "relation",
+      "sku": "Q2M-CDYA1000M",
+      "field": "use_before:Q2M-CA10P",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-CDYA1000M",
+        "targetSku": "Q2M-CA10P",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-CMP1000M-Q2M-SPE-use_after",
+      "scope": "relation",
+      "sku": "Q2M-CMP1000M",
+      "field": "use_after:Q2M-SPE",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-CMP1000M",
+        "targetSku": "Q2M-SPE",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (faq#3)"
+    },
+    {
+      "id": "phase4-Q2M-CMPR1000M-Q2M-CM1000M-use_after",
+      "scope": "relation",
+      "sku": "Q2M-CMPR1000M",
+      "field": "use_after:Q2M-CM1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-CMPR1000M",
+        "targetSku": "Q2M-CM1000M",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-Q2M-CRYA250M-Q2M-CA10P-use_before",
+      "scope": "relation",
+      "sku": "Q2M-CRYA250M",
+      "field": "use_before:Q2M-CA10P",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-CRYA250M",
+        "targetSku": "Q2M-CA10P",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-IR4000M-Q2M-CME-use_after",
+      "scope": "relation",
+      "sku": "Q2M-IR4000M",
+      "field": "use_after:Q2M-CME",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-IR4000M",
+        "targetSku": "Q2M-CME",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-Q2M-PO1000M-Q2M-SPE-use_after",
+      "scope": "relation",
+      "sku": "Q2M-PO1000M",
+      "field": "use_after:Q2M-SPE",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PO1000M",
+        "targetSku": "Q2M-SPE",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (faq#19)"
+    },
+    {
+      "id": "phase4-Q2M-PWE4040C-Q2M-BWE4040-use_after",
+      "scope": "relation",
+      "sku": "Q2M-PWE4040C",
+      "field": "use_after:Q2M-BWE4040",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PWE4040C",
+        "targetSku": "Q2M-BWE4040",
+        "relationType": "use_after",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X sonrası(nda) (description)"
+    },
+    {
+      "id": "phase4-Q2M-PYA4000M-Q2M-CM1000M-use_before",
+      "scope": "relation",
+      "sku": "Q2M-PYA4000M",
+      "field": "use_before:Q2M-CM1000M",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-PYA4000M",
+        "targetSku": "Q2M-CM1000M",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    },
+    {
+      "id": "phase4-Q2M-WCYA4000M-Q2M-CA10P-use_before",
+      "scope": "relation",
+      "sku": "Q2M-WCYA4000M",
+      "field": "use_before:Q2M-CA10P",
+      "before": null,
+      "after": {
+        "sourceSku": "Q2M-WCYA4000M",
+        "targetSku": "Q2M-CA10P",
+        "relationType": "use_before",
+        "confidence": 1
+      },
+      "label": "Faz4 mining: X öncesi(nde) (description)"
+    }
+  ]
+}

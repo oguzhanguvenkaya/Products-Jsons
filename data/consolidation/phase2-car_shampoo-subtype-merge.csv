@@ -1,0 +1,5 @@
+id,scope,sku,field,before,after,label
+phase2-car_shampoo-Q2M-EW1000M-subtype,product,Q2M-EW1000M,template_sub_type,rinseless_wash,prewash_foaming_shampoo,P1 merge: rinseless_wash -> prewash_foaming_shampoo (Tek ürün; durulamasız yıkama farklı bir ürün sınıfı; ileride ayrı tutulabilir)
+phase2-car_shampoo-Q2M-PPFW500M-subtype,product,Q2M-PPFW500M,template_sub_type,ppf_shampoo,ph_neutral_shampoo,P1 merge: ppf_shampoo -> ph_neutral_shampoo (Tek ürün; PPF şampuanları ph-nötr alt-sınıfı)
+phase2-car_shampoo-701422-subtype,product,701422,template_sub_type,towel_wash,ph_neutral_shampoo,P2 merge: towel_wash -> ph_neutral_shampoo (2 ürün; havlu yıkama deterjanı temizlik şampuanı; review gerekli)
+phase2-car_shampoo-Q2M-TWYA500M-subtype,product,Q2M-TWYA500M,template_sub_type,towel_wash,ph_neutral_shampoo,P2 merge: towel_wash -> ph_neutral_shampoo (2 ürün; havlu yıkama deterjanı temizlik şampuanı; review gerekli)

@@ -1,0 +1,484 @@
+{
+  "total_changes": 48,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase19-NPMW6555-sub-wool_pad",
+          "scope": "product",
+          "sku": "NPMW6555",
+          "field": "template_sub_type",
+          "before": "microfiber_pad",
+          "after": "wool_pad",
+          "label": "Phase 19: NPMW6555 keçe → wool_pad (microfiber DEĞİL)"
+        },
+        {
+          "id": "phase19-06008.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "06008.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 06008.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-06008.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "06008.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "heavy_cut",
+          "label": "Phase 19: purpose=heavy_cut"
+        },
+        {
+          "id": "phase19-06008.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "06008.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "brass",
+            "zamak",
+            "aluminum"
+          ],
+          "label": "Phase 19: surface=[brass,zamak,aluminum]"
+        },
+        {
+          "id": "phase19-07001.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07001.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07001.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07001.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07001.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "heavy_cut",
+          "label": "Phase 19: purpose=heavy_cut"
+        },
+        {
+          "id": "phase19-07001.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07001.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "stainless_steel",
+            "aluminum",
+            "brass"
+          ],
+          "label": "Phase 19: surface=[stainless_steel,aluminum,brass]"
+        },
+        {
+          "id": "phase19-12001.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "12001.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 12001.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-12001.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "12001.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "heavy_cut",
+          "label": "Phase 19: purpose=heavy_cut"
+        },
+        {
+          "id": "phase19-12001.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "12001.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "plastic",
+            "composite",
+            "painted_surface"
+          ],
+          "label": "Phase 19: surface=[plastic,composite,painted_surface]"
+        },
+        {
+          "id": "phase19-07945.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07945.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07945.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07945.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07945.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "medium_cut",
+          "label": "Phase 19: purpose=medium_cut"
+        },
+        {
+          "id": "phase19-07945.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07945.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "multi_purpose"
+          ],
+          "label": "Phase 19: surface=[multi_purpose]"
+        },
+        {
+          "id": "phase19-07163.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07163.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07163.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07163.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07163.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "medium_cut",
+          "label": "Phase 19: purpose=medium_cut"
+        },
+        {
+          "id": "phase19-07163.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07163.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "aluminum",
+            "brass",
+            "stainless_steel"
+          ],
+          "label": "Phase 19: surface=[aluminum,brass,stainless_steel]"
+        },
+        {
+          "id": "phase19-07008.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07008.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07008.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07008.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07008.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "finish",
+          "label": "Phase 19: purpose=finish"
+        },
+        {
+          "id": "phase19-07008.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07008.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "brass",
+            "chrome",
+            "zamak",
+            "aluminum",
+            "composite"
+          ],
+          "label": "Phase 19: surface=[brass,chrome,zamak,aluminum,composite]"
+        },
+        {
+          "id": "phase19-12002.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "12002.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 12002.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-12002.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "12002.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "finish",
+          "label": "Phase 19: purpose=finish"
+        },
+        {
+          "id": "phase19-12002.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "12002.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "plastic",
+            "composite",
+            "painted_surface"
+          ],
+          "label": "Phase 19: surface=[plastic,composite,painted_surface]"
+        },
+        {
+          "id": "phase19-07201.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07201.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07201.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07201.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07201.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "finish",
+          "label": "Phase 19: purpose=finish"
+        },
+        {
+          "id": "phase19-07201.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07201.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "stainless_steel",
+            "precious_metals"
+          ],
+          "label": "Phase 19: surface=[stainless_steel,precious_metals]"
+        },
+        {
+          "id": "phase19-07006.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07006.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07006.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07006.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07006.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "finish",
+          "label": "Phase 19: purpose=finish"
+        },
+        {
+          "id": "phase19-07006.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07006.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "plastic",
+            "composite",
+            "precious_metals",
+            "painted_surface"
+          ],
+          "label": "Phase 19: surface=[plastic,composite,precious_metals,painted_surface]"
+        },
+        {
+          "id": "phase19-07933.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07933.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07933.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07933.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07933.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "super_finish",
+          "label": "Phase 19: purpose=super_finish"
+        },
+        {
+          "id": "phase19-07933.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07933.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "precious_metals",
+            "stainless_steel",
+            "painted_surface"
+          ],
+          "label": "Phase 19: surface=[precious_metals,stainless_steel,painted_surface]"
+        },
+        {
+          "id": "phase19-07984.056.001-sub-solid_compound",
+          "scope": "product",
+          "sku": "07984.056.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "solid_compound",
+          "label": "Phase 19: 07984.056.001 metal_polish → solid_compound"
+        },
+        {
+          "id": "phase19-07984.056.001-purpose-set",
+          "scope": "product.specs",
+          "sku": "07984.056.001",
+          "field": "specs.purpose",
+          "before": null,
+          "after": "super_finish",
+          "label": "Phase 19: purpose=super_finish"
+        },
+        {
+          "id": "phase19-07984.056.001-surface-set",
+          "scope": "product.specs",
+          "sku": "07984.056.001",
+          "field": "specs.surface",
+          "before": null,
+          "after": [
+            "multi_purpose"
+          ],
+          "label": "Phase 19: surface=[multi_purpose]"
+        },
+        {
+          "id": "phase19-SGGC086-tg-air_equipment",
+          "scope": "product",
+          "sku": "SGGC086",
+          "field": "template_group",
+          "before": "accessory",
+          "after": "air_equipment",
+          "label": "Phase 19: SGGC086 accessory → air_equipment"
+        },
+        {
+          "id": "phase19-SGGS003-tg-air_equipment",
+          "scope": "product",
+          "sku": "SGGS003",
+          "field": "template_group",
+          "before": "accessory",
+          "after": "air_equipment",
+          "label": "Phase 19: SGGS003 accessory → air_equipment"
+        },
+        {
+          "id": "phase19-SGYC010-tg-air_equipment",
+          "scope": "product",
+          "sku": "SGYC010",
+          "field": "template_group",
+          "before": "accessory",
+          "after": "air_equipment",
+          "label": "Phase 19: SGYC010 accessory → air_equipment"
+        },
+        {
+          "id": "phase19-SGYC011-tg-air_equipment",
+          "scope": "product",
+          "sku": "SGYC011",
+          "field": "template_group",
+          "before": "accessory",
+          "after": "air_equipment",
+          "label": "Phase 19: SGYC011 accessory → air_equipment"
+        },
+        {
+          "id": "phase19-SGGC055-tg-air_equipment",
+          "scope": "product",
+          "sku": "SGGC055",
+          "field": "template_group",
+          "before": "accessory",
+          "after": "air_equipment",
+          "label": "Phase 19: SGGC055 accessory → air_equipment"
+        },
+        {
+          "id": "phase19-SGYC010-sub-tornador_part",
+          "scope": "product",
+          "sku": "SGYC010",
+          "field": "template_sub_type",
+          "before": "repair_part",
+          "after": "tornador_part",
+          "label": "Phase 19: SGYC010 repair_part → tornador_part"
+        },
+        {
+          "id": "phase19-SGYC011-sub-tornador_part",
+          "scope": "product",
+          "sku": "SGYC011",
+          "field": "template_sub_type",
+          "before": "repair_part",
+          "after": "tornador_part",
+          "label": "Phase 19: SGYC011 repair_part → tornador_part"
+        },
+        {
+          "id": "phase19-701283-sub-marine_general_cleaner",
+          "scope": "product",
+          "sku": "701283",
+          "field": "template_sub_type",
+          "before": "interior_detailer",
+          "after": "marine_general_cleaner",
+          "label": "Phase 19: 701283 interior_detailer → marine_general_cleaner"
+        },
+        {
+          "id": "phase19-75112-sub-marine_general_cleaner",
+          "scope": "product",
+          "sku": "75112",
+          "field": "template_sub_type",
+          "before": "interior_detailer",
+          "after": "marine_general_cleaner",
+          "label": "Phase 19: 75112 interior_detailer → marine_general_cleaner"
+        },
+        {
+          "id": "phase19-75132-sub-marine_wood_care",
+          "scope": "product",
+          "sku": "75132",
+          "field": "template_sub_type",
+          "before": "interior_detailer",
+          "after": "marine_wood_care",
+          "label": "Phase 19: 75132 interior_detailer → marine_wood_care"
+        },
+        {
+          "id": "phase19-77192-sub-marine_wood_care",
+          "scope": "product",
+          "sku": "77192",
+          "field": "template_sub_type",
+          "before": "interior_detailer",
+          "after": "marine_wood_care",
+          "label": "Phase 19: 77192 interior_detailer → marine_wood_care"
+        },
+        {
+          "id": "phase19-75131-sub-marine_surface_cleaner",
+          "scope": "product",
+          "sku": "75131",
+          "field": "template_sub_type",
+          "before": "iron_remover",
+          "after": "marine_surface_cleaner",
+          "label": "Phase 19: 75131 iron_remover → marine_surface_cleaner"
+        },
+        {
+          "id": "phase19-75130-sub-marine_metal_cleaner",
+          "scope": "product",
+          "sku": "75130",
+          "field": "template_sub_type",
+          "before": "water_spot_remover",
+          "after": "marine_metal_cleaner",
+          "label": "Phase 19: 75130 water_spot_remover → marine_metal_cleaner"
+        },
+        {
+          "id": "phase19-24011.261.080-sub-marine_polish",
+          "scope": "product",
+          "sku": "24011.261.080",
+          "field": "template_sub_type",
+          "before": "one_step_polish",
+          "after": "marine_polish",
+          "label": "Phase 19: 24011.261.080 one_step_polish → marine_polish"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+id,scope,sku,field,before,after,label
+phase2-contaminant_solvers-Q2M-CCE-key1,product.specs,Q2M-CCE,specs.cars_per_bar,3-4,null,P0 ilgisiz: contaminant_solvers grubunda cars_per_bar anlamsız
+phase2-contaminant_solvers-MGPS-2019KH-key2,product.specs,MGPS-2019KH,specs.cars_per_bar,10-20,null,P0 ilgisiz: contaminant_solvers grubunda cars_per_bar anlamsız
+phase2-contaminant_solvers-MGPS-2019KM-key3,product.specs,MGPS-2019KM,specs.cars_per_bar,10-20,null,P0 ilgisiz: contaminant_solvers grubunda cars_per_bar anlamsız

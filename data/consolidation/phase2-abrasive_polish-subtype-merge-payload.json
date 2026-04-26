@@ -1,0 +1,39 @@
+{
+  "total_changes": 3,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 3,
+      "changes": [
+        {
+          "id": "phase2-abrasive_polish-20144.261.001-subtype",
+          "scope": "product",
+          "sku": "20144.261.001",
+          "field": "template_sub_type",
+          "before": "sanding_paste",
+          "after": "heavy_cut_compound",
+          "label": "P0 merge: sanding_paste -> heavy_cut_compound (Tek ürün; zımpara izi giderici ağır pasta sınıfı)"
+        },
+        {
+          "id": "phase2-abrasive_polish-23003.391.001-subtype",
+          "scope": "product",
+          "sku": "23003.391.001",
+          "field": "template_sub_type",
+          "before": "metal_polish",
+          "after": "polish",
+          "label": "P0 merge: metal_polish -> polish (Tek ürün; metal cila genel polish ailesi)"
+        },
+        {
+          "id": "phase2-abrasive_polish-22748.261.001-subtype",
+          "scope": "product",
+          "sku": "22748.261.001",
+          "field": "template_sub_type",
+          "before": "one_step_polish",
+          "after": "polish",
+          "label": "P1 merge: one_step_polish -> polish (Tek ürün; tek adım pasta = polish (orta agresiflik); ayrı tutulabilir)"
+        }
+      ]
+    }
+  ]
+}

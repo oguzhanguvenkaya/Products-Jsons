@@ -1,0 +1,12 @@
+id,scope,sku,field,before,after,label
+phase2c-brushes-key-1,product.specs,SGGD421,specs.bristle_types,,,P1 dup — bristle_material canonical
+phase2c-brushes-key-2,product.specs,SGGD049,specs.bristle_type,,,P1 dup — bristle_material canonical
+phase2c-brushes-key-3,product.specs,SGGD294,specs.bristle_spec,,,P1 dup — bristle_material canonical
+phase2c-brushes-key-4,product.specs,Q2M-BL,specs.length,,,P2 dup — brush_size zaten içeriyor
+phase2c-brushes-key-5,product.specs,Q2M-BL,specs.size,,,P2 dup — brush_size zaten içeriyor
+phase2c-brushes-key-6,product.specs,Q2M-BL,specs.material,,,P2 dup — bristle_material + handle_material canonical
+phase2c-brushes-key-7,product.specs,Q2M-BL,specs.handle_length_cm,,,P2 dup — brush_size handle uzunluğunu içerebilir; sap-uzunluğu opsiyonel olarak tek key (handle_length) tutulmalı
+phase2c-brushes-key-8,product.specs,SGGD421,specs.handle_length,,,P2 sadece SGGD421'de — coverage çok düşük; brush_size kapsayıcı
+phase2c-brushes-key-9,product.specs,SGGD421,specs.set_content,,,P2 dup — set_count + name yeterli; serbest metin değer düşük
+phase2c-brushes-key-10,product.specs,SGGD294,specs.suitable_for,,,P1 dup — safe_for canonical; suitable_for terk edilmeli
+phase2c-brushes-key-11,product.specs,Q2M-LB,specs.design,,,P2 düşük coverage (1/6) — features altında birleşmeli

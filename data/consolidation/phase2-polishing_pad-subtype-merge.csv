@@ -1,0 +1,3 @@
+id,scope,sku,field,before,after,label
+phase2-polishing_pad-NPMW6555-subtype,product,NPMW6555,template_sub_type,microfiber_pad,foam_pad,P2 merge: microfiber_pad -> foam_pad (Tek ürün; mikrofiber pad de pasta uygulayıcı; 8+ ürün gelene kadar geçici merge)
+phase2-polishing_pad-SGGA081-subtype,product,SGGA081,template_sub_type,felt_pad,wool_pad,"P2 merge: felt_pad -> wool_pad (Tek ürün; keçe pad cila/parlatma için, wool ile benzer agresiflik bandı)"

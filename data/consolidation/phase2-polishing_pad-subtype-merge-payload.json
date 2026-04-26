@@ -1,0 +1,30 @@
+{
+  "total_changes": 2,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 2,
+      "changes": [
+        {
+          "id": "phase2-polishing_pad-NPMW6555-subtype",
+          "scope": "product",
+          "sku": "NPMW6555",
+          "field": "template_sub_type",
+          "before": "microfiber_pad",
+          "after": "foam_pad",
+          "label": "P2 merge: microfiber_pad -> foam_pad (Tek ürün; mikrofiber pad de pasta uygulayıcı; 8+ ürün gelene kadar geçici merge)"
+        },
+        {
+          "id": "phase2-polishing_pad-SGGA081-subtype",
+          "scope": "product",
+          "sku": "SGGA081",
+          "field": "template_sub_type",
+          "before": "felt_pad",
+          "after": "wool_pad",
+          "label": "P2 merge: felt_pad -> wool_pad (Tek ürün; keçe pad cila/parlatma için, wool ile benzer agresiflik bandı)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "total_changes": 6,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 6,
+      "changes": [
+        {
+          "id": "phase2-car_shampoo-Q2M-BPYA1000M-key-sio2_percentage",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.sio2_percentage",
+          "before": "5",
+          "after": null,
+          "label": "P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde sio2_percentage alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-car_shampoo-Q2M-BPYA1000M-key-durability_weeks",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.durability_weeks",
+          "before": "8",
+          "after": null,
+          "label": "P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde durability_weeks alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-car_shampoo-79286-key-cure_time",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.cure_time",
+          "before": "7 Saat",
+          "after": null,
+          "label": "P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde cure_time alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-car_shampoo-79286-key-gloss_level",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.gloss_level",
+          "before": "4/5",
+          "after": null,
+          "label": "P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde gloss_level alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-car_shampoo-79286-key-cure_time_hours",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.cure_time_hours",
+          "before": "7",
+          "after": null,
+          "label": "P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde cure_time_hours alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-car_shampoo-79286-key-durability_months",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.durability_months",
+          "before": "4",
+          "after": null,
+          "label": "P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde durability_months alanı kategoriyle uyumsuz"
+        }
+      ]
+    }
+  ]
+}

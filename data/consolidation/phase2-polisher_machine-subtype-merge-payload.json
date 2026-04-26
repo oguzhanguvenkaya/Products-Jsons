@@ -1,0 +1,103 @@
+{
+  "changes": [
+    {
+      "id": "phase2-polisher_machine-373680-1",
+      "scope": "product",
+      "sku": "373680",
+      "field": "template_sub_type",
+      "before": "corded_rotary_polisher",
+      "after": "rotary_polisher",
+      "label": "P0 merge: 3 ürünlü; cordless ile birleştir → rotary_polisher"
+    },
+    {
+      "id": "phase2-polisher_machine-406813-2",
+      "scope": "product",
+      "sku": "406813",
+      "field": "template_sub_type",
+      "before": "corded_rotary_polisher",
+      "after": "rotary_polisher",
+      "label": "P0 merge: 3 ürünlü; cordless ile birleştir → rotary_polisher"
+    },
+    {
+      "id": "phase2-polisher_machine-516112-3",
+      "scope": "product",
+      "sku": "516112",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "polisher_accessory",
+      "label": "P0 merge: aksesuar/yedek parça; sub_type=other anlamsız"
+    },
+    {
+      "id": "phase2-polisher_machine-532579-4",
+      "scope": "product",
+      "sku": "532579",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "polisher_accessory",
+      "label": "P0 merge: aksesuar/yedek parça; sub_type=other anlamsız"
+    },
+    {
+      "id": "phase2-polisher_machine-533019-5",
+      "scope": "product",
+      "sku": "533019",
+      "field": "template_sub_type",
+      "before": "cordless_rotary_polisher",
+      "after": "rotary_polisher",
+      "label": "P0 merge: tek ürünlü; cordless+corded=rotary üst-aile"
+    },
+    {
+      "id": "phase2-polisher_machine-418072-6",
+      "scope": "product",
+      "sku": "418072",
+      "field": "template_sub_type",
+      "before": "forced_rotation_polisher",
+      "after": "da_polisher",
+      "label": "P1 merge: forced rotation = DA türevi; meta key uyumu yüksek"
+    },
+    {
+      "id": "phase2-polisher_machine-533020-7",
+      "scope": "product",
+      "sku": "533020",
+      "field": "template_sub_type",
+      "before": "forced_rotation_polisher",
+      "after": "da_polisher",
+      "label": "P1 merge: forced rotation = DA türevi; meta key uyumu yüksek"
+    },
+    {
+      "id": "phase2-polisher_machine-SGGS003-8",
+      "scope": "product",
+      "sku": "SGGS003",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "polisher_accessory",
+      "label": "P0 merge: aksesuar/yedek parça; sub_type=other anlamsız"
+    },
+    {
+      "id": "phase2-polisher_machine-SGGC086-9",
+      "scope": "product",
+      "sku": "SGGC086",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "polisher_accessory",
+      "label": "P0 merge: aksesuar/yedek parça; sub_type=other anlamsız"
+    },
+    {
+      "id": "phase2-polisher_machine-SGGF179-10",
+      "scope": "product",
+      "sku": "SGGF179",
+      "field": "template_sub_type",
+      "before": "corded_rotary_polisher",
+      "after": "rotary_polisher",
+      "label": "P0 merge: 3 ürünlü; cordless ile birleştir → rotary_polisher"
+    },
+    {
+      "id": "phase2-polisher_machine-SGGC055-11",
+      "scope": "product",
+      "sku": "SGGC055",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "polisher_accessory",
+      "label": "P0 merge: aksesuar/yedek parça; sub_type=other anlamsız"
+    }
+  ]
+}

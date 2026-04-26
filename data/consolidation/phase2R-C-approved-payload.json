@@ -1,0 +1,67 @@
+{
+  "changes": [
+    {
+      "id": "phase2R-brushes-SGGD294-1",
+      "scope": "product",
+      "sku": "SGGD294",
+      "field": "template_sub_type",
+      "before": "wheel_brush",
+      "after": "tire_brush",
+      "label": "APPROVED: Ürün adı 'Tire Cleaning Brush' + targetSurface=Lastik mislabel fix"
+    },
+    {
+      "id": "phase2R-glass-Q2M-GPYA1000M-2",
+      "scope": "product",
+      "sku": "Q2M-GPYA1000M",
+      "field": "template_sub_type",
+      "before": "glass_hydrophobic_sealant",
+      "after": "glass_protectant",
+      "label": "APPROVED: Simetri iyileşmesi — diğer protectant ürünleriyle tek sub_type"
+    },
+    {
+      "id": "phase2R-orphan-516112-3",
+      "scope": "product",
+      "sku": "516112",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "extension_shaft",
+      "label": "APPROVED: specs.accessory_type=extension_shaft canonical (FLEX FS 140)"
+    },
+    {
+      "id": "phase2R-orphan-532579-4",
+      "scope": "product",
+      "sku": "532579",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "heat_gun",
+      "label": "APPROVED: specs.product_type=heat_gun canonical (FLEX HG 650)"
+    },
+    {
+      "id": "phase2R-orphan-SGGC055-5",
+      "scope": "product",
+      "sku": "SGGC055",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "tornador_gun",
+      "label": "APPROVED: ürün adı + subCat2 doğrulaması (SGCB Tornador)"
+    },
+    {
+      "id": "phase2R-orphan-SGGC086-6",
+      "scope": "product",
+      "sku": "SGGC086",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "air_blow_gun",
+      "label": "APPROVED: specs.product_type=air_blow_gun canonical (SGCB Air Blow Gun)"
+    },
+    {
+      "id": "phase2R-orphan-SGGS003-7",
+      "scope": "product",
+      "sku": "SGGS003",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "air_blow_gun",
+      "label": "APPROVED: specs.product_type=air_blow_gun canonical (SCCB Kısa Nozul)"
+    }
+  ]
+}

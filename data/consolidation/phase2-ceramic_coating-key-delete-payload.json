@@ -1,0 +1,48 @@
+{
+  "total_changes": 4,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 4,
+      "changes": [
+        {
+          "id": "phase2-ceramic_coating-Q2-PR1000M-key-cut_level",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.cut_level",
+          "before": "1",
+          "after": null,
+          "label": "P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde cut_level alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-PR1000M-key-filler_free",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.filler_free",
+          "before": "True",
+          "after": null,
+          "label": "P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde filler_free alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-PR1000M-key-gloss_level",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.gloss_level",
+          "before": "10",
+          "after": null,
+          "label": "P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde gloss_level alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-PR1000M-key-silicone_free",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.silicone_free",
+          "before": "True",
+          "after": null,
+          "label": "P0 ilgisiz-populated: ceramic_coating/single_layer_coating ürününde silicone_free alanı kategoriyle uyumsuz"
+        }
+      ]
+    }
+  ]
+}

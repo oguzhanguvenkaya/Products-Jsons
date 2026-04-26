@@ -1,0 +1,5 @@
+id,scope,sku,field,before,after,label
+phase2-interior_cleaner-Q2M-PRYA250M-key-durability_months,product.specs,Q2M-PRYA250M,specs.durability_months,3,null,P0 ilgisiz-populated: interior_cleaner/plastic_restorer ürününde durability_months alanı kategoriyle uyumsuz
+phase2-interior_cleaner-79298-key-curing_time,product.specs,79298,specs.curing_time,7 saat,null,P0 ilgisiz-populated: interior_cleaner/plastic_dressing ürününde curing_time alanı kategoriyle uyumsuz
+phase2-interior_cleaner-79298-key-sio2_content,product.specs,79298,specs.sio2_content,True,null,P0 ilgisiz-populated: interior_cleaner/plastic_dressing ürününde sio2_content alanı kategoriyle uyumsuz
+phase2-interior_cleaner-79298-key-siloxane_content,product.specs,79298,specs.siloxane_content,True,null,P0 ilgisiz-populated: interior_cleaner/plastic_dressing ürününde siloxane_content alanı kategoriyle uyumsuz

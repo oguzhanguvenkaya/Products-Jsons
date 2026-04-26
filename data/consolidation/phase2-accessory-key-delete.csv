@@ -1,0 +1,2 @@
+id,scope,sku,field,before,after,label
+phase2c-accessory-key-1,product.specs,26942.099.001,specs.howToUse,,,P2 howToUse zaten products kolonunda var — specs içinde de tutulmasına gerek yok (FYI: bu satır info-only; staging silmez çünkü howToUse base column)

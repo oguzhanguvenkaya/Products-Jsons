@@ -1,0 +1,14 @@
+id,scope,sku,field,before,after,label
+phase2-ceramic_coating-Q2-PR1000M-subtype,product,Q2-PR1000M,template_sub_type,single_layer_coating,paint_coating,P0 merge: single_layer_coating -> paint_coating (2 ürün; tek katlı seramik = boya kaplama alt-tipi)
+phase2-ceramic_coating-Q2-OLE100M-subtype,product,Q2-OLE100M,template_sub_type,single_layer_coating,paint_coating,P0 merge: single_layer_coating -> paint_coating (2 ürün; tek katlı seramik = boya kaplama alt-tipi)
+phase2-ceramic_coating-Q2-MTEL50M-subtype,product,Q2-MTEL50M,template_sub_type,matte_coating,paint_coating,P0 merge: matte_coating -> paint_coating (Tek ürün; mat kaplama paint_coating mat varyantı)
+phase2-ceramic_coating-Q2-CCE200M-subtype,product,Q2-CCE200M,template_sub_type,spray_coating,paint_coating,P0 merge: spray_coating -> paint_coating (Tek ürün; sprey kaplama paint_coating uygulama formu)
+phase2-ceramic_coating-Q2-SLE50M-subtype,product,Q2-SLE50M,template_sub_type,paint_coating_kit,paint_coating,P0 merge: paint_coating_kit -> paint_coating (Tek ürün; kit boya kaplama ile birleşir (kit flag ayrı saklanır))
+phase2-ceramic_coating-MXP-HC50KS-subtype,product,MXP-HC50KS,template_sub_type,multi_step_coating_kit,paint_coating,P0 merge: multi_step_coating_kit -> paint_coating (Tek ürün; çok adımlı kit paint_coating altı)
+phase2-ceramic_coating-Q2-BS30M-subtype,product,Q2-BS30M,template_sub_type,top_coat,paint_coating,P1 merge: top_coat -> paint_coating (Tek ürün; üst kat paint_coating ekipmanı; ayrı tutmak da mümkün)
+phase2-ceramic_coating-Q2-PPFE50M-subtype,product,Q2-PPFE50M,template_sub_type,ppf_coating,paint_coating,P1 merge: ppf_coating -> paint_coating (Tek ürün; PPF koruma paint_coating alt-tipi (PPF üstü))
+phase2-ceramic_coating-Q2-TRE30M-subtype,product,Q2-TRE30M,template_sub_type,trim_coating,paint_coating,"P1 merge: trim_coating -> paint_coating (Tek ürün; trim kaplama plastik koruma; ""trim_coating"" yeni sub düşünülebilir)"
+phase2-ceramic_coating-Q2-RE30M-subtype,product,Q2-RE30M,template_sub_type,wheel_coating,paint_coating,P1 merge: wheel_coating -> paint_coating (Tek ürün; jant kaplama paint_coating ile mineral seramik benzer)
+phase2-ceramic_coating-Q2-PC100M-subtype,product,Q2-PC100M,template_sub_type,interior_coating,fabric_coating,P2 merge: interior_coating -> fabric_coating (Tek ürün; iç mekan kaplama; semantik fabric/leather kaplama yakın)
+phase2-ceramic_coating-Q2-LSE50M-subtype,product,Q2-LSE50M,template_sub_type,leather_coating,fabric_coating,P2 merge: leather_coating -> fabric_coating (Tek ürün; deri kaplama ile kumaş kaplama yakın hidrofobik mekanik)
+phase2-ceramic_coating-Q2-TYA500M-subtype,product,Q2-TYA500M,template_sub_type,tire_coating,paint_coating,P2 merge: tire_coating -> paint_coating (Tek ürün; lastik kaplama farklı kullanım; ayrı kalabilir)

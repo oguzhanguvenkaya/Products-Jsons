@@ -1,0 +1,921 @@
+{
+  "total_changes": 101,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 101,
+      "changes": [
+        {
+          "id": "phase3a-Q2M-CM1000M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-CM1000M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-CM1000M-application_method-1",
+          "scope": "product.specs",
+          "sku": "Q2M-CM1000M",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-CMP1000M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-CMP1000M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-CMPR1000M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-CMPR1000M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-GP250M-application_method-1",
+          "scope": "product.specs",
+          "sku": "Q2M-GP250M",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-PO1000M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-PO1000M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-PPR1000M-application_method-1",
+          "scope": "product.specs",
+          "sku": "Q2M-PPR1000M",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22984.260.001-skill_level-1",
+          "scope": "product.specs",
+          "sku": "22984.260.001",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22984.281.001-skill_level-1",
+          "scope": "product.specs",
+          "sku": "22984.281.001",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22771.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22771.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22828.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22828.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22029.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22029.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22911.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22911.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22992.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22992.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22200.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22200.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-20144.261.001-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "20144.261.001",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-20144.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "20144.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-20144.261.001-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "20144.261.001",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22748.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22748.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22202.260.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22202.260.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701003-skill_level-1",
+          "scope": "product.specs",
+          "sku": "701003",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701851-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701851-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-71490-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700387-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-BYA4000M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-BPYA1000M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-FYA4000M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-PPFW500M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFW500M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-RW1000M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79290-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79290-skill_level-1",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79286-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79284-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700507-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700508-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701422-skill_level-1",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701422-application_method-1",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701422-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79281-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-BS30M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-BS30M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 1,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-CCE200M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-CCE200M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-FCNA400M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-FCNA400M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-MTEL50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-MTEL50M-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 10,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-MTEL50M-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 30,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-OLE100M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-OLE100M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-OLE100M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2-OLE100M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 15,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 25,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PR1000M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 24,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PR1000M-skill_level-1",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PLE50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-PLE50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-RE30M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2-RE30M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-SLE50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-SLE50M-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 15,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-SLE50M-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 25,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79296-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "79296",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 1,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79296-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "79296",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700405-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700405-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700405-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 25,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700405-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-MXP-CCN50KS-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "MXP-CCN50KS",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-MXP-DPCN50KS-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "MXP-DPCN50KS",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-MXP-HC50KS-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "MXP-HC50KS",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-MGPS-6046R-application_method-1",
+          "scope": "product.specs",
+          "sku": "MGPS-6046R",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-MGPS-6012K-application_method-1",
+          "scope": "product.specs",
+          "sku": "MGPS-6012K",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700210-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700210-skill_level-1",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-71110-skill_level-1",
+          "scope": "product.specs",
+          "sku": "71110",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-70864-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "70864",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-76008-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "76008",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-CCE-skill_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-CCE",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-IWCR4000M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-IWCR4000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-TOTR1000M-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "Q2M-TOTR1000M",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79291-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79291-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79293-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "79293",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701610-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "701610",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701610-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "701610",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": false,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-75229-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "75229",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-78761-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "78761",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-75228-confidence_level-1",
+          "scope": "product.specs",
+          "sku": "75228",
+          "field": "specs.confidence_level",
+          "before": null,
+          "after": "high",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-ORP4P-durability_months-1",
+          "scope": "product.specs",
+          "sku": "Q2M-ORP4P",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 24,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79415-skill_level-1",
+          "scope": "product.specs",
+          "sku": "79415",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF1212-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF1212",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-IF1414-durability_months-1",
+          "scope": "product.specs",
+          "sku": "IF1414",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF0303-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF0303",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-PS0313-durability_months-1",
+          "scope": "product.specs",
+          "sku": "PS0313",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.0,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF1313-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF1313",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-IF1111-durability_months-1",
+          "scope": "product.specs",
+          "sku": "IF1111",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-IF3243-durability_months-1",
+          "scope": "product.specs",
+          "sku": "IF3243",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF4064-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF4064",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF3963-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF3963",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF1616-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF1616",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-PS0404-durability_months-1",
+          "scope": "product.specs",
+          "sku": "PS0404",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.0,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-IF0404-durability_months-1",
+          "scope": "product.specs",
+          "sku": "IF0404",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-EF1515-durability_months-1",
+          "scope": "product.specs",
+          "sku": "EF1515",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 1.5,
+          "label": "Faz3 extract"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+id,scope,sku,field,before,after,label
+phase2c-glassp-key-1,product.specs,700466,specs.dilution_range,1:5-1:10,,P1 dup — dilution + dilution_ratio canonical
+phase2c-glassp-key-2,product.specs,71176,specs.application_area,Cam/Lake/Laminant,,P1 dup — target_surface + product_purpose canonical
+phase2c-glassp-key-3,product.specs,71176,specs.format,liquid,,P2 dup — format her zaman liquid (cleaner) ya da spray; finish/format ayrımı bulanık
+phase2c-glassp-key-4,product.specs,JC0101,specs.format,spray,,P2 dup — name/short_description'tan çıkarılabilir
+phase2c-glassp-key-5,product.specs,JC0101,specs.suitable_for,,,P1 dup — target_surface canonical
+phase2c-glassp-key-6,product.specs,JC0101,specs.portable,true,,P2 sadece JC0101 — düşük bilgi
+phase2c-glassp-key-7,product.specs,Q2M-GPYA1000M,specs.requires_pre_cleaning,true,,P2 howToUse içinde belirtiliyor — schema gürültüsü

@@ -1,0 +1,22 @@
+{
+  "changes": [
+    {
+      "id": "phase2-paint_protection_quick-22070.261.001-key1",
+      "scope": "product.specs",
+      "sku": "22070.261.001",
+      "field": "specs.abrasiveness",
+      "before": 0,
+      "after": null,
+      "label": "P0 ilgisiz: paint_protection_quick grubunda abrasiveness anlamsız"
+    },
+    {
+      "id": "phase2-paint_protection_quick-22870.261.001-key2",
+      "scope": "product.specs",
+      "sku": "22870.261.001",
+      "field": "specs.abrasiveness",
+      "before": 0,
+      "after": null,
+      "label": "P0 ilgisiz: paint_protection_quick grubunda abrasiveness anlamsız"
+    }
+  ]
+}

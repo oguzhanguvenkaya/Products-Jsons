@@ -1,0 +1,57 @@
+{
+  "total_changes": 5,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 5,
+      "changes": [
+        {
+          "id": "phase2-spare_part-81771871-subtype",
+          "scope": "product",
+          "sku": "81771871",
+          "field": "template_sub_type",
+          "before": "nozzle_kit",
+          "after": "nozzle",
+          "label": "P0 merge: nozzle_kit -> nozzle (Tek ürün; nozzle vs nozzle_kit semantik aynı)"
+        },
+        {
+          "id": "phase2-spare_part-83371816-subtype",
+          "scope": "product",
+          "sku": "83371816",
+          "field": "template_sub_type",
+          "before": "trigger_gun",
+          "after": "trigger_head",
+          "label": "P0 merge: trigger_gun -> trigger_head (Tek ürün; trigger_gun = trigger_head (tetikli sprey kafa))"
+        },
+        {
+          "id": "phase2-spare_part-458813-subtype",
+          "scope": "product",
+          "sku": "458813",
+          "field": "template_sub_type",
+          "before": "extension_kit",
+          "after": "maintenance_kit",
+          "label": "P0 merge: extension_kit -> maintenance_kit (Tek ürün; uzatma kiti bakım kiti şemsiyesi)"
+        },
+        {
+          "id": "phase2-spare_part-82671872-subtype",
+          "scope": "product",
+          "sku": "82671872",
+          "field": "template_sub_type",
+          "before": "handle",
+          "after": "repair_part",
+          "label": "P1 merge: handle -> repair_part (Tek ürün; sap = onarım parçası (jenerik))"
+        },
+        {
+          "id": "phase2-spare_part-417882-subtype",
+          "scope": "product",
+          "sku": "417882",
+          "field": "template_sub_type",
+          "before": "charger",
+          "after": "battery",
+          "label": "P1 merge: charger -> battery (Tek ürün; şarj cihazı batarya aksesuarı; \"power_accessory\" olarak yeni sub düşünülebilir)"
+        }
+      ]
+    }
+  ]
+}

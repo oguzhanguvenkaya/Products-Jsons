@@ -1,0 +1,48 @@
+{
+  "total_changes": 4,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 4,
+      "changes": [
+        {
+          "id": "phase2-interior_cleaner-Q2M-PRYA250M-key-durability_months",
+          "scope": "product.specs",
+          "sku": "Q2M-PRYA250M",
+          "field": "specs.durability_months",
+          "before": "3",
+          "after": null,
+          "label": "P0 ilgisiz-populated: interior_cleaner/plastic_restorer ürününde durability_months alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-interior_cleaner-79298-key-curing_time",
+          "scope": "product.specs",
+          "sku": "79298",
+          "field": "specs.curing_time",
+          "before": "7 saat",
+          "after": null,
+          "label": "P0 ilgisiz-populated: interior_cleaner/plastic_dressing ürününde curing_time alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-interior_cleaner-79298-key-sio2_content",
+          "scope": "product.specs",
+          "sku": "79298",
+          "field": "specs.sio2_content",
+          "before": "True",
+          "after": null,
+          "label": "P0 ilgisiz-populated: interior_cleaner/plastic_dressing ürününde sio2_content alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-interior_cleaner-79298-key-siloxane_content",
+          "scope": "product.specs",
+          "sku": "79298",
+          "field": "specs.siloxane_content",
+          "before": "True",
+          "after": null,
+          "label": "P0 ilgisiz-populated: interior_cleaner/plastic_dressing ürününde siloxane_content alanı kategoriyle uyumsuz"
+        }
+      ]
+    }
+  ]
+}

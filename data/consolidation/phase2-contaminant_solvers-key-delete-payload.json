@@ -1,0 +1,31 @@
+{
+  "changes": [
+    {
+      "id": "phase2-contaminant_solvers-Q2M-CCE-key1",
+      "scope": "product.specs",
+      "sku": "Q2M-CCE",
+      "field": "specs.cars_per_bar",
+      "before": "3-4",
+      "after": null,
+      "label": "P0 ilgisiz: contaminant_solvers grubunda cars_per_bar anlamsız"
+    },
+    {
+      "id": "phase2-contaminant_solvers-MGPS-2019KH-key2",
+      "scope": "product.specs",
+      "sku": "MGPS-2019KH",
+      "field": "specs.cars_per_bar",
+      "before": "10-20",
+      "after": null,
+      "label": "P0 ilgisiz: contaminant_solvers grubunda cars_per_bar anlamsız"
+    },
+    {
+      "id": "phase2-contaminant_solvers-MGPS-2019KM-key3",
+      "scope": "product.specs",
+      "sku": "MGPS-2019KM",
+      "field": "specs.cars_per_bar",
+      "before": "10-20",
+      "after": null,
+      "label": "P0 ilgisiz: contaminant_solvers grubunda cars_per_bar anlamsız"
+    }
+  ]
+}

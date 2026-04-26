@@ -1,0 +1,228 @@
+{
+  "total_changes": 24,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 24,
+      "changes": [
+        {
+          "id": "phase2-microfiber-3219-key-nozzle_types",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.nozzle_types",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde nozzle_types alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-capacity_liters",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde capacity_liters alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-max_pressure_bar",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.max_pressure_bar",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde max_pressure_bar alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-chemical_resistance",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.chemical_resistance",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde chemical_resistance alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-spare_seals_included",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.spare_seals_included",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde spare_seals_included alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-pressure_relief_valve",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.pressure_relief_valve",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde pressure_relief_valve alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-spray_pattern_adjustable",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.spray_pattern_adjustable",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde spray_pattern_adjustable alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3219-key-compressed_air_connection",
+          "scope": "product.specs",
+          "sku": "3219",
+          "field": "specs.compressed_air_connection",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/cleaning_cloth ürününde compressed_air_connection alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-nozzle_types",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.nozzle_types",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde nozzle_types alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-capacity_liters",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde capacity_liters alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-max_pressure_bar",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.max_pressure_bar",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde max_pressure_bar alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-chemical_resistance",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.chemical_resistance",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde chemical_resistance alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-spare_seals_included",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.spare_seals_included",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde spare_seals_included alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-pressure_relief_valve",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.pressure_relief_valve",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde pressure_relief_valve alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-spray_pattern_adjustable",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.spray_pattern_adjustable",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde spray_pattern_adjustable alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-3236NBR2-key-compressed_air_connection",
+          "scope": "product.specs",
+          "sku": "3236NBR2",
+          "field": "specs.compressed_air_connection",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/interior_cleaning_applicator ürününde compressed_air_connection alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-nozzle_types",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.nozzle_types",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde nozzle_types alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-capacity_liters",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.capacity_liters",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde capacity_liters alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-max_pressure_bar",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.max_pressure_bar",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde max_pressure_bar alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-chemical_resistance",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.chemical_resistance",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde chemical_resistance alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-spare_seals_included",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.spare_seals_included",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde spare_seals_included alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-pressure_relief_valve",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.pressure_relief_valve",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde pressure_relief_valve alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-spray_pattern_adjustable",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.spray_pattern_adjustable",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde spray_pattern_adjustable alanı kategoriyle uyumsuz"
+        },
+        {
+          "id": "phase2-microfiber-70919-key-compressed_air_connection",
+          "scope": "product.specs",
+          "sku": "70919",
+          "field": "specs.compressed_air_connection",
+          "before": null,
+          "after": null,
+          "label": "P0 ilgisiz-null: microfiber/chamois_drying_towel ürününde compressed_air_connection alanı kategoriyle uyumsuz"
+        }
+      ]
+    }
+  ]
+}

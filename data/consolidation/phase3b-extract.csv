@@ -1,0 +1,55 @@
+id,sku,key,value,confidence,evidence
+phase3b-71176-skill_level-7,71176,skill_level,"""pro""",high,"m, kristal, lake ve plastik yüzeylerin profesyonel temizliği için kullanılır. Büyük"
+phase3b-700662-skill_level-8,700662,skill_level,"""pro""",high,in. 4. Tamponlama: Kuru bezle parlatın. Profesyonel atölyeler ve yoğun kullanım içi
+phase3b-70933-dwell_time_minutes-9,70933,dwell_time_minutes,3,high,in. 2. Motor soğukken yüzeye püskürtün. 3. Yağ ve gres birikintilerinin çözülmesi
+phase3b-70933-skill_level-10,70933,skill_level,"""pro""",high,sistemlerinde sorun yaratmaz • Ekonomik profesyonel boy - 25 kg ile uzun süreli kul
+phase3b-70933-rinse_required-11,70933,rinse_required,true,high,
+phase3b-70894-indoor_use-13,70894,indoor_use,true,high,
+phase3b-77019-rinse_required-14,77019,rinse_required,true,high,
+phase3b-75404-application_method-16,75404,application_method,"""machine""",high,
+phase3b-71676-skill_level-17,71676,skill_level,"""pro""",high,nın; diğer malzemelerde önce test edin. Profesyonel araç yıkama merkezlerinde yoğun
+phase3b-73378-rinse_required-18,73378,rinse_required,true,high,
+phase3b-701010-dwell_time_minutes-19,701010,dwell_time_minutes,1,high,1. Özellikle kirli yüzeylerde saf ürünü p
+phase3b-701010-skill_level-20,701010,skill_level,"""pro""",high,ım - evden fabrikaya her yerde etkili • Profesyonel boy - 4.54 lt
+phase3b-701010-rinse_required-21,701010,rinse_required,true,high,
+phase3b-701285-rinse_required-22,701285,rinse_required,true,high,
+phase3b-70901-indoor_use-23,70901,indoor_use,true,high,
+phase3b-77192-outdoor_use-24,77192,outdoor_use,true,high,
+phase3b-Q2M-PM500M-durability_months-25,Q2M-PM500M,durability_months,6,high,l sayesinde kuruma beklemeye gerek yok. 6. Tekrar: Haftalık veya ihtiyaç duydukça
+phase3b-Q2M-APYA4000M-dwell_time_minutes-26,Q2M-APYA4000M,dwell_time_minutes,2,high,yi soğutun ve gevşek kirleri durulayın. 2. Göreve uygun seyreltme oranı seçin (iç
+phase3b-Q2M-APYA4000M-rinse_required-27,Q2M-APYA4000M,rinse_required,true,high,
+phase3b-Q2M-DT10P-rinse_required-28,Q2M-DT10P,rinse_required,true,high,
+phase3b-Q2M-FCNA1000M-dwell_time_minutes-29,Q2M-FCNA1000M,dwell_time_minutes,2,high,ma: Gevşek kir ve tozu süpürgeyle alın. 2. Ürün Uygulama: Kirli bölgeye eşit şeki
+phase3b-79771-dwell_time_minutes-30,79771,dwell_time_minutes,3,high,"1. Motor/Jant/Dış: Ürünü 1:2 veya 1:3 oranında seyreltin, soğuk yüzeye püskür"
+phase3b-79771-rinse_required-31,79771,rinse_required,true,high,
+phase3b-79298-durability_months-32,79298,durability_months,5,high,rtırmak için ikinci kat uygulanabilir. 5. Ürün 7 saat içinde tamamen aktif hale g
+phase3b-79818-indoor_use-33,79818,indoor_use,true,high,
+phase3b-Q2-LCR500M-skill_level-34,Q2-LCR500M,skill_level,"""pro""",high,UV solmasını önlemek için kullanılır. Profesyonel detay atölyeleri için ekonomik 5
+phase3b-Q2M-LCSYA1000M-skill_level-35,Q2M-LCSYA1000M,skill_level,"""pro""",high,ntılarının temizliği için kullanılır. Profesyonel atölyeler için ekonomik 1000 ml b
+phase3b-Q2M-LSN200M-durability_months-36,Q2M-LSN200M,durability_months,6,high,"ED damlatın, ince tabaka halinde yayın. 6. 1-2 saat kürlenmeye bırakın; bu süre i"
+phase3b-Q2M-LSN200M-indoor_use-37,Q2M-LSN200M,indoor_use,true,high,
+phase3b-Q2M-LSSYA200M-durability_months-38,Q2M-LSSYA200M,durability_months,3,high,"10 seyrelterek köpük şişesine doldurun. 3. Köpüğü deri üzerine sıkın, ScrubPad EV"
+phase3b-Q2M-LSSYA200M-indoor_use-39,Q2M-LSSYA200M,indoor_use,true,high,
+phase3b-75131-rinse_required-40,75131,rinse_required,true,high,
+phase3b-24011.261.080-application_method-41,24011.261.080,application_method,"""machine""",high,
+phase3b-HPG11850M-outdoor_use-42,HPG11850M,outdoor_use,true,high,
+phase3b-Q2M-SDE7090C-rinse_required-43,Q2M-SDE7090C,rinse_required,true,high,
+phase3b-Q2M-STE-rinse_required-44,Q2M-STE,rinse_required,true,high,
+phase3b-Q2M-WP-rinse_required-45,Q2M-WP,rinse_required,true,high,
+phase3b-3227I-HD-rinse_required-48,3227I-HD,rinse_required,true,high,
+phase3b-3227B-rinse_required-49,3227B,rinse_required,true,high,
+phase3b-3228R-rinse_required-50,3228R,rinse_required,true,high,
+phase3b-3221A-RD-rinse_required-51,3221A-RD,rinse_required,true,high,
+phase3b-3225A-BL-rinse_required-52,3225A-BL,rinse_required,true,high,
+phase3b-71331-rinse_required-53,71331,rinse_required,false,high,
+phase3b-74059-rinse_required-54,74059,rinse_required,true,high,
+phase3b-74062-rinse_required-55,74062,rinse_required,true,high,
+phase3b-70545-rinse_required-56,70545,rinse_required,true,high,
+phase3b-Q2M-PPFMR500M-rinse_required-57,Q2M-PPFMR500M,rinse_required,true,high,
+phase3b-Q2M-WCYA4000M-skill_level-58,Q2M-WCYA4000M,skill_level,"""pro""",high,• %5 SiO² ile 12 haftaya kadar koruma • Profesyonel detaycılar ve filo hizmetleri i
+phase3b-Q2M-WCYA4000M-rinse_required-59,Q2M-WCYA4000M,rinse_required,true,high,
+phase3b-79304-rinse_required-60,79304,rinse_required,true,high,
+phase3b-700097-durability_months-61,700097,durability_months,9,high,"nılır. • Su bazlı, VOC dostu içerik • 5-9 aya kadar koruma (bakımla) • Petrol tür"
+phase3b-700096-durability_months-62,700096,durability_months,8,high,syonel boyut - ~166 araç kapasitesi • 4-8 aya kadar uzun süreli koruma • Nano kor
+phase3b-79301-indoor_use-63,79301,indoor_use,true,high,
+phase3b-373680-durability_months-64,373680,durability_months,1080,high,

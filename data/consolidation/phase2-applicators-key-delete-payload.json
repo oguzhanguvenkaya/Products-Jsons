@@ -1,0 +1,13 @@
+{
+  "changes": [
+    {
+      "id": "phase2-applicators-SGGD190-key1",
+      "scope": "product.specs",
+      "sku": "SGGD190",
+      "field": "specs.chemical_free",
+      "before": "True",
+      "after": null,
+      "label": "P0 ilgisiz: applicators grubunda chemical_free anlamsız"
+    }
+  ]
+}

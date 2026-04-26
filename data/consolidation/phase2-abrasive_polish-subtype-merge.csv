@@ -1,0 +1,4 @@
+id,scope,sku,field,before,after,label
+phase2-abrasive_polish-20144.261.001-subtype,product,20144.261.001,template_sub_type,sanding_paste,heavy_cut_compound,P0 merge: sanding_paste -> heavy_cut_compound (Tek ürün; zımpara izi giderici ağır pasta sınıfı)
+phase2-abrasive_polish-23003.391.001-subtype,product,23003.391.001,template_sub_type,metal_polish,polish,P0 merge: metal_polish -> polish (Tek ürün; metal cila genel polish ailesi)
+phase2-abrasive_polish-22748.261.001-subtype,product,22748.261.001,template_sub_type,one_step_polish,polish,P1 merge: one_step_polish -> polish (Tek ürün; tek adım pasta = polish (orta agresiflik); ayrı tutulabilir)

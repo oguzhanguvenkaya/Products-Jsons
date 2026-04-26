@@ -1,0 +1,1414 @@
+{
+  "total_changes": 156,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1E-700387-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-700387-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-700405-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 30,
+          "label": "Phase 1E: consumption_per_car_ml=30 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-700405-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.consumption_ml_per_car",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-700507-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-700507-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-700508-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-700508-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-700508-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-700508-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701062-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701062-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701350-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "701350",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 150,
+          "label": "Phase 1E: consumption_per_car_ml=150 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-701350-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "701350",
+          "field": "specs.consumption_ml_per_car",
+          "before": 150,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-701422-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701422-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701851-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701851-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701908-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "701908",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 10,
+          "label": "Phase 1E: consumption_per_car_ml=10 (default 10 (lastik dressing))"
+        },
+        {
+          "id": "phase1E-701980-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-701980-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-70616-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-70616-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-70640-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-70640-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-70868-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "70868",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 10,
+          "label": "Phase 1E: consumption_per_car_ml=10 (default 10 (lastik dressing))"
+        },
+        {
+          "id": "phase1E-70942-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-70942-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-71706-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "71706",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 10,
+          "label": "Phase 1E: consumption_per_car_ml=10 (default 10 (lastik dressing))"
+        },
+        {
+          "id": "phase1E-72042-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-72042-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-74258-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-74258-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-75021-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-75021-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-75138-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "75138",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 10,
+          "label": "Phase 1E: consumption_per_car_ml=10 (default 10 (lastik dressing))"
+        },
+        {
+          "id": "phase1E-75140-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "75140",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 10,
+          "label": "Phase 1E: consumption_per_car_ml=10 (default 10 (lastik dressing))"
+        },
+        {
+          "id": "phase1E-78784-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-78784-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-79281-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 50,
+          "label": "Phase 1E: consumption_per_car_ml=50 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79281-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.consumption_ml_per_car",
+          "before": 50,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79281-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-79281-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-79284-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79284-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79284-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-79284-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-79286-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 17,
+          "label": "Phase 1E: consumption_per_car_ml=17 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79286-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79286",
+          "field": "specs.consumption_ml_per_car",
+          "before": 17,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79290-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79290-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79291-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 150,
+          "label": "Phase 1E: consumption_per_car_ml=150 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79291-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.consumption_ml_per_car",
+          "before": 150,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79292-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79292",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 50,
+          "label": "Phase 1E: consumption_per_car_ml=50 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79292-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79292",
+          "field": "specs.consumption_ml_per_car",
+          "before": 50,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79293-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79293",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 100,
+          "label": "Phase 1E: consumption_per_car_ml=100 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79293-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79293",
+          "field": "specs.consumption_ml_per_car",
+          "before": 100,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79296-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79296",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 30,
+          "label": "Phase 1E: consumption_per_car_ml=30 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79296-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79296",
+          "field": "specs.consumption_ml_per_car",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-79415-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "79415",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 40,
+          "label": "Phase 1E: consumption_per_car_ml=40 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-79415-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "79415",
+          "field": "specs.consumption_ml_per_car",
+          "before": 40,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-MXP-CCN50KS-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "MXP-CCN50KS",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (default 25 (seramik global kural))"
+        },
+        {
+          "id": "phase1E-MXP-DPCN50KS-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "MXP-DPCN50KS",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 23,
+          "label": "Phase 1E: consumption_per_car_ml=23 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-MXP-DPCN50KS-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "MXP-DPCN50KS",
+          "field": "specs.consumption_ml_per_car",
+          "before": 23,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-MXP-HC50KS-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "MXP-HC50KS",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (default 25 (seramik global kural))"
+        },
+        {
+          "id": "phase1E-Q2-AF120M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-AF120M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 15,
+          "label": "Phase 1E: consumption_per_car_ml=15 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-AF120M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-AF120M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 15,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-BS30M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-BS30M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 30,
+          "label": "Phase 1E: consumption_per_car_ml=30 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-BS30M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-BS30M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-CCE200M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-CCE200M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 13,
+          "label": "Phase 1E: consumption_per_car_ml=13 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-CCE200M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-CCE200M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 13,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-FCNA400M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-FCNA400M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 150,
+          "label": "Phase 1E: consumption_per_car_ml=150 (kullanıcı kararı (fabric_coating))"
+        },
+        {
+          "id": "phase1E-Q2-FCNA400M-coverage_ml_per_sqm-drop",
+          "scope": "product.specs",
+          "sku": "Q2-FCNA400M",
+          "field": "specs.coverage_ml_per_sqm",
+          "before": 80,
+          "after": null,
+          "label": "Phase 1E: drop coverage_ml_per_sqm"
+        },
+        {
+          "id": "phase1E-Q2-LSE50M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-LSE50M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 35,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-LSE50M-consumption_ml_per_cabin-drop",
+          "scope": "product.specs",
+          "sku": "Q2-LSE50M",
+          "field": "specs.consumption_ml_per_cabin",
+          "before": 35,
+          "after": null,
+          "label": "Phase 1E: drop consumption_ml_per_cabin (kullanıcı: saçma olur)"
+        },
+        {
+          "id": "phase1E-Q2-MLE100M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-MLE100M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-MLE100M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-MLE100M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-MTEL50M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 30,
+          "label": "Phase 1E: consumption_per_car_ml=30 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-MTEL50M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-OLE100M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-OLE100M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-OLE100M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-OLE100M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-PC100M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-PC100M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (default 25 (seramik global kural))"
+        },
+        {
+          "id": "phase1E-Q2-PLE50M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-PLE50M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 27,
+          "label": "Phase 1E: consumption_per_car_ml=27 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-PLE50M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-PLE50M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 27,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-PPFE50M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 30,
+          "label": "Phase 1E: consumption_per_car_ml=30 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-PPFE50M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 30,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-PR1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 40,
+          "label": "Phase 1E: consumption_per_car_ml=40 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-PR1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 40,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-RE30M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-RE30M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 18,
+          "label": "Phase 1E: consumption_per_car_ml=18 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-RE30M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-RE30M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 18,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-SLE50M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-SLE50M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-TRE30M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-TRE30M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 10,
+          "label": "Phase 1E: consumption_per_car_ml=10 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-TRE30M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-TRE30M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 10,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-TYA500M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-TYA500M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 12,
+          "label": "Phase 1E: consumption_per_car_ml=12 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-TYA500M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-TYA500M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 12,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-VE20M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-VE20M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-VE20M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-VE20M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2-W175G-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2-W175G",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 15,
+          "label": "Phase 1E: consumption_per_car_ml=15 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2-W175G-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2-W175G",
+          "field": "specs.consumption_ml_per_car",
+          "before": 15,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-APYA4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 150,
+          "label": "Phase 1E: consumption_per_car_ml=150 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-APYA4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 150,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-BGYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-BGYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 80,
+          "label": "Phase 1E: consumption_per_car_ml=80 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-BGYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BGYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 80,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-BPYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-BPYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BPYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-BYA4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-BYA4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-BYA4000M-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-BYA4000M-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-CCE-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-CCE",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-CCE-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CCE",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-CME-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-CME",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 20,
+          "label": "Phase 1E: consumption_per_car_ml=20 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-CME-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CME",
+          "field": "specs.consumption_ml_per_car",
+          "before": 20,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-FYA4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 50,
+          "label": "Phase 1E: consumption_per_car_ml=50 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-FYA4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 50,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-FYA4000M-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-FYA4000M-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-GPYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-GPYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 40,
+          "label": "Phase 1E: consumption_per_car_ml=40 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-GPYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-GPYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 40,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-IDYA4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-IDYA4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 80,
+          "label": "Phase 1E: consumption_per_car_ml=80 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-IDYA4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IDYA4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 80,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-IR4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-IR4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 150,
+          "label": "Phase 1E: consumption_per_car_ml=150 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-IR4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IR4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 150,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-IWCR4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-IWCR4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 100,
+          "label": "Phase 1E: consumption_per_car_ml=100 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-IWCR4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IWCR4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 100,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-LCN1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-LCN1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 100,
+          "label": "Phase 1E: consumption_per_car_ml=100 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-LCN1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LCN1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 100,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-LCSYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-LCSYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 100,
+          "label": "Phase 1E: consumption_per_car_ml=100 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-LCSYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-LCSYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 100,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-OR500M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-OR500M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 35,
+          "label": "Phase 1E: consumption_per_car_ml=35 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-OR500M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-OR500M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 35,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-PPFW500M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFW500M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-PPFW500M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PPFW500M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-PPR1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PPR1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 60,
+          "label": "Phase 1E: consumption_per_car_ml=60 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-PPR1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PPR1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 60,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-PRYA250M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PRYA250M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 50,
+          "label": "Phase 1E: consumption_per_car_ml=50 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-PRYA250M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PRYA250M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 50,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-PYA4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-PYA4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 150,
+          "label": "Phase 1E: consumption_per_car_ml=150 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-PYA4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-PYA4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 150,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-RW1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-RW1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-RW1000M-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-RW1000M-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-RWYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-RWYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-RWYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RWYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-TEYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-TEYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 13,
+          "label": "Phase 1E: consumption_per_car_ml=13 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-TEYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TEYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 13,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-TR4000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-TR4000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 100,
+          "label": "Phase 1E: consumption_per_car_ml=100 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-TR4000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TR4000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 100,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-TRC500M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-TRC500M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 100,
+          "label": "Phase 1E: consumption_per_car_ml=100 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-TRC500M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TRC500M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 100,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        },
+        {
+          "id": "phase1E-Q2M-TWYA500M-recommended_bucket_ml-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TWYA500M",
+          "field": "specs.recommended_bucket_ml",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_bucket_ml (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-TWYA500M-recommended_foam_cannon_ratio-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TWYA500M",
+          "field": "specs.recommended_foam_cannon_ratio",
+          "before": null,
+          "after": null,
+          "label": "Phase 1E: drop recommended_foam_cannon_ratio (8 ürün hepsi BOŞ)"
+        },
+        {
+          "id": "phase1E-Q2M-WSYA1000M-consumption_per_car_ml-set",
+          "scope": "product.specs",
+          "sku": "Q2M-WSYA1000M",
+          "field": "specs.consumption_per_car_ml",
+          "before": null,
+          "after": 25,
+          "label": "Phase 1E: consumption_per_car_ml=25 (rename consumption_ml_per_car)"
+        },
+        {
+          "id": "phase1E-Q2M-WSYA1000M-consumption_ml_per_car-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-WSYA1000M",
+          "field": "specs.consumption_ml_per_car",
+          "before": 25,
+          "after": null,
+          "label": "Phase 1E: alias drop (canonical consumption_per_car_ml)"
+        }
+      ]
+    }
+  ]
+}

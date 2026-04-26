@@ -1,0 +1,49 @@
+{
+  "changes": [
+    {
+      "id": "phase2-paint_protection_quick-75182-1",
+      "scope": "product",
+      "sku": "75182",
+      "field": "template_sub_type",
+      "before": "spray_wipe_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; sub-variant flag specs içine"
+    },
+    {
+      "id": "phase2-paint_protection_quick-74059-2",
+      "scope": "product",
+      "sku": "74059",
+      "field": "template_sub_type",
+      "before": "spray_wipe_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; sub-variant flag specs içine"
+    },
+    {
+      "id": "phase2-paint_protection_quick-Q2M-WCYA4000M-3",
+      "scope": "product",
+      "sku": "Q2M-WCYA4000M",
+      "field": "template_sub_type",
+      "before": "spray_rinse_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; rinse=after-care flag"
+    },
+    {
+      "id": "phase2-paint_protection_quick-79304-4",
+      "scope": "product",
+      "sku": "79304",
+      "field": "template_sub_type",
+      "before": "spray_rinse_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; rinse=after-care flag"
+    },
+    {
+      "id": "phase2-paint_protection_quick-700096-5",
+      "scope": "product",
+      "sku": "700096",
+      "field": "template_sub_type",
+      "before": "spray_wipe_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; sub-variant flag specs içine"
+    }
+  ]
+}

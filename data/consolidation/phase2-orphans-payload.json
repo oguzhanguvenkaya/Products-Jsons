@@ -1,0 +1,58 @@
+{
+  "changes": [
+    {
+      "id": "phase2c-orphan-1",
+      "scope": "product",
+      "sku": "26942.099.001",
+      "field": "template_sub_type",
+      "before": null,
+      "after": "microfiber_cloth",
+      "label": "P0 accessory grup orphan — mikrofiber bez seti"
+    },
+    {
+      "id": "phase2c-orphan-2",
+      "scope": "product",
+      "sku": "516112",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "extension_shaft",
+      "label": "P0 polisher_machine — FLEX FS 140 esnek uzatma aparatı (specs.accessory_type=extension_shaft canonical)"
+    },
+    {
+      "id": "phase2c-orphan-3",
+      "scope": "product",
+      "sku": "532579",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "heat_gun",
+      "label": "P0 polisher_machine — FLEX HG 650 sıcak hava tabancası (specs.product_type=heat_gun canonical)"
+    },
+    {
+      "id": "phase2c-orphan-4",
+      "scope": "product",
+      "sku": "SGGC055",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "tornador_gun",
+      "label": "P0 polisher_machine — SGCB Tornador Detaylı Temizlik Tabancası"
+    },
+    {
+      "id": "phase2c-orphan-5",
+      "scope": "product",
+      "sku": "SGGC086",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "air_blow_gun",
+      "label": "P0 polisher_machine — SGCB Air Blow Gun (specs.product_type=air_blow_gun canonical)"
+    },
+    {
+      "id": "phase2c-orphan-6",
+      "scope": "product",
+      "sku": "SGGS003",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "air_blow_gun",
+      "label": "P0 polisher_machine — SCCB Kısa Nozul Hava Tabancası (specs.product_type=air_blow_gun canonical)"
+    }
+  ]
+}

@@ -1,0 +1,370 @@
+{
+  "total_changes": 40,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1C-700210-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-700387-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-700508-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-700888-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "700888",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-701062-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-701350-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "701350",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-701422-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-701851-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-701980-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-70616-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-70640-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-70864-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "70864",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-70942-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-71331-ph_level-set",
+          "scope": "product.specs",
+          "sku": "71331",
+          "field": "specs.ph_level",
+          "before": null,
+          "after": 4.75,
+          "label": "Phase 1C: ph_level=4.75 (canonical, ph eski isim → rename)"
+        },
+        {
+          "id": "phase1C-71331-ph-drop",
+          "scope": "product.specs",
+          "sku": "71331",
+          "field": "specs.ph",
+          "before": 4.75,
+          "after": null,
+          "label": "Phase 1C: alias ph drop (canonical ph_level)"
+        },
+        {
+          "id": "phase1C-72042-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-74258-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-75021-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-76006-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "76006",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-78784-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-79281-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-79284-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-79291-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-79296-ph-drop",
+          "scope": "product.specs",
+          "sku": "79296",
+          "field": "specs.ph",
+          "before": "Nötr",
+          "after": null,
+          "label": "Phase 1C: alias ph drop (canonical ph_level)"
+        },
+        {
+          "id": "phase1C-79304-ph_level-set",
+          "scope": "product.specs",
+          "sku": "79304",
+          "field": "specs.ph_level",
+          "before": null,
+          "after": 6.5,
+          "label": "Phase 1C: ph_level=6.5 (canonical, ph eski isim → rename)"
+        },
+        {
+          "id": "phase1C-79304-ph-drop",
+          "scope": "product.specs",
+          "sku": "79304",
+          "field": "specs.ph",
+          "before": 6.5,
+          "after": null,
+          "label": "Phase 1C: alias ph drop (canonical ph_level)"
+        },
+        {
+          "id": "phase1C-MGPS-2019KH-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "MGPS-2019KH",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-MGPS-2019KM-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "MGPS-2019KM",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-BYA4000M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-CCE-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CCE",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-CLR500M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-CLR500M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-FYA4000M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-IR4000M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IR4000M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-IWCR4000M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-IWCR4000M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-QDYA1000M-ph_level-set",
+          "scope": "product.specs",
+          "sku": "Q2M-QDYA1000M",
+          "field": "specs.ph_level",
+          "before": null,
+          "after": 7,
+          "label": "Phase 1C: ph_level=7 (canonical, ph eski isim → rename)"
+        },
+        {
+          "id": "phase1C-Q2M-QDYA1000M-ph-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-QDYA1000M",
+          "field": "specs.ph",
+          "before": 7,
+          "after": null,
+          "label": "Phase 1C: alias ph drop (canonical ph_level)"
+        },
+        {
+          "id": "phase1C-Q2M-RW1000M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-TOTR1000M-ph-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TOTR1000M",
+          "field": "specs.ph",
+          "before": "Nötr",
+          "after": null,
+          "label": "Phase 1C: alias ph drop (canonical ph_level)"
+        },
+        {
+          "id": "phase1C-Q2M-TWYA500M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TWYA500M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        },
+        {
+          "id": "phase1C-Q2M-WSYA1000M-ph_label-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-WSYA1000M",
+          "field": "specs.ph_label",
+          "before": null,
+          "after": null,
+          "label": "Phase 1C: ph_label drop (türetilebilir: <6=asidik, 6-8=nötr, >8=alkali)"
+        }
+      ]
+    }
+  ]
+}

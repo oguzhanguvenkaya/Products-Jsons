@@ -1,0 +1,512 @@
+{
+  "total_changes": 54,
+  "batch_count": 1,
+  "batches": [
+    {
+      "changes": [
+        {
+          "id": "phase1F-700387-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-700387-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-700507-compatibility-set",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.compatibility",
+          "before": null,
+          "after": [
+            "ceramic_coating"
+          ],
+          "label": "Phase 1F: compatibility=[ceramic_coating] (safe_on_X migrate)"
+        },
+        {
+          "id": "phase1F-700507-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "700507",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-700508-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-700508-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "700508",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701062-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701062-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "701062",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701422-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701422-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701851-substrate_safe-set",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.substrate_safe",
+          "before": null,
+          "after": [
+            "aluminum",
+            "fiberglass",
+            "plexiglass"
+          ],
+          "label": "Phase 1F: substrate_safe=[aluminum,fiberglass,plexiglass] (X_safe migrate)"
+        },
+        {
+          "id": "phase1F-701851-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701851-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701851-aluminum_safe-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.aluminum_safe",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to substrate_safe[]"
+        },
+        {
+          "id": "phase1F-701851-fiberglass_safe-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.fiberglass_safe",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to substrate_safe[]"
+        },
+        {
+          "id": "phase1F-701851-plexiglass_safe-drop",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.plexiglass_safe",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to substrate_safe[]"
+        },
+        {
+          "id": "phase1F-701980-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-701980-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "701980",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-70616-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-70616-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "70616",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-70640-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-70640-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "70640",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-70942-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-70942-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "70942",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-71490-compatibility-set",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.compatibility",
+          "before": null,
+          "after": [
+            "ceramic_coating"
+          ],
+          "label": "Phase 1F: compatibility=[ceramic_coating] (safe_on_X migrate)"
+        },
+        {
+          "id": "phase1F-71490-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-72042-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-72042-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "72042",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-74258-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-74258-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "74258",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-75021-substrate_safe-set",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.substrate_safe",
+          "before": null,
+          "after": [
+            "aluminum"
+          ],
+          "label": "Phase 1F: substrate_safe=[aluminum] (X_safe migrate)"
+        },
+        {
+          "id": "phase1F-75021-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-75021-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-75021-aluminum_safe-drop",
+          "scope": "product.specs",
+          "sku": "75021",
+          "field": "specs.aluminum_safe",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to substrate_safe[]"
+        },
+        {
+          "id": "phase1F-78784-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-78784-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "78784",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-79281-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-79281-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-79284-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-79284-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "79284",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-79290-compatibility-set",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.compatibility",
+          "before": null,
+          "after": [
+            "ceramic_coating"
+          ],
+          "label": "Phase 1F: compatibility=[ceramic_coating] (safe_on_X migrate)"
+        },
+        {
+          "id": "phase1F-79290-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "79290",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-BYA4000M-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-BYA4000M-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-BYA4000M",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-EW1000M-compatibility-set",
+          "scope": "product.specs",
+          "sku": "Q2M-EW1000M",
+          "field": "specs.compatibility",
+          "before": null,
+          "after": [
+            "ceramic_coating"
+          ],
+          "label": "Phase 1F: compatibility=[ceramic_coating] (safe_on_X migrate)"
+        },
+        {
+          "id": "phase1F-Q2M-EW1000M-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-EW1000M",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-FYA4000M-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-FYA4000M-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-RW1000M-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-RW1000M-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RW1000M",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-RWYA1000M-compatibility-set",
+          "scope": "product.specs",
+          "sku": "Q2M-RWYA1000M",
+          "field": "specs.compatibility",
+          "before": null,
+          "after": [
+            "ceramic_coating"
+          ],
+          "label": "Phase 1F: compatibility=[ceramic_coating] (safe_on_X migrate)"
+        },
+        {
+          "id": "phase1F-Q2M-RWYA1000M-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-RWYA1000M",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": "true",
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-TWYA500M-safe_on_ceramic_coatings-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TWYA500M",
+          "field": "specs.safe_on_ceramic_coatings",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        },
+        {
+          "id": "phase1F-Q2M-TWYA500M-safe_on_ppf_wrap-drop",
+          "scope": "product.specs",
+          "sku": "Q2M-TWYA500M",
+          "field": "specs.safe_on_ppf_wrap",
+          "before": null,
+          "after": null,
+          "label": "Phase 1F: migrated to compatibility[]"
+        }
+      ]
+    }
+  ]
+}

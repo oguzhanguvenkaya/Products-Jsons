@@ -1,0 +1,4 @@
+id,scope,sku,field,before,after,label
+phase2-applicators-Q2M-SPE-1,product,Q2M-SPE,template_sub_type,scrub_pad,cleaning_pad,P0 merge: tek ürün; sponge/scrub ortak amaç=temizlik pedi
+phase2-applicators-SGGD004-2,product,SGGD004,template_sub_type,wash_sponge,cleaning_pad,P0 merge: tek ürün; yıkama süngeri = temizlik pedi
+phase2-applicators-SGGD190-3,product,SGGD190,template_sub_type,cleaning_sponge,cleaning_pad,P0 merge: tek ürün; ortak meta=material+shape

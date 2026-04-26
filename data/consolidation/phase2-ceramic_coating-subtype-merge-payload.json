@@ -1,0 +1,129 @@
+{
+  "total_changes": 13,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 13,
+      "changes": [
+        {
+          "id": "phase2-ceramic_coating-Q2-PR1000M-subtype",
+          "scope": "product",
+          "sku": "Q2-PR1000M",
+          "field": "template_sub_type",
+          "before": "single_layer_coating",
+          "after": "paint_coating",
+          "label": "P0 merge: single_layer_coating -> paint_coating (2 ürün; tek katlı seramik = boya kaplama alt-tipi)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-OLE100M-subtype",
+          "scope": "product",
+          "sku": "Q2-OLE100M",
+          "field": "template_sub_type",
+          "before": "single_layer_coating",
+          "after": "paint_coating",
+          "label": "P0 merge: single_layer_coating -> paint_coating (2 ürün; tek katlı seramik = boya kaplama alt-tipi)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-MTEL50M-subtype",
+          "scope": "product",
+          "sku": "Q2-MTEL50M",
+          "field": "template_sub_type",
+          "before": "matte_coating",
+          "after": "paint_coating",
+          "label": "P0 merge: matte_coating -> paint_coating (Tek ürün; mat kaplama paint_coating mat varyantı)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-CCE200M-subtype",
+          "scope": "product",
+          "sku": "Q2-CCE200M",
+          "field": "template_sub_type",
+          "before": "spray_coating",
+          "after": "paint_coating",
+          "label": "P0 merge: spray_coating -> paint_coating (Tek ürün; sprey kaplama paint_coating uygulama formu)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-SLE50M-subtype",
+          "scope": "product",
+          "sku": "Q2-SLE50M",
+          "field": "template_sub_type",
+          "before": "paint_coating_kit",
+          "after": "paint_coating",
+          "label": "P0 merge: paint_coating_kit -> paint_coating (Tek ürün; kit boya kaplama ile birleşir (kit flag ayrı saklanır))"
+        },
+        {
+          "id": "phase2-ceramic_coating-MXP-HC50KS-subtype",
+          "scope": "product",
+          "sku": "MXP-HC50KS",
+          "field": "template_sub_type",
+          "before": "multi_step_coating_kit",
+          "after": "paint_coating",
+          "label": "P0 merge: multi_step_coating_kit -> paint_coating (Tek ürün; çok adımlı kit paint_coating altı)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-BS30M-subtype",
+          "scope": "product",
+          "sku": "Q2-BS30M",
+          "field": "template_sub_type",
+          "before": "top_coat",
+          "after": "paint_coating",
+          "label": "P1 merge: top_coat -> paint_coating (Tek ürün; üst kat paint_coating ekipmanı; ayrı tutmak da mümkün)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-PPFE50M-subtype",
+          "scope": "product",
+          "sku": "Q2-PPFE50M",
+          "field": "template_sub_type",
+          "before": "ppf_coating",
+          "after": "paint_coating",
+          "label": "P1 merge: ppf_coating -> paint_coating (Tek ürün; PPF koruma paint_coating alt-tipi (PPF üstü))"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-TRE30M-subtype",
+          "scope": "product",
+          "sku": "Q2-TRE30M",
+          "field": "template_sub_type",
+          "before": "trim_coating",
+          "after": "paint_coating",
+          "label": "P1 merge: trim_coating -> paint_coating (Tek ürün; trim kaplama plastik koruma; \"trim_coating\" yeni sub düşünülebilir)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-RE30M-subtype",
+          "scope": "product",
+          "sku": "Q2-RE30M",
+          "field": "template_sub_type",
+          "before": "wheel_coating",
+          "after": "paint_coating",
+          "label": "P1 merge: wheel_coating -> paint_coating (Tek ürün; jant kaplama paint_coating ile mineral seramik benzer)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-PC100M-subtype",
+          "scope": "product",
+          "sku": "Q2-PC100M",
+          "field": "template_sub_type",
+          "before": "interior_coating",
+          "after": "fabric_coating",
+          "label": "P2 merge: interior_coating -> fabric_coating (Tek ürün; iç mekan kaplama; semantik fabric/leather kaplama yakın)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-LSE50M-subtype",
+          "scope": "product",
+          "sku": "Q2-LSE50M",
+          "field": "template_sub_type",
+          "before": "leather_coating",
+          "after": "fabric_coating",
+          "label": "P2 merge: leather_coating -> fabric_coating (Tek ürün; deri kaplama ile kumaş kaplama yakın hidrofobik mekanik)"
+        },
+        {
+          "id": "phase2-ceramic_coating-Q2-TYA500M-subtype",
+          "scope": "product",
+          "sku": "Q2-TYA500M",
+          "field": "template_sub_type",
+          "before": "tire_coating",
+          "after": "paint_coating",
+          "label": "P2 merge: tire_coating -> paint_coating (Tek ürün; lastik kaplama farklı kullanım; ayrı kalabilir)"
+        }
+      ]
+    }
+  ]
+}

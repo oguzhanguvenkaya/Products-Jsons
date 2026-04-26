@@ -1,0 +1,130 @@
+cluster_id,group_key,faq_id,sku,scope,question,answer_len,action,reason
+c1,sku:Q2-FCNA400M,3066,Q2-FCNA400M,product,Bu ürün nedir?,96,keep,"cluster of 2, kept longest answer"
+c1,sku:Q2-FCNA400M,2455,Q2-FCNA400M,product,Bu ürün nedir?,95,delete,near-duplicate of faq 3066 (kept)
+c2,sku:Q2-FCNA400M,3065,Q2-FCNA400M,product,Nasıl uygulanır?,306,keep,"cluster of 2, kept longest answer"
+c2,sku:Q2-FCNA400M,2508,Q2-FCNA400M,product,Nasıl uygulanır?,305,delete,near-duplicate of faq 3065 (kept)
+c3,sku:Q2-FCNA400M,2487,Q2-FCNA400M,product,Nereye uygulanır?,98,keep,"cluster of 2, kept longest answer"
+c3,sku:Q2-FCNA400M,3064,Q2-FCNA400M,product,Nereye uygulanır?,85,delete,near-duplicate of faq 2487 (kept)
+c4,sku:Q2-FCNA400M,3063,Q2-FCNA400M,product,Ne kadar dayanır?,35,keep,"cluster of 2, kept longest answer"
+c4,sku:Q2-FCNA400M,2550,Q2-FCNA400M,product,Ne kadar dayanır?,34,delete,near-duplicate of faq 3063 (kept)
+c5,sku:Q2-FCNA400M,2529,Q2-FCNA400M,product,Birden fazla kat uygulayabilir miyim?,5,keep,"cluster of 2, kept longest answer"
+c5,sku:Q2-FCNA400M,3062,Q2-FCNA400M,product,Birden fazla kat uygulayabilir miyim?,5,delete,near-duplicate of faq 2529 (kept)
+c6,sku:Q2-FCNA400M,3061,Q2-FCNA400M,product,Ürünün kuruması/kürlenmesi ne kadar sürer?,86,keep,"cluster of 2, kept longest answer"
+c6,sku:Q2-FCNA400M,2571,Q2-FCNA400M,product,Ürünün kuruması/kürlenmesi ne kadar sürer?,74,delete,near-duplicate of faq 3061 (kept)
+c7,sku:Q2-FCNA400M,2591,Q2-FCNA400M,product,Bu ürünle kaplı bir araç nasıl bakım görür?,128,keep,"cluster of 2, kept longest answer"
+c7,sku:Q2-FCNA400M,3060,Q2-FCNA400M,product,Bu ürünle kaplı bir araç nasıl bakım görür?,128,delete,near-duplicate of faq 2591 (kept)
+c8,sku:Q2-FCNA400M,3059,Q2-FCNA400M,product,Su artık boncuklanmıyor — ne yapmalıyım?,136,keep,"cluster of 2, kept longest answer"
+c8,sku:Q2-FCNA400M,2664,Q2-FCNA400M,product,Su artık boncuklanmıyor — ne yapmalıyım?,135,delete,near-duplicate of faq 3059 (kept)
+c9,sku:Q2-FCNA400M,3058,Q2-FCNA400M,product,Ürünü kullandığım yüzey yapışkan — bu normal mi?,239,keep,"cluster of 2, kept longest answer"
+c9,sku:Q2-FCNA400M,2706,Q2-FCNA400M,product,Ürünü kullandığım yüzey yapışkan — bu normal mi?,238,delete,near-duplicate of faq 3058 (kept)
+c10,sku:Q2-FCNA400M,3057,Q2-FCNA400M,product,Üründen biraz cam/boya üzerine sıktım — nasıl temizlerim?,56,keep,"cluster of 2, kept longest answer"
+c10,sku:Q2-FCNA400M,2694,Q2-FCNA400M,product,Üründen biraz cam/boya üzerine sıktım — nasıl temizlerim?,52,delete,near-duplicate of faq 3057 (kept)
+c11,sku:Q2M-LCSYA1000M,904,Q2M-LCSYA1000M,product,Neden yumuşatıcı içermiyor?,139,keep,"cluster of 2, kept longest answer"
+c11,sku:Q2M-LCSYA1000M,909,Q2M-LCSYA1000M,product,Neden yumuşatıcı içermiyor?,128,delete,near-duplicate of faq 904 (kept)
+c12,sku:Q2M-CRYA250M,327,Q2M-CRYA250M,product,Wax veya sealant üzerinde kullanabilir miyim?,53,keep,"cluster of 2, kept longest answer"
+c12,sku:Q2M-CRYA250M,1305,Q2M-CRYA250M,product,Wax veya sealant üzerinde kullanabilir miyim?,53,delete,near-duplicate of faq 327 (kept)
+c13,sku:Q2M-IWCR4000M,1244,Q2M-IWCR4000M,product,Jant kaplamasını aşındırır mı?,67,keep,"cluster of 2, kept longest answer"
+c13,sku:Q2M-IWCR4000M,1247,Q2M-IWCR4000M,product,Jant kaplamasını aşındırır mı?,55,delete,near-duplicate of faq 1244 (kept)
+c14,brand:gyeon,2736,,brand,Açıldıktan sonra ürün nasıl saklanır? Raf ömrü ne kadardır?,257,keep,"cluster of 6, kept longest answer"
+c14,brand:gyeon,2971,,brand,Açıldıktan sonra ürün nasıl saklanır? Raf ömrü ne kadardır?,218,delete,near-duplicate of faq 2736 (kept)
+c14,brand:gyeon,2976,,brand,Açıldıktan sonra ürün nasıl saklanır? Raf ömrü ne kadardır?,197,delete,near-duplicate of faq 2736 (kept)
+c14,brand:gyeon,2988,,brand,Açıldıktan sonra ürün nasıl saklanır? Raf ömrü ne kadardır?,197,delete,near-duplicate of faq 2736 (kept)
+c14,brand:gyeon,2991,,brand,Açıldıktan sonra ürün nasıl saklanır? Raf ömrü ne kadardır?,197,delete,near-duplicate of faq 2736 (kept)
+c14,brand:gyeon,3006,,brand,Açıldıktan sonra ürün nasıl saklanır? Raf ömrü ne kadardır?,197,delete,near-duplicate of faq 2736 (kept)
+c15,brand:gyeon,2940,,brand,Üzerine ek kaplama uygulayabilir miyim?,35,keep,"cluster of 2, kept longest answer"
+c15,brand:gyeon,2722,,brand,Üzerine ek kaplama uygulayabilir miyim?,6,delete,near-duplicate of faq 2940 (kept)
+c16,brand:gyeon,2911,,brand,Ne kadar dayanır?,74,keep,"cluster of 2, kept longest answer"
+c16,brand:gyeon,2581,,brand,Ne kadar dayanır?,54,delete,near-duplicate of faq 2911 (kept)
+c17,brand:gyeon,2884,,brand,Solüsyonu agite etmem gerekir mi?,55,keep,"cluster of 2, kept longest answer"
+c17,brand:gyeon,2887,,brand,Solüsyonu agite etmem gerekir mi?,39,delete,near-duplicate of faq 2884 (kept)
+c18,brand:gyeon,2498,,brand,Nasıl uygulanır?,203,keep,"cluster of 3, kept longest answer"
+c18,brand:gyeon,2481,,brand,Nasıl uygulanır?,67,delete,near-duplicate of faq 2498 (kept)
+c18,brand:gyeon,2864,,brand,Nasıl uygulanır?,52,delete,near-duplicate of faq 2498 (kept)
+c19,brand:gyeon,2859,,brand,Nasıl kullanılır?,437,keep,"cluster of 5, kept longest answer"
+c19,brand:gyeon,2848,,brand,Nasıl kullanılır?,148,delete,near-duplicate of faq 2859 (kept)
+c19,brand:gyeon,2792,,brand,Nasıl kullanılır?,120,delete,near-duplicate of faq 2859 (kept)
+c19,brand:gyeon,2845,,brand,Nasıl kullanılır?,98,delete,near-duplicate of faq 2859 (kept)
+c19,brand:gyeon,2832,,brand,Nasıl kullanılır?,73,delete,near-duplicate of faq 2859 (kept)
+c20,brand:gyeon,2818,,brand,Nereye uygulanır?,131,keep,"cluster of 5, kept longest answer"
+c20,brand:gyeon,2807,,brand,Nereye uygulanır?,107,delete,near-duplicate of faq 2818 (kept)
+c20,brand:gyeon,2790,,brand,Nereye uygulanır?,83,delete,near-duplicate of faq 2818 (kept)
+c20,brand:gyeon,2804,,brand,Nereye uygulanır?,72,delete,near-duplicate of faq 2818 (kept)
+c20,brand:gyeon,2823,,brand,Nereye uygulanır?,57,delete,near-duplicate of faq 2818 (kept)
+c21,brand:gyeon,2761,,brand,Bu ürün nedir?,164,keep,"cluster of 8, kept longest answer"
+c21,brand:gyeon,2466,,brand,Bu ürün nedir?,163,delete,near-duplicate of faq 2761 (kept)
+c21,brand:gyeon,2449,,brand,Bu ürün nedir?,158,delete,near-duplicate of faq 2761 (kept)
+c21,brand:gyeon,2772,,brand,Bu ürün nedir?,127,delete,near-duplicate of faq 2761 (kept)
+c21,brand:gyeon,2746,,brand,Bu ürün nedir?,94,delete,near-duplicate of faq 2761 (kept)
+c21,brand:gyeon,2777,,brand,Bu ürün nedir?,75,delete,near-duplicate of faq 2761 (kept)
+c21,brand:gyeon,2744,,brand,Bu ürün nedir?,56,delete,near-duplicate of faq 2761 (kept)
+c21,brand:gyeon,2758,,brand,Bu ürün nedir?,34,delete,near-duplicate of faq 2761 (kept)
+c22,brand:gyeon,2690,,brand,Bu ürünle kaplı bir araç nasıl bakım görür?,240,keep,"cluster of 2, kept longest answer"
+c22,brand:gyeon,2544,,brand,Bu ürünle kaplı bir araç nasıl bakım görür?,213,delete,near-duplicate of faq 2690 (kept)
+c23,brand:gyeon,2502,,brand,Çıkarılabilir mi?,154,keep,"cluster of 2, kept longest answer"
+c23,brand:gyeon,2674,,brand,Çıkarılabilir mi?,81,delete,near-duplicate of faq 2502 (kept)
+c24,brand:gyeon,2640,,brand,Boyaya zarar veren su lekeleri veya kuş pisliklerini önler mi?,348,keep,"cluster of 2, kept longest answer"
+c24,brand:gyeon,2585,,brand,Boyaya zarar veren su lekeleri veya kuş pisliklerini önler mi?,88,delete,near-duplicate of faq 2640 (kept)
+c25,brand:gyeon,2601,,brand,Ürünün kuruması/kürlenmesi ne kadar sürer?,144,keep,"cluster of 2, kept longest answer"
+c25,brand:gyeon,2605,,brand,Ürünün kuruması/kürlenmesi ne kadar sürer?,132,delete,near-duplicate of faq 2601 (kept)
+c26,brand:gyeon,2438,,brand,Eğitim sunuyor musunuz?,261,keep,"cluster of 2, kept longest answer"
+c26,brand:gyeon,2426,,brand,Eğitim sunuyor musunuz?,81,delete,near-duplicate of faq 2438 (kept)
+c27,sku:Q2M-QDYA1000M,1298,Q2M-QDYA1000M,product,Ürün yüzeyde kurursa iz kalır mı?,61,keep,"cluster of 2, kept longest answer"
+c27,sku:Q2M-QDYA1000M,1347,Q2M-QDYA1000M,product,Ürün yüzeyde kurursa iz kalır mı?,61,delete,near-duplicate of faq 1298 (kept)
+c28,sku:Q2M-PYA4000M,1214,Q2M-PYA4000M,product,Prep sonrası ne kadar sürede kaplama yapmalıyım?,72,keep,"cluster of 2, kept longest answer"
+c28,sku:Q2M-PYA4000M,323,Q2M-PYA4000M,product,Prep sonrası ne kadar sürede kaplama yapmalıyım?,68,delete,near-duplicate of faq 1214 (kept)
+c29,sku:Q2M-PYA4000M,1213,Q2M-PYA4000M,product,Sıcak panelde kullanabilir miyim?,70,keep,"cluster of 2, kept longest answer"
+c29,sku:Q2M-PYA4000M,321,Q2M-PYA4000M,product,Sıcak panelde kullanabilir miyim?,68,delete,near-duplicate of faq 1213 (kept)
+c30,sku:Q2M-WCYA4000M,1287,Q2M-WCYA4000M,product,Seramik kaplama üzerine uygulanabilir mi?,97,keep,"cluster of 2, kept longest answer"
+c30,sku:Q2M-WCYA4000M,1337,Q2M-WCYA4000M,product,Seramik kaplama üzerine uygulanabilir mi?,63,delete,near-duplicate of faq 1287 (kept)
+c31,sku:Q2M-CDYA1000M,1297,Q2M-CDYA1000M,product,Ne sıklıkla kullanmalıyım?,71,keep,"cluster of 2, kept longest answer"
+c31,sku:Q2M-CDYA1000M,1346,Q2M-CDYA1000M,product,Ne sıklıkla kullanılmalı?,71,delete,near-duplicate of faq 1297 (kept)
+c32,sku:Q2M-CDYA1000M,1296,Q2M-CDYA1000M,product,Camda yağlı film oluşturur mu?,72,keep,"cluster of 2, kept longest answer"
+c32,sku:Q2M-CDYA1000M,1345,Q2M-CDYA1000M,product,Camda yağlı film oluşturur mu?,72,delete,near-duplicate of faq 1296 (kept)
+c33,sku:Q2M-TOTR1000M,1350,Q2M-TOTR1000M,product,Mat/satin boyada iz bırakır mı?,76,keep,"cluster of 2, kept longest answer"
+c33,sku:Q2M-TOTR1000M,1353,Q2M-TOTR1000M,product,Mat/satin boyada iz bırakır mı?,48,delete,near-duplicate of faq 1350 (kept)
+c34,sku:Q2M-BYA4000M,85,Q2M-BYA4000M,product,Sıcak panelde kullanabilir miyim?,86,keep,"cluster of 2, kept longest answer"
+c34,sku:Q2M-BYA4000M,159,Q2M-BYA4000M,product,Sıcak panelde kullanabilir miyim?,62,delete,near-duplicate of faq 85 (kept)
+c35,sku:Q2-W175G,2109,Q2-W175G,product,Islak yüzeye uygulanabilir mi?,151,keep,"cluster of 2, kept longest answer"
+c35,sku:Q2-W175G,2564,Q2-W175G,product,Islak yüzeye uygulanabilir mi?,151,delete,near-duplicate of faq 2109 (kept)
+c36,sku:Q2-W175G,2108,Q2-W175G,product,Birden fazla kat uygulayabilir miyim?,42,keep,"cluster of 2, kept longest answer"
+c36,sku:Q2-W175G,2543,Q2-W175G,product,Birden fazla kat uygulayabilir miyim?,5,delete,near-duplicate of faq 2108 (kept)
+c37,sku:Q2-OLE100M,2600,Q2-OLE100M,product,Birden fazla kat uygulayabilir miyim?,60,keep,"cluster of 2, kept longest answer"
+c37,sku:Q2-OLE100M,2095,Q2-OLE100M,product,Birden fazla kat uygulayabilir miyim?,46,delete,near-duplicate of faq 2600 (kept)
+c38,sku:Q2-OLE100M,237,Q2-OLE100M,product,Soğuk havada uygulama yapılır mı?,57,keep,"cluster of 2, kept longest answer"
+c38,sku:Q2-OLE100M,325,Q2-OLE100M,product,Soğuk havada uygulama yapılır mı?,53,delete,near-duplicate of faq 237 (kept)
+c39,sku:Q2-SLE50M,246,Q2-SLE50M,product,Mat boyada parlaklık yapar mı?,46,keep,"cluster of 2, kept longest answer"
+c39,sku:Q2-SLE50M,320,Q2-SLE50M,product,Mat boyada parlaklık yapar mı?,46,delete,near-duplicate of faq 246 (kept)
+c40,sku:Q2-PLE50M,2559,Q2-PLE50M,product,Birden fazla kat uygulayabilir miyim?,100,keep,"cluster of 2, kept longest answer"
+c40,sku:Q2-PLE50M,2029,Q2-PLE50M,product,Birden fazla kat uygulayabilir miyim?,96,delete,near-duplicate of faq 2559 (kept)
+c41,sku:22202.260.001,1934,22202.260.001,product,Diğer boyutlarla aynı formül mü?,50,keep,"cluster of 2, kept longest answer"
+c41,sku:22202.260.001,1982,22202.260.001,product,Diğer boyutlarla aynı formül mü?,48,delete,near-duplicate of faq 1934 (kept)
+c42,sku:22748.261.001,1898,22748.261.001,product,Elle uygulama yapabilir miyim?,160,keep,"cluster of 2, kept longest answer"
+c42,sku:22748.261.001,1958,22748.261.001,product,Elle uygulama yapabilir miyim?,49,delete,near-duplicate of faq 1898 (kept)
+c43,sku:26915.099.001,1845,26915.099.001,product,Bu keçe hangi pastalarla kullanılır?,110,keep,"cluster of 2, kept longest answer"
+c43,sku:26915.099.001,1864,26915.099.001,product,Bu keçe hangi pastalarla kullanılır?,72,delete,near-duplicate of faq 1845 (kept)
+c44,sku:82672,1637,82672,product,Köpük yapıcı mı?,81,keep,"cluster of 2, kept longest answer"
+c44,sku:82672,1640,82672,product,Köpük yapıcı mı?,77,delete,near-duplicate of faq 1637 (kept)
+c45,sku:21746,1595,21746,product,Hangi kimyasallarla uyumlu?,137,keep,"cluster of 2, kept longest answer"
+c45,sku:21746,1608,21746,product,Hangi kimyasallarla uyumlu?,137,delete,near-duplicate of faq 1595 (kept)
+c46,sku:21746,1593,21746,product,Köpük yoğunluğu nasıl ayarlanır?,151,keep,"cluster of 2, kept longest answer"
+c46,sku:21746,1607,21746,product,Köpük yoğunluğu nasıl ayarlanır?,108,delete,near-duplicate of faq 1593 (kept)
+c47,sku:492361,1485,492361,product,Hangi işler için uygundur?,96,keep,"cluster of 2, kept longest answer"
+c47,sku:492361,1480,492361,product,Hangi işler için uygundur?,83,delete,near-duplicate of faq 1485 (kept)
+c48,sku:487988,1475,487988,product,Hangi makinelerle uyumlu?,97,keep,"cluster of 2, kept longest answer"
+c48,sku:487988,1472,487988,product,Hangi makinelerle uyumlu?,77,delete,near-duplicate of faq 1475 (kept)
+c49,sku:GRY6555,1439,GRY6555,product,Hangi makinelerle kullanılır?,66,keep,"cluster of 2, kept longest answer"
+c49,sku:GRY6555,1112,GRY6555,product,Hangi makinelerle kullanılır?,47,delete,near-duplicate of faq 1439 (kept)
+c50,sku:Q2M-PPFSL4000M,1162,Q2M-PPFSL4000M,product,Neden bebek şampuanı yerine PPF Slip kullanmalıyım?,195,keep,"cluster of 2, kept longest answer"
+c50,sku:Q2M-PPFSL4000M,1166,Q2M-PPFSL4000M,product,Neden bebek şampuanı yerine PPF Slip kullanmalıyım?,113,delete,near-duplicate of faq 1162 (kept)
+c51,sku:Q2M-APYA4000M,775,Q2M-APYA4000M,product,Kumaş koltukta renk solması yapar mı?,62,keep,"cluster of 2, kept longest answer"
+c51,sku:Q2M-APYA4000M,846,Q2M-APYA4000M,product,Kumaş koltukta renk solması yapar mı?,62,delete,near-duplicate of faq 775 (kept)
+c52,sku:Q2M-APYA4000M,844,Q2M-APYA4000M,product,APC boyalı yüzeyde cilayı söker mi?,77,keep,"cluster of 2, kept longest answer"
+c52,sku:Q2M-APYA4000M,773,Q2M-APYA4000M,product,APC boyalı yüzeyde cilayı söker mi?,74,delete,near-duplicate of faq 844 (kept)
+c53,sku:GPRO180F-C,1051,GPRO180F-C,product,Taban çapı nedir?,39,keep,"cluster of 2, kept longest answer"
+c53,sku:GPRO180F-C,1079,GPRO180F-C,product,Taban çapı nedir?,39,delete,near-duplicate of faq 1051 (kept)
+c54,sku:RE180F-C,1071,RE180F-C,product,Taban çapı nedir?,39,keep,"cluster of 2, kept longest answer"
+c54,sku:RE180F-C,1133,RE180F-C,product,Taban çapı nedir?,39,delete,near-duplicate of faq 1071 (kept)
+c55,sku:GE180F-C,1063,GE180F-C,product,Taban çapı nedir?,39,keep,"cluster of 2, kept longest answer"
+c55,sku:GE180F-C,1081,GE180F-C,product,Taban çapı nedir?,39,delete,near-duplicate of faq 1063 (kept)
+c56,sku:MT14850M,959,MT14850M,product,24mm yerine ne zaman kullanılır?,94,keep,"cluster of 2, kept longest answer"
+c56,sku:MT14850M,957,MT14850M,product,24mm yerine ne zaman kullanılır?,87,delete,near-duplicate of faq 959 (kept)

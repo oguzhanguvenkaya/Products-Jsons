@@ -1,0 +1,326 @@
+id,scope,sku,field,before,after,label
+phase2R-abrasive_polish-20144.261.001-1,product,20144.261.001,template_sub_type,sanding_paste,heavy_cut_compound,APPROVED: abrasive_polish icinde; boya oncesi matlastirma pastasi = heavy_cut_compound ailesi
+phase2R-abrasive_polish-23003.391.001-2,product,23003.391.001,template_sub_type,metal_polish,polish,APPROVED: metal/krom parlatici polish ailesinin alt-tipi
+phase2R-abrasive_polish-22748.261.001-3,product,22748.261.001,template_sub_type,one_step_polish,polish,APPROVED: tek adim pasta orta-agresif polish ailesi
+phase2R-car_shampoo-Q2M-PPFW500M-7,product,Q2M-PPFW500M,template_sub_type,ppf_shampoo,ph_neutral_shampoo,APPROVED: PPF Wash ph=7 Notr ph-notr sampuan alt-sinifi
+phase2R-ceramic_coating-Q2-OLE100M-9,product,Q2-OLE100M,template_sub_type,single_layer_coating,paint_coating,APPROVED: Q One EVO tek kat seramik paint_coating alt-tipi
+phase2R-ceramic_coating-Q2-MTEL50M-10,product,Q2-MTEL50M,template_sub_type,matte_coating,paint_coating,APPROVED: mat boya/PPF seramik paint_coating mat varyanti
+phase2R-ceramic_coating-Q2-CCE200M-11,product,Q2-CCE200M,template_sub_type,spray_coating,paint_coating,APPROVED: CanCoat EVO sprey formlu paint_coating
+phase2R-ceramic_coating-Q2-SLE50M-12,product,Q2-SLE50M,template_sub_type,paint_coating_kit,paint_coating,APPROVED: Syncro EVO cift katman boya kaplama kiti
+phase2R-ceramic_coating-MXP-HC50KS-13,product,MXP-HC50KS,template_sub_type,multi_step_coating_kit,paint_coating,APPROVED: hibrit seramik boya kaplama kit
+phase2R-ceramic_coating-Q2-BS30M-14,product,Q2-BS30M,template_sub_type,top_coat,paint_coating,APPROVED: Booster seramik yenileyici paint_coating booster varyanti
+phase2R-ceramic_coating-Q2-PPFE50M-15,product,Q2-PPFE50M,template_sub_type,ppf_coating,paint_coating,APPROVED: PPF/vinil boya ustu film paint_coating
+phase2R-clay_products-MGPS-6009P-17,product,MGPS-6009P,template_sub_type,clay_cloth,clay_pad,APPROVED: form=cloth ayni is = dekontaminasyon
+phase2R-clay_products-MGPS-6012K-18,product,MGPS-6012K,template_sub_type,clay_disc,clay_pad,APPROVED: form=disc makine destekli dekontaminasyon
+phase2R-clay_products-MGPS-6016P-19,product,MGPS-6016P,template_sub_type,clay_mitt,clay_pad,APPROVED: form=mitt ayni is = dekontaminasyon
+phase2R-contaminant_solvers-Q2M-PYA4000M-21,product,Q2M-PYA4000M,template_sub_type,single_layer_coating,surface_prep,APPROVED: sub duzeltmesi — yag/kalinti aritici surface_prep
+phase2R-interior_cleaner-Q2M-PRYA250M-30,product,Q2M-PRYA250M,template_sub_type,plastic_restorer,plastic_dressing,APPROVED: Preserve plastik trim yenileyici plastic_dressing restorasyon varyanti
+phase2R-microfiber-70919-31,product,70919,template_sub_type,chamois_drying_towel,drying_towel,APPROVED: sentetik guderi kurulama bezi drying_towel ana sinifi | User override: target=drying_towel
+phase2R-microfiber-Q2M-BWE4040-32,product,Q2M-BWE4040,template_sub_type,coating_cloth,buffing_cloth,APPROVED: Baldwipe EVO kaplama silimi buffing_cloth islevi | User override: target=buffing_cloth
+phase2-paint_protection_quick-75182-1,product,75182,template_sub_type,spray_wipe_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; sub-variant flag specs içine
+phase2-paint_protection_quick-74059-2,product,74059,template_sub_type,spray_wipe_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; sub-variant flag specs içine
+phase2-paint_protection_quick-Q2M-WCYA4000M-3,product,Q2M-WCYA4000M,template_sub_type,spray_rinse_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; rinse=after-care flag
+phase2-paint_protection_quick-79304-4,product,79304,template_sub_type,spray_rinse_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; rinse=after-care flag
+phase2-paint_protection_quick-700096-5,product,700096,template_sub_type,spray_wipe_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; sub-variant flag specs içine
+phase2-spare_part-81771871-subtype,product,81771871,template_sub_type,nozzle_kit,nozzle,P0 merge: nozzle_kit -> nozzle (semantik aynı)
+phase2-spare_part-83371816-subtype,product,83371816,template_sub_type,trigger_gun,trigger_head,P0 merge: trigger_gun -> trigger_head (tetikli sprey kafa eşanlamlı)
+phase2R-brushes-SGGD294-1,product,SGGD294,template_sub_type,wheel_brush,tire_brush,APPROVED: Ürün adı 'Tire Cleaning Brush' + targetSurface=Lastik mislabel fix
+phase2R-glass-Q2M-GPYA1000M-2,product,Q2M-GPYA1000M,template_sub_type,glass_hydrophobic_sealant,glass_protectant,APPROVED: Simetri iyileşmesi — diğer protectant ürünleriyle tek sub_type
+phase2Rfinal-userTur4Q3-532579-sub,product,532579,template_sub_type,other,heat_gun,User Tur4Q3: other → heat_gun
+phase2Rfinal-userTur4Q3-SGGC055-sub,product,SGGC055,template_sub_type,other,tornador_gun,User Tur4Q3: other → tornador_gun
+phase2Rfinal-userTur4Q3-SGGC086-sub,product,SGGC086,template_sub_type,other,air_blow_gun,User Tur4Q3: other → air_blow_gun
+phase2Rfinal-userTur4Q3-SGGS003-sub,product,SGGS003,template_sub_type,other,air_blow_gun,User Tur4Q3: other → air_blow_gun
+phase2Rfinal-userTur1Q1-Q2M-FCNA1000M-1,product,Q2M-FCNA1000M,template_sub_type,fabric_cleaner,fabric_leather_cleaner,User Tur1Q1: fabric_cleaner → fabric_leather_cleaner (kapsayıcı sub)
+phase2Rfinal-userTur1Q1-70723-2,product,70723,template_sub_type,fabric_cleaner_concentrate,fabric_leather_cleaner,User Tur1Q1: fabric_cleaner_concentrate → fabric_leather_cleaner (kapsayıcı sub)
+phase2Rfinal-userTur1Q1-71676-3,product,71676,template_sub_type,fabric_cleaner_concentrate,fabric_leather_cleaner,User Tur1Q1: fabric_cleaner_concentrate → fabric_leather_cleaner (kapsayıcı sub)
+phase2Rfinal-userTur1Q1-73378-4,product,73378,template_sub_type,fabric_cleaner_concentrate,fabric_leather_cleaner,User Tur1Q1: fabric_cleaner_concentrate → fabric_leather_cleaner (kapsayıcı sub)
+phase2Rfinal-userTur1Q1-75404-5,product,75404,template_sub_type,fabric_cleaner_concentrate,fabric_leather_cleaner,User Tur1Q1: fabric_cleaner_concentrate → fabric_leather_cleaner (kapsayıcı sub)
+phase2Rfinal-userTur1Q23-Q2M-IPE4P-1,product,Q2M-IPE4P,template_sub_type,kit,cleaning_cloth,User Tur1Q23: kit → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-Q2M-GPE2P-2,product,Q2M-GPE2P,template_sub_type,kit,cleaning_cloth,User Tur1Q23: kit → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-Q2M-IWE40402P-3,product,Q2M-IWE40402P,template_sub_type,interior_cloth,cleaning_cloth,User Tur1Q23: interior_cloth → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-Q2M-LWE40402P-4,product,Q2M-LWE40402P,template_sub_type,interior_cloth,cleaning_cloth,User Tur1Q23: interior_cloth → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-3218-5,product,3218,template_sub_type,glass_cloth,cleaning_cloth,User Tur1Q23: glass_cloth → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-3218-1-6,product,3218-1,template_sub_type,glass_cloth,cleaning_cloth,User Tur1Q23: glass_cloth → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-Q2M-GWE4040-7,product,Q2M-GWE4040,template_sub_type,glass_cloth,cleaning_cloth,User Tur1Q23: glass_cloth → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q23-Q2M-WD4060C-8,product,Q2M-WD4060C,template_sub_type,glass_cloth,cleaning_cloth,User Tur1Q23: glass_cloth → cleaning_cloth (ana havuz)
+phase2Rfinal-userTur1Q4-26942-tg,product,26942.099.001,template_group,accessory,microfiber,User Tur1Q4: accessory → microfiber (tek-ürünlü grup eritme)
+phase2Rfinal-userTur1Q4-26942-sub,product,26942.099.001,template_sub_type,,buffing_cloth,User Tur1Q4: null → buffing_cloth (pasta sonrası silme bezi)
+phase2Rfinal-userTur2Q2-75132-tg,product,75132,template_group,interior_cleaner,marin_products,User Tur2Q2: interior_cleaner → marin_products
+phase2Rfinal-userTur2Q2-75132-sub,product,75132,template_sub_type,wood_cleaner,interior_detailer,User Tur2Q2: wood_cleaner → interior_detailer
+phase2Rfinal-userTur2Q2-77192-tg,product,77192,template_group,interior_cleaner,marin_products,User Tur2Q2: interior_cleaner → marin_products
+phase2Rfinal-userTur2Q2-77192-sub,product,77192,template_sub_type,wood_protector,interior_detailer,User Tur2Q2: wood_protector → interior_detailer
+phase2Rfinal-userTur2Q3-700468,product,700468,template_sub_type,leather_conditioner,leather_dressing,User Tur2Q3: leather_conditioner → leather_dressing (besleme+koruma)
+phase2Rfinal-userTur2Q3-Q2LCR500M,product,Q2-LCR500M,template_sub_type,leather_protectant,leather_dressing,User Tur2Q3: leather_protectant → leather_dressing (besleme+koruma)
+phase2Rfinal-userTur2Q4-79292,product,79292,template_sub_type,oil_degreaser,surface_prep,User Tur2Q4: oil_degreaser → surface_prep (alkol bazlı yüzey temiz)
+phase2Rfinal-userTur3Q1-373680-1,product,373680,template_sub_type,corded_rotary_polisher,rotary,User Tur3Q1: corded_rotary_polisher → rotary
+phase2Rfinal-userTur3Q1-406813-2,product,406813,template_sub_type,corded_rotary_polisher,rotary,User Tur3Q1: corded_rotary_polisher → rotary
+phase2Rfinal-userTur3Q1-SGGF179-3,product,SGGF179,template_sub_type,corded_rotary_polisher,rotary,User Tur3Q1: corded_rotary_polisher → rotary
+phase2Rfinal-userTur3Q1-533019-4,product,533019,template_sub_type,cordless_rotary_polisher,rotary,User Tur3Q1: cordless_rotary_polisher → rotary
+phase2Rfinal-userTur3Q2-418072-1,product,418072,template_sub_type,forced_rotation_polisher,dual_action_polisher,User Tur3Q2: forced_rotation_polisher → dual_action_polisher
+phase2Rfinal-userTur3Q2-533020-2,product,533020,template_sub_type,forced_rotation_polisher,dual_action_polisher,User Tur3Q2: forced_rotation_polisher → dual_action_polisher
+phase2Rfinal-userTur3Q2-418102-3,product,418102,template_sub_type,mini_cordless_polisher,dual_action_polisher,User Tur3Q2: mini_cordless_polisher → dual_action_polisher
+phase2Rfinal-userTur3Q2-SGGF273-4,product,SGGF273,template_sub_type,mini_cordless_polisher,dual_action_polisher,User Tur3Q2: mini_cordless_polisher → dual_action_polisher
+phase2Rfinal-userTur3Q3-418080-1,product,418080,template_sub_type,da_polisher,orbital,User Tur3Q3: da_polisher → orbital
+phase2Rfinal-userTur3Q3-447129-2,product,447129,template_sub_type,da_polisher,orbital,User Tur3Q3: da_polisher → orbital
+phase2Rfinal-userTur3Q3-533021-3,product,533021,template_sub_type,da_polisher,orbital,User Tur3Q3: da_polisher → orbital
+phase2Rfinal-userTur3Q3-SGGF181-4,product,SGGF181,template_sub_type,da_polisher,orbital,User Tur3Q3: da_polisher → orbital
+phase2Rfinal-userTur3Q4-701606,product,701606,template_group,glass_cleaner,glass_cleaner_protectant,User Tur3Q4: glass_cleaner → glass_cleaner_protectant (tg merge)
+phase2Rfinal-userTur3Q4-74955,product,74955,template_group,glass_cleaner,glass_cleaner_protectant,User Tur3Q4: glass_cleaner → glass_cleaner_protectant (tg merge)
+phase2Rfinal-userTur3Q5-SGGD402,product,SGGD402,template_group,storage_accessories,accessory,User Tur3Q5: storage_accessories → accessory (bahçe tabancası)
+phase2Rfinal-userTur4Q1-75138-1,product,75138,template_sub_type,tire_gel,tire_dressing,User Tur4Q1: tire_gel → tire_dressing
+phase2Rfinal-userTur4Q1-701908-2,product,701908,template_sub_type,tire_gel,tire_dressing,User Tur4Q1: tire_gel → tire_dressing
+phase2Rfinal-userTur4Q1-Q2M-TEYA1000M-3,product,Q2M-TEYA1000M,template_sub_type,tire_gel,tire_dressing,User Tur4Q1: tire_gel → tire_dressing
+phase2Rfinal-userTur4Q3-532579-tg,product,532579,template_group,polisher_machine,accessory,User Tur4Q3: polisher_machine → accessory
+phase2Rfinal-userTur4Q3-SGGC055-tg,product,SGGC055,template_group,polisher_machine,accessory,User Tur4Q3: polisher_machine → accessory
+phase2Rfinal-userTur4Q3-SGGC086-tg,product,SGGC086,template_group,polisher_machine,accessory,User Tur4Q3: polisher_machine → accessory
+phase2Rfinal-userTur4Q3-SGGS003-tg,product,SGGS003,template_group,polisher_machine,accessory,User Tur4Q3: polisher_machine → accessory
+phase2Rfinal-userTur5Q2-513547-01-tg,product,513547-01,template_group,polisher_machine,accessory,User Tur5Q2: polisher_machine → accessory
+phase2Rfinal-userTur5Q2-513547-01-sub,product,513547-01,template_sub_type,mini_cordless_polisher,tool_kit,User Tur5Q2: mini_cordless_polisher → tool_kit
+phase2Rfinal-userTur5Q3-530537-tg,product,530537,template_group,polisher_machine,accessory,User Tur5Q3: polisher_machine → accessory
+phase2Rfinal-userTur5Q3-530537-sub,product,530537,template_sub_type,mini_cordless_polisher,blower,User Tur5Q3: mini_cordless_polisher → blower
+phase2Rfinal-userTur5Q4-GPRO6555-tg,product,GPRO6555,template_group,polisher_machine,polishing_pad,User Tur5Q4: polisher_machine → polishing_pad
+phase2Rfinal-userTur5Q4-GPRO6555-sub,product,GPRO6555,template_sub_type,mini_cordless_polisher,foam_pad,User Tur5Q4: mini_cordless_polisher → foam_pad
+phase2Rfinal-washtools-3221A-RD-tem,product,3221A-RD,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-3225A-BL-tem,product,3225A-BL,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-3227B-tem,product,3227B,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-3227I-HD-tem,product,3227I-HD,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-3228R-tem,product,3228R,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-Q2M-STE-tem,product,Q2M-STE,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-Q2M-WME-tem,product,Q2M-WME,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-Q2M-WP-tem,product,Q2M-WP,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (yıkama eldiveni)
+phase2Rfinal-washtools-70919-tem,product,70919,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (sentetik güderi)
+phase2Rfinal-washtools-3213EMR-tem,product,3213EMR,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (kurulama havlusu)
+phase2Rfinal-washtools-Q2M-SDE7090C-tem,product,Q2M-SDE7090C,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (kurulama havlusu)
+phase2Rfinal-washtools-Q2M-SODE6080C-tem,product,Q2M-SODE6080C,template_group,microfiber,wash_tools,Phase 2R §14: microfiber → wash_tools (kurulama havlusu)
+phase2Rfinal-washtools-SGGD004-tem,product,SGGD004,template_group,applicators,wash_tools,Phase 2R §14: applicators → wash_tools (yıkama süngeri)
+phase2Rfinal-washtools-SGGD004-tem,product,SGGD004,template_sub_type,wash_sponge,wash_mitt,Phase 2R §14: wash_sponge → wash_mitt (user: mitt havuzu)
+phase2Rfinal-washtools-SGGD135-tem,product,SGGD135,template_group,sprayers_bottles,wash_tools,Phase 2R §14: sprayers_bottles → wash_tools (foam lance)
+phase2Rfinal-washtools-SGGD135-tem,product,SGGD135,template_sub_type,foaming_pump_sprayer,foam_tool,Phase 2R §14: foaming_pump_sprayer → foam_tool
+phase2Rfinal-washtools-SGGC091-tem,product,SGGC091,template_group,sprayers_bottles,wash_tools,Phase 2R §14: sprayers_bottles → wash_tools (tornador foam gun)
+phase2Rfinal-washtools-SGGC091-tem,product,SGGC091,template_sub_type,foaming_pump_sprayer,foam_tool,Phase 2R §14: foaming_pump_sprayer → foam_tool
+phase2Rfinal-washtools-Q2M-WME-surface,product.specs,Q2M-WME,specs.target_surface,,wheel,User §14: jant yıkama eldiveni için target_surface=wheel
+phase2Rfinal-meta-3217HS-5G-sub-mpc1,product,3217HS-5G,template_sub_type,multi_purpose_cloth,buffing_cloth,"User §14 ek: multi_purpose_cloth → buffing_cloth (paket ürün, pasta sonrası silme)"
+phase2Rfinal-meta-3217HS-5W-sub-mpc2,product,3217HS-5W,template_sub_type,multi_purpose_cloth,buffing_cloth,"User §14 ek: multi_purpose_cloth → buffing_cloth (paket ürün, pasta sonrası silme)"
+phase2Rfinal-meta-KLIN-3113AG-sub-mpc3,product,KLIN-3113AG,template_sub_type,multi_purpose_cloth,buffing_cloth,"User §14 ek: multi_purpose_cloth → buffing_cloth (paket ürün, pasta sonrası silme)"
+phase2Rfinal-meta-Q2M-IPE4P-target_surface-ts1,product.specs,Q2M-IPE4P,specs.target_surface,,interior,User §14 meta: cleaning_cloth ayrımı için target_surface=interior
+phase2Rfinal-meta-Q2M-GPE2P-target_surface-ts2,product.specs,Q2M-GPE2P,specs.target_surface,,glass,User §14 meta: cleaning_cloth ayrımı için target_surface=glass
+phase2Rfinal-meta-Q2M-IWE40402P-target_surface-ts3,product.specs,Q2M-IWE40402P,specs.target_surface,,interior,User §14 meta: cleaning_cloth ayrımı için target_surface=interior
+phase2Rfinal-meta-Q2M-LWE40402P-target_surface-ts4,product.specs,Q2M-LWE40402P,specs.target_surface,,leather,User §14 meta: cleaning_cloth ayrımı için target_surface=leather
+phase2Rfinal-meta-3218-target_surface-ts5,product.specs,3218,specs.target_surface,,glass,User §14 meta: cleaning_cloth ayrımı için target_surface=glass
+phase2Rfinal-meta-3218-1-target_surface-ts6,product.specs,3218-1,specs.target_surface,,glass,User §14 meta: cleaning_cloth ayrımı için target_surface=glass
+phase2Rfinal-meta-Q2M-GWE4040-target_surface-ts7,product.specs,Q2M-GWE4040,specs.target_surface,,glass,User §14 meta: cleaning_cloth ayrımı için target_surface=glass
+phase2Rfinal-meta-Q2M-WD4060C-target_surface-ts8,product.specs,Q2M-WD4060C,specs.target_surface,,glass,User §14 meta: cleaning_cloth ayrımı için target_surface=glass
+phase2Rfinal-meta-3219-purpose-pp1,product.specs,3219,specs.purpose,,heavy_duty,User §14 meta: Green Monster zorlu yağ/kir için
+phase2Rfinal-meta-Q2M-WD4060C-secondary_use-su1,product.specs,Q2M-WD4060C,specs.secondary_use,,drying,User §14 meta: Waffle Dryer cam silme + kurulama ikili kullanım
+phase2Rfinal-meta-Q2M-IPE4P-is_kit-ik1,product.specs,Q2M-IPE4P,specs.is_kit,,true,User §14 meta: InteriorPack 4'lü — kit işareti
+phase2Rfinal-meta-Q2M-IPE4P-pack_size-ps1,product.specs,Q2M-IPE4P,specs.pack_size,,4,User §14 meta: InteriorPack 4'lü — adet=4
+phase2Rfinal-meta-Q2M-GPE2P-is_kit-ik2,product.specs,Q2M-GPE2P,specs.is_kit,,true,User §14 meta: GlassPack 2'li — kit işareti
+phase2Rfinal-meta-Q2M-GPE2P-pack_size-ps2,product.specs,Q2M-GPE2P,specs.pack_size,,2,User §14 meta: GlassPack 2'li — adet=2
+phase2Rfinal-meta-3217HS-5G-is_kit-ik3,product.specs,3217HS-5G,specs.is_kit,,true,User §14 meta: KLIN Zero Finish 5'li Gri — kit işareti
+phase2Rfinal-meta-3217HS-5G-pack_size-ps3,product.specs,3217HS-5G,specs.pack_size,,5,User §14 meta: KLIN Zero Finish 5'li Gri — adet=5
+phase2Rfinal-meta-3217HS-5W-is_kit-ik4,product.specs,3217HS-5W,specs.is_kit,,true,User §14 meta: KLIN Zero Finish 5'li Beyaz — kit işareti
+phase2Rfinal-meta-3217HS-5W-pack_size-ps4,product.specs,3217HS-5W,specs.pack_size,,5,User §14 meta: KLIN Zero Finish 5'li Beyaz — adet=5
+phase2Rfinal-meta-KLIN-3113AG-is_kit-ik5,product.specs,KLIN-3113AG,specs.is_kit,,true,User §14 meta: KLIN Clean Towel 10'lu — kit işareti
+phase2Rfinal-meta-KLIN-3113AG-pack_size-ps5,product.specs,KLIN-3113AG,specs.pack_size,,10,User §14 meta: KLIN Clean Towel 10'lu — adet=10
+phase2Rfinal-meta-26942.099.001-is_kit-ik6,product.specs,26942.099.001,specs.is_kit,,true,User §14 meta: MENZERNA 4'lü set — kit işareti
+phase2Rfinal-meta-26942.099.001-pack_size-ps6,product.specs,26942.099.001,specs.pack_size,,4,User §14 meta: MENZERNA 4'lü set — adet=4
+phase2Rfinal-suedefix-Q2M-SEP1010C-tg,product,Q2M-SEP1010C,template_group,microfiber,applicators,User fix: Suede EVO seramik aplikatörü → applicators grubu
+phase2Rfinal-suedefix-Q2M-SEP1010C-sub,product,Q2M-SEP1010C,template_sub_type,suede_cloth,applicator_pad,"User fix: suede_cloth → applicator_pad (seramik uygulama bezi, silme değil)"
+phase2Rfinal-suedefix-Q2M-SEP1010C-surface,product.specs,Q2M-SEP1010C,specs.target_surface,,paint,User fix: seramik kaplama uygulama hedefi
+phase2Rfinal-suedefix-Q2M-SEP1010C-is_kit,product.specs,Q2M-SEP1010C,specs.is_kit,,true,User fix: Suede EVO 10lu paket
+phase2Rfinal-suedefix-Q2M-SEP1010C-pack_size,product.specs,Q2M-SEP1010C,specs.pack_size,,10,User fix: 10lu paket adet
+phase2Rfinal-applifix-Q2M-SPE-tem-1,product,Q2M-SPE,template_sub_type,scrub_pad,applicator_pad,User fix: Gyeon Scrubpad → applicator_pad (purpose=cleaning)
+phase2Rfinal-applifix-3236NBR2-tem-2,product,3236NBR2,template_group,microfiber,applicators,User fix: KLIN Scrubpad microfiber → applicators
+phase2Rfinal-applifix-3236NBR2-tem-3,product,3236NBR2,template_sub_type,interior_cleaning_applicator,applicator_pad,User fix: KLIN Scrubpad → applicator_pad (purpose=cleaning)
+phase2Rfinal-applifix-SGGD190-tem-4,product,SGGD190,template_sub_type,cleaning_sponge,applicator_pad,"User fix: Magic Sponge → applicator_pad (purpose=cleaning, melamin silgi)"
+phase2Rfinal-applipurpose-Q2M-MFAE-1,product.specs,Q2M-MFAE,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-3224M-2,product.specs,3224M,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-3229-3,product.specs,3229,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-Q2M-SEP1010C-4,product.specs,Q2M-SEP1010C,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-SGGD188-02-5,product.specs,SGGD188-02,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-3235-6,product.specs,3235,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-11075-RE-7,product.specs,11075-RE,specs.purpose,,coating_application,User §14 meta: applicator_pad purpose=coating_application
+phase2Rfinal-applipurpose-Q2M-SPE-8,product.specs,Q2M-SPE,specs.purpose,,cleaning,User §14 meta: applicator_pad purpose=cleaning
+phase2Rfinal-applipurpose-3236NBR2-9,product.specs,3236NBR2,specs.purpose,,cleaning,User §14 meta: applicator_pad purpose=cleaning
+phase2Rfinal-applipurpose-SGGD190-10,product.specs,SGGD190,specs.purpose,,cleaning,User §14 meta: applicator_pad purpose=cleaning
+phase2Rfinal-applisurf-Q2M-SPE-1,product.specs,Q2M-SPE,specs.target_surface,,interior,User §14 meta: scrub/sponge temizlik deri+plastik iç mekan
+phase2Rfinal-applisurf-3236NBR2-2,product.specs,3236NBR2,specs.target_surface,,interior,User §14 meta: scrub/sponge temizlik deri+plastik iç mekan
+phase2Rfinal-applisurf-SGGD190-3,product.specs,SGGD190,specs.target_surface,,interior,User §14 meta: scrub/sponge temizlik deri+plastik iç mekan
+phase2Rfinal-userfix-71490-sub,product,71490,template_sub_type,prewash_foaming_shampoo,ph_neutral_shampoo,User fix: FRA-BER Neve — cilalı parfümlü ana yıkama (ön yıkama değil)
+phase2Rfinal-towelwash-Q2M-TWYA500M-tg,product,Q2M-TWYA500M,template_group,car_shampoo,wash_tools,User fix: GYEON TowelWash 500ml bez/havlu yıkama şampuanı → wash_tools (araç şampuanı değil)
+phase2Rfinal-towelwash-701422-tg,product,701422,template_group,car_shampoo,wash_tools,User fix: INNOVACAR SM MICRON Shampoo 1000ml bez/havlu yıkama şampuanı → wash_tools (araç şampuanı değil)
+phase2Rfinal-sparedissolve-26931.099.001-A1-tg,product,26931.099.001,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-26931.099.001-A1-pt,product.specs,26931.099.001,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-26934.099.001-A2-tg,product,26934.099.001,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-26934.099.001-A2-pt,product.specs,26934.099.001,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-26935.099.001-A3-tg,product,26935.099.001,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-26935.099.001-A3-pt,product.specs,26935.099.001,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-487988-A4-tg,product,487988,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-487988-A4-pt,product.specs,487988,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-492361-A5-tg,product,492361,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-492361-A5-pt,product.specs,492361,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-SGGD053-A6-tg,product,SGGD053,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-SGGD053-A6-pt,product.specs,SGGD053,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-SGGD166-A7-tg,product,SGGD166,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-SGGD166-A7-pt,product.specs,SGGD166,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-SGGF181-57-A8-tg,product,SGGF181-57,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=backing_plate korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-SGGF181-57-A8-pt,product.specs,SGGF181-57,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-445894-A9-tg,product,445894,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=battery korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-445894-A9-pt,product.specs,445894,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-336807-A10-tg,product,336807,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=carbon_brush korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-336807-A10-pt,product.specs,336807,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-399647-A11-tg,product,399647,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=carbon_brush korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-399647-A11-pt,product.specs,399647,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-417882-A12-tg,product,417882,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=charger korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-417882-A12-pt,product.specs,417882,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-458813-A13-tg,product,458813,template_group,spare_part,polisher_machine,"§15: spare_part → polisher_machine (sub=extension_kit korunur, makine aksesuarı)"
+phase2Rfinal-sparedissolve-458813-A13-pt,product.specs,458813,specs.product_type,,accessory,§15 meta: polisher_machine accessory (search ayrımı için)
+phase2Rfinal-sparedissolve-79258-B1-tg,product,79258,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-79258-B1-pt,product.specs,79258,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-79643-B2-tg,product,79643,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-79643-B2-pt,product.specs,79643,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-8410-B3-tg,product,8410,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-8410-B3-pt,product.specs,8410,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-8447-B4-tg,product,8447,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-8447-B4-pt,product.specs,8447,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-83371816-B5-tg,product,83371816,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-83371816-B5-sub,product,83371816,template_sub_type,trigger_gun,handle,§15: trigger_gun → handle merge
+phase2Rfinal-sparedissolve-83371816-B5-pt,product.specs,83371816,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-82671872-B6-tg,product,82671872,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-82671872-B6-pt,product.specs,82671872,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-82671836-B7-tg,product,82671836,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-82671836-B7-pt,product.specs,82671836,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-83371836-B8-tg,product,83371836,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-83371836-B8-pt,product.specs,83371836,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-81676800-B9-tg,product,81676800,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-81676800-B9-pt,product.specs,81676800,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-81771874-B10-tg,product,81771874,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-81771874-B10-pt,product.specs,81771874,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-82671874-B11-tg,product,82671874,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-82671874-B11-pt,product.specs,82671874,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-83371602-B12-tg,product,83371602,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-83371602-B12-pt,product.specs,83371602,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-81771871-B13-tg,product,81771871,template_group,spare_part,sprayers_bottles,§15: spare_part → sprayers_bottles (sprayer parçası)
+phase2Rfinal-sparedissolve-81771871-B13-sub,product,81771871,template_sub_type,nozzle_kit,nozzle,§15: nozzle_kit → nozzle merge
+phase2Rfinal-sparedissolve-81771871-B13-pt,product.specs,81771871,specs.product_type,,part,§15 meta: sprayers_bottles part (search ayrımı için)
+phase2Rfinal-sparedissolve-SGYC010-C1-tg,product,SGYC010,template_group,spare_part,accessory,"§15: spare_part → accessory (Tornador yedek parçası, ana ürün SGGC055 zaten accessory'de)"
+phase2Rfinal-sparedissolve-SGYC010-C1-pt,product.specs,SGYC010,specs.product_type,,part,§15 meta: Tornador part
+phase2Rfinal-sparedissolve-SGYC010-C1-compat,product.specs,SGYC010,specs.compatible_with,,tornador,§15 meta: Tornador uyumluluğu
+phase2Rfinal-sparedissolve-SGYC011-C2-tg,product,SGYC011,template_group,spare_part,accessory,"§15: spare_part → accessory (Tornador yedek parçası, ana ürün SGGC055 zaten accessory'de)"
+phase2Rfinal-sparedissolve-SGYC011-C2-pt,product.specs,SGYC011,specs.product_type,,part,§15 meta: Tornador part
+phase2Rfinal-sparedissolve-SGYC011-C2-compat,product.specs,SGYC011,specs.compatible_with,,tornador,§15 meta: Tornador uyumluluğu
+phase2Rfinal-sparedissolve-373680-M1-pt,product.specs,373680,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-406813-M2-pt,product.specs,406813,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-SGGF179-M3-pt,product.specs,SGGF179,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-533019-M4-pt,product.specs,533019,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-418080-M5-pt,product.specs,418080,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-447129-M6-pt,product.specs,447129,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-533021-M7-pt,product.specs,533021,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-SGGF181-M8-pt,product.specs,SGGF181,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-418072-M9-pt,product.specs,418072,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-533020-M10-pt,product.specs,533020,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-418102-M11-pt,product.specs,418102,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-SGGF273-M12-pt,product.specs,SGGF273,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-447706-M13-pt,product.specs,447706,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-530632-M14-pt,product.specs,530632,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-sparedissolve-513547-M15-pt,product.specs,513547,specs.product_type,,machine,§15 meta: polisher_machine ana makine (search ayrımı)
+phase2Rfinal-intRevise-701285-sub-1,product,701285,template_sub_type,interior_apc,fabric_leather_cleaner,Interior revise: interior_apc → fabric_leather_cleaner (Pullitutto deri+kumaş+plastik temizleyici)
+phase2Rfinal-intRevise-70901-sub-2,product,70901,template_sub_type,interior_apc,fabric_leather_cleaner,Interior revise: interior_apc → fabric_leather_cleaner (FRA-BER Tex çok amaçlı genel temizlik) [revize: kumaş+deri+plastik hafif temizleyici]
+phase2Rfinal-intRevise-701010-sub-3,product,701010,template_sub_type,interior_apc,multi_surface_apc,Interior revise: interior_apc → multi_surface_apc (MULTIFORCE çok amaçlı yağ kir)
+phase2Rfinal-intRevise-79771-sub-4,product,79771,template_sub_type,interior_apc,multi_surface_apc,Interior revise: interior_apc → multi_surface_apc (100% DEGREASING anti statik yağ çözücü)
+phase2Rfinal-intRevise-Q2M-TRC500M-sub-5,product,Q2M-TRC500M,template_sub_type,interior_apc,multi_surface_apc,Interior revise: interior_apc → multi_surface_apc (Gyeon Trim Cleaner antistatik plastik motor)
+phase2Rfinal-intRevise-Q2M-APYA4000M-sub-6,product,Q2M-APYA4000M,template_sub_type,interior_apc,multi_surface_apc,Interior revise: interior_apc → multi_surface_apc (Gyeon APC çok amaçlı konsantre)
+phase2Rfinal-intRevise-Q2M-IDYA4000M-sub-7,product,Q2M-IDYA4000M,template_sub_type,surface_disinfectant,fabric_leather_cleaner,Interior revise: surface_disinfectant → fabric_leather_cleaner (Gyeon InteriorDetailer alkol bazlı hafif temiz) [revize: kumaş+deri+plastik hafif temizleyici]
+phase2Rfinal-intRevise-Q2M-PM500M-sub-8,product,Q2M-PM500M,template_sub_type,plastic_dressing,antibacterial_treatment,Interior revise: plastic_dressing → antibacterial_treatment (Gyeon PurifyMaintain antibakteriyel sprey)
+phase2Rfinal-intRevise-Q2M-DT10P-tg-9,product,Q2M-DT10P,template_group,interior_cleaner,contaminant_solvers,Interior revise: interior_cleaner → contaminant_solvers (Gyeon Degrease Tabs → surface_prep yanına (cila/yağ çözücü tablet))
+phase2Rfinal-intRevise-Q2M-DT10P-sub-9,product,Q2M-DT10P,template_sub_type,heavy_duty_cleaner,surface_prep,Interior revise: heavy_duty_cleaner → surface_prep (Gyeon Degrease Tabs → surface_prep yanına (cila/yağ çözücü tablet))
+phase2Rfinal-intRevise-77019-tg-10,product,77019,template_group,interior_cleaner,industrial_products,Interior revise: interior_cleaner → industrial_products (FRA-BER Deep Alkaline endüstriyel zemin temizliği)
+phase2Rfinal-intRevise-77075-tg-11,product,77075,template_group,interior_cleaner,industrial_products,Interior revise: interior_cleaner → industrial_products (FRA-BER All Aliment alkol bazlı dezenfektan endüstriyel)
+phase2Rfinal-intRevise-77080-tg-12,product,77080,template_group,interior_cleaner,industrial_products,Interior revise: interior_cleaner → industrial_products (FRA-BER All Sany çok amaçlı dezenfektan endüstriyel)
+phase2Rfinal-intRevise-79299-tg-13,product,79299,template_group,ceramic_coating,interior_cleaner,Interior revise: ceramic_coating → interior_cleaner (INNOVACAR SC4 TEX COAT kumaş+deri hidrofobik)
+phase2Rfinal-intRevise-79299-sub-13,product,79299,template_sub_type,fabric_coating,fabric_protector,Interior revise: fabric_coating → fabric_protector (INNOVACAR SC4 TEX COAT kumaş+deri hidrofobik)
+phase2Rfinal-intRevise-Q2-FCNA400M-tg-14,product,Q2-FCNA400M,template_group,ceramic_coating,interior_cleaner,Interior revise: ceramic_coating → interior_cleaner (GYEON FabricCoat seramik nano su itici kumaş)
+phase2Rfinal-intRevise-Q2-FCNA400M-sub-14,product,Q2-FCNA400M,template_sub_type,fabric_coating,fabric_protector,Interior revise: fabric_coating → fabric_protector (GYEON FabricCoat seramik nano su itici kumaş)
+phase2Rfinal-abrRevise-74391-tg,product,74391,template_group,abrasive_polish,interior_cleaner,abrRevise: Polish Plus plastik bakım spreyi → interior_cleaner
+phase2Rfinal-abrRevise-74391-sub,product,74391,template_sub_type,polish,plastic_dressing,"abrRevise: polish → plastic_dressing (yanıltıcı isim, gerçekte plastik bakım)"
+phase2Rfinal-abrRevise-700209-tg,product,700209,template_group,abrasive_polish,interior_cleaner,abrRevise: Polish Plus Aroma plastik bakım spreyi → interior_cleaner
+phase2Rfinal-abrRevise-700209-sub,product,700209,template_sub_type,polish,plastic_dressing,"abrRevise: polish → plastic_dressing (yanıltıcı isim, gerçekte plastik bakım)"
+phase2Rfinal-abrRevise-Q2M-GP250M-surf,product.specs,Q2M-GP250M,specs.target_surface,,glass,abrRevise: Glass Polish — cam yüzey ayrımı meta key
+phase2Rfinal-abrRevise-Q2M-PPR1000M-surf,product.specs,Q2M-PPR1000M,specs.target_surface,,ppf,"abrRevise: PPF Renew — PPF folyo özel, meta key ile ayrım"
+phase2Rfinal-abrRevise-22992.261.001-sub,product,22992.261.001,template_sub_type,polish,finish,abrRevise: MENZERNA 3800 Süper Hare Giderici → finish (3. adım)
+phase2Rfinal-abrRevise-Q2M-PO1000M-sub,product,Q2M-PO1000M,template_sub_type,polish,finish,abrRevise: GYEON Polish ara kesim hare giderici → finish
+phase2Rfinal-abrRevise-Q2-PR1000M-tg,product,Q2-PR1000M,template_group,ceramic_coating,abrasive_polish,abrRevise: GYEON Primer son kat cila → abrasive_polish (finishing aşaması)
+phase2Rfinal-abrRevise-Q2-PR1000M-sub,product,Q2-PR1000M,template_sub_type,single_layer_coating,finish,abrRevise: GYEON Primer → finish (koruma öncesi son kat cila)
+phase2Rfinal-ceramRevise-Q2-PC100M-sub,product,Q2-PC100M,template_sub_type,interior_coating,antibacterial_coating,"ceramRevise: PurifyCoat → antibacterial_coating (yeni sub, ceramic_coating altında)"
+phase2Rfinal-ceramRevise-Q2-PPFE50M-surf,product.specs,Q2-PPFE50M,specs.target_surface,,ppf,ceramRevise: GYEON Q PPF EVO target_surface=ppf
+phase2Rfinal-ceramRevise-Q2-MTEL50M-finish,product.specs,Q2-MTEL50M,specs.finish,,matte,ceramRevise: GYEON Q Matte EVO finish=matte (mat boyalı araç için)
+phase2Rfinal-ceramRevise-Q2-TYA500M-tg,product,Q2-TYA500M,template_group,ceramic_coating,tire_care,ceramRevise: GYEON Q Tire → tire_care (lastik parlatıcı+koruyucu jel)
+phase2Rfinal-ceramRevise-Q2-TYA500M-sub,product,Q2-TYA500M,template_sub_type,tire_coating,tire_dressing,ceramRevise: tire_coating → tire_dressing (mevcut tire_dressing havuzuna)
+phase2Rfinal-ceramRevise-Q2-TYA500M-cer,product.specs,Q2-TYA500M,specs.has_ceramic,,true,ceramRevise meta: seramik bazlı lastik bakımı ayırt edicisi
+phase2Rfinal-ceramRevise-Q2-TYA500M-form,product.specs,Q2-TYA500M,specs.formulation,,gel,ceramRevise meta: jel formülasyon (diğer tire_dressing ürünleriyle ayırt)
+phase2Rfinal-fix-516112-sub,product,516112,template_sub_type,other,extension_kit,"Fix: spare_part'a değil, polisher_machine/extension_kit (458813 ile birleşir)"
+phase2Rfinal-fix-516112-pt,product.specs,516112,specs.product_type,,accessory,Fix meta: 516112 polisher accessory
+phase2Rfinal-storRevise-SGGD233-tg,product,SGGD233,template_group,storage_accessories,ppf_tools,storRevise: trim sökme aparatı seti → ppf_tools (PPF/trim install kiti)
+phase2Rfinal-storRevise-SGGD233-sub,product,SGGD233,template_sub_type,work_gear,application_kit,storRevise: work_gear → application_kit (4 parça PPF/trim alet seti)
+phase2Rfinal-storRevise-SGGD233-purpose,product.specs,SGGD233,specs.purpose,,trim_removal,storRevise meta: trim sökme aparatı (PPF install kit'lerinden ayırt)
+phase2Rfinal-storRevise-SGGD233-kit,product.specs,SGGD233,specs.is_kit,,true,storRevise meta: 4 parça set
+phase2Rfinal-storRevise-SGGD233-pack,product.specs,SGGD233,specs.pack_size,,4,storRevise meta: pack_size=4
+phase2Rfinal-storRevise-SGGD291-sub,product,SGGD291,template_sub_type,storage_box,storage_equipment,storRevise: storage_box + bag_carrier birleşir → storage_equipment
+phase2Rfinal-storRevise-502561-sub,product,502561,template_sub_type,bag_carrier,storage_equipment,storRevise: bag_carrier → storage_equipment (taşıma+depolama)
+phase2Rfinal-storRevise-SGGD175-sub,product,SGGD175,template_sub_type,bag_carrier,storage_equipment,storRevise: bag_carrier → storage_equipment (bel çantası)
+phase2Rfinal-bucket-79472-tg,product,79472,template_group,storage_accessories,wash_tools,bucketRevise: storage_accessories → wash_tools (yıkama kovası → yıkama ekipmanları)
+phase2Rfinal-bucket-79472-sub,product,79472,template_sub_type,bucket_accessories,bucket,"bucketRevise: bucket_accessories → bucket (yeni sub_type, wash_tools altında)"
+phase2Rfinal-ppqRevise-Q2-QV120M-sub,product,Q2-QV120M,template_sub_type,glass_coating,paste_wax,ppqRevise: glass_coating → paste_wax (boya koruma sub geneli)
+phase2Rfinal-ppqRevise-Q2-QV120M-surf,product.specs,Q2-QV120M,specs.target_surface,,glass,ppqRevise meta: cam yüzey ayrımı
+phase2Rfinal-ppqRevise-Q2M-CDYA1000M-sub,product,Q2M-CDYA1000M,template_sub_type,quick_detailer,spray_sealant,ppqRevise: GYEON CeramicDetailer → spray_sealant (seramik bazlı koruma)
+phase2Rfinal-ppqRevise-74062-sub,product,74062,template_sub_type,rinse_wax_concentrate,spray_sealant,ppqRevise: FRA-BER Nanotech → spray_sealant (hızlı cila koruma)
+phase2Rfinal-csRevise-71110-tg,product,71110,template_group,contaminant_solvers,industrial_products,csRevise: Lava Cemento harç/çimento → industrial_products (endüstriyel temizleyici)
+phase2Rfinal-csRevise-71110-sub,product,71110,template_sub_type,specialty_cleaner,heavy_duty_cleaner,csRevise: specialty_cleaner → heavy_duty_cleaner (industrial_products altında)
+phase2Rfinal-csRevise-Q2M-CLR500M-tg,product,Q2M-CLR500M,template_group,contaminant_solvers,clay_products,csRevise: Clay Lube → clay_products grubu (kil workflow ekosistemi)
+phase2Rfinal-csRevise-700210-sub,product,700210,template_sub_type,wheel_iron_remover,iron_remover,csRevise: Ko Iron → iron_remover (genel demir tozu — boya yüzeyinde de uygun)
+phase2Rfinal-claymerge-Q2M-CCE-tg-1,product,Q2M-CCE,template_group,contaminant_solvers,clay_products,claymerge: clay_bar contaminant_solvers → clay_products (kil ekosistemi tek grupta)
+phase2Rfinal-claymerge-MGPS-2019KH-tg-2,product,MGPS-2019KH,template_group,contaminant_solvers,clay_products,claymerge: clay_bar contaminant_solvers → clay_products (kil ekosistemi tek grupta)
+phase2Rfinal-claymerge-MGPS-2019KM-tg-3,product,MGPS-2019KM,template_group,contaminant_solvers,clay_products,claymerge: clay_bar contaminant_solvers → clay_products (kil ekosistemi tek grupta)
+phase2Rfinal-applRevise-Q2M-CA10P-sub,product,Q2M-CA10P,template_sub_type,coating_applicator,applicator_pad,applRevise: coating_applicator → applicator_pad (purpose meta ile ayrım)
+phase2Rfinal-applRevise-Q2M-CA10P-pp,product.specs,Q2M-CA10P,specs.purpose,,coating_application,applRevise meta: GYEON Coating Applicator (seramik uygulama)
+phase2Rfinal-applRevise-Q2M-CAP10P-sub,product,Q2M-CAP10P,template_sub_type,coating_applicator,applicator_pad,applRevise: coating_applicator → applicator_pad (purpose meta ile ayrım)
+phase2Rfinal-applRevise-Q2M-CAP10P-pp,product.specs,Q2M-CAP10P,specs.purpose,,coating_application,applRevise meta: GYEON Coating Applicator (seramik uygulama)
+phase2Rfinal-abrFix-Q2M-GP250M-sub,product,Q2M-GP250M,template_sub_type,heavy_cut_compound,polish,abrFix: Glass Polish heavy_cut → polish (target_surface=glass meta zaten ekli)
+phase2Rfinal-abrFix-Q2M-PPR1000M-sub,product,Q2M-PPR1000M,template_sub_type,heavy_cut_compound,polish,abrFix: PPF Renew heavy_cut → polish (target_surface=ppf meta zaten ekli)
+phase2Rfinal-clayform-MGPS-6046R-1,product.specs,MGPS-6046R,specs.form,,pad,clayform meta: clay_pad form=pad ayrımı
+phase2Rfinal-clayform-MGPS-6045-2,product.specs,MGPS-6045,specs.form,,sponge,clayform meta: clay_pad form=sponge ayrımı
+phase2Rfinal-clayform-MGPS-6031B-P-3,product.specs,MGPS-6031B-P,specs.form,,pad,clayform meta: clay_pad form=pad ayrımı
+phase2Rfinal-clayform-MGPS-6046F2R-4,product.specs,MGPS-6046F2R,specs.form,,pad,clayform meta: clay_pad form=pad ayrımı
+phase2Rfinal-clayform-MGPS-6009P-5,product.specs,MGPS-6009P,specs.form,,cloth,clayform meta: clay_pad form=cloth ayrımı
+phase2Rfinal-clayform-MGPS-6012K-6,product.specs,MGPS-6012K,specs.form,,disc,clayform meta: clay_pad form=disc ayrımı
+phase2Rfinal-clayform-MGPS-6016P-7,product.specs,MGPS-6016P,specs.form,,mitt,clayform meta: clay_pad form=mitt ayrımı
+phase2Rfinal-leatherMeta-71132-surface,product.specs,71132,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-Q2M-LCN1000M-surface,product.specs,Q2M-LCN1000M,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-Q2M-LCSYA1000M-surface,product.specs,Q2M-LCSYA1000M,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-700468-surface,product.specs,700468,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-Q2-LCR500M-surface,product.specs,Q2-LCR500M,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-Q2M-LSN200M-surface,product.specs,Q2M-LSN200M,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-Q2M-LSSYA200M-surface,product.specs,Q2M-LSSYA200M,specs.target_surface,,leather,leatherMeta: deri-özel ürün (target_surface=leather) — multi-surface'tan ayırt
+phase2Rfinal-leatherMeta-Q2M-LSN200M-kit,product.specs,Q2M-LSN200M,specs.is_kit,,true,leatherMeta: LeatherSet paket ürün
+phase2Rfinal-leatherMeta-Q2M-LSSYA200M-kit,product.specs,Q2M-LSSYA200M,specs.is_kit,,true,leatherMeta: LeatherSet paket ürün
+phase2Rfinal-flcRetag-70723-surf,product.specs,70723,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-71676-surf,product.specs,71676,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-73378-surf,product.specs,73378,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-75404-surf,product.specs,75404,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-701285-surf,product.specs,701285,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-Q2M-FCNA1000M-surf,product.specs,Q2M-FCNA1000M,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-79818-surf,product.specs,79818,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-70901-surf,product.specs,70901,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-flcRetag-Q2M-IDYA4000M-surf,product.specs,Q2M-IDYA4000M,specs.target_surface,,"[""leather"", ""fabric"", ""plastic""]","flcRetag: compatibility → target_surface array (multi-surface temizleyici, leather_care ile karşılaştırılabilir)"
+phase2Rfinal-ppfRetag-Q2M-PPFW500M-surf,product.specs,Q2M-PPFW500M,specs.target_surface,,"[""paint"", ""ppf""]",ppfRetag: ph nötr şampuan paint için + PPF üzerinde safe (compatibility birleşti)
+phase2Rfinal-ppfRetag-700507-surf,product.specs,700507,specs.target_surface,,"[""paint"", ""ppf""]",ppfRetag: ph nötr şampuan paint için + PPF üzerinde safe (compatibility birleşti)
+phase2Rfinal-ppfRetag-700508-surf,product.specs,700508,specs.target_surface,,"[""paint"", ""ppf""]",ppfRetag: ph nötr şampuan paint için + PPF üzerinde safe (compatibility birleşti)
+phase2Rfinal-ppfRetag-79284-surf,product.specs,79284,specs.target_surface,,"[""paint"", ""ppf""]",ppfRetag: ph nötr şampuan paint için + PPF üzerinde safe (compatibility birleşti)
+phase2Rfinal-ppfRetag-Q2M-BYA4000M-surf,product.specs,Q2M-BYA4000M,specs.target_surface,,"[""paint"", ""ppf""]",ppfRetag: ph nötr şampuan paint için + PPF üzerinde safe (compatibility birleşti)
+phase2Rfinal-tireMeta-70868-form,product.specs,70868,specs.formulation,,aerosol,tireMeta: formulation=aerosol (FRA-BER Gommalux 600ml aerosol sprey)
+phase2Rfinal-tireMeta-71706-form,product.specs,71706,specs.formulation,,liquid_concentrate,tireMeta: formulation=liquid_concentrate (Gommanera Blue 5kg sıvı konsantre 1:3-5)
+phase2Rfinal-tireMeta-75140-form,product.specs,75140,specs.formulation,,liquid_solvent,tireMeta: formulation=liquid_solvent (Gommanera Superlux 25lt solvent bazlı sıvı)
+phase2Rfinal-tireMeta-75138-form,product.specs,75138,specs.formulation,,liquid_solvent,tireMeta: formulation=liquid_solvent (Gommanera Superlux 5lt solvent bazlı sıvı (75140 variant))
+phase2Rfinal-tireMeta-701908-form,product.specs,701908,specs.formulation,,liquid,tireMeta: formulation=liquid (Superlux 900ml su bazlı sıvı)
+phase2Rfinal-tireMeta-Q2M-TEYA1000M-form,product.specs,Q2M-TEYA1000M,specs.formulation,,gel,tireMeta: formulation=gel (GYEON Tire Express 1000ml su bazlı jel)
+phase2Rfinal-tapeFix-Q2M-MT6X18M-sub,product,Q2M-MT6X18M,template_sub_type,detailing_tape,trim_tape,"tapeFix: GYEON MaskingTape 6mm detailing_tape → trim_tape (ince şerit maskeleme, Q1 Trim ile aynı kategori)"

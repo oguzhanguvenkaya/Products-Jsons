@@ -1,0 +1,4 @@
+id,scope,sku,field,before,after,label
+phase2-clay_products-Q2M-CME-key1,product.specs,Q2M-CME,specs.ph_tolerance,2-11,null,P0 ilgisiz: clay_products grubunda ph_tolerance anlamsız
+phase2-clay_products-Q2M-CME-key2,product.specs,Q2M-CME,specs.chemical_resistant,True,null,P0 ilgisiz: clay_products grubunda chemical_resistant anlamsız
+phase2-clay_products-Q2M-CME-key3,product.specs,Q2M-CME,specs.consumption_ml_per_car,20,null,P0 ilgisiz: clay_products grubunda consumption_ml_per_car anlamsız

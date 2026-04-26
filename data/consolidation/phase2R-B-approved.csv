@@ -1,0 +1,10 @@
+id,scope,sku,field,before,after,label
+phase2-paint_protection_quick-75182-1,product,75182,template_sub_type,spray_wipe_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; sub-variant flag specs içine
+phase2-paint_protection_quick-74059-2,product,74059,template_sub_type,spray_wipe_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; sub-variant flag specs içine
+phase2-paint_protection_quick-Q2M-WCYA4000M-3,product,Q2M-WCYA4000M,template_sub_type,spray_rinse_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; rinse=after-care flag
+phase2-paint_protection_quick-79304-4,product,79304,template_sub_type,spray_rinse_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; rinse=after-care flag
+phase2-paint_protection_quick-700096-5,product,700096,template_sub_type,spray_wipe_sealant,spray_sealant,P1 merge: uygulama biçimi=spray; sub-variant flag specs içine
+phase2-polisher_machine-516112-3,product,516112,template_sub_type,other,polisher_accessory,P0 merge: FLEX FS140 esnek uzatma aparatı — polisaj aksesuarı
+phase2-spare_part-81771871-subtype,product,81771871,template_sub_type,nozzle_kit,nozzle,P0 merge: nozzle_kit -> nozzle (semantik aynı)
+phase2-spare_part-83371816-subtype,product,83371816,template_sub_type,trigger_gun,trigger_head,P0 merge: trigger_gun -> trigger_head (tetikli sprey kafa eşanlamlı)
+phase2-storage_accessories-79472-1,product,79472,template_sub_type,bucket_accessories,wash_accessory,P1 merge: yıkama kovası -> wash_accessory çatısı

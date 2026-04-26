@@ -1,0 +1,85 @@
+{
+  "changes": [
+    {
+      "id": "phase2-paint_protection_quick-75182-1",
+      "scope": "product",
+      "sku": "75182",
+      "field": "template_sub_type",
+      "before": "spray_wipe_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; sub-variant flag specs içine"
+    },
+    {
+      "id": "phase2-paint_protection_quick-74059-2",
+      "scope": "product",
+      "sku": "74059",
+      "field": "template_sub_type",
+      "before": "spray_wipe_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; sub-variant flag specs içine"
+    },
+    {
+      "id": "phase2-paint_protection_quick-Q2M-WCYA4000M-3",
+      "scope": "product",
+      "sku": "Q2M-WCYA4000M",
+      "field": "template_sub_type",
+      "before": "spray_rinse_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; rinse=after-care flag"
+    },
+    {
+      "id": "phase2-paint_protection_quick-79304-4",
+      "scope": "product",
+      "sku": "79304",
+      "field": "template_sub_type",
+      "before": "spray_rinse_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; rinse=after-care flag"
+    },
+    {
+      "id": "phase2-paint_protection_quick-700096-5",
+      "scope": "product",
+      "sku": "700096",
+      "field": "template_sub_type",
+      "before": "spray_wipe_sealant",
+      "after": "spray_sealant",
+      "label": "P1 merge: uygulama biçimi=spray; sub-variant flag specs içine"
+    },
+    {
+      "id": "phase2-polisher_machine-516112-3",
+      "scope": "product",
+      "sku": "516112",
+      "field": "template_sub_type",
+      "before": "other",
+      "after": "polisher_accessory",
+      "label": "P0 merge: FLEX FS140 esnek uzatma aparatı — polisaj aksesuarı"
+    },
+    {
+      "id": "phase2-spare_part-81771871-subtype",
+      "scope": "product",
+      "sku": "81771871",
+      "field": "template_sub_type",
+      "before": "nozzle_kit",
+      "after": "nozzle",
+      "label": "P0 merge: nozzle_kit -> nozzle (semantik aynı)"
+    },
+    {
+      "id": "phase2-spare_part-83371816-subtype",
+      "scope": "product",
+      "sku": "83371816",
+      "field": "template_sub_type",
+      "before": "trigger_gun",
+      "after": "trigger_head",
+      "label": "P0 merge: trigger_gun -> trigger_head (tetikli sprey kafa eşanlamlı)"
+    },
+    {
+      "id": "phase2-storage_accessories-79472-1",
+      "scope": "product",
+      "sku": "79472",
+      "field": "template_sub_type",
+      "before": "bucket_accessories",
+      "after": "wash_accessory",
+      "label": "P1 merge: yıkama kovası -> wash_accessory çatısı"
+    }
+  ]
+}

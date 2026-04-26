@@ -1,0 +1,12 @@
+id,scope,sku,field,before,after,label
+phase2-polisher_machine-373680-1,product,373680,template_sub_type,corded_rotary_polisher,rotary_polisher,P0 merge: 3 ürünlü; cordless ile birleştir → rotary_polisher
+phase2-polisher_machine-406813-2,product,406813,template_sub_type,corded_rotary_polisher,rotary_polisher,P0 merge: 3 ürünlü; cordless ile birleştir → rotary_polisher
+phase2-polisher_machine-516112-3,product,516112,template_sub_type,other,polisher_accessory,P0 merge: aksesuar/yedek parça; sub_type=other anlamsız
+phase2-polisher_machine-532579-4,product,532579,template_sub_type,other,polisher_accessory,P0 merge: aksesuar/yedek parça; sub_type=other anlamsız
+phase2-polisher_machine-533019-5,product,533019,template_sub_type,cordless_rotary_polisher,rotary_polisher,P0 merge: tek ürünlü; cordless+corded=rotary üst-aile
+phase2-polisher_machine-418072-6,product,418072,template_sub_type,forced_rotation_polisher,da_polisher,P1 merge: forced rotation = DA türevi; meta key uyumu yüksek
+phase2-polisher_machine-533020-7,product,533020,template_sub_type,forced_rotation_polisher,da_polisher,P1 merge: forced rotation = DA türevi; meta key uyumu yüksek
+phase2-polisher_machine-SGGS003-8,product,SGGS003,template_sub_type,other,polisher_accessory,P0 merge: aksesuar/yedek parça; sub_type=other anlamsız
+phase2-polisher_machine-SGGC086-9,product,SGGC086,template_sub_type,other,polisher_accessory,P0 merge: aksesuar/yedek parça; sub_type=other anlamsız
+phase2-polisher_machine-SGGF179-10,product,SGGF179,template_sub_type,corded_rotary_polisher,rotary_polisher,P0 merge: 3 ürünlü; cordless ile birleştir → rotary_polisher
+phase2-polisher_machine-SGGC055-11,product,SGGC055,template_sub_type,other,polisher_accessory,P0 merge: aksesuar/yedek parça; sub_type=other anlamsız

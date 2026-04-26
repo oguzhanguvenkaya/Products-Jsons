@@ -1,0 +1,4 @@
+id,scope,sku,field,before,after,label
+phase2-clay_products-MGPS-6009P-1,product,MGPS-6009P,template_sub_type,clay_cloth,clay_pad,P0 merge: tek ürün; form=cloth specs.format ile ayırt
+phase2-clay_products-MGPS-6012K-2,product,MGPS-6012K,template_sub_type,clay_disc,clay_pad,P0 merge: tek ürün; form=disc specs.format ile ayırt
+phase2-clay_products-MGPS-6016P-3,product,MGPS-6016P,template_sub_type,clay_mitt,clay_pad,P0 merge: tek ürün; form=mitt specs.format ile ayırt

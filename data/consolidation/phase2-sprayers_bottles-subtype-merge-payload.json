@@ -1,0 +1,21 @@
+{
+  "total_changes": 1,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 1,
+      "changes": [
+        {
+          "id": "phase2-sprayers_bottles-Q2M-P-DB300M-subtype",
+          "scope": "product",
+          "sku": "Q2M-P-DB300M",
+          "field": "template_sub_type",
+          "before": "dispenser_bottle",
+          "after": "pump_sprayer",
+          "label": "P0 merge: dispenser_bottle -> pump_sprayer (Tek ürün; pump sprayer ile aynı işlev (sıvı dispense))"
+        }
+      ]
+    }
+  ]
+}

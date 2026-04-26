@@ -1,0 +1,6 @@
+id,scope,sku,field,before,after,label
+phase2-contaminant_solvers-Q2M-IR4000M-1,product,Q2M-IR4000M,template_sub_type,iron_remover,wheel_iron_remover,P1 merge: iron_remover = wheel_iron_remover üst-aile; surface farkı specs.target_surface ile
+phase2-contaminant_solvers-Q2M-PYA4000M-2,product,Q2M-PYA4000M,template_sub_type,single_layer_coating,surface_prep,"P0 merge: YANLIS GRUP: prep ürünü; group → ceramic_coating, sub → surface_prep"
+phase2-contaminant_solvers-Q2M-PYA4000M-3,product,Q2M-PYA4000M,template_group,contaminant_solvers,ceramic_coating,P0 group fix: surface prep ürünü; ceramic_coating ekosistemine taşı
+phase2-contaminant_solvers-Q2M-TOTR1000M-4,product,Q2M-TOTR1000M,template_sub_type,wax_remover,tar_glue_remover,P1 merge: solvent tabanlı sökücü; ortak meta key set
+phase2-contaminant_solvers-79291-5,product,79291,template_sub_type,iron_remover,wheel_iron_remover,P1 merge: iron_remover = wheel_iron_remover üst-aile; surface farkı specs.target_surface ile

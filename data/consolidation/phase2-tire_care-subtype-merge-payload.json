@@ -1,0 +1,31 @@
+{
+  "changes": [
+    {
+      "id": "phase2-tire_care-75138-1",
+      "scope": "product",
+      "sku": "75138",
+      "field": "template_sub_type",
+      "before": "tire_gel",
+      "after": "tire_dressing",
+      "label": "P1 merge: gel=dressing formülasyonu; specs.formulation=gel ile ayırt"
+    },
+    {
+      "id": "phase2-tire_care-701908-2",
+      "scope": "product",
+      "sku": "701908",
+      "field": "template_sub_type",
+      "before": "tire_gel",
+      "after": "tire_dressing",
+      "label": "P1 merge: gel=dressing formülasyonu; specs.formulation=gel ile ayırt"
+    },
+    {
+      "id": "phase2-tire_care-Q2M-TEYA1000M-3",
+      "scope": "product",
+      "sku": "Q2M-TEYA1000M",
+      "field": "template_sub_type",
+      "before": "tire_gel",
+      "after": "tire_dressing",
+      "label": "P1 merge: gel=dressing formülasyonu; specs.formulation=gel ile ayırt"
+    }
+  ]
+}

@@ -1,0 +1,2812 @@
+{
+  "changes": [
+    {
+      "id": "phase3c-123456-application_method-2",
+      "scope": "product.specs",
+      "sku": "123456",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-12918-skill_level-3",
+      "scope": "product.specs",
+      "sku": "12918",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-12918-application_method-4",
+      "scope": "product.specs",
+      "sku": "12918",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-12922-skill_level-5",
+      "scope": "product.specs",
+      "sku": "12922",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-12922-application_method-6",
+      "scope": "product.specs",
+      "sku": "12922",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-13724-volume_ml-7",
+      "scope": "product.specs",
+      "sku": "13724",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 600,
+      "label": "phase3c extract: volume_ml=600 [high] ev=\"600 ml\""
+    },
+    {
+      "id": "phase3c-13724-skill_level-8",
+      "scope": "product.specs",
+      "sku": "13724",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-13724-application_method-9",
+      "scope": "product.specs",
+      "sku": "13724",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-18802-volume_ml-10",
+      "scope": "product.specs",
+      "sku": "18802",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1860,
+      "label": "phase3c extract: volume_ml=1860 [high] ev=\"1860 ml\""
+    },
+    {
+      "id": "phase3c-18802-skill_level-11",
+      "scope": "product.specs",
+      "sku": "18802",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-18802-application_method-13",
+      "scope": "product.specs",
+      "sku": "18802",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-18802-rinse_required-14",
+      "scope": "product.specs",
+      "sku": "18802",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-18810-volume_ml-15",
+      "scope": "product.specs",
+      "sku": "18810",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1860,
+      "label": "phase3c extract: volume_ml=1860 [high] ev=\"1860 ml\""
+    },
+    {
+      "id": "phase3c-18810-skill_level-16",
+      "scope": "product.specs",
+      "sku": "18810",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-18810-application_method-18",
+      "scope": "product.specs",
+      "sku": "18810",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-18810-rinse_required-19",
+      "scope": "product.specs",
+      "sku": "18810",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-18848-skill_level-20",
+      "scope": "product.specs",
+      "sku": "18848",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-18848-application_method-22",
+      "scope": "product.specs",
+      "sku": "18848",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-19771-application_temperature_min_c-23",
+      "scope": "product.specs",
+      "sku": "19771",
+      "field": "specs.application_temperature_min_c",
+      "before": null,
+      "after": 5,
+      "label": "phase3c extract: application_temperature_min_c=5 [high] ev=\"5–30°c\""
+    },
+    {
+      "id": "phase3c-19771-application_temperature_max_c-24",
+      "scope": "product.specs",
+      "sku": "19771",
+      "field": "specs.application_temperature_max_c",
+      "before": null,
+      "after": 30,
+      "label": "phase3c extract: application_temperature_max_c=30 [high] ev=\"5–30°c\""
+    },
+    {
+      "id": "phase3c-19771-volume_ml-25",
+      "scope": "product.specs",
+      "sku": "19771",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 2000,
+      "label": "phase3c extract: volume_ml=2000 [high] ev=\"2000 ml\""
+    },
+    {
+      "id": "phase3c-19771-skill_level-26",
+      "scope": "product.specs",
+      "sku": "19771",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-19771-application_method-28",
+      "scope": "product.specs",
+      "sku": "19771",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-19771-rinse_required-29",
+      "scope": "product.specs",
+      "sku": "19771",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-19956-application_method-31",
+      "scope": "product.specs",
+      "sku": "19956",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-19976-application_method-33",
+      "scope": "product.specs",
+      "sku": "19976",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-20009-application_method-35",
+      "scope": "product.specs",
+      "sku": "20009",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-20102-skill_level-36",
+      "scope": "product.specs",
+      "sku": "20102",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-20102-application_method-38",
+      "scope": "product.specs",
+      "sku": "20102",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-20417-application_temperature_min_c-39",
+      "scope": "product.specs",
+      "sku": "20417",
+      "field": "specs.application_temperature_min_c",
+      "before": null,
+      "after": 5,
+      "label": "phase3c extract: application_temperature_min_c=5 [high] ev=\"5–30°c\""
+    },
+    {
+      "id": "phase3c-20417-application_temperature_max_c-40",
+      "scope": "product.specs",
+      "sku": "20417",
+      "field": "specs.application_temperature_max_c",
+      "before": null,
+      "after": 30,
+      "label": "phase3c extract: application_temperature_max_c=30 [high] ev=\"5–30°c\""
+    },
+    {
+      "id": "phase3c-20417-volume_ml-41",
+      "scope": "product.specs",
+      "sku": "20417",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1310,
+      "label": "phase3c extract: volume_ml=1310 [high] ev=\"1310 ml\""
+    },
+    {
+      "id": "phase3c-20417-skill_level-42",
+      "scope": "product.specs",
+      "sku": "20417",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-20417-application_method-44",
+      "scope": "product.specs",
+      "sku": "20417",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-20417-rinse_required-45",
+      "scope": "product.specs",
+      "sku": "20417",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-20444-application_method-47",
+      "scope": "product.specs",
+      "sku": "20444",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-20450-application_method-49",
+      "scope": "product.specs",
+      "sku": "20450",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-21746-volume_ml-50",
+      "scope": "product.specs",
+      "sku": "21746",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 230,
+      "label": "phase3c extract: volume_ml=230 [high] ev=\"230 ml\""
+    },
+    {
+      "id": "phase3c-21746-skill_level-51",
+      "scope": "product.specs",
+      "sku": "21746",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-21746-application_method-53",
+      "scope": "product.specs",
+      "sku": "21746",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-21746-rinse_required-54",
+      "scope": "product.specs",
+      "sku": "21746",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-23822-application_method-56",
+      "scope": "product.specs",
+      "sku": "23822",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-23841-skill_level-57",
+      "scope": "product.specs",
+      "sku": "23841",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-23841-application_method-59",
+      "scope": "product.specs",
+      "sku": "23841",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-24952-volume_ml-60",
+      "scope": "product.specs",
+      "sku": "24952",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 600,
+      "label": "phase3c extract: volume_ml=600 [high] ev=\"600 ml\""
+    },
+    {
+      "id": "phase3c-24952-skill_level-61",
+      "scope": "product.specs",
+      "sku": "24952",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-24952-application_method-62",
+      "scope": "product.specs",
+      "sku": "24952",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-24952-rinse_required-63",
+      "scope": "product.specs",
+      "sku": "24952",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-26005-volume_ml-64",
+      "scope": "product.specs",
+      "sku": "26005",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1860,
+      "label": "phase3c extract: volume_ml=1860 [high] ev=\"1860 ml\""
+    },
+    {
+      "id": "phase3c-26005-skill_level-65",
+      "scope": "product.specs",
+      "sku": "26005",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-26005-application_method-67",
+      "scope": "product.specs",
+      "sku": "26005",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-26005-rinse_required-68",
+      "scope": "product.specs",
+      "sku": "26005",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-26900.223.003-application_method-69",
+      "scope": "product.specs",
+      "sku": "26900.223.003",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26900.223.010-skill_level-70",
+      "scope": "product.specs",
+      "sku": "26900.223.010",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-26900.223.010-application_method-72",
+      "scope": "product.specs",
+      "sku": "26900.223.010",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26900.223.011-skill_level-73",
+      "scope": "product.specs",
+      "sku": "26900.223.011",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-26900.223.011-application_method-75",
+      "scope": "product.specs",
+      "sku": "26900.223.011",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26900.223.012-skill_level-76",
+      "scope": "product.specs",
+      "sku": "26900.223.012",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-26900.223.012-application_method-77",
+      "scope": "product.specs",
+      "sku": "26900.223.012",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26900.224.010-application_method-79",
+      "scope": "product.specs",
+      "sku": "26900.224.010",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26900.224.011-application_method-81",
+      "scope": "product.specs",
+      "sku": "26900.224.011",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26900.224.012-application_method-83",
+      "scope": "product.specs",
+      "sku": "26900.224.012",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26907.099.001-skill_level-84",
+      "scope": "product.specs",
+      "sku": "26907.099.001",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-26907.099.001-application_method-86",
+      "scope": "product.specs",
+      "sku": "26907.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26908.099.001-application_method-88",
+      "scope": "product.specs",
+      "sku": "26908.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26909.099.001-application_method-90",
+      "scope": "product.specs",
+      "sku": "26909.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26913.099.001-application_method-92",
+      "scope": "product.specs",
+      "sku": "26913.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26915.099.001-application_method-94",
+      "scope": "product.specs",
+      "sku": "26915.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26931.099.001-application_method-96",
+      "scope": "product.specs",
+      "sku": "26931.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26934.099.001-application_method-98",
+      "scope": "product.specs",
+      "sku": "26934.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-26935.099.001-application_method-100",
+      "scope": "product.specs",
+      "sku": "26935.099.001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-336807-skill_level-101",
+      "scope": "product.specs",
+      "sku": "336807",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-336807-application_method-103",
+      "scope": "product.specs",
+      "sku": "336807",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-399647-skill_level-104",
+      "scope": "product.specs",
+      "sku": "399647",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-399647-application_method-106",
+      "scope": "product.specs",
+      "sku": "399647",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-405418-application_method-110",
+      "scope": "product.specs",
+      "sku": "405418",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-417882-skill_level-111",
+      "scope": "product.specs",
+      "sku": "417882",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-417882-application_method-113",
+      "scope": "product.specs",
+      "sku": "417882",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-418072-durability_months-114",
+      "scope": "product.specs",
+      "sku": "418072",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 24,
+      "label": "phase3c extract: durability_months=24 [high] ev=\"2 yıl garanti\""
+    },
+    {
+      "id": "phase3c-418072-skill_level-115",
+      "scope": "product.specs",
+      "sku": "418072",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-418072-application_method-117",
+      "scope": "product.specs",
+      "sku": "418072",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-418080-skill_level-118",
+      "scope": "product.specs",
+      "sku": "418080",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-418080-application_method-120",
+      "scope": "product.specs",
+      "sku": "418080",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-418102-application_method-123",
+      "scope": "product.specs",
+      "sku": "418102",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-445894-skill_level-124",
+      "scope": "product.specs",
+      "sku": "445894",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-445894-application_method-126",
+      "scope": "product.specs",
+      "sku": "445894",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-447129-skill_level-127",
+      "scope": "product.specs",
+      "sku": "447129",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-447129-application_method-129",
+      "scope": "product.specs",
+      "sku": "447129",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-458813-skill_level-130",
+      "scope": "product.specs",
+      "sku": "458813",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-458813-application_method-132",
+      "scope": "product.specs",
+      "sku": "458813",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-463302-application_method-135",
+      "scope": "product.specs",
+      "sku": "463302",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-481491-skill_level-137",
+      "scope": "product.specs",
+      "sku": "481491",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-481491-application_method-139",
+      "scope": "product.specs",
+      "sku": "481491",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-486728-skill_level-140",
+      "scope": "product.specs",
+      "sku": "486728",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-486728-application_method-142",
+      "scope": "product.specs",
+      "sku": "486728",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-487988-skill_level-143",
+      "scope": "product.specs",
+      "sku": "487988",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-487988-application_method-145",
+      "scope": "product.specs",
+      "sku": "487988",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-492361-skill_level-146",
+      "scope": "product.specs",
+      "sku": "492361",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-492361-application_method-148",
+      "scope": "product.specs",
+      "sku": "492361",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-502561-volume_ml-149",
+      "scope": "product.specs",
+      "sku": "502561",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 500,
+      "label": "phase3c extract: volume_ml=500 [high] ev=\"500ml\""
+    },
+    {
+      "id": "phase3c-502561-skill_level-150",
+      "scope": "product.specs",
+      "sku": "502561",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-502561-application_method-151",
+      "scope": "product.specs",
+      "sku": "502561",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-513547-01-application_method-154",
+      "scope": "product.specs",
+      "sku": "513547-01",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-513547-skill_level-155",
+      "scope": "product.specs",
+      "sku": "513547",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-513547-application_method-157",
+      "scope": "product.specs",
+      "sku": "513547",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-530375-skill_level-158",
+      "scope": "product.specs",
+      "sku": "530375",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-530375-application_method-160",
+      "scope": "product.specs",
+      "sku": "530375",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-530882-skill_level-161",
+      "scope": "product.specs",
+      "sku": "530882",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-530882-application_method-163",
+      "scope": "product.specs",
+      "sku": "530882",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-530883-skill_level-164",
+      "scope": "product.specs",
+      "sku": "530883",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-530883-application_method-166",
+      "scope": "product.specs",
+      "sku": "530883",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-532024-skill_level-168",
+      "scope": "product.specs",
+      "sku": "532024",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-532024-application_method-170",
+      "scope": "product.specs",
+      "sku": "532024",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-533019-application_method-173",
+      "scope": "product.specs",
+      "sku": "533019",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-533020-skill_level-174",
+      "scope": "product.specs",
+      "sku": "533020",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-533020-application_method-176",
+      "scope": "product.specs",
+      "sku": "533020",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-533021-skill_level-177",
+      "scope": "product.specs",
+      "sku": "533021",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-533021-application_method-179",
+      "scope": "product.specs",
+      "sku": "533021",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-700743-application_method-181",
+      "scope": "product.specs",
+      "sku": "700743",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-701908-application_method-183",
+      "scope": "product.specs",
+      "sku": "701908",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-701908-outdoor_use-184",
+      "scope": "product.specs",
+      "sku": "701908",
+      "field": "specs.outdoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: outdoor_use=true [high] ev=\"dış mekan/açık\""
+    },
+    {
+      "id": "phase3c-70868-dwell_time_minutes-185",
+      "scope": "product.specs",
+      "sku": "70868",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 10,
+      "label": "phase3c extract: dwell_time_minutes=10 [high] ev=\"10 dk bekle\""
+    },
+    {
+      "id": "phase3c-70868-skill_level-186",
+      "scope": "product.specs",
+      "sku": "70868",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-70868-application_method-187",
+      "scope": "product.specs",
+      "sku": "70868",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-70868-outdoor_use-188",
+      "scope": "product.specs",
+      "sku": "70868",
+      "field": "specs.outdoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: outdoor_use=true [high] ev=\"dış mekan/açık\""
+    },
+    {
+      "id": "phase3c-71706-application_method-190",
+      "scope": "product.specs",
+      "sku": "71706",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-75138-skill_level-191",
+      "scope": "product.specs",
+      "sku": "75138",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-75138-application_method-193",
+      "scope": "product.specs",
+      "sku": "75138",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-75140-skill_level-195",
+      "scope": "product.specs",
+      "sku": "75140",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-75140-application_method-197",
+      "scope": "product.specs",
+      "sku": "75140",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79258-skill_level-198",
+      "scope": "product.specs",
+      "sku": "79258",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-79258-application_method-199",
+      "scope": "product.specs",
+      "sku": "79258",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-79472-skill_level-200",
+      "scope": "product.specs",
+      "sku": "79472",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-79472-application_method-202",
+      "scope": "product.specs",
+      "sku": "79472",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-79472-pre_coating_safe-203",
+      "scope": "product.specs",
+      "sku": "79472",
+      "field": "specs.pre_coating_safe",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: pre_coating_safe=true [high] ev=\"coating öncesi\""
+    },
+    {
+      "id": "phase3c-79586-643-volume_ml-204",
+      "scope": "product.specs",
+      "sku": "79586-643",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000 ml\""
+    },
+    {
+      "id": "phase3c-79586-643-skill_level-205",
+      "scope": "product.specs",
+      "sku": "79586-643",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-79586-643-application_method-207",
+      "scope": "product.specs",
+      "sku": "79586-643",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79586-643-rinse_required-208",
+      "scope": "product.specs",
+      "sku": "79586-643",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-79586-644-volume_ml-209",
+      "scope": "product.specs",
+      "sku": "79586-644",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+    },
+    {
+      "id": "phase3c-79586-644-application_method-210",
+      "scope": "product.specs",
+      "sku": "79586-644",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79587-643-volume_ml-211",
+      "scope": "product.specs",
+      "sku": "79587-643",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000 ml\""
+    },
+    {
+      "id": "phase3c-79587-643-skill_level-212",
+      "scope": "product.specs",
+      "sku": "79587-643",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-79587-643-application_method-214",
+      "scope": "product.specs",
+      "sku": "79587-643",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79587-643-rinse_required-215",
+      "scope": "product.specs",
+      "sku": "79587-643",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-79587-644-volume_ml-216",
+      "scope": "product.specs",
+      "sku": "79587-644",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+    },
+    {
+      "id": "phase3c-79587-644-application_method-217",
+      "scope": "product.specs",
+      "sku": "79587-644",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79588-643-volume_ml-218",
+      "scope": "product.specs",
+      "sku": "79588-643",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000 ml\""
+    },
+    {
+      "id": "phase3c-79588-643-skill_level-219",
+      "scope": "product.specs",
+      "sku": "79588-643",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-79588-643-application_method-221",
+      "scope": "product.specs",
+      "sku": "79588-643",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79588-643-rinse_required-222",
+      "scope": "product.specs",
+      "sku": "79588-643",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-79588-644-volume_ml-223",
+      "scope": "product.specs",
+      "sku": "79588-644",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+    },
+    {
+      "id": "phase3c-79588-644-application_method-224",
+      "scope": "product.specs",
+      "sku": "79588-644",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79643-skill_level-226",
+      "scope": "product.specs",
+      "sku": "79643",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-79643-application_method-228",
+      "scope": "product.specs",
+      "sku": "79643",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-79643-rinse_required-229",
+      "scope": "product.specs",
+      "sku": "79643",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-81671901-skill_level-230",
+      "scope": "product.specs",
+      "sku": "81671901",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81671901-application_method-231",
+      "scope": "product.specs",
+      "sku": "81671901",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-81675-skill_level-233",
+      "scope": "product.specs",
+      "sku": "81675",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81675-application_method-235",
+      "scope": "product.specs",
+      "sku": "81675",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81676800-skill_level-236",
+      "scope": "product.specs",
+      "sku": "81676800",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81676800-application_method-237",
+      "scope": "product.specs",
+      "sku": "81676800",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81678-application_temperature_min_c-238",
+      "scope": "product.specs",
+      "sku": "81678",
+      "field": "specs.application_temperature_min_c",
+      "before": null,
+      "after": 5,
+      "label": "phase3c extract: application_temperature_min_c=5 [high] ev=\"5°c - 30°c\""
+    },
+    {
+      "id": "phase3c-81678-application_temperature_max_c-239",
+      "scope": "product.specs",
+      "sku": "81678",
+      "field": "specs.application_temperature_max_c",
+      "before": null,
+      "after": 30,
+      "label": "phase3c extract: application_temperature_max_c=30 [high] ev=\"5°c - 30°c\""
+    },
+    {
+      "id": "phase3c-81678-skill_level-241",
+      "scope": "product.specs",
+      "sku": "81678",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81678-application_method-243",
+      "scope": "product.specs",
+      "sku": "81678",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-81686-skill_level-245",
+      "scope": "product.specs",
+      "sku": "81686",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81686-application_method-247",
+      "scope": "product.specs",
+      "sku": "81686",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81771871-skill_level-248",
+      "scope": "product.specs",
+      "sku": "81771871",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81771871-application_method-249",
+      "scope": "product.specs",
+      "sku": "81771871",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81771874-skill_level-250",
+      "scope": "product.specs",
+      "sku": "81771874",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81771874-application_method-251",
+      "scope": "product.specs",
+      "sku": "81771874",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81773-application_method-253",
+      "scope": "product.specs",
+      "sku": "81773",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81774-skill_level-255",
+      "scope": "product.specs",
+      "sku": "81774",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-81774-application_method-257",
+      "scope": "product.specs",
+      "sku": "81774",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81776-application_method-260",
+      "scope": "product.specs",
+      "sku": "81776",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81777-application_method-262",
+      "scope": "product.specs",
+      "sku": "81777",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-81781-application_method-265",
+      "scope": "product.specs",
+      "sku": "81781",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-82671836-skill_level-266",
+      "scope": "product.specs",
+      "sku": "82671836",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-82671836-application_method-267",
+      "scope": "product.specs",
+      "sku": "82671836",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-82671872-skill_level-268",
+      "scope": "product.specs",
+      "sku": "82671872",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-82671872-application_method-269",
+      "scope": "product.specs",
+      "sku": "82671872",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-82671874-skill_level-270",
+      "scope": "product.specs",
+      "sku": "82671874",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-82671874-application_method-271",
+      "scope": "product.specs",
+      "sku": "82671874",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-82672-application_temperature_min_c-272",
+      "scope": "product.specs",
+      "sku": "82672",
+      "field": "specs.application_temperature_min_c",
+      "before": null,
+      "after": 5,
+      "label": "phase3c extract: application_temperature_min_c=5 [high] ev=\"5–30°c\""
+    },
+    {
+      "id": "phase3c-82672-application_temperature_max_c-273",
+      "scope": "product.specs",
+      "sku": "82672",
+      "field": "specs.application_temperature_max_c",
+      "before": null,
+      "after": 30,
+      "label": "phase3c extract: application_temperature_max_c=30 [high] ev=\"5–30°c\""
+    },
+    {
+      "id": "phase3c-82672-skill_level-275",
+      "scope": "product.specs",
+      "sku": "82672",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-82672-application_method-277",
+      "scope": "product.specs",
+      "sku": "82672",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-82672-indoor_use-278",
+      "scope": "product.specs",
+      "sku": "82672",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: indoor_use=true [high] ev=\"iç mekan/kapalı\""
+    },
+    {
+      "id": "phase3c-82672-rinse_required-279",
+      "scope": "product.specs",
+      "sku": "82672",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-82676-skill_level-281",
+      "scope": "product.specs",
+      "sku": "82676",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-82676-application_method-282",
+      "scope": "product.specs",
+      "sku": "82676",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-82679-skill_level-284",
+      "scope": "product.specs",
+      "sku": "82679",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-82679-application_method-286",
+      "scope": "product.specs",
+      "sku": "82679",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-83371-application_temperature_min_c-287",
+      "scope": "product.specs",
+      "sku": "83371",
+      "field": "specs.application_temperature_min_c",
+      "before": null,
+      "after": 5,
+      "label": "phase3c extract: application_temperature_min_c=5 [high] ev=\"5°c ile 30°c\""
+    },
+    {
+      "id": "phase3c-83371-application_temperature_max_c-288",
+      "scope": "product.specs",
+      "sku": "83371",
+      "field": "specs.application_temperature_max_c",
+      "before": null,
+      "after": 30,
+      "label": "phase3c extract: application_temperature_max_c=30 [high] ev=\"5°c ile 30°c\""
+    },
+    {
+      "id": "phase3c-83371-skill_level-290",
+      "scope": "product.specs",
+      "sku": "83371",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-83371-application_method-292",
+      "scope": "product.specs",
+      "sku": "83371",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-83371-rinse_required-293",
+      "scope": "product.specs",
+      "sku": "83371",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-83371816-skill_level-294",
+      "scope": "product.specs",
+      "sku": "83371816",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-83371816-application_method-296",
+      "scope": "product.specs",
+      "sku": "83371816",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-83371836-skill_level-297",
+      "scope": "product.specs",
+      "sku": "83371836",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-83371836-application_method-299",
+      "scope": "product.specs",
+      "sku": "83371836",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-8410-skill_level-300",
+      "scope": "product.specs",
+      "sku": "8410",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-8410-application_method-302",
+      "scope": "product.specs",
+      "sku": "8410",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-84170-skill_level-304",
+      "scope": "product.specs",
+      "sku": "84170",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-84170-application_method-306",
+      "scope": "product.specs",
+      "sku": "84170",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-84173-skill_level-308",
+      "scope": "product.specs",
+      "sku": "84173",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-84173-application_method-309",
+      "scope": "product.specs",
+      "sku": "84173",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-84174-skill_level-311",
+      "scope": "product.specs",
+      "sku": "84174",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-84174-application_method-313",
+      "scope": "product.specs",
+      "sku": "84174",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-84177-skill_level-315",
+      "scope": "product.specs",
+      "sku": "84177",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-84177-application_method-317",
+      "scope": "product.specs",
+      "sku": "84177",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-8447-skill_level-318",
+      "scope": "product.specs",
+      "sku": "8447",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-8447-application_method-320",
+      "scope": "product.specs",
+      "sku": "8447",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-BUR060-application_method-321",
+      "scope": "product.specs",
+      "sku": "BUR060",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-DOR150F-C-application_method-322",
+      "scope": "product.specs",
+      "sku": "DOR150F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-DOR160F-application_method-323",
+      "scope": "product.specs",
+      "sku": "DOR160F",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GE180F-C-application_method-325",
+      "scope": "product.specs",
+      "sku": "GE180F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GPRO060-application_method-326",
+      "scope": "product.specs",
+      "sku": "GPRO060",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GPRO180F-C-application_method-327",
+      "scope": "product.specs",
+      "sku": "GPRO180F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GPRO200F-application_method-328",
+      "scope": "product.specs",
+      "sku": "GPRO200F",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GPRO6555-application_method-329",
+      "scope": "product.specs",
+      "sku": "GPRO6555",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GRY180F-C-application_method-330",
+      "scope": "product.specs",
+      "sku": "GRY180F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GRY200F-application_method-331",
+      "scope": "product.specs",
+      "sku": "GRY200F",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-GRY6555-application_method-332",
+      "scope": "product.specs",
+      "sku": "GRY6555",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-KLIN-3251BL-skill_level-333",
+      "scope": "product.specs",
+      "sku": "KLIN-3251BL",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-KLIN-3251BL-application_method-335",
+      "scope": "product.specs",
+      "sku": "KLIN-3251BL",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-KP160-22KL-application_method-336",
+      "scope": "product.specs",
+      "sku": "KP160-22KL",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-KP160-22L-application_method-337",
+      "scope": "product.specs",
+      "sku": "KP160-22L",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-NPMW6555-application_method-338",
+      "scope": "product.specs",
+      "sku": "NPMW6555",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-PPF-L500M-application_temperature_min_c-339",
+      "scope": "product.specs",
+      "sku": "PPF-L500M",
+      "field": "specs.application_temperature_min_c",
+      "before": null,
+      "after": 10,
+      "label": "phase3c extract: application_temperature_min_c=10 [high] ev=\"10 – 30 °c\""
+    },
+    {
+      "id": "phase3c-PPF-L500M-application_temperature_max_c-340",
+      "scope": "product.specs",
+      "sku": "PPF-L500M",
+      "field": "specs.application_temperature_max_c",
+      "before": null,
+      "after": 30,
+      "label": "phase3c extract: application_temperature_max_c=30 [high] ev=\"10 – 30 °c\""
+    },
+    {
+      "id": "phase3c-PPF-L500M-volume_ml-341",
+      "scope": "product.specs",
+      "sku": "PPF-L500M",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 500,
+      "label": "phase3c extract: volume_ml=500 [high] ev=\"500 ml\""
+    },
+    {
+      "id": "phase3c-PPF-L500M-skill_level-342",
+      "scope": "product.specs",
+      "sku": "PPF-L500M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-PPF-L500M-application_method-343",
+      "scope": "product.specs",
+      "sku": "PPF-L500M",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-PU140F-C-application_method-344",
+      "scope": "product.specs",
+      "sku": "PU140F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-PU150F-C-application_method-345",
+      "scope": "product.specs",
+      "sku": "PU150F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-ES98M-volume_ml-346",
+      "scope": "product.specs",
+      "sku": "Q2M-ES98M",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 80,
+      "label": "phase3c extract: volume_ml=80 [high] ev=\"80 ml\""
+    },
+    {
+      "id": "phase3c-Q2M-ES98M-skill_level-347",
+      "scope": "product.specs",
+      "sku": "Q2M-ES98M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-Q2M-ES98M-application_method-348",
+      "scope": "product.specs",
+      "sku": "Q2M-ES98M",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-KM-application_method-349",
+      "scope": "product.specs",
+      "sku": "Q2M-KM",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-P-DB300M-volume_ml-350",
+      "scope": "product.specs",
+      "sku": "Q2M-P-DB300M",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 300,
+      "label": "phase3c extract: volume_ml=300 [high] ev=\"300 ml\""
+    },
+    {
+      "id": "phase3c-Q2M-P-DB300M-application_method-351",
+      "scope": "product.specs",
+      "sku": "Q2M-P-DB300M",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-PPFIK-application_method-354",
+      "scope": "product.specs",
+      "sku": "Q2M-PPFIK",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-PPFSL4000M-skill_level-355",
+      "scope": "product.specs",
+      "sku": "Q2M-PPFSL4000M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-Q2M-PPFSL4000M-application_method-357",
+      "scope": "product.specs",
+      "sku": "Q2M-PPFSL4000M",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-Q2M-SCOV-skill_level-358",
+      "scope": "product.specs",
+      "sku": "Q2M-SCOV",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-Q2M-SCOV-application_method-360",
+      "scope": "product.specs",
+      "sku": "Q2M-SCOV",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-SCOV-indoor_use-361",
+      "scope": "product.specs",
+      "sku": "Q2M-SCOV",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: indoor_use=true [high] ev=\"iç mekan/kapalı\""
+    },
+    {
+      "id": "phase3c-Q2M-SWCOV-skill_level-362",
+      "scope": "product.specs",
+      "sku": "Q2M-SWCOV",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-Q2M-SWCOV-application_method-364",
+      "scope": "product.specs",
+      "sku": "Q2M-SWCOV",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-SWCOV-indoor_use-365",
+      "scope": "product.specs",
+      "sku": "Q2M-SWCOV",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: indoor_use=true [high] ev=\"iç mekan/kapalı\""
+    },
+    {
+      "id": "phase3c-Q2M-TCYA1000M-application_method-367",
+      "scope": "product.specs",
+      "sku": "Q2M-TCYA1000M",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-TEYA1000M-dwell_time_minutes-368",
+      "scope": "product.specs",
+      "sku": "Q2M-TEYA1000M",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 5,
+      "label": "phase3c extract: dwell_time_minutes=5 [high] ev=\"5 dk bekle\""
+    },
+    {
+      "id": "phase3c-Q2M-TEYA1000M-application_method-369",
+      "scope": "product.specs",
+      "sku": "Q2M-TEYA1000M",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-Q2M-TEYA1000M-rinse_required-370",
+      "scope": "product.specs",
+      "sku": "Q2M-TEYA1000M",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: rinse_required=true [high] ev=\"durulayın/yıkayın\""
+    },
+    {
+      "id": "phase3c-Q2M-WCS98M-volume_ml-371",
+      "scope": "product.specs",
+      "sku": "Q2M-WCS98M",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 80,
+      "label": "phase3c extract: volume_ml=80 [high] ev=\"80 ml\""
+    },
+    {
+      "id": "phase3c-Q2M-WCS98M-skill_level-372",
+      "scope": "product.specs",
+      "sku": "Q2M-WCS98M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-RE180F-C-application_method-374",
+      "scope": "product.specs",
+      "sku": "RE180F-C",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-RE200F-application_method-375",
+      "scope": "product.specs",
+      "sku": "RE200F",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGA081-skill_level-376",
+      "scope": "product.specs",
+      "sku": "SGGA081",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGA081-application_method-378",
+      "scope": "product.specs",
+      "sku": "SGGA081",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-SGGC055-application_method-379",
+      "scope": "product.specs",
+      "sku": "SGGC055",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGC086-skill_level-380",
+      "scope": "product.specs",
+      "sku": "SGGC086",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGC086-application_method-382",
+      "scope": "product.specs",
+      "sku": "SGGC086",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGC086-indoor_use-383",
+      "scope": "product.specs",
+      "sku": "SGGC086",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: indoor_use=true [high] ev=\"iç mekan/kapalı\""
+    },
+    {
+      "id": "phase3c-SGGC091-volume_ml-384",
+      "scope": "product.specs",
+      "sku": "SGGC091",
+      "field": "specs.volume_ml",
+      "before": null,
+      "after": 1000,
+      "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+    },
+    {
+      "id": "phase3c-SGGC091-skill_level-385",
+      "scope": "product.specs",
+      "sku": "SGGC091",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGC091-application_method-386",
+      "scope": "product.specs",
+      "sku": "SGGC091",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGC091-indoor_use-387",
+      "scope": "product.specs",
+      "sku": "SGGC091",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: indoor_use=true [high] ev=\"iç mekan/kapalı\""
+    },
+    {
+      "id": "phase3c-SGGD025-application_method-388",
+      "scope": "product.specs",
+      "sku": "SGGD025",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD053-application_method-389",
+      "scope": "product.specs",
+      "sku": "SGGD053",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD135-application_method-392",
+      "scope": "product.specs",
+      "sku": "SGGD135",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD166-application_method-393",
+      "scope": "product.specs",
+      "sku": "SGGD166",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD175-skill_level-394",
+      "scope": "product.specs",
+      "sku": "SGGD175",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGD175-application_method-396",
+      "scope": "product.specs",
+      "sku": "SGGD175",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD233-application_method-399",
+      "scope": "product.specs",
+      "sku": "SGGD233",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD285-skill_level-400",
+      "scope": "product.specs",
+      "sku": "SGGD285",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGD285-application_method-402",
+      "scope": "product.specs",
+      "sku": "SGGD285",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD289-skill_level-403",
+      "scope": "product.specs",
+      "sku": "SGGD289",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGD289-application_method-404",
+      "scope": "product.specs",
+      "sku": "SGGD289",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD402-skill_level-406",
+      "scope": "product.specs",
+      "sku": "SGGD402",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGD402-application_method-408",
+      "scope": "product.specs",
+      "sku": "SGGD402",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGD402-outdoor_use-409",
+      "scope": "product.specs",
+      "sku": "SGGD402",
+      "field": "specs.outdoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3c extract: outdoor_use=true [high] ev=\"dış mekan/açık\""
+    },
+    {
+      "id": "phase3c-SGGD415-skill_level-410",
+      "scope": "product.specs",
+      "sku": "SGGD415",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGD415-application_method-411",
+      "scope": "product.specs",
+      "sku": "SGGD415",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "both",
+      "label": "phase3c extract: application_method=\"both\" [high] ev=\"machine+hand\""
+    },
+    {
+      "id": "phase3c-SGGD416-skill_level-412",
+      "scope": "product.specs",
+      "sku": "SGGD416",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGD416-application_method-413",
+      "scope": "product.specs",
+      "sku": "SGGD416",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGF179-application_method-414",
+      "scope": "product.specs",
+      "sku": "SGGF179",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGF181-57-skill_level-415",
+      "scope": "product.specs",
+      "sku": "SGGF181-57",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGF181-57-application_method-417",
+      "scope": "product.specs",
+      "sku": "SGGF181-57",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGF181-application_method-418",
+      "scope": "product.specs",
+      "sku": "SGGF181",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGF273-application_method-421",
+      "scope": "product.specs",
+      "sku": "SGGF273",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGGS003-skill_level-422",
+      "scope": "product.specs",
+      "sku": "SGGS003",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGGS003-application_method-424",
+      "scope": "product.specs",
+      "sku": "SGGS003",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM001-application_method-425",
+      "scope": "product.specs",
+      "sku": "SGPM001",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM002-application_method-426",
+      "scope": "product.specs",
+      "sku": "SGPM002",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM003-application_method-427",
+      "scope": "product.specs",
+      "sku": "SGPM003",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM004-application_method-428",
+      "scope": "product.specs",
+      "sku": "SGPM004",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM005-application_method-429",
+      "scope": "product.specs",
+      "sku": "SGPM005",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM006-application_method-430",
+      "scope": "product.specs",
+      "sku": "SGPM006",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM007-skill_level-431",
+      "scope": "product.specs",
+      "sku": "SGPM007",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+    },
+    {
+      "id": "phase3c-SGPM007-application_method-432",
+      "scope": "product.specs",
+      "sku": "SGPM007",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM008-application_method-433",
+      "scope": "product.specs",
+      "sku": "SGPM008",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM009-application_method-435",
+      "scope": "product.specs",
+      "sku": "SGPM009",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM013-application_method-436",
+      "scope": "product.specs",
+      "sku": "SGPM013",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGPM014-application_method-437",
+      "scope": "product.specs",
+      "sku": "SGPM014",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGYC010-application_method-438",
+      "scope": "product.specs",
+      "sku": "SGYC010",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SGYC011-application_method-439",
+      "scope": "product.specs",
+      "sku": "SGYC011",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-SVPRO160F-application_method-440",
+      "scope": "product.specs",
+      "sku": "SVPRO160F",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    },
+    {
+      "id": "phase3c-VPRO160F-application_method-441",
+      "scope": "product.specs",
+      "sku": "VPRO160F",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3c extract: application_method=\"machine\" [high] ev=\"machine signal\""
+    }
+  ]
+}

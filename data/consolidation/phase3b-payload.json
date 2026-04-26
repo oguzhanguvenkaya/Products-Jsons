@@ -1,0 +1,589 @@
+{
+  "changes": [
+    {
+      "id": "phase3b-PS0931-skill_level-1",
+      "scope": "product.specs",
+      "sku": "PS0931",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-PS0707-skill_level-2",
+      "scope": "product.specs",
+      "sku": "PS0707",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-PS0606-skill_level-3",
+      "scope": "product.specs",
+      "sku": "PS0606",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-PS0101-skill_level-4",
+      "scope": "product.specs",
+      "sku": "PS0101",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-PS2002-skill_level-5",
+      "scope": "product.specs",
+      "sku": "PS2002",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-PS0821-skill_level-6",
+      "scope": "product.specs",
+      "sku": "PS0821",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-71176-skill_level-7",
+      "scope": "product.specs",
+      "sku": "71176",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-700662-skill_level-8",
+      "scope": "product.specs",
+      "sku": "700662",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-70933-dwell_time_minutes-9",
+      "scope": "product.specs",
+      "sku": "70933",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 3,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-70933-skill_level-10",
+      "scope": "product.specs",
+      "sku": "70933",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-70933-rinse_required-11",
+      "scope": "product.specs",
+      "sku": "70933",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-06008.056.001-skill_level-12",
+      "scope": "product.specs",
+      "sku": "06008.056.001",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-70894-indoor_use-13",
+      "scope": "product.specs",
+      "sku": "70894",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-77019-rinse_required-14",
+      "scope": "product.specs",
+      "sku": "77019",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-75132-confidence_level-15",
+      "scope": "product.specs",
+      "sku": "75132",
+      "field": "specs.confidence_level",
+      "before": null,
+      "after": "high",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-75404-application_method-16",
+      "scope": "product.specs",
+      "sku": "75404",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-71676-skill_level-17",
+      "scope": "product.specs",
+      "sku": "71676",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-73378-rinse_required-18",
+      "scope": "product.specs",
+      "sku": "73378",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-701010-dwell_time_minutes-19",
+      "scope": "product.specs",
+      "sku": "701010",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 1,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-701010-skill_level-20",
+      "scope": "product.specs",
+      "sku": "701010",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-701010-rinse_required-21",
+      "scope": "product.specs",
+      "sku": "701010",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-701285-rinse_required-22",
+      "scope": "product.specs",
+      "sku": "701285",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-70901-indoor_use-23",
+      "scope": "product.specs",
+      "sku": "70901",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-77192-outdoor_use-24",
+      "scope": "product.specs",
+      "sku": "77192",
+      "field": "specs.outdoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-PM500M-durability_months-25",
+      "scope": "product.specs",
+      "sku": "Q2M-PM500M",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 6,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-APYA4000M-dwell_time_minutes-26",
+      "scope": "product.specs",
+      "sku": "Q2M-APYA4000M",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 2,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-APYA4000M-rinse_required-27",
+      "scope": "product.specs",
+      "sku": "Q2M-APYA4000M",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-DT10P-rinse_required-28",
+      "scope": "product.specs",
+      "sku": "Q2M-DT10P",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-FCNA1000M-dwell_time_minutes-29",
+      "scope": "product.specs",
+      "sku": "Q2M-FCNA1000M",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 2,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-79771-dwell_time_minutes-30",
+      "scope": "product.specs",
+      "sku": "79771",
+      "field": "specs.dwell_time_minutes",
+      "before": null,
+      "after": 3,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-79771-rinse_required-31",
+      "scope": "product.specs",
+      "sku": "79771",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-79298-durability_months-32",
+      "scope": "product.specs",
+      "sku": "79298",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 5,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-79818-indoor_use-33",
+      "scope": "product.specs",
+      "sku": "79818",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2-LCR500M-skill_level-34",
+      "scope": "product.specs",
+      "sku": "Q2-LCR500M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-LCSYA1000M-skill_level-35",
+      "scope": "product.specs",
+      "sku": "Q2M-LCSYA1000M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-LSN200M-durability_months-36",
+      "scope": "product.specs",
+      "sku": "Q2M-LSN200M",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 6,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-LSN200M-indoor_use-37",
+      "scope": "product.specs",
+      "sku": "Q2M-LSN200M",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-LSSYA200M-durability_months-38",
+      "scope": "product.specs",
+      "sku": "Q2M-LSSYA200M",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 3,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-LSSYA200M-indoor_use-39",
+      "scope": "product.specs",
+      "sku": "Q2M-LSSYA200M",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-75131-rinse_required-40",
+      "scope": "product.specs",
+      "sku": "75131",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-24011.261.080-application_method-41",
+      "scope": "product.specs",
+      "sku": "24011.261.080",
+      "field": "specs.application_method",
+      "before": null,
+      "after": "machine",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-HPG11850M-outdoor_use-42",
+      "scope": "product.specs",
+      "sku": "HPG11850M",
+      "field": "specs.outdoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-SDE7090C-rinse_required-43",
+      "scope": "product.specs",
+      "sku": "Q2M-SDE7090C",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-STE-rinse_required-44",
+      "scope": "product.specs",
+      "sku": "Q2M-STE",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-WP-rinse_required-45",
+      "scope": "product.specs",
+      "sku": "Q2M-WP",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-3236NBR2-skill_level-46",
+      "scope": "product.specs",
+      "sku": "3236NBR2",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "diy",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-3218-confidence_level-47",
+      "scope": "product.specs",
+      "sku": "3218",
+      "field": "specs.confidence_level",
+      "before": null,
+      "after": "high",
+      "label": "phase3b extract (medium)"
+    },
+    {
+      "id": "phase3b-3227I-HD-rinse_required-48",
+      "scope": "product.specs",
+      "sku": "3227I-HD",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-3227B-rinse_required-49",
+      "scope": "product.specs",
+      "sku": "3227B",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-3228R-rinse_required-50",
+      "scope": "product.specs",
+      "sku": "3228R",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-3221A-RD-rinse_required-51",
+      "scope": "product.specs",
+      "sku": "3221A-RD",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-3225A-BL-rinse_required-52",
+      "scope": "product.specs",
+      "sku": "3225A-BL",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-71331-rinse_required-53",
+      "scope": "product.specs",
+      "sku": "71331",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": false,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-74059-rinse_required-54",
+      "scope": "product.specs",
+      "sku": "74059",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-74062-rinse_required-55",
+      "scope": "product.specs",
+      "sku": "74062",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-70545-rinse_required-56",
+      "scope": "product.specs",
+      "sku": "70545",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-PPFMR500M-rinse_required-57",
+      "scope": "product.specs",
+      "sku": "Q2M-PPFMR500M",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-WCYA4000M-skill_level-58",
+      "scope": "product.specs",
+      "sku": "Q2M-WCYA4000M",
+      "field": "specs.skill_level",
+      "before": null,
+      "after": "pro",
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-Q2M-WCYA4000M-rinse_required-59",
+      "scope": "product.specs",
+      "sku": "Q2M-WCYA4000M",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-79304-rinse_required-60",
+      "scope": "product.specs",
+      "sku": "79304",
+      "field": "specs.rinse_required",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-700097-durability_months-61",
+      "scope": "product.specs",
+      "sku": "700097",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 9,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-700096-durability_months-62",
+      "scope": "product.specs",
+      "sku": "700096",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 8,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-79301-indoor_use-63",
+      "scope": "product.specs",
+      "sku": "79301",
+      "field": "specs.indoor_use",
+      "before": null,
+      "after": true,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-373680-durability_months-64",
+      "scope": "product.specs",
+      "sku": "373680",
+      "field": "specs.durability_months",
+      "before": null,
+      "after": 1080,
+      "label": "phase3b extract (high)"
+    },
+    {
+      "id": "phase3b-373680-confidence_level-65",
+      "scope": "product.specs",
+      "sku": "373680",
+      "field": "specs.confidence_level",
+      "before": null,
+      "after": "high",
+      "label": "phase3b extract (medium)"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+id,scope,sku,field,before,after,label
+phase2c-leather_care-key-1,product.specs,Q2M-LCN1000M,specs.sub_type,leather_cleaner,,P2 redundant — template_sub_type ile dup
+phase2c-leather_care-key-2,product.specs,Q2M-LSN200M,specs.sub_type,leather_care_kit,,P2 redundant — template_sub_type ile dup
+phase2c-leather_care-key-3,product.specs,Q2M-LSSYA200M,specs.sub_type,leather_care_kit,,P2 redundant — template_sub_type ile dup
+phase2c-leather_care-key-4,product.specs,700468,specs.suitable_surface,Deri,,P1 dup — suitable_surfaces (plural) zaten var; tekil sil
+phase2c-leather_care-key-5,product.specs,Q2M-LCN1000M,specs.dilution_ratio,1:5,,P2 redundant — dilution alanı string olarak içeriyor
+phase2c-leather_care-key-6,product.specs,Q2M-LCN1000M,specs.consumption_ml_per_car,,,P2 sürekli null/sayısal dup — consumption alanı yeterli
+phase2c-leather_care-key-7,product.specs,Q2M-LCN1000M,specs.volume_ml,1000,,P2 dup — volume zaten var
+phase2c-leather_care-key-8,product.specs,Q2-LCR500M,specs.durability_label,,,P2 dup — durability + durability_months yeterli
+phase2c-leather_care-key-9,product.specs,Q2-LCR500M,specs.durability,,,P2 dup — durability_months canonical

@@ -1,0 +1,2 @@
+id,scope,sku,field,before,after,label
+phase2-applicators-SGGD190-key1,product.specs,SGGD190,specs.chemical_free,True,null,P0 ilgisiz: applicators grubunda chemical_free anlamsız

@@ -1,0 +1,9 @@
+id,scope,sku,field,before,after,label
+phase2-tgmerge-701606-1,product,701606,template_group,glass_cleaner,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-74955-2,product,74955,template_group,glass_cleaner,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-700466-3,product,700466,template_group,glass_cleaner_protectant,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-71176-4,product,71176,template_group,glass_cleaner_protectant,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-Q2M-GPYA1000M-5,product,Q2M-GPYA1000M,template_group,glass_cleaner_protectant,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-700662-6,product,700662,template_group,glass_cleaner_protectant,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-JC0101-7,product,JC0101,template_group,glass_cleaner_protectant,glass_care,P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care
+phase2-tgmerge-Q2M-PYA4000M-8,product,Q2M-PYA4000M,template_group,contaminant_solvers,ceramic_coating,P0 Faz2B yanlış grup düzeltmesi: IPA prep ürünü → ceramic_coating

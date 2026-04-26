@@ -1,0 +1,21 @@
+{
+  "total_changes": 1,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 1,
+      "changes": [
+        {
+          "id": "phase2-spare_part-492361-key-hardness",
+          "scope": "product.specs",
+          "sku": "492361",
+          "field": "specs.hardness",
+          "before": "Orta",
+          "after": null,
+          "label": "P0 ilgisiz-populated: spare_part/backing_plate ürününde hardness alanı kategoriyle uyumsuz"
+        }
+      ]
+    }
+  ]
+}

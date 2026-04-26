@@ -1,0 +1,313 @@
+id,sku,name,key,value,confidence,evidence
+phase3c-123456-application_method-2,123456,EPOCA TINT TEC 10 PPF Folyo Cam Filmi Uygulamaları İçin Basınçlı Pompa 10 Litre - Siyah/Beyaz,application_method,machine,high,machine signal
+phase3c-12918-skill_level-3,12918,EPOCA EP01 Asit Dayanımlı El Tipi Sprey Şişe 1 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-12918-application_method-4,12918,EPOCA EP01 Asit Dayanımlı El Tipi Sprey Şişe 1 Litre,application_method,both,high,machine+hand
+phase3c-12922-skill_level-5,12922,EPOCA EP01 Alkali ve Alkol Dayanımlı El Tipi Sprey Şişe 1 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-12922-application_method-6,12922,EPOCA EP01 Alkali ve Alkol Dayanımlı El Tipi Sprey Şişe 1 Litre,application_method,both,high,machine+hand
+phase3c-13724-volume_ml-7,13724,EPOCA EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml,volume_ml,600,high,600 ml
+phase3c-13724-skill_level-8,13724,EPOCA EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml,skill_level,pro,high,profesyonel/usta
+phase3c-13724-application_method-9,13724,EPOCA EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml,application_method,both,high,machine+hand
+phase3c-18802-volume_ml-10,18802,EPOCA A-TYPE 1.5 PRO Asit Dayanımlı Basınçlı Pompa 1.8 Litre,volume_ml,1860,high,1860 ml
+phase3c-18802-skill_level-11,18802,EPOCA A-TYPE 1.5 PRO Asit Dayanımlı Basınçlı Pompa 1.8 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-18802-application_method-13,18802,EPOCA A-TYPE 1.5 PRO Asit Dayanımlı Basınçlı Pompa 1.8 Litre,application_method,machine,high,machine signal
+phase3c-18802-rinse_required-14,18802,EPOCA A-TYPE 1.5 PRO Asit Dayanımlı Basınçlı Pompa 1.8 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-18810-volume_ml-15,18810,EPOCA A-TYPE 1.5 PRO Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.8 Litre,volume_ml,1860,high,1860 ml
+phase3c-18810-skill_level-16,18810,EPOCA A-TYPE 1.5 PRO Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.8 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-18810-application_method-18,18810,EPOCA A-TYPE 1.5 PRO Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.8 Litre,application_method,machine,high,machine signal
+phase3c-18810-rinse_required-19,18810,EPOCA A-TYPE 1.5 PRO Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.8 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-18848-skill_level-20,18848,EPOCA A-TYPE 1.5 PRO Köpük Yapıcı Asit Dayanımlı Basınçlı Pompa 1.8 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-18848-application_method-22,18848,EPOCA A-TYPE 1.5 PRO Köpük Yapıcı Asit Dayanımlı Basınçlı Pompa 1.8 Litre,application_method,machine,high,machine signal
+phase3c-19771-application_temperature_min_c-23,19771,EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,application_temperature_min_c,5,high,5–30°c
+phase3c-19771-application_temperature_max_c-24,19771,EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,application_temperature_max_c,30,high,5–30°c
+phase3c-19771-volume_ml-25,19771,EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,volume_ml,2000,high,2000 ml
+phase3c-19771-skill_level-26,19771,EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-19771-application_method-28,19771,EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,application_method,machine,high,machine signal
+phase3c-19771-rinse_required-29,19771,EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-19956-application_method-31,19956,EPOCA ALFA TEC Asit Dayanımlı Basınçlı Pompa 2 Litre,application_method,both,high,machine+hand
+phase3c-19976-application_method-33,19976,EPOCA ALFA TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre,application_method,both,high,machine+hand
+phase3c-20009-application_method-35,20009,EPOCA ALFA TEC Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,application_method,both,high,machine+hand
+phase3c-20102-skill_level-36,20102,EPOCA 2000 Profesyonel Kimyasal Dayanımlı Basınçlı Pompa 2 Litre - Kırmızı/Beyaz (NBR),skill_level,pro,high,profesyonel/usta
+phase3c-20102-application_method-38,20102,EPOCA 2000 Profesyonel Kimyasal Dayanımlı Basınçlı Pompa 2 Litre - Kırmızı/Beyaz (NBR),application_method,both,high,machine+hand
+phase3c-20417-application_temperature_min_c-39,20417,EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre,application_temperature_min_c,5,high,5–30°c
+phase3c-20417-application_temperature_max_c-40,20417,EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre,application_temperature_max_c,30,high,5–30°c
+phase3c-20417-volume_ml-41,20417,EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre,volume_ml,1310,high,1310 ml
+phase3c-20417-skill_level-42,20417,EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-20417-application_method-44,20417,EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre,application_method,machine,high,machine signal
+phase3c-20417-rinse_required-45,20417,EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-20444-application_method-47,20444,EPOCA EP TEC Kimyasal Dayanımlı Basınçlı Pompa 1.3 Litre,application_method,both,high,machine+hand
+phase3c-20450-application_method-49,20450,EPOCA EP TEC 360° Derece Kimyasal Dayanımlı Basınçlı Pompa 1.3 Litre,application_method,both,high,machine+hand
+phase3c-21746-volume_ml-50,21746,EPOCA A-TYPE 10 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 11 Litre,volume_ml,230,high,230 ml
+phase3c-21746-skill_level-51,21746,EPOCA A-TYPE 10 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 11 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-21746-application_method-53,21746,EPOCA A-TYPE 10 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 11 Litre,application_method,machine,high,machine signal
+phase3c-21746-rinse_required-54,21746,EPOCA A-TYPE 10 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 11 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-23822-application_method-56,23822,EPOCA TEC 10 Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre,application_method,machine,high,machine signal
+phase3c-23841-skill_level-57,23841,EPOCA TOP TEC 10 Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-23841-application_method-59,23841,EPOCA TOP TEC 10 Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre,application_method,machine,high,machine signal
+phase3c-24952-volume_ml-60,24952,EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR),volume_ml,600,high,600 ml
+phase3c-24952-skill_level-61,24952,EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR),skill_level,pro,high,profesyonel/usta
+phase3c-24952-application_method-62,24952,EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR),application_method,both,high,machine+hand
+phase3c-24952-rinse_required-63,24952,EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR),rinse_required,true,high,durulayın/yıkayın
+phase3c-26005-volume_ml-64,26005,"A-TYPE 1.5 PRO ULTIMATE Solvent, Petrol ve Agresif Kimyasal Dayanımlı Basınçlı Pompa 1.8 Litre",volume_ml,1860,high,1860 ml
+phase3c-26005-skill_level-65,26005,"A-TYPE 1.5 PRO ULTIMATE Solvent, Petrol ve Agresif Kimyasal Dayanımlı Basınçlı Pompa 1.8 Litre",skill_level,pro,high,profesyonel/usta
+phase3c-26005-application_method-67,26005,"A-TYPE 1.5 PRO ULTIMATE Solvent, Petrol ve Agresif Kimyasal Dayanımlı Basınçlı Pompa 1.8 Litre",application_method,both,high,machine+hand
+phase3c-26005-rinse_required-68,26005,"A-TYPE 1.5 PRO ULTIMATE Solvent, Petrol ve Agresif Kimyasal Dayanımlı Basınçlı Pompa 1.8 Litre",rinse_required,true,high,durulayın/yıkayın
+phase3c-26900.223.003-application_method-69,26900.223.003,MENZERNA P150M Hare Giderici Cila Süngeri (Sarı) - 150mm,application_method,machine,high,machine signal
+phase3c-26900.223.010-skill_level-70,26900.223.010,MENZERNA Rotary ve Orbital Uyumlu Kalın Pasta Süngeri 130/150mm - Kırmızı,skill_level,pro,high,profesyonel/usta
+phase3c-26900.223.010-application_method-72,26900.223.010,MENZERNA Rotary ve Orbital Uyumlu Kalın Pasta Süngeri 130/150mm - Kırmızı,application_method,machine,high,machine signal
+phase3c-26900.223.011-skill_level-73,26900.223.011,MENZERNA Rotary ve Orbital Uyumlu İnce Pasta Süngeri 130/150mm - Sarı,skill_level,pro,high,profesyonel/usta
+phase3c-26900.223.011-application_method-75,26900.223.011,MENZERNA Rotary ve Orbital Uyumlu İnce Pasta Süngeri 130/150mm - Sarı,application_method,machine,high,machine signal
+phase3c-26900.223.012-skill_level-76,26900.223.012,MENZERNA Rotary ve Orbital Uyumlu Hare Giderici Sünger 130/150mm - Yeşil,skill_level,pro,high,profesyonel/usta
+phase3c-26900.223.012-application_method-77,26900.223.012,MENZERNA Rotary ve Orbital Uyumlu Hare Giderici Sünger 130/150mm - Yeşil,application_method,machine,high,machine signal
+phase3c-26900.224.010-application_method-79,26900.224.010,MENZERNA Ağır Kesim Pasta Süngeri (Kırmızı) - 150mm,application_method,machine,high,machine signal
+phase3c-26900.224.011-application_method-81,26900.224.011,MENZERNA İnce Kesim Pasta Süngeri (Sarı) - 150mm,application_method,machine,high,machine signal
+phase3c-26900.224.012-application_method-83,26900.224.012,MENZERNA Hare Giderici Cila Süngeri (Yeşil) - 150mm,application_method,machine,high,machine signal
+phase3c-26907.099.001-skill_level-84,26907.099.001,MENZERNA Ağır Kesim Kalın Pasta Süngeri 2li Paket (Kırmızı) - 95mm,skill_level,pro,high,profesyonel/usta
+phase3c-26907.099.001-application_method-86,26907.099.001,MENZERNA Ağır Kesim Kalın Pasta Süngeri 2li Paket (Kırmızı) - 95mm,application_method,machine,high,machine signal
+phase3c-26908.099.001-application_method-88,26908.099.001,MENZERNA İnce Kesim Ara Kat Pasta Süngeri 2li Paket (Sarı) - 95mm,application_method,machine,high,machine signal
+phase3c-26909.099.001-application_method-90,26909.099.001,MENZERNA Hare Hologram Giderici Cila Süngeri 2li Paket (Yeşil) - 95mm,application_method,machine,high,machine signal
+phase3c-26913.099.001-application_method-92,26913.099.001,"MENZERNA Premium Kuzu Yünü Polisaj Keçesi 90 mm/3,5&quot;",application_method,machine,high,machine signal
+phase3c-26915.099.001-application_method-94,26915.099.001,"MENZERNA Premium Orbital Kuzu Yünü Polisaj Keçesi 165mm/6,5&quot;",application_method,machine,high,machine signal
+phase3c-26931.099.001-application_method-96,26931.099.001,MENZERNA Polisaj Dayanıklı Tabanlığı (Kırmızı) - 123mm,application_method,machine,high,machine signal
+phase3c-26934.099.001-application_method-98,26934.099.001,MENZERNA Rotary Polisaj Makineleri Matkap için Dayanıklı Ped Destek Disk Tabanlık - 75mm,application_method,machine,high,machine signal
+phase3c-26935.099.001-application_method-100,26935.099.001,MENZERNA Rotary Polisaj Makineleri için Esnek ve Dayanıklı Ped Destek Disk Tabanlık - 148mm,application_method,machine,high,machine signal
+phase3c-336807-skill_level-101,336807,FLEX Polisaj Makinesi Yedek Kömür Takımı L48 (2 Adet),skill_level,pro,high,profesyonel/usta
+phase3c-336807-application_method-103,336807,FLEX Polisaj Makinesi Yedek Kömür Takımı L48 (2 Adet),application_method,machine,high,machine signal
+phase3c-399647-skill_level-104,399647,FLEX Polisaj Makinesi Yedek Kömür Takımı K96 (2 Adet),skill_level,pro,high,profesyonel/usta
+phase3c-399647-application_method-106,399647,FLEX Polisaj Makinesi Yedek Kömür Takımı K96 (2 Adet),application_method,machine,high,machine signal
+phase3c-405418-application_method-110,405418,FLEX VC 21 L MC Islak Kuru Sanayi Tipi Elektrikli Süpürge 1000W 20 Litre - Toz Emici Hava Üfleyici,application_method,machine,high,machine signal
+phase3c-417882-skill_level-111,417882,"FLEX 10.8/18V Akü Uyumlu, LED Göstergeli Şarj Cihazı (230V - 9A)",skill_level,pro,high,profesyonel/usta
+phase3c-417882-application_method-113,417882,"FLEX 10.8/18V Akü Uyumlu, LED Göstergeli Şarj Cihazı (230V - 9A)",application_method,machine,high,machine signal
+phase3c-418072-durability_months-114,418072,FLEX XCE 10-8 125 Pozitif Sürüş Random Orbital Polisaj Makinesi 1010W (Gear Driven Dual Action),durability_months,24,high,2 yıl garanti
+phase3c-418072-skill_level-115,418072,FLEX XCE 10-8 125 Pozitif Sürüş Random Orbital Polisaj Makinesi 1010W (Gear Driven Dual Action),skill_level,pro,high,profesyonel/usta
+phase3c-418072-application_method-117,418072,FLEX XCE 10-8 125 Pozitif Sürüş Random Orbital Polisaj Makinesi 1010W (Gear Driven Dual Action),application_method,machine,high,machine signal
+phase3c-418080-skill_level-118,418080,FLEX XFE 7-15 150 Orbital Çift Tabanlı Polisaj Makinesi Seti,skill_level,pro,high,profesyonel/usta
+phase3c-418080-application_method-120,418080,FLEX XFE 7-15 150 Orbital Çift Tabanlı Polisaj Makinesi Seti,application_method,machine,high,machine signal
+phase3c-418102-application_method-123,418102,FLEX PXE 80 10.8-EC Set Rotary/Orbital Akülü Nano Polisaj Makinesi Seti,application_method,machine,high,machine signal
+phase3c-445894-skill_level-124,445894,FLEX AP 18.0V 5.0AH Lithium Power Li-ion Korumalı Yedek Akü (Kutulu),skill_level,pro,high,profesyonel/usta
+phase3c-445894-application_method-126,445894,FLEX AP 18.0V 5.0AH Lithium Power Li-ion Korumalı Yedek Akü (Kutulu),application_method,machine,high,machine signal
+phase3c-447129-skill_level-127,447129,FLEX XFE 7-12 80 Orbital Polisaj Makinesi,skill_level,pro,high,profesyonel/usta
+phase3c-447129-application_method-129,447129,FLEX XFE 7-12 80 Orbital Polisaj Makinesi,application_method,machine,high,machine signal
+phase3c-458813-skill_level-130,458813,FLEX EXS M14 Set Rotary Polisaj Makinesi Uzatma Aparatı Seti 4 Parça,skill_level,pro,high,profesyonel/usta
+phase3c-458813-application_method-132,458813,FLEX EXS M14 Set Rotary Polisaj Makinesi Uzatma Aparatı Seti 4 Parça,application_method,machine,high,machine signal
+phase3c-463302-application_method-135,463302,FLEX SF 150-P LED Detailing El Cep Feneri 140 Lümen - Kalem Tipi Kontrol Işık,application_method,machine,high,machine signal
+phase3c-481491-skill_level-137,481491,FLEX VC 6 L MC 18.0V Şarjlı Kablosuz El Süpürgesi 6 Litre - 4 Başlıklı Taşınabilir Toz Emici,skill_level,pro,high,profesyonel/usta
+phase3c-481491-application_method-139,481491,FLEX VC 6 L MC 18.0V Şarjlı Kablosuz El Süpürgesi 6 Litre - 4 Başlıklı Taşınabilir Toz Emici,application_method,machine,high,machine signal
+phase3c-486728-skill_level-140,486728,FLEX DWL 2500 LED Şarjlı Çalışma Detay Lambası 6500K 3000 Lümen- Kablosuz Bluetooth Kontrol Işığı,skill_level,pro,high,profesyonel/usta
+phase3c-486728-application_method-142,486728,FLEX DWL 2500 LED Şarjlı Çalışma Detay Lambası 6500K 3000 Lümen- Kablosuz Bluetooth Kontrol Işığı,application_method,machine,high,machine signal
+phase3c-487988-skill_level-143,487988,FLEX XCE/XFE Orbital Polisaj Makineleri Uyumlu Velcro Taban 150mm,skill_level,pro,high,profesyonel/usta
+phase3c-487988-application_method-145,487988,FLEX XCE/XFE Orbital Polisaj Makineleri Uyumlu Velcro Taban 150mm,application_method,machine,high,machine signal
+phase3c-492361-skill_level-146,492361,FLEX BP-M D75 - PXE 80 İçin Cırtlı Tabanlık 75 mm / 3 inc,skill_level,pro,high,profesyonel/usta
+phase3c-492361-application_method-148,492361,FLEX BP-M D75 - PXE 80 İçin Cırtlı Tabanlık 75 mm / 3 inc,application_method,machine,high,machine signal
+phase3c-502561-volume_ml-149,502561,FLEX FB L 700/400 Ürün Taşıma Saklama Çantası 57cm - Omuz Askılı Dayanıklı Çok Gözlü,volume_ml,500,high,500ml
+phase3c-502561-skill_level-150,502561,FLEX FB L 700/400 Ürün Taşıma Saklama Çantası 57cm - Omuz Askılı Dayanıklı Çok Gözlü,skill_level,pro,high,profesyonel/usta
+phase3c-502561-application_method-151,502561,FLEX FB L 700/400 Ürün Taşıma Saklama Çantası 57cm - Omuz Askılı Dayanıklı Çok Gözlü,application_method,machine,high,machine signal
+phase3c-513547-01-application_method-154,513547-01,"FLEX Şarjlı Vidalama ve Detaylı Temizlik Fırça Seti - DD 2G Matkap, 3lü Fırça (10.8V 2.5AH Akülü)",application_method,machine,high,machine signal
+phase3c-513547-skill_level-155,513547,"FLEX Pasta Cila Vidalama ve Temizlik Fırça Seti - PXE80 Mini Polisaj, DD 2G Şarjlı Matkap,3lü Fırça",skill_level,pro,high,profesyonel/usta
+phase3c-513547-application_method-157,513547,"FLEX Pasta Cila Vidalama ve Temizlik Fırça Seti - PXE80 Mini Polisaj, DD 2G Şarjlı Matkap,3lü Fırça",application_method,machine,high,machine signal
+phase3c-530375-skill_level-158,530375,FLEX TL 4000 18.0/230 Akülü/Elektrikli LED Kule Tipi Aydınlatma Lambası - Katlanır Taşınabilir,skill_level,pro,high,profesyonel/usta
+phase3c-530375-application_method-160,530375,FLEX TL 4000 18.0/230 Akülü/Elektrikli LED Kule Tipi Aydınlatma Lambası - Katlanır Taşınabilir,application_method,machine,high,machine signal
+phase3c-530882-skill_level-161,530882,"FLEX İkili Makine, Akü, Pasta Duvar Askı Aparatı - Metal",skill_level,pro,high,profesyonel/usta
+phase3c-530882-application_method-163,530882,"FLEX İkili Makine, Akü, Pasta Duvar Askı Aparatı - Metal",application_method,machine,high,machine signal
+phase3c-530883-skill_level-164,530883,FLEX İkili Makine Duvar Askı Aparatı - Metal,skill_level,pro,high,profesyonel/usta
+phase3c-530883-application_method-166,530883,FLEX İkili Makine Duvar Askı Aparatı - Metal,application_method,machine,high,machine signal
+phase3c-532024-skill_level-168,532024,FLEX VC 6 L MC Elektrikli Omuz Askılı El Süpürgesi 6 Litre 1200W - 4 Başlıklı Taşınabilir Tekerlekli,skill_level,pro,high,profesyonel/usta
+phase3c-532024-application_method-170,532024,FLEX VC 6 L MC Elektrikli Omuz Askılı El Süpürgesi 6 Litre 1200W - 4 Başlıklı Taşınabilir Tekerlekli,application_method,machine,high,machine signal
+phase3c-533019-application_method-173,533019,FLEX PE 150 18-EC Set Rotary Çift Akülü Kablosuz Polisaj Makinesi Seti 18V -Kömürsüz Fırçasız Motor,application_method,machine,high,machine signal
+phase3c-533020-skill_level-174,533020,FLEX XCE 8 150 18-EC Set DA Orbital Çift Akülü Kablosuz Polisaj Makinesi Seti - Pozitif Sürüş,skill_level,pro,high,profesyonel/usta
+phase3c-533020-application_method-176,533020,FLEX XCE 8 150 18-EC Set DA Orbital Çift Akülü Kablosuz Polisaj Makinesi Seti - Pozitif Sürüş,application_method,machine,high,machine signal
+phase3c-533021-skill_level-177,533021,FLEX XFE 15 150 18-EC SET Random Orbital Çift Akülü Kablosuz Polisaj Makinesi Seti - Fırçasız Motor,skill_level,pro,high,profesyonel/usta
+phase3c-533021-application_method-179,533021,FLEX XFE 15 150 18-EC SET Random Orbital Çift Akülü Kablosuz Polisaj Makinesi Seti - Fırçasız Motor,application_method,machine,high,machine signal
+phase3c-700743-application_method-181,700743,FRA-BER Kimyasala Dayanıklı Basınçlı Pompa - 2 lt,application_method,machine,high,machine signal
+phase3c-701908-application_method-183,701908,FRA-BER Superlux Suya Dayanıklı Lastik Parlatıcı Dış İç Plastik Trim Koruyucu Yenileyici - 900 ml,application_method,machine,high,machine signal
+phase3c-701908-outdoor_use-184,701908,FRA-BER Superlux Suya Dayanıklı Lastik Parlatıcı Dış İç Plastik Trim Koruyucu Yenileyici - 900 ml,outdoor_use,true,high,dış mekan/açık
+phase3c-70868-dwell_time_minutes-185,70868,FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 750 ml,dwell_time_minutes,10,high,10 dk bekle
+phase3c-70868-skill_level-186,70868,FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 750 ml,skill_level,pro,high,profesyonel/usta
+phase3c-70868-application_method-187,70868,FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 750 ml,application_method,both,high,machine+hand
+phase3c-70868-outdoor_use-188,70868,FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 750 ml,outdoor_use,true,high,dış mekan/açık
+phase3c-71706-application_method-190,71706,FRA-BER Gommanera Blue Lastik Parlatıcı (1:3-5 Konsantre) - 5 kg,application_method,machine,high,machine signal
+phase3c-75138-skill_level-191,75138,FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 5 lt,skill_level,pro,high,profesyonel/usta
+phase3c-75138-application_method-193,75138,FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 5 lt,application_method,both,high,machine+hand
+phase3c-75140-skill_level-195,75140,FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 25 lt,skill_level,pro,high,profesyonel/usta
+phase3c-75140-application_method-197,75140,FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 25 lt,application_method,both,high,machine+hand
+phase3c-79258-skill_level-198,79258,EPOCA VELA Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Siyah,skill_level,pro,high,profesyonel/usta
+phase3c-79258-application_method-199,79258,EPOCA VELA Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Siyah,application_method,machine,high,machine signal
+phase3c-79472-skill_level-200,79472,"INNOVACAR Araç Yıkama Kovası Seti 20 Lt Siyah (Süzgeç + Vidalı Kapak) - Wash Bucket, Grit Guard",skill_level,pro,high,profesyonel/usta
+phase3c-79472-application_method-202,79472,"INNOVACAR Araç Yıkama Kovası Seti 20 Lt Siyah (Süzgeç + Vidalı Kapak) - Wash Bucket, Grit Guard",application_method,machine,high,machine signal
+phase3c-79472-pre_coating_safe-203,79472,"INNOVACAR Araç Yıkama Kovası Seti 20 Lt Siyah (Süzgeç + Vidalı Kapak) - Wash Bucket, Grit Guard",pre_coating_safe,true,high,coating öncesi
+phase3c-79586-643-volume_ml-204,79586-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Yeşil) - 1000 ml,volume_ml,1000,high,1000 ml
+phase3c-79586-643-skill_level-205,79586-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Yeşil) - 1000 ml,skill_level,pro,high,profesyonel/usta
+phase3c-79586-643-application_method-207,79586-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Yeşil) - 1000 ml,application_method,both,high,machine+hand
+phase3c-79586-643-rinse_required-208,79586-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Yeşil) - 1000 ml,rinse_required,true,high,durulayın/yıkayın
+phase3c-79586-644-volume_ml-209,79586-644,FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Yeşil) - 1000 ML,volume_ml,1000,high,1000ml
+phase3c-79586-644-application_method-210,79586-644,FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Yeşil) - 1000 ML,application_method,both,high,machine+hand
+phase3c-79587-643-volume_ml-211,79587-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Mavi) - 1000 ml,volume_ml,1000,high,1000 ml
+phase3c-79587-643-skill_level-212,79587-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Mavi) - 1000 ml,skill_level,pro,high,profesyonel/usta
+phase3c-79587-643-application_method-214,79587-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Mavi) - 1000 ml,application_method,both,high,machine+hand
+phase3c-79587-643-rinse_required-215,79587-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Mavi) - 1000 ml,rinse_required,true,high,durulayın/yıkayın
+phase3c-79587-644-volume_ml-216,79587-644,FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Mavi) - 1000 ML,volume_ml,1000,high,1000ml
+phase3c-79587-644-application_method-217,79587-644,FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Mavi) - 1000 ML,application_method,both,high,machine+hand
+phase3c-79588-643-volume_ml-218,79588-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Siyah) - 1000 ml,volume_ml,1000,high,1000 ml
+phase3c-79588-643-skill_level-219,79588-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Siyah) - 1000 ml,skill_level,pro,high,profesyonel/usta
+phase3c-79588-643-application_method-221,79588-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Siyah) - 1000 ml,application_method,both,high,machine+hand
+phase3c-79588-643-rinse_required-222,79588-643,FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Siyah) - 1000 ml,rinse_required,true,high,durulayın/yıkayın
+phase3c-79588-644-volume_ml-223,79588-644,FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Siyah) - 1000 ML,volume_ml,1000,high,1000ml
+phase3c-79588-644-application_method-224,79588-644,FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Siyah) - 1000 ML,application_method,both,high,machine+hand
+phase3c-79643-skill_level-226,79643,FRA-BER Canyon Sprey Başlık - 1.3 cc 28/410,skill_level,pro,high,profesyonel/usta
+phase3c-79643-application_method-228,79643,FRA-BER Canyon Sprey Başlık - 1.3 cc 28/410,application_method,both,high,machine+hand
+phase3c-79643-rinse_required-229,79643,FRA-BER Canyon Sprey Başlık - 1.3 cc 28/410,rinse_required,true,high,durulayın/yıkayın
+phase3c-81671901-skill_level-230,81671901,IK Pro Lid - IK 1.5/2 Tank Uyumlu Karışım Hazırlama ve Saklama Kapağı,skill_level,pro,high,profesyonel/usta
+phase3c-81671901-application_method-231,81671901,IK Pro Lid - IK 1.5/2 Tank Uyumlu Karışım Hazırlama ve Saklama Kapağı,application_method,both,high,machine+hand
+phase3c-81675-skill_level-233,81675,IK MULTI PRO 2 360 Derece Her Yönden Atımlı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 2 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-81675-application_method-235,81675,IK MULTI PRO 2 360 Derece Her Yönden Atımlı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 2 Litre,application_method,machine,high,machine signal
+phase3c-81676800-skill_level-236,81676800,"IK FOAM 1,5 ve FOAM PRO 2 için Yedek Köpük Yapıcı Nozzle ve Keçe Kiti - 3 Parça",skill_level,pro,high,profesyonel/usta
+phase3c-81676800-application_method-237,81676800,"IK FOAM 1,5 ve FOAM PRO 2 için Yedek Köpük Yapıcı Nozzle ve Keçe Kiti - 3 Parça",application_method,machine,high,machine signal
+phase3c-81678-application_temperature_min_c-238,81678,IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,application_temperature_min_c,5,high,5°c - 30°c
+phase3c-81678-application_temperature_max_c-239,81678,IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,application_temperature_max_c,30,high,5°c - 30°c
+phase3c-81678-skill_level-241,81678,IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-81678-application_method-243,81678,IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,application_method,both,high,machine+hand
+phase3c-81686-skill_level-245,81686,IK FOAM Pro 2 Alkali KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-81686-application_method-247,81686,IK FOAM Pro 2 Alkali KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre,application_method,machine,high,machine signal
+phase3c-81771871-skill_level-248,81771871,IK MULTI 1.5 ve MULTI PRO 2 için Yedek Nozzle Kiti - 2 Parça,skill_level,pro,high,profesyonel/usta
+phase3c-81771871-application_method-249,81771871,IK MULTI 1.5 ve MULTI PRO 2 için Yedek Nozzle Kiti - 2 Parça,application_method,machine,high,machine signal
+phase3c-81771874-skill_level-250,81771874,IK MULTI ve PRO 2 için Yedek Bakım Kiti - 6 Parça,skill_level,pro,high,profesyonel/usta
+phase3c-81771874-application_method-251,81771874,IK MULTI ve PRO 2 için Yedek Bakım Kiti - 6 Parça,application_method,machine,high,machine signal
+phase3c-81773-application_method-253,81773,"IK TEAT SPRAYER 1,5 Uzun Nozullu Alttan Püskürtmeli Basınçlı Pompa 1.5 Litre",application_method,machine,high,machine signal
+phase3c-81774-skill_level-255,81774,"IK HC 1,5 Solvent ve Petrol Türevi Kimyasal Dayanımlı Basınçlı Pompa 1.5 Litre",skill_level,pro,high,profesyonel/usta
+phase3c-81774-application_method-257,81774,"IK HC 1,5 Solvent ve Petrol Türevi Kimyasal Dayanımlı Basınçlı Pompa 1.5 Litre",application_method,machine,high,machine signal
+phase3c-81776-application_method-260,81776,"IK FOAM 1,5 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 1,5 Litre",application_method,machine,high,machine signal
+phase3c-81777-application_method-262,81777,"IK ALK 1,5 Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.5 Litre",application_method,machine,high,machine signal
+phase3c-81781-application_method-265,81781,"IK FOOD 1,5 Gıda Temasına Uygun CE/FDA Sertifikalı Basınçlı Pompa 1.5 Litre",application_method,machine,high,machine signal
+phase3c-82671836-skill_level-266,82671836,IK HOSE Basınçlı Pompa Uzatma Hortumu 6 Metre - Kimyasal Dayanımlı,skill_level,pro,high,profesyonel/usta
+phase3c-82671836-application_method-267,82671836,IK HOSE Basınçlı Pompa Uzatma Hortumu 6 Metre - Kimyasal Dayanımlı,application_method,both,high,machine+hand
+phase3c-82671872-skill_level-268,82671872,IK PRO HANDLE INOX Basınçlı Pompa Püskürtme Kolu,skill_level,pro,high,profesyonel/usta
+phase3c-82671872-application_method-269,82671872,IK PRO HANDLE INOX Basınçlı Pompa Püskürtme Kolu,application_method,machine,high,machine signal
+phase3c-82671874-skill_level-270,82671874,IK MULTI 6-9-12 ve MULTI PRO 9-12 için Yedek Bakım Kiti - 9 Parça,skill_level,pro,high,profesyonel/usta
+phase3c-82671874-application_method-271,82671874,IK MULTI 6-9-12 ve MULTI PRO 9-12 için Yedek Bakım Kiti - 9 Parça,application_method,machine,high,machine signal
+phase3c-82672-application_temperature_min_c-272,82672,IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre,application_temperature_min_c,5,high,5–30°c
+phase3c-82672-application_temperature_max_c-273,82672,IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre,application_temperature_max_c,30,high,5–30°c
+phase3c-82672-skill_level-275,82672,IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-82672-application_method-277,82672,IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre,application_method,machine,high,machine signal
+phase3c-82672-indoor_use-278,82672,IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre,indoor_use,true,high,iç mekan/kapalı
+phase3c-82672-rinse_required-279,82672,IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-82676-skill_level-281,82676,IK FOAM PRO 12 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 12 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-82676-application_method-282,82676,IK FOAM PRO 12 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 12 Litre,application_method,machine,high,machine signal
+phase3c-82679-skill_level-284,82679,IK MULTI PRO 12+ Plus Hava Kompresör Bağlantılı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 10 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-82679-application_method-286,82679,IK MULTI PRO 12+ Plus Hava Kompresör Bağlantılı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 10 Litre,application_method,machine,high,machine signal
+phase3c-83371-application_temperature_min_c-287,83371,IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre,application_temperature_min_c,5,high,5°c ile 30°c
+phase3c-83371-application_temperature_max_c-288,83371,IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre,application_temperature_max_c,30,high,5°c ile 30°c
+phase3c-83371-skill_level-290,83371,IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-83371-application_method-292,83371,IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre,application_method,machine,high,machine signal
+phase3c-83371-rinse_required-293,83371,IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre,rinse_required,true,high,durulayın/yıkayın
+phase3c-83371816-skill_level-294,83371816,IK PPF 12 Yedek Tabanca,skill_level,pro,high,profesyonel/usta
+phase3c-83371816-application_method-296,83371816,IK PPF 12 Yedek Tabanca,application_method,machine,high,machine signal
+phase3c-83371836-skill_level-297,83371836,IK SPIRAL HOSE Basınçlı Pompa Spiral Hortum 4 metre - Kimyasal Dayanımlı,skill_level,pro,high,profesyonel/usta
+phase3c-83371836-application_method-299,83371836,IK SPIRAL HOSE Basınçlı Pompa Spiral Hortum 4 metre - Kimyasal Dayanımlı,application_method,machine,high,machine signal
+phase3c-8410-skill_level-300,8410,EPOCA VELA 360° Derece Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Beyaz,skill_level,pro,high,profesyonel/usta
+phase3c-8410-application_method-302,8410,EPOCA VELA 360° Derece Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Beyaz,application_method,both,high,machine+hand
+phase3c-84170-skill_level-304,84170,IK MULTI TR 1 Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-84170-application_method-306,84170,IK MULTI TR 1 Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre,application_method,both,high,machine+hand
+phase3c-84173-skill_level-308,84173,IK MULTI TR MINI 360 Derece Her Yönden Atımlı Kimyasal Dayanımlı Sprey Şişe 600 Ml,skill_level,pro,high,profesyonel/usta
+phase3c-84173-application_method-309,84173,IK MULTI TR MINI 360 Derece Her Yönden Atımlı Kimyasal Dayanımlı Sprey Şişe 600 Ml,application_method,both,high,machine+hand
+phase3c-84174-skill_level-311,84174,IK HC TR 1 Solvent ve Petrol Türevi Kimyasal Dayanımlı Sprey Şişe 1 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-84174-application_method-313,84174,IK HC TR 1 Solvent ve Petrol Türevi Kimyasal Dayanımlı Sprey Şişe 1 Litre,application_method,both,high,machine+hand
+phase3c-84177-skill_level-315,84177,IK MULTI TR 1 360 Derece Her Yönden Atımlı Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre,skill_level,pro,high,profesyonel/usta
+phase3c-84177-application_method-317,84177,IK MULTI TR 1 360 Derece Her Yönden Atımlı Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre,application_method,both,high,machine+hand
+phase3c-8447-skill_level-318,8447,EPOCA VELA 360° Derece Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Beyaz,skill_level,pro,high,profesyonel/usta
+phase3c-8447-application_method-320,8447,EPOCA VELA 360° Derece Kimyasal Dayanımlı Püskürtücü Başlık 28/400 - Beyaz,application_method,both,high,machine+hand
+phase3c-BUR060-application_method-321,BUR060,MG PS Kalın Pasta Süngeri Flat (Bordo) 60 mm - Mini Polisaj Makinesi Uyumlu,application_method,machine,high,machine signal
+phase3c-DOR150F-C-application_method-322,DOR150F-C,MG PS Orbital Tek Adım Uygulama Süngeri (Turuncu) - 150/130x25 mm,application_method,machine,high,machine signal
+phase3c-DOR160F-application_method-323,DOR160F,MG PS Rotary Tek Adım Uygulama Süngeri (Turuncu) - 160x30 mm,application_method,machine,high,machine signal
+phase3c-GE180F-C-application_method-325,GE180F-C,MG PS Orbital Cila/Boya Koruma Süngeri (Yeşil) - 175/155 mm,application_method,machine,high,machine signal
+phase3c-GPRO060-application_method-326,GPRO060,MG PS Hare/Hologram Giderici Cila Süngeri Flat (Sarı) 60 mm Mini Polisaj Makinesi Uyumlu,application_method,machine,high,machine signal
+phase3c-GPRO180F-C-application_method-327,GPRO180F-C,MG PS Orbital Hare/Hologram Giderici Cila Süngeri (Sarı) - 175/155 mm,application_method,machine,high,machine signal
+phase3c-GPRO200F-application_method-328,GPRO200F,MG PS Rotary Hare/Hologram Giderici Cila Süngeri (Sarı) - 200 mm,application_method,machine,high,machine signal
+phase3c-GPRO6555-application_method-329,GPRO6555,MG PS Hare Giderici Cila Süngeri 65/55 mm 5'li Paket (Sarı)- Mini Polisaj Makinesi Uyumlu,application_method,machine,high,machine signal
+phase3c-GRY180F-C-application_method-330,GRY180F-C,MG PS Orbital Ağır Kesim Pasta Süngeri (Gri) - 175/155 mm,application_method,machine,high,machine signal
+phase3c-GRY200F-application_method-331,GRY200F,MG PS Rotary Ağır Kesim Kalın Pasta Süngeri (Gri) - 200 mm,application_method,machine,high,machine signal
+phase3c-GRY6555-application_method-332,GRY6555,MG PS Pasta Süngeri 65/55 mm 5'li Paket (Gri) - Mini Polisaj Makinesi Uyumlu,application_method,machine,high,machine signal
+phase3c-KLIN-3251BL-skill_level-333,KLIN-3251BL,KLIN Peluş Cepli Uygulama Önlüğü,skill_level,pro,high,profesyonel/usta
+phase3c-KLIN-3251BL-application_method-335,KLIN-3251BL,KLIN Peluş Cepli Uygulama Önlüğü,application_method,machine,high,machine signal
+phase3c-KP160-22KL-application_method-336,KP160-22KL,MG PS Doğal Kuzu Postu Pasta Keçesi - 160 mm,application_method,machine,high,machine signal
+phase3c-KP160-22L-application_method-337,KP160-22L,MG PS Doğal Kuzu Postu Agresif Pasta Keçesi - 160 mm,application_method,machine,high,machine signal
+phase3c-NPMW6555-application_method-338,NPMW6555,MG PS Ara Kesim Pasta Keçesi 5'li Paket 65/55mm - Beyaz,application_method,machine,high,machine signal
+phase3c-PPF-L500M-application_temperature_min_c-339,PPF-L500M,GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml -Yoğun Konsantre,application_temperature_min_c,10,high,10 – 30 °c
+phase3c-PPF-L500M-application_temperature_max_c-340,PPF-L500M,GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml -Yoğun Konsantre,application_temperature_max_c,30,high,10 – 30 °c
+phase3c-PPF-L500M-volume_ml-341,PPF-L500M,GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml -Yoğun Konsantre,volume_ml,500,high,500 ml
+phase3c-PPF-L500M-skill_level-342,PPF-L500M,GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml -Yoğun Konsantre,skill_level,pro,high,profesyonel/usta
+phase3c-PPF-L500M-application_method-343,PPF-L500M,GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml -Yoğun Konsantre,application_method,machine,high,machine signal
+phase3c-PU140F-C-application_method-344,PU140F-C,MG PS Orbital Ekstra Hare/Hologram Giderici Thinline Sünger (Mor) - 140/130x15 mm,application_method,machine,high,machine signal
+phase3c-PU150F-C-application_method-345,PU150F-C,MG PS Orbital Ekstra Hare/Hologram Giderici Sünger (Mor) - 150/130x25 mm,application_method,machine,high,machine signal
+phase3c-Q2M-ES98M-volume_ml-346,Q2M-ES98M,GYEON QM Experience Set Deneyim Seti 9 Parça x 80 ml,volume_ml,80,high,80 ml
+phase3c-Q2M-ES98M-skill_level-347,Q2M-ES98M,GYEON QM Experience Set Deneyim Seti 9 Parça x 80 ml,skill_level,pro,high,profesyonel/usta
+phase3c-Q2M-ES98M-application_method-348,Q2M-ES98M,GYEON QM Experience Set Deneyim Seti 9 Parça x 80 ml,application_method,machine,high,machine signal
+phase3c-Q2M-KM-application_method-349,Q2M-KM,GYEON QM Kneel Mat Diz Destek Minderi,application_method,machine,high,machine signal
+phase3c-Q2M-P-DB300M-volume_ml-350,Q2M-P-DB300M,GYEON QM Dispenser Bottle Dağıtıcı Şişe Biberon - 300 ml,volume_ml,300,high,300 ml
+phase3c-Q2M-P-DB300M-application_method-351,Q2M-P-DB300M,GYEON QM Dispenser Bottle Dağıtıcı Şişe Biberon - 300 ml,application_method,machine,high,machine signal
+phase3c-Q2M-PPFIK-application_method-354,Q2M-PPFIK,GYEON QM PPF Installer Kit PPF Folyo Cam Filmi Uygulama Aparat Seti - 14 Parça,application_method,machine,high,machine signal
+phase3c-Q2M-PPFSL4000M-skill_level-355,Q2M-PPFSL4000M,GYEON QM PPF Slip PPF Folyo Montaj Yapıştırma Sıvısı Yoğun Konsantre - 4000 ml,skill_level,pro,high,profesyonel/usta
+phase3c-Q2M-PPFSL4000M-application_method-357,Q2M-PPFSL4000M,GYEON QM PPF Slip PPF Folyo Montaj Yapıştırma Sıvısı Yoğun Konsantre - 4000 ml,application_method,both,high,machine+hand
+phase3c-Q2M-SCOV-skill_level-358,Q2M-SCOV,GYEON QM Seat Cover Araç Ön Koltuk Koruyucu Kılıf Siyah- 1 Adet,skill_level,pro,high,profesyonel/usta
+phase3c-Q2M-SCOV-application_method-360,Q2M-SCOV,GYEON QM Seat Cover Araç Ön Koltuk Koruyucu Kılıf Siyah- 1 Adet,application_method,machine,high,machine signal
+phase3c-Q2M-SCOV-indoor_use-361,Q2M-SCOV,GYEON QM Seat Cover Araç Ön Koltuk Koruyucu Kılıf Siyah- 1 Adet,indoor_use,true,high,iç mekan/kapalı
+phase3c-Q2M-SWCOV-skill_level-362,Q2M-SWCOV,GYEON QM Steering Wheel Cover Araç Direksiyon Koruyucu Kılıf Siyah- 1 Adet,skill_level,pro,high,profesyonel/usta
+phase3c-Q2M-SWCOV-application_method-364,Q2M-SWCOV,GYEON QM Steering Wheel Cover Araç Direksiyon Koruyucu Kılıf Siyah- 1 Adet,application_method,machine,high,machine signal
+phase3c-Q2M-SWCOV-indoor_use-365,Q2M-SWCOV,GYEON QM Steering Wheel Cover Araç Direksiyon Koruyucu Kılıf Siyah- 1 Adet,indoor_use,true,high,iç mekan/kapalı
+phase3c-Q2M-TCYA1000M-application_method-367,Q2M-TCYA1000M,GYEON QM Tire Cleaner Araç Lastik Kauçuk Temizleyici - 1000 ml -Güçlü Oto Teker Temizleyici,application_method,machine,high,machine signal
+phase3c-Q2M-TEYA1000M-dwell_time_minutes-368,Q2M-TEYA1000M,GYEON QM Tire Express Lastik Parlatıcı ve Koruyucu - 1000 ml -Su Bazlı Jel Oto Lastik Cilası,dwell_time_minutes,5,high,5 dk bekle
+phase3c-Q2M-TEYA1000M-application_method-369,Q2M-TEYA1000M,GYEON QM Tire Express Lastik Parlatıcı ve Koruyucu - 1000 ml -Su Bazlı Jel Oto Lastik Cilası,application_method,machine,high,machine signal
+phase3c-Q2M-TEYA1000M-rinse_required-370,Q2M-TEYA1000M,GYEON QM Tire Express Lastik Parlatıcı ve Koruyucu - 1000 ml -Su Bazlı Jel Oto Lastik Cilası,rinse_required,true,high,durulayın/yıkayın
+phase3c-Q2M-WCS98M-volume_ml-371,Q2M-WCS98M,GYEON QM Wash&amp;Clean Deneyim Seti 9 Parça x 80 ml,volume_ml,80,high,80 ml
+phase3c-Q2M-WCS98M-skill_level-372,Q2M-WCS98M,GYEON QM Wash&amp;Clean Deneyim Seti 9 Parça x 80 ml,skill_level,pro,high,profesyonel/usta
+phase3c-RE180F-C-application_method-374,RE180F-C,MG PS Orbital Ara Kesim İnce Pasta Süngeri (Kırmızı) ) - 175/155 mm,application_method,machine,high,machine signal
+phase3c-RE200F-application_method-375,RE200F,MG PS Rotary Ara Kesim İnce Pasta Süngeri (Kırmızı) - 200 mm,application_method,machine,high,machine signal
+phase3c-SGGA081-skill_level-376,SGGA081,SGCB Cam Çizik Giderici Keçe 150mm – Silecek İzi Kireç Leke Giderici Pasta Yün Keçesi,skill_level,pro,high,profesyonel/usta
+phase3c-SGGA081-application_method-378,SGGA081,SGCB Cam Çizik Giderici Keçe 150mm – Silecek İzi Kireç Leke Giderici Pasta Yün Keçesi,application_method,both,high,machine+hand
+phase3c-SGGC055-application_method-379,SGGC055,SGCB Tornador Detaylı Temizlik Tabancası Boncuklu - 1000 ml,application_method,machine,high,machine signal
+phase3c-SGGC086-skill_level-380,SGGC086,SGCB Air Blow Gun Yüksek Basınçlı Hava Tabancası,skill_level,pro,high,profesyonel/usta
+phase3c-SGGC086-application_method-382,SGGC086,SGCB Air Blow Gun Yüksek Basınçlı Hava Tabancası,application_method,machine,high,machine signal
+phase3c-SGGC086-indoor_use-383,SGGC086,SGCB Air Blow Gun Yüksek Basınçlı Hava Tabancası,indoor_use,true,high,iç mekan/kapalı
+phase3c-SGGC091-volume_ml-384,SGGC091,SGCB Tornador Foam Gun Hava Girişli Köpük Tabancası - 1000 ml,volume_ml,1000,high,1000ml
+phase3c-SGGC091-skill_level-385,SGGC091,SGCB Tornador Foam Gun Hava Girişli Köpük Tabancası - 1000 ml,skill_level,pro,high,profesyonel/usta
+phase3c-SGGC091-application_method-386,SGGC091,SGCB Tornador Foam Gun Hava Girişli Köpük Tabancası - 1000 ml,application_method,machine,high,machine signal
+phase3c-SGGC091-indoor_use-387,SGGC091,SGCB Tornador Foam Gun Hava Girişli Köpük Tabancası - 1000 ml,indoor_use,true,high,iç mekan/kapalı
+phase3c-SGGD025-application_method-388,SGGD025,SGCB Malzeme Ekipman Arabası 3 Katlı Sepetli Tekerlekli,application_method,machine,high,machine signal
+phase3c-SGGD053-application_method-389,SGGD053,SGCB Rotary Esnek Silikon Pad Destek Tabanı 6''/150 mm,application_method,machine,high,machine signal
+phase3c-SGGD135-application_method-392,SGGD135,SGCB Foam Lance Köpük Yapıcı Karcher K Serisi Uyumlu - 1000 ml,application_method,machine,high,machine signal
+phase3c-SGGD166-application_method-393,SGGD166,SGCB Mini Polisaj Makinesi Tabanlık Seti 2 Adet,application_method,machine,high,machine signal
+phase3c-SGGD175-skill_level-394,SGGD175,SGCB Detay Polisaj ve PPF Ustaları için Bel Kemeri Ürün Taşıma Çantası,skill_level,pro,high,profesyonel/usta
+phase3c-SGGD175-application_method-396,SGGD175,SGCB Detay Polisaj ve PPF Ustaları için Bel Kemeri Ürün Taşıma Çantası,application_method,machine,high,machine signal
+phase3c-SGGD233-application_method-399,SGGD233,SGCB Plastik Trim Döşeme Sökme Aparatı Seti 4’lü – Kazıyıcı Kaldırıcı Keski Seti,application_method,machine,high,machine signal
+phase3c-SGGD285-skill_level-400,SGGD285,SGCB Mat Clamp Plastik Paspas Tutacağı Asma Aparatı - 4 Adet,skill_level,pro,high,profesyonel/usta
+phase3c-SGGD285-application_method-402,SGGD285,SGCB Mat Clamp Plastik Paspas Tutacağı Asma Aparatı - 4 Adet,application_method,machine,high,machine signal
+phase3c-SGGD289-skill_level-403,SGGD289,SGCB Araç Yıkama Tabancası Tutacağı,skill_level,pro,high,profesyonel/usta
+phase3c-SGGD289-application_method-404,SGGD289,SGCB Araç Yıkama Tabancası Tutacağı,application_method,machine,high,machine signal
+phase3c-SGGD402-skill_level-406,SGGD402,SGCB 10 Desenli Su Püskürtme Sulama Tabancası – Ayarlanabilir Tazyik 10 Kademeli Bahçe Hortum,skill_level,pro,high,profesyonel/usta
+phase3c-SGGD402-application_method-408,SGGD402,SGCB 10 Desenli Su Püskürtme Sulama Tabancası – Ayarlanabilir Tazyik 10 Kademeli Bahçe Hortum,application_method,machine,high,machine signal
+phase3c-SGGD402-outdoor_use-409,SGGD402,SGCB 10 Desenli Su Püskürtme Sulama Tabancası – Ayarlanabilir Tazyik 10 Kademeli Bahçe Hortum,outdoor_use,true,high,dış mekan/açık
+phase3c-SGGD415-skill_level-410,SGGD415,SGCB Çok İşlevli Pasta Cila Duvar Standı Paslanmaz Çelik (5 Gözlü Borulu Kancalı) –Bez Şişe Tutucu,skill_level,pro,high,profesyonel/usta
+phase3c-SGGD415-application_method-411,SGGD415,SGCB Çok İşlevli Pasta Cila Duvar Standı Paslanmaz Çelik (5 Gözlü Borulu Kancalı) –Bez Şişe Tutucu,application_method,both,high,machine+hand
+phase3c-SGGD416-skill_level-412,SGGD416,SGCB Çok İşlevli Pasta Cila ve Fırça Duvar Standı Paslanmaz Çelik (5 Gözlü Askılı) –Araç Tutucu,skill_level,pro,high,profesyonel/usta
+phase3c-SGGD416-application_method-413,SGGD416,SGCB Çok İşlevli Pasta Cila ve Fırça Duvar Standı Paslanmaz Çelik (5 Gözlü Askılı) –Araç Tutucu,application_method,machine,high,machine signal
+phase3c-SGGF179-application_method-414,SGGF179,SGCB Rotary Yüksek Torklu Polisaj Makinesi 150mm 1200W,application_method,machine,high,machine signal
+phase3c-SGGF181-57-skill_level-415,SGGF181-57,SGCB Orbital Polisaj Makinesi Tabanı 125mm 5” – Cırtlı Delikli,skill_level,pro,high,profesyonel/usta
+phase3c-SGGF181-57-application_method-417,SGGF181-57,SGCB Orbital Polisaj Makinesi Tabanı 125mm 5” – Cırtlı Delikli,application_method,machine,high,machine signal
+phase3c-SGGF181-application_method-418,SGGF181,SGCB Orbital Polisaj Makinesi 5&quot;/125mm 950W,application_method,machine,high,machine signal
+phase3c-SGGF273-application_method-421,SGGF273,SGCB Kablosuz Şarjlı Rotary/Orbital Mini Nano Polisaj Makinesi Seti 12V – 65 Parça Fırçasız Motor,application_method,machine,high,machine signal
+phase3c-SGGS003-skill_level-422,SGGS003,SCCB Kısa Nozul Hava Tabancası – Kompresör Basınçlı Hava Üfleyici – Air Blow Gun,skill_level,pro,high,profesyonel/usta
+phase3c-SGGS003-application_method-424,SGGS003,SCCB Kısa Nozul Hava Tabancası – Kompresör Basınçlı Hava Üfleyici – Air Blow Gun,application_method,machine,high,machine signal
+phase3c-SGPM001-application_method-425,SGPM001,SGCB Çift Taraflı Mıknatıslı TPU Ragle 10 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM002-application_method-426,SGPM002,SGCB Mini Mıknatıslı TPU Ragle 3 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM003-application_method-427,SGPM003,"SGCB Sağ Açılı Trapez Mıknatıslı TPU Ragle 6,5 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek",application_method,machine,high,machine signal
+phase3c-SGPM004-application_method-428,SGPM004,SGCB Dikdörtgen Mıknatıslı TPU Ragle 10 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM005-application_method-429,SGPM005,SGCB Oval Şekilli Avuç İçi Mıknatıslı TPU Ragle 7 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM006-application_method-430,SGPM006,SGCB Açılı Trapez Mıknatıslı TPU Ragle 12 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM007-skill_level-431,SGPM007,SGCB Keçeli Ragle 10 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,skill_level,pro,high,profesyonel/usta
+phase3c-SGPM007-application_method-432,SGPM007,SGCB Keçeli Ragle 10 Cm PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM008-application_method-433,SGPM008,SGCB Ragle Keçesi 10 Cm (10 Adet) PPF - Folyo - Cam Filmi Çekme Aparatı,application_method,machine,high,machine signal
+phase3c-SGPM009-application_method-435,SGPM009,"SGCB PPF Folyo Tutucu Saplı Magnet - 6,2 cm x 4,3 cm - Mıknatıslı",application_method,machine,high,machine signal
+phase3c-SGPM013-application_method-436,SGPM013,SGCB Mıknatıslı TPU Ragle Kutu Seti 5'li - PPF - Folyo - Cam Filmi Çekme Aparatı Çekçek,application_method,machine,high,machine signal
+phase3c-SGPM014-application_method-437,SGPM014,SGCB Cam Filmi PPF Folyo Çekme Aparatları Kiti 6 Parça - Kutulu,application_method,machine,high,machine signal
+phase3c-SGYC010-application_method-438,SGYC010,SGCB Tornador Yedek Boncuk,application_method,machine,high,machine signal
+phase3c-SGYC011-application_method-439,SGYC011,SGCB Tornador Yedek Kılcal Hortum,application_method,machine,high,machine signal
+phase3c-SVPRO160F-application_method-440,SVPRO160F,MG PS Rotary Cila/Boya Koruma Süngeri Waffle (Siyah) - 160 mm,application_method,machine,high,machine signal
+phase3c-VPRO160F-application_method-441,VPRO160F,MG PS Rotary Extra Ağır Kalın Kesim Pasta Süngeri (Beyaz) - 160 mm,application_method,machine,high,machine signal

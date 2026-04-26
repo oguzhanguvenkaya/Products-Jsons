@@ -1,0 +1,76 @@
+{
+  "changes": [
+    {
+      "id": "phase2-tgmerge-701606-1",
+      "scope": "product",
+      "sku": "701606",
+      "field": "template_group",
+      "before": "glass_cleaner",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-74955-2",
+      "scope": "product",
+      "sku": "74955",
+      "field": "template_group",
+      "before": "glass_cleaner",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-700466-3",
+      "scope": "product",
+      "sku": "700466",
+      "field": "template_group",
+      "before": "glass_cleaner_protectant",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-71176-4",
+      "scope": "product",
+      "sku": "71176",
+      "field": "template_group",
+      "before": "glass_cleaner_protectant",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-Q2M-GPYA1000M-5",
+      "scope": "product",
+      "sku": "Q2M-GPYA1000M",
+      "field": "template_group",
+      "before": "glass_cleaner_protectant",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-700662-6",
+      "scope": "product",
+      "sku": "700662",
+      "field": "template_group",
+      "before": "glass_cleaner_protectant",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-JC0101-7",
+      "scope": "product",
+      "sku": "JC0101",
+      "field": "template_group",
+      "before": "glass_cleaner_protectant",
+      "after": "glass_care",
+      "label": "P0 group merge: glass_cleaner+glass_cleaner_protectant → glass_care"
+    },
+    {
+      "id": "phase2-tgmerge-Q2M-PYA4000M-8",
+      "scope": "product",
+      "sku": "Q2M-PYA4000M",
+      "field": "template_group",
+      "before": "contaminant_solvers",
+      "after": "ceramic_coating",
+      "label": "P0 Faz2B yanlış grup düzeltmesi: IPA prep ürünü → ceramic_coating"
+    }
+  ]
+}

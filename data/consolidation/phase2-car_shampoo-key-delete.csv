@@ -1,0 +1,7 @@
+id,scope,sku,field,before,after,label
+phase2-car_shampoo-Q2M-BPYA1000M-key-sio2_percentage,product.specs,Q2M-BPYA1000M,specs.sio2_percentage,5,null,P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde sio2_percentage alanı kategoriyle uyumsuz
+phase2-car_shampoo-Q2M-BPYA1000M-key-durability_weeks,product.specs,Q2M-BPYA1000M,specs.durability_weeks,8,null,P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde durability_weeks alanı kategoriyle uyumsuz
+phase2-car_shampoo-79286-key-cure_time,product.specs,79286,specs.cure_time,7 Saat,null,P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde cure_time alanı kategoriyle uyumsuz
+phase2-car_shampoo-79286-key-gloss_level,product.specs,79286,specs.gloss_level,4/5,null,P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde gloss_level alanı kategoriyle uyumsuz
+phase2-car_shampoo-79286-key-cure_time_hours,product.specs,79286,specs.cure_time_hours,7,null,P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde cure_time_hours alanı kategoriyle uyumsuz
+phase2-car_shampoo-79286-key-durability_months,product.specs,79286,specs.durability_months,4,null,P0 ilgisiz-populated: car_shampoo/ceramic_infused_shampoo ürününde durability_months alanı kategoriyle uyumsuz

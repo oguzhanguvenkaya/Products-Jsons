@@ -1,0 +1,31 @@
+{
+  "changes": [
+    {
+      "id": "phase2-applicators-Q2M-SPE-1",
+      "scope": "product",
+      "sku": "Q2M-SPE",
+      "field": "template_sub_type",
+      "before": "scrub_pad",
+      "after": "cleaning_pad",
+      "label": "P0 merge: tek ürün; sponge/scrub ortak amaç=temizlik pedi"
+    },
+    {
+      "id": "phase2-applicators-SGGD004-2",
+      "scope": "product",
+      "sku": "SGGD004",
+      "field": "template_sub_type",
+      "before": "wash_sponge",
+      "after": "cleaning_pad",
+      "label": "P0 merge: tek ürün; yıkama süngeri = temizlik pedi"
+    },
+    {
+      "id": "phase2-applicators-SGGD190-3",
+      "scope": "product",
+      "sku": "SGGD190",
+      "field": "template_sub_type",
+      "before": "cleaning_sponge",
+      "after": "cleaning_pad",
+      "label": "P0 merge: tek ürün; ortak meta=material+shape"
+    }
+  ]
+}

@@ -82,3 +82,16 @@ Botpress/detailagent/scripts/_tmp_*
 
 # Local secrets (used only for production secret ops)
 .local-secrets/
+
+# Consolidation snapshots + intermediate Phase 2 staging (regenerable, 86MB pgdumps)
+data/consolidation/_pre-*/
+data/consolidation/_phase2-detail/
+data/consolidation/_phase2-raw/
+data/consolidation/_phase2c-details/
+data/consolidation/_archived-pre-phase17/
+data/consolidation/_keys-grouped.txt
+data/consolidation/_raw-*.json
+data/consolidation/_phase2-cov-*.json
+data/consolidation/_phase2-list-*.json
+data/consolidation/_phase2c-*.json
+data/consolidation/_phase2-taxonomy.json

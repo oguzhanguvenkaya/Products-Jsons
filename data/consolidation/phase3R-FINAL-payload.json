@@ -1,0 +1,768 @@
+{
+  "batch_count": 1,
+  "total_changes": 84,
+  "batches": [
+    {
+      "batch_index": 0,
+      "change_count": 84,
+      "changes": [
+        {
+          "id": "phase3a-Q2M-CM1000M-application_method-1",
+          "scope": "product.specs",
+          "sku": "Q2M-CM1000M",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-GP250M-application_method-1",
+          "scope": "product.specs",
+          "sku": "Q2M-GP250M",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-PPR1000M-application_method-1",
+          "scope": "product.specs",
+          "sku": "Q2M-PPR1000M",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "both",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22984.260.001-skill_level-1",
+          "scope": "product.specs",
+          "sku": "22984.260.001",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22984.281.001-skill_level-1",
+          "scope": "product.specs",
+          "sku": "22984.281.001",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22771.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22771.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22828.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22828.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22029.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22029.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22911.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22911.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22992.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22992.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22200.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22200.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-20144.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "20144.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22748.261.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22748.261.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-22202.260.001-application_method-1",
+          "scope": "product.specs",
+          "sku": "22202.260.001",
+          "field": "specs.application_method",
+          "before": null,
+          "after": "machine",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701851-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "701851",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-71490-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "71490",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700387-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "700387",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-FYA4000M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-FYA4000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-701422-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "701422",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79281-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "79281",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-BS30M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-BS30M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 1,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-CCE200M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-CCE200M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-FCNA400M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-FCNA400M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-MTEL50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-MTEL50M-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 10,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-MTEL50M-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-MTEL50M",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 30,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-OLE100M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-OLE100M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 15,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PPFE50M-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-PPFE50M",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 25,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PR1000M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 24,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PR1000M-skill_level-1",
+          "scope": "product.specs",
+          "sku": "Q2-PR1000M",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-PLE50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-PLE50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-SLE50M-cure_time_hours-1",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.cure_time_hours",
+          "before": null,
+          "after": 12,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-SLE50M-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 15,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2-SLE50M-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "Q2-SLE50M",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 25,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700405-application_temperature_min_c-1",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.application_temperature_min_c",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700405-application_temperature_max_c-1",
+          "scope": "product.specs",
+          "sku": "700405",
+          "field": "specs.application_temperature_max_c",
+          "before": null,
+          "after": 25,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-700210-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "700210",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-70864-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "70864",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-Q2M-IWCR4000M-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "Q2M-IWCR4000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79291-dwell_time_minutes-1",
+          "scope": "product.specs",
+          "sku": "79291",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 5,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3a-79293-rinse_required-1",
+          "scope": "product.specs",
+          "sku": "79293",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "Faz3 extract"
+        },
+        {
+          "id": "phase3b-70894-indoor_use-13",
+          "scope": "product.specs",
+          "sku": "70894",
+          "field": "specs.indoor_use",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-77019-rinse_required-14",
+          "scope": "product.specs",
+          "sku": "77019",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-73378-rinse_required-18",
+          "scope": "product.specs",
+          "sku": "73378",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-701010-dwell_time_minutes-19",
+          "scope": "product.specs",
+          "sku": "701010",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 1,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-701010-rinse_required-21",
+          "scope": "product.specs",
+          "sku": "701010",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-701285-rinse_required-22",
+          "scope": "product.specs",
+          "sku": "701285",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-70901-indoor_use-23",
+          "scope": "product.specs",
+          "sku": "70901",
+          "field": "specs.indoor_use",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-Q2M-APYA4000M-dwell_time_minutes-26",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-Q2M-APYA4000M-rinse_required-27",
+          "scope": "product.specs",
+          "sku": "Q2M-APYA4000M",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-Q2M-DT10P-rinse_required-28",
+          "scope": "product.specs",
+          "sku": "Q2M-DT10P",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-Q2M-FCNA1000M-dwell_time_minutes-29",
+          "scope": "product.specs",
+          "sku": "Q2M-FCNA1000M",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 2,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-79771-dwell_time_minutes-30",
+          "scope": "product.specs",
+          "sku": "79771",
+          "field": "specs.dwell_time_minutes",
+          "before": null,
+          "after": 3,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-79771-rinse_required-31",
+          "scope": "product.specs",
+          "sku": "79771",
+          "field": "specs.rinse_required",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-79818-indoor_use-33",
+          "scope": "product.specs",
+          "sku": "79818",
+          "field": "specs.indoor_use",
+          "before": null,
+          "after": true,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-700097-durability_months-61",
+          "scope": "product.specs",
+          "sku": "700097",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 9,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3b-700096-durability_months-62",
+          "scope": "product.specs",
+          "sku": "700096",
+          "field": "specs.durability_months",
+          "before": null,
+          "after": 8,
+          "label": "phase3b extract (high)"
+        },
+        {
+          "id": "phase3c-13724-volume_ml-7",
+          "scope": "product.specs",
+          "sku": "13724",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 600,
+          "label": "phase3c extract: volume_ml=600 [high] ev=\"600 ml\""
+        },
+        {
+          "id": "phase3c-18802-volume_ml-10",
+          "scope": "product.specs",
+          "sku": "18802",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1860,
+          "label": "phase3c extract: volume_ml=1860 [high] ev=\"1860 ml\""
+        },
+        {
+          "id": "phase3c-18810-volume_ml-15",
+          "scope": "product.specs",
+          "sku": "18810",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1860,
+          "label": "phase3c extract: volume_ml=1860 [high] ev=\"1860 ml\""
+        },
+        {
+          "id": "phase3c-19771-volume_ml-25",
+          "scope": "product.specs",
+          "sku": "19771",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 2000,
+          "label": "phase3c extract: volume_ml=2000 [high] ev=\"2000 ml\""
+        },
+        {
+          "id": "phase3c-20417-volume_ml-41",
+          "scope": "product.specs",
+          "sku": "20417",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1310,
+          "label": "phase3c extract: volume_ml=1310 [high] ev=\"1310 ml\""
+        },
+        {
+          "id": "phase3c-21746-volume_ml-50",
+          "scope": "product.specs",
+          "sku": "21746",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 230,
+          "label": "phase3c extract: volume_ml=230 [high] ev=\"230 ml\""
+        },
+        {
+          "id": "phase3c-24952-volume_ml-60",
+          "scope": "product.specs",
+          "sku": "24952",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 600,
+          "label": "phase3c extract: volume_ml=600 [high] ev=\"600 ml\""
+        },
+        {
+          "id": "phase3c-26005-volume_ml-64",
+          "scope": "product.specs",
+          "sku": "26005",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1860,
+          "label": "phase3c extract: volume_ml=1860 [high] ev=\"1860 ml\""
+        },
+        {
+          "id": "phase3c-418072-skill_level-115",
+          "scope": "product.specs",
+          "sku": "418072",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+        },
+        {
+          "id": "phase3c-418080-skill_level-118",
+          "scope": "product.specs",
+          "sku": "418080",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+        },
+        {
+          "id": "phase3c-447129-skill_level-127",
+          "scope": "product.specs",
+          "sku": "447129",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+        },
+        {
+          "id": "phase3c-502561-volume_ml-149",
+          "scope": "product.specs",
+          "sku": "502561",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 500,
+          "label": "phase3c extract: volume_ml=500 [high] ev=\"500ml\""
+        },
+        {
+          "id": "phase3c-533020-skill_level-174",
+          "scope": "product.specs",
+          "sku": "533020",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+        },
+        {
+          "id": "phase3c-533021-skill_level-177",
+          "scope": "product.specs",
+          "sku": "533021",
+          "field": "specs.skill_level",
+          "before": null,
+          "after": "pro",
+          "label": "phase3c extract: skill_level=\"pro\" [high] ev=\"profesyonel/usta\""
+        },
+        {
+          "id": "phase3c-79586-643-volume_ml-204",
+          "scope": "product.specs",
+          "sku": "79586-643",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000 ml\""
+        },
+        {
+          "id": "phase3c-79586-644-volume_ml-209",
+          "scope": "product.specs",
+          "sku": "79586-644",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+        },
+        {
+          "id": "phase3c-79587-643-volume_ml-211",
+          "scope": "product.specs",
+          "sku": "79587-643",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000 ml\""
+        },
+        {
+          "id": "phase3c-79587-644-volume_ml-216",
+          "scope": "product.specs",
+          "sku": "79587-644",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+        },
+        {
+          "id": "phase3c-79588-643-volume_ml-218",
+          "scope": "product.specs",
+          "sku": "79588-643",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000 ml\""
+        },
+        {
+          "id": "phase3c-79588-644-volume_ml-223",
+          "scope": "product.specs",
+          "sku": "79588-644",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+        },
+        {
+          "id": "phase3c-PPF-L500M-volume_ml-341",
+          "scope": "product.specs",
+          "sku": "PPF-L500M",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 500,
+          "label": "phase3c extract: volume_ml=500 [high] ev=\"500 ml\""
+        },
+        {
+          "id": "phase3c-Q2M-ES98M-volume_ml-346",
+          "scope": "product.specs",
+          "sku": "Q2M-ES98M",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 80,
+          "label": "phase3c extract: volume_ml=80 [high] ev=\"80 ml\""
+        },
+        {
+          "id": "phase3c-Q2M-P-DB300M-volume_ml-350",
+          "scope": "product.specs",
+          "sku": "Q2M-P-DB300M",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 300,
+          "label": "phase3c extract: volume_ml=300 [high] ev=\"300 ml\""
+        },
+        {
+          "id": "phase3c-Q2M-WCS98M-volume_ml-371",
+          "scope": "product.specs",
+          "sku": "Q2M-WCS98M",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 80,
+          "label": "phase3c extract: volume_ml=80 [high] ev=\"80 ml\""
+        },
+        {
+          "id": "phase3c-SGGC091-volume_ml-384",
+          "scope": "product.specs",
+          "sku": "SGGC091",
+          "field": "specs.volume_ml",
+          "before": null,
+          "after": 1000,
+          "label": "phase3c extract: volume_ml=1000 [high] ev=\"1000ml\""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "total_changes": 11,
+  "batch_count": 1,
+  "batches": [
+    {
+      "index": 0,
+      "size": 11,
+      "changes": [
+        {
+          "id": "phase2-interior_cleaner-Q2M-TRC500M-subtype",
+          "scope": "product",
+          "sku": "Q2M-TRC500M",
+          "field": "template_sub_type",
+          "before": "plastic_cleaner",
+          "after": "interior_apc",
+          "label": "P0 merge: plastic_cleaner -> interior_apc (Tek ürün; plastik temizleyici APC kapsamında)"
+        },
+        {
+          "id": "phase2-interior_cleaner-75132-subtype",
+          "scope": "product",
+          "sku": "75132",
+          "field": "template_sub_type",
+          "before": "wood_cleaner",
+          "after": "interior_apc",
+          "label": "P0 merge: wood_cleaner -> interior_apc (Tek ürün; ahşap temizleyici iç mekan APC)"
+        },
+        {
+          "id": "phase2-interior_cleaner-70901-subtype",
+          "scope": "product",
+          "sku": "70901",
+          "field": "template_sub_type",
+          "before": "foam_cleaner",
+          "after": "interior_apc",
+          "label": "P0 merge: foam_cleaner -> interior_apc (Tek ürün; köpük temizleyici APC formu)"
+        },
+        {
+          "id": "phase2-interior_cleaner-Q2M-DT10P-subtype",
+          "scope": "product",
+          "sku": "Q2M-DT10P",
+          "field": "template_sub_type",
+          "before": "degreaser",
+          "after": "heavy_duty_cleaner",
+          "label": "P0 merge: degreaser -> heavy_duty_cleaner (Tek ürün; yağ çözücü = ağır kir temizleyici)"
+        },
+        {
+          "id": "phase2-interior_cleaner-Q2M-FCNA1000M-subtype",
+          "scope": "product",
+          "sku": "Q2M-FCNA1000M",
+          "field": "template_sub_type",
+          "before": "fabric_cleaner",
+          "after": "fabric_cleaner_concentrate",
+          "label": "P0 merge: fabric_cleaner -> fabric_cleaner_concentrate (Tek ürün; kumaş temizleyici konsantre alt-türüne taşı)"
+        },
+        {
+          "id": "phase2-interior_cleaner-79818-subtype",
+          "scope": "product",
+          "sku": "79818",
+          "field": "template_sub_type",
+          "before": "fabric_leather_cleaner",
+          "after": "fabric_cleaner_concentrate",
+          "label": "P1 merge: fabric_leather_cleaner -> fabric_cleaner_concentrate (Tek ürün; kumaş+deri ortak; ya yeni \"upholstery_cleaner\" ya da fabric_concentrate altı)"
+        },
+        {
+          "id": "phase2-interior_cleaner-Q2M-IDYA4000M-subtype",
+          "scope": "product",
+          "sku": "Q2M-IDYA4000M",
+          "field": "template_sub_type",
+          "before": "interior_disinfectant",
+          "after": "surface_disinfectant",
+          "label": "P0 merge: interior_disinfectant -> surface_disinfectant (Tek ürün; iç dezenfektan = yüzey dezenfektan)"
+        },
+        {
+          "id": "phase2-interior_cleaner-Q2M-PM500M-subtype",
+          "scope": "product",
+          "sku": "Q2M-PM500M",
+          "field": "template_sub_type",
+          "before": "interior_detailer",
+          "after": "plastic_dressing",
+          "label": "P1 merge: interior_detailer -> plastic_dressing (Tek ürün; iç detayer plastik dressing fonksiyonu)"
+        },
+        {
+          "id": "phase2-interior_cleaner-Q2M-PRYA250M-subtype",
+          "scope": "product",
+          "sku": "Q2M-PRYA250M",
+          "field": "template_sub_type",
+          "before": "plastic_restorer",
+          "after": "plastic_dressing",
+          "label": "P1 merge: plastic_restorer -> plastic_dressing (Tek ürün; plastik canlandırıcı dressing alt türü)"
+        },
+        {
+          "id": "phase2-interior_cleaner-77192-subtype",
+          "scope": "product",
+          "sku": "77192",
+          "field": "template_sub_type",
+          "before": "wood_protector",
+          "after": "plastic_dressing",
+          "label": "P2 merge: wood_protector -> plastic_dressing (Tek ürün; ahşap koruyucu dressing/conditioner; yeni sub gerekebilir)"
+        },
+        {
+          "id": "phase2-interior_cleaner-75277-subtype",
+          "scope": "product",
+          "sku": "75277",
+          "field": "template_sub_type",
+          "before": "fabric_protector",
+          "after": "fabric_cleaner_concentrate",
+          "label": "P2 merge: fabric_protector -> fabric_cleaner_concentrate (Tek ürün; kumaş koruyucu farklı işlev (waterproof); ileride ayrı sub)"
+        }
+      ]
+    }
+  ]
+}

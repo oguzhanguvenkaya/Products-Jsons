@@ -1,0 +1,6 @@
+id,scope,sku,field,before,after,label
+phase2-spare_part-81771871-subtype,product,81771871,template_sub_type,nozzle_kit,nozzle,P0 merge: nozzle_kit -> nozzle (Tek ürün; nozzle vs nozzle_kit semantik aynı)
+phase2-spare_part-83371816-subtype,product,83371816,template_sub_type,trigger_gun,trigger_head,P0 merge: trigger_gun -> trigger_head (Tek ürün; trigger_gun = trigger_head (tetikli sprey kafa))
+phase2-spare_part-458813-subtype,product,458813,template_sub_type,extension_kit,maintenance_kit,P0 merge: extension_kit -> maintenance_kit (Tek ürün; uzatma kiti bakım kiti şemsiyesi)
+phase2-spare_part-82671872-subtype,product,82671872,template_sub_type,handle,repair_part,P1 merge: handle -> repair_part (Tek ürün; sap = onarım parçası (jenerik))
+phase2-spare_part-417882-subtype,product,417882,template_sub_type,charger,battery,"P1 merge: charger -> battery (Tek ürün; şarj cihazı batarya aksesuarı; ""power_accessory"" olarak yeni sub düşünülebilir)"

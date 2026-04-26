@@ -1,0 +1,8 @@
+id,scope,sku,field,before,after,label
+phase2-microfiber-70919-subtype,product,70919,template_sub_type,chamois_drying_towel,drying_towel,P0 merge: chamois_drying_towel -> drying_towel (Tek ürün; sami/kurulama havlusu drying ana sınıfa ait)
+phase2-microfiber-Q2M-BWE4040-subtype,product,Q2M-BWE4040,template_sub_type,coating_cloth,buffing_cloth,P0 merge: coating_cloth -> buffing_cloth (Tek ürün; coating bezleri buffing/parlatma kullanım)
+phase2-microfiber-Q2M-SEP1010C-subtype,product,Q2M-SEP1010C,template_sub_type,suede_cloth,glass_cloth,P0 merge: suede_cloth -> glass_cloth (Tek ürün; suede süet bez cam/kaplama silme)
+phase2-microfiber-3219-subtype,product,3219,template_sub_type,cleaning_cloth,multi_purpose_cloth,P0 merge: cleaning_cloth -> multi_purpose_cloth (Tek ürün; jenerik cleaning cloth = multi-purpose)
+phase2-microfiber-3236NBR2-subtype,product,3236NBR2,template_sub_type,interior_cleaning_applicator,interior_cloth,P0 merge: interior_cleaning_applicator -> interior_cloth (Tek ürün; iç mekan aplikatörü interior_cloth ile birleşir)
+phase2-microfiber-Q2M-IPE4P-subtype,product,Q2M-IPE4P,template_sub_type,kit,multi_purpose_cloth,P1 merge: kit -> multi_purpose_cloth (2 ürün; kit setleri ana ürün havuzuna katılabilir veya ayrı kalabilir)
+phase2-microfiber-Q2M-GPE2P-subtype,product,Q2M-GPE2P,template_sub_type,kit,multi_purpose_cloth,P1 merge: kit -> multi_purpose_cloth (2 ürün; kit setleri ana ürün havuzuna katılabilir veya ayrı kalabilir)

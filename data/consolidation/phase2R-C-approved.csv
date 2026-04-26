@@ -1,0 +1,8 @@
+id,scope,sku,field,before,after,label
+phase2R-brushes-SGGD294-1,product,SGGD294,template_sub_type,wheel_brush,tire_brush,"APPROVED: Ürün adı ""Tire Cleaning Brush"" + targetSurface=Lastik mislabel fix"
+phase2R-glass-Q2M-GPYA1000M-2,product,Q2M-GPYA1000M,template_sub_type,glass_hydrophobic_sealant,glass_protectant,APPROVED: Simetri iyileşmesi — diğer protectant ürünleriyle tek sub_type
+phase2R-orphan-516112-3,product,516112,template_sub_type,other,extension_shaft,APPROVED: specs.accessory_type=extension_shaft canonical (FLEX FS 140)
+phase2R-orphan-532579-4,product,532579,template_sub_type,other,heat_gun,APPROVED: specs.product_type=heat_gun canonical (FLEX HG 650)
+phase2R-orphan-SGGC055-5,product,SGGC055,template_sub_type,other,tornador_gun,APPROVED: ürün adı + subCat2 doğrulaması (SGCB Tornador)
+phase2R-orphan-SGGC086-6,product,SGGC086,template_sub_type,other,air_blow_gun,APPROVED: specs.product_type=air_blow_gun canonical (SGCB Air Blow Gun)
+phase2R-orphan-SGGS003-7,product,SGGS003,template_sub_type,other,air_blow_gun,APPROVED: specs.product_type=air_blow_gun canonical (SCCB Kısa Nozul)
