@@ -36,22 +36,6 @@ export default new Conversation({
   channel: '*',
 
   state: z.object({
-    selectedBrand: z
-      .string()
-      .nullable()
-      .default(null)
-      .describe('Kullanıcının ilgilendiği marka (örn: GYEON, MENZERNA)'),
-    selectedCategory: z
-      .string()
-      .nullable()
-      .default(null)
-      .describe('Kullanıcının ilgilendiği kategori (örn: Pasta Cila, Şampuan)'),
-    surfaceType: z
-      .string()
-      .nullable()
-      .default(null)
-      .describe('Hedef yüzey tipi (boya, cam, jant, iç mekan vb.)'),
-    // v8.2: Context retention için — önceki turda bulunan ürünler
     lastProducts: z
       .array(
         z.object({
@@ -67,12 +51,7 @@ export default new Conversation({
       .string()
       .nullable()
       .default(null)
-      .describe('En son detay/uygulama rehberi alınan ürün SKU.'),
-    lastFaqAnswer: z
-      .string()
-      .nullable()
-      .default(null)
-      .describe('En son alınan FAQ cevabı özeti (max 500 char).'),
+      .describe('En son detay/uygulama rehberi alınan ürün SKU. searchFaq SKU-filtreli yapılmasında kullanılır.'),
   }),
 
   handler: async ({ execute, state }) => {
@@ -107,9 +86,6 @@ export default new Conversation({
           }
           if ((tool.name === 'getProductDetails' || tool.name === 'getApplicationGuide') && output?.sku) {
             state.lastFocusSku = String(output.sku);
-          }
-          if (tool.name === 'searchFaq' && Array.isArray(output?.results) && output.results[0]?.answer) {
-            state.lastFaqAnswer = String(output.results[0].answer).slice(0, 500);
           }
         },
       },
@@ -156,7 +132,6 @@ ${state.lastProducts.length > 0 ? `
 
 ${state.lastProducts.map(p => `- ${p.productName} (${p.brand}) ${p.price.toLocaleString('tr-TR')} TL — SKU: ${p.sku}`).join('\n')}
 ${state.lastFocusSku ? `\nSon detay/rehber alınan ürün SKU: ${state.lastFocusSku}` : ''}
-${state.lastFaqAnswer ? `\nSon FAQ cevabı: ${state.lastFaqAnswer}` : ''}
 ` : ''}
 
 ### TOOL ÇAĞIRMA KARARI
@@ -614,17 +589,6 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 - Stok: "${STORE_URL} adresini ziyaret edin."
 - Güvenlik: "MSDS (güvenlik bilgi formu) için ürün etiketini inceleyin."
 
-## KONUŞMA BAĞLAMI
-
-Kullanıcının ilgilendiği bilgiyi state'e kaydet:
-- state.selectedBrand = "GYEON"
-- state.selectedCategory = "Pasta Cila"
-- state.surfaceType = "cam"
-
-Mevcut state:
-- selectedBrand: ${state.selectedBrand ?? '(belirtilmemiş)'}
-- selectedCategory: ${state.selectedCategory ?? '(belirtilmemiş)'}
-- surfaceType: ${state.surfaceType ?? '(belirtilmemiş)'}
 `,
     });
   },
