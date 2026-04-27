@@ -213,6 +213,7 @@ export function toLiteProductSummary(row: ProductRow): LiteProductSummary {
     brand: row.brand ?? '',
     price: asNumber(row.price),
     templateGroup: row.template_group ?? '',
+    templateSubType: row.template_sub_type ?? null,
   };
 }
 

@@ -34,6 +34,16 @@ export const searchByPriceRange = new Autonomous.Tool({
         'searchProducts tool description\'ındaki 25 templateGroup değerinden biri ' +
           '(ör. "ceramic_coating", "car_shampoo"). Türkçe etiket DEĞİL — enum string.',
       ),
+    templateSubType: z
+      .string()
+      .optional()
+      .describe(
+        "Alt-grup tam eşleşme. 'En pahalı pH nötr şampuan' gibi sub-kategori " +
+          "spesifik sorularda ZORUNLU — yoksa templateGroup'un tüm sub_type'ları " +
+          "karışır ve yanlış kategori 'en pahalı' olarak çıkar. Örnekler: " +
+          "'ph_neutral_shampoo' (pH nötr şampuan), 'paint_coating' (boya seramik kaplama), " +
+          "'heavy_cut_compound' (kalın pasta), 'tire_dressing' (lastik parlatıcı).",
+      ),
     brand: z.string().optional().describe('Marka adı tam eşleşme (GYEON, MENZERNA vb.)'),
     limit: z
       .number()
@@ -85,16 +95,29 @@ export const searchByPriceRange = new Autonomous.Tool({
           brand: z.string(),
           price: z.number(),
           templateGroup: z.string(),
+          templateSubType: z.string().nullable(),
         }),
       )
-      .describe('Tüm ürünlerin hafif özeti'),
+      .describe(
+        'Tüm ürünlerin hafif özeti. templateSubType ile relevance check yap — ' +
+          '"seramik kaplama" sorgusunda glass_coating/antifog karışırsa metinde flag\'le.',
+      ),
     totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
   }),
-  async handler({ minPrice, maxPrice, templateGroup, brand, limit, sortDirection }) {
+  async handler({
+    minPrice,
+    maxPrice,
+    templateGroup,
+    templateSubType,
+    brand,
+    limit,
+    sortDirection,
+  }) {
     return await retrievalClient.searchPrice({
       minPrice: minPrice ?? null,
       maxPrice: maxPrice ?? null,
       templateGroup: templateGroup ?? null,
+      templateSubType: templateSubType ?? null,
       brand: brand ?? null,
       limit,
       sortDirection,

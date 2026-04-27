@@ -139,6 +139,11 @@ export const LiteProductSummarySchema = z.object({
   brand: z.string(),
   price: z.number(),
   templateGroup: z.string(),
+  // Phase 1.1 hotfix: alt-tip görünürlüğü. Bot Adım 2 (relevance check)
+  // ürünleri kategori uyumluluğuna göre değerlendirirken — örn "seramik
+  // kaplama" sorgusunda glass_coating/antifog karışırsa fark etmek için —
+  // sub_type bilgisi olmazsa templateGroup eşleşse de yanlış sub kaçar.
+  templateSubType: z.string().nullable(),
 });
 export type LiteProductSummary = z.infer<typeof LiteProductSummarySchema>;
 
@@ -301,6 +306,10 @@ export const PriceSearchInputSchema = z.object({
   minPrice: z.number().int().nullable().optional(),
   maxPrice: z.number().int().nullable().optional(),
   templateGroup: z.string().nullable().optional(),
+  // Phase 1.1 hotfix: alt-grup filter (ph_neutral_shampoo, paint_coating vb.).
+  // Olmadan "en pahalı pH nötr şampuan" sorgusu tüm car_shampoo'yu sıralar
+  // ve INNOVACAR S2 Foamy gibi yanlış kategori "en pahalı nötr" çıkar.
+  templateSubType: z.string().nullable().optional(),
   brand: z.string().nullable().optional(),
   limit: z.number().int().min(1).max(20).default(10),
   sortDirection: SortDirectionSchema.default('asc'),

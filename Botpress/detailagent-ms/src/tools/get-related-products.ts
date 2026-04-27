@@ -69,9 +69,10 @@ export const getRelatedProducts = new Autonomous.Tool({
           brand: z.string(),
           price: z.number(),
           templateGroup: z.string(),
+          templateSubType: z.string().nullable(),
         }),
       )
-      .describe('Tüm ilişkili ürünlerin hafif özeti'),
+      .describe('Tüm ilişkili ürünlerin hafif özeti (templateSubType ile alt-kategori uyumluluğu da kontrol edilebilir).'),
     totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
   }),
   async handler({ sku, relationType }) {

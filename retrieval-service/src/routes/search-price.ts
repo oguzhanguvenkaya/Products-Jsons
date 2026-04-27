@@ -36,8 +36,15 @@ searchPriceRoutes.post(
   '/search/price',
   zValidator('json', PriceSearchInputSchema),
   async (c) => {
-    const { minPrice, maxPrice, templateGroup, brand, limit, sortDirection } =
-      c.req.valid('json');
+    const {
+      minPrice,
+      maxPrice,
+      templateGroup,
+      templateSubType,
+      brand,
+      limit,
+      sortDirection,
+    } = c.req.valid('json');
 
     // Two SQL branches (asc / desc) — avoids dynamic ORDER BY direction
     // interpolation. Variant filter mirrors the WHERE EXISTS clause's
@@ -65,6 +72,7 @@ searchPriceRoutes.post(
                 )
               )
               AND (${templateGroup ?? null}::text IS NULL OR template_group = ${templateGroup ?? null})
+              AND (${templateSubType ?? null}::text IS NULL OR template_sub_type = ${templateSubType ?? null})
               AND (${brand ?? null}::text IS NULL OR brand = ${brand ?? null})
             ORDER BY COALESCE(
               (SELECT MAX(NULLIF(s->>'price', '')::numeric)
@@ -97,6 +105,7 @@ searchPriceRoutes.post(
                 )
               )
               AND (${templateGroup ?? null}::text IS NULL OR template_group = ${templateGroup ?? null})
+              AND (${templateSubType ?? null}::text IS NULL OR template_sub_type = ${templateSubType ?? null})
               AND (${brand ?? null}::text IS NULL OR brand = ${brand ?? null})
             ORDER BY COALESCE(
               (SELECT MIN(NULLIF(s->>'price', '')::numeric)
