@@ -3,6 +3,20 @@
 > Bu doküman **farklı bir AI'ya proje context'i vermek** için yazılmıştır. RAG ve agentic AI literatürü ile karşılaştırılabilecek detayda yazıldı; her iddianın `file:line` referansı var.
 >
 > **Frozen snapshot:** 2026-04-27. Branch: `feat/phase-4.9-catalog-atelier`. Last commit: `0a7e7f5`.
+>
+> ## ⚠️ Phase 1.1 (2026-04-28) sonrası driftler
+>
+> Bu doküman 2026-04-27 snapshot'ı; **Phase 1.1 implementation'ı (28 Apr) sonrasında bazı bölümler güncel değil**. Aşağıdaki noktalarda doğrudan koda / yeni docs'a bakın:
+>
+> - **Tool sayısı 6→7:** `searchByRating` SİLİNDİ, `rankBySpec` EKLENDİ. §9 (6 Tool) listesinde hâlâ searchByRating var — gerçek için [`Botpress/detailagent-ms/CLAUDE.md`](../Botpress/detailagent-ms/CLAUDE.md) "7 Tool — Hızlı referans" tablosu.
+> - **slotExtractor `metal parlatici` duplicate:** §14.1'de "açık sorun" olarak geçiyor — Phase 1.1'de polish'ten silindi, çözüldü.
+> - **retrieval-client timeout:** §13.4'te "3000ms" — şimdi 5000ms.
+> - **Business boost:** §13'te aktif gibi anlatılıyor — şimdi `BUSINESS_BOOST_ENABLED=false` flag-disable.
+> - **searchByPriceRange:** §9.5'te "fiyata göre artan sıra" — şimdi `sortDirection: 'asc'|'desc'` + variant-aware `MIN`/`MAX` ORDER BY.
+> - **`ratingHint` slot:** §16.5'te "şu an deadweight" — Phase 1.1'de slotExtractor'dan kaldırıldı.
+> - **Rating sıralama:** §10.3, §14.2, §14.5'te "9 yerde tekrar / GYEON-only" — instruction tek "SIRALAMA" bölümüne indirildi, rankBySpec(rating_*) ile çağrılıyor + backend dinamik `coverageNote` döndürüyor.
+>
+> Tam Phase 1.1 changelog için: [`/Users/projectx/.claude/plans/testleri-yapt-m-son-1-piped-castle.md`](file:///Users/projectx/.claude/plans/testleri-yapt-m-son-1-piped-castle.md). Kısa özet için bot'un [`CLAUDE.md`](../Botpress/detailagent-ms/CLAUDE.md) "Phase 1.1 ile çözülenler" bölümü.
 
 ---
 

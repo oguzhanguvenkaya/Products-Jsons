@@ -27,8 +27,8 @@ Tüm endpoint'ler `Authorization: Bearer <RETRIEVAL_SHARED_SECRET>` ister (timin
 | GET | `/products/:sku` | Master row + specs JSONB + FAQs + variants |
 | GET | `/products/:sku/guide` | Hafif (howToUse + videoCard) |
 | GET | `/products/:sku/related?relationType=use_with` | İlişkili ürün |
-| POST | `/search/price` | Pure fiyat filtresi |
-| POST | `/search/rating` | Üretici puanı top-N |
+| POST | `/search/price` | Variant-aware fiyat sıralama (asc/desc) |
+| POST | `/search/rank-by-spec` | Universal numeric/rating ranker — 11 sortKey (durability, volume, cut_level, rating_*, ...) |
 | GET | `/health` | `{status, version, request_id}` |
 | `/admin/*` | (preview, staging/apply, coverage, audit-log, faqs/upsert, relations/upsert, tools) | Catalog Atelier UI backend |
 
@@ -129,12 +129,20 @@ Doğrulama: `src/lib/env.ts:9-21` (zod schema).
 
 `eval/run-eval.ts` framework hazır (150-query, brand_hit@k / tg_hit@k / sku_hit@k / MRR). **Ama `eval/corpus.jsonl` boş** — production retrieval kalitesi unevaluated. Phase 5 shadow mode için bu corpus oluşturulmalı.
 
-## Bilinen sorunlar
+## Phase 1.1 ile çözülenler
 
-- **slotExtractor pattern duplicate** — `metal parlatici` 2 yerde (line 171 polish + line 390 solid_compound). First-match polish kazanır → industrial katı pasta sorguları yanlış kategoriye düşüyor.
+- ✅ **slotExtractor `metal parlatici` duplicate** — polish'ten silindi, sadece `solid_compound` altında.
+- ✅ **searchByRating durability bug** — kaldırıldı; `rankBySpec(durability_months desc)` objektif ay ile sıralıyor.
+- ✅ **Business boost no-op risk** — `BUSINESS_BOOST_ENABLED=false` flag default; veri olmadan RRF'i sessizce skewlemez.
+- ✅ **Price tool sortDirection** — variant-aware MIN/MAX iki SQL branch + `NULLIF(s->>'price','')` boş string koruması.
+- ✅ **Rating EAV projection** — `specs.ratings.{durability,beading,self_cleaning}` → `product_meta` scalar key'leri (idempotent).
+
+## Açık riskler
+
 - **Synonym tablosu 37 entry** — TR detailing domain için zenginleştirilebilir.
 - **Embedding cache cold start** — yeni query 150-800ms; pre-warm script yok.
 - **Eval corpus yok** — RRF k=60, business boost coef'leri tune edilmedi.
+- **rankBySpec rating_* coverage düşük** — sadece ~20 GYEON ürünü; backend `coverageNote` ile dinamik uyarıyor.
 
 Detay + yol haritası: [`/docs/PROJECT_BRIEFING.md §14, §15`](../docs/PROJECT_BRIEFING.md).
 

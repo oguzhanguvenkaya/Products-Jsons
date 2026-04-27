@@ -19,9 +19,9 @@
 │    searchFaq             ─┤                            │
 │    getProductDetails     ─┤                            │
 │    getApplicationGuide   ─┼──→ retrievalClient.*       │
-│    getRelatedProducts    ─┤    (3s timeout, no retry)  │
+│    getRelatedProducts    ─┤    (5s timeout, no retry)  │
 │    searchByPriceRange    ─┤                            │
-│    searchByRating        ─┘                            │
+│    rankBySpec            ─┘                            │
 └──────────────────┬─────────────────────────────────────┘
                    │ HTTPS + RETRIEVAL_SHARED_SECRET
                    │ ~200-700ms (cold), ~200ms warm
@@ -37,7 +37,7 @@
 │    GET  /products/:sku/guide hafif (howToUse + video)  │
 │    GET  /products/:sku/related?relationType=...        │
 │    POST /search/price                                  │
-│    POST /search/rating                                 │
+│    POST /search/rank-by-spec (numeric/rating ranker)   │
 │    GET  /admin/* (separate admin secret)               │
 │    GET  /health                                        │
 │                                                        │
@@ -214,12 +214,12 @@ Bu kurallar instruction'da fazla tekrar ediyor (~9 yer rating kuralı, ~3 yer Ad
 
 | Risk | Mitigation |
 |---|---|
-| Cold embedding latency (150-800ms) → 3s timeout aşımı | retrieval-client timeout 3s → 5s yükseltme planlanıyor; pre-warm script |
+| Cold embedding latency (150-800ms) → 5s timeout aşımı (Phase 1.1: 3s'den 5s'e çıkarıldı) | edge case persistirse pre-warm script |
 | Multi-step LLMz timeout (60-100s) | Instruction "MAX 5 TOOL PER TURN" var ama soft; 3'e indirilebilir |
 | RRF k=60 tune edilmedi | Eval corpus tamamlanınca k ∈ {30, 60, 80, 100} grid search |
 | Embedding cache miss storm | LRU TTL 24h, top-N pre-warm |
 | Gemini model değişimi → stale embedding | `embedding_version` alanı (`gemini-embedding-001-v1`), periyodik re-index |
-| slotExtractor pattern duplicate (`metal parlatici`) | Pattern cleanup planlanıyor |
+| ~~slotExtractor pattern duplicate (`metal parlatici`)~~ | Phase 1.1'de polish'ten silindi, sadece `solid_compound` altında |
 
 ## 9. Referanslar
 

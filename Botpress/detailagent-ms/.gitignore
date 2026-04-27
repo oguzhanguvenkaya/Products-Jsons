@@ -36,8 +36,13 @@ logs/
 *.seed
 *.pid.lock
 
-# Eval files
-evals/
+# Eval files (klasör içeriği default ignored — local geliştirme deneme dosyaları için).
+# Whitelist için `evals/*` glob şart, `evals/` directory-pattern whitelist'i bypass eder.
+evals/*
+# Phase 1.1 kabul kriteri eval'leri tracked olmalı (rankBySpec + price desc regression):
+!evals/gy30-05-g5-gyeon-self-cleaning-top3.eval.ts
+!evals/rank-durability-months-top3.eval.ts
+!evals/price-desc-en-pahali.eval.ts
 
 # Lock files
 bun.lock

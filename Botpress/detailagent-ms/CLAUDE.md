@@ -38,13 +38,13 @@ Eski `selectedBrand/selectedCategory/surfaceType/lastFaqAnswer` field'ları **ka
 
 | Dosya | Rol |
 |---|---|
-| [src/conversations/index.ts](src/conversations/index.ts) | Conversation handler + onAfterTool hook + ~10K token instruction (18 bölüm, v10.2) |
-| [src/tools/](src/tools/) | 6 tool — searchProducts, searchFaq, getProductDetails, getApplicationGuide, searchByPriceRange, searchByRating, getRelatedProducts |
-| [src/lib/retrieval-client.ts](src/lib/retrieval-client.ts) | HTTP client, Bearer auth, **3000ms timeout** (5000'e çıkarılması planlanıyor) |
+| [src/conversations/index.ts](src/conversations/index.ts) | Conversation handler + onAfterTool hook (searchProducts/searchByPriceRange/rankBySpec → state.lastProducts) + instruction (Phase 1.1 sonrası refactor edilmiş) |
+| [src/tools/](src/tools/) | 7 tool — searchProducts, searchFaq, getProductDetails, getApplicationGuide, searchByPriceRange, rankBySpec, getRelatedProducts |
+| [src/lib/retrieval-client.ts](src/lib/retrieval-client.ts) | HTTP client, Bearer auth, **5000ms timeout** (Phase 1.1: 3s'den çıkartıldı, cold Gemini embedding call'larında ERROR yaşanıyordu) |
 | [agent.config.ts](agent.config.ts) | Bot config: model, bot.state (botName/storeUrl/contactInfo) |
 | `.env` | `RETRIEVAL_SERVICE_URL`, `RETRIEVAL_SHARED_SECRET`, `BOTPRESS_TOKEN` |
 
-## 6 Tool — Hızlı referans
+## 7 Tool — Hızlı referans
 
 | Tool | Amaç | Endpoint |
 |---|---|---|
@@ -52,8 +52,8 @@ Eski `selectedBrand/selectedCategory/surfaceType/lastFaqAnswer` field'ları **ka
 | `searchFaq` | FAQ semantic (SKU-bypass + confidence tier high/low/none) | POST /faq |
 | `getProductDetails` | Tek ürün full bilgi (specs Phase 1 canonical, ratings, FAQs, variants) | GET /products/:sku |
 | `getApplicationGuide` | Hafif uygulama rehberi (howToUse + videoCard) | GET /products/:sku/guide |
-| `searchByPriceRange` | Pure fiyat filtresi | POST /search/price |
-| `searchByRating` | Üretici puanı top-N (durability/beading/self_cleaning, sadece 28 GYEON) | POST /search/rating |
+| `searchByPriceRange` | Variant-aware fiyat sıralama (asc/desc) | POST /search/price |
+| `rankBySpec` | Numeric/rating universal ranker — 11 sortKey (durability, volume, cut_level, rating_*, ...) | POST /search/rank-by-spec |
 | `getRelatedProducts` | İlişkili ürün (use_with/use_before/use_after/alternatives/accessories) | GET /products/:sku/related |
 
 ## Microservice ile eşleşme
@@ -90,13 +90,20 @@ npx tsc --noEmit   # hızlı typecheck
 
 `.adk/bot/bot.definition.ts` autogen dosyasında integration config TS error'u (`configuration` missing) **pre-existing** ve build'i etkilemiyor — ignorable.
 
-## Bilinen sorunlar (kısa)
+## Phase 1.1 ile çözülenler
 
-- **slotExtractor pattern duplicate:** `metal parlatici` 2 yerde (line 171 polish + line 390 solid_compound). First-match polish kazanır → industrial katı pasta sorguları yanlış kategoriye düşer
-- **Instruction bloat:** Rating kuralı 9 yerde tekrar (~500 token israf), Adım 2.5/2.6/2.7 üç başlık aynı konu (~400 token), Phase notları 13+ yerde LLM'e gidiyor (~260 token)
-- **retrieval-client timeout 3s** çok sıkı — cold Gemini embedding call'larında ERROR riski
-- **Multi-step LLMz timeout** — agent 4-5 search call'lık döngülere girince 60-100s'de Botpress runtime timeout
-- **searchByRating coverage düşük** — sadece 28 GYEON ürünü `specs.ratings`'e sahip
+- ✅ **slotExtractor `metal parlatici` duplicate** — polish'ten silindi, sadece solid_compound altında
+- ✅ **Instruction bloat** — rating kuralı 9→1 yer, Adım 2.5/2.6/2.7 tek YIELD ÖNCESİ KONTROL'e birleştirildi, Phase/version notları silindi
+- ✅ **retrieval-client timeout 3s → 5s** — cold embedding ERROR'una karşı
+- ✅ **searchByRating durability bug** — rankBySpec(durability_months desc) ile objektif ay sıralaması
+- ✅ **Business boost no-op risk** — flag-disable (`BUSINESS_BOOST_ENABLED=false` default)
+- ✅ **searchByPriceRange** — variant-aware ORDER BY + sortDirection (asc/desc)
+
+## Açık riskler
+
+- **Multi-step LLMz timeout** — agent 4-5 search call'lık döngülere girince 60-100s'de Botpress runtime timeout (instruction "MAX 5 TOOL/TURN" kuralı soft enforcement)
+- **rankBySpec rating_* coverage düşük** — sadece ~20 GYEON ürünü `specs.ratings`'e sahip; backend `coverageNote` ile dinamik uyarıyor
+- **`.adk/bot/bot.definition.ts` autogen TS error** — `configuration` missing, pre-existing ve build'i etkilemiyor
 
 Detay + yol haritası: PROJECT_BRIEFING §14, §15.
 
