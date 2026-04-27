@@ -5,7 +5,7 @@ import { authMiddleware } from './middleware/auth.ts';
 import { errorHandler } from './middleware/error.ts';
 import { productsRoutes } from './routes/products.ts';
 import { searchPriceRoutes } from './routes/search-price.ts';
-import { searchRatingRoutes } from './routes/search-rating.ts';
+import { rankBySpecRoutes } from './routes/rank-by-spec.ts';
 import { searchRoutes } from './routes/search.ts';
 import { faqRoutes } from './routes/faq.ts';
 import { adminRoutes } from './routes/admin/index.ts';
@@ -43,7 +43,7 @@ app.get('/health', (c) =>
 
 app.route('/', productsRoutes);
 app.route('/', searchPriceRoutes);
-app.route('/', searchRatingRoutes);
+app.route('/', rankBySpecRoutes);
 app.route('/', searchRoutes);
 app.route('/', faqRoutes);
 app.route('/admin', adminRoutes);

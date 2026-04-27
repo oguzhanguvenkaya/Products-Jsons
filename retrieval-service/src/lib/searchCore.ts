@@ -13,6 +13,7 @@
  */
 
 import { sql } from './db.ts';
+import { env } from './env.ts';
 import { embedText } from './embed.ts';
 import { cachedEmbed } from './cache.ts';
 import {
@@ -317,11 +318,19 @@ const BOOST_FEATURED = 1.1;
  * Applies rating / stock / featured multipliers on top of an RRF
  * score. A rating of 0 or null treats as neutral (3/5 default) so we
  * don't penalize products that simply aren't rated yet.
+ *
+ * Phase 1.1: gated behind BUSINESS_BOOST_ENABLED env flag (default
+ * false). Until products.rating / stock_status / is_featured carry
+ * real signals, leaving this on constant-multiplies every result by
+ * ~1.10 — a no-op for ranking, but the moment any field becomes
+ * populated it would silently skew RRF order. Keep the function so
+ * we can flip the flag without code changes once the signals exist.
  */
 function applyBusinessBoost(
   rrfScore: number,
   row: Pick<ProductRow, 'rating' | 'stock_status' | 'is_featured'>,
 ): number {
+  if (!env.BUSINESS_BOOST_ENABLED) return rrfScore;
   const rating = row.rating == null ? 3 : Number(row.rating);
   const ratingMultiplier = 1 + (BOOST_RATING_COEF * rating) / 5;
   const stockMultiplier =
@@ -541,18 +550,19 @@ export async function searchHybrid(
         rrfK: HYBRID_RRF_K,
         mergedCount: fused.length,
         topRrfScore: fused[0]?.rrf_score ?? null,
-        businessBoost: {
-          ratingCoef: BOOST_RATING_COEF,
-          inStock: BOOST_IN_STOCK,
-          outOfStock: BOOST_OUT_OF_STOCK,
-          featured: BOOST_FEATURED,
-        },
+        businessBoost: env.BUSINESS_BOOST_ENABLED
+          ? {
+              ratingCoef: BOOST_RATING_COEF,
+              inStock: BOOST_IN_STOCK,
+              outOfStock: BOOST_OUT_OF_STOCK,
+              featured: BOOST_FEATURED,
+            }
+          : 'disabled',
         addedAliases: expanded.addedAliases,
         extractedSlots: {
           brand: slots.brand ?? null,
           priceMin: slots.priceMin ?? null,
           priceMax: slots.priceMax ?? null,
-          ratingHint: slots.ratingHint ?? null,
           templateSubType: slots.templateSubType ?? null,
           templateGroup: slots.templateGroup ?? null,
         },

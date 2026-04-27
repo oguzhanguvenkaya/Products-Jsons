@@ -58,11 +58,29 @@ export const RelationTypeSchema = z.enum(RELATION_TYPES);
 
 export const FaqScopeSchema = z.enum(['product', 'brand', 'category']);
 
-export const RatingMetricSchema = z.enum([
-  'durability',
-  'beading',
-  'self_cleaning',
+// Phase 1.1: searchByRating tamamen kaldırıldı — rating metrikleri rankBySpec
+// (rating_durability/beading/self_cleaning) sortKey'leri üzerinden sıralanır.
+
+// rankBySpec sortKey enum'u — numeric / rating tüm sıralama yolları tek API'den.
+export const RankBySpecSortKeySchema = z.enum([
+  // Objektif numeric specs
+  'durability_months',
+  'durability_km',
+  'cut_level',
+  'volume_ml',
+  'weight_g',
+  'capacity_ml',
+  'capacity_usable_ml',
+  'consumption_per_car_ml',
+  // Rating projection (specs.ratings.* → product_meta scalar key)
+  'rating_durability',
+  'rating_beading',
+  'rating_self_cleaning',
 ]);
+export type RankBySpecSortKey = z.infer<typeof RankBySpecSortKeySchema>;
+
+export const SortDirectionSchema = z.enum(['asc', 'desc']);
+export type SortDirection = z.infer<typeof SortDirectionSchema>;
 
 // ─────────────────────────────────────────────────────────────────
 // Shared response primitives (mirror Botpress tool output)
@@ -285,6 +303,7 @@ export const PriceSearchInputSchema = z.object({
   templateGroup: z.string().nullable().optional(),
   brand: z.string().nullable().optional(),
   limit: z.number().int().min(1).max(20).default(10),
+  sortDirection: SortDirectionSchema.default('asc'),
 });
 export type PriceSearchInput = z.infer<typeof PriceSearchInputSchema>;
 
@@ -297,29 +316,37 @@ export const PriceSearchResultSchema = z.object({
 export type PriceSearchResult = z.infer<typeof PriceSearchResultSchema>;
 
 // ─────────────────────────────────────────────────────────────────
-// /search/rating — searchByRating mirror
+// /search/rank-by-spec — rankBySpec (universal numeric/rating ranker)
 // ─────────────────────────────────────────────────────────────────
 
-export const RatingSearchInputSchema = z.object({
-  metric: RatingMetricSchema,
-  templateGroup: z.string().nullable().optional(),
-  limit: z.number().int().min(1).max(10).default(3),
-});
-export type RatingSearchInput = z.infer<typeof RatingSearchInputSchema>;
+export const RankBySpecInputSchema = z
+  .object({
+    sortKey: RankBySpecSortKeySchema,
+    direction: SortDirectionSchema.default('desc'),
+    templateGroup: z.string().nullable().optional(),
+    templateSubType: z.string().nullable().optional(),
+    brand: z.string().nullable().optional(),
+    minValue: z.number().nullable().optional(),
+    maxValue: z.number().nullable().optional(),
+    limit: z.number().int().min(1).max(10).default(3),
+  })
+  .superRefine((data, ctx) => {
+    if (data.sortKey === 'consumption_per_car_ml' && data.direction === 'desc') {
+      ctx.addIssue({
+        code: z.ZodIssueCode.custom,
+        message:
+          "Tüketim sıralamasında (consumption_per_car_ml) 'desc' anlamsızdır, lütfen 'asc' (en az tüketen) kullanın.",
+        path: ['direction'],
+      });
+    }
+  });
+export type RankBySpecInput = z.infer<typeof RankBySpecInputSchema>;
 
 export const RankedProductSchema = z.object({
   sku: z.string(),
   productName: z.string(),
   brand: z.string(),
-  ratingValue: z.number(),
-  allRatings: z.object({
-    durability: z.number().nullable(),
-    beading: z.number().nullable(),
-    self_cleaning: z.number().nullable(),
-  }),
-  durabilityMonths: z.number().nullable().optional(),
-  durabilityKm: z.number().nullable().optional(),
-  hardness: z.string().nullable().optional(),
+  rankValue: z.number(),
   price: z.number(),
   url: z.string(),
   imageUrl: z.string().nullable(),
@@ -327,12 +354,16 @@ export const RankedProductSchema = z.object({
 });
 export type RankedProduct = z.infer<typeof RankedProductSchema>;
 
-export const RatingSearchResultSchema = z.object({
-  metric: z.string(),
+export const RankBySpecResultSchema = z.object({
+  sortKey: z.string(),
+  direction: z.string(),
+  unit: z.string(),
   rankedProducts: z.array(RankedProductSchema),
   totalCandidates: z.number().int(),
+  coverageTotal: z.number().int(),
+  coverageNote: z.string().nullable(),
 });
-export type RatingSearchResult = z.infer<typeof RatingSearchResultSchema>;
+export type RankBySpecResult = z.infer<typeof RankBySpecResultSchema>;
 
 // ─────────────────────────────────────────────────────────────────
 // Internal DB row shapes (snake_case, used by formatters)

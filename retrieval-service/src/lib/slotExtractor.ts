@@ -48,10 +48,6 @@ const KNOWN_BRANDS: ReadonlyArray<{
 const PRICE_MAX_RE = /(\d{2,7})\s*(?:tl|₺|lira)?\s*(?:alt[ıi]|altında|ve alt[ıi]|ye kadar|a kadar|dan az|den az|-?ucuz|daha ucuz)/i;
 const PRICE_MIN_RE = /(\d{2,7})\s*(?:tl|₺|lira)?\s*(?:üst[üu]|ustu|üstünde|ve üst[üu]|dan pahal[ıi]|den pahal[ıi]|pahal[ıi]|ve üzeri|ve yukar[ıi]|fazla)/i;
 
-// Rating hint — "best / most popular / top" cues suggest sorting
-// by manufacturer rating. Consumer of the slot decides how to use it.
-const RATING_HINT_RE = /\b(en iyi|en güçlü|en guclu|en popüler|en populer|top\s*\d*|en dayan[ıi]kl[ıi]|en kaliteli|en çok tercih|en cok tercih)\b/i;
-
 // ─────────────────────────────────────────────────────────────────
 // Template sub_type inverse mapping (issue #3, #10)
 //
@@ -157,9 +153,8 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       'finish polish', 'ucuncu adim', 'üçüncü adım',
     ],
   },
-  // Phase 2R: one_step_polish + metal_polish → polish (merge edildi)
-  //           sanding_paste → heavy_cut_compound (merge edildi)
-  // Pattern'ler polish ve heavy_cut_compound canonical'larına yönlendiriliyor
+  // Phase 2R: one_step_polish → polish (merge edildi); sanding_paste → heavy_cut_compound
+  // Phase 19: metal_polish/krom_parlatici pattern'leri industrial_products/solid_compound'a taşındı (aşağıda)
   {
     canonical: 'polish',
     templateGroup: 'abrasive_polish',
@@ -167,8 +162,6 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       // one_step_polish pattern'leri — Phase 2R: polish'e merge
       'tek adim pasta', 'tek adım pasta', 'all in one pasta',
       '3 in 1', '3in1', 'tek adim cila',
-      // metal_polish pattern'leri — Phase 2R: polish'e merge
-      'metal parlatici', 'metal parlatıcı', 'krom parlatici', 'krom parlatıcı',
     ],
   },
   {
@@ -480,7 +473,6 @@ export interface Slots {
   brand?: string;
   priceMin?: number;
   priceMax?: number;
-  ratingHint?: boolean;
   templateSubType?: string;
   templateGroup?: string; // only set when inferred from sub_type match
   /** Query with all matched slot phrases removed. */
@@ -531,13 +523,7 @@ export function extractSlots(input: string): Slots {
     slots.remaining = slots.remaining.replace(minMatch[0], ' ').replace(/\s+/g, ' ').trim();
   }
 
-  // 4. Rating hint
-  if (RATING_HINT_RE.test(slots.remaining)) {
-    slots.ratingHint = true;
-    slots.remaining = slots.remaining.replace(RATING_HINT_RE, ' ').replace(/\s+/g, ' ').trim();
-  }
-
-  // 5. Template sub_type (inverse lookup). Don't strip the phrase —
+  // 4. Template sub_type (inverse lookup). Don't strip the phrase —
   // semantic ranking still benefits from the context words.
   const subTypeMatch = matchSubType(normalized);
   if (subTypeMatch) {
