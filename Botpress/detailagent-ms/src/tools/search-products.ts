@@ -193,15 +193,9 @@ export const searchProducts = new Autonomous.Tool({
           "- 'polisaj tabanlığı' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'accessory'}]\n\n" +
           "**ARRAY key listesi (op:'regex' kullan):** target_surface, compatibility, substrate_safe, surface, features\n" +
           "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
-          "**Yeni canonical key değişiklikleri (Phase 1):**\n" +
-          "- durability_days/weeks/label artık YOK → durability_months kullan.\n" +
-          "- volume_liters/kg, capacity_liters/total_lt artık YOK → volume_ml veya capacity_ml.\n" +
-          "- consumption_ml_per_car artık YOK → consumption_per_car_ml.\n" +
-          "- safe_on_ceramic_coatings/safe_on_ppf_wrap artık YOK → compatibility array.\n" +
-          "- aluminum_safe/fiberglass_safe/plexiglass_safe artık YOK → substrate_safe array.\n" +
-          "- ph/ph_label artık YOK → ph_level (number).\n\n" +
           "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.\n" +
-          "Array key'lerde (target_surface, compatibility, substrate_safe) op:'contains' kullan.",
+          "Array key'lerde (target_surface, compatibility, substrate_safe, surface, features) " +
+          "op:'regex' kullan ('contains' DESTEKLENMİYOR — schema reject eder).",
       ),
   }),
   output: z.object({

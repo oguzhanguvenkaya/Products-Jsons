@@ -21,9 +21,9 @@ export const searchByPriceRange = new Autonomous.Tool({
   name: 'searchByPriceRange',
   description:
     "Fiyat aralığında ürün arar. 'X TL altında', 'X TL'den pahalı', 'bütçeye uygun', " +
-    "'ucuz alternatif', 'en pahalı/en ucuz' gibi FİYAT-BAZLI sorularda kullan. " +
-    "searchProducts fiyat filtresi YAPAMAZ. Opsiyonel templateGroup ve marka filtresi " +
-    "alır. Sonuçlar fiyata göre artan sıralı döner.",
+    "'en ucuz', 'en pahalı' gibi FİYAT-BAZLI sorularda kullan. " +
+    "searchProducts fiyat filtresi YAPAMAZ. Opsiyonel templateGroup, marka, sortDirection. " +
+    "Variant-aware sıralama: asc → in-range variant min fiyatına göre (en ucuz), desc → max (en pahalı).",
   input: z.object({
     minPrice: z.number().int().optional().describe('Minimum fiyat (TL, dahil)'),
     maxPrice: z.number().int().optional().describe('Maksimum fiyat (TL, dahil)'),
@@ -31,9 +31,8 @@ export const searchByPriceRange = new Autonomous.Tool({
       .string()
       .optional()
       .describe(
-        'Custom kategori tam eşleşme — searchProducts tool description\'ındaki 25 değerden biri ' +
-          '(ör. "ceramic_coating", "car_shampoo", "abrasive_polish", "paint_protection_quick"). ' +
-          'TEMPLATE_GROUP VALUE OLMALI — "Seramik Kaplama" gibi Türkçe metin DEĞİL.',
+        'searchProducts tool description\'ındaki 25 templateGroup değerinden biri ' +
+          '(ör. "ceramic_coating", "car_shampoo"). Türkçe etiket DEĞİL — enum string.',
       ),
     brand: z.string().optional().describe('Marka adı tam eşleşme (GYEON, MENZERNA vb.)'),
     limit: z
@@ -43,6 +42,13 @@ export const searchByPriceRange = new Autonomous.Tool({
       .max(20)
       .default(10)
       .describe('Maksimum sonuç sayısı (varsayılan 10)'),
+    sortDirection: z
+      .enum(['asc', 'desc'])
+      .default('asc')
+      .describe(
+        "'asc' = en ucuz önce (default). 'desc' = en pahalı önce. " +
+          "'en pahalı X' sorusunda 'desc' kullan.",
+      ),
   }),
   output: z.object({
     carouselItems: z
@@ -84,13 +90,14 @@ export const searchByPriceRange = new Autonomous.Tool({
       .describe('Tüm ürünlerin hafif özeti'),
     totalReturned: z.number().describe('Toplam dönen ürün sayısı'),
   }),
-  async handler({ minPrice, maxPrice, templateGroup, brand, limit }) {
+  async handler({ minPrice, maxPrice, templateGroup, brand, limit, sortDirection }) {
     return await retrievalClient.searchPrice({
       minPrice: minPrice ?? null,
       maxPrice: maxPrice ?? null,
       templateGroup: templateGroup ?? null,
       brand: brand ?? null,
       limit,
+      sortDirection,
     });
   },
 });

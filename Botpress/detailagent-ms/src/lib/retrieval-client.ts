@@ -7,7 +7,9 @@
  * validates the shape at runtime before it reaches the LLM.
  *
  * Error policy (hard cutover):
- *   - 3s timeout (Phase 3 prod warm p95 ~520ms, cold ~1s)
+ *   - 5s timeout (Phase 1.1: 3s ERROR'a sebep oluyordu cold Gemini
+ *     embedding call'larında; warm p95 ~520ms, cold ~1s, edge
+ *     cold ~2-3s — 5s güvenli üst sınır)
  *   - 4xx/5xx or network error  -> throw Error
  *   - No retry, no Botpress Tables fallback
  *   - Botpress runtime converts the thrown Error into a standard
@@ -16,7 +18,7 @@
 
 import { getEnv } from './env.ts';
 
-const DEFAULT_TIMEOUT_MS = 3_000;
+const DEFAULT_TIMEOUT_MS = 5_000;
 
 async function request<T>(
   method: 'GET' | 'POST',
@@ -83,8 +85,10 @@ export class RetrievalClient {
     return request<T>('POST', '/search/price', input);
   }
 
-  async searchRating<T = unknown>(input: Record<string, unknown>): Promise<T> {
-    return request<T>('POST', '/search/rating', input);
+  // Phase 1.1: searchByRating tamamen kaldırıldı; rating sıralaması da
+  // rankBySpec(rating_durability/beading/self_cleaning) üzerinden akıyor.
+  async rankBySpec<T = unknown>(input: Record<string, unknown>): Promise<T> {
+    return request<T>('POST', '/search/rank-by-spec', input);
   }
 
   async health(): Promise<{ status: string; version?: string; request_id?: string }> {
