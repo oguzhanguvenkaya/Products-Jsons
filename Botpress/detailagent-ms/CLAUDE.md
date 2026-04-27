@@ -1,94 +1,85 @@
 # detailagent-ms (v10) — Microservice Bot
 
-> **Status: ACTIVE — Phase 2 (microservice HTTP endpoints).** Bu bot `detailagent/` v9.2'nin klonu olarak doğdu; tool handler'ları cutover tamamlandığında Botpress Cloud Tables yerine `retrieval-service/` microservice'ine (Fly.io + Supabase pgvector) HTTP call atacak. Şu an tool'lar hala v9.2 davranışında, **HTTP refactoring Phase 4** işi.
+> **Son güncelleme:** 2026-04-27 · **Branch:** `feat/phase-4.9-catalog-atelier` · **Status:** ACTIVE production-ready
 
-## Ne yapar bu bot?
+MTS Kimya CARCAREAİ — Türkçe ürün danışmanı. Botpress LLMz Autonomous + Gemini 3 Flash + sibling `retrieval-service/` (Bun + Hono + Supabase + pgvector).
 
-Aynı MTS Kimya CARCAREAİ ürün danışmanı — **ama retrieval layer'ı Botpress'in dışına taşındı.** Botpress bunu korur:
+> **Tam mimari ve referans:** [`/docs/PROJECT_BRIEFING.md`](../../docs/PROJECT_BRIEFING.md) (1.339 satır, master doc)
 
-- LLMz Autonomous paradigması (TS kod üretimi)
-- Conversation state, transcript, widget rendering
-- Tool contract'ları (input/output şeması aynı)
+## Mevcut durum (özet)
 
-Botpress'in dışına taşınan:
+- **Tool handler'lar microservice HTTP'ye cutover edildi** — `src/lib/retrieval-client.ts` üzerinden 6 tool retrieval-service'e POST atıyor
+- **Bot tarafında veri layer YOK** — Botpress Cloud Tables kullanılmıyor; tüm veri Supabase Postgres üzerinde, microservice arabuluyor
+- **Phase 1, 2R, 4 ve 19 TAMAMLANDI** — canonical key migration, taxonomy refactor, tool cutover, post-feedback fixes hepsi DB'ye uygulandı
+- **Phase 4.9 admin UI shipped** — sibling [admin-ui/](../../admin-ui/) Catalog Atelier (staging→commit workflow)
+- **Phase 5/6 (shadow mode + production cutover) bekliyor** — şu an dev/staging'de
 
-- Ürün/FAQ/meta/relations storage → **Supabase Postgres** (us-east-1)
-- Semantic search → **hybrid retrieval** (Turkish FTS + HNSW vector + RRF fusion)
-- Embedding → **Gemini embedding-001** (768 dim)
-- Tool handler'lar → **HTTP call** (shared-secret auth, microservice `/search`, `/faq`, `/products/:sku`, vs.)
+## Identity
 
-Kullanıcı için tek fark: aramalar daha doğru, daha hızlı, açıklanabilir.
-
-**Identity:**
-
-- botId: `REPLACE_WITH_NEW_BOT_ID` ← Botpress Cloud'da yeni bot oluşturulduğunda doldurulacak ([agent.json](agent.json))
-- Workspace: `wkspace_01KCCKM30YFWT88HC0NBHXP4J7` (detailagent ile aynı workspace)
-- Model: Gemini 2.5 Flash (şimdilik detailagent ile aynı; microservice-tarafında Gemini embedding-001 de kullanılıyor)
-
-> ⚠️ **detailagent ile aynı botId KULLANMA.** İki bot aynı token kullanırsa çakışır. Yeni Botpress Cloud bot'u aç, botId'yi `agent.json` ve `.env`'ye yaz.
-
-## Hangi dokümanı ne zaman okumalı?
-
-| Amaç | Dosya |
+| Alan | Değer |
 |---|---|
-| **Microservice hedef mimari + fazlar** | [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) |
-| **Dev/deploy + microservice ile koordinasyon** | [docs/RUNBOOK.md](docs/RUNBOOK.md) |
-| **Retrieval servisinin kendisi** | `retrieval-service/` (monorepo sibling) |
-| **Ana geçiş planı** | `/Users/projectx/.claude/plans/products-jsons-klas-r-ndeki-dosyalara-dazzling-acorn.md` |
+| botId (devId) | `f29b900e-643e-4851-9866-f7c62cdeab73` ([agent.local.json](agent.local.json)) |
+| Workspace | `wkspace_01KCCKM30YFWT88HC0NBHXP4J7` |
+| Model | **Gemini 3 Flash** (`google-ai:gemini-3-flash`, temp 0.2) |
+| Embedding (microservice) | Gemini `text-embedding-001` (768 dim, LRU cache TTL 24h) |
+
+## State şeması (sadece 2 field — 2026-04-26 cleanup)
+
+```ts
+state: z.object({
+  lastProducts: array<{sku, productName, brand, price}>  // max 5, multi-turn context
+  lastFocusSku: string | null                            // searchFaq SKU-filtre
+})
+```
+
+Eski `selectedBrand/selectedCategory/surfaceType/lastFaqAnswer` field'ları **kaldırıldı** (transcript LLMz tarafından zaten gönderiliyor, redundant). Detay: PROJECT_BRIEFING §8.2.
 
 ## Kritik dosyalar
 
-- [src/conversations/index.ts](src/conversations/index.ts) — Conversation handler (şu an detailagent ile bire bir, Phase 4'te instruction rewrite)
-- [src/tools/](src/tools/) — 6 tool (şu an Botpress Tables handler; Phase 4'te HTTP client'a çevrilecek)
-- [agent.json](agent.json) — botId + workspaceId (Botpress Cloud kimliği)
-- `.env` — `RETRIEVAL_SERVICE_URL`, `RETRIEVAL_SHARED_SECRET` (Phase 4'te eklenecek)
+| Dosya | Rol |
+|---|---|
+| [src/conversations/index.ts](src/conversations/index.ts) | Conversation handler + onAfterTool hook + ~10K token instruction (18 bölüm, v10.2) |
+| [src/tools/](src/tools/) | 6 tool — searchProducts, searchFaq, getProductDetails, getApplicationGuide, searchByPriceRange, searchByRating, getRelatedProducts |
+| [src/lib/retrieval-client.ts](src/lib/retrieval-client.ts) | HTTP client, Bearer auth, **3000ms timeout** (5000'e çıkarılması planlanıyor) |
+| [agent.config.ts](agent.config.ts) | Bot config: model, bot.state (botName/storeUrl/contactInfo) |
+| `.env` | `RETRIEVAL_SERVICE_URL`, `RETRIEVAL_SHARED_SECRET`, `BOTPRESS_TOKEN` |
+
+## 6 Tool — Hızlı referans
+
+| Tool | Amaç | Endpoint |
+|---|---|---|
+| `searchProducts` | Hibrit ürün arama (BM25 + vector + RRF + slot extraction + meta filter) | POST /search |
+| `searchFaq` | FAQ semantic (SKU-bypass + confidence tier high/low/none) | POST /faq |
+| `getProductDetails` | Tek ürün full bilgi (specs Phase 1 canonical, ratings, FAQs, variants) | GET /products/:sku |
+| `getApplicationGuide` | Hafif uygulama rehberi (howToUse + videoCard) | GET /products/:sku/guide |
+| `searchByPriceRange` | Pure fiyat filtresi | POST /search/price |
+| `searchByRating` | Üretici puanı top-N (durability/beading/self_cleaning, sadece 28 GYEON) | POST /search/rating |
+| `getRelatedProducts` | İlişkili ürün (use_with/use_before/use_after/alternatives/accessories) | GET /products/:sku/related |
 
 ## Microservice ile eşleşme
 
 Bu bot kendi başına çalışmaz. Sibling servisler:
+- **`retrieval-service/`** — HTTP endpoint'leri sağlar (Bun + Hono, port 8787)
+- **Supabase Postgres** (us-east-1) — 511 ürün + 3.156 FAQ + 1.287 relation + 1.961 EAV meta + 37 synonym
 
-- **`retrieval-service/`** (monorepo'da, Fly.io'ya deploy edilecek) — HTTP endpoint'leri sağlar: `/search`, `/faq`, `/products/:sku`, `/products/:sku/related`, `/search/price`, `/search/rating`
-- **Supabase us-east-1** (proje URL'si `.env`'de tutulur) — 511 ürün + 3.156 FAQ + 1.287 relation + 1.961 meta + 37 synonym (Phase 1'de seed edildi, embedding'ler hazır)
+## Çalıştırma (dev)
 
-## Çalıştırma komutları
-
-Şu an (Phase 2 başlangıcı) — tool'lar hala Botpress Tables'a bağlı:
-
-```bash
-cd Botpress/detailagent-ms
-bun install                                 # bağımlılıklar (node_modules klonlanmadı)
-adk dev                                     # hot-reload dev server
-adk build                                   # 0 error beklenir
-npx tsc --noEmit                            # hızlı typecheck
-```
-
-**Microservice'i ayağa kaldırmak için** (ayrı terminal):
+3 terminal:
 
 ```bash
+# Tab 1 — Microservice (önce başlat)
 cd retrieval-service
-bun install
-bun run dev                                 # :8787, Phase 2'de implemente edilecek
+bun run dev                               # :8787
+
+# Tab 2 — Bot
+cd Botpress/detailagent-ms
+adk dev                                   # :3000, hot-reload tunnel
+
+# Tab 3 — Test (opsiyonel CLI; Carousel için browser webchat tercih)
+PATH="$HOME/.bun/bin:$PATH" adk chat
 ```
 
-## Geçiş fazları
-
-| Faz | Durum | Çıktı |
-|---|---|---|
-| Phase 1 — Data layer | ✅ Tamam | Supabase 7 tablo seed + embedding (511 ürün, 3.156 FAQ) |
-| Phase 2 — Microservice endpoints | 🟡 Başlıyor | `/health`, `/search` stub, auth middleware, Fly.io deploy |
-| Phase 3 — Hybrid retrieval | ⏳ Sonraki | BM25 + vector + RRF + synonym expand + slots + boosts |
-| Phase 4 — Tool cutover | ⏳ | 6 tool handler → HTTP call, feature flag, fallback |
-| Phase 5 — Shadow mode | ⏳ | Dual-call diff, eval replay, top-3 overlap ≥85% |
-| Phase 6 — A/B + cutover | ⏳ | %10 trafik → %100, rollback prova |
-
-## Bu bot'ta YAPILMAZ
-
-- ❌ detailagent'ı değiştirmek (o bot frozen, bu bot'un ikizi)
-- ❌ Feature flag / "select" LLM instruction'ında (tek path, saflık)
-- ❌ Supabase'i doğrudan bot'tan çağırmak (her zaman microservice üzerinden → auth + cache + observability tek yer)
-- ✅ Tool handler'ı HTTP client'a çevirmek (Phase 4)
-- ✅ Instruction'ı microservice response contract'ına göre ince ayar (Phase 5+)
-- ✅ Yeni tool eklemek (microservice endpoint'i önce, bot tool'u sonra)
+`adk dev` çıktısındaki tunnel URL'i veya Botpress Cloud studio chat panel'i webchat'e erişim sağlar.
 
 ## Build / Typecheck
 
@@ -97,18 +88,52 @@ adk build          # 0 error/warning beklenir
 npx tsc --noEmit   # hızlı typecheck
 ```
 
-Phase 4'te HTTP client refactoring öncesi ikisi de temiz olmalı.
+`.adk/bot/bot.definition.ts` autogen dosyasında integration config TS error'u (`configuration` missing) **pre-existing** ve build'i etkilemiyor — ignorable.
 
----
+## Bilinen sorunlar (kısa)
 
-## ADK Primitives (referans)
+- **slotExtractor pattern duplicate:** `metal parlatici` 2 yerde (line 171 polish + line 390 solid_compound). First-match polish kazanır → industrial katı pasta sorguları yanlış kategoriye düşer
+- **Instruction bloat:** Rating kuralı 9 yerde tekrar (~500 token israf), Adım 2.5/2.6/2.7 üç başlık aynı konu (~400 token), Phase notları 13+ yerde LLM'e gidiyor (~260 token)
+- **retrieval-client timeout 3s** çok sıkı — cold Gemini embedding call'larında ERROR riski
+- **Multi-step LLMz timeout** — agent 4-5 search call'lık döngülere girince 60-100s'de Botpress runtime timeout
+- **searchByRating coverage düşük** — sadece 28 GYEON ürünü `specs.ratings`'e sahip
+
+Detay + yol haritası: PROJECT_BRIEFING §14, §15.
+
+## Bu bot'ta YAPILMAZ
+
+- ❌ detailagent (v9.2 frozen) klasörünü değiştirmek
+- ❌ Supabase'i doğrudan bot'tan çağırmak (her zaman microservice üzerinden)
+- ❌ Feature flag instruction'ında ("select" pattern) — tek path saflığı
+- ✅ Instruction sadeleştirme (rating consolidation, Adım 2.5/2.6/2.7 birleştir)
+- ✅ slotExtractor pattern düzeltme (microservice tarafı)
+- ✅ Yeni tool eklemek (microservice endpoint önce, bot tool sonra)
+
+## Trace debugging
+
+Bot tarafı:
+```bash
+sqlite3 .adk/bot/traces/traces.db \
+  "SELECT name, status, ROUND(duration,0) as ms FROM spans WHERE conversation_id='conv_...' ORDER BY started_at;"
+```
+
+Token kullanımı:
+```bash
+sqlite3 .adk/bot/traces/traces.db \
+  "SELECT json_extract(data,'\$.\"ai.system_length\"') FROM spans WHERE name='cognitive.request' ORDER BY started_at DESC LIMIT 5;"
+```
+
+Son test verileri (2026-04-26 conv `KQ7JF4`): 6 mesaj, 0 timeout, 0 ERROR, sistem prompt **17.5K token** (state cleanup öncesi 22K idi, %20 düşüş).
+
+## ADK Primitives
 
 | Klasör | Amaç |
 |---|---|
-| `src/conversations/` | Mesaj handler |
-| `src/tools/` | LLM-callable fonksiyonlar (Phase 4'te HTTP'ye dönecek) |
-| `src/tables/` | Cloud table tanımları (Phase 4'te sadeleşebilir) |
-| `agent.config.ts` | Agent config |
+| `src/conversations/` | Mesaj handler (channel: '*') |
+| `src/tools/` | 6 tool, hepsi HTTP client kullanıyor |
+| `src/lib/` | retrieval-client.ts, env.ts |
+| `src/actions/`, `src/triggers/`, `src/workflows/` | (boş veya minimal) |
+| `agent.config.ts` | Agent config + bot.state |
 
 ## ADK Dev Server MCP Tools
 
@@ -122,3 +147,18 @@ Phase 4'te HTTP client refactoring öncesi ikisi de temiz olmalı.
 | `adk_get_agent_info` | Proje bilgisi |
 
 Kurulum: `adk mcp:init --all`.
+
+## Faz tablosu (güncel)
+
+| Faz | Durum | Çıktı |
+|---|---|---|
+| Phase 1 — Data layer | ✅ | Supabase 7 tablo + embedding |
+| Phase 2 — Microservice scaffold | ✅ | Hono + auth + LRU cache |
+| Phase 3 — Hybrid retrieval | ✅ | BM25 + vector + RRF (k=60) + slot + boost |
+| Phase 4 — Tool cutover | ✅ | 6 tool → HTTP client |
+| Phase 4.9 — Admin UI Catalog Atelier | ✅ | staging/commit workflow shipped |
+| Phase 1 (canonical keys) | ✅ | durability_months, volume_ml, target_surface[] vb. |
+| Phase 2R (taxonomy refactor) | ✅ | spare_part eridi, wash_tools yeni grup |
+| Phase 19 (post-feedback) | ✅ | solid_compound, air_equipment rename, marin renormalize |
+| Phase 5 — Shadow mode | ⏳ | Beklemede (eval corpus oluşturulacak) |
+| Phase 6 — A/B + cutover | ⏳ | %10→%100 trafik |

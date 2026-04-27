@@ -1,5 +1,15 @@
 # Botpress Tablo Mimarisi: Nihai Dönüşüm Planı
 
+> ## ⚠️ HISTORICAL — Bu doküman ESKİ mimari içindir
+>
+> Bu rapor **Botpress Cloud Tables** (eski mimari) için yazılmış 7-tablo dönüşüm planıdır. Phase 4 cutover sonrası bot artık Botpress Tables KULLANMIYOR — veriler **Supabase Postgres + pgvector** üzerinde, microservice (`retrieval-service/`) HTTP endpoint'leri üzerinden erişilir.
+>
+> **Güncel veri katmanı:** [`/docs/PROJECT_BRIEFING.md`](./PROJECT_BRIEFING.md) §4 (Veri Katmanı / Supabase)
+>
+> **Bu doküman sadece tarihsel bağlam içindir** — Botpress Tables'ın 20-column / 4KB-row kısıtları şu anki Supabase mimarisinde geçerli DEĞİL. Bu kısıtlamalara göre yapılan tablo bölme tasarımları (örn. `productDescPart1Table` / `productDescPart2Table`) artık tek `products` tablosunda `full_description TEXT` olarak duruyor.
+
+---
+
 Bu rapor, mevcut ürün verilerinizin Botpress platformunun teknik kısıtlamalarına (20 sütun/tablo, ~4KB/satır) tam uyumlu, yüksek performanslı ve ölçeklenebilir bir yapıya nasıl dönüştürüleceğini adım adım açıklamaktadır. Her tablo için yapılan değişikliğin **sebebi** ve **uygulama adımları** detaylandırılmıştır.
 
 ---

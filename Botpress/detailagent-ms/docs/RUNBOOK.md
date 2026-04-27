@@ -1,23 +1,25 @@
 # Runbook — detailagent-ms (v10, microservice variant)
 
-> Operasyonel rehber — Phase 2 başlangıcı için kurulum, dev akışı, microservice ile koordinasyon, cutover sonrası operasyon.
-
-Son güncelleme: 2026-04-20
+> Operasyonel rehber — kurulum, dev akışı, deploy, debugging, sorun giderme.
+>
+> **Son güncelleme:** 2026-04-27 · **Mimari/durum master:** [`/docs/PROJECT_BRIEFING.md`](../../../docs/PROJECT_BRIEFING.md)
+>
+> Mevcut durum: Phase 1/2R/4/19 tamamlandı, tool handler'lar microservice HTTP'ye cutover edildi. Phase 5 (shadow mode) bekliyor — eval corpus oluşturulmadı.
 
 ## İçindekiler
 
-1. [İlk kurulum (Phase 2 pre-flight)](#1-ilk-kurulum-phase-2-pre-flight)
+1. [İlk kurulum](#1-ilk-kurulum)
 2. [Dev akışı — bot + microservice paralel](#2-dev-akışı--bot--microservice-paralel)
 3. [Microservice ile koordinasyon](#3-microservice-ile-koordinasyon)
-4. [Yeni Botpress bot kimliği (agent.json)](#4-yeni-botpress-bot-kimliği)
-5. [Deploy (Phase 6 sonrası)](#5-deploy-phase-6-sonrası)
+4. [Botpress bot kimliği (agent.json)](#4-botpress-bot-kimliği)
+5. [Deploy](#5-deploy)
 6. [Trace debugging](#6-trace-debugging)
 7. [Rollback prosedürü](#7-rollback-prosedürü)
 8. [Sorun giderme](#8-sorun-giderme)
 
 ---
 
-## 1. İlk kurulum (Phase 2 pre-flight)
+## 1. İlk kurulum
 
 Bu bot ilk kez ayağa kaldırılıyorsa:
 
@@ -38,15 +40,12 @@ npx tsc --noEmit                  # typecheck
 **Botpress Cloud bot oluşturma:**
 
 1. Botpress Cloud dashboard → yeni bot oluştur (`detailagent-ms` isimli)
-2. Elde edilen `botId`'yi [agent.json](../agent.json) içine yaz (`REPLACE_WITH_NEW_BOT_ID` yerine)
+2. Elde edilen `botId`'yi [agent.local.json](../agent.local.json) içindeki `devId`'ye yaz veya `agent.json`'ı güncelle
 3. `.env` dosyası oluştur (detailagent'ın `.env`'sini KOPYALAMA — farklı token/bot):
    ```
-   # Phase 4'e kadar bunlar yeter
    BOTPRESS_TOKEN=<yeni bot token>
-
-   # Phase 4'te eklenecek
-   # RETRIEVAL_SERVICE_URL=https://detailagent-retrieval.fly.dev
-   # RETRIEVAL_SHARED_SECRET=<16+ char random>
+   RETRIEVAL_SERVICE_URL=https://detailagent-retrieval.fly.dev   # veya http://localhost:8787 dev'de
+   RETRIEVAL_SHARED_SECRET=<16+ char random>                     # microservice ile aynı değer
    ```
 4. `adk link` → yeni bot'a bağla
 
@@ -56,23 +55,23 @@ npx tsc --noEmit                  # typecheck
 
 ## 2. Dev akışı — bot + microservice paralel
 
-Phase 2+'dan itibaren iki servis aynı anda çalışacak. İki terminal:
+Tool handler'lar microservice HTTP'ye cutover edildi → her iki servis de ayakta olmalı. **Microservice'i ÖNCE başlat** (bot tool çağrılarında 3s timeout var, servis kapalıysa "Üzgünüm" hatası alırsın).
 
 ```bash
-# Terminal 1 — Botpress bot
-cd Botpress/detailagent-ms
-adk dev                                       # :3000, :3001 dashboard
-
-# Terminal 2 — Microservice
+# Terminal 1 — Microservice (önce!)
 cd retrieval-service
-bun run dev                                   # :8787 (Phase 2'de Hono server impl)
+bun run dev                                   # :8787 (hot-reload)
 
-# Terminal 3 — Test
+# Terminal 2 — Botpress bot
+cd Botpress/detailagent-ms
+adk dev                                       # :3000 + tunnel URL
+
+# Terminal 3 — CLI test (opsiyonel; Carousel görmek için browser webchat tercih)
 cd Botpress/detailagent-ms
 PATH="$HOME/.bun/bin:$PATH" adk chat
 ```
 
-Phase 2 başlangıcında tool handler'lar hala Botpress Tables'a gidiyor — microservice ayrı olarak manuel test edilir:
+Microservice'i ayrı manuel test:
 
 ```bash
 curl -s http://localhost:8787/health
@@ -99,29 +98,28 @@ Bu bot ve `retrieval-service/` **aynı repo'da, aynı git history'de** yaşar. H
 
 ### Tipler paylaşımı
 
-Phase 4+'de microservice response tiplerini bot'a aktarmak için `retrieval-service/src/types.ts`'den export et, bot `import` etsin (same-repo monorepo avantajı).
+Microservice response tipleri `retrieval-service/src/types.ts`'de tanımlı. Bot tarafında her tool'un `output` Zod şeması ayrı tanımlı (input/output contract). İki taraf paralel evrildiğinde **aynı PR**'da güncellenmeli.
 
 ---
 
-## 4. Yeni Botpress bot kimliği
+## 4. Botpress bot kimliği
 
-[agent.json](../agent.json) içinde şu an:
-
+[agent.local.json](../agent.local.json) içinde dev bot ID'si:
 ```json
 {
-  "botId": "REPLACE_WITH_NEW_BOT_ID",
-  "workspaceId": "wkspace_01KCCKM30YFWT88HC0NBHXP4J7",
-  "apiUrl": "https://api.botpress.cloud"
+  "devId": "f29b900e-643e-4851-9866-f7c62cdeab73"
 }
 ```
 
-`workspaceId` detailagent ile aynı (aynı Botpress Cloud hesabı). `botId` **YENİ** — Botpress Cloud'da yeni bot oluştur, ID'yi al.
+Workspace `wkspace_01KCCKM30YFWT88HC0NBHXP4J7` (detailagent ile aynı hesap, ayrı bot). detailagent (v9.2 frozen prod) ile **aynı botId/token PAYLAŞMA** — çakışır.
+
+Production bot ID için `adk auth login` + `adk link` ile bağla; tunnel URL studio chat panel'inden test edilebilir.
 
 ---
 
-## 5. Deploy (Phase 6 sonrası)
+## 5. Deploy
 
-**Ön koşul:** Phase 5 shadow mode'da ≥1 hafta çalışmış, top-3 overlap ≥%85, p50<150ms.
+**Ön koşul:** Phase 5 shadow mode'da ≥1 hafta çalışmış, eval corpus üzerinde top-3 overlap ≥%85, p50<150ms.
 
 ```bash
 cd Botpress/detailagent-ms
@@ -147,14 +145,37 @@ adk deploy
 
 ## 6. Trace debugging
 
-### Bot tarafı (Botpress trace)
+### Bot tarafı (Botpress trace, SQLite)
 
 ```bash
+# Span dağılımı
 sqlite3 .adk/bot/traces/traces.db \
   "SELECT name, status, COUNT(*) FROM spans GROUP BY name, status;"
+
+# Belirli bir conversation'ın user mesajlarını + handler durations'ları
+sqlite3 .adk/bot/traces/traces.db "
+  SELECT datetime(started_at,'unixepoch','+3 hours') as ts,
+         status, ROUND(duration,0) as ms,
+         substr(json_extract(data,'\$.\"message.preview\"'),1,80) as msg
+  FROM spans
+  WHERE conversation_id='conv_XXX' AND name='request.incoming'
+  ORDER BY started_at;"
+
+# Token bütçesi (LLM çağrıları)
+sqlite3 .adk/bot/traces/traces.db "
+  SELECT json_extract(data,'\$.\"ai.system_length\"') as syslen,
+         ROUND(duration,0) as ms
+  FROM spans WHERE name='cognitive.request' ORDER BY started_at DESC LIMIT 5;"
+
+# Tool I/O incele
+sqlite3 .adk/bot/traces/traces.db "
+  SELECT json_extract(data,'\$.\"autonomous.tool.name\"') as tool,
+         status, ROUND(duration,0) as ms,
+         substr(json_extract(data,'\$.\"autonomous.tool.input\"'),1,150) as input
+  FROM spans WHERE name='autonomous.tool' ORDER BY started_at DESC LIMIT 10;"
 ```
 
-Phase 4+ için yeni trace pattern: `autonomous.tool.input` → HTTP call body, `autonomous.tool.output` → microservice response. Hata varsa microservice trace'ini incele.
+Trace pattern: `autonomous.tool.input` → HTTP call body (örn `{query, templateGroup, ...}`), `autonomous.tool.output` → microservice response. Hata varsa microservice log'una bak (request_id ile cross-reference).
 
 ### Microservice tarafı (Axiom, Phase 5+)
 
@@ -177,7 +198,15 @@ Phase 6 A/B sırasında veya cutover sonrası sorun olursa:
 
 ### Hızlı rollback (10dk içi)
 
-Eğer feature flag varsa (`USE_MICROSERVICE=false`), flag'i kapat → tool handler Botpress Tables'a dönüyor. Cutover sonrası flag olmayacak → rollback = önceki bot versiyonunu deploy etmek.
+Bot'ta feature flag yok (tek path tasarımı). Rollback = önceki commit'i deploy et:
+
+```bash
+git log --oneline                     # son sağlıklı commit'i bul
+git checkout <good-commit>
+adk build && adk deploy
+```
+
+Acil durumda Botpress Cloud studio'dan **önceki deploy versiyonunu rollback** etmek mümkün.
 
 ### Kalıcı geri dönüş
 
@@ -195,14 +224,29 @@ adk deploy
 
 ## 8. Sorun giderme
 
-### Bot "Üzgünüm bir hata oluştu" diyor (Phase 4+)
+### Bot mesaja cevap vermiyor / "Skipping message, no ADK Conversation defined"
+
+Bu pattern **conversation handler register edilemediğini** gösterir — büyük ihtimalle `src/conversations/index.ts`'de **TypeScript compile error** var. Hot-reload sessiz başarısız oluyor.
+
+```bash
+# Typecheck
+npx tsc --noEmit
+# Conversation dosyasında error varsa düzelt, hot-reload otomatik retry eder
+```
+
+**Sık nedenler:**
+- Template literal'da escape edilmemiş backtick (markdown bold içinde \`code\` yazımında)
+- Zod state schema'da yanlış field referansı (örn. eski `state.lastFaqAnswer` kalıntısı)
+
+### Bot "Üzgünüm bir hata oluştu" diyor
 
 1. Microservice ayakta mı?
    ```bash
-   curl https://detailagent-retrieval.fly.dev/health
+   curl http://localhost:8787/health             # dev
+   curl https://detailagent-retrieval.fly.dev/health  # prod
    ```
-2. Microservice log'larını incele (Axiom)
-3. Bot trace'inde `autonomous.tool` span → error message
+2. Bot trace'inde `autonomous.tool` span → error message
+3. Tool timeout? `retrieval-client.ts:19` `RETRIEVAL_TIMEOUT_MS=3000` — cold embedding'de aşılabilir, 5000'e yükseltme planlanıyor
 
 ### Microservice 401 Unauthorized
 
@@ -223,11 +267,17 @@ curl https://detailagent-retrieval.fly.dev/metrics
 # db_connected: true bekleriz
 ```
 
-### Latency yüksek (>500ms)
+### Latency yüksek (>500ms tool çağrısı, >15s turn)
 
-1. Microservice p50/p95 Axiom'dan oku
-2. Botpress → microservice round-trip mi yüksek? Region uyuşmazlığı ihtimali (Botpress workspace region doğrulaması Phase 5'te yapılmış olmalı)
-3. Embedding cache hit rate düşük mü? → pre-warm script
+**Tool çağrısı yavaşsa:**
+1. Microservice p50/p95'i log'dan oku (her request'te `latencyMs` JSON field'ı var)
+2. Embedding cache miss mi? Cold call 150-800ms — `debug.embedCache` field'ı kontrol et
+3. Botpress → microservice round-trip yüksekse region uyuşmazlığı (Botpress workspace region'ı Fly.io iad'a uzaksa)
+
+**Turn yavaşsa (multi-step LLMz):**
+1. Trace'e bak: `cognitive.request` span'leri kaç tane? 4-5 üstüyse agent multi-search döngüsünde — instruction "MAX 5 TOOL PER TURN" kuralı LLM tarafından ihlal ediliyor
+2. Botpress runtime 60-120s upper bound — aşılırsa "Runtime execution has timed out"
+3. Çözüm: instruction'da hard limit (3 search/turn) veya kullanıcıya "ne öncelikli?" diye sor
 
 ### Supabase satır sayısı beklenenden az
 
