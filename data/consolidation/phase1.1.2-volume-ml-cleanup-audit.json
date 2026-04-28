@@ -1,0 +1,388 @@
+{
+  "generatedAt": "2026-04-28T10:33:05.675Z",
+  "mode": "commit",
+  "summary": {
+    "totalAffected": 33,
+    "byCategory": {
+      "duplicate": 11,
+      "mismatch": 5,
+      "info_loss": 17
+    },
+    "byTemplate": {
+      "fragrance/odor_eliminator": 4,
+      "fragrance/spray_perfume": 10,
+      "product_sets/experience_set": 2,
+      "sprayers_bottles/dispenser_bottle": 1,
+      "sprayers_bottles/foaming_pump_sprayer": 2,
+      "sprayers_bottles/pump_sprayer": 4,
+      "sprayers_bottles/trigger_sprayer": 8,
+      "storage_accessories/storage_equipment": 1,
+      "wash_tools/foam_tool": 1
+    }
+  },
+  "removals": [
+    {
+      "sku": "701610",
+      "name": "FRA-BER Deotex Kötü Koku Giderici Tazeleyici Araç Parfümü Sprey - 750 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "odor_eliminator",
+      "removedValue": 750,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "74436",
+      "name": "FRA-BER Deotex Plus Dezenfektan Ve Koku Giderici Sprey - 250 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "odor_eliminator",
+      "removedValue": 250,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "79415",
+      "name": "INNOVACAR N0 ODORS Etkili Koku Giderici Ve Önleyici - 500 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "odor_eliminator",
+      "removedValue": 500,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "Q2M-OR500M",
+      "name": "GYEON QM OdorRemover Kötü Koku Giderici Sprey- 500 ml -Çok Amaçlı Geniş Alan Kokusu",
+      "templateGroup": "fragrance",
+      "templateSubType": "odor_eliminator",
+      "removedValue": 500,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "76389",
+      "name": "FRA-BER Bean Classic Sprey Araç Parfümü - 150 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 150,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "78608",
+      "name": "FRA-BER Marta Arab Opulence Oda Kokusu - 250 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 250,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "78610",
+      "name": "FRA-BER Marta Golden Arabia Oda Kokusu - 250 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 250,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "78615",
+      "name": "FRA-BER Marta Laurel Bay Oda Kokusu - 250 ml",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 250,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "JS0161",
+      "name": "Little Joe Vanilya Sprey Oda Kokusu 60 ml (Vanilla) -Koku Giderici -Oto Ev Ofis Parfüm",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 60,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "JS0458",
+      "name": "Little Joe Baharatlı Sprey Oda Kokusu 60 ml (Spicy Fusion) -Koku Giderici -Oto Ev Ofis Parfüm",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 60,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "JS0859",
+      "name": "Little Joe Ferahlatıcı Sprey Oda Kokusu 60 ml (Vital Energy) -Koku Giderici -Oto Ev Ofis Parfüm",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 60,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "JS0962",
+      "name": "Little Joe Tropikal Meyve Sprey Oda Kokusu 60 ml (Tropical) -Koku Giderici -Oto Ev Ofis Parfüm",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 60,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "JS1057",
+      "name": "Little Joe Nane Sprey Oda Kokusu 60 ml (Fresh Start) -Koku Giderici -Oto Ev Ofis Parfüm",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 60,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "JS1360",
+      "name": "Little Joe Çiçek Sprey Oda Kokusu 60 ml (Fabulous) -Koku Giderici -Oto Ev Ofis Parfüm",
+      "templateGroup": "fragrance",
+      "templateSubType": "spray_perfume",
+      "removedValue": 60,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "Q2M-ES98M",
+      "name": "GYEON QM Experience Set Deneyim Seti 9 Parça x 80 ml",
+      "templateGroup": "product_sets",
+      "templateSubType": "experience_set",
+      "removedValue": 80,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "Q2M-WCS98M",
+      "name": "GYEON QM Wash&amp;Clean Deneyim Seti 9 Parça x 80 ml",
+      "templateGroup": "product_sets",
+      "templateSubType": "experience_set",
+      "removedValue": 80,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "Q2M-P-DB300M",
+      "name": "GYEON QM Dispenser Bottle Dağıtıcı Şişe Biberon - 300 ml",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "dispenser_bottle",
+      "removedValue": 300,
+      "capacityMl": 300,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "19771",
+      "name": "EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "foaming_pump_sprayer",
+      "removedValue": 2000,
+      "capacityMl": 2000,
+      "capacityUsableMl": 1800,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "21746",
+      "name": "EPOCA A-TYPE 10 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 11 Litre",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "foaming_pump_sprayer",
+      "removedValue": 230,
+      "capacityMl": 11000,
+      "capacityUsableMl": 6000,
+      "weightG": null,
+      "category": "mismatch"
+    },
+    {
+      "sku": "18802",
+      "name": "EPOCA A-TYPE 1.5 PRO Asit Dayanımlı Basınçlı Pompa 1.8 Litre",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "pump_sprayer",
+      "removedValue": 1860,
+      "capacityMl": 1800,
+      "capacityUsableMl": 1500,
+      "weightG": null,
+      "category": "mismatch"
+    },
+    {
+      "sku": "18810",
+      "name": "EPOCA A-TYPE 1.5 PRO Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.8 Litre",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "pump_sprayer",
+      "removedValue": 1860,
+      "capacityMl": 1800,
+      "capacityUsableMl": 1500,
+      "weightG": null,
+      "category": "mismatch"
+    },
+    {
+      "sku": "20417",
+      "name": "EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "pump_sprayer",
+      "removedValue": 1310,
+      "capacityMl": 1310,
+      "capacityUsableMl": 1000,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "26005",
+      "name": "A-TYPE 1.5 PRO ULTIMATE Solvent, Petrol ve Agresif Kimyasal Dayanımlı Basınçlı Pompa 1.8 Litre",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "pump_sprayer",
+      "removedValue": 1860,
+      "capacityMl": 1800,
+      "capacityUsableMl": 1500,
+      "weightG": null,
+      "category": "mismatch"
+    },
+    {
+      "sku": "13724",
+      "name": "EPOCA EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 600,
+      "capacityMl": 630,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "mismatch"
+    },
+    {
+      "sku": "24952",
+      "name": "EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR)",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 600,
+      "capacityMl": 600,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "79586-643",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Yeşil) - 1000 ml",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "79586-644",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Yeşil) - 1000 ML",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "79587-643",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Mavi) - 1000 ml",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "79587-644",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Mavi) - 1000 ML",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "79588-643",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Siyah) - 1000 ml",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "79588-644",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Siyah) - 1000 ML",
+      "templateGroup": "sprayers_bottles",
+      "templateSubType": "trigger_sprayer",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    },
+    {
+      "sku": "502561",
+      "name": "FLEX FB L 700/400 Ürün Taşıma Saklama Çantası 57cm - Omuz Askılı Dayanıklı Çok Gözlü",
+      "templateGroup": "storage_accessories",
+      "templateSubType": "storage_equipment",
+      "removedValue": 500,
+      "capacityMl": null,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "info_loss"
+    },
+    {
+      "sku": "SGGC091",
+      "name": "SGCB Tornador Foam Gun Hava Girişli Köpük Tabancası - 1000 ml",
+      "templateGroup": "wash_tools",
+      "templateSubType": "foam_tool",
+      "removedValue": 1000,
+      "capacityMl": 1000,
+      "capacityUsableMl": null,
+      "weightG": null,
+      "category": "duplicate"
+    }
+  ]
+}
