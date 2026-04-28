@@ -1,0 +1,847 @@
+{
+  "generatedAt": "2026-04-28T09:53:10.292Z",
+  "mode": "dry-run",
+  "summary": {
+    "totalTargets": 165,
+    "alreadyCanonical": 165,
+    "legacyConverted": 0,
+    "legacyParseFailed": 0,
+    "nameExtractedHighConf": 0,
+    "nameExtractedReview": 0,
+    "placeholderAdded": 0,
+    "conflicts": 0
+  },
+  "legacyConversions": [],
+  "legacyParseFailed": [],
+  "nameExtracted": [],
+  "needsManualReview": [],
+  "placeholdersAdded": [],
+  "alreadyCanonical": [
+    {
+      "sku": "22029.261.001",
+      "name": "MENZERNA 3000 Standart Hare Giderici Cila - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22911.261.001",
+      "name": "MENZERNA 3500 Premium Hare Giderici Cila - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22992.261.001",
+      "name": "MENZERNA 3800 Süper Hare Giderici Cila - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2-PR1000M",
+      "name": "GYEON Q Primer Koruma Öncesi Seramik Bazlı Son Kat Cila - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-PO1000M",
+      "name": "GYEON QM Polish Ara Kesim Hare Giderici Cila - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "14992.203.001",
+      "name": "MENZERNA AS 30 Ağır Çizik Giderici Krem Kalın Pasta - 1 kg",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22200.261.001",
+      "name": "MENZERNA 400 Yeşil Seri Ağır Çizik Giderici Kalın Pasta - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22202.260.001",
+      "name": "MENZERNA YENİ 400 Ağır Çizik Giderici Kalın Pasta - 1 Kg",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22203.261.001",
+      "name": "MENZERNA Cut Force Pro Altın Seri Ağır Çizik Giderici Kalın Pasta - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22930.261.001",
+      "name": "Menzerna 1100 Keçe Uyumlu Kalın Pasta Agresif Çizik Giderici – 1 Lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22984.260.001",
+      "name": "MENZERNA 1000 Çizik Giderici Kalın Pasta - 1 kg",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22984.281.001",
+      "name": "MENZERNA 1000 Çizik Giderici Kalın Pasta - 250 ml",
+      "volumeMl": 250
+    },
+    {
+      "sku": "24017.261.080",
+      "name": "MENZERNA Premium Power Cut 200 (PPC 200) - Ağır Kesim Tekne Cilası - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-CM1000M",
+      "name": "GYEON QM Compound Çizik Giderici Pasta - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-CMP1000M",
+      "name": "GYEON QM Compound+ Plus Ağır Çizik Giderici Kalın Pasta - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-CMPR1000M",
+      "name": "GYEON QM Compound+ Plus REDEFINED Ağır Çizik Giderici Kalın Pasta - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22748.261.001",
+      "name": "MENZERNA One-Step Polish 3in1 Tek Adım Pasta Cila Koruma - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22771.261.001",
+      "name": "MENZERNA 2200 İnce Çizik Giderici Pasta - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22828.261.001",
+      "name": "MENZERNA 2500 İnce Çizik Giderici Pasta - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "23003.391.001",
+      "name": "MENZERNA Metal Polish Metal Krom, Çelik Parlatıcı - 125 gr",
+      "volumeMl": 125
+    },
+    {
+      "sku": "Q2M-GP250M",
+      "name": "GYEON QM Glass Polish Cam Pastası Leke Temizleyici Kireç Çözücü Hafif Çizik Giderici - 250 ml",
+      "volumeMl": 250
+    },
+    {
+      "sku": "Q2M-PPR1000M",
+      "name": "GYEON QM PPF Renew PPF Folyo Temizleyici Yenileyici Ve Koruyucu Pasta - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "701003",
+      "name": "FRA-BER Bersolwax Seramik İçerikli Yeni Nesil Araç Yıkama Şampuanı - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "79286",
+      "name": "INNOVACAR S1 WASH&amp;COAT SIO2 İçerikli Enzimli Su İtici Koruyucu Şampuan Konsantre - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-BPYA1000M",
+      "name": "GYEON QM Bathe+ Plus Seramik Bazlı PH Nötr Cilalı Oto Şampuanı 1000 ml -Su İtici Araç Yıkama Köpüğü",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "79290",
+      "name": "INNOVACAR DS SCALE Asidik Temizleyici Ve Kireç Sökücü Şampuan Konsantre - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-RW1000M",
+      "name": "GYEON QM RestartWash Konsantre Yüzey Yenileyici Şampuan - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-RWYA1000M",
+      "name": "GYEON QM RestartWash Seramik Kaplama PPF Yenileyici Asidik Şampuan - 1000 ml -Konsantre",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "700507",
+      "name": "INNOVACAR S2 FOAMY Enzimli PH Nötr Mavi Renkli Özel Kokulu Araç Yıkama Şampuanı - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "700508",
+      "name": "INNOVACAR S2 FOAMY Enzimli PH Nötr Yeşil Renkli Özel Kokulu Araç Yıkama Şampuanı - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "701851",
+      "name": "FRA-BER Camper Wash Karavan Şampuanı Siyah Leke Giderici Konsantre - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "70616",
+      "name": "FRA-BER Bersolux Cilalı Köpüklü Manuel Araç Yıkama Şampuanı (1:120 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "71490",
+      "name": "FRA-BER Neve Yoğun Köpüklü Araç Yıkama Şampuanı Cilalı Parfümlü Oto Köpüğü - 4,54 Lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "79284",
+      "name": "INNOVACAR S2 FOAMY Enzimli PH Nötr Köpüklü Araç Yıkama Şampuanı Konsantre - 4,54 lt",
+      "volumeMl": "4540"
+    },
+    {
+      "sku": "Q2M-BYA4000M",
+      "name": "GYEON QM Bathe PH Nötr Cilalı Oto Şampuanı - 4000 ml -Yüksek Konsantre Jel Araç Yıkama Köpüğü",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "Q2M-PPFW500M",
+      "name": "GYEON QM PPF Wash PPF Folyo Kaplı Araçlara Özel Yıkama Şampuanı - 500 ml -Demir Tozu Sökücü",
+      "volumeMl": 500
+    },
+    {
+      "sku": "700387",
+      "name": "FRA-BER Spumone Self Yağ Çözücü Güçlü Ön Yıkama Köpüğü - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "701062",
+      "name": "FRA-BER Turbowash ES Lux Yağ, Gress, İs Sökücü Deterjan (1:50 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "701980",
+      "name": "FRA-BER Ultra Foam Yoğun Köpüklü Cilalı Ön Yıkama Şampuanı - 5 kg",
+      "volumeMl": "5000"
+    },
+    {
+      "sku": "70640",
+      "name": "FRA-BER Tri-Foam Sarı Renkli, Cilalı Ön Yıkama Şampuanı (1:80 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "70942",
+      "name": "FRA-BER Poker Yüksek Konsantre Fırçasız Ön Yıkama Şampuanı Ve Yağ Çözücü (1:100 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "71180",
+      "name": "FRA-BER Shampoo Color Eco Fuşya Renkli, Cilalı Ön Yıkama Şampuanı (1:80 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "72042",
+      "name": "FRA-BER Super Car Cleaner Ağır Vasıta Tır Dorse Branda Temizleyici Şampuan (1:120 Kons) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "73575",
+      "name": "FRA-BER Mega Conc Shiuma Güçlü Ön Yıkama Köpüğü (1:80 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "74258",
+      "name": "FRA-BER Turbowash B.S Lux Yüksek Performanslı Yağ Sökücü Deterjan (1:80 Konsantre) - 10 kg",
+      "volumeMl": "10000"
+    },
+    {
+      "sku": "75021",
+      "name": "FRA-BER Perfect Wash Megafoam Yoğun Köpüklü Güçlü Ön Yıkama Köpüğü (1:120 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "78784",
+      "name": "FRA-BER X-XS Güçlü Ön Yıkama Köpüğü Ve Sinek Böcek Temizleyici (1:60 Konsantre) - 25 kg",
+      "volumeMl": "25000"
+    },
+    {
+      "sku": "79281",
+      "name": "INNOVACAR SP1 PREWASH Enzimli Ön Yıkama Şampuanı Konsantre - 4,54 lt",
+      "volumeMl": "4540"
+    },
+    {
+      "sku": "Q2M-FYA4000M",
+      "name": "GYEON QM Foam Araç Ön Yıkama Şampuanı Konsantre - 4000 ml - Yoğun Köpüklü Prewash Snow Foam",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "Q2M-EW1000M",
+      "name": "GYEON QM ECO Wash Seramik Katkılı Susuz Yıkama Yüzey Temizleyici ve Parlatıcı Cila - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2-PC100M",
+      "name": "GYEON Q PurifyCoat Antibakteriyel Yüzey Koruma Seramik Kaplama - 100 ml -12 Ay Dayanım",
+      "volumeMl": 100
+    },
+    {
+      "sku": "79296",
+      "name": "INNOVACAR SC3 GLASS SEALANT Cam Su İtici Yağmur Kaydırıcı Nano Kaplama - 100 ml",
+      "volumeMl": 100
+    },
+    {
+      "sku": "Q2-AF120M",
+      "name": "GYEON Q AntiFog Cam Buğu Önleyici Kaplama Seti - 120 ml",
+      "volumeMl": 120
+    },
+    {
+      "sku": "Q2-VE20M",
+      "name": "GYEON Q View EVO Cam Su İtici Yağmur Kaydırıcı Seramik Kaplama - 20 ml",
+      "volumeMl": 20
+    },
+    {
+      "sku": "Q2-LSE50M",
+      "name": "GYEON Q Leather Shield EVO Deri Aksamlar İçin Koruyucu Seramik Kaplama - 50 ml",
+      "volumeMl": 50
+    },
+    {
+      "sku": "MXP-CCN50KS",
+      "name": "MTS KİMYA MX-PRO CRYSTAL Seramik Kaplama 50ml – Kutu Set",
+      "volumeMl": 50
+    },
+    {
+      "sku": "MXP-DPCN50KS",
+      "name": "MTS KİMYA MX-PRO DIAMOND Plus Seramik Kaplama 50ml – Kutu Set",
+      "volumeMl": 50
+    },
+    {
+      "sku": "MXP-HC50KS",
+      "name": "MTS KİMYA MX-PRO HYDRO Seramik Kaplama 50ml – Kutu Set",
+      "volumeMl": 50
+    },
+    {
+      "sku": "Q2-CCE200M",
+      "name": "GYEON Q CanCoat EVO Hidrofobik Nano Seramik Kaplama Seti - 200 ml - 9H Oto Boya Koruma-Su İtici",
+      "volumeMl": 200
+    },
+    {
+      "sku": "Q2-MLE100M",
+      "name": "GYEON Q Mohs EVO Light Box Seramik Kaplama - 100 ml - 9H Oto Boya Koruma-Su İtici",
+      "volumeMl": 100
+    },
+    {
+      "sku": "Q2-MTEL50M",
+      "name": "GYEON Q Matte EVO Light Box Mat Boyalı/PPF Kaplama Araçlara Özel Seramik Kaplama - 50 ml",
+      "volumeMl": 50
+    },
+    {
+      "sku": "Q2-OLE100M",
+      "name": "GYEON Q One EVO Light Box Seramik Kaplama - 100ml - 9H Oto Boya Koruma-Su İtici",
+      "volumeMl": 100
+    },
+    {
+      "sku": "Q2-PLE50M",
+      "name": "GYEON Q Pure EVO Light Box Seramik Kaplama - 50ml - 9H Oto Boya Koruma-Su İtici",
+      "volumeMl": 50
+    },
+    {
+      "sku": "Q2-PPFE50M",
+      "name": "GYEON Q PPF EVO Folyolara Özel Seramik Kaplama - 50 ml - Araç PPF Kaplama Koruma",
+      "volumeMl": 50
+    },
+    {
+      "sku": "Q2-SLE50M",
+      "name": "GYEON Q Syncro EVO Light Box Çift Katman Seramik Kaplama - 50 ml + 50 ml - 9H Oto Boya Koruma",
+      "volumeMl": 50
+    },
+    {
+      "sku": "Q2-TRE30M",
+      "name": "GYEON Q Trim EVO Plastik Koruyucu Ve Solmuş Plastik Yenileyici Seramik Kaplama - 30ml",
+      "volumeMl": 30
+    },
+    {
+      "sku": "Q2-RE30M",
+      "name": "GYEON Q Rim EVO Jantlara Özel Koruyucu Seramik Kaplama - 30 ml",
+      "volumeMl": 30
+    },
+    {
+      "sku": "Q2M-CLR500M",
+      "name": "GYEON QM Clay Lube REDEFINED Kil Kaydırıcı Yoğun Konsantre - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "76008",
+      "name": "FRA-BER Toglimoscerini Sinek Böcek Sökücü Sprey - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "Q2M-BGYA1000M",
+      "name": "GYEON QM Bug&amp;Grime Araç Sinek Böcek Leke Temizleyici - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "700210",
+      "name": "FRA-BER Ko Iron Demir Tozu Sökücü Ve Jant Temizleyici (1:1 Konsantre) - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "79291",
+      "name": "INNOVACAR D1 IRON Demir Tozu Çözücü PH Nötr Konsantre - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-IR4000M",
+      "name": "GYEON QM Iron REDEFINED Demir Tozu, Balata Tozu Temizleyici Ve Pas Sökücü PH Nötr - 4000 ml",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "79292",
+      "name": "INNOVACAR D2 CHECK Alkol Bazlı Yüzey Temizleyici Konsantre - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-DT10P",
+      "name": "GYEON QM Degrease Tabs Araç Yüzey Temizleyici Cila Yağ Çözücü Tablet - 10lu Paket",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-PYA4000M",
+      "name": "GYEON QM Prep Seramik PPF Folyo Kaplama Öncesi Yüzey Hazırlayıcı ve Temizleyici - 4000 ml",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "79293",
+      "name": "INNOVACAR D3 TAR Yapışkan, Zift Ve Katran Temizleyici - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-TR4000M",
+      "name": "GYEON QM Tar REDEFINED Zift Katran Reçine Temizleyici Ve Yapışkan Sökücü - 4000 ml",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "700888",
+      "name": "FRA-BER Lega Acido Jant Temizleyici Ve Kireç Çözücü (1:5 Konsantre) - 25 kg",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "701350",
+      "name": "INNOVACAR 0 SCALE Su İzi Temizleyici Kireç Çözücü ve Önleyici Konsantre - 4,54 Lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "Q2M-WSYA1000M",
+      "name": "GYEON QM WaterSpot Kireç Çözücü Cam Su Lekesi Temizleyici Çıkarıcı - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-TOTR1000M",
+      "name": "GYEON QM Total Remover Balmumu Wax Cila Çözücü Koruma Sökücü - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "70864",
+      "name": "FRA-BER Lega Jant Ve Balata Tozu Temizleyici - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "76006",
+      "name": "FRA-BER Pulitore Cerchi Enzimli Jant Ve Balata Tozu Temizleyici Sprey - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "Q2M-IWCR4000M",
+      "name": "GYEON QM Iron Wheel Cleaner REDEFINED Jant Temizleyici Demir Tozu Balata Tozu Çözücü - 4000 ml",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "700466",
+      "name": "FRA-BER Lindo Cam, Lake Ve Parlak Yüzey Temizleyici (1:10 Konsantre) - 4,54 L",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "700662",
+      "name": "INNOVACAR 0 AMMONIA Amonyaksız Cam Temizleyici Konsantre - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "71176",
+      "name": "FRA-BER Reflex KE 785 Cam, Lake, Laminant Yüzey Temizleyici (1:10 Konsantre) - 25 kg",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "701606",
+      "name": "FRA-BER LAVAVETRO ESTIVO Cam Suyu Katkısı Parfümlü - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "74955",
+      "name": "FRA-BER Toglimoscerini S Konsantre Cam Suyu Katkısı Parfümlü - 250 ml",
+      "volumeMl": 250
+    },
+    {
+      "sku": "Q2M-GPYA1000M",
+      "name": "GYEON QM Glass+ Plus Araç Cam Yağmur Kaydırıcı Su İtici ve Temizleyici - 1000 ml -Hidrofobik Parlak",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "70933",
+      "name": "FRA-BER Ecomotor Araç Motoru İçin Motor Temizleyici Ve Yağ Sökücü (1:10 Konsantre) - 25 kg",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "71110",
+      "name": "FRA-BER Lava Cemento Forte Harç Ve Çimento Temizleyici (1:5 Konsantre) - 25 kg",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "77019",
+      "name": "FRA-BER Deep Alkaline Ağır Zemin Yüzey Temizliği İçin Konsantre Deterjan (1:50 Konst) - 5 kg",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "77075",
+      "name": "FRA-BER All Aliment Alkol Bazlı Yüzey Temizleyici Ve Dezenfektan (1:10 Konsantre) - 25 lt",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "77080",
+      "name": "FRA-BER All Sany Tüm Yüzeyler İçin Alkol Bazlı Çok Amaçlı Temizleyici (1:10 Konsantre) - 25 lt",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "Q2M-PM500M",
+      "name": "GYEON Q PurifyMaintain Antibakteriyel Yüzey Temizlik ve Bakım Spreyi - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "701285",
+      "name": "FRA-BER Pulitutto Deri, kumaş ve plastik Temizleyici Köpük - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "70723",
+      "name": "FRA-BER Lava Interni B Genel Amaçlı Detaylı Araç Temizleyici (1:25 Konsantre) - 25 kg",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "70901",
+      "name": "FRA-BER Tex Çok Amaçlı Genel Temizlik Köpüğü - 600 ml",
+      "volumeMl": 600
+    },
+    {
+      "sku": "71676",
+      "name": "FRA-BER Lava Interni Ultra Yoğun Konsantre Detaylı Kumaş Temizleyici (1:100 Konsantre) - 5 kg",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "73378",
+      "name": "FRA-BER Liquid Powder B8 Nanoteknoloji Konsantre Detaylı Kumaş Temizleyici (1:50 Konst) - 5 Lt",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "75404",
+      "name": "FRA-BER Lava Interni B Aroma Enzimli Genel Amaçlı Detaylı Araç Temizleyici (1:40 Konsantre) - 25 kg",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "79818",
+      "name": "INNOVACAR X2 FABRİCS&amp;LEATHER Deri Ve Kumaş Temizleyici Konsantre - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "Q2M-FCNA1000M",
+      "name": "GYEON QM FabricCleaner Kumaş Koltuk Döşeme Ve Tekstil Temizleyici - 1000 ml - Araç İç Deterjanı",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-IDYA4000M",
+      "name": "GYEON QM İnteriorDetailer Araç İçi Bakteri Virüs Temizleyici - 4000 ml -Alkol Bazlı Dezenfektan",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "75277",
+      "name": "FRA-BER Double Skin Kumaş Koruyucu Su İtici Sprey - 600 ml",
+      "volumeMl": 600
+    },
+    {
+      "sku": "79299",
+      "name": "INNOVACAR SC4 TEX COAT Kumaş Ve Deri Hidrofobik Koruyucu - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2-FCNA400M",
+      "name": "GYEON Q FabricCoat Araç Kumaş Koltuk Tente Koruyucu - 400 ml - Seramik Bazlı Nano Su İtici",
+      "volumeMl": 400
+    },
+    {
+      "sku": "701010",
+      "name": "FRA-BER MULTIFORCE Çok Amaçlı Güçlü Yağ Ve Kir Temizleyici (1:10 Konsantre) - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "79771",
+      "name": "INNOVACAR 100% DEGREASING Anti Statik Çok Amaçlı Temizleyici Yağ Çözücü Konsantre - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "Q2M-APYA4000M",
+      "name": "GYEON QM APC Çok Amaçlı Genel Yüzey Temizleyici - 4000 ml -Konsantre Leke Çıkarıcı Yağ Çözücü",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "Q2M-TRC500M",
+      "name": "GYEON QM Trim Cleaner Anti-Statik Plastik Trim Vinil Motor Parçalara Özel Temizleyici - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "700209",
+      "name": "FRA-BER Polish Plus Aroma Plastik, Trim, Deri Yenileyici Bakım Spreyi (1:3 Konst.) - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "70894",
+      "name": "FRA-BER Brilliant Drakar Antistatik Konsol Ve İç Plastik Temizleyici Parlatıcı Parfümlü - 600 ml",
+      "volumeMl": 600
+    },
+    {
+      "sku": "74391",
+      "name": "FRA-BER Polish Plus Antistatik Plastik, Trim, Vinil Yenileyici Bakım Spreyi (1:3 Konsantre) - 25 lt",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "74598",
+      "name": "FRA-BER Brilliant Antistatik Konsol Ve İç Plastik Temizleyici Parlatıcı Vanilya Kokulu - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "79298",
+      "name": "INNOVACAR SC2 DRESSING Plastik Trim Yenileyici Ve Deri Koruyucu - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-PRYA250M",
+      "name": "GYEON QM Preserve İç Dış Plastik Trim Yenileyici Ve Koruyucu - 250 ml -Mat Görünüm Plastik Onarıcı",
+      "volumeMl": 250
+    },
+    {
+      "sku": "Q2M-LSN200M",
+      "name": "GYEON QM LeatherSet Natural Modern Deri Günlük Hafif Temizlik ve Bakım Seti (5 Parça) - 200 ml",
+      "volumeMl": 200
+    },
+    {
+      "sku": "Q2M-LSSYA200M",
+      "name": "GYEON QM LeatherSet Strong Güçlü Deri Temizlik ve Bakım Seti (5 Parça) - 200 ml",
+      "volumeMl": 200
+    },
+    {
+      "sku": "71132",
+      "name": "Fra-Ber Det Leather Araç Deri Koltuk Temizleyici ve Bakım – 750 Ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "Q2M-LCN1000M",
+      "name": "GYEON QM Leather Cleaner Natural Modern Napa Yarı Anilin Derilere Özel Temizleyici - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-LCSYA1000M",
+      "name": "GYEON QM LeatherCleaner Strong Güçlü Deri Temizleyici - 1000 ml -Mat Görünüm Deri Koltuk Temizleme",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "700468",
+      "name": "FRA-BER Cream Leather Deri Bakım Ve Koruyucu Parfümlü - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "Q2-LCR500M",
+      "name": "GYEON Q Leather Coat REDEFINED Deri Yüzeyler İçin Bakım Ve Koruma - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "701283",
+      "name": "FRA-BER WC KEM Taşınabilir Tuvaletler, Karavanlar ve Tekneler İçin Gider Temizleyici ve Açıcı– 1 Lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "75112",
+      "name": "FRA-BER Fiocco Marin, Tekne Alkol Bazlı Genel Yüzey Temizleyici (1:15 Konsantre) - 5 kg",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "75130",
+      "name": "FRA-BER Reef Marin, Tekne Krom Ve Çelik Parçalar İçin Pas Ve Kireç Çözücü - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "24011.261.080",
+      "name": "MENZERNA Marin, Tekne Gelcoat Boya 3in1 Tek Adım Pasta Cila Koruma - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "75131",
+      "name": "FRA-BER Tritone Tekne, Bot, Fiberglass İçin Yağ Çözme Etkili Yüzey Plastik Temizleyici - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "75132",
+      "name": "FRA-BER Dory Marin, Tekne Tik Ve Parke Temizleyici Ve Koruyucu (1:50 Konsantre) - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "77192",
+      "name": "FRA-BER X-Wood Marin, Tekne Tik Ve Ahşap Koruyucu - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22070.261.001",
+      "name": "MENZERNA Power Lock Üstün Boya Koruma Cila/Wax - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "22870.261.001",
+      "name": "MENZERNA Sealing Wax Boya Koruma Cilası - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2-QV120M",
+      "name": "GYEON Q QuickView Cam Su Kaydırıcı - 120 ml -Yağmur Kaydırıcı Su İtici",
+      "volumeMl": 120
+    },
+    {
+      "sku": "Q2-W175G",
+      "name": "GYEON Q Wax Hidrofobik Parlatıcı Boya Koruma - 175 gr",
+      "volumeMl": 175
+    },
+    {
+      "sku": "75016",
+      "name": "FRA-BER Lustradry Susuz Yüzey Temizleyici Ve Parlatıcı - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "79301",
+      "name": "INNOVACAR W1 QUICK DETAILER Yüzey Koruyucu ve Parlatıcı Hızlı Cila - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-QDYA1000M",
+      "name": "GYEON QM QuickDetailer Seramik Bazlı Parlatıcı Yüzey Detaylandırıcı - 1000 ml -Leke Giderici Cila",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "70545",
+      "name": "FRA-BER Swing 23 Eco Alkol Bazlı Durulama Cilası (1:200 Konsantre) - 25 lt",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "71331",
+      "name": "FRA-BER Cera Self Wax Koruyucu Ve Parlatıcı Hızlı Cila Vişne Kokulu (1:200 Konsantre) - 25 lt",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "78779",
+      "name": "FRA-BER X-Express Premium Yoğun Konsantre Islak Kuru Nano Cila - (1:400 Konsantre) - 5 lt",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "26919.271.001",
+      "name": "MENZERNA Ceramic Spray Sealant Seramik İçerikli Sprey Boya Koruyucu Cila - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "700096",
+      "name": "INNOVACAR SC1 SEALANT Hızlı Hidrofobik Seramik Bazlı Nano Koruma - 5 lt",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "700097",
+      "name": "INNOVACAR SC0 HYDRO SEALANT Hidrofobik Seramik Bazlı Nano Koruma - 4,54 lt",
+      "volumeMl": 4540
+    },
+    {
+      "sku": "74059",
+      "name": "FRA-BER Lustrawax Nano Teknoloji Konsantre Koruyucu Cila - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "74062",
+      "name": "FRA-BER Nanotech Koruyucu Ve Parlatıcı Hızlı Cila Vişne Kokulu ( 1:100 Konsantre) - 1000 ml",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "75182",
+      "name": "FRA-BER Lustratouch Mum Bazlı Boya Koruyucu Ve Parlatıcı - 5 lt",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "79304",
+      "name": "INNOVACAR H2O COAT Anında Hidrofobik Etki Kazandırıcı Hızlı Cila Konsantre - 1 lt",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-CDYA1000M",
+      "name": "GYEON QM CeramicDetailer Seramik Yüzey Detaylandırıcı ve Parlatıcı - 1000 ml -Su İtici Oto Cila",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "Q2M-CMR500M",
+      "name": "GYEON QM Cure Matte REDEFİNED Mat Boyalı PPF Kaplı Araçlara Özel Koruyucu Bakım Spreyi - 500 ml",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-CRYA250M",
+      "name": "GYEON QM Cure REDEFİNED Araç Boya Koruma Ve Bakım Spreyi - 250 ml -Seramik Bazlı Koruyucu Nano Cila",
+      "volumeMl": 250
+    },
+    {
+      "sku": "Q2M-PPFMR500M",
+      "name": "GYEON QM PPF Maintain REDEFINED PPF Folyo Bakım Ve Koruma Cilası - 500 ml -Seramik Sprey Wax",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-WCYA4000M",
+      "name": "GYEON QM WetCoat Nano Boya Koruma Ve Seramik Sprey Hızlı Cila - 4000 ml -Su İtici Parlak Islak Cila",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "PPF-L500M",
+      "name": "GYEON QM PPF Lift PPF Folyo Konumlandırma Yeniden Montaj Sıvısı - 500 ml -Yoğun Konsantre",
+      "volumeMl": "500"
+    },
+    {
+      "sku": "Q2M-PPFSL4000M",
+      "name": "GYEON QM PPF Slip PPF Folyo Montaj Yapıştırma Sıvısı Yoğun Konsantre - 4000 ml",
+      "volumeMl": 4000
+    },
+    {
+      "sku": "Q2M-TCYA1000M",
+      "name": "GYEON QM Tire Cleaner Araç Lastik Kauçuk Temizleyici - 1000 ml -Güçlü Oto Teker Temizleyici",
+      "volumeMl": 1000
+    },
+    {
+      "sku": "701908",
+      "name": "FRA-BER Superlux Suya Dayanıklı Lastik Parlatıcı Dış İç Plastik Trim Koruyucu Yenileyici - 900 ml",
+      "volumeMl": 900
+    },
+    {
+      "sku": "70868",
+      "name": "FRA-BER Gommalux Uzun Süreli Lastik Parlatıcı Ve Koruyucu Sprey - 750 ml",
+      "volumeMl": 750
+    },
+    {
+      "sku": "71706",
+      "name": "FRA-BER Gommanera Blue Lastik Parlatıcı (1:3-5 Konsantre) - 5 kg",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "75138",
+      "name": "FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 5 lt",
+      "volumeMl": 5000
+    },
+    {
+      "sku": "75140",
+      "name": "FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 25 lt",
+      "volumeMl": 25000
+    },
+    {
+      "sku": "Q2-TYA500M",
+      "name": "GYEON Q Tire Lastik Parlatıcı Ve Koruyucu Jel - 500 ml -Seramik Bazlı Lastik Teker Cilası",
+      "volumeMl": 500
+    },
+    {
+      "sku": "Q2M-TEYA1000M",
+      "name": "GYEON QM Tire Express Lastik Parlatıcı ve Koruyucu - 1000 ml -Su Bazlı Jel Oto Lastik Cilası",
+      "volumeMl": 1000
+    }
+  ],
+  "conflicts": []
+}

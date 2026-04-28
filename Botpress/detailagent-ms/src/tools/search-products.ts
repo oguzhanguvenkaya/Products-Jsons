@@ -233,6 +233,10 @@ export const searchProducts = new Autonomous.Tool({
           brand: z.string(),
           price: z.number().describe('Primary variant price'),
           templateGroup: z.string(),
+          templateSubType: z
+            .string()
+            .nullable()
+            .describe('Granüler alt-tip — Adım 2 relevance check için (örn. tire_dressing, ph_neutral_shampoo)'),
           snippet: z.string().describe('Ürün hakkında kısa özet (max 200 char)'),
           similarity: z.number().nullable().describe('Eşleşme skoru (0-1)'),
           variant_skus: z

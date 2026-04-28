@@ -196,6 +196,7 @@ export function toProductSummary(
     brand: row.brand ?? '',
     price: asNumber(row.price),
     templateGroup: row.template_group ?? '',
+    templateSubType: row.template_sub_type ?? null,
     snippet,
     similarity: asNumberOrNull(row.similarity),
     variant_skus:

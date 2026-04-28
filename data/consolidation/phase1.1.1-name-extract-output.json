@@ -1,0 +1,650 @@
+[
+  {
+    "sku": "22029.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22911.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22992.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2-PR1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-PO1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "14992.203.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 kg' = 1000 ml (density=1)",
+    "unitInName": "kg"
+  },
+  {
+    "sku": "22200.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22202.260.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 Kg' = 1000 ml (density=1)",
+    "unitInName": "kg"
+  },
+  {
+    "sku": "22203.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22930.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '– 1 Lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22984.260.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 kg' = 1000 ml (density=1)",
+    "unitInName": "kg"
+  },
+  {
+    "sku": "22984.281.001",
+    "extractedVolumeMl": 250,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 250 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-CM1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-CMP1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml' (Plus is variant)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-CMPR1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml' (Plus REDEFINED variant ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "22748.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml (3in1 variant ignored)",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22771.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22828.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "23003.391.001",
+    "extractedVolumeMl": 125,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 125 gr' = 125 ml (density=1)",
+    "unitInName": "g"
+  },
+  {
+    "sku": "Q2M-GP250M",
+    "extractedVolumeMl": 250,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 250 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-PPR1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "701003",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79286",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2M-BPYA1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.9,
+    "reasoning": "'1000 ml' inline (no separator before, but explicit)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79290",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2M-RW1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-RWYA1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "700507",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "700508",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "701851",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "71490",
+    "extractedVolumeMl": 4540,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4,54 Lt' = 4540 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2M-BYA4000M",
+    "extractedVolumeMl": 4000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-PPFW500M",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "700387",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-FYA4000M",
+    "extractedVolumeMl": 4000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-EW1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-PC100M",
+    "extractedVolumeMl": 100,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 100 ml' (12 Ay = duration, ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79296",
+    "extractedVolumeMl": 100,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 100 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-AF120M",
+    "extractedVolumeMl": 120,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 120 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-VE20M",
+    "extractedVolumeMl": 20,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 20 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-LSE50M",
+    "extractedVolumeMl": 50,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 50 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "MXP-CCN50KS",
+    "extractedVolumeMl": 50,
+    "confidence": 0.85,
+    "reasoning": "'50ml' inline as single token, kit format",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "MXP-DPCN50KS",
+    "extractedVolumeMl": 50,
+    "confidence": 0.85,
+    "reasoning": "'50ml' inline as single token, kit format",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "MXP-HC50KS",
+    "extractedVolumeMl": 50,
+    "confidence": 0.85,
+    "reasoning": "'50ml' inline as single token, kit format",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-CCE200M",
+    "extractedVolumeMl": 200,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 200 ml' (9H = hardness, ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-MLE100M",
+    "extractedVolumeMl": 100,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 100 ml' (9H = hardness, ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-MTEL50M",
+    "extractedVolumeMl": 50,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 50 ml' (Matte EVO variant ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-OLE100M",
+    "extractedVolumeMl": 100,
+    "confidence": 0.9,
+    "reasoning": "'- 100ml' as single token (9H = hardness, ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-PLE50M",
+    "extractedVolumeMl": 50,
+    "confidence": 0.9,
+    "reasoning": "'- 50ml' as single token (9H = hardness, ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-PPFE50M",
+    "extractedVolumeMl": 50,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 50 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-SLE50M",
+    "extractedVolumeMl": 50,
+    "confidence": 1.0,
+    "reasoning": "User override: çift katman ürün, primary variant 50 ml",
+    "unitInName": "ml",
+    "manualOverride": true
+  },
+  {
+    "sku": "Q2-TRE30M",
+    "extractedVolumeMl": 30,
+    "confidence": 0.9,
+    "reasoning": "'- 30ml' as single token",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-RE30M",
+    "extractedVolumeMl": 30,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 30 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79291",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79292",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-DT10P",
+    "extractedVolumeMl": 1000,
+    "confidence": 1.0,
+    "reasoning": "User override: 10lu tablet paketi, manuel olarak 1000 ml karşılığı",
+    "unitInName": null,
+    "manualOverride": true
+  },
+  {
+    "sku": "Q2M-PYA4000M",
+    "extractedVolumeMl": 4000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-TOTR1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-PM500M",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "701285",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-FCNA1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79299",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-FCNA400M",
+    "extractedVolumeMl": 400,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 400 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-TRC500M",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "700209",
+    "extractedVolumeMl": 4540,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4,54 lt' = 4540 ml (1:3 oran ignored)",
+    "unitInName": "l"
+  },
+  {
+    "sku": "74391",
+    "extractedVolumeMl": 25000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 25 lt' = 25000 ml (1:3 oran ignored)",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2M-PRYA250M",
+    "extractedVolumeMl": 250,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 250 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-LSN200M",
+    "extractedVolumeMl": 200,
+    "confidence": 1.0,
+    "reasoning": "User override: 5 parça LeatherSet, primary variant 200 ml olarak işaretlendi",
+    "unitInName": "ml",
+    "manualOverride": true
+  },
+  {
+    "sku": "Q2M-LSSYA200M",
+    "extractedVolumeMl": 200,
+    "confidence": 1.0,
+    "reasoning": "User override: 5 parça LeatherSet, primary variant 200 ml olarak işaretlendi",
+    "unitInName": "ml",
+    "manualOverride": true
+  },
+  {
+    "sku": "22070.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "22870.261.001",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2-QV120M",
+    "extractedVolumeMl": 120,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 120 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-W175G",
+    "extractedVolumeMl": 175,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 175 gr' = 175 ml (density=1)",
+    "unitInName": "g"
+  },
+  {
+    "sku": "75016",
+    "extractedVolumeMl": 750,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 750 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "79301",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-QDYA1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "70545",
+    "extractedVolumeMl": 25000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 25 lt' = 25000 ml (1:200 oran ignored)",
+    "unitInName": "l"
+  },
+  {
+    "sku": "71331",
+    "extractedVolumeMl": 25000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 25 lt' = 25000 ml (1:200 oran ignored)",
+    "unitInName": "l"
+  },
+  {
+    "sku": "78779",
+    "extractedVolumeMl": 5000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 5 lt' = 5000 ml (1:400 oran ignored)",
+    "unitInName": "l"
+  },
+  {
+    "sku": "26919.271.001",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "700096",
+    "extractedVolumeMl": 5000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 5 lt' = 5000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "700097",
+    "extractedVolumeMl": 4540,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4,54 lt' = 4540 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "74059",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "74062",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml' (1:100 oran ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "75182",
+    "extractedVolumeMl": 5000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 5 lt' = 5000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "79304",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1 lt' = 1000 ml",
+    "unitInName": "l"
+  },
+  {
+    "sku": "Q2M-CDYA1000M",
+    "extractedVolumeMl": 1000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 1000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-CMR500M",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml' (Cure Matte REDEFINED variant ignored)",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-CRYA250M",
+    "extractedVolumeMl": 250,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 250 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-PPFMR500M",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2M-WCYA4000M",
+    "extractedVolumeMl": 4000,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 4000 ml'",
+    "unitInName": "ml"
+  },
+  {
+    "sku": "Q2-TYA500M",
+    "extractedVolumeMl": 500,
+    "confidence": 0.95,
+    "reasoning": "Net suffix '- 500 ml'",
+    "unitInName": "ml"
+  }
+]

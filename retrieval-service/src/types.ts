@@ -125,6 +125,7 @@ export const ProductSummarySchema = z.object({
   brand: z.string(),
   price: z.number(),
   templateGroup: z.string(),
+  templateSubType: z.string().nullable(),
   snippet: z.string(),
   similarity: z.number().nullable(),
   variant_skus: z.string().optional(),

@@ -9,9 +9,13 @@
 // de eklendi (her run önce sil, sonra yeniden yaz).
 import { sql } from '../src/lib/db.ts';
 
-// Canonical key listesi (Phase 1 + 19 + 1.1)
+// Canonical key listesi (Phase 1 + 19 + 1.1 + 1.1.1)
 const SCALAR_KEYS = [
   'volume_ml', 'capacity_ml', 'capacity_usable_ml',
+  // Phase 1.1.1: weight_g rankBySpec enum'unda — fragrance/sprayer/drying_towel
+  // ürünleri için. Hedef-scope dışı kategorilerde gram bazlı tek başına kalıyor,
+  // volume_ml'e merge edilmiyor — projection edilmesi rankBySpec için şart.
+  'weight_g',
   'durability_months', 'durability_km',
   'ph_level', 'ph_tolerance',
   'consumption_per_car_ml',
@@ -33,6 +37,8 @@ const STALE_KEYS = [
   'consumption_ml_per_cabin', 'coverage_ml_per_sqm', 'recommended_bucket_ml', 'recommended_foam_cannon_ratio',
   // Phase 1.1: idempotency — rating_* her run önce silinir, sonra yeniden yazılır
   'rating_durability', 'rating_beading', 'rating_self_cleaning',
+  // Phase 1.1.1: legacy size key'ler volume_ml'e merge edildi
+  'weight_kg', 'weight_g', 'volume_lt', 'volume',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);
