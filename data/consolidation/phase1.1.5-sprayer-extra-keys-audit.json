@@ -1,0 +1,546 @@
+{
+  "generatedAt": "2026-04-28T13:37:21.702Z",
+  "mode": "commit",
+  "keysDropped": [
+    "weight_g",
+    "compatible_device",
+    "continuous_spray_lock",
+    "hose_length_m",
+    "flow_rate_lpm",
+    "gun_length_cm",
+    "kit_contents"
+  ],
+  "affectedSkus": 36,
+  "removals": [
+    {
+      "sku": "19771",
+      "name": "EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "21746",
+      "name": "EPOCA A-TYPE 10 PRO Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 11 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "2",
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "23841",
+      "name": "EPOCA TOP TEC 10 Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "1.4",
+        "flow_rate_lpm": null,
+        "gun_length_cm": "45.5",
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81678",
+      "name": "IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": "560",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81686",
+      "name": "IK FOAM Pro 2 Alkali KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": "560",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": "0.7",
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81776",
+      "name": "IK FOAM 1,5 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 1,5 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": "460",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "82676",
+      "name": "IK FOAM PRO 12 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 12 Litre",
+      "templateSubType": "foaming_pump_sprayer",
+      "before": {
+        "weight_g": "2570",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "1.5",
+        "flow_rate_lpm": null,
+        "gun_length_cm": "47",
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "82671872",
+      "name": "IK PRO HANDLE INOX Basınçlı Pompa Püskürtme Kolu",
+      "templateSubType": "handle",
+      "before": {
+        "weight_g": null,
+        "compatible_device": "IK Pompalar",
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "83371816",
+      "name": "IK PPF 12 Yedek Tabanca",
+      "templateSubType": "handle",
+      "before": {
+        "weight_g": null,
+        "compatible_device": "IK PPF 12",
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "82671836",
+      "name": "IK HOSE Basınçlı Pompa Uzatma Hortumu 6 Metre - Kimyasal Dayanımlı",
+      "templateSubType": "hose",
+      "before": {
+        "weight_g": null,
+        "compatible_device": "IK Pompalar",
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "83371836",
+      "name": "IK SPIRAL HOSE Basınçlı Pompa Spiral Hortum 4 metre - Kimyasal Dayanımlı",
+      "templateSubType": "hose",
+      "before": {
+        "weight_g": null,
+        "compatible_device": "IK Pompalar",
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81676800",
+      "name": "IK FOAM 1,5 ve FOAM PRO 2 için Yedek Köpük Yapıcı Nozzle ve Keçe Kiti - 3 Parça",
+      "templateSubType": "maintenance_kit",
+      "before": {
+        "weight_g": null,
+        "compatible_device": [
+          "IK FOAM 1.5",
+          "IK FOAM PRO 2"
+        ],
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": [
+          "Nozzle",
+          "Keçe"
+        ]
+      }
+    },
+    {
+      "sku": "81771874",
+      "name": "IK MULTI ve PRO 2 için Yedek Bakım Kiti - 6 Parça",
+      "templateSubType": "maintenance_kit",
+      "before": {
+        "weight_g": null,
+        "compatible_device": [
+          "IK MULTI 1.5",
+          "IK PRO 2"
+        ],
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": [
+          "Valf",
+          "Conta",
+          "O-ring"
+        ]
+      }
+    },
+    {
+      "sku": "82671874",
+      "name": "IK MULTI 6-9-12 ve MULTI PRO 9-12 için Yedek Bakım Kiti - 9 Parça",
+      "templateSubType": "maintenance_kit",
+      "before": {
+        "weight_g": null,
+        "compatible_device": [
+          "IK MULTI 6/9/12",
+          "IK MULTI PRO 9/12"
+        ],
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": [
+          "Conta",
+          "Bilezik",
+          "Valf"
+        ]
+      }
+    },
+    {
+      "sku": "81771871",
+      "name": "IK MULTI 1.5 ve MULTI PRO 2 için Yedek Nozzle Kiti - 2 Parça",
+      "templateSubType": "nozzle",
+      "before": {
+        "weight_g": null,
+        "compatible_device": [
+          "IK MULTI 1.5",
+          "IK MULTI PRO 2"
+        ],
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": [
+          "Ayarlanabilir Nozzle",
+          "Açılı Nozzle"
+        ]
+      }
+    },
+    {
+      "sku": "83371602",
+      "name": "IK PPF 12 Yedek Tabanca Ucu - Nozzle",
+      "templateSubType": "nozzle",
+      "before": {
+        "weight_g": null,
+        "compatible_device": "IK PPF 12",
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "123456",
+      "name": "EPOCA TINT TEC 10 PPF Folyo Cam Filmi Uygulamaları İçin Basınçlı Pompa 10 Litre - Siyah/Beyaz",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "3.1",
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "19956",
+      "name": "EPOCA ALFA TEC Asit Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "19976",
+      "name": "EPOCA ALFA TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "20009",
+      "name": "EPOCA ALFA TEC Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "20102",
+      "name": "EPOCA 2000 Profesyonel Kimyasal Dayanımlı Basınçlı Pompa 2 Litre - Kırmızı/Beyaz (NBR)",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "20417",
+      "name": "EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "20444",
+      "name": "EPOCA EP TEC Kimyasal Dayanımlı Basınçlı Pompa 1.3 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "20450",
+      "name": "EPOCA EP TEC 360° Derece Kimyasal Dayanımlı Basınçlı Pompa 1.3 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": "true",
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "23822",
+      "name": "EPOCA TEC 10 Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": null,
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "1.4",
+        "flow_rate_lpm": null,
+        "gun_length_cm": "45.5",
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81675",
+      "name": "IK MULTI PRO 2 360 Derece Her Yönden Atımlı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 2 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "560",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": "0.5",
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81773",
+      "name": "IK TEAT SPRAYER 1,5 Uzun Nozullu Alttan Püskürtmeli Basınçlı Pompa 1.5 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "470",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": "0.4",
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81774",
+      "name": "IK HC 1,5 Solvent ve Petrol Türevi Kimyasal Dayanımlı Basınçlı Pompa 1.5 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "460",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": "0.5",
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81777",
+      "name": "IK ALK 1,5 Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.5 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "460",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": "0.5",
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "81781",
+      "name": "IK FOOD 1,5 Gıda Temasına Uygun CE/FDA Sertifikalı Basınçlı Pompa 1.5 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "460",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": "0.5",
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "82672",
+      "name": "IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "2330",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "1.5",
+        "flow_rate_lpm": "0.5",
+        "gun_length_cm": "47",
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "82679",
+      "name": "IK MULTI PRO 12+ Plus Hava Kompresör Bağlantılı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 10 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "2570",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "1.5",
+        "flow_rate_lpm": "0.7",
+        "gun_length_cm": "47",
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "83371",
+      "name": "IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre",
+      "templateSubType": "pump_sprayer",
+      "before": {
+        "weight_g": "5000",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": "4",
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "84170",
+      "name": "IK MULTI TR 1 Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre",
+      "templateSubType": "trigger_sprayer",
+      "before": {
+        "weight_g": "180",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "84173",
+      "name": "IK MULTI TR MINI 360 Derece Her Yönden Atımlı Kimyasal Dayanımlı Sprey Şişe 600 Ml",
+      "templateSubType": "trigger_sprayer",
+      "before": {
+        "weight_g": "180",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    },
+    {
+      "sku": "84177",
+      "name": "IK MULTI TR 1 360 Derece Her Yönden Atımlı Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre",
+      "templateSubType": "trigger_sprayer",
+      "before": {
+        "weight_g": "180",
+        "compatible_device": null,
+        "continuous_spray_lock": null,
+        "hose_length_m": null,
+        "flow_rate_lpm": null,
+        "gun_length_cm": null,
+        "kit_contents": null
+      }
+    }
+  ]
+}
