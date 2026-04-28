@@ -1,0 +1,616 @@
+{
+  "generatedAt": "2026-04-28T11:02:24.929Z",
+  "mode": "commit",
+  "summary": {
+    "totalSprayers": 59,
+    "affected": 33,
+    "byType": {
+      "A_null_remove": 26,
+      "B1_weight": 12,
+      "B2_capacity": 1,
+      "B2_usable": 1,
+      "B3_pressure": 1,
+      "B4_flow": 1
+    }
+  },
+  "transforms": [
+    {
+      "sku": "18848",
+      "name": "EPOCA A-TYPE 1.5 PRO Köpük Yapıcı Asit Dayanımlı Basınçlı Pompa 1.8 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "19771",
+      "name": "EPOCA TEC TWO 2000 KÖPÜK Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "23841",
+      "name": "EPOCA TOP TEC 10 Köpük Yapıcı Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "81678",
+      "name": "IK FOAM PRO 2+ Plus KÖPÜK Yapıcı Hava Kompresör Bağlantılı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 560,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.56"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "81686",
+      "name": "IK FOAM Pro 2 Alkali KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        },
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 560,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.56"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "81776",
+      "name": "IK FOAM 1,5 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 1,5 Litre",
+      "changes": [
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 460,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.46"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "82676",
+      "name": "IK FOAM PRO 12 KÖPÜK Yapıcı Kimyasal Dayanımlı Basınçlı Pompa 12 Litre",
+      "changes": [
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 2570,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "2.57"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "19956",
+      "name": "EPOCA ALFA TEC Asit Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "19976",
+      "name": "EPOCA ALFA TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "20009",
+      "name": "EPOCA ALFA TEC Kimyasal Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "20102",
+      "name": "EPOCA 2000 Profesyonel Kimyasal Dayanımlı Basınçlı Pompa 2 Litre - Kırmızı/Beyaz (NBR)",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "20417",
+      "name": "EPOCA EP TEC Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.3 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "20444",
+      "name": "EPOCA EP TEC Kimyasal Dayanımlı Basınçlı Pompa 1.3 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "23822",
+      "name": "EPOCA TEC 10 Alkali ve Alkol Dayanımlı Basınçlı Pompa 10 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "81671901",
+      "name": "IK Pro Lid - IK 1.5/2 Tank Uyumlu Karışım Hazırlama ve Saklama Kapağı",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "81675",
+      "name": "IK MULTI PRO 2 360 Derece Her Yönden Atımlı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 2 Litre",
+      "changes": [
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 560,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.56"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "81773",
+      "name": "IK TEAT SPRAYER 1,5 Uzun Nozullu Alttan Püskürtmeli Basınçlı Pompa 1.5 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        },
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 470,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.47"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "81774",
+      "name": "IK HC 1,5 Solvent ve Petrol Türevi Kimyasal Dayanımlı Basınçlı Pompa 1.5 Litre",
+      "changes": [
+        {
+          "type": "B2_usable",
+          "removedKeys": [
+            "usable_capacity_liters"
+          ],
+          "setKey": "capacity_usable_ml",
+          "setValue": 1000,
+          "sourceValue": "1"
+        },
+        {
+          "type": "B3_pressure",
+          "removedKeys": [
+            "pressure_bar"
+          ],
+          "setKey": "max_pressure_bar",
+          "setValue": 2.5,
+          "sourceValue": "2.5"
+        },
+        {
+          "type": "B4_flow",
+          "removedKeys": [
+            "flow_rate"
+          ],
+          "setKey": "flow_rate_lpm",
+          "setValue": 0.5,
+          "sourceValue": "0.50 l/dk"
+        }
+      ]
+    },
+    {
+      "sku": "81777",
+      "name": "IK ALK 1,5 Alkali ve Alkol Dayanımlı Basınçlı Pompa 1.5 Litre",
+      "changes": [
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 460,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.46"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "81781",
+      "name": "IK FOOD 1,5 Gıda Temasına Uygun CE/FDA Sertifikalı Basınçlı Pompa 1.5 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        },
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 460,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "0.46"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "82672",
+      "name": "IK MULTI PRO 9 Kimyasal ve Asit Dayanımlı Basınçlı Pompa 9 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        },
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 2330,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "2.33"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "82679",
+      "name": "IK MULTI PRO 12+ Plus Hava Kompresör Bağlantılı Kimyasal Ve Asit Dayanımlı Basınçlı Pompa 10 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        },
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 2570,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "2.57"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "83371",
+      "name": "IK PPF 12 PPF ve Cam Filmi Uygulamaları İçin Manometreli INOX Premiks Pompa 12 Litre",
+      "changes": [
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 5000,
+          "sourceValue": {
+            "key": "weight_net_kg",
+            "value": "5"
+          }
+        }
+      ]
+    },
+    {
+      "sku": "12918",
+      "name": "EPOCA EP01 Asit Dayanımlı El Tipi Sprey Şişe 1 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "12922",
+      "name": "EPOCA EP01 Alkali ve Alkol Dayanımlı El Tipi Sprey Şişe 1 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "13724",
+      "name": "EPOCA EP10 360° Derece Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "24952",
+      "name": "EPOCA A-TYPE 0.6 Kimyasal Dayanımlı El Tipi Sprey Şişe 600 ml - Beyaz/Siyah (NBR)",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "79586-643",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli Canyon Sprey Başlıklı Şişe (Yeşil) - 1000 ml",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "79586-644",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Yeşil) - 1000 ML",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "79587-644",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Mavi) - 1000 ML",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "79588-644",
+      "name": "FRA-BER Kimyasal Dayanıklı Ölçekli İthal Sprey Başlıklı Şişe (Siyah) - 1000 ML",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    },
+    {
+      "sku": "84170",
+      "name": "IK MULTI TR 1 Alkali ve Alkol Dayanımlı Sprey Şişe 1 Litre",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        },
+        {
+          "type": "B1_weight",
+          "removedKeys": [
+            "weight_net_kg",
+            "weight_net_g"
+          ],
+          "setKey": "weight_g",
+          "setValue": 180,
+          "sourceValue": {
+            "key": "weight_net_g",
+            "value": "180"
+          }
+        },
+        {
+          "type": "B2_capacity",
+          "removedKeys": [
+            "capacity_lt"
+          ],
+          "setKey": "capacity_ml",
+          "setValue": 1000,
+          "sourceValue": "1"
+        }
+      ]
+    },
+    {
+      "sku": "P0140AK1#26263",
+      "name": "EP01 FLEX Canyon Başlıklı Kimyasal Dayanımlı Ölçekli El Tipi Sprey Şişe 1 Litre - NBR",
+      "changes": [
+        {
+          "type": "A_null_remove",
+          "removedKeys": [
+            "nozzle_types",
+            "pressure_relief_valve",
+            "spare_seals_included"
+          ]
+        }
+      ]
+    }
+  ]
+}
