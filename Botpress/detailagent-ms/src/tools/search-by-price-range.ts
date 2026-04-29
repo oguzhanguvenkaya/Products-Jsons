@@ -50,8 +50,8 @@ export const searchByPriceRange = new Autonomous.Tool({
       .int()
       .min(1)
       .max(20)
-      .default(10)
-      .describe('Maksimum sonuç sayısı (varsayılan 10)'),
+      .default(8)
+      .describe('Maksimum sonuç sayısı (varsayılan 8)'),
     sortDirection: z
       .enum(['asc', 'desc'])
       .default('asc')

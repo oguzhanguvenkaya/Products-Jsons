@@ -110,13 +110,17 @@ export const searchProducts = new Autonomous.Tool({
       .optional()
       .describe(
         "Ürün adında MUTLAKA geçmesi gereken substring (case-insensitive). " +
-          "Tek ayırıcı özellik VEYA compound ürün adı (iki kelime birleşik ise) olabilir.\n\n" +
-          "✅ DOĞRU tek kelime: '400' (Menzerna 400), 'Bathe' (sade Bathe, Bathe+ değil), 'Q2M-WYA' (SKU prefix).\n" +
-          "✅ DOĞRU compound (iki kelime ürün adında birlikte): 'OdorRemover Pads' (sadece Pads), 'Bathe+ Plus', 'Cure Matte' (benzer isimde ürünler için variant ayırt et).\n\n" +
-          "❌ YANLIŞ: '3800 250ml' (isim + hacim karışık → 0 sonuç). " +
-          "❌ YANLIŞ: 'Gommanera Superlux 5 litre' (isim + hacim → 0 sonuç).\n\n" +
-          "KURAL: Hacim/ml/litre ile isim KARIŞTIRMA. Ama 'OdorRemover Pads' gibi compound ürün adı tek unit olarak kullanılır. " +
-          "Hacim için: önce isim ile filtrele (exactMatch='3800'), hacmi sonuç listesinden seçtir.",
+          "SADECE kullanıcı TAM model adını NET olarak yazdıysa kullan.\n\n" +
+          "✅ DOĞRU tek kelime: '400' (Menzerna 400), 'Bathe' (sade Bathe), 'Q2M-WYA' (SKU prefix).\n" +
+          "✅ DOĞRU multi-word/compound TAM MODEL: 'Gommanera Superlux' (Blue ile karıştırma), " +
+          "'Bathe+ Plus', 'Cure Matte', 'OdorRemover Pads', 'Mohs EVO'.\n\n" +
+          "❌ KULLANMA — marka tek başına: 'Gommanera' (Blue mu Superlux mu belirsiz) → exactMatch BOŞ bırak, vector search relevance'a güven.\n" +
+          "❌ KULLANMA — typo şüphesi: 'Bate' (Bathe yanlış yazımı) → exactMatch BOŞ, vector search fuzzy yakalar.\n" +
+          "❌ KULLANMA — hacim içeren ifade: '3800 250ml', 'Superlux 5 litre' → hacim exactMatch'e GİTMEZ. " +
+          "Hacmi ayrı ele al: sizeOptions/metaFilter ile.\n\n" +
+          "KURAL: Şüphede exactMatch BOŞ — vector search semantically/fuzzy yakalar. " +
+          "exactMatch boş döndüyse, exactMatch'i kaldırıp aynı sorguyu sadece query+templateGroup ile dene; " +
+          "yine boşsa kullanıcıya açıkça yokluğu söyle ve alternatif sun.",
       ),
     mainCat: z
       .string()
@@ -139,8 +143,8 @@ export const searchProducts = new Autonomous.Tool({
       .int()
       .min(1)
       .max(10)
-      .default(5)
-      .describe('Döndürülecek maksimum ürün sayısı (varsayılan 5)'),
+      .default(8)
+      .describe('Döndürülecek maksimum ürün sayısı (varsayılan 8)'),
     metaFilters: z
       .array(
         z.object({

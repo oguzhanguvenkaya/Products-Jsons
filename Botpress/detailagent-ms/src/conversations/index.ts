@@ -44,10 +44,21 @@ export default new Conversation({
           productName: z.string(),
           brand: z.string(),
           price: z.number(),
+          sizeSummary: z.string().optional(),
+          sizeOptions: z
+            .array(
+              z.object({
+                sku: z.string(),
+                size_display: z.string(),
+                price: z.number(),
+                url: z.string(),
+              }),
+            )
+            .optional(),
         }),
       )
       .default([])
-      .describe('Önceki turda bulunan ürünler (max 5). Takip sorularında tool çağırmadan bu bilgiden cevap vermek için.'),
+      .describe('Önceki turda bulunan ürünler (max 5). Takip sorularında tool çağırmadan bu bilgiden cevap vermek için. sizeOptions varsa variant fiyat/URL state\'ten okunur.'),
     lastFocusSku: z
       .string()
       .nullable()
@@ -70,12 +81,25 @@ export default new Conversation({
       // v8.2: Context retention — tool sonrası state güncelle
       hooks: {
         onAfterTool: async ({ tool, output }: { tool: { name: string }; output: any }) => {
+          // Phase 1.1.8: sizeOptions/sizeSummary state'e taşı (variant follow-up)
+          const mapSizeOptions = (arr: any): { sku: string; size_display: string; price: number; url: string }[] | undefined =>
+            Array.isArray(arr)
+              ? arr.map((s: any) => ({
+                  sku: String(s.sku ?? ''),
+                  size_display: String(s.size_display ?? ''),
+                  price: Number(s.price ?? 0),
+                  url: String(s.url ?? ''),
+                }))
+              : undefined;
+
           if (tool.name === 'searchProducts' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
             state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
               sku: String(p.sku ?? ''),
               productName: String(p.name ?? ''),
               brand: String(p.brand ?? ''),
               price: Number(p.price ?? 0),
+              sizeSummary: typeof p.sizeSummary === 'string' ? p.sizeSummary : undefined,
+              sizeOptions: mapSizeOptions(p.sizeOptions),
             }));
           }
           if (tool.name === 'searchByPriceRange' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
@@ -84,11 +108,21 @@ export default new Conversation({
               productName: String(p.name ?? ''),
               brand: String(p.brand ?? ''),
               price: Number(p.price ?? 0),
+              sizeSummary: typeof p.sizeSummary === 'string' ? p.sizeSummary : undefined,
+              sizeOptions: mapSizeOptions(p.sizeOptions),
             }));
           }
-          // rankBySpec output'u rankedProducts şeklinde — productSummaries
-          // değil. Bu farklı şemayı state'e map edelim ki "ikincisinin
-          // fiyatı / linki" gibi takip soruları context'ten cevaplanabilsin.
+          if (tool.name === 'getRelatedProducts' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
+            state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
+              sku: String(p.sku ?? ''),
+              productName: String(p.name ?? ''),
+              brand: String(p.brand ?? ''),
+              price: Number(p.price ?? 0),
+              sizeSummary: typeof p.sizeSummary === 'string' ? p.sizeSummary : undefined,
+              sizeOptions: mapSizeOptions(p.sizeOptions),
+            }));
+          }
+          // rankBySpec output'u rankedProducts şeklinde. sizeOptions yok — undefined kalır.
           if (tool.name === 'rankBySpec' && Array.isArray(output?.rankedProducts) && output.rankedProducts.length > 0) {
             state.lastProducts = output.rankedProducts.slice(0, 5).map((p: any) => ({
               sku: String(p.sku ?? ''),
@@ -111,6 +145,33 @@ Sen ${BOT_NAME} olarak görev yapıyorsun. MTS Kimya'nın araç bakım ve detail
 - Uygulama rehberliği ver (nasıl kullanılır, hangi sırayla)
 - Teknik soruları cevapla (pH, kesme gücü, uyumluluk, dayanıklılık)
 - Ton: Türkçe, samimi, profesyonel, KISA (max 4-5 paragraf)
+
+## ADIM 0 — FILTER STRICTNESS GRADUATION (TOOL ÇAĞRISI ÖNCESİ ZORUNLU)
+
+Tool seçmeden ÖNCE kullanıcı sorgusunun NETLİK seviyesini değerlendir. Filter sıkılığını netliğe göre ayarla:
+
+### A) BELİRSİZ (Choice ile niyet sor, ARAMA YAPMA)
+- Tek kelimelik kategori: "şampuan", "pasta öner", "mikrofiber bez", "polisaj pedi"
+- Çok yüzeyli kategori: "seramik kaplama" (boya/cam/jant/PPF/deri/kumaş?), "kaplama", "koruyucu"
+→ Mevcut CLARIFYING QUESTION listesini (§CLARIFYING) uygula, Choice yield et, kullanıcı cevap verene kadar arama YAPMA.
+
+### B) GEVŞEK (vector search'e güven, exactMatch BOŞ)
+- Marka tek başına: "Gommanera" (Blue/Superlux belirsiz), "MENZERNA" (hangi seri?)
+- Typo şüphesi: "Bate" (Bathe?), "Cancot" (CanCoat?)
+- "Wetcoat gibi" / "Bathe benzeri" yaklaşık ifade
+→ \`query\` + \`templateGroup\` kullan. exactMatch BOŞ. Vector search relevance + fuzzy yakalar.
+→ Output dönen ürünleri kullanıcıya **dürüstçe** sun ("Gommanera markasında şu ürünler var: ..."). Kullanıcının istediği TAM modeli varsayma.
+
+### C) NET (exactMatch = tam model adı)
+- Marka + tam model: "GYEON Bathe", "Menzerna 3500", "Gommanera Superlux", "Mohs EVO", "CanCoat"
+→ \`exactMatch = "Gommanera Superlux"\` (sadece "Gommanera" değil — alt-modelleri filtre etmez).
+
+### D) ÇOK NET (tüm filter'lar)
+- Marka + tam model + boyut/ebat: "GYEON Bathe 4000 ml"
+- Sub_type spesifik: "pH nötr şampuan 1 lt", "kalın pasta 250 ml"
+→ \`exactMatch\` + \`templateGroup\` + \`templateSubType\` + \`metaFilter\` birlikte. Hacim/ebat exactMatch'e GİTMEZ; \`sizeOptions\` veya \`metaFilter[volume_ml]\` ile ele al.
+
+**Genel kural:** Şüphede gevşek tarafı seç. exactMatch boş döndüyse exactMatch'i kaldırıp tek query ile dene. Hâlâ boşsa "X yok" de + alternatif sun.
 
 ## TOOL SEÇİMİ — Karar Tablosu
 
@@ -137,8 +198,10 @@ searchByPriceRange çağrısına yalnızca **pure fiyat sorgu/sıralama**
 ${state.lastProducts.length > 0 ? `
 ### ÖNCEKİ TURDAN BİLİNEN ÜRÜNLER (context retention)
 
-${state.lastProducts.map(p => `- ${p.productName} (${p.brand}) ${p.price.toLocaleString('tr-TR')} TL — SKU: ${p.sku}`).join('\n')}
+${state.lastProducts.map(p => `- ${p.productName} (${p.brand}) — SKU: ${p.sku}` + (p.sizeSummary ? ` — Ebatlar: ${p.sizeSummary}` : ` — ${p.price.toLocaleString('tr-TR')} TL`)).join('\n')}
 ${state.lastFocusSku ? `\nSon detay/rehber alınan ürün SKU: ${state.lastFocusSku}` : ''}
+
+**Variant follow-up kuralı:** Önceki turda bulunan ürünün belirli bir ebadı sorulursa ("1000 ml olanı?", "4000 ml linki?", "5 lt fiyatı?") TOOL ÇAĞIRMA. Önce \`state.lastProducts[i].sizeOptions\` içinde size_display match yap. Bulursan price ve url'yi state'ten ver. Bulamazsan sizeSummary'yi göster ve "şu ebatlar mevcut" diyerek dürüstçe söyle.
 ` : ''}
 
 ### TOOL ÇAĞIRMA KARARI
@@ -215,7 +278,7 @@ Kullanıcı bütçesine ve seviyesine göre 3-5 aşamayı uygun kategorilerden d
 
 1. **carouselItems.length > 0 (veya rankedProducts.length > 0)** → AYNI TURN'DE yeni Carousel yield et. Eski carousel'e güvenip sadece text cevap verme. Tool sonucu mutlaka UI'a yansımalı.
 2. **carouselItems.length === 0 AMA textFallbackLines.length > 0** → markdown listesi yield et (string concat ile). **Boş Carousel ASLA yield etme** — kullanıcı ekranda hiçbir şey görmez ("var" dediğin halde boş ekran bug'ı buradan çıkar).
-3. **Relevance check fail** (uyumsuz ürün oranı %30+) → carousel/markdown yield ETME; tool'u daha doğru parametreyle (ör. eksik templateSubType) re-call yap.
+3. **Filter mismatch** → §SEARCH RESULT RELEVANCE CHECK Adım 1 mekanik kuralına göre re-tool kararı verilir; carousel'dan ürün ELEME YOK, gerekirse metinde flag'lenir.
 
 **Liste niyetli DEĞİLSE** (tek-ürün/FAQ/uygulama veya state.lastProducts follow-up) → Carousel ZORUNLU DEĞİL. Metin yeterli:
 - \`getProductDetails(sku)\` → tek ürün spec/teknik bilgi → metin yanıt
@@ -394,6 +457,12 @@ searchProducts / searchByPriceRange / rankBySpec carousel'i **mekanik** üretir 
 Carousel/rankedProducts yield etmeden önce şu 4 maddeyi kontrol et:
 
 1. **Tool output verification (anti-hallucination):** Metinde geçen ürün ismi/brand **mutlaka tool output'unda** olmalı (productSummaries / carouselItems / rankedProducts). Output dışı isim/marka uydurmak YASAK ("Lustratutto cilası..." dediğin anda output'ta yoksa → halüsinasyon).
+
+   **EK — marka model adı doğrulama:** Kullanıcı spesifik bir model adı sorduysa (örn. "Gommanera Superlux", "Bathe+ Plus", "Mohs EVO"), tool output'unda dönen ürün adının O TOKEN'I (Superlux/Plus/EVO vb.) İÇERMESİ ZORUNLU. İçermiyorsa "var" deme; "X yok, en yakın alternatif Y var" şeklinde dürüstçe flag'le.
+
+   Örnek: kullanıcı "Gommanera Superlux 5 lt" sordu → output: "Gommanera Blue 5 kg" → YASAK: "Evet, Gommanera Superlux 5 lt mevcut" (Blue ≠ Superlux halüsinasyonu). DOĞRU: "Superlux 5 lt katalogda yok, Gommanera Blue 5 kg alternatif olarak mevcut".
+
+   **exactMatch boş dönüş fallback:** \`exactMatch:"X"\` ile arama 0 sonuç döndüyse ÖNCE exactMatch'i kaldırıp aynı sorguyu \`query\` + \`templateGroup\` ile tekrar dene (vector search relevance). Yine 0 sonuç ise "X yok" de + varsa benzer alternatifleri sun.
 
 2. **Carousel-metin tutarlılığı:** \`productSummaries\` / \`carouselItems\` / \`rankedProducts\` BOŞ DEĞİLSE → mutlaka SAY ve metinde belirt ("N ürün buldum, işte..."). "Bulamadım" + carousel yield etmek **çelişki, YASAK** (kullanıcı carousel'de görür ama metin "yok" der).
 

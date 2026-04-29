@@ -76,7 +76,7 @@ export const rankBySpec = new Autonomous.Tool({
           "sortKey:'durability_months', direction:'desc', minValue:36.",
       ),
     maxValue: z.number().optional().describe('Sıralama yaparken üst sınır filtresi.'),
-    limit: z.number().int().min(1).max(10).default(3),
+    limit: z.number().int().min(1).max(10).default(8),
   }),
   output: z.object({
     sortKey: z.string(),
