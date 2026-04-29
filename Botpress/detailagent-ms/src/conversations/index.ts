@@ -58,7 +58,7 @@ export default new Conversation({
         }),
       )
       .default([])
-      .describe('Önceki turda bulunan ürünler (max 5). Takip sorularında tool çağırmadan bu bilgiden cevap vermek için. sizeOptions varsa variant fiyat/URL state\'ten okunur.'),
+      .describe('Önceki turda bulunan ürünler (max 8). Takip sorularında tool çağırmadan bu bilgiden cevap vermek için. sizeOptions varsa variant fiyat/URL state\'ten okunur.'),
     lastFocusSku: z
       .string()
       .nullable()
@@ -93,7 +93,7 @@ export default new Conversation({
               : undefined;
 
           if (tool.name === 'searchProducts' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
-            state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
+            state.lastProducts = output.productSummaries.slice(0, 8).map((p: any) => ({
               sku: String(p.sku ?? ''),
               productName: String(p.name ?? ''),
               brand: String(p.brand ?? ''),
@@ -103,7 +103,7 @@ export default new Conversation({
             }));
           }
           if (tool.name === 'searchByPriceRange' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
-            state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
+            state.lastProducts = output.productSummaries.slice(0, 8).map((p: any) => ({
               sku: String(p.sku ?? ''),
               productName: String(p.name ?? ''),
               brand: String(p.brand ?? ''),
@@ -113,7 +113,7 @@ export default new Conversation({
             }));
           }
           if (tool.name === 'getRelatedProducts' && Array.isArray(output?.productSummaries) && output.productSummaries.length > 0) {
-            state.lastProducts = output.productSummaries.slice(0, 5).map((p: any) => ({
+            state.lastProducts = output.productSummaries.slice(0, 8).map((p: any) => ({
               sku: String(p.sku ?? ''),
               productName: String(p.name ?? ''),
               brand: String(p.brand ?? ''),
@@ -124,7 +124,7 @@ export default new Conversation({
           }
           // rankBySpec output'u rankedProducts şeklinde. sizeOptions yok — undefined kalır.
           if (tool.name === 'rankBySpec' && Array.isArray(output?.rankedProducts) && output.rankedProducts.length > 0) {
-            state.lastProducts = output.rankedProducts.slice(0, 5).map((p: any) => ({
+            state.lastProducts = output.rankedProducts.slice(0, 8).map((p: any) => ({
               sku: String(p.sku ?? ''),
               productName: String(p.productName ?? ''),
               brand: String(p.brand ?? ''),
@@ -160,7 +160,9 @@ Tool seçmeden ÖNCE kullanıcı sorgusunun NETLİK seviyesini değerlendir. Fil
 - Typo şüphesi: "Bate" (Bathe?), "Cancot" (CanCoat?)
 - "Wetcoat gibi" / "Bathe benzeri" yaklaşık ifade
 → \`query\` + \`templateGroup\` kullan. exactMatch BOŞ. Vector search relevance + fuzzy yakalar.
-→ Output dönen ürünleri kullanıcıya **dürüstçe** sun ("Gommanera markasında şu ürünler var: ..."). Kullanıcının istediği TAM modeli varsayma.
+→ Output dönen ürünleri kullanıcıya **dürüstçe** sun: "Aramanıza uyan ve benzer ürünler:" diliyle. Kullanıcının istediği TAM modeli varsayma; "X markası ürünleri" gibi list-level genelleme YAPMA (§Adım 2 Madde 1 list-level kuralı).
+
+**TYPO RECOVERY (Bate/Cancot/Wetcot gibi):** Carousel YIELD ETME. Sadece Choice teyit yield et: "Bathe mi kastettiniz?". Choice options değer formatı: \`{ label: "Evet, Bathe", value: "Evet, GYEON Bathe şampuanı ara" }\`. Kullanıcı onaylarsa exactMatch=tahmin ile yeniden ara, sonra Carousel.
 
 ### C) NET (exactMatch = tam model adı)
 - Marka + tam model: "GYEON Bathe", "Menzerna 3500", "Gommanera Superlux", "Mohs EVO", "CanCoat"
@@ -187,11 +189,11 @@ Tool seçmeden ÖNCE kullanıcı sorgusunun NETLİK seviyesini değerlendir. Fil
 | İlişkili ürün | searchProducts → getRelatedProducts | SKU bul → use_with/alternatives |
 | Karşılaştırma (X vs Y) | searchProducts ×2 → getProductDetails ×2 | İki ürün detay + tablo |
 
-**searchProducts fiyat slot'larını OTOMATİK çıkarır.** "GYEON seramik kaplama
-1000 TL altı" gibi query'yi doğrudan searchProducts'a geçebilirsin —
-microservice query'den priceMax=1000 extract edip filter uygular. Ayrı
-searchByPriceRange çağrısına yalnızca **pure fiyat sorgu/sıralama**
-("en ucuz X", "en pahalı X", "500-1500 TL arası pasta") için ihtiyaç var.
+**Bütçe + tool seçimi (kademeli):**
+- Liste/öneri/sıralama + bütçe (X TL altı/üstü, X-Y TL arası) → \`searchByPriceRange\` ZORUNLU.
+- Choice sonrası bütçe context'i devam ediyorsa → yine \`searchByPriceRange\` (önceki turn'deki maxPrice persist edilir).
+- Tek SPESİFİK ürün + variant ebat/fiyat sorusu → \`searchProducts(exactMatch)\` + sizeOptions yeterli.
+- Karmaşık özellik (sub_type+meta) + bütçe → \`searchProducts\` kullan AMA fiyatı sizeOptions'tan veya metinde doğrula; saf bütçe filtresi \`searchByPriceRange\`'de.
 
 ## CONTEXT-AWARE TOOL ÇAĞRI KURALI
 
@@ -201,7 +203,12 @@ ${state.lastProducts.length > 0 ? `
 ${state.lastProducts.map(p => `- ${p.productName} (${p.brand}) — SKU: ${p.sku}` + (p.sizeSummary ? ` — Ebatlar: ${p.sizeSummary}` : ` — ${p.price.toLocaleString('tr-TR')} TL`)).join('\n')}
 ${state.lastFocusSku ? `\nSon detay/rehber alınan ürün SKU: ${state.lastFocusSku}` : ''}
 
-**Variant follow-up kuralı:** Önceki turda bulunan ürünün belirli bir ebadı sorulursa ("1000 ml olanı?", "4000 ml linki?", "5 lt fiyatı?") TOOL ÇAĞIRMA. Önce \`state.lastProducts[i].sizeOptions\` içinde size_display match yap. Bulursan price ve url'yi state'ten ver. Bulamazsan sizeSummary'yi göster ve "şu ebatlar mevcut" diyerek dürüstçe söyle.
+**Variant fiyat/link/ebat kuralı (ilk turn dahil, follow-up dahil):**
+ÖNCE bu turn'deki \`searchProducts.sizeOptions\` VEYA \`state.lastProducts[i].sizeOptions\` içinde size_display match yap. Bulursan price/url oradan ver, **\`getProductDetails\` ÇAĞIRMA**. Bulamazsan dürüstçe "şu ebatlar mevcut: <sizeSummary>" söyle.
+
+GÜVENLİK ŞARTLARI:
+1. Bu kural SADECE fiyat/link/ebat soruları için geçerli. **pH / dayanıklılık / kullanım / teknik spec** sorularında \`getProductDetails\` HÂLÂ gerekli (sizeOptions bu bilgileri içermez).
+2. \`state.lastProducts\`'ta birden fazla ürün varsa ve hangi ürünün sorulduğu belirsizse → "Hangi ürün için?" Choice ile sor; varsayım yapma.
 ` : ''}
 
 ### TOOL ÇAĞIRMA KARARI
@@ -362,7 +369,7 @@ Yanlış filter = 0 sonuç riski.
 Belirsiz örnekler:
 - "deri koruyucu" → leather_care + leather_dressing (ÖNCELİK), ceramic_coating + fabric_coating DE OLABİLİR
 - "kumaş koltuk koruyucu" → ceramic_coating + fabric_coating (FabricCoat) VEYA interior_cleaner
-- "jant temizleyici" → contaminant_solvers (iron_remover, wheel_iron_remover) — alüminyum jant için \`metaFilter[substrate_safe contains aluminum]\`
+- "jant temizleyici" → contaminant_solvers (iron_remover, wheel_iron_remover) — alüminyum jant için \`metaFilter[substrate_safe regex aluminum]\`
 - "polisaj makinesi" → \`polisher_machine\` + \`metaFilter[product_type=machine]\` (accessory/part karışmasın)
 - "yıkama eldiveni / kurulama havlusu" → \`wash_tools\` (microfiber DEĞİL artık)
 - **"GYEON Tire / Q Tire / Tire Express / lastik parlatıcı"** → \`templateGroup=tire_care\` + \`templateSubType=tire_dressing\` (\`tire_coating\` sub'ı YOK; \`ceramic_coating\` altında aramayı DENEMEK YASAK)
@@ -462,6 +469,13 @@ Carousel/rankedProducts yield etmeden önce şu 4 maddeyi kontrol et:
 
    Örnek: kullanıcı "Gommanera Superlux 5 lt" sordu → output: "Gommanera Blue 5 kg" → YASAK: "Evet, Gommanera Superlux 5 lt mevcut" (Blue ≠ Superlux halüsinasyonu). DOĞRU: "Superlux 5 lt katalogda yok, Gommanera Blue 5 kg alternatif olarak mevcut".
 
+   **EK — list-level halüsinasyon yasağı:**
+   - "**X markası ürünleri**" iddiası: SADECE \`productSummaries\`'taki TÜM \`brand\` field'ları aynıysa kurabilirsin. Karışık brand listesinde "Gommanera markası ürünleri" YASAK.
+   - "**X serisi seçenekler**" iddiası: SADECE TÜM ürün adlarında o token (Bathe, Gommanera, Mohs) geçiyorsa kurabilirsin.
+   - **Karışık liste** → "Aramanıza uyan ve benzer ürünler:" diliyle aç; her ürünü brand+name ile ayrı listele.
+   - TAM eşleşme varsa "tam eşleşme" işaretle, diğerleri "alternatif" olarak.
+   - **"Stokta var" deme** — "Katalogda görünüyor" / "şu ürün listede" daha güvenli. Stok bilgisi mtskimya.com sorumluluğu.
+
    **exactMatch boş dönüş fallback:** \`exactMatch:"X"\` ile arama 0 sonuç döndüyse ÖNCE exactMatch'i kaldırıp aynı sorguyu \`query\` + \`templateGroup\` ile tekrar dene (vector search relevance). Yine 0 sonuç ise "X yok" de + varsa benzer alternatifleri sun.
 
 2. **Carousel-metin tutarlılığı:** \`productSummaries\` / \`carouselItems\` / \`rankedProducts\` BOŞ DEĞİLSE → mutlaka SAY ve metinde belirt ("N ürün buldum, işte..."). "Bulamadım" + carousel yield etmek **çelişki, YASAK** (kullanıcı carousel'de görür ama metin "yok" der).
@@ -518,7 +532,10 @@ Kullanıcı SIRALAMA sorduysa ("en iyi X", "top 3 Y", "self-cleaning en yüksek"
 
 ## TOOL ÇAĞRI KURALLARI — KRİTİK
 
-0. **SPESİFİK MODEL ADI → exactMatch ZORUNLU.** CanCoat, Wetcoat, Mohs EVO, Bathe, Q One EVO gibi isimler varsa exactMatch'e koy.
+0. **exactMatch kullanımı:** ADIM 0 (Filter Strictness Graduation) kuralına göre belirle.
+   - Tam model adı net yazılmışsa exactMatch=tam model (örn. "GYEON Bathe 4000 ml" → exactMatch="Bathe", "Gommanera Superlux 5 lt" → exactMatch="Gommanera Superlux")
+   - Hacim/ebat token'ı (4000 ml, 5 lt) exactMatch'e GİRMEZ — sizeOptions/metaFilter ile.
+   - Marka tek başına / typo / sadece kategori → exactMatch BOŞ (vector + Choice teyit, §ADIM 0).
 0a. **searchProducts'a \`query\` ZORUNLU.** Sadece metaFilters/templateGroup ile çağırma — schema reject eder ("query Required" 400). Filter-only sorgu istiyorsan bile en azından kategori adını query yap (ör. \`query:'seramik kaplama', metaFilters:[...]\`). Boş query yasak.
 1. BİR QUERY İÇİN BİR TOOL ÇAĞRISI. Aynı tool'u **aynı parametrelerle** tekrar çağırma.
 2. Tool sonucu geldiğinde HEMEN yield et + return { action: 'listen' }.
@@ -562,37 +579,16 @@ Kullanıcı aynı soruyu 2. kez **farklı kelimelerle** tekrar ettiyse (örn "si
 - **sku DOLU** → ürün-spesifik, direkt ürün bilgisi gibi sun
 - **sku BOŞ/null** → marka/kategori geneli. "Menzerna'nın genel yaklaşımı" veya "Pasta kategorisinde genellikle..." diye başla. Belirli bir SKU'ya atfetme.
 
-## VARIANT (BOYUT) AWARENESS
+## VARIANT (BOYUT) AWARENESS — Master Card (Phase 1.1.7+)
 
-searchProducts ve getProductDetails artık **product_group** seviyesinde çalışır.
-Her ürünün tüm variantları (boyutları) **master.sizes JSON** içinde.
+searchProducts/searchByPriceRange/getRelatedProducts artık **master-card** formatında \`carouselItems\` döndürür: ürün başına 1 kart, action button'ları variant URL'leri.
 
-**searchProducts output:**
-- Her primary row için Carousel'e N kart eklenir (N = sizes[] uzunluğu)
-- Her kart: başlığı base_name + size_display; URL variant-spesifik; barcode variant'a ait
-- Kullanıcı 5 kart sınırına takılmaz — 5 UNIQUE ürün görür, her biri varyantlarıyla
-
-**exactMatch spesifik SKU ile:**
-- "Q2M-BYA500M göster" → variant_skus regex'te bulunur, primary row döner, sizes[]'ten o variant seçilir
-
-**getProductDetails output:**
-- \`sku\` = primary variant SKU (master satırı burada)
-- \`inputSku\` = kullanıcının verdiği orijinal SKU (spesifik variant olabilir)
-- \`variants[]\` = tüm boyutlar, her birinde {size_display, sku, barcode, url, price, image_url}
-- \`baseName\` = generic ad (size-suffix'siz)
-- \`productName\` = primary variant'ın full adı
-
-**Bot sunum stratejisi:**
-
-1. Kullanıcı spesifik boyut sorduysa (ör "Bathe 500ml"):
-   - variants'tan o boyutu bul, tek Carousel kartı göster
-   - Fiyat ve URL o variant'a ait
-
-2. Kullanıcı generic sorduysa (ör "Bathe göster"):
-   - TÜM variantları ayrı Carousel kartları olarak göster (user'ın isteği)
-   - Alternatif text sun: "Bathe 3 boyutta mevcut: 500ml (620 TL), 1L (980 TL), 4L (3,250 TL). Hangisi?"
-
-3. Relations (getRelatedProducts) sonuçları: her target default olarak smallest variant'ı gösterir, subtitle'da "3 boyut" gibi bilgi bulunur
+- **Backend kart inşa eder, LLM kart inşa ETMEZ.** \`yield <Carousel items={result.carouselItems} />\` — backend output'unu aynen yansıt.
+- **Variant başına ayrı kart üretmeye ÇALIŞMA.** Master card pattern, tek karttta N action button.
+- **Variant doğruluk kaynağı:** \`productSummaries[i].sizeOptions[]\` (sku/size_display/price/url) ve \`sizeSummary\` (özet metin).
+- **Spesifik variant fiyat/link sorusu:** sizeOptions'tan size_display match → metinde fiyat+link ver. \`getProductDetails\` çağırma (§F7 Bağlam kuralı).
+- **\`getProductDetails.variants[]\`:** sadece pH/dayanıklılık/teknik spec gibi sizeOptions'ta olmayan detay gerekirse.
+- **Relations (getRelatedProducts):** master kart, subtitle'da ebat özeti.
 
 ## META FİLTRE KULLANIMI
 
@@ -635,7 +631,7 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 - Sadece SPESİFİK özellik sorulursa kullan. "silikonsuz" keyword → metaFilters ZORUNLU.
 - Generic sorgularda ("şampuan öner") metaFilters kullanMA.
 - Boş sonuç dönerse filter'ı gevşet (bir filter çıkar, tekrar dene).
-- **target_surface / compatibility / substrate_safe** array'dir — \`op:'contains'\` ile sorgula.
+- **target_surface / compatibility / substrate_safe** array'dir — \`op:'regex'\` ile sorgula (\`contains\` DESTEKLENMEZ, schema reject eder).
 
 ## ÖZELLİK DOĞRULAMA
 
@@ -648,7 +644,7 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 
 - SADECE tool sonuçlarındaki ürünleri öner — bilgi UYDURMA
 - Fiyat: "TL" yaz (TRY değil), binlik ayracı nokta (1.080 TL), kuruş yoksa ondalık yazma
-- Bir sorguda max 3-5 ürün öner
+- Metinde 3-5 ürünü özetle; carousel'de backend'in döndürdüğü TÜM uygun kartları yield et.
 - İlişkili ürünler varsa belirt: "Öncesinde/sonrasında/birlikte kullanın"
 - Sonuçların kullanıcının sorusuyla GERÇEKTEN eşleştiğini kontrol et
 

@@ -32,7 +32,8 @@ export const searchProducts = new Autonomous.Tool({
       .describe(
         "Semantic arama sorgusu — ürün türü/kullanımı/kategorisi doğal dil (ör: " +
           "'pH nötr araç şampuanı', 'polisaj pasta', 'seramik kaplama sprey'). " +
-          "Rakam ve hacim BURAYA YAZMA — onlar exactMatch'e gider.",
+          "Rakam ve hacim BURAYA YAZMA — hacim sizeOptions/metaFilter akışıyla ele al; " +
+          "exactMatch sadece MODEL token'ı için (örn. 'Bathe', 'Gommanera Superlux'), hacim YOK.",
       ),
     templateGroup: z
       .enum([
@@ -115,7 +116,9 @@ export const searchProducts = new Autonomous.Tool({
           "✅ DOĞRU multi-word/compound TAM MODEL: 'Gommanera Superlux' (Blue ile karıştırma), " +
           "'Bathe+ Plus', 'Cure Matte', 'OdorRemover Pads', 'Mohs EVO'.\n\n" +
           "❌ KULLANMA — marka tek başına: 'Gommanera' (Blue mu Superlux mu belirsiz) → exactMatch BOŞ bırak, vector search relevance'a güven.\n" +
-          "❌ KULLANMA — typo şüphesi: 'Bate' (Bathe yanlış yazımı) → exactMatch BOŞ, vector search fuzzy yakalar.\n" +
+          "❌ KULLANMA — typo şüphesi: 'Bate' (Bathe yanlış yazımı) → exactMatch BOŞ. " +
+          "AMA vector search Bate'i Bathe'e yakalamayabilir; bu durumda Carousel yield ETME, " +
+          "instruction §ADIM 0 typo recovery kuralına göre Choice teyit zorunlu (kullanıcı onayı sonrası exactMatch=tahmin ile re-tool).\n" +
           "❌ KULLANMA — hacim içeren ifade: '3800 250ml', 'Superlux 5 litre' → hacim exactMatch'e GİTMEZ. " +
           "Hacmi ayrı ele al: sizeOptions/metaFilter ile.\n\n" +
           "KURAL: Şüphede exactMatch BOŞ — vector search semantically/fuzzy yakalar. " +

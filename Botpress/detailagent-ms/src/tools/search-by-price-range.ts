@@ -22,7 +22,10 @@ export const searchByPriceRange = new Autonomous.Tool({
   description:
     "Fiyat aralığında ürün arar. 'X TL altında', 'X TL'den pahalı', 'bütçeye uygun', " +
     "'en ucuz', 'en pahalı' gibi FİYAT-BAZLI sorularda kullan. " +
-    "searchProducts fiyat filtresi YAPAMAZ. Opsiyonel templateGroup, marka, sortDirection. " +
+    "**Liste/öneri/sıralama + bütçe sorgularında BU TOOL ZORUNLU.** Choice sonrası bütçe " +
+    "context'i hâlâ geçerliyse (örn. '1000 TL altı seramik' → Choice yüzey → 'boya') yine BU TOOL kullan; " +
+    "maxPrice tekrar pas et. searchProducts fiyat filtresi YAPAMAZ. " +
+    "Opsiyonel templateGroup, templateSubType, marka, sortDirection. " +
     "Variant-aware sıralama: asc → in-range variant min fiyatına göre (en ucuz), desc → max (en pahalı).",
   input: z.object({
     minPrice: z.number().int().optional().describe('Minimum fiyat (TL, dahil)'),
