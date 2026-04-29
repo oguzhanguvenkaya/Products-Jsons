@@ -96,6 +96,27 @@ export const searchByPriceRange = new Autonomous.Tool({
           price: z.number(),
           templateGroup: z.string(),
           templateSubType: z.string().nullable(),
+          sizeOptions: z
+            .array(
+              z.object({
+                size_display: z.string(),
+                size_sort_value: z.number().nullable(),
+                sku: z.string(),
+                barcode: z.string(),
+                url: z.string(),
+                price: z.number(),
+                image_url: z.string(),
+              }),
+            )
+            .describe(
+              "Fiyat filtresine uyan variant'lar — variant truth source. " +
+                "Carousel button URL'li ilk 3'üyle üretilir.",
+            ),
+          sizeSummary: z
+            .string()
+            .describe(
+              "Variant özet metni (filter sonrası): '1lt (1500 TL) | 25kg (15000 TL)'.",
+            ),
         }),
       )
       .describe(

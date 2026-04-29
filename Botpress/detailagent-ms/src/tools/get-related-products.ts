@@ -70,6 +70,26 @@ export const getRelatedProducts = new Autonomous.Tool({
           price: z.number(),
           templateGroup: z.string(),
           templateSubType: z.string().nullable(),
+          sizeOptions: z
+            .array(
+              z.object({
+                size_display: z.string(),
+                size_sort_value: z.number().nullable(),
+                sku: z.string(),
+                barcode: z.string(),
+                url: z.string(),
+                price: z.number(),
+                image_url: z.string(),
+              }),
+            )
+            .describe(
+              "Variant'lar — variant truth source. Carousel button URL'li ilk 3'üyle üretilir.",
+            ),
+          sizeSummary: z
+            .string()
+            .describe(
+              "Variant özet metni: '250ml (500 TL) | 1lt (1500 TL)'.",
+            ),
         }),
       )
       .describe('Tüm ilişkili ürünlerin hafif özeti (templateSubType ile alt-kategori uyumluluğu da kontrol edilebilir).'),

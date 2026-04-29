@@ -66,7 +66,7 @@ export default new Conversation({
         rankBySpec,
         getRelatedProducts,
       ],
-      temperature: 0.2,
+      temperature: 0.1,
       // v8.2: Context retention — tool sonrası state güncelle
       hooks: {
         onAfterTool: async ({ tool, output }: { tool: { name: string }; output: any }) => {
@@ -369,15 +369,25 @@ Bu proactive genişletme **kaliteli danışmanlık**tır; katı "bulunamadı" ce
 
 searchProducts / searchByPriceRange / rankBySpec carousel'i **mekanik** üretir (microservice retrieval — LLM kontrolünde DEĞİL). Ama **yield ETMEDEN ÖNCE** sonuçların kullanıcının sorusuyla gerçekten uyuşup uyuşmadığını değerlendirmelisin.
 
-### Adım 1 — Yield öncesi kontrol listesi
+### Adım 1 — Filter mismatch (mekanik) + subjektif eleme YASAĞI
 
-1. productSummaries (veya rankedProducts/results) içindeki her ürünün \`templateGroup\` / \`templateSubType\`'ı kullanıcı sorusuyla eşleşiyor mu?
-   - "seramik **silme** bezi" → carousel'da \`cleaning_cloth\` (yağ/kir) varsa UYUMSUZ — \`buffing_cloth\`, \`multi_purpose_cloth\` tercih et
-   - "boya seramik kaplama" → cam/jant/kumaş coating (glass_coating, wheel_coating, fabric_coating, trim_coating) UYUMSUZ — paint_coating sub'ı tercih edilir
-   - "kalın pasta" → \`polish\` sub_type (ince pasta) UYUMSUZ
-   - "polisaj makinesi" → \`backing_plate\`, \`battery\`, \`charger\` gibi accessory/part UYUMSUZ — \`metaFilter[product_type=machine]\` eklenebilir
-2. **Uyumsuz ürün oranı > %30 ise:** Tool'u farklı parametrelerle **tekrar çağır** (templateSubType ekle, exactMatch daralt, query reformule et). Carousel yield ETME önce.
-3. Uyumsuz oran ≤%30 ise: Carousel'i yield et AMA metinde uyumsuz ürünleri açıkça flag'le ("NOT: X ürünü cam koruma içindir, boya değil").
+1. **EXPLICIT FILTER MISMATCH (mekanik kontrol):**
+   Tool output'unda \`filtersApplied\` (bot'un GÖNDERDIĞI filter) ile her \`productSummaries[i].templateGroup\` / \`templateSubType\` (backend'in DÖNDÜRDÜĞÜ ürünün group'u) JSON eşitliğini kontrol et.
+
+   - \`filtersApplied=null\` + dönen ürünler karışık sub_type → niyete uygun filter ekle, **re-tool**
+   - \`filtersApplied=X\` + dönen ürün=X → ✓ MISMATCH YOK, **carousel'i mekanik yield et**
+   - \`filtersApplied=X\` + dönen ürün=Y → re-tool veya metinde flag (backend bug nadir)
+
+2. **YASAK — subjektif eleme:**
+   Snippet/name'de "cilalı / seramik / wax / 25 kg / konsantre" kelimeleriyle ürün eleme YOK. Backend templateGroup/templateSubType filter'ı doğrudur. \`snippet\`'teki "Yüzeyler:" satırı **target_surface**'tir (uygulanabilecek yüzeyler), kategori DEĞİL.
+
+3. **Kategori halüsinasyonu örnekleri** (re-tool yardımcı, eleme YETKİSİ DEĞİL):
+   - "seramik **silme** bezi" → \`cleaning_cloth\` UYUMSUZ → \`buffing_cloth\` ile re-tool
+   - "boya seramik kaplama" → \`glass_coating\`/\`wheel_coating\`/\`fabric_coating\` UYUMSUZ → \`paint_coating\` ile re-tool
+   - "kalın pasta" → \`polish\` (ince) UYUMSUZ → \`heavy_cut_compound\` ile re-tool
+   - "polisaj makinesi" → \`backing_plate\`/\`battery\` UYUMSUZ → \`metaFilter[product_type=machine]\` ile re-tool
+
+   Bu durumlarda re-tool YAPILIR ama carousel'dan ürün ELEME YOK.
 
 ### Adım 2 — YIELD ÖNCESİ KONTROL (KRİTİK)
 
@@ -391,7 +401,11 @@ Carousel/rankedProducts yield etmeden önce şu 4 maddeyi kontrol et:
 
 4. **rankBySpec sayı doğruluğu:** \`rankedProducts[].rankValue\` veya \`productSummaries[].technicalSpecs\` içinde gerçek sayı (ay/km/puan) varsa → **METİNDE BU SAYIYI VER**. UYDURMA: tool 50 ay diyorsa "24 ay" deme. Top 3'ün gerçek değerini metinde yaz.
 
-5. **Multi-volume tutarlılığı:** "5 kg" istendi, tool 25kg+5kg karışık döndü → \`sizes\` / \`variants\` üzerinden bot tarafında süz, sadece 5 kg variant'ları sun. "5 kg yok" deme — gerçekten yoksa o zaman söyle.
+5. **Multi-volume tutarlılığı (SADECE kullanıcı SPESİFİK volume verdiyse):**
+   Kullanıcı "5 kg" / "1 lt" / "250 ml" gibi NET volume belirttiyse → \`sizeOptions[]\` (productSummaries içinde) o ebada uyan variant'ı SUN.
+   - Varsa: "Evet, 5 kg ebadı X TL — link: <variant_url>"
+   - Yoksa: "5 kg yok, 1 lt ve 25 kg seçenekleri var" + sizeSummary'yi sun.
+   Kullanıcı volume DEMEMİŞSE bu kural devreye GİRMEZ — sizeSummary genel özet metni olarak metinde paylaşılabilir, eleme yapılmaz.
 
 6. **Empty carousel + textFallback fallback:** Tool output'unda \`carouselItems.length === 0\` AMA \`textFallbackLines.length > 0\` ise (ürün var ama URL boş, carousel kartı yapılmadı) → **boş Carousel YIELD ETME**. Onun yerine \`textFallbackLines\`'ı markdown liste olarak metinde yaz: "- {productName} ({brand}) {price} TL — SKU: {sku}". Boş Carousel render'ı kullanıcıya hiç ürün gelmemiş gibi görünür → "var" dedikten sonra sayfada hiçbir şey görünmediği bug'ı buradan çıkar.
 
@@ -402,6 +416,8 @@ Output'undaki bir ürünü **yanlış kategoride** önermek yasak:
 - **Green Monster** = \`cleaning_cloth\` (yağ/kir temizlik bezi), seramik silme bezi DEĞİL. "Seramik kaplama silme bezi olarak Green Monster..." YASAK.
 
 Doğru yaklaşım: Her ürün için productSummaries'taki \`templateGroup + templateSubType\` ile kullanıcı isteğini karşılaştır. Eşleşmiyorsa metinde o ürünü **pekiştirme** (carousel mekanik zaten gösterir ama metinde de övmek halüsinasyondur).
+
+**YASAK — Carousel'dan eleme:** Backend'in dönen TÜM \`carouselItems\` mekanik yield edilir. LLM **carousel'dan ürün ELEME YETKİSİ YOK**. Uyumsuz şüphesi varsa SADECE metinde flag'le ("NOT: X ürünü cam koruma içindir, boya değil"), carousel'a yine de gelir.
 
 ### Adım 4 — Variant display
 

@@ -1,0 +1,113 @@
+{
+  "generatedAt": "2026-04-29T19:49:46.655Z",
+  "mode": "commit",
+  "skusToDelete": [
+    "24017.261.080",
+    "76006",
+    "3218",
+    "3213EMR",
+    "3221A-RD",
+    "3225A-BL",
+    "75140",
+    "75138"
+  ],
+  "targetDetails": [
+    {
+      "sku": "24017.261.080",
+      "name": "MENZERNA Premium Power Cut 200 (PPC 200) - Ağır Kesim Tekne Cilası - 1 lt",
+      "brand": "MENZERNA",
+      "template_group": "abrasive_polish",
+      "url": null,
+      "image_url": "https://www.menzerna.com/fileadmin/user_upload/Menzerna_Automotive_PPC200.jpg"
+    },
+    {
+      "sku": "3213EMR",
+      "name": "KLIN Drying DUO EVO Çift Taraflı Mikro Kurulama Havlusu (Kırmızı) - 75x43cm",
+      "brand": "KLIN",
+      "template_group": "wash_tools",
+      "url": null,
+      "image_url": null
+    },
+    {
+      "sku": "3218",
+      "name": "KLIN Glass Shine Cam Silme Bezi - 60x30 cm",
+      "brand": "KLIN",
+      "template_group": "microfiber",
+      "url": null,
+      "image_url": null
+    },
+    {
+      "sku": "3221A-RD",
+      "name": "KLIN Wash Mitt Mikrofiber Araç Yıkama Eldiveni (Kırmızı) - 20x18 cm",
+      "brand": "KLIN",
+      "template_group": "wash_tools",
+      "url": null,
+      "image_url": null
+    },
+    {
+      "sku": "3225A-BL",
+      "name": "KLIN Wash Pad Araç Yıkama Padi (Mavi) - 25x15 cm",
+      "brand": "KLIN",
+      "template_group": "wash_tools",
+      "url": null,
+      "image_url": null
+    },
+    {
+      "sku": "75138",
+      "name": "FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 5 lt",
+      "brand": "FRA-BER",
+      "template_group": "tire_care",
+      "url": null,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/75138_0.jpg"
+    },
+    {
+      "sku": "75140",
+      "name": "FRA-BER Gommanera Superlux Solvent Bazlı Uzun Süreli Lastik Parlatıcı - 25 lt",
+      "brand": "FRA-BER",
+      "template_group": "tire_care",
+      "url": null,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/75140_0.jpg"
+    },
+    {
+      "sku": "76006",
+      "name": "FRA-BER Pulitore Cerchi Enzimli Jant Ve Balata Tozu Temizleyici Sprey - 750 ml",
+      "brand": "FRA-BER",
+      "template_group": "contaminant_solvers",
+      "url": null,
+      "image_url": "https://mgpolishing.com/wp-content/uploads/2025/11/76006_0.jpg"
+    }
+  ],
+  "before": {
+    "totals": {
+      "total": 502,
+      "missing_url": 8
+    },
+    "perTable": {
+      "products": 8,
+      "product_meta": 25,
+      "product_search": 8,
+      "product_faqs": 18,
+      "product_relations": 31,
+      "product_embeddings": 8
+    }
+  },
+  "after": {
+    "totals": {
+      "total": 494,
+      "missing_url": 0
+    },
+    "perTable": {
+      "products": 0,
+      "product_meta": 0,
+      "product_search": 0,
+      "product_faqs": 0,
+      "product_relations": 0,
+      "product_embeddings": 0
+    }
+  },
+  "deleted": 8,
+  "acceptanceCriteria": {
+    "deleted_eq_8": true,
+    "products_missing_url_eq_0": true
+  }
+}

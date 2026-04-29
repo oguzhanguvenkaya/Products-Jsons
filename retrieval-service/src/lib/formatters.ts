@@ -100,12 +100,49 @@ export function toCarouselItem(row: ProductRow): CarouselItem | null {
 }
 
 /**
- * Builds one Carousel card per size variant (v8.5 pattern).
- * If sizes is empty, falls back to a single card from the product row.
+ * Phase 1.1.7 helpers — variant truth source + summary string.
+ */
+
+/**
+ * Returns variants that match the optional price filter, sorted by price asc.
+ * Variant URL'leri Step 0 sonrası 100% dolu olmalı; downstream (carousel button)
+ * yine de defensive `hasRenderableUrl` filter uygular.
+ */
+export function getSizeOptions(
+  row: ProductRow,
+  variantFilter?: VariantFilter,
+): SizeVariant[] {
+  const sizes = row.sizes ?? [];
+  return sizes
+    .filter((s) => withinPriceRange(s.price, variantFilter))
+    .slice()
+    .sort((a, b) => a.price - b.price);
+}
+
+/**
+ * Returns a compact human-readable summary of variants:
+ *   "250 ml (500 TL) | 1 lt (1500 TL) | 25 kg (15000 TL)"
+ * If sizeOptions empty, falls back to "Tek Ebat (X TL)".
+ */
+export function formatSizeSummary(
+  sizeOptions: SizeVariant[],
+  fallbackPrice: number,
+): string {
+  if (sizeOptions.length === 0) {
+    return `Tek Ebat (${formatPriceTL(fallbackPrice)} TL)`;
+  }
+  return sizeOptions
+    .map((s) => `${s.size_display || 'Standart'} (${formatPriceTL(s.price)} TL)`)
+    .join(' | ');
+}
+
+/**
+ * Phase 1.1.7 — Master Card pattern: ürün başına TEK kart.
  *
- * Optional `variantFilter` applies post-SELECT price bounds per-variant
- * so that e.g. a 1500-2500 TL query does not leak a 600 TL 250ml variant
- * of a 1700 TL primary.
+ * Variant patlamasını engeller (5 ürün × 3 ebat = 15 kart Botpress limit'ini aşar).
+ * Action button'ları variant URL'lerine deep-link sağlar (max 3, defensive URL filter).
+ *
+ * `variantFilter` price-range search'te uygulanır; genel aramada filter yok.
  */
 export function toCarouselItemsWithVariants(
   row: ProductRow,
@@ -113,35 +150,51 @@ export function toCarouselItemsWithVariants(
 ): CarouselItem[] {
   const brand = row.brand ?? '';
   const baseName = baseNameFromRow(row);
-  const sizes = row.sizes ?? [];
+  const sizeOptions = getSizeOptions(row, variantFilter);
 
-  if (sizes.length === 0) {
+  // Defensive filter — Step 0 sonrası 100% URL'li olsa da data tekrar bozulursa
+  // Botpress action validation patlamasın diye burada da filter uygulanır.
+  const buttonVariants = sizeOptions
+    .filter((s) => hasRenderableUrl(s.url))
+    .slice(0, 3);
+
+  // sizes boş veya filter sonrası variant kalmadıysa: master row'dan single fallback
+  if (sizeOptions.length === 0 || buttonVariants.length === 0) {
     const price = asNumber(row.price);
     if (!withinPriceRange(price, variantFilter)) return [];
     const single = toCarouselItem(row);
     return single ? [single] : [];
   }
 
-  const items: CarouselItem[] = [];
-  for (const s of sizes) {
-    if (!hasRenderableUrl(s.url)) continue;
-    if (!withinPriceRange(s.price, variantFilter)) continue;
-    const sizeLabel = s.size_display ? ` — ${s.size_display}` : '';
-    const title = sizes.length > 1 ? `${baseName}${sizeLabel}` : baseName;
-    items.push({
-      title,
-      subtitle: `${brand} • ${formatPriceTL(s.price)} TL`,
-      imageUrl: s.image_url || undefined,
-      actions: [
-        {
-          action: 'url',
-          label: 'Ürün Sayfasına Git',
-          value: s.url.trim(),
-        },
-      ],
-    });
+  // Subtitle: marka + variant özet
+  const minP = buttonVariants[0].price;
+  const maxP = buttonVariants[buttonVariants.length - 1].price;
+  let subtitle: string;
+  if (buttonVariants.length === 1) {
+    const sizeLabel = buttonVariants[0].size_display || 'Tek Ebat';
+    subtitle = `${brand} • ${sizeLabel} • ${formatPriceTL(minP)} TL`;
+  } else if (minP === maxP) {
+    subtitle = `${brand} • ${buttonVariants.length} Ebat • ${formatPriceTL(minP)} TL`;
+  } else {
+    subtitle = `${brand} • ${buttonVariants.length} Ebat • ${formatPriceTL(minP)} - ${formatPriceTL(maxP)} TL`;
   }
-  return items;
+
+  // Action button'lar — her variant için ayrı (max 3)
+  const actions = buttonVariants.map((s) => ({
+    action: 'url' as const,
+    label: `${s.size_display || 'Ebat'} - ${formatPriceTL(s.price)} TL`,
+    value: s.url.trim(),
+  }));
+
+  // Single master card — ürün başına 1 kart (variant patlaması YOK)
+  return [
+    {
+      title: baseName,
+      subtitle,
+      imageUrl: buttonVariants[0].image_url || row.image_url || undefined,
+      actions,
+    },
+  ];
 }
 
 export function toTextFallbackLine(row: ProductRow): TextFallbackLine {
@@ -188,8 +241,11 @@ export function toTextFallbackLinesFromVariants(
 
 export function toProductSummary(
   row: ProductRow & { search_text?: string | null; similarity?: number | null },
+  variantFilter?: VariantFilter,
 ): ProductSummary {
   const snippet = (row.search_text ?? row.short_description ?? '').slice(0, 200);
+  const sizeOptions = getSizeOptions(row, variantFilter);
+  const sizeSummary = formatSizeSummary(sizeOptions, asNumber(row.price));
   return {
     sku: row.sku,
     name: baseNameFromRow(row),
@@ -204,10 +260,17 @@ export function toProductSummary(
         ? row.variant_skus.join('|')
         : undefined,
     sizes: row.sizes ?? [],
+    sizeOptions,
+    sizeSummary,
   };
 }
 
-export function toLiteProductSummary(row: ProductRow): LiteProductSummary {
+export function toLiteProductSummary(
+  row: ProductRow,
+  variantFilter?: VariantFilter,
+): LiteProductSummary {
+  const sizeOptions = getSizeOptions(row, variantFilter);
+  const sizeSummary = formatSizeSummary(sizeOptions, asNumber(row.price));
   return {
     sku: row.sku,
     name: baseNameFromRow(row),
@@ -215,6 +278,8 @@ export function toLiteProductSummary(row: ProductRow): LiteProductSummary {
     price: asNumber(row.price),
     templateGroup: row.template_group ?? '',
     templateSubType: row.template_sub_type ?? null,
+    sizeOptions,
+    sizeSummary,
   };
 }
 

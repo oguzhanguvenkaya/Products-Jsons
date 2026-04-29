@@ -206,7 +206,7 @@ productsRoutes.get(
 
     const carouselItems = related.flatMap((r) => toCarouselItemsWithVariants(r));
     const textFallbackLines = related.flatMap((r) => toTextFallbackLinesFromVariants(r));
-    const productSummaries = related.map(toLiteProductSummary);
+    const productSummaries = related.map((r) => toLiteProductSummary(r));
 
     const result = RelatedResultSchema.parse({
       sku: primary.sku,

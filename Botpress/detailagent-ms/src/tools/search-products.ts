@@ -255,7 +255,30 @@ export const searchProducts = new Autonomous.Tool({
                 image_url: z.string(),
               }),
             )
-            .describe('Her variant için detay (v8.5)'),
+            .describe('Her variant için detay (v8.5) — getProductDetails ile aynı struct'),
+          sizeOptions: z
+            .array(
+              z.object({
+                size_display: z.string(),
+                size_sort_value: z.number().nullable(),
+                sku: z.string(),
+                barcode: z.string(),
+                url: z.string(),
+                price: z.number(),
+                image_url: z.string(),
+              }),
+            )
+            .describe(
+              "Aktif fiyat filtresine uyan TÜM variant'lar. " +
+                "Variant-spesifik SKU/fiyat/ebat doğruluk kaynağı (variant truth source). " +
+                "Carousel button bu listenin URL'li ilk 3'üyle üretilir.",
+            ),
+          sizeSummary: z
+            .string()
+            .describe(
+              "Variant özet metni (örn. '250ml (500 TL) | 1lt (1500 TL) | 25kg (15000 TL)'). " +
+                "Hızlı 'hangi ebatlar var' sorusunda BURAYA BAK.",
+            ),
         }),
       )
       .describe('Ürün özetleri — her ürün bir group (multi-variant birleşik).'),

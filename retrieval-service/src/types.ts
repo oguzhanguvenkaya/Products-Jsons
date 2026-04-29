@@ -130,6 +130,10 @@ export const ProductSummarySchema = z.object({
   similarity: z.number().nullable(),
   variant_skus: z.string().optional(),
   sizes: z.array(SizeVariantSchema),
+  // Phase 1.1.7: variant truth source — fiyat filter uygulanmış array
+  sizeOptions: z.array(SizeVariantSchema),
+  // Phase 1.1.7: LLM hızlı okuma — "250ml (500 TL) | 1lt (1500 TL)"
+  sizeSummary: z.string(),
 });
 export type ProductSummary = z.infer<typeof ProductSummarySchema>;
 
@@ -140,11 +144,10 @@ export const LiteProductSummarySchema = z.object({
   brand: z.string(),
   price: z.number(),
   templateGroup: z.string(),
-  // Phase 1.1 hotfix: alt-tip görünürlüğü. Bot Adım 2 (relevance check)
-  // ürünleri kategori uyumluluğuna göre değerlendirirken — örn "seramik
-  // kaplama" sorgusunda glass_coating/antifog karışırsa fark etmek için —
-  // sub_type bilgisi olmazsa templateGroup eşleşse de yanlış sub kaçar.
   templateSubType: z.string().nullable(),
+  // Phase 1.1.7: lite'da da variant info
+  sizeOptions: z.array(SizeVariantSchema),
+  sizeSummary: z.string(),
 });
 export type LiteProductSummary = z.infer<typeof LiteProductSummarySchema>;
 

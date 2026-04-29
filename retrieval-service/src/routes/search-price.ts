@@ -128,7 +128,7 @@ searchPriceRoutes.post(
     const textFallbackLines = rows.flatMap((r) =>
       toTextFallbackLinesFromVariants(r, variantFilter),
     );
-    const productSummaries = rows.map(toLiteProductSummary);
+    const productSummaries = rows.map((r) => toLiteProductSummary(r, variantFilter));
 
     const result = PriceSearchResultSchema.parse({
       carouselItems,
