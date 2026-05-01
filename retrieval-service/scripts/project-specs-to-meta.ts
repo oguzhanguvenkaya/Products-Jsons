@@ -23,10 +23,14 @@ const SCALAR_KEYS = [
   'product_type', 'purpose',
   // Phase 1.1: rating projection (specs.ratings.* nested)
   'rating_durability', 'rating_beading', 'rating_self_cleaning',
+  // Phase 1.1.10: SiO2 içerik etiketi — paste_wax, quick_detailer,
+  // paint_protection_quick, glass_water_repellent gruplarında
+  // "seramik katkılı X" sorgularında metaFilter için canonical EAV key
+  'contains_sio2',
 ];
 
 // Array key'ler: pipe-separated value_text, regex ile aranır
-const ARRAY_KEYS = ['target_surface', 'compatibility', 'substrate_safe', 'surface', 'features'];
+const ARRAY_KEYS = ['target_surfaces', 'compatibility', 'substrate_safe', 'surface', 'features'];
 
 const STALE_KEYS = [
   // Phase 1 stale legacy keys
@@ -39,6 +43,10 @@ const STALE_KEYS = [
   'rating_durability', 'rating_beading', 'rating_self_cleaning',
   // Phase 1.1.1: legacy size key'ler volume_ml'e merge edildi
   'weight_kg', 'weight_g', 'volume_lt', 'volume',
+  // Phase 1.1.10: idempotent re-project (specs SSOT)
+  'contains_sio2',
+  // Phase 1.1.11 Faz D: target_surface kolonu silindi, eski EAV row'larını da temizle
+  'target_surface',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);
@@ -140,7 +148,7 @@ console.log(`✓ Projection: ${scalarCount} scalar + ${arrayCount} array entry`)
 const verify = await sql`
   SELECT key, COUNT(*) FROM product_meta
   WHERE key IN (
-    'product_type','surface','purpose','compatibility','substrate_safe','target_surface',
+    'product_type','surface','purpose','compatibility','substrate_safe','target_surfaces',
     'consumption_per_car_ml','volume_ml','durability_months',
     'rating_durability','rating_beading','rating_self_cleaning'
   )

@@ -392,7 +392,6 @@ export interface ProductRow {
   sub_cat2: string | null;
   template_group: string | null;
   template_sub_type: string | null;
-  target_surface: string[] | null;
   price: string | number | null; // postgres numeric comes back as string
   rating: string | number | null;
   stock_status: string | null;

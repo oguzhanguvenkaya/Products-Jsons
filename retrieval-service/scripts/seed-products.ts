@@ -88,6 +88,9 @@ async function main() {
 
     const fullDesc = buildFullDescription(part1Map.get(m.sku), part2Map.get(m.sku));
     const targetSurfaces = splitList(m.target_surface);
+    if (targetSurfaces.length > 0) {
+      specsJson.target_surfaces = targetSurfaces.join('|');
+    }
     const variantSkus = splitList(m.variant_skus, '|');
     const sizesJson = tryJson(m.sizes);
 
@@ -101,7 +104,6 @@ async function main() {
       sub_cat2: m.sub_cat2 || null,
       template_group: m.template_group || null,
       template_sub_type: m.template_sub_type || null,
-      target_surface: targetSurfaces.length > 0 ? targetSurfaces : null,
       price: m.price ? Number(m.price) : null,
       rating: null as number | null,
       url: m.url || null,
@@ -124,7 +126,7 @@ async function main() {
       INSERT INTO products ${sql(
         batch as any,
         'sku', 'name', 'base_name', 'brand', 'main_cat', 'sub_cat', 'sub_cat2',
-        'template_group', 'template_sub_type', 'target_surface',
+        'template_group', 'template_sub_type',
         'price', 'rating', 'url', 'image_url',
         'full_description', 'specs', 'sizes', 'variant_skus', 'video_url',
       )}
@@ -137,7 +139,6 @@ async function main() {
         sub_cat2 = EXCLUDED.sub_cat2,
         template_group = EXCLUDED.template_group,
         template_sub_type = EXCLUDED.template_sub_type,
-        target_surface = EXCLUDED.target_surface,
         price = EXCLUDED.price,
         url = EXCLUDED.url,
         image_url = EXCLUDED.image_url,

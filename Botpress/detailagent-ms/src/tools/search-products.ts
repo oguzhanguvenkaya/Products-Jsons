@@ -160,7 +160,7 @@ export const searchProducts = new Autonomous.Tool({
                 "durability_months (number, ay), durability_km, " +
                 "volume_ml (içerik), capacity_ml (sprayer tankı), " +
                 "consumption_per_car_ml (araç başı tüketim), " +
-                "target_surface (array: paint, glass, leather, ppf, ...), " +
+                "target_surfaces (pipe-separated string: 'paint|glass|leather|ppf|...'), " +
                 "compatibility (array: ceramic_coating, ppf — üzerine uygulanabilir), " +
                 "substrate_safe (array: aluminum, fiberglass, plexiglass), " +
                 "product_type (machine, accessory, part — polisher_machine/sprayers_bottles için), " +
@@ -184,24 +184,24 @@ export const searchProducts = new Autonomous.Tool({
         "Microservice meta EAV filtresi. SADECE KULLANICI AÇIKÇA ÖZELLİK " +
           "SORDUĞUNDA kullan. Phase 1 canonical key listesi (2026-04-25):\n" +
           "- 'silikonsuz' → [{key:'silicone_free', op:'eq', value:true}]\n" +
-          "- 'pH nötr şampuan' → [{key:'ph_level', op:'gte', value:6.5}, {key:'ph_level', op:'lte', value:7.5}]\n" +
+          "- 'pH nötr şampuan' → [{key:'ph_level', op:'gte', value:6}, {key:'ph_level', op:'lte', value:7.5}]\n" +
           "- '3 yıl dayanıklı seramik' / '36 ay' → [{key:'durability_months', op:'gte', value:36}]\n" +
           "- '30000 km dayanıklı' → [{key:'durability_km', op:'gte', value:30000}]\n" +
           "- 'SiO2 içerikli' → [{key:'contains_sio2', op:'eq', value:true}]\n" +
           "- '25 kg / 5 lt şampuan' → [{key:'volume_ml', op:'eq', value:25000}] (kg→ml ×1000, 1:1 yaklaşım)\n" +
           "- '1.5 L sprayer tankı' → [{key:'capacity_ml', op:'gte', value:1500}]\n" +
-          "- 'PPF üzerinde güvenli / PPF için şampuan' → [{key:'target_surface', op:'regex', value:'ppf'}] (ARRAY key, 'regex' kullan — 'contains' DESTEKLENMİYOR; PPF safe-on için target_surface kullan)\n" +
+          "- 'PPF üzerinde güvenli / PPF için şampuan' → [{key:'target_surfaces', op:'regex', value:'ppf'}] (ARRAY key, 'regex' kullan — 'contains' DESTEKLENMİYOR)\n" +
           "- 'seramik üzerinde güvenli' → [{key:'compatibility', op:'regex', value:'ceramic_coating'}]\n" +
           "- 'alüminyum jant için' → [{key:'substrate_safe', op:'regex', value:'aluminum'}]\n" +
-          "- 'deri yüzey için' → [{key:'target_surface', op:'regex', value:'leather'}]\n" +
+          "- 'deri yüzey için' → [{key:'target_surfaces', op:'regex', value:'leather'}]\n" +
           "- 'alüminyum/krom/paslanmaz katı pasta' → templateSubType='solid_compound' + [{key:'surface', op:'regex', value:'aluminum'}] (industrial için 'surface' key, jant temizleyici için 'substrate_safe')\n" +
           "- 'heavy cut katı pasta' → templateSubType='solid_compound' + [{key:'purpose', op:'eq', value:'heavy_cut'}]\n" +
           "- 'polisaj makinesi (aksesuar değil)' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'machine'}]\n" +
           "- 'polisaj tabanlığı' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'accessory'}]\n\n" +
-          "**ARRAY key listesi (op:'regex' kullan):** target_surface, compatibility, substrate_safe, surface, features\n" +
+          "**ARRAY key listesi (op:'regex' kullan):** target_surfaces, compatibility, substrate_safe, surface, features\n" +
           "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
           "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.\n" +
-          "Array key'lerde (target_surface, compatibility, substrate_safe, surface, features) " +
+          "Array key'lerde (target_surfaces, compatibility, substrate_safe, surface, features) " +
           "op:'regex' kullan ('contains' DESTEKLENMİYOR — schema reject eder).",
       ),
   }),

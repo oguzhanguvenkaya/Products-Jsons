@@ -324,17 +324,6 @@ export function unpackProductContent(
   };
 }
 
-/**
- * target_surface is stored as TEXT[] in Postgres; the bot tool
- * exposes it as a comma-joined string.
- */
-export function targetSurfaceToString(
-  arr: string[] | null | undefined,
-): string | null {
-  if (!arr || arr.length === 0) return null;
-  return arr.join(', ');
-}
-
 export function variantsFromRow(row: ProductRow): SizeVariant[] {
   return row.sizes ?? [];
 }

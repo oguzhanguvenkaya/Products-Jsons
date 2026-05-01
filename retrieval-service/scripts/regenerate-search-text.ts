@@ -8,7 +8,7 @@ const rows = await sql<any[]>`
     p.sku, p.name, p.brand, p.main_cat, p.sub_cat,
     p.template_group, p.template_sub_type,
     p.short_description, p.full_description,
-    p.target_surface, p.specs
+    p.specs
   FROM products p
   ORDER BY p.sku
 `;
@@ -29,7 +29,10 @@ for (let i = 0; i < rows.length; i += CHUNK) {
     if (r.brand) parts.push(`Marka: ${r.brand}`);
     if (r.template_group) parts.push(`Kategori: ${r.template_group}${r.template_sub_type ? ' - ' + r.template_sub_type : ''}`);
     if (r.short_description) parts.push(r.short_description.slice(0, 300));
-    if (Array.isArray(r.target_surface)) parts.push(`Yüzeyler: ${r.target_surface.join(', ')}`);
+    const targetSurfaces = (r.specs as Record<string, unknown> | null)?.target_surfaces;
+    if (typeof targetSurfaces === 'string' && targetSurfaces.length > 0) {
+      parts.push(`Yüzeyler: ${targetSurfaces.replace(/\|/g, ', ')}`);
+    }
     
     // specs içinden anlamlı top key'ler (ilk 8 kısa key)
     if (r.specs && typeof r.specs === 'object') {

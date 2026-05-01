@@ -23,7 +23,6 @@ import {
 import {
   asNumber,
   formatVideoCard,
-  targetSurfaceToString,
   toCarouselItemsWithVariants,
   toLiteProductSummary,
   toTextFallbackLinesFromVariants,
@@ -42,7 +41,7 @@ async function findProductByAnySku(inputSku: string): Promise<ProductRow | null>
   // Direct lookup first
   const direct = await sql<ProductRow[]>`
     SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
-           template_group, template_sub_type, target_surface,
+           template_group, template_sub_type,
            price, rating, stock_status, url, image_url,
            short_description, full_description, specs, sizes,
            variant_skus, is_featured, video_url
@@ -55,7 +54,7 @@ async function findProductByAnySku(inputSku: string): Promise<ProductRow | null>
   // Fall back: inputSku may be a secondary variant listed in variant_skus[]
   const viaVariant = await sql<ProductRow[]>`
     SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
-           template_group, template_sub_type, target_surface,
+           template_group, template_sub_type,
            price, rating, stock_status, url, image_url,
            short_description, full_description, specs, sizes,
            variant_skus, is_featured, video_url
@@ -107,7 +106,7 @@ productsRoutes.get('/products/:sku', async (c) => {
     mainCat: row.main_cat ?? '',
     subCat: row.sub_cat,
     sub_cat2: row.sub_cat2,
-    targetSurface: targetSurfaceToString(row.target_surface),
+    targetSurface: (row.specs?.target_surfaces as string | undefined) ?? null,
     templateGroup: row.template_group ?? '',
     templateSubType: row.template_sub_type ?? '',
     technicalSpecs: unpacked.technicalSpecs,
@@ -154,7 +153,7 @@ productsRoutes.get('/products/:sku/guide', async (c) => {
     price: asNumber(row.price),
     imageUrl: row.image_url,
     url: row.url ?? '',
-    targetSurface: targetSurfaceToString(row.target_surface),
+    targetSurface: (row.specs?.target_surfaces as string | undefined) ?? null,
     templateGroup: row.template_group ?? '',
     templateSubType: row.template_sub_type ?? '',
     howToUse: unpacked.howToUse,
@@ -192,7 +191,7 @@ productsRoutes.get(
 
     const related = await sql<ProductRow[]>`
       SELECT p.sku, p.name, p.base_name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
-             p.template_group, p.template_sub_type, p.target_surface,
+             p.template_group, p.template_sub_type,
              p.price, p.rating, p.stock_status, p.url, p.image_url,
              p.short_description, p.full_description, p.specs, p.sizes,
              p.variant_skus, p.is_featured

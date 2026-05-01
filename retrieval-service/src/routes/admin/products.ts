@@ -133,7 +133,6 @@ type DetailRow = {
   sub_cat2: string | null;
   template_group: string | null;
   template_sub_type: string | null;
-  target_surface: string[] | null;
   price: string | number | null;
   rating: string | number | null;
   stock_status: string | null;
@@ -182,7 +181,7 @@ adminProductsRoutes.get('/products/:sku', async (c) => {
   const [[product], faqs, relations, meta] = await Promise.all([
     sql<DetailRow[]>`
       SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
-             template_group, template_sub_type, target_surface,
+             template_group, template_sub_type,
              price, rating, stock_status, url, image_url,
              short_description, full_description, specs, sizes,
              variant_skus, is_featured, video_url, updated_at
@@ -236,7 +235,7 @@ adminProductsRoutes.get('/products/:sku', async (c) => {
       },
       templateGroup: product.template_group,
       templateSubType: product.template_sub_type,
-      targetSurface: product.target_surface,
+      targetSurface: ((product.specs as Record<string, unknown> | null)?.target_surfaces as string | undefined) ?? null,
       price: product.price === null ? null : Number(product.price),
       rating: product.rating === null ? null : Number(product.rating),
       stockStatus: product.stock_status,

@@ -53,7 +53,7 @@ searchPriceRoutes.post(
       sortDirection === 'desc'
         ? await sql<ProductRow[]>`
             SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
-                   template_group, template_sub_type, target_surface,
+                   template_group, template_sub_type,
                    price, rating, stock_status, url, image_url,
                    short_description, full_description, specs, sizes,
                    variant_skus, is_featured
@@ -86,7 +86,7 @@ searchPriceRoutes.post(
           `
         : await sql<ProductRow[]>`
             SELECT sku, name, base_name, brand, main_cat, sub_cat, sub_cat2,
-                   template_group, template_sub_type, target_surface,
+                   template_group, template_sub_type,
                    price, rating, stock_status, url, image_url,
                    short_description, full_description, specs, sizes,
                    variant_skus, is_featured

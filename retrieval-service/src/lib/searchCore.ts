@@ -236,7 +236,7 @@ export async function searchPureVector(
 
   const rows = await sql<SearchHit[]>`
     SELECT p.sku, p.name, p.base_name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
-           p.template_group, p.template_sub_type, p.target_surface,
+           p.template_group, p.template_sub_type,
            p.price, p.rating, p.stock_status, p.url, p.image_url,
            p.short_description, p.full_description, p.specs, p.sizes,
            p.variant_skus, p.is_featured,
@@ -352,7 +352,7 @@ async function hydrateByRankedSkus(
   if (orderedSkus.length === 0) return [];
   const rows = await sql<SearchHit[]>`
     SELECT p.sku, p.name, p.base_name, p.brand, p.main_cat, p.sub_cat, p.sub_cat2,
-           p.template_group, p.template_sub_type, p.target_surface,
+           p.template_group, p.template_sub_type,
            p.price, p.rating, p.stock_status, p.url, p.image_url,
            p.short_description, p.full_description, p.specs, p.sizes,
            p.variant_skus, p.is_featured,

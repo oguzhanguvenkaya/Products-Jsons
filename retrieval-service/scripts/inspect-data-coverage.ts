@@ -346,7 +346,7 @@ async function main() {
            SUM(CASE WHEN full_description IS NULL THEN 1 ELSE 0 END)::int AS null_desc,
            SUM(CASE WHEN price IS NULL OR price=0 THEN 1 ELSE 0 END)::int AS null_or_zero_price,
            SUM(CASE WHEN video_url IS NULL THEN 1 ELSE 0 END)::int AS null_video,
-           SUM(CASE WHEN target_surface IS NULL THEN 1 ELSE 0 END)::int AS null_target_surface
+           SUM(CASE WHEN NOT (specs ? 'target_surfaces') OR specs->>'target_surfaces' IS NULL OR specs->>'target_surfaces'='' THEN 1 ELSE 0 END)::int AS null_target_surfaces
     FROM products
     WHERE template_group IS NOT NULL
     GROUP BY template_group

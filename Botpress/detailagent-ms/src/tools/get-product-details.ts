@@ -44,7 +44,7 @@ export const getProductDetails = new Autonomous.Tool({
         "volume_ml (içerik), capacity_ml (sprayer tankı), capacity_usable_ml (pump sprayer güvenli), " +
         "consumption_per_car_ml (sayı, araç başı tüketim — seramik kaplama default 25 ml/oto, motosiklet için volume_ml÷15), " +
         "dilution (nested: {ratio, bucket, foam_lance, pump_sprayer, manual} — boş alt-key'ler uydurma değildir), " +
-        "target_surface (array: paint, leather, fabric, glass, ppf, ...), " +
+        "target_surfaces (pipe-separated string: 'paint|leather|fabric|glass|ppf|...'), " +
         "compatibility (array: ceramic_coating, ppf — üzerine uygulanabilir), " +
         "substrate_safe (array: aluminum, fiberglass, plexiglass — zarar vermediği), " +
         "product_type (machine|accessory|part — polisher_machine/sprayers_bottles ayrımı), " +
