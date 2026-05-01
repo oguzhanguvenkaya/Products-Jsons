@@ -1,0 +1,50 @@
+{"id":"B001","cat":"multi-turn","turns":[{"u":"şampuan öner"},{"u":"pH nötr"}],"exp":{"final_tool":"searchProducts","filters":{"templateSubType":"ph_neutral_shampoo"},"include_skus_any":["Q2M-BYA4000M","70616","701851","Q2M-PPFW500M"]},"tags":["car_shampoo","ph_neutral"]}
+{"id":"B002","cat":"multi-turn","turns":[{"u":"şampuan öner"},{"u":"ön yıkama köpüğü"}],"exp":{"filters":{"templateSubType":"prewash_foaming_shampoo"},"include_skus_any":["71490","700387","Q2M-FYA4000M"]},"tags":["car_shampoo","prewash"]}
+{"id":"B003","cat":"multi-turn","turns":[{"u":"şampuan öner"},{"u":"seramik kaplı araç için"}],"exp":{"filters_any":[{"templateSubType":"ceramic_infused_shampoo"},{"compatibility_regex":"seramik kaplama"}]},"tags":["car_shampoo","ceramic"]}
+{"id":"B004","cat":"multi-turn","turns":[{"u":"şampuan"},{"u":"dekontaminasyon"}],"exp":{"filters":{"templateSubType":"decon_shampoo"}},"tags":["car_shampoo","decon"]}
+{"id":"B005","cat":"multi-turn","turns":[{"u":"şampuan"},{"u":"susuz yıkama"}],"exp":{"filters":{"templateSubType":"rinseless_wash"},"include_skus_any":["Q2M-EW1000M"]},"tags":["car_shampoo"]}
+{"id":"B006","cat":"multi-turn","turns":[{"u":"iç temizleyici"},{"u":"kumaş ve deri için"}],"exp":{"filters":{"templateSubType":"fabric_leather_cleaner"}},"tags":["interior_cleaner"]}
+{"id":"B007","cat":"multi-turn","turns":[{"u":"iç temizleyici"},{"u":"çok amaçlı APC"}],"exp":{"filters":{"templateSubType":"multi_surface_apc"}},"tags":["interior_cleaner"]}
+{"id":"B008","cat":"multi-turn","turns":[{"u":"iç temizleyici"},{"u":"plastik bakım"}],"exp":{"filters":{"templateSubType":"plastic_dressing"}},"tags":["interior_cleaner"]}
+{"id":"B009","cat":"multi-turn","turns":[{"u":"polisaj makinesi"},{"u":"DA dual action"}],"exp":{"filters_any":[{"templateSubType":"dual_action_polisher"},{"product_type":"machine"}]},"tags":["polisher_machine"]}
+{"id":"B010","cat":"multi-turn","turns":[{"u":"polisaj makinesi"},{"u":"orbital"}],"exp":{"filters":{"templateSubType":"orbital"}},"tags":["polisher_machine"]}
+{"id":"B011","cat":"multi-turn","turns":[{"u":"polisaj makinesi"},{"u":"backing plate taban"}],"exp":{"filters":{"templateSubType":"backing_plate"}},"tags":["polisher_machine"]}
+{"id":"B012","cat":"multi-turn","turns":[{"u":"sprayer"},{"u":"trigger tetikli"}],"exp":{"filters":{"templateSubType":"trigger_sprayer"}},"tags":["sprayers_bottles"]}
+{"id":"B013","cat":"multi-turn","turns":[{"u":"sprayer"},{"u":"köpük yapan pompa"}],"exp":{"filters":{"templateSubType":"foaming_pump_sprayer"}},"tags":["sprayers_bottles"]}
+{"id":"B014","cat":"multi-turn","turns":[{"u":"sprayer"},{"u":"basınçlı pompa"}],"exp":{"filters":{"templateSubType":"pump_sprayer"}},"tags":["sprayers_bottles"]}
+{"id":"B015","cat":"multi-turn","turns":[{"u":"fragrance"},{"u":"vent clip klima"}],"exp":{"filters":{"templateSubType":"vent_clip"}},"tags":["fragrance"]}
+{"id":"B016","cat":"multi-turn","turns":[{"u":"araç parfümü"},{"u":"sprey araç parfümü"}],"exp":{"filters":{"templateSubType":"spray_perfume"}},"tags":["fragrance"]}
+{"id":"B017","cat":"multi-turn","turns":[{"u":"araç parfümü"},{"u":"koku giderici"}],"exp":{"filters":{"templateSubType":"odor_eliminator"}},"tags":["fragrance"]}
+{"id":"B018","cat":"multi-turn","turns":[{"u":"fragrance"},{"u":"asma ipli koku"}],"exp":{"filters":{"templateSubType":"hanging_card"}},"tags":["fragrance"]}
+{"id":"B019","cat":"multi-turn","turns":[{"u":"dekontaminasyon"},{"u":"demir tozu sökücü"}],"exp":{"filters":{"templateSubType":"iron_remover"}},"tags":["contaminant_solvers"]}
+{"id":"B020","cat":"multi-turn","turns":[{"u":"dekontaminasyon"},{"u":"jant demir tozu"}],"exp":{"filters":{"templateSubType":"wheel_iron_remover"}},"tags":["contaminant_solvers"]}
+{"id":"B021","cat":"multi-turn","turns":[{"u":"dekontaminasyon"},{"u":"tar zift sökücü"}],"exp":{"filters":{"templateSubType":"tar_glue_remover"}},"tags":["contaminant_solvers"]}
+{"id":"B022","cat":"multi-turn","turns":[{"u":"dekontaminasyon"},{"u":"su lekesi"}],"exp":{"filters":{"templateSubType":"water_spot_remover"}},"tags":["contaminant_solvers"]}
+{"id":"B023","cat":"multi-turn","turns":[{"u":"PPF aleti"},{"u":"squeegee ragle"}],"exp":{"filters":{"templateSubType":"squeegee"}},"tags":["ppf_tools"]}
+{"id":"B024","cat":"multi-turn","turns":[{"u":"PPF aleti"},{"u":"PPF kurulum sıvısı"}],"exp":{"filters":{"templateSubType":"ppf_install_solution"}},"tags":["ppf_tools"]}
+{"id":"B025","cat":"multi-turn","turns":[{"u":"yıkama aleti"},{"u":"yıkama eldiveni"}],"exp":{"filters":{"templateSubType":"wash_mitt"}},"tags":["wash_tools"]}
+{"id":"B026","cat":"multi-turn","turns":[{"u":"yıkama aleti"},{"u":"kurulama havlusu"}],"exp":{"filters":{"templateSubType":"drying_towel"}},"tags":["wash_tools"]}
+{"id":"B027","cat":"multi-turn","turns":[{"u":"yıkama aleti"},{"u":"köpük tabancası"}],"exp":{"filters":{"templateSubType":"foam_tool"}},"tags":["wash_tools"]}
+{"id":"B028","cat":"multi-turn","turns":[{"u":"marin ürünü"},{"u":"tekne polisaj"}],"exp":{"filters":{"templateSubType":"marine_polish"}},"tags":["marin_products"]}
+{"id":"B029","cat":"multi-turn","turns":[{"u":"endüstriyel ürün"},{"u":"katı pasta Menzerna"}],"exp":{"filters":{"templateSubType":"solid_compound"}},"tags":["industrial_products"]}
+{"id":"B030","cat":"multi-turn","turns":[{"u":"fırça"},{"u":"jant fırçası"}],"exp":{"filters":{"templateSubType":"wheel_brush"}},"tags":["brushes"]}
+{"id":"B031","cat":"multi-turn","turns":[{"u":"fırça"},{"u":"lastik fırçası"}],"exp":{"filters":{"templateSubType":"tire_brush"}},"tags":["brushes"]}
+{"id":"B032","cat":"multi-turn","turns":[{"u":"seramik kaplama"},{"u":"boya kaplaması"}],"exp":{"filters":{"templateSubType":"paint_coating"}},"tags":["ceramic_coating"]}
+{"id":"B033","cat":"multi-turn","turns":[{"u":"seramik kaplama"},{"u":"cam kaplaması"}],"exp":{"filters":{"templateSubType":"glass_coating"}},"tags":["ceramic_coating"]}
+{"id":"B034","cat":"multi-turn","turns":[{"u":"seramik kaplama"},{"u":"jant kaplaması"}],"exp":{"filters":{"templateSubType":"wheel_coating"}},"tags":["ceramic_coating"]}
+{"id":"B035","cat":"multi-turn","turns":[{"u":"seramik kaplama"},{"u":"deri kaplaması"}],"exp":{"filters":{"templateSubType":"leather_coating"}},"tags":["ceramic_coating"]}
+{"id":"B036","cat":"multi-turn","turns":[{"u":"boya koruma"},{"u":"quick detailer"}],"exp":{"filters":{"templateSubType":"quick_detailer"}},"tags":["paint_protection_quick"]}
+{"id":"B037","cat":"multi-turn","turns":[{"u":"boya koruma"},{"u":"sprey sealant"}],"exp":{"filters":{"templateSubType":"spray_sealant"}},"tags":["paint_protection_quick"]}
+{"id":"B038","cat":"multi-turn","turns":[{"u":"boya koruma"},{"u":"katı wax paste"}],"exp":{"filters":{"templateSubType":"paste_wax"}},"tags":["paint_protection_quick"]}
+{"id":"B039","cat":"multi-turn","turns":[{"u":"şampuan öner"},{"u":"GYEON"}],"exp":{"hint":"GYEON şampuanları filtrele","brand_filter":"GYEON","include_skus_any":["Q2M-BYA4000M","Q2M-BPYA1000M","Q2M-EW1000M"]},"tags":["car_shampoo","brand"]}
+{"id":"B040","cat":"multi-turn","turns":[{"u":"şampuan"},{"u":"FRA-BER markası"}],"exp":{"brand_filter":"FRA-BER"},"tags":["car_shampoo","brand"]}
+{"id":"B041","cat":"multi-turn","turns":[{"u":"şampuan"},{"u":"pH nötr"},{"u":"4 lt'lik istiyorum"}],"exp":{"filters":{"templateSubType":"ph_neutral_shampoo","volume_ml_gte":4000}},"tags":["car_shampoo","volume"]}
+{"id":"B042","cat":"multi-turn","turns":[{"u":"şampuan"},{"u":"pH nötr"},{"u":"1000 TL altı"}],"exp":{"final_tool":"searchByPriceRange","params":{"templateSubType":"ph_neutral_shampoo","maxPrice":1000}},"tags":["car_shampoo","budget"]}
+{"id":"B043","cat":"multi-turn","turns":[{"u":"polisaj pedi"},{"u":"foam pad"}],"exp":{"filters":{"templateSubType":"foam_pad"}},"tags":["polishing_pad"]}
+{"id":"B044","cat":"multi-turn","turns":[{"u":"polisaj pedi"},{"u":"wool pad yün"}],"exp":{"filters":{"templateSubType":"wool_pad"}},"tags":["polishing_pad"]}
+{"id":"B045","cat":"multi-turn","turns":[{"u":"pasta"},{"u":"heavy cut ağır kesim"}],"exp":{"filters":{"templateSubType":"heavy_cut_compound"}},"tags":["abrasive_polish"]}
+{"id":"B046","cat":"multi-turn","turns":[{"u":"pasta"},{"u":"finish son kat"}],"exp":{"filters":{"templateSubType":"finish"}},"tags":["abrasive_polish"]}
+{"id":"B047","cat":"multi-turn","turns":[{"u":"deri bakım"},{"u":"deri temizleyici"}],"exp":{"filters":{"templateSubType":"leather_cleaner"}},"tags":["leather_care"]}
+{"id":"B048","cat":"multi-turn","turns":[{"u":"deri bakım"},{"u":"deri parlatıcı dressing"}],"exp":{"filters":{"templateSubType":"leather_dressing"}},"tags":["leather_care"]}
+{"id":"B049","cat":"multi-turn","turns":[{"u":"clay"},{"u":"clay bar"}],"exp":{"filters":{"templateSubType":"clay_bar"}},"tags":["clay_products"]}
+{"id":"B050","cat":"multi-turn","turns":[{"u":"lastik"},{"u":"lastik parlatıcı dressing"}],"exp":{"filters":{"templateSubType":"tire_dressing"}},"tags":["tire_care"]}

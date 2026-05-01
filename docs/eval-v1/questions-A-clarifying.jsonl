@@ -1,0 +1,40 @@
+{"id":"A001","cat":"clarifying","turns":[{"u":"şampuan öner"}],"exp":{"yield":"Choice","skip_tools":true,"options_min":4,"must_contain":["pH nötr","ön yıkama","seramik","dekontaminasyon"]},"tags":["car_shampoo"]}
+{"id":"A002","cat":"clarifying","turns":[{"u":"araç şampuanı"}],"exp":{"yield":"Choice","skip_tools":true,"options_min":4},"tags":["car_shampoo"]}
+{"id":"A003","cat":"clarifying","turns":[{"u":"yıkama şampuanı arıyorum"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["car_shampoo"]}
+{"id":"A004","cat":"clarifying","turns":[{"u":"iç temizleyici"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["kumaş","APC","plastik","antibakteriyel"]},"tags":["interior_cleaner"]}
+{"id":"A005","cat":"clarifying","turns":[{"u":"araç içi temizlik için ürün"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["interior_cleaner"]}
+{"id":"A006","cat":"clarifying","turns":[{"u":"fragrance öner"}],"exp":{"yield":"Choice","skip_tools":true,"options_min":5,"must_contain":["vent clip","sprey","koku giderici"]},"tags":["fragrance"]}
+{"id":"A007","cat":"clarifying","turns":[{"u":"araç parfümü"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["fragrance"]}
+{"id":"A008","cat":"clarifying","turns":[{"u":"araç kokusu"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["fragrance"]}
+{"id":"A009","cat":"clarifying","turns":[{"u":"polisaj makinesi"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["DA","Orbital","Rotary"]},"tags":["polisher_machine"]}
+{"id":"A010","cat":"clarifying","turns":[{"u":"polisher öner"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["polisher_machine"]}
+{"id":"A011","cat":"clarifying","turns":[{"u":"sprayer"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["trigger","pump","foaming"]},"tags":["sprayers_bottles"]}
+{"id":"A012","cat":"clarifying","turns":[{"u":"şişe pompa"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["sprayers_bottles"]}
+{"id":"A013","cat":"clarifying","turns":[{"u":"tetik şişe"}],"exp":{"may_search":true,"may_choice":true,"hint":"trigger sprayer net olabilir, ama Choice ile de detay sorabilir"},"tags":["sprayers_bottles"]}
+{"id":"A014","cat":"clarifying","turns":[{"u":"fırça"}],"exp":{"yield":"Choice","skip_tools":true,"options_min":4,"must_contain":["jant","lastik","detay","deri"]},"tags":["brushes"]}
+{"id":"A015","cat":"clarifying","turns":[{"u":"detay fırçası"}],"exp":{"may_search":true,"hint":"detail_brush spesifik, direkt arama OK"},"tags":["brushes"]}
+{"id":"A016","cat":"clarifying","turns":[{"u":"dekontaminasyon ürünü"}],"exp":{"yield":"Choice","skip_tools":true,"options_min":5,"must_contain":["demir tozu","tar","su lekesi"]},"tags":["contaminant_solvers"]}
+{"id":"A017","cat":"clarifying","turns":[{"u":"leke çıkarıcı"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["contaminant_solvers"]}
+{"id":"A018","cat":"clarifying","turns":[{"u":"PPF aleti"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["squeegee","ragle","kurulum"]},"tags":["ppf_tools"]}
+{"id":"A019","cat":"clarifying","turns":[{"u":"folyo aletleri"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["ppf_tools"]}
+{"id":"A020","cat":"clarifying","turns":[{"u":"yıkama aleti"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["eldiven","kurulama","köpük","kova"]},"tags":["wash_tools"]}
+{"id":"A021","cat":"clarifying","turns":[{"u":"yıkama gereci"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["wash_tools"]}
+{"id":"A022","cat":"clarifying","turns":[{"u":"marin ürünü"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["polish","metal","ahşap"]},"tags":["marin_products"]}
+{"id":"A023","cat":"clarifying","turns":[{"u":"tekne bakımı"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["marin_products"]}
+{"id":"A024","cat":"clarifying","turns":[{"u":"endüstriyel ürün"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["katı pasta","motor","heavy"]},"tags":["industrial_products"]}
+{"id":"A025","cat":"clarifying","turns":[{"u":"Menzerna pasta"}],"exp":{"may_search":true,"hint":"Menzerna marka spesifik, Choice atlanabilir veya solid_compound önerebilir"},"tags":["industrial_products"]}
+{"id":"A026","cat":"clarifying","turns":[{"u":"katı pasta"}],"exp":{"yield":"Choice","skip_tools":true,"hint":"solid_compound veya derinlik soru"},"tags":["industrial_products"]}
+{"id":"A027","cat":"clarifying","turns":[{"u":"depolama"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["duvar","vakum","lamba","troley"]},"tags":["storage_accessories"]}
+{"id":"A028","cat":"clarifying","turns":[{"u":"atölye ekipmanı"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["storage_accessories"]}
+{"id":"A029","cat":"clarifying","turns":[{"u":"boya koruma"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["quick","sealant","wax"]},"tags":["paint_protection_quick"]}
+{"id":"A030","cat":"clarifying","turns":[{"u":"hızlı koruma"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["paint_protection_quick"]}
+{"id":"A031","cat":"clarifying","turns":[{"u":"quick coating"}],"exp":{"yield":"Choice","skip_tools":true},"tags":["paint_protection_quick"]}
+{"id":"A032","cat":"clarifying","turns":[{"u":"seramik kaplama öner"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["boya","cam","jant","trim","deri"]},"tags":["ceramic_coating"]}
+{"id":"A033","cat":"clarifying","turns":[{"u":"seramik kaplama hangi yüzeylere uygulanır"}],"exp":{"may_search":true,"hint":"genel açıklama veya Choice"},"tags":["ceramic_coating"]}
+{"id":"A034","cat":"clarifying","turns":[{"u":"kaplama"}],"exp":{"yield":"Choice","skip_tools":true,"hint":"çok genel, ne tür kaplama sor"},"tags":["ceramic_coating"]}
+{"id":"A035","cat":"clarifying","turns":[{"u":"mikrofiber bez"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["kurulama","cila","temizlik"]},"tags":["microfiber"]}
+{"id":"A036","cat":"clarifying","turns":[{"u":"pasta"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["heavy","polish","finish"]},"tags":["abrasive_polish"]}
+{"id":"A037","cat":"clarifying","turns":[{"u":"polisaj pedi"}],"exp":{"yield":"Choice","skip_tools":true,"must_contain":["foam","wool","felt"]},"tags":["polishing_pad"]}
+{"id":"A038","cat":"clarifying","turns":[{"u":"clay"}],"exp":{"yield":"Choice","skip_tools":true,"hint":"clay bar / clay pad / lubricant"},"tags":["clay_products"]}
+{"id":"A039","cat":"clarifying","turns":[{"u":"deri bakım"}],"exp":{"yield":"Choice","skip_tools":true,"hint":"temizleyici / dressing / kit"},"tags":["leather_care"]}
+{"id":"A040","cat":"clarifying","turns":[{"u":"cam temizleyici"}],"exp":{"yield":"Choice","skip_tools":true,"hint":"temizleyici / koruyucu / katkı"},"tags":["glass_cleaner_protectant"]}

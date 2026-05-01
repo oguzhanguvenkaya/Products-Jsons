@@ -31,7 +31,10 @@ for (let i = 0; i < rows.length; i += CHUNK) {
     if (r.short_description) parts.push(r.short_description.slice(0, 300));
     const targetSurfaces = (r.specs as Record<string, unknown> | null)?.target_surfaces;
     if (typeof targetSurfaces === 'string' && targetSurfaces.length > 0) {
-      parts.push(`Yüzeyler: ${targetSurfaces.replace(/\|/g, ', ')}`);
+      // FIX (BUG-1, 2026-05-02): pipe başta/sonda boş element üretiyordu (`, boya, ..., conta, `)
+      // Strip leading/trailing | + filter Boolean tokens
+      const tokens = targetSurfaces.split('|').map(t => t.trim()).filter(Boolean);
+      if (tokens.length > 0) parts.push(`Yüzeyler: ${tokens.join(', ')}`);
     }
 
     // Phase 1.1.13C: pH alanları explicit (Object.entries slice(0,8) sırasına güvenme).

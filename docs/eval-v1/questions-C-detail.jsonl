@@ -1,0 +1,30 @@
+{"id":"C001","cat":"detail","turns":[{"u":"GYEON Bathe nedir, dayanıklılığı ne kadar?"}],"exp":{"tools_any":["searchProducts","getProductDetails"],"must_mention":["pH nötr","şampuan","GYEON"],"no_hallucination":true},"tags":["car_shampoo"]}
+{"id":"C002","cat":"detail","turns":[{"u":"Q2-CCE200M özellikleri"}],"exp":{"tool":"getProductDetails","sku":"Q2-CCE200M","must_mention":["seramik","CanCoat"]},"tags":["ceramic_coating"]}
+{"id":"C003","cat":"detail","turns":[{"u":"GYEON Mohs EVO ne zaman uygulanır"}],"exp":{"tool_any":["getApplicationGuide","getProductDetails","searchFaq"],"must_mention":["uygulama"]},"tags":["ceramic_coating"]}
+{"id":"C004","cat":"detail","turns":[{"u":"Q2M-PPFW500M nedir?"}],"exp":{"tool":"getProductDetails","sku":"Q2M-PPFW500M","must_mention":["PPF"]},"tags":["car_shampoo"]}
+{"id":"C005","cat":"detail","turns":[{"u":"Menzerna 3500 nedir"}],"exp":{"tool_any":["searchProducts","getProductDetails"],"must_mention":["Menzerna"],"no_hallucination":true},"tags":["abrasive_polish"]}
+{"id":"C006","cat":"detail","turns":[{"u":"FRA-BER Camper Wash karavan şampuanı detayları"}],"exp":{"tool":"getProductDetails","sku":"701851","must_mention":["karavan","Camper"]},"tags":["car_shampoo"]}
+{"id":"C007","cat":"detail","turns":[{"u":"Q2M-LCSYA1000M strong leather cleaner"}],"exp":{"tool":"getProductDetails","sku":"Q2M-LCSYA1000M"},"tags":["leather_care"]}
+{"id":"C008","cat":"detail","turns":[{"u":"GYEON Trim EVO Q2-TRE30M"}],"exp":{"tool":"getProductDetails","sku":"Q2-TRE30M","must_mention":["trim","plastik"]},"tags":["ceramic_coating"]}
+{"id":"C009","cat":"detail","turns":[{"u":"Q2M-IR4000M iron remover"}],"exp":{"tool":"getProductDetails","sku":"Q2M-IR4000M"},"tags":["contaminant_solvers"]}
+{"id":"C010","cat":"detail","turns":[{"u":"INNOVACAR S2 Foamy nedir"}],"exp":{"tool_any":["searchProducts","getProductDetails"],"must_mention":["Foamy","INNOVACAR"]},"tags":["car_shampoo"]}
+{"id":"C011","cat":"detail","turns":[{"u":"GYEON Bathe boyu kaç ml"}],"exp":{"tool":"searchProducts","must_mention":["ml","boyut","variant"]},"tags":["car_shampoo","variant"]}
+{"id":"C012","cat":"detail","turns":[{"u":"Q2-LSE50M leather shield"}],"exp":{"tool":"getProductDetails","sku":"Q2-LSE50M","must_mention":["deri","kaplama"]},"tags":["ceramic_coating"]}
+{"id":"C013","cat":"detail","turns":[{"u":"GYEON QM ECO Wash bilgisi"}],"exp":{"tool":"getProductDetails","sku":"Q2M-EW1000M","must_mention":["susuz","rinseless"]},"tags":["car_shampoo"]}
+{"id":"C014","cat":"detail","turns":[{"u":"Q2M-CME clay bar GYEON"}],"exp":{"tool":"getProductDetails","sku":"Q2M-CME","must_mention":["clay","kil"]},"tags":["clay_products"]}
+{"id":"C015","cat":"detail","turns":[{"u":"FLEX PXE 80 polisher"}],"exp":{"tool_any":["searchProducts","getProductDetails"],"must_mention":["FLEX","PXE"]},"tags":["polisher_machine"]}
+{"id":"C016","cat":"detail","turns":[{"u":"IK Pro Lid sprayer"}],"exp":{"tool":"getProductDetails","sku":"81671901","must_mention":["IK","tank"]},"tags":["sprayers_bottles"]}
+{"id":"C017","cat":"detail","turns":[{"u":"Q2M-PPFMR500M PPF maintain"}],"exp":{"tool":"getProductDetails","sku":"Q2M-PPFMR500M","must_mention":["PPF"]},"tags":["paint_protection_quick"]}
+{"id":"C018","cat":"detail","turns":[{"u":"Little Joe Vanilya araç kokusu"}],"exp":{"tool_any":["searchProducts","getProductDetails"],"must_mention":["Vanilya","Little Joe"]},"tags":["fragrance"]}
+{"id":"C019","cat":"detail","turns":[{"u":"FRA-BER Brilliant iç temizleyici"}],"exp":{"tool":"getProductDetails","sku":"74598","must_mention":["FRA-BER","Brilliant"]},"tags":["interior_cleaner"]}
+{"id":"C020","cat":"detail","turns":[{"u":"GYEON QM Wetcoat"}],"exp":{"tool_any":["searchProducts","getProductDetails"],"must_mention":["Wetcoat"]},"tags":["paint_protection_quick"]}
+{"id":"C021","cat":"detail","turns":[{"u":"Q2M-OR500M odor remover"}],"exp":{"tool":"getProductDetails","sku":"Q2M-OR500M","must_mention":["koku giderici"]},"tags":["fragrance"]}
+{"id":"C022","cat":"detail","turns":[{"u":"GYEON Q Trim EVO ne işe yarar"}],"exp":{"tool":"getProductDetails","sku":"Q2-TRE30M","must_mention":["trim","koruyucu"]},"tags":["ceramic_coating"]}
+{"id":"C023","cat":"detail","turns":[{"u":"Q2-AF120M antifog"}],"exp":{"tool":"getProductDetails","sku":"Q2-AF120M","must_mention":["antifog","cam"]},"tags":["ceramic_coating"]}
+{"id":"C024","cat":"detail","turns":[{"u":"Q2-RE30M wheel coating"}],"exp":{"tool":"getProductDetails","sku":"Q2-RE30M","must_mention":["jant","kaplama"]},"tags":["ceramic_coating"]}
+{"id":"C025","cat":"detail","turns":[{"u":"PPF-L500M PPF Lift"}],"exp":{"tool":"getProductDetails","sku":"PPF-L500M","must_mention":["PPF","kurulum"]},"tags":["ppf_tools"]}
+{"id":"C026","cat":"detail","turns":[{"u":"Q2-W175G wax stick"}],"exp":{"tool":"getProductDetails","sku":"Q2-W175G","must_mention":["wax"]},"tags":["paint_protection_quick"]}
+{"id":"C027","cat":"detail","turns":[{"u":"Q2M-FCNA1000M FabricCleaner"}],"exp":{"tool":"getProductDetails","sku":"Q2M-FCNA1000M","must_mention":["kumaş","Fabric"]},"tags":["interior_cleaner"]}
+{"id":"C028","cat":"detail","turns":[{"u":"Q2M-TR4000M tire restore"}],"exp":{"tool":"getProductDetails","sku":"Q2M-TR4000M","must_mention":["lastik"]},"tags":["tire_care"]}
+{"id":"C029","cat":"detail","turns":[{"u":"INNOVACAR DS Scale asidik şampuan"}],"exp":{"tool":"getProductDetails","sku":"79290","must_mention":["DS Scale","asidik"]},"tags":["car_shampoo"]}
+{"id":"C030","cat":"detail","turns":[{"u":"GYEON QM Bathe+ ne demek"}],"exp":{"tool":"getProductDetails","sku":"Q2M-BPYA1000M","must_mention":["Bathe","Plus","seramik"]},"tags":["car_shampoo"]}

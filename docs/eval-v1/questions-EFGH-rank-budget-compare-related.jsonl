@@ -1,0 +1,70 @@
+{"id":"E001","cat":"rank","turns":[{"u":"en güçlü polisaj pastası"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"cut_level","direction":"desc"}},"tags":["rank","cut_level"]}
+{"id":"E002","cat":"rank","turns":[{"u":"en uzun ömürlü seramik kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"durability_months","direction":"desc"}},"tags":["rank","durability"]}
+{"id":"E003","cat":"rank","turns":[{"u":"en az tüketen seramik kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"consumption_per_car_ml","direction":"asc"}},"tags":["rank","consumption"]}
+{"id":"E004","cat":"rank","turns":[{"u":"top 5 dayanıklılık seramik"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"durability_months","direction":"desc","limit":5}},"tags":["rank","topN"]}
+{"id":"E005","cat":"rank","turns":[{"u":"en yüksek beading seramik kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"rating_beading","direction":"desc"}},"tags":["rank","rating"]}
+{"id":"E006","cat":"rank","turns":[{"u":"en yüksek self-cleaning kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"rating_self_cleaning","direction":"desc"}},"tags":["rank","rating"]}
+{"id":"E007","cat":"rank","turns":[{"u":"en yüksek hacimli şampuan"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"volume_ml","direction":"desc"}},"tags":["rank","volume"]}
+{"id":"E008","cat":"rank","turns":[{"u":"en büyük tank pump sprayer"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"capacity_ml","direction":"desc","templateGroup":"sprayers_bottles"}},"tags":["rank","capacity"]}
+{"id":"E009","cat":"rank","turns":[{"u":"en sert seramik kaplama (hardness)"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"hardness","direction":"desc"}},"tags":["rank","hardness"]}
+{"id":"E010","cat":"rank","turns":[{"u":"en yüksek km dayanım kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"durability_km","direction":"desc"}},"tags":["rank","durability_km"]}
+{"id":"E011","cat":"rank","turns":[{"u":"en güçlü leke çıkarıcı"}],"exp":{"tool_any":["rankBySpec","searchProducts"],"hint":"contaminant_solvers içinde sıralama"},"tags":["rank","contaminant"]}
+{"id":"E012","cat":"rank","turns":[{"u":"en yüksek puanlı dayanıklılık"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"rating_durability","direction":"desc"}},"tags":["rank","rating"]}
+{"id":"E013","cat":"rank","turns":[{"u":"en hızlı uygulanan seramik"}],"exp":{"tool_any":["rankBySpec","searchFaq"],"hint":"belirsiz, cure_time veya genel arama"},"tags":["rank","cure"]}
+{"id":"E014","cat":"rank","turns":[{"u":"finish pasta en iyi 3"}],"exp":{"tool":"rankBySpec","params":{"templateSubType":"finish","direction":"desc"}},"tags":["rank","topN","finish"]}
+{"id":"E015","cat":"rank","turns":[{"u":"heavy cut pasta sıralaması"}],"exp":{"templateSubType":"heavy_cut_compound","tool_any":["rankBySpec","searchProducts"]},"tags":["rank","heavy_cut"]}
+{"id":"E016","cat":"rank","turns":[{"u":"en güçlü iron remover"}],"exp":{"templateSubType":"iron_remover","tool_any":["rankBySpec","searchProducts"]},"tags":["rank","iron_remover"]}
+{"id":"E017","cat":"rank","turns":[{"u":"top 3 GYEON ürünü dayanıklılık"}],"exp":{"tool":"rankBySpec","brand_filter":"GYEON","params":{"sortKey":"durability_months","direction":"desc","limit":3}},"tags":["rank","brand"]}
+{"id":"E018","cat":"rank","turns":[{"u":"en uzun durability seramik kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"durability_months","direction":"desc","templateGroup":"ceramic_coating"}},"tags":["rank","durability","ceramic"]}
+{"id":"E019","cat":"rank","turns":[{"u":"en yüksek kapasiteli sprayer tankı"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"capacity_ml","direction":"desc"}},"tags":["rank","capacity"]}
+{"id":"E020","cat":"rank","turns":[{"u":"top 5 puanlı seramik kaplama"}],"exp":{"tool":"rankBySpec","params":{"sortKey":"rating_durability","direction":"desc","limit":5}},"tags":["rank","rating","topN"]}
+{"id":"F001","cat":"budget","turns":[{"u":"1000 TL altı şampuan"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"car_shampoo","maxPrice":1000}},"tags":["budget"]}
+{"id":"F002","cat":"budget","turns":[{"u":"500-2000 TL arası seramik kaplama"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"ceramic_coating","minPrice":500,"maxPrice":2000}},"tags":["budget","range"]}
+{"id":"F003","cat":"budget","turns":[{"u":"en ucuz şampuan"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"car_shampoo","sortDirection":"asc"}},"tags":["budget","cheap"]}
+{"id":"F004","cat":"budget","turns":[{"u":"en pahalı seramik kaplama"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"ceramic_coating","sortDirection":"desc"}},"tags":["budget","expensive"]}
+{"id":"F005","cat":"budget","turns":[{"u":"3000 TL altı polisaj makinesi"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"polisher_machine","maxPrice":3000}},"tags":["budget"]}
+{"id":"F006","cat":"budget","turns":[{"u":"500 TL altı mikrofiber bez"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"microfiber","maxPrice":500}},"tags":["budget"]}
+{"id":"F007","cat":"budget","turns":[{"u":"200-500 TL arası fragrance"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"fragrance","minPrice":200,"maxPrice":500}},"tags":["budget"]}
+{"id":"F008","cat":"budget","turns":[{"u":"1000 TL altı PPF aleti"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"ppf_tools","maxPrice":1000}},"tags":["budget"]}
+{"id":"F009","cat":"budget","turns":[{"u":"en uygun fiyatlı iç temizleyici"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"interior_cleaner","sortDirection":"asc"}},"tags":["budget","cheap"]}
+{"id":"F010","cat":"budget","turns":[{"u":"700 TL'lik şampuan"}],"exp":{"tool":"searchByPriceRange","params":{"maxPrice":800,"minPrice":600},"hint":"belli bir fiyat civarı"},"tags":["budget","specific"]}
+{"id":"F011","cat":"budget","turns":[{"u":"1500 TL üzeri seramik kaplama"}],"exp":{"tool":"searchByPriceRange","params":{"minPrice":1500}},"tags":["budget"]}
+{"id":"F012","cat":"budget","turns":[{"u":"şampuan"},{"u":"1000 TL altı"}],"exp":{"final_tool":"searchByPriceRange","params":{"templateGroup":"car_shampoo","maxPrice":1000}},"tags":["budget","multi-turn"]}
+{"id":"F013","cat":"budget","turns":[{"u":"polisaj makinesi"},{"u":"5000 TL altı"}],"exp":{"final_tool":"searchByPriceRange","params":{"templateGroup":"polisher_machine","maxPrice":5000}},"tags":["budget","multi-turn"]}
+{"id":"F014","cat":"budget","turns":[{"u":"en pahalı GYEON ürünü"}],"exp":{"tool":"searchByPriceRange","brand_filter":"GYEON","params":{"sortDirection":"desc"}},"tags":["budget","brand"]}
+{"id":"F015","cat":"budget","turns":[{"u":"800 TL altı fragrance vent clip"}],"exp":{"tool":"searchByPriceRange","params":{"templateSubType":"vent_clip","maxPrice":800}},"tags":["budget","fragrance"]}
+{"id":"F016","cat":"budget","turns":[{"u":"3000 TL altı seramik kaplama"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"ceramic_coating","maxPrice":3000}},"tags":["budget"]}
+{"id":"F017","cat":"budget","turns":[{"u":"150 TL altı aplikatör"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"applicators","maxPrice":150}},"tags":["budget"]}
+{"id":"F018","cat":"budget","turns":[{"u":"1000-3000 TL arası ph nötr şampuan"}],"exp":{"tool":"searchByPriceRange","params":{"templateSubType":"ph_neutral_shampoo","minPrice":1000,"maxPrice":3000}},"tags":["budget","filter"]}
+{"id":"F019","cat":"budget","turns":[{"u":"en ucuz polisaj pedi"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"polishing_pad","sortDirection":"asc"}},"tags":["budget"]}
+{"id":"F020","cat":"budget","turns":[{"u":"600 TL üzeri brushes"}],"exp":{"tool":"searchByPriceRange","params":{"templateGroup":"brushes","minPrice":600}},"tags":["budget"]}
+{"id":"G001","cat":"compare","turns":[{"u":"GYEON Bathe ile FRA-BER Bathe arasındaki fark"}],"exp":{"tool_calls_min":2,"must_mention_both":["GYEON","FRA-BER"],"format":"comparison"},"tags":["compare"]}
+{"id":"G002","cat":"compare","turns":[{"u":"CanCoat ile Mohs EVO karşılaştır"}],"exp":{"tool_calls_min":2,"must_mention_both":["CanCoat","Mohs"]},"tags":["compare","ceramic"]}
+{"id":"G003","cat":"compare","turns":[{"u":"Bathe vs Bathe+ farkı"}],"exp":{"tool_calls_min":2,"must_mention_both":["Bathe","Bathe+"]},"tags":["compare"]}
+{"id":"G004","cat":"compare","turns":[{"u":"Q2-LSE50M ile Q2-VE20M farkı"}],"exp":{"tool_calls_min":2,"must_mention_both":["Q2-LSE50M","Q2-VE20M"]},"tags":["compare"]}
+{"id":"G005","cat":"compare","turns":[{"u":"Iron remover seçenekleri karşılaştır"}],"exp":{"templateSubType":"iron_remover","tool":"searchProducts","comparison_table":true},"tags":["compare"]}
+{"id":"G006","cat":"compare","turns":[{"u":"PPF Lift ile PPF Slip ne fark"}],"exp":{"tool_calls_min":2,"must_mention_both":["Lift","Slip"]},"tags":["compare","ppf"]}
+{"id":"G007","cat":"compare","turns":[{"u":"Trim EVO ile Q Preserve karşılaştır"}],"exp":{"tool_calls_min":2,"must_mention_both":["Trim","Preserve"]},"tags":["compare","trim"]}
+{"id":"G008","cat":"compare","turns":[{"u":"Wetcoat ve Bathe arasındaki temel fark nedir"}],"exp":{"tool_calls_min":2,"must_mention_both":["Wetcoat","Bathe"],"hint":"farklı sub_type"},"tags":["compare"]}
+{"id":"G009","cat":"compare","turns":[{"u":"GYEON Bathe ile INNOVACAR S2 Foamy"}],"exp":{"tool_calls_min":2,"must_mention_both":["Bathe","Foamy"]},"tags":["compare","brand"]}
+{"id":"G010","cat":"compare","turns":[{"u":"Mohs EVO ile MTEL EVO farkı"}],"exp":{"tool_calls_min":2,"must_mention_both":["Mohs","MTEL"]},"tags":["compare","ceramic"]}
+{"id":"G011","cat":"compare","turns":[{"u":"DA polisher ile rotary polisher farkı"}],"exp":{"templateGroup":"polisher_machine","hint":"genel açıklama veya 2 sub_type karşılaştır"},"tags":["compare","polisher"]}
+{"id":"G012","cat":"compare","turns":[{"u":"foam pad vs wool pad"}],"exp":{"templateGroup":"polishing_pad","hint":"sub_type karşılaştır"},"tags":["compare","pad"]}
+{"id":"G013","cat":"compare","turns":[{"u":"vent clip ile sprey parfüm farkı"}],"exp":{"templateGroup":"fragrance","hint":"2 sub_type karşılaştır"},"tags":["compare","fragrance"]}
+{"id":"G014","cat":"compare","turns":[{"u":"Leather Cleaner Natural ile Strong farkı"}],"exp":{"tool_calls_min":2,"must_mention_both":["Natural","Strong"]},"tags":["compare","leather"]}
+{"id":"G015","cat":"compare","turns":[{"u":"Bathe 1 lt vs 4 lt fiyat ve avantaj"}],"exp":{"sku":"Q2M-BYA4000M","variant_compare":true},"tags":["compare","variant"]}
+{"id":"H001","cat":"related","turns":[{"u":"GYEON Bathe ile birlikte ne kullanmalıyım"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_with"},"tags":["related","use_with"]}
+{"id":"H002","cat":"related","turns":[{"u":"Q2-CCE200M öncesi ne uygulamalıyım"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_before"},"tags":["related","use_before"]}
+{"id":"H003","cat":"related","turns":[{"u":"Mohs EVO sonrası bakım için ne lazım"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_after"},"tags":["related","use_after"]}
+{"id":"H004","cat":"related","turns":[{"u":"Q2-CCE200M alternatifi var mı"}],"exp":{"tool":"getRelatedProducts","relation_type":"alternatives"},"tags":["related","alt"]}
+{"id":"H005","cat":"related","turns":[{"u":"Bathe için aksesuar"}],"exp":{"tool":"getRelatedProducts","relation_type":"accessories"},"tags":["related","acc"]}
+{"id":"H006","cat":"related","turns":[{"u":"PPF Slip ile beraber kullanılabilecek"}],"exp":{"tool":"getRelatedProducts","sku":"Q2M-PPFSL4000M","relation_type":"use_with"},"tags":["related","ppf"]}
+{"id":"H007","cat":"related","turns":[{"u":"Q2-MLE100M öncesinde Prep gerekir mi"}],"exp":{"tool_any":["getRelatedProducts","searchFaq"]},"tags":["related","prep"]}
+{"id":"H008","cat":"related","turns":[{"u":"Iron remover ile birlikte"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_with"},"tags":["related","iron"]}
+{"id":"H009","cat":"related","turns":[{"u":"polisaj pasta sonrası ne uygulanır"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_after"},"tags":["related","polish"]}
+{"id":"H010","cat":"related","turns":[{"u":"Camper Wash karavan şampuanı ile ne kullanılır"}],"exp":{"tool":"getRelatedProducts","sku":"701851","relation_type":"use_with"},"tags":["related","camper"]}
+{"id":"H011","cat":"related","turns":[{"u":"Trim EVO için aplikatör"}],"exp":{"tool":"getRelatedProducts","sku":"Q2-TRE30M","relation_type":"accessories"},"tags":["related","trim"]}
+{"id":"H012","cat":"related","turns":[{"u":"clay bar sonrası şampuan"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_after"},"tags":["related","clay"]}
+{"id":"H013","cat":"related","turns":[{"u":"foam lance ile uyumlu şampuanlar"}],"exp":{"tool_any":["getRelatedProducts","searchProducts"],"hint":"foam_lance dilution"},"tags":["related","foam"]}
+{"id":"H014","cat":"related","turns":[{"u":"GYEON LeatherCleaner ile birlikte"}],"exp":{"tool":"getRelatedProducts","relation_type":"use_with"},"tags":["related","leather"]}
+{"id":"H015","cat":"related","turns":[{"u":"Bathe alternatifleri"}],"exp":{"tool":"getRelatedProducts","relation_type":"alternatives"},"tags":["related","alt"]}

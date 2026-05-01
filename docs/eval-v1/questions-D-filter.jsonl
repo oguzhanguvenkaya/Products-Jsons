@@ -1,0 +1,30 @@
+{"id":"D001","cat":"filter","turns":[{"u":"asidik şampuan istiyorum"}],"exp":{"tool":"searchProducts","metaFilter_must":[{"key":"ph_category","op":"eq","value":"asidik"}]},"tags":["ph","filter"]}
+{"id":"D002","cat":"filter","turns":[{"u":"alkali şampuan"}],"exp":{"tool":"searchProducts","metaFilter_must":[{"key":"ph_category","op":"eq","value":"alkali"}]},"tags":["ph","filter"]}
+{"id":"D003","cat":"filter","turns":[{"u":"pH nötr şampuan"}],"exp":{"templateSubType":"ph_neutral_shampoo","not_metaFilter_ph_level":true,"hint":"SSOT - templateSubType yeter, ph_level numeric ekleme"},"tags":["ph","ssot"]}
+{"id":"D004","cat":"filter","turns":[{"u":"pH 7 olan şampuan"}],"exp":{"metaFilter_must":[{"key":"ph_level","op":"eq","value":7}]},"tags":["ph","numeric"]}
+{"id":"D005","cat":"filter","turns":[{"u":"pH 6-8 arası şampuan"}],"exp":{"metaFilter_must_any":[{"key":"ph_level","op":"gte","value":6},{"key":"ph_level","op":"lte","value":8}]},"tags":["ph","range"]}
+{"id":"D006","cat":"filter","turns":[{"u":"silikonsuz pasta"}],"exp":{"metaFilter_must":[{"key":"silicone_free","op":"eq","value":true}]},"tags":["silicone_free"]}
+{"id":"D007","cat":"filter","turns":[{"u":"SiO2 içerikli hızlı cila"}],"exp":{"metaFilter_must":[{"key":"contains_sio2","op":"eq","value":true}]},"tags":["contains_sio2"]}
+{"id":"D008","cat":"filter","turns":[{"u":"seramik katkılı şampuan"}],"exp":{"templateSubType_any":["ceramic_infused_shampoo"],"hint":"sub_type'a yönlendir"},"tags":["ceramic_infused"]}
+{"id":"D009","cat":"filter","turns":[{"u":"36 ay üzeri dayanıklı seramik"}],"exp":{"metaFilter_must":[{"key":"durability_months","op":"gte","value":36}]},"tags":["durability"]}
+{"id":"D010","cat":"filter","turns":[{"u":"3 yıl dayanıklı kaplama"}],"exp":{"metaFilter_must":[{"key":"durability_months","op":"gte","value":36}]},"tags":["durability"]}
+{"id":"D011","cat":"filter","turns":[{"u":"30000 km dayanıklı kaplama"}],"exp":{"metaFilter_must":[{"key":"durability_km","op":"gte","value":30000}]},"tags":["durability_km"]}
+{"id":"D012","cat":"filter","turns":[{"u":"1 lt'lik şampuan"}],"exp":{"metaFilter_must":[{"key":"volume_ml","op":"gte","value":1000}]},"tags":["volume"]}
+{"id":"D013","cat":"filter","turns":[{"u":"5 lt şampuan"}],"exp":{"metaFilter_must":[{"key":"volume_ml","op":"eq","value":5000}],"hint":"5 lt = 5000 ml"},"tags":["volume"]}
+{"id":"D014","cat":"filter","turns":[{"u":"PPF folyo üzerinde güvenli şampuan"}],"exp":{"metaFilter_must_any":[{"key":"target_surfaces","op":"regex","value":"ppf"}],"hint":"PPF için target_surfaces"},"tags":["ppf"]}
+{"id":"D015","cat":"filter","turns":[{"u":"seramik kaplama üzerinde güvenli şampuan"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"seramik kaplama"}]},"tags":["compatibility"]}
+{"id":"D016","cat":"filter","turns":[{"u":"alüminyum yüzeye uygun şampuan"}],"exp":{"metaFilter_must":[{"key":"target_surfaces","op":"regex","value":"alüminyum"}],"hint":"substrate_safe deprecated, target_surfaces"},"tags":["target_surfaces"]}
+{"id":"D017","cat":"filter","turns":[{"u":"deri yüzey için temizleyici"}],"exp":{"metaFilter_must":[{"key":"target_surfaces","op":"regex","value":"deri"}]},"tags":["target_surfaces"]}
+{"id":"D018","cat":"filter","turns":[{"u":"VOC-free şampuan"}],"exp":{"metaFilter_must":[{"key":"voc_free","op":"eq","value":true}]},"tags":["voc_free"]}
+{"id":"D019","cat":"filter","turns":[{"u":"araç başına 25 ml tüketen kaplama"}],"exp":{"metaFilter_must":[{"key":"consumption_per_car_ml","op":"lte","value":25}]},"tags":["consumption"]}
+{"id":"D020","cat":"filter","turns":[{"u":"1.5 lt sprayer tankı"}],"exp":{"metaFilter_must":[{"key":"capacity_ml","op":"gte","value":1500}],"templateGroup":"sprayers_bottles"},"tags":["capacity"]}
+{"id":"D021","cat":"filter","turns":[{"u":"heavy cut katı pasta"}],"exp":{"templateSubType":"solid_compound","metaFilter_must":[{"key":"purpose","op":"eq","value":"heavy_cut"}]},"tags":["solid_compound"]}
+{"id":"D022","cat":"filter","turns":[{"u":"alüminyum jant katı pasta"}],"exp":{"templateSubType":"solid_compound","metaFilter_must":[{"key":"target_surfaces","op":"regex","value":"alüminyum"}]},"tags":["solid_compound"]}
+{"id":"D023","cat":"filter","turns":[{"u":"polisaj makinesi (aksesuar değil)"}],"exp":{"templateGroup":"polisher_machine","metaFilter_must":[{"key":"product_type","op":"eq","value":"machine"}]},"tags":["product_type"]}
+{"id":"D024","cat":"filter","turns":[{"u":"polisaj tabanlığı"}],"exp":{"templateGroup":"polisher_machine","metaFilter_must":[{"key":"product_type","op":"eq","value":"accessory"}]},"tags":["accessory"]}
+{"id":"D025","cat":"filter","turns":[{"u":"rotary makineli polish pad"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"rotary"}]},"tags":["machine_compat"]}
+{"id":"D026","cat":"filter","turns":[{"u":"orbital makineli pad"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"orbital"}]},"tags":["machine_compat"]}
+{"id":"D027","cat":"filter","turns":[{"u":"Karcher K serisi uyumlu foam lance"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"Karcher"}]},"tags":["equipment"]}
+{"id":"D028","cat":"filter","turns":[{"u":"FLEX makineli backing plate"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"FLEX"}]},"tags":["equipment"]}
+{"id":"D029","cat":"filter","turns":[{"u":"mat boya güvenli wax remover"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"mat boya"}]},"tags":["compat","mat"]}
+{"id":"D030","cat":"filter","turns":[{"u":"boyahane güvenli pasta"}],"exp":{"metaFilter_must":[{"key":"compatibility","op":"regex","value":"boyahane güvenli"}]},"tags":["compat","bodyshop"]}
