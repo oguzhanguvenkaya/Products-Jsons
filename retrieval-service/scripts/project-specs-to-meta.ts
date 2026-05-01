@@ -29,6 +29,8 @@ const SCALAR_KEYS = [
   'contains_sio2',
   // Phase 1.1.13B.1: 6-enum canonical TR
   'application_method',
+  // Phase 1.1.13B.2: scent canonical / fragrance neutral fill
+  'scent',
 ];
 
 // Array key'ler: pipe-separated value_text, regex ile aranır
@@ -56,6 +58,8 @@ const STALE_KEYS = [
   'features',
   // Phase 1.1.13B.1: idempotent re-project
   'application_method',
+  // Phase 1.1.13B.2: idempotent re-project
+  'scent',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);
@@ -157,7 +161,7 @@ console.log(`✓ Projection: ${scalarCount} scalar + ${arrayCount} array entry`)
 const verify = await sql`
   SELECT key, COUNT(*) FROM product_meta
   WHERE key IN (
-    'product_type','purpose','compatibility','substrate_safe','target_surfaces',
+    'product_type','purpose','application_method','scent','compatibility','substrate_safe','target_surfaces',
     'consumption_per_car_ml','volume_ml','durability_months',
     'rating_durability','rating_beading','rating_self_cleaning'
   )
