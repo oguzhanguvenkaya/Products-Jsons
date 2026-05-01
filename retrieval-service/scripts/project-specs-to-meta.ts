@@ -30,7 +30,8 @@ const SCALAR_KEYS = [
 ];
 
 // Array key'ler: pipe-separated value_text, regex ile aranır
-const ARRAY_KEYS = ['target_surfaces', 'compatibility', 'substrate_safe', 'surface', 'features'];
+// Phase 1.1.13A: surface deprecated (target_surfaces'a merge), features filter dışı (snippet only)
+const ARRAY_KEYS = ['target_surfaces', 'compatibility', 'substrate_safe'];
 
 const STALE_KEYS = [
   // Phase 1 stale legacy keys
@@ -47,6 +48,10 @@ const STALE_KEYS = [
   'contains_sio2',
   // Phase 1.1.11 Faz D: target_surface kolonu silindi, eski EAV row'larını da temizle
   'target_surface',
+  // Phase 1.1.13A: surface → target_surfaces merge, deprecated
+  'surface',
+  // Phase 1.1.13A: features filter dışı (snippet only, regex anlamsız)
+  'features',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);

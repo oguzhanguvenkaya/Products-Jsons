@@ -620,15 +620,15 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 | **"PPF üzerinde güvenli / PPF için şampuan"** | \`[{key:'target_surfaces', op:'regex', value:'ppf'}]\` (ARRAY — şampuanların target_surfaces'ında 'paint' VE 'ppf' birlikte) |
 | **"seramik üzerinde güvenli"** | \`[{key:'compatibility', op:'regex', value:'ceramic_coating'}]\` (top_coat / quick_detailer için, target_surfaces paint + ceramic_coating spectaki) |
 | **"alüminyum/fiberglass için (jant temizleyici, APC vb.)"** | \`[{key:'substrate_safe', op:'regex', value:'aluminum'}]\` (ARRAY) |
-| **"deri yüzey için"** | \`[{key:'target_surfaces', op:'regex', value:'leather'}]\` |
+| **"deri yüzey için"** | \`[{key:'target_surfaces', op:'regex', value:'deri'}]\` |
 | **"polisaj makinesi (aksesuar değil)"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'machine'}]\` |
 | **"polisaj tabanlığı / yedek parça"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'accessory'}]\` |
-| **"alüminyum / paslanmaz / krom için katı pasta"** (industrial_products) | \`templateSubType='solid_compound'\` + \`[{key:'surface', op:'regex', value:'aluminum'}]\` (industrial için **\`surface\` key, regex op**) |
+| **"alüminyum / paslanmaz / krom için katı pasta"** (industrial_products) | \`templateSubType='solid_compound'\` + \`[{key:'target_surfaces', op:'regex', value:'alüminyum'}]\` (Türkçe canonical: alüminyum, krom, paslanmaz çelik, pirinç, zamak) |
 | **"katı pasta heavy/medium/finish/super finish"** | \`templateSubType='solid_compound'\` + \`[{key:'purpose', op:'eq', value:'heavy_cut'}]\` (purpose: heavy_cut\|medium_cut\|finish\|super_finish) |
-| **"metal cila"** (genel — alüminyum/krom/paslanmaz/pirinç beraber) | \`templateSubType='solid_compound'\` + query="metal cilası" — surface'da "metal" YAZILMAZ, spesifik metal isimleri var (aluminum, brass, chrome, stainless_steel, zamak). Surface filter eklemezsen tüm 11 katı pasta döner. |
+| **"metal cila"** (genel — alüminyum/krom/paslanmaz/pirinç beraber) | \`templateSubType='solid_compound'\` + query="metal cilası" — Türkçe canonical metal isimleri (alüminyum, pirinç, krom, paslanmaz çelik, zamak) target_surfaces'ta. Filter eklemezsen tüm 11 katı pasta döner. |
 
 **KRİTİK — operator kullanımı:**
-- **ARRAY key'ler (target_surfaces, compatibility, substrate_safe, surface, features)** → \`op:'regex'\` (\`contains\` DESTEKLENMEZ, regex value_text içinde substring match yapar)
+- **ARRAY key'ler (target_surfaces, compatibility, substrate_safe)** → \`op:'regex'\` (\`contains\` DESTEKLENMEZ, regex value_text içinde substring match yapar)
 - **SCALAR string key'ler (product_type, purpose, ph_tolerance)** → \`op:'eq'\`
 - **Numeric (ph_level, durability_months, volume_ml, vs.)** → \`op:'eq'/'gte'/'lte'/'gt'/'lt'\`
 
