@@ -70,6 +70,24 @@ const STALE_KEYS = [
   // Phase 1.1.13E: scope hijyeni sonrası 214 ürünün eski target_surfaces row'ları
   // silinsin (specs - 'target_surfaces' yapıldı, INSERT olmaz). Idempotent re-project.
   'target_surfaces',
+  // Phase 1.1.13D: 32 X_safe/compat key SİL (compat/target merge sonrası idempotent re-project)
+  // A. NULL ağırlıklı (5)
+  'safe_on_screens', 'safe_on_surfaces', 'compatible_with_ceramic_coatings',
+  'irl_safe', 'glass_safe',
+  // B. TRUE→compat merge (18)
+  'ppf_safe', 'safe_on_ppf', 'coating_safe', 'safe_on_paint',
+  'safe_on_plastic', 'plastic_safe', 'safe_on_tint',
+  'mat_safe', 'matte_safe', 'tarpaulin_safe', 'osmosis_compatible',
+  'substrate_safe',
+  'bodyshop_safe', 'safe_for_soft_paint', 'safety_edge',
+  'child_pet_safe', 'scratch_safe', 'wet_sanding_safe',
+  // C. target'a merge (3)
+  'safe_for', 'safe_surfaces', 'compatible_surfaces',
+  // D. compat free-text (6 — machine_compatibility yeni)
+  'compatible_device', 'machine_compatible', 'compatible_machine',
+  'compatible_product', 'compatible_with', 'machine_compatibility',
+  // Phase 1.1.13D: compatibility canonical normalize için STALE
+  'compatibility',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);

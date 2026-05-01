@@ -162,10 +162,9 @@ export const searchProducts = new Autonomous.Tool({
                 "volume_ml (içerik), capacity_ml (sprayer tankı), " +
                 "consumption_per_car_ml (araç başı tüketim), " +
                 "target_surfaces (pipe-separated Türkçe canonical: 'boya|cam|deri|ppf|jant|...'), " +
-                "compatibility (array: ceramic_coating, ppf — üzerine uygulanabilir), " +
-                "substrate_safe (array: aluminum, fiberglass, plexiglass), " +
+                "compatibility (array Türkçe canonical: 'seramik kaplama', 'ppf', 'vinil', 'boya', 'plastik', 'mat boya', 'cam filmi', 'branda', 'boyahane güvenli', 'yumuşak boya güvenli', 'çocuk evcil güvenli', 'çizik yapmaz', 'ıslak zımpara', 'rotary', 'orbital', 'makine' vb. — üzerinde güvenli/uyumlu yüzey/folyo/makine; aksesuar ürünleri için free-text marka/seri uyumu: 'Karcher K Serisi', 'FLEX PXE 80', 'tornador', 'IK 1.5/2 litre tanklar' vb.), " +
                 "product_type (machine, accessory, part — polisher_machine/sprayers_bottles için), " +
-                "machine_compatibility, hardness",
+                "hardness",
             ),
           op: z
             .enum(['eq', 'gte', 'lte', 'gt', 'lt', 'regex'])
@@ -194,17 +193,23 @@ export const searchProducts = new Autonomous.Tool({
           "- '25 kg / 5 lt şampuan' → [{key:'volume_ml', op:'eq', value:25000}] (kg→ml ×1000, 1:1 yaklaşım)\n" +
           "- '1.5 L sprayer tankı' → [{key:'capacity_ml', op:'gte', value:1500}]\n" +
           "- 'PPF üzerinde güvenli / PPF için şampuan' → [{key:'target_surfaces', op:'regex', value:'ppf'}] (ARRAY key, 'regex' kullan — 'contains' DESTEKLENMİYOR)\n" +
-          "- 'seramik üzerinde güvenli' → [{key:'compatibility', op:'regex', value:'ceramic_coating'}]\n" +
-          "- 'alüminyum jant için' → [{key:'substrate_safe', op:'regex', value:'aluminum'}]\n" +
+          "- 'seramik kaplama üzerinde güvenli şampuan' → [{key:'compatibility', op:'regex', value:'seramik kaplama'}]\n" +
+          "- 'PPF folyo üzerinde güvenli' → [{key:'compatibility', op:'regex', value:'ppf'}]\n" +
+          "- 'mat boya güvenli' → [{key:'compatibility', op:'regex', value:'mat boya'}]\n" +
+          "- 'boyahane güvenli pasta (silikonsuz)' → [{key:'compatibility', op:'regex', value:'boyahane güvenli'}]\n" +
+          "- 'rotary/orbital makine uyumlu pad' → [{key:'compatibility', op:'regex', value:'rotary'}] (veya 'orbital')\n" +
+          "- 'Karcher K serisi uyumlu foam lance' → [{key:'compatibility', op:'regex', value:'Karcher'}]\n" +
+          "- 'FLEX PXE 80 backing plate' → [{key:'compatibility', op:'regex', value:'FLEX'}]\n" +
+          "- 'alüminyum jant için (alüminyum yüzey)' → [{key:'target_surfaces', op:'regex', value:'alüminyum'}] (Phase 1.1.13D: substrate_safe deprecated, target_surfaces tutuyor)\n" +
           "- 'deri yüzey için' → [{key:'target_surfaces', op:'regex', value:'deri'}]\n" +
-          "- 'alüminyum/krom/paslanmaz katı pasta' → templateSubType='solid_compound' + [{key:'target_surfaces', op:'regex', value:'alüminyum'}] (jant temizleyici için 'substrate_safe')\n" +
+          "- 'alüminyum/krom/paslanmaz katı pasta' → templateSubType='solid_compound' + [{key:'target_surfaces', op:'regex', value:'alüminyum'}]\n" +
           "- 'heavy cut katı pasta' → templateSubType='solid_compound' + [{key:'purpose', op:'eq', value:'heavy_cut'}]\n" +
           "- 'polisaj makinesi (aksesuar değil)' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'machine'}]\n" +
           "- 'polisaj tabanlığı' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'accessory'}]\n\n" +
-          "**ARRAY key listesi (op:'regex' kullan):** target_surfaces, compatibility, substrate_safe\n" +
+          "**ARRAY key listesi (op:'regex' kullan):** target_surfaces, compatibility\n" +
           "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, ph_category (enum 'asidik'|'nötr'|'alkali'), durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
           "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.\n" +
-          "Array key'lerde (target_surfaces, compatibility, substrate_safe) " +
+          "Array key'lerde (target_surfaces, compatibility) " +
           "op:'regex' kullan ('contains' DESTEKLENMİYOR — schema reject eder).",
       ),
   }),

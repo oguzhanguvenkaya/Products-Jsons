@@ -376,7 +376,7 @@ Yanlış filter = 0 sonuç riski.
 Belirsiz örnekler:
 - "deri koruyucu" → leather_care + leather_dressing (ÖNCELİK), ceramic_coating + fabric_coating DE OLABİLİR
 - "kumaş koltuk koruyucu" → ceramic_coating + fabric_coating (FabricCoat) VEYA interior_cleaner
-- "jant temizleyici" → contaminant_solvers (iron_remover, wheel_iron_remover) — alüminyum jant için \`metaFilter[substrate_safe regex aluminum]\`
+- "jant temizleyici" → contaminant_solvers (iron_remover, wheel_iron_remover) — alüminyum jant için \`metaFilter[target_surfaces regex 'alüminyum']\` (Phase 1.1.13D: substrate_safe deprecated, target_surfaces tutuyor)
 - "polisaj makinesi" → \`polisher_machine\` + \`metaFilter[product_type=machine]\` (accessory/part karışmasın)
 - "yıkama eldiveni / kurulama havlusu" → \`wash_tools\` (microfiber DEĞİL artık)
 - **"GYEON Tire / Q Tire / Tire Express / lastik parlatıcı"** → \`templateGroup=tire_care\` + \`templateSubType=tire_dressing\` (\`tire_coating\` sub'ı YOK; \`ceramic_coating\` altında aramayı DENEMEK YASAK)
@@ -620,8 +620,13 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 | "ekonomik tüketim" / "1 araç başına az" | \`[{key:'consumption_per_car_ml', op:'lte', value:25}]\` |
 | "8+ kesim gücü pasta" | \`[{key:'cut_level', op:'gte', value:8}]\` |
 | **"PPF üzerinde güvenli / PPF için şampuan"** | \`[{key:'target_surfaces', op:'regex', value:'ppf'}]\` (ARRAY — şampuanların target_surfaces'ında 'boya' VE 'ppf' birlikte) |
-| **"seramik üzerinde güvenli"** | \`[{key:'compatibility', op:'regex', value:'ceramic_coating'}]\` (top_coat / quick_detailer için, compatibility'de ceramic_coating + target_surfaces'ta boya) |
-| **"alüminyum/fiberglass için (jant temizleyici, APC vb.)"** | \`[{key:'substrate_safe', op:'regex', value:'aluminum'}]\` (ARRAY) |
+| **"seramik kaplama üzerinde güvenli şampuan"** | \`[{key:'compatibility', op:'regex', value:'seramik kaplama'}]\` (Phase 1.1.13D: Türkçe canonical, eski ceramic_coating yerine) |
+| **"PPF folyo üzerinde güvenli kurulum"** | \`[{key:'compatibility', op:'regex', value:'ppf'}]\` |
+| **"mat boya güvenli temizleyici"** | \`[{key:'compatibility', op:'regex', value:'mat boya'}]\` |
+| **"boyahane güvenli pasta"** | \`[{key:'compatibility', op:'regex', value:'boyahane güvenli'}]\` (silikonsuz pasta) |
+| **"rotary/orbital makine uyumlu polishing pad"** | \`[{key:'compatibility', op:'regex', value:'rotary'}]\` (veya \`'orbital'\`) (Phase 1.1.13D: machine_compatibility compat'a merge) |
+| **"Karcher K serisi uyumlu foam lance"** | \`[{key:'compatibility', op:'regex', value:'Karcher'}]\` (free-text aksesuar uyumu) |
+| **"alüminyum yüzey için (substrate_safe deprecated)"** | \`[{key:'target_surfaces', op:'regex', value:'alüminyum'}]\` (Phase 1.1.13D: substrate_safe SİL, target_surfaces tutuyor) |
 | **"deri yüzey için"** | \`[{key:'target_surfaces', op:'regex', value:'deri'}]\` |
 | **"polisaj makinesi (aksesuar değil)"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'machine'}]\` |
 | **"polisaj tabanlığı / yedek parça"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'accessory'}]\` |
@@ -630,7 +635,7 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 | **"metal cila"** (genel — alüminyum/krom/paslanmaz/pirinç beraber) | \`templateSubType='solid_compound'\` + query="metal cilası" — Türkçe canonical metal isimleri (alüminyum, pirinç, krom, paslanmaz çelik, zamak) target_surfaces'ta. Filter eklemezsen tüm 11 katı pasta döner. |
 
 **KRİTİK — operator kullanımı:**
-- **ARRAY key'ler (target_surfaces, compatibility, substrate_safe)** → \`op:'regex'\` (\`contains\` DESTEKLENMEZ, regex value_text içinde substring match yapar)
+- **ARRAY key'ler (target_surfaces, compatibility)** → \`op:'regex'\` (\`contains\` DESTEKLENMEZ, regex value_text içinde substring match yapar)
 - **SCALAR string key'ler (product_type, purpose, ph_tolerance)** → \`op:'eq'\`
 - **Numeric (ph_level, durability_months, volume_ml, vs.)** → \`op:'eq'/'gte'/'lte'/'gt'/'lt'\`
 
@@ -640,7 +645,7 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 - Sadece SPESİFİK özellik sorulursa kullan. "silikonsuz" keyword → metaFilters ZORUNLU.
 - Generic sorgularda ("şampuan öner") metaFilters kullanMA.
 - Boş sonuç dönerse filter'ı gevşet (bir filter çıkar, tekrar dene).
-- **target_surfaces / compatibility / substrate_safe** array'dir — \`op:'regex'\` ile sorgula (\`contains\` DESTEKLENMEZ, schema reject eder).
+- **target_surfaces / compatibility** array'dir — \`op:'regex'\` ile sorgula (\`contains\` DESTEKLENMEZ, schema reject eder).
 
 ## ÖZELLİK DOĞRULAMA
 

@@ -47,8 +47,7 @@ export const getProductDetails = new Autonomous.Tool({
         "consumption_per_car_ml (sayı, araç başı tüketim — seramik kaplama default 25 ml/oto, motosiklet için volume_ml÷15), " +
         "dilution (nested: {ratio, bucket, foam_lance, pump_sprayer, manual} — boş alt-key'ler uydurma değildir), " +
         "target_surfaces (pipe-separated Türkçe canonical: 'boya|deri|kumaş|cam|ppf|...'), " +
-        "compatibility (array: ceramic_coating, ppf — üzerine uygulanabilir), " +
-        "substrate_safe (array: aluminum, fiberglass, plexiglass — zarar vermediği), " +
+        "compatibility (array Türkçe canonical: 'seramik kaplama', 'ppf', 'vinil', 'boya', 'plastik', 'mat boya', 'cam filmi', 'branda', 'boyahane güvenli', 'yumuşak boya güvenli', 'çocuk evcil güvenli', 'rotary', 'orbital', 'makine' vb. — üzerinde güvenli/uyumlu yüzey/folyo/makine; aksesuar için free-text marka/seri: 'Karcher K Serisi', 'FLEX PXE 80', 'tornador' vb. — Phase 1.1.13D consolidation: substrate_safe + 32 X_safe key birleşik), " +
         "product_type (machine|accessory|part — polisher_machine/sprayers_bottles ayrımı), " +
         "hardness (string, pazarlama iddiası), " +
         "ratings (object: {durability, beading, self_cleaning} üretici 1-5 skor). " +
