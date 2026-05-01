@@ -31,6 +31,7 @@ console.log(`Mapping: ${Object.keys(MAPPING).length} entry, ${UNMAPPED_SET.size}
 
 function parseField(v: unknown): string[] {
   if (!v) return [];
+  if (Array.isArray(v)) return v.map((x) => String(x).trim()).filter(Boolean);
   if (typeof v !== 'string') return [];
   if (v.trim().startsWith('[')) {
     try {

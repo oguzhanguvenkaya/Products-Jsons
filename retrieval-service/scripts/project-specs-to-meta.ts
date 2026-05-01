@@ -27,6 +27,8 @@ const SCALAR_KEYS = [
   // paint_protection_quick, glass_water_repellent gruplarında
   // "seramik katkılı X" sorgularında metaFilter için canonical EAV key
   'contains_sio2',
+  // Phase 1.1.13B.1: 6-enum canonical TR
+  'application_method',
 ];
 
 // Array key'ler: pipe-separated value_text, regex ile aranır
@@ -52,6 +54,8 @@ const STALE_KEYS = [
   'surface',
   // Phase 1.1.13A: features filter dışı (snippet only, regex anlamsız)
   'features',
+  // Phase 1.1.13B.1: idempotent re-project
+  'application_method',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);
@@ -153,7 +157,7 @@ console.log(`✓ Projection: ${scalarCount} scalar + ${arrayCount} array entry`)
 const verify = await sql`
   SELECT key, COUNT(*) FROM product_meta
   WHERE key IN (
-    'product_type','surface','purpose','compatibility','substrate_safe','target_surfaces',
+    'product_type','purpose','compatibility','substrate_safe','target_surfaces',
     'consumption_per_car_ml','volume_ml','durability_months',
     'rating_durability','rating_beading','rating_self_cleaning'
   )

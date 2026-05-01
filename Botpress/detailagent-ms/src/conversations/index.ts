@@ -367,7 +367,7 @@ Yanlış filter = 0 sonuç riski.
 - 25 template_group var (\`spare_part\` YOK — parts polisher_machine + sprayers_bottles altında).
 - **wash_tools** (yıkama eldiveni / drying_towel / foam_tool / towel_wash / bucket) — 15 ürün; microfiber DEĞİL.
 - **air_equipment** (air_blow_gun, tornador_gun, tornador_part) — eski "accessory" grubu.
-- **industrial_products/solid_compound** = Menzerna katı pasta (113GZ, P164, vb.). \`specs.purpose\` (heavy_cut|medium_cut|finish|super_finish) + \`specs.surface[]\` (aluminum, brass, chrome, stainless_steel, zamak, …) ile ayırt edilir. **abrasive_polish (sıvı pasta) ile farklı** — solid_compound katı/macun.
+- **industrial_products/solid_compound** = Menzerna katı pasta (113GZ, P164, vb.). \`specs.purpose\` (heavy_cut|medium_cut|finish|super_finish) + \`specs.target_surfaces[]\` (alüminyum, pirinç, krom, paslanmaz çelik, zamak, …) ile ayırt edilir. **abrasive_polish (sıvı pasta) ile farklı** — solid_compound katı/macun.
 - **marin_products** = marine_polish + marine_metal_cleaner + marine_surface_cleaner + marine_general_cleaner + marine_wood_care. interior_detailer / iron_remover / water_spot_remover / one_step_polish marin'de YOK.
 - **polishing_pad/wool_pad** = NPMW6555 (yün/keçe, microfiber DEĞİL).
 - **tire_coating** sub_type kalktı → tire_dressing (tire_care altında). **leather_coating** → fabric_coating (ceramic_coating altında).
@@ -617,8 +617,8 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 | "1.5 L sprayer tankı" | \`[{key:'capacity_ml', op:'gte', value:1500}]\` (sadece sprayers_bottles) |
 | "ekonomik tüketim" / "1 araç başına az" | \`[{key:'consumption_per_car_ml', op:'lte', value:25}]\` |
 | "8+ kesim gücü pasta" | \`[{key:'cut_level', op:'gte', value:8}]\` |
-| **"PPF üzerinde güvenli / PPF için şampuan"** | \`[{key:'target_surfaces', op:'regex', value:'ppf'}]\` (ARRAY — şampuanların target_surfaces'ında 'paint' VE 'ppf' birlikte) |
-| **"seramik üzerinde güvenli"** | \`[{key:'compatibility', op:'regex', value:'ceramic_coating'}]\` (top_coat / quick_detailer için, target_surfaces paint + ceramic_coating spectaki) |
+| **"PPF üzerinde güvenli / PPF için şampuan"** | \`[{key:'target_surfaces', op:'regex', value:'ppf'}]\` (ARRAY — şampuanların target_surfaces'ında 'boya' VE 'ppf' birlikte) |
+| **"seramik üzerinde güvenli"** | \`[{key:'compatibility', op:'regex', value:'ceramic_coating'}]\` (top_coat / quick_detailer için, compatibility'de ceramic_coating + target_surfaces'ta boya) |
 | **"alüminyum/fiberglass için (jant temizleyici, APC vb.)"** | \`[{key:'substrate_safe', op:'regex', value:'aluminum'}]\` (ARRAY) |
 | **"deri yüzey için"** | \`[{key:'target_surfaces', op:'regex', value:'deri'}]\` |
 | **"polisaj makinesi (aksesuar değil)"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'machine'}]\` |
