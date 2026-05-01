@@ -208,6 +208,7 @@ export const searchProducts = new Autonomous.Tool({
           "- 'polisaj tabanlığı' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'accessory'}]\n\n" +
           "**ARRAY key listesi (op:'regex' kullan):** target_surfaces, compatibility\n" +
           "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, ph_category (enum 'asidik'|'nötr'|'alkali'), durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
+          "**NOT (Phase 1.1.13E):** target_surfaces SADECE kimyasal/dokunucu ürünlerde anlamlı. fragrance/sprayers_bottles/polisher_machine/storage_accessories/air_equipment/product_sets/wash_tools(bucket+foam_tool+towel_wash)/ppf_tools(consumable+positioning_tool) gruplarında target_surfaces YOK → bu kategorilerde target_surfaces filter koyma, templateGroup yeterli.\n\n" +
           "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.\n" +
           "Array key'lerde (target_surfaces, compatibility) " +
           "op:'regex' kullan ('contains' DESTEKLENMİYOR — schema reject eder).",
