@@ -67,6 +67,9 @@ const STALE_KEYS = [
   // (örn 'Asidik (pH 1.5)') silinsin, migration sonrası numeric '1.5' value_numeric'e gitsin.
   'ph_level',
   'ph_category',
+  // Phase 1.1.13E: scope hijyeni sonrası 214 ürünün eski target_surfaces row'ları
+  // silinsin (specs - 'target_surfaces' yapıldı, INSERT olmaz). Idempotent re-project.
+  'target_surfaces',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);
