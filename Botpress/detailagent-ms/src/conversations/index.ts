@@ -182,7 +182,8 @@ Tool seçmeden ÖNCE kullanıcı sorgusunun NETLİK seviyesini değerlendir. Fil
 | **Numeric/puan SIRALAMA** ("en X", "top N", "en güçlü", "en az tüketen") | **rankBySpec** | sortKey + direction → yield Carousel (detay §SIRALAMA) |
 | **Fiyat SIRALAMA** ("en ucuz", "en pahalı") | **searchByPriceRange** | sortDirection + templateGroup → variant-aware sort |
 | Ürün arama / öneri | searchProducts | query + filter → yield Carousel |
-| Numeric FILTER ("36 ay üzeri", "pH 7", "asidik/alkali") | searchProducts + metaFilter | sıralama yok, filter |
+| Numeric FILTER ("36 ay üzeri", "pH 7", "pH 6-8 arası") | searchProducts + metaFilter | sıralama yok, filter |
+| Kategori FILTER ("asidik şampuan", "alkali ön yıkama") | searchProducts + metaFilter | \`ph_category eq\` enum (parse-safe) |
 | Nüanslı teknik/kullanım FAQ | searchFaq | "ıslak mı", "silikon içerir mi" |
 | Ürün detayı / spec | searchProducts → getProductDetails | SKU bul → tüm bilgi tek çağrıda |
 | Uygulama rehberi | searchProducts → getApplicationGuide | SKU bul → howToUse adımları |
@@ -608,8 +609,9 @@ Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kul
 | "silikonsuz" | \`[{key:'silicone_free', op:'eq', value:true}]\` |
 | "SiO2 içerikli" / "seramik katkılı" | \`[{key:'contains_sio2', op:'eq', value:true}]\` |
 | "VOC-free" / "Yeşil Seri" | \`[{key:'voc_free', op:'eq', value:true}]\` |
-| "pH nötr" | \`[{key:'ph_level', op:'gte', value:6},{key:'ph_level',op:'lte',value:7.5}]\` |
-| "asidik" / "alkali" | \`[{key:'ph_level', op:'lt', value:6}]\` (asidik) veya \`{op:'gt', value:8}\` (alkali) |
+| "pH nötr şampuan" | \`templateSubType='ph_neutral_shampoo'\` SSOT (Phase 1.1.10 — numeric ph_level filter EKLEME, Bathe/Camper dahil) |
+| "asidik" / "nötr" / "alkali" ürün | \`[{key:'ph_category', op:'eq', value:'asidik'}]\` (veya \`'nötr'\`/\`'alkali'\`) — enum filter, parse-safe |
+| "pH 7 olan" / "pH 6-8 arası" | \`[{key:'ph_level', op:'eq', value:7}]\` veya range \`gte\`/\`lte\` — numeric filter, sayısal istekler |
 | "3 yıl dayanıklı seramik" / "36 ay" | \`[{key:'durability_months', op:'gte', value:36}]\` |
 | "30.000 km dayanıklı" | \`[{key:'durability_km', op:'gte', value:30000}]\` |
 | "1 lt ve üstü konsantre" | \`[{key:'volume_ml', op:'gte', value:1000}]\` |

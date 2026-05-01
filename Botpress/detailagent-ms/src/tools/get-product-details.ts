@@ -39,7 +39,9 @@ export const getProductDetails = new Autonomous.Tool({
     templateSubType: z.string(),
     technicalSpecs: z.record(z.unknown()).describe(
       "Teknik specs JSON (Phase 1 canonical, 2026-04-25). Sık kullanılan alanlar: " +
-        "ph_level (number 1-14, ürün kendi pH'ı), ph_tolerance (string range, kaplama dayanım), " +
+        "ph_level (number 1-14, ürün kendi pH'ı — Phase 1.1.13C: pure numeric), " +
+        "ph_category (enum 'asidik'|'nötr'|'alkali' — Phase 1.1.13C, ph_level türevi), " +
+        "ph_tolerance (string range, kaplama dayanım), " +
         "durability_months (ay), durability_km (km, örn. 25000), " +
         "volume_ml (içerik), capacity_ml (sprayer tankı), capacity_usable_ml (pump sprayer güvenli), " +
         "consumption_per_car_ml (sayı, araç başı tüketim — seramik kaplama default 25 ml/oto, motosiklet için volume_ml÷15), " +

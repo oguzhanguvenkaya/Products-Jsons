@@ -31,6 +31,9 @@ const SCALAR_KEYS = [
   'application_method',
   // Phase 1.1.13B.2: scent canonical / fragrance neutral fill
   'scent',
+  // Phase 1.1.13C: ph_category enum (asidik|nötr|alkali) — bot 'asidik şampuan' sorguları
+  // için. ph_level numeric filter ile birlikte kullanılır (asidik enum vs pH 7 numeric).
+  'ph_category',
 ];
 
 // Array key'ler: pipe-separated value_text, regex ile aranır
@@ -60,6 +63,10 @@ const STALE_KEYS = [
   'application_method',
   // Phase 1.1.13B.2: idempotent re-project
   'scent',
+  // Phase 1.1.13C: idempotent re-project — eski dirty value_text row'lar
+  // (örn 'Asidik (pH 1.5)') silinsin, migration sonrası numeric '1.5' value_numeric'e gitsin.
+  'ph_level',
+  'ph_category',
 ];
 
 console.log(`✓ Stale key'leri sil (${STALE_KEYS.length} key)`);
@@ -161,7 +168,8 @@ console.log(`✓ Projection: ${scalarCount} scalar + ${arrayCount} array entry`)
 const verify = await sql`
   SELECT key, COUNT(*) FROM product_meta
   WHERE key IN (
-    'product_type','purpose','application_method','scent','compatibility','substrate_safe','target_surfaces',
+    'product_type','purpose','application_method','scent','ph_level','ph_category',
+    'compatibility','substrate_safe','target_surfaces',
     'consumption_per_car_ml','volume_ml','durability_months',
     'rating_durability','rating_beading','rating_self_cleaning'
   )

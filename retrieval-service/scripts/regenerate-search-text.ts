@@ -33,7 +33,17 @@ for (let i = 0; i < rows.length; i += CHUNK) {
     if (typeof targetSurfaces === 'string' && targetSurfaces.length > 0) {
       parts.push(`Yüzeyler: ${targetSurfaces.replace(/\|/g, ', ')}`);
     }
-    
+
+    // Phase 1.1.13C: pH alanları explicit (Object.entries slice(0,8) sırasına güvenme).
+    // Bot 'asidik/nötr/alkali' BM25 token'ı garanti olsun diye her ikisini de ekle.
+    const specs = r.specs as Record<string, unknown> | null;
+    if (specs) {
+      const phLevel = specs.ph_level;
+      if (typeof phLevel === 'number') parts.push(`pH: ${phLevel}`);
+      const phCat = specs.ph_category;
+      if (typeof phCat === 'string' && phCat.length > 0) parts.push(`pH kategori: ${phCat}`);
+    }
+
     // specs içinden anlamlı top key'ler (ilk 8 kısa key)
     if (r.specs && typeof r.specs === 'object') {
       const specEntries = Object.entries(r.specs as Record<string, unknown>)

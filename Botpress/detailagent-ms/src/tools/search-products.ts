@@ -155,7 +155,8 @@ export const searchProducts = new Autonomous.Tool({
             .string()
             .describe(
               "Meta alan anahtarı (Phase 1 canonical, 2026-04-25). Örnekler: " +
-                "silicone_free, voc_free, contains_sio2, ph_level (1-14, ürün pH'ı), " +
+                "silicone_free, voc_free, contains_sio2, ph_level (1-14 numeric, ürün pH'ı), " +
+                "ph_category (enum: 'asidik'|'nötr'|'alkali' — ph_level türevi, semantik filter), " +
                 "ph_tolerance (string range, kaplama dayanımı), cut_level, " +
                 "durability_months (number, ay), durability_km, " +
                 "volume_ml (içerik), capacity_ml (sprayer tankı), " +
@@ -184,7 +185,9 @@ export const searchProducts = new Autonomous.Tool({
         "Microservice meta EAV filtresi. SADECE KULLANICI AÇIKÇA ÖZELLİK " +
           "SORDUĞUNDA kullan. Phase 1 canonical key listesi (2026-04-25):\n" +
           "- 'silikonsuz' → [{key:'silicone_free', op:'eq', value:true}]\n" +
-          "- 'pH nötr şampuan' → [{key:'ph_level', op:'gte', value:6}, {key:'ph_level', op:'lte', value:7.5}]\n" +
+          "- 'pH nötr şampuan' → templateSubType='ph_neutral_shampoo' (SSOT, ph_level numeric EKLEME — Phase 1.1.10 kararı, Bathe/Camper dahil)\n" +
+          "- 'asidik / nötr / alkali ürün' → [{key:'ph_category', op:'eq', value:'asidik'}] (veya 'nötr'/'alkali') — enum filter, parse-safe (Phase 1.1.13C)\n" +
+          "- 'pH 7 olan' / 'pH 6-8 arası' → [{key:'ph_level', op:'eq', value:7}] veya range gte/lte — numeric filter, sadece sayısal istekler\n" +
           "- '3 yıl dayanıklı seramik' / '36 ay' → [{key:'durability_months', op:'gte', value:36}]\n" +
           "- '30000 km dayanıklı' → [{key:'durability_km', op:'gte', value:30000}]\n" +
           "- 'SiO2 içerikli' → [{key:'contains_sio2', op:'eq', value:true}]\n" +
@@ -199,7 +202,7 @@ export const searchProducts = new Autonomous.Tool({
           "- 'polisaj makinesi (aksesuar değil)' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'machine'}]\n" +
           "- 'polisaj tabanlığı' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'accessory'}]\n\n" +
           "**ARRAY key listesi (op:'regex' kullan):** target_surfaces, compatibility, substrate_safe\n" +
-          "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
+          "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, ph_category (enum 'asidik'|'nötr'|'alkali'), durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
           "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.\n" +
           "Array key'lerde (target_surfaces, compatibility, substrate_safe) " +
           "op:'regex' kullan ('contains' DESTEKLENMİYOR — schema reject eder).",
