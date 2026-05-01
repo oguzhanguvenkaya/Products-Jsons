@@ -7,3 +7,10 @@ bun.lockb
 .DS_Store
 *.log
 .fly/
+
+# Phase 1.1.10/11 geçici keşif çıktıları (raw scrape, audit JSON, proposals, csv)
+scripts/audit/
+scripts/_inspect-*.ts
+scripts/_audit-*.ts
+scripts/_per-sku-*.ts
+scripts/_phase-*-regenerate-*.ts
