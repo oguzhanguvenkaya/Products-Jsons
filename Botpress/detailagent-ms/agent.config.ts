@@ -4,8 +4,9 @@ import { z, defineConfig } from '@botpress/runtime';
  * CARCAREAİ — MTS Kimya Ürün Danışmanı
  *
  * Otomotiv detailing & profesyonel oto bakım ürünleri için Türkçe konuşan
- * ürün danışmanı. 622 ürün, 24 kategori, 9 marka (GYEON, Menzerna, FRA-BER,
- * Innovacar, MG PADS, Q1 Tapes, MX-PRO, SGCB, EPOCA).
+ * ürün danışmanı. MTS Kimya katalogundaki ürünler için arama, karşılaştırma,
+ * öneri ve uygulama rehberliği sağlar (canlı katalog/marka/kategori sayıları
+ * için microservice DB sorgusu — sayı hardcoded tutulmaz).
  *
  * Bot Studio'daki mevcut visual versiyonun TypeScript karşılığı.
  * Kapsam: SADECE ürün danışmanlığı (sipariş/kargo/iade kapsam dışı).
