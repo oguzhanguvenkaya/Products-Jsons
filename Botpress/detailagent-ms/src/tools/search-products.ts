@@ -114,19 +114,11 @@ export const searchProducts = new Autonomous.Tool({
       .optional()
       .describe(
         "Ürün adında MUTLAKA geçmesi gereken substring (case-insensitive). " +
-          "SADECE kullanıcı TAM model adını NET olarak yazdıysa kullan.\n\n" +
-          "✅ DOĞRU tek kelime: '400' (Menzerna 400), 'Bathe' (sade Bathe), 'Q2M-WYA' (SKU prefix).\n" +
-          "✅ DOĞRU multi-word/compound TAM MODEL: 'Gommanera Superlux' (Blue ile karıştırma), " +
-          "'Bathe+ Plus', 'Cure Matte', 'OdorRemover Pads', 'Mohs EVO'.\n\n" +
-          "❌ KULLANMA — marka tek başına: 'Gommanera' (Blue mu Superlux mu belirsiz) → exactMatch BOŞ bırak, vector search relevance'a güven.\n" +
-          "❌ KULLANMA — typo şüphesi: 'Bate' (Bathe yanlış yazımı) → exactMatch BOŞ. " +
-          "AMA vector search Bate'i Bathe'e yakalamayabilir; bu durumda Carousel yield ETME, " +
-          "instruction §ADIM 0 typo recovery kuralına göre Choice teyit zorunlu (kullanıcı onayı sonrası exactMatch=tahmin ile re-tool).\n" +
-          "❌ KULLANMA — hacim içeren ifade: '3800 250ml', 'Superlux 5 litre' → hacim exactMatch'e GİTMEZ. " +
-          "Hacmi ayrı ele al: sizeOptions/metaFilter ile.\n\n" +
-          "KURAL: Şüphede exactMatch BOŞ — vector search semantically/fuzzy yakalar. " +
-          "exactMatch boş döndüyse, exactMatch'i kaldırıp aynı sorguyu sadece query+templateGroup ile dene; " +
-          "yine boşsa kullanıcıya açıkça yokluğu söyle ve alternatif sun.",
+          "SADECE kullanıcı TAM model adını net yazdıysa kullan (örn. 'Bathe', " +
+          "'Gommanera Superlux', 'Cure Matte'). Marka tek başına / typo şüphesi / " +
+          "hacim içeren ifade → BOŞ bırak (instruction §ADIM 0 typo recovery + " +
+          "filter strictness graduation kurallarına bak). Boş dönerse exactMatch'i " +
+          "kaldırıp query+templateGroup ile re-tool yap.",
       ),
     mainCat: z.string().nullable().optional().describe('DEPRECATED — templateGroup kullan.'),
     subCat: z.string().nullable().optional().describe('DEPRECATED — templateGroup + templateSubType kullan.'),
