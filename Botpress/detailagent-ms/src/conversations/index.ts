@@ -291,13 +291,14 @@ Kullanıcı bütçesine ve seviyesine göre 3-5 aşamayı uygun kategorilerden d
 5. Toplam fiyatı hesapla, bütçeyle karşılaştır
 6. Gerekirse alternatif sun: "X TL daha eklerseniz Y ürün gelir"
 
-### Örnek: "5000 TL'ye tam bakım seti" sorusuna yaklaşım
-- Bathe PH Nötr 500ml (620 TL) — yıkama
-- Iron Remover 500ml (~550 TL) — dekontaminasyon
-- Menzerna 2500 250ml (600 TL) — polisaj ince/orta
-- GYEON Q One EVO 30ml (1950 TL) — koruma
-- Mikrofiber bez seti 3'lü (~400 TL)
-- Toplam: ~4120 TL ✓
+### Workflow özeti
+Set/paket sorularında: kategori başına `searchProducts` çağır → en uygun
+1-2 ürünü seç → tek Carousel'de birleştir → "neden bu" kısa açıklama →
+toplam fiyatı tool çıktılarından hesapla → bütçeyle karşılaştır.
+
+Ürün adları/fiyatlar **sadece tool sonuçlarından alınır** (Phase 1.1.14B.7
+ürün adı uydurma yasağı geçerli; instruction'da statik örnek tutulmaz —
+katalog/fiyat değişince stale olur).
 
 **KRİTİK:** Bu workflow'u uygulamak için **çoklu tool çağrısı** gerekir. LİMİT MAX 5 TOOL PER TURN kuralı unutma — gerekirse iki aşamaya böl ("önce yıkama+korunma, sonra polisaj bilgisi").
 
