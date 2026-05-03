@@ -27,7 +27,7 @@ MTS Kimya CARCAREAİ — Türkçe ürün danışmanı. Botpress LLMz Autonomous 
 
 ```ts
 state: z.object({
-  lastProducts: array<{sku, productName, brand, price}>  // max 5, multi-turn context
+  lastProducts: array<{sku, productName, brand, price, sizeOptions?, sizeSummary?}>  // max 8 (kod truth: src/conversations/index.ts onAfterTool slice(0,8)), multi-turn context
   lastFocusSku: string | null                            // searchFaq SKU-filtre
 })
 ```
