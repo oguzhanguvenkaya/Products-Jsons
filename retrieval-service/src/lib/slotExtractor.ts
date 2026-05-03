@@ -189,17 +189,32 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
   },
   // Phase 2R: drying_towel sub_type microfiber'dan wash_tools'a taşındı (yeni entry alttaki wash_tools bölümünde)
   // --- Phase 2R: interior_cleaner hub ---
+  // Phase 1.1.13K: leather_cleaner ÖNCE — saf-deri ifadeleri fabric_leather'a düşmesin.
   {
-    canonical: 'fabric_leather_cleaner',
+    canonical: 'leather_cleaner',
     templateGroup: 'interior_cleaner',
     patterns: [
-      'kumas temizleyici', 'kumaş temizleyici', 'deri temizleyici',
-      'koltuk temizleyici', 'ic mekan temizleyici', 'iç mekan temizleyici',
-      'dosemesi temizleyici', 'döşeme temizleyici', 'tekstil temizleyici',
+      'leather cleaner', 'leathercleaner',
+      'saf deri temizleyici', 'sadece deri temizleyici',
+      'napa deri temizleyici', 'anilin deri temizleyici',
     ],
   },
   {
-    canonical: 'interior_apc',
+    canonical: 'fabric_leather_cleaner',
+    templateGroup: 'interior_cleaner',
+    // Phase 1.1.13K: generic 'deri temizleyici' kaldırıldı — semantic search iki aileyi de görsün.
+    // Sadece kombine/kumaş/döşeme ifadeleri yakalar.
+    patterns: [
+      'kumas temizleyici', 'kumaş temizleyici',
+      'koltuk temizleyici', 'ic mekan temizleyici', 'iç mekan temizleyici',
+      'dosemesi temizleyici', 'döşeme temizleyici', 'tekstil temizleyici',
+      'deri ve kumas temizleyici', 'deri ve kumaş temizleyici',
+      'kumas ve deri temizleyici', 'kumaş ve deri temizleyici',
+    ],
+  },
+  // Phase 1.1.13L: canonical interior_apc → multi_surface_apc (DB sub_type Phase 2R rename).
+  {
+    canonical: 'multi_surface_apc',
     templateGroup: 'interior_cleaner',
     patterns: [
       'all purpose cleaner', 'apc', 'cok amacli temizleyici', 'çok amaçlı temizleyici',
@@ -214,10 +229,10 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       'torpido parlatici', 'torpido parlatıcı', 'plastik bakim', 'plastik bakım',
     ],
   },
-  // --- Phase 2R: leather_care (tire_dressing paraleli) ---
+  // Phase 1.1.13K: leather_care template_group kalktı, leather_dressing interior_cleaner altında.
   {
     canonical: 'leather_dressing',
-    templateGroup: 'leather_care',
+    templateGroup: 'interior_cleaner',
     patterns: [
       'deri besleyici', 'deri kremi', 'deri bakim', 'deri bakım',
       'deri koruyucu', 'leather cream', 'leather conditioner',
@@ -232,6 +247,23 @@ const SUB_TYPE_PATTERNS: ReadonlyArray<SubTypeMapping> = [
       'yuzey hazirlayici', 'yüzey hazırlayıcı', 'panel wipe', 'panel temizleyici',
       'ipa temizleyici', 'alkol bazli temizleyici', 'alkol bazlı temizleyici',
       'kaplama oncesi temizleyici', 'kaplama öncesi temizleyici', 'prep',
+    ],
+  },
+  // Phase 1.1.13K: water_spot_remover — su lekesi/kireç sealant ürünlerini elimine eder.
+  // Phase 1.1.13L: pattern coverage genişletildi — kullanıcı doğal Türkçe sorularda
+  // "su lekesi temizleyici" tam phrase'i nadir kullanır; "inatçı su lekesi", "su izleri"
+  // gibi compound varyantlar eklendi (tek başına "kireç" generic — false-positive risk).
+  {
+    canonical: 'water_spot_remover',
+    templateGroup: 'contaminant_solvers',
+    patterns: [
+      'su lekesi temizleyici', 'su lekesi cikarici', 'su lekesi çıkarıcı',
+      'kirec cozucu', 'kireç çözücü', 'kirec sokucu', 'kireç sökücü',
+      'water spot remover', 'water spot', 'su izi temizleyici',
+      'cam su lekesi', 'kirec lekesi', 'kireç lekesi',
+      // Phase 1.1.13L additions (compound only, length >= 7):
+      'su lekesi', 'su lekeleri', 'su izi', 'su izleri',
+      'inatci su lekesi', 'inatçı su lekesi',
     ],
   },
   // --- Phase 2R: tire_care / tire_dressing (tire_gel merged) ---
