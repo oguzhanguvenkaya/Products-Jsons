@@ -8,7 +8,7 @@ MTS Kimya CARCAREAİ — Türkçe ürün danışmanı. Botpress LLMz Autonomous 
 
 ## Mevcut durum (özet)
 
-- **Tool handler'lar microservice HTTP'ye cutover edildi** — `src/lib/retrieval-client.ts` üzerinden 6 tool retrieval-service'e POST atıyor
+- **Tool handler'lar microservice HTTP'ye cutover edildi** — `src/lib/retrieval-client.ts` üzerinden 7 tool retrieval-service'e POST atıyor
 - **Bot tarafında veri layer YOK** — Botpress Cloud Tables kullanılmıyor; tüm veri Supabase Postgres üzerinde, microservice arabuluyor
 - **Phase 1, 2R, 4 ve 19 TAMAMLANDI** — canonical key migration, taxonomy refactor, tool cutover, post-feedback fixes hepsi DB'ye uygulandı
 - **Phase 4.9 admin UI shipped** — sibling [admin-ui/](../../admin-ui/) Catalog Atelier (staging→commit workflow)
@@ -137,7 +137,7 @@ Son test verileri (2026-04-26 conv `KQ7JF4`): 6 mesaj, 0 timeout, 0 ERROR, siste
 | Klasör | Amaç |
 |---|---|
 | `src/conversations/` | Mesaj handler (channel: '*') |
-| `src/tools/` | 6 tool, hepsi HTTP client kullanıyor |
+| `src/tools/` | 7 tool, hepsi HTTP client kullanıyor |
 | `src/lib/` | retrieval-client.ts, env.ts |
 | `src/actions/`, `src/triggers/`, `src/workflows/` | (boş veya minimal) |
 | `agent.config.ts` | Agent config + bot.state |
@@ -162,7 +162,7 @@ Kurulum: `adk mcp:init --all`.
 | Phase 1 — Data layer | ✅ | Supabase 7 tablo + embedding |
 | Phase 2 — Microservice scaffold | ✅ | Hono + auth + LRU cache |
 | Phase 3 — Hybrid retrieval | ✅ | BM25 + vector + RRF (k=60) + slot + boost |
-| Phase 4 — Tool cutover | ✅ | 6 tool → HTTP client |
+| Phase 4 — Tool cutover | ✅ | 7 tool → HTTP client |
 | Phase 4.9 — Admin UI Catalog Atelier | ✅ | staging/commit workflow shipped |
 | Phase 1 (canonical keys) | ✅ | durability_months, volume_ml, target_surface[] vb. |
 | Phase 2R (taxonomy refactor) | ✅ | spare_part eridi, wash_tools yeni grup |
