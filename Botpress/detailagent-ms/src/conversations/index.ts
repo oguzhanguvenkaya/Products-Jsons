@@ -369,29 +369,35 @@ KARŞILAŞTIRMALI sorgu (en X, top N) için **rankBySpec** kullan (§SIRALAMA);
 getProductDetails'i N kez çağırma. FAQ yalnızca nüanslı kullanım/uyumluluk
 ("pH uyumlu mu" gibi) için.
 
-## searchFaq Tool Kullanımı
+## FAQ Tool Kullanım Politikası (TEK KURAL — Phase 1.1.14B.6)
 
-### SKU-aware FAQ çağrısı (ZORUNLU)
-Kullanıcı spesifik bir ürün hakkında soru soruyorsa searchFaq'a sku parametresi GEÇ:
-- state.lastFocusSku varsa → searchFaq({query, sku: state.lastFocusSku})
-- Yeni searchProducts sonucundan SKU biliyorsan → onu geç
-- Ürün belirsizse ve soru genel kategori hakkında ise → sku olmadan çağır
+### Karar Sırası (sıralı, ilk eşleşen uygulanır)
 
-Neden önemli: SKU filter'ı olmadan "Pure EVO 2 kat uygulanır mı?" sorusu
-Compound FAQ döndürebilir (yanlış ürün). SKU filter → sadece o ürünün FAQ'ları.
+1. **lastFocusSku VAR** → ÖNCE \`getProductDetails(sku)\` çağır, dönen \`faqs\` alanında
+   sorunun konusu eşleşen FAQ var mı bak (semantic match: "raf ömrü" / "uygulama" /
+   "uyumluluk" / "silikon içerir mi" gibi).
+   - **Eşleşme VARSA** → o FAQ cevabını paraphrase et. searchFaq ÇAĞIRMA.
+   - **Eşleşme YOKSA** veya FAQ cevabı boş/ilgisizse → \`searchFaq({query, sku: lastFocusSku})\`
+     fallback. SKU filter ile yanlış ürün cevabı gelmez.
 
-### Confidence'e göre davranış (KATI KURAL)
+2. **lastFocusSku YOK** ve soru genel/cross-product nüanslı (örn. "silikonsuz şampuan",
+   "ıslak yüzey kullanılır mı") → \`searchFaq({query})\` (genel semantik).
+
+3. **Aynı turda hem detail.faqs hem searchFaq ÇAĞIRMA** — redundant. Detail FAQ
+   yetersizse fallback'tir, paralel değil.
+
+### searchFaq Confidence Davranışı (KATI KURAL)
 
 - **confidence='high'** (≥0.6): Cevabı doğal Türkçe sun
-- **confidence='low'** (0.4-0.6): **UYDURMA YASAK** — cevabın içeriğine UYGULAMIYORSA (yanlış ürün, yanlış konu),
-  "Bu konuda net bilgim yok" de ve başka tool (getProductDetails.faqs) dene.
-  Sayısal teknik soruda SPEC'e git.
+- **confidence='low'** (0.4-0.6): **UYDURMA YASAK** — cevap içeriğin sorusuna UYGULAMIYORSA
+  (yanlış ürün, yanlış konu), "Bu konuda net bilgim yok" de.
+  Sayısal teknik soruda SPEC'e git (getProductDetails.technicalSpecs).
 - **confidence='none'** (<0.4): results BOŞ. "Bu konuda bilgim yok, bayiye sorun" de.
 
-### searchFaq vs getProductDetails.faqs seçimi
-- state.lastFocusSku BİLİNİYORSA: getProductDetails.faqs (SKU-filtered, hızlı) TERCİH ET
-- Ürün bilinmiyor: searchFaq (genel semantik)
-- Aynı turda İKİSİNİ BİRDEN çağırma (redundant)
+### Neden Detail FAQ ÖNCE
+- Detail FAQ SKU-filtered ve hızlı (cache'li product detay)
+- searchFaq vector arama maliyetli + yanlış ürün riski (SKU filter'sız)
+- Topic match basit kontrol (faqs[].question alanlarında keyword scan)
 
 ## template_group FILTER Kuralı
 
