@@ -18,18 +18,11 @@ import { retrievalClient } from '../lib/retrieval-client.ts';
 export const searchFaq = new Autonomous.Tool({
   name: 'searchFaq',
   description:
-    "FAQ koleksiyonunda semantic arama. ⚠️ KISITLI KULLANIM: Bu tool'u SADECE " +
-    "ürün bilinmiyor veya cross-product genel konuda kullan. " +
-    "\n\n❌ KULLANMA durumları (bu durumda getProductDetails kullan):" +
-    "\n - Spesifik bir ürün soruluyorsa (Pure EVO, CanCoat, Bathe vb.)" +
-    "\n - state.lastFocusSku DOLU ise (o ürünün tüm FAQ'ları getProductDetails.faqs'tan gelir)" +
-    "\n - Kullanıcı 'bu ürün' veya 'X ürünü' diyorsa" +
-    "\n\n✅ KULLAN durumları:" +
-    "\n - Kullanıcı bir ürün belirtmeden genel 'silikon içerir mi' / 'ıslak yüzey' soruyor" +
-    "\n - Cross-brand karşılaştırma 'hangi marka silikonsuz'" +
-    "\n - Marka-genel sorular (_BRAND:*, _CAT:* prefix'leri)" +
-    "\n\nSKU BİLİYORSAN sku parametresi ZORUNLU. SKU olmadan çağrı yanlış ürün " +
-    "cevabı riski taşır.",
+    "FAQ semantic arama. Kullanım instruction §FAQ Tool Kullanım Politikası'nda " +
+    "(detail-first cascade): lastFocusSku VAR → ÖNCE getProductDetails.faqs, " +
+    "topic eşleşmedi ise searchFaq({query, sku}) fallback. lastFocusSku YOK → " +
+    "genel cross-product/marka soruları için searchFaq({query}). SKU biliniyorsa " +
+    "sku parametresi GEÇ — yanlış ürün cevabı riski azalır.",
   input: z.object({
     query: z
       .string()
