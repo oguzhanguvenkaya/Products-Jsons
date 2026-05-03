@@ -128,22 +128,8 @@ export const searchProducts = new Autonomous.Tool({
           "exactMatch boş döndüyse, exactMatch'i kaldırıp aynı sorguyu sadece query+templateGroup ile dene; " +
           "yine boşsa kullanıcıya açıkça yokluğu söyle ve alternatif sun.",
       ),
-    mainCat: z
-      .string()
-      .nullable()
-      .optional()
-      .describe(
-        "LEGACY — templateGroup'u tercih et. Ana kategori substring ('DIŞ YÜZEY', " +
-          "'AKSESUAR', 'İÇ YÜZEY', 'MAKİNE-EKİPMAN', 'ENDÜSTRİYEL', 'MARİN').",
-      ),
-    subCat: z
-      .string()
-      .nullable()
-      .optional()
-      .describe(
-        "LEGACY — templateGroup + templateSubType'ı tercih et. Alt kategori " +
-          "substring eşleşmesi (ör: 'Yıkama Ürünleri').",
-      ),
+    mainCat: z.string().nullable().optional().describe('DEPRECATED — templateGroup kullan.'),
+    subCat: z.string().nullable().optional().describe('DEPRECATED — templateGroup + templateSubType kullan.'),
     limit: z
       .number()
       .int()
