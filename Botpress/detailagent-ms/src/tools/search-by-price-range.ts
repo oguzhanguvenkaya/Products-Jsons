@@ -14,7 +14,7 @@ import { retrievalClient } from '../lib/retrieval-client.ts';
  *
  * NOT: v6.2'de `$or` + `$regex` kombinasyonu Botpress API'de kırıldı
  * ("Unrecognized key(s) in object: 'c_5'"). Artık category param'ı
- * `template_group` üzerinde $eq filter kullanıyor. Değerler 25 custom
+ * `template_group` üzerinde $eq filter kullanıyor. Değerler 24 custom
  * kategoriden biri olmalı (searchProducts tool description'ında liste var).
  */
 export const searchByPriceRange = new Autonomous.Tool({
@@ -34,7 +34,7 @@ export const searchByPriceRange = new Autonomous.Tool({
       .string()
       .optional()
       .describe(
-        'searchProducts tool description\'ındaki 25 templateGroup değerinden biri ' +
+        'searchProducts tool description\'ındaki 24 templateGroup değerinden biri ' +
           '(ör. "ceramic_coating", "car_shampoo"). Türkçe etiket DEĞİL — enum string.',
       ),
     templateSubType: z

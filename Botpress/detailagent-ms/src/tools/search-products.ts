@@ -49,7 +49,6 @@ export const searchProducts = new Autonomous.Tool({
         'glass_cleaner_protectant',
         'industrial_products',
         'interior_cleaner',
-        'leather_care',
         'marin_products',
         'masking_tapes',
         'microfiber',
@@ -66,7 +65,7 @@ export const searchProducts = new Autonomous.Tool({
       .nullable()
       .optional()
       .describe(
-        "Custom chatbot kategorisi (EN ÖNEMLİ FİLTRE). 25 değerden biri. Kullanıcı ürün türünü " +
+        "Custom chatbot kategorisi (EN ÖNEMLİ FİLTRE). 24 değerden biri. Kullanıcı ürün türünü " +
           "söylediğinde MUTLAKA kullan.\n\n" +
           "KEYWORD TUZAK MAPPING — DİKKATLİ OKU:\n" +
           "• 'Seramik kaplama' → ceramic_coating (NOT glass_cleaner_protectant)\n" +
@@ -74,6 +73,7 @@ export const searchProducts = new Autonomous.Tool({
           "• 'Cam temizleyici' (seramik DEĞİL) → glass_cleaner_protectant\n" +
           "• 'Dekontaminasyon şampuanı' / 'decon şampuan' → car_shampoo + templateSubType='decon_shampoo' (NOT contaminant_solvers)\n" +
           "• 'Iron remover' / 'demir tozu sökücü' / 'kil bar' → contaminant_solvers\n" +
+          "• 'Su lekesi temizleyici / kireç çözücü / cam su lekesi' → contaminant_solvers + templateSubType='water_spot_remover' (sealant ürünleri ELENİR; sealant lekeyi önler, temizlemez)\n" +
           "• 'pH nötr şampuan' → car_shampoo + templateSubType='ph_neutral_shampoo'\n" +
           "• 'Foam / ön yıkama köpüğü' → car_shampoo + templateSubType='prewash_foaming_shampoo'\n" +
           "• 'Ağır çizik / kalın pasta' → abrasive_polish + templateSubType='heavy_cut_compound'\n" +
@@ -85,7 +85,10 @@ export const searchProducts = new Autonomous.Tool({
           "• 'Polisaj tabanlığı / yedek akü / şarj cihazı' → polisher_machine + metaFilter[product_type=accessory]\n" +
           "• 'Sprayer yedek başlık / nozzle / hortum' → sprayers_bottles + metaFilter[product_type=part]\n" +
           "• 'Lastik parlatıcı' → tire_care (NOT ceramic_coating; tire_coating sub_type Phase 2R'de tire_dressing'e merge oldu)\n" +
-          "• 'Deri koruyucu / deri bakım' → leather_care (leather_coating sub_type fabric_coating'a merge edildi)",
+          "• 'Saf deri temizleyici (LeatherCleaner Strong/Natural)' → interior_cleaner + templateSubType='leather_cleaner' (Phase 1.1.13K: leather_care kalktı)\n" +
+          "• 'Deri+kumaş kombine temizleyici' → interior_cleaner + templateSubType='fabric_leather_cleaner'\n" +
+          "• 'Deri koruyucu / deri bakım / leather conditioner' → interior_cleaner + templateSubType='leather_dressing'\n" +
+          "• 'Deri set / leather kit' → interior_cleaner + templateSubType='leather_care_kit'",
       ),
     templateSubType: z
       .string()

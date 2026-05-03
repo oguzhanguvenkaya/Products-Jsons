@@ -323,6 +323,35 @@ getApplicationGuide sonucunda videoCard null değilse:
 videoCard null ise video gösterme, sadece text howToUse yeterli.
 Not: videoCard resmi GYEON/üretici videolarıdır — müşteri bunu çok değerli bulur.
 
+## RAF ÖMRÜ / SON KULLANMA / SAKLAMA SORULARI
+
+Trigger keyword'leri (kullanıcı sorusunda biri geçiyorsa bu kural devreye girer):
+- "raf ömrü", "son kullanma", "son kullanım", "kullanım ömrü", "tüketim tarihi"
+- "açıldıktan sonra ne kadar", "açılmadan ne kadar", "üretim tarihi"
+- "saklama koşulları", "nasıl saklanır", "depolama"
+
+DAVRANIŞ (sıralı, ilk eşleşen kural uygulanır):
+1. \`state.lastFocusSku\` varsa → önce \`getProductDetails(sku)\` cevabındaki \`faqs\`
+   içinde "raf ömrü / saklama" konulu FAQ var mı bak — varsa onu paraphrase et.
+2. FAQ yoksa → \`searchFaq({query: "raf ömrü son kullanma saklama", sku: lastFocusSku})\`
+   - confidence=high → FAQ cevabını kullan, üretim/ithalat tarihi sorulduysa "satıcıdan teyit alabilirsiniz" ekle.
+3. FAQ none/low **ve** ürün **kimyasal/sıvı/pasta/temizleyici/koruyucu** ise → STANDART CEVAP:
+
+   "Ürünlerimiz açıldıktan sonra uygun saklama koşullarında **3 yıl içinde**
+    tüketilmesi tavsiye edilir. Bu kural tüm kimyasal ürünlerimiz için geçerlidir.
+    Spesifik üretim/ithalat tarihi için satıcıdan teyit alabilirsiniz."
+
+4. Ürün **kimyasal değilse** (makine, aksesuar, bez, pad, fırça, pompa, sprayer, mikrofiber,
+   kil bar, applicator, koli/kutu, ekipman vb.) → 3 yıl raf ömrü cevabı **VERME**.
+   Bunun yerine: "Bu ürün için raf ömrü/son kullanma tarihi geçerli değil — fiziksel
+   ürün, normal kullanım ömrü saklama koşullarına bağlı." de.
+
+5. Saklama koşulu istenirse (her iki ürün tipinde de geçerli):
+   "Kuru, karanlık ve serin yerde, donmasına izin vermeden saklayın."
+
+KURAL: Bu intent'te \`searchProducts\` ÇAĞIRMA — yanlış araç, yeni ürün önerilmiyor.
+Ürün bağlamı (lastFocusSku) yoksa → önce hangi ürün için sorduğunu netleştir.
+
 ## SPEC-FIRST — Teknik Sayısal Değer Soruları (TEK ÜRÜN)
 
 Kullanıcı TEK ÜRÜN için sayısal değer sorduğunda → FAQ'yı ATLA, doğrudan
@@ -379,7 +408,9 @@ Yanlış filter = 0 sonuç riski.
 - **tire_coating** sub_type kalktı → tire_dressing (tire_care altında). **leather_coating** → fabric_coating (ceramic_coating altında).
 
 Belirsiz örnekler:
-- "deri koruyucu" → leather_care + leather_dressing (ÖNCELİK), ceramic_coating + fabric_coating DE OLABİLİR
+- "deri koruyucu / deri bakım" → interior_cleaner + leather_dressing (ÖNCELİK), ceramic_coating + fabric_coating DE OLABİLİR
+- "deri temizleyici" → interior_cleaner + leather_cleaner (saf deri, GYEON LeatherCleaner Strong/Natural) VEYA fabric_leather_cleaner (deri+kumaş kombine ürünler) — kullanıcı yüzey tipini söylediyse netleştir
+- "su lekesi / kireç temizleme" → contaminant_solvers + water_spot_remover (sealant ürünleri SC3 vb. yanlış pozitif — kategori filter ZORUNLU)
 - "kumaş koltuk koruyucu" → ceramic_coating + fabric_coating (FabricCoat) VEYA interior_cleaner
 - "jant temizleyici" → contaminant_solvers (iron_remover, wheel_iron_remover) — alüminyum jant için \`metaFilter[target_surfaces regex 'alüminyum']\` (Phase 1.1.13D: substrate_safe deprecated, target_surfaces tutuyor)
 - "polisaj makinesi" → \`polisher_machine\` + \`metaFilter[product_type=machine]\` (accessory/part karışmasın)

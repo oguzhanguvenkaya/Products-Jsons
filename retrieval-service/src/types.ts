@@ -29,7 +29,6 @@ export const TEMPLATE_GROUPS = [
   'glass_cleaner_protectant',
   'industrial_products',
   'interior_cleaner',
-  'leather_care',
   'marin_products',
   'masking_tapes',
   'microfiber',
@@ -45,6 +44,29 @@ export const TEMPLATE_GROUPS = [
 ] as const;
 
 export const TemplateGroupSchema = z.enum(TEMPLATE_GROUPS);
+
+/**
+ * Phase 1.1.13K alias shim — deprecated `leather_care` → `interior_cleaner`.
+ *
+ * leather_care template_group 7 ürünle birlikte interior_cleaner altına
+ * konsolide edildi. Eski runtime/bot prompt hâlâ `leather_care` gönderebilir;
+ * burası input'u sessizce normalize eder. Telemetry için console.warn
+ * (production'da log aggregation ile sayılır). Min. 1 release döngüsü tutulur,
+ * sonra ayrı PR ile silinir.
+ */
+const DEPRECATED_TEMPLATE_GROUP_ALIASES: Record<string, string> = {
+  leather_care: 'interior_cleaner',
+};
+
+export function normalizeTemplateGroup<T extends string | null | undefined>(value: T): T {
+  if (typeof value !== 'string') return value;
+  const aliased = DEPRECATED_TEMPLATE_GROUP_ALIASES[value];
+  if (aliased) {
+    console.warn(`[deprecated-alias] templateGroup=${value} → ${aliased}`);
+    return aliased as T;
+  }
+  return value;
+}
 
 export const RELATION_TYPES = [
   'use_with',
@@ -167,7 +189,10 @@ export type SearchMode = z.infer<typeof SearchModeSchema>;
 
 export const SearchInputSchema = z.object({
   query: z.string().min(1),
-  templateGroup: TemplateGroupSchema.nullable().optional(),
+  templateGroup: z.preprocess(
+    (val) => normalizeTemplateGroup(val as any),
+    TemplateGroupSchema.nullable().optional(),
+  ),
   templateSubType: z.string().nullable().optional(),
   brand: z.string().nullable().optional(),
   exactMatch: z.string().nullable().optional(),
@@ -309,7 +334,10 @@ export type RelatedResult = z.infer<typeof RelatedResultSchema>;
 export const PriceSearchInputSchema = z.object({
   minPrice: z.number().int().nullable().optional(),
   maxPrice: z.number().int().nullable().optional(),
-  templateGroup: z.string().nullable().optional(),
+  templateGroup: z.preprocess(
+    (val) => normalizeTemplateGroup(val as any),
+    z.string().nullable().optional(),
+  ),
   // Phase 1.1 hotfix: alt-grup filter (ph_neutral_shampoo, paint_coating vb.).
   // Olmadan "en pahalı pH nötr şampuan" sorgusu tüm car_shampoo'yu sıralar
   // ve INNOVACAR S2 Foamy gibi yanlış kategori "en pahalı nötr" çıkar.
@@ -336,7 +364,10 @@ export const RankBySpecInputSchema = z
   .object({
     sortKey: RankBySpecSortKeySchema,
     direction: SortDirectionSchema.default('desc'),
-    templateGroup: z.string().nullable().optional(),
+    templateGroup: z.preprocess(
+      (val) => normalizeTemplateGroup(val as any),
+      z.string().nullable().optional(),
+    ),
     templateSubType: z.string().nullable().optional(),
     brand: z.string().nullable().optional(),
     minValue: z.number().nullable().optional(),

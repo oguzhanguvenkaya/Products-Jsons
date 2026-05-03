@@ -64,7 +64,7 @@ export const rankBySpec = new Autonomous.Tool({
       .string()
       .optional()
       .describe(
-        'searchProducts tool description\'ındaki 25 templateGroup değerinden biri (ör. "ceramic_coating").',
+        'searchProducts tool description\'ındaki 24 templateGroup değerinden biri (ör. "ceramic_coating").',
       ),
     templateSubType: z.string().optional(),
     brand: z.string().optional().describe('GYEON, MENZERNA vb. tam eşleşme.'),

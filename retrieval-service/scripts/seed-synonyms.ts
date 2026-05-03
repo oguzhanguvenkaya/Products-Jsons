@@ -39,7 +39,7 @@ const SYNONYMS: SynonymEntry[] = [
   { term: 'cam kaplama', aliases: ['glass coating', 'rain repellent', 'yağmur kovucu', 'yagmur kovucu'], category: 'glass_cleaner_protectant' },
 
   // iç mekan
-  { term: 'deri bakım', aliases: ['deri bakim', 'leather care', 'leather conditioner', 'deri'], category: 'leather_care' },
+  { term: 'deri bakım', aliases: ['deri bakim', 'leather care', 'leather conditioner', 'deri'], category: 'interior_cleaner' },
   { term: 'kumaş koltuk', aliases: ['kumas koltuk', 'fabric seat', 'fabric', 'textile'], category: 'interior_cleaner' },
   { term: 'iç temizleyici', aliases: ['ic temizleyici', 'interior cleaner', 'ic bakim', 'iç bakım'], category: 'interior_cleaner' },
   { term: 'plastik bakım', aliases: ['plastik bakim', 'plastic dressing', 'interior detailer'], category: 'interior_cleaner' },
