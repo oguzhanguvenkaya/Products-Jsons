@@ -399,7 +399,7 @@ searchProducts'ta templateGroup filter'ı KESİN bilmiyorsan KOYMA.
 Yanlış filter = 0 sonuç riski.
 
 **Taxonomy notları:**
-- 25 template_group var (\`spare_part\` YOK — parts polisher_machine + sprayers_bottles altında).
+- Canonical \`template_group\` enum'u searchProducts tool description'ında listelidir. \`spare_part\` YOK — parts polisher_machine + sprayers_bottles altında.
 - **wash_tools** (yıkama eldiveni / drying_towel / foam_tool / towel_wash / bucket) — 15 ürün; microfiber DEĞİL.
 - **air_equipment** (air_blow_gun, tornador_gun, tornador_part) — eski "accessory" grubu.
 - **industrial_products/solid_compound** = Menzerna katı pasta (113GZ, P164, vb.). \`specs.purpose\` (heavy_cut|medium_cut|finish|super_finish) + \`specs.target_surfaces[]\` (alüminyum, pirinç, krom, paslanmaz çelik, zamak, …) ile ayırt edilir. **abrasive_polish (sıvı pasta) ile farklı** — solid_compound katı/macun.
