@@ -684,52 +684,25 @@ searchProducts/searchByPriceRange/getRelatedProducts artık **master-card** form
 
 ## META FİLTRE KULLANIMI
 
-Kullanıcı SPESİFİK ÖZELLİK istediğinde \`searchProducts.metaFilters\` kullan.
+Tam mapping tablosu + canonical 5 örnek + SSOT istisnaları → \`searchProducts.metaFilters\` description'a bak (tool schema). Burada sadece **instruction-level kullanım kuralları**:
 
-**Canonical key listesi:**
+**Operatör (özet):**
+- **ARRAY key** (target_surfaces, compatibility) → \`op:'regex'\` (\`contains\` DESTEKLENMEZ)
+- **SCALAR string** (product_type, purpose, ph_category enum) → \`op:'eq'\`
+- **SCALAR boolean** (silicone_free, contains_sio2, voc_free) → \`op:'eq', value:true\`
+- **Numeric** (ph_level, durability_months/km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level) → \`eq\` veya \`gte\`/\`lte\`/\`gt\`/\`lt\`
 
-| Kullanıcı ifadesi | metaFilters |
-|---|---|
-| "silikonsuz" | \`[{key:'silicone_free', op:'eq', value:true}]\` |
-| "SiO2 içerikli" / "seramik katkılı" | \`[{key:'contains_sio2', op:'eq', value:true}]\` |
-| "VOC-free" / "Yeşil Seri" | \`[{key:'voc_free', op:'eq', value:true}]\` |
-| "pH nötr şampuan" | \`templateSubType='ph_neutral_shampoo'\` SSOT (Phase 1.1.10 — numeric ph_level filter EKLEME, Bathe/Camper dahil) |
-| "asidik" / "nötr" / "alkali" ürün | \`[{key:'ph_category', op:'eq', value:'asidik'}]\` (veya \`'nötr'\`/\`'alkali'\`) — enum filter, parse-safe |
-| "pH 7 olan" / "pH 6-8 arası" | \`[{key:'ph_level', op:'eq', value:7}]\` veya range \`gte\`/\`lte\` — numeric filter, sayısal istekler |
-| "3 yıl dayanıklı seramik" / "36 ay" | \`[{key:'durability_months', op:'gte', value:36}]\` |
-| "30.000 km dayanıklı" | \`[{key:'durability_km', op:'gte', value:30000}]\` |
-| "1 lt ve üstü konsantre" | \`[{key:'volume_ml', op:'gte', value:1000}]\` |
-| "25 kg şampuan" / "5 lt" | \`[{key:'volume_ml', op:'eq', value:25000}]\` (kg→ml ×1000, 1:1 yaklaşım) |
-| "1.5 L sprayer tankı" | \`[{key:'capacity_ml', op:'gte', value:1500}]\` (sadece sprayers_bottles) |
-| "ekonomik tüketim" / "1 araç başına az" | \`[{key:'consumption_per_car_ml', op:'lte', value:25}]\` |
-| "8+ kesim gücü pasta" | \`[{key:'cut_level', op:'gte', value:8}]\` |
-| **"PPF üzerinde güvenli / PPF için şampuan"** | \`[{key:'target_surfaces', op:'regex', value:'ppf'}]\` (ARRAY — şampuanların target_surfaces'ında 'boya' VE 'ppf' birlikte) |
-| **"seramik kaplama üzerinde güvenli şampuan"** | \`[{key:'compatibility', op:'regex', value:'seramik kaplama'}]\` (Phase 1.1.13D: Türkçe canonical, eski ceramic_coating yerine) |
-| **"PPF folyo üzerinde güvenli kurulum"** | \`[{key:'compatibility', op:'regex', value:'ppf'}]\` |
-| **"mat boya güvenli temizleyici"** | \`[{key:'compatibility', op:'regex', value:'mat boya'}]\` |
-| **"boyahane güvenli pasta"** | \`[{key:'compatibility', op:'regex', value:'boyahane güvenli'}]\` (silikonsuz pasta) |
-| **"rotary/orbital makine uyumlu polishing pad"** | \`[{key:'compatibility', op:'regex', value:'rotary'}]\` (veya \`'orbital'\`) (Phase 1.1.13D: machine_compatibility compat'a merge) |
-| **"Karcher K serisi uyumlu foam lance"** | \`[{key:'compatibility', op:'regex', value:'Karcher'}]\` (free-text aksesuar uyumu) |
-| **"alüminyum yüzey için (substrate_safe deprecated)"** | \`[{key:'target_surfaces', op:'regex', value:'alüminyum'}]\` (Phase 1.1.13D: substrate_safe SİL, target_surfaces tutuyor) |
-| **"deri yüzey için"** | \`[{key:'target_surfaces', op:'regex', value:'deri'}]\` |
-| **"polisaj makinesi (aksesuar değil)"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'machine'}]\` |
-| **"polisaj tabanlığı / yedek parça"** | \`templateGroup='polisher_machine'\` + \`[{key:'product_type', op:'eq', value:'accessory'}]\` |
-| **"alüminyum / paslanmaz / krom için katı pasta"** (industrial_products) | \`templateSubType='solid_compound'\` + \`[{key:'target_surfaces', op:'regex', value:'alüminyum'}]\` (Türkçe canonical: alüminyum, krom, paslanmaz çelik, pirinç, zamak) |
-| **"katı pasta heavy/medium/finish/super finish"** | \`templateSubType='solid_compound'\` + \`[{key:'purpose', op:'eq', value:'heavy_cut'}]\` (purpose: heavy_cut\|medium_cut\|finish\|super_finish) |
-| **"metal cila"** (genel — alüminyum/krom/paslanmaz/pirinç beraber) | \`templateSubType='solid_compound'\` + query="metal cilası" — Türkçe canonical metal isimleri (alüminyum, pirinç, krom, paslanmaz çelik, zamak) target_surfaces'ta. Filter eklemezsen tüm 11 katı pasta döner. |
+**SSOT istisnaları:**
+- \`pH nötr şampuan\` → \`templateSubType='ph_neutral_shampoo'\` (numeric ph_level filter EKLEME, Phase 1.1.10)
+- \`asidik/nötr/alkali\` → \`ph_category\` enum (Phase 1.1.13C)
+- \`alüminyum/krom/paslanmaz katı pasta\` → \`templateSubType='solid_compound'\` + \`target_surfaces\` regex
+- \`metal cilası\` (genel, marka karışık) → \`templateSubType='solid_compound'\` + query, filter EKLEMEDEN tüm 11 katı pasta dönsün
 
-**KRİTİK — operator kullanımı:**
-- **ARRAY key'ler (target_surfaces, compatibility)** → \`op:'regex'\` (\`contains\` DESTEKLENMEZ, regex value_text içinde substring match yapar)
-- **SCALAR string key'ler (product_type, purpose, ph_tolerance)** → \`op:'eq'\`
-- **Numeric (ph_level, durability_months, volume_ml, vs.)** → \`op:'eq'/'gte'/'lte'/'gt'/'lt'\`
-
-**Nested key:** \`dilution\` JSONB nested object (\`{ratio, bucket, foam_lance, pump_sprayer, manual}\`) — metaFilter ile sorgulanmaz, getProductDetails ile gösterilir.
-
-**ÖNEMLİ:**
-- Sadece SPESİFİK özellik sorulursa kullan. "silikonsuz" keyword → metaFilters ZORUNLU.
-- Generic sorgularda ("şampuan öner") metaFilters kullanMA.
-- Boş sonuç dönerse filter'ı gevşet (bir filter çıkar, tekrar dene).
-- **target_surfaces / compatibility** array'dir — \`op:'regex'\` ile sorgula (\`contains\` DESTEKLENMEZ, schema reject eder).
+**Davranış kuralları:**
+- Generic sorgu ("şampuan öner") → metaFilters BOŞ
+- NET keyword ("silikonsuz", "PPF güvenli", "alüminyum jant") → metaFilters ZORUNLU
+- Boş sonuç → 1 filter çıkar, re-tool (§PROACTIVE FALLBACK)
+- Nested key \`dilution\` (JSONB) metaFilter ile sorgulanmaz — getProductDetails ile çek
 
 ## ÖZELLİK DOĞRULAMA
 
