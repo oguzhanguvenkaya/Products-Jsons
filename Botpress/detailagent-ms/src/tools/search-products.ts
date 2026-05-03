@@ -23,7 +23,7 @@ import { retrievalClient } from '../lib/retrieval-client.ts';
 export const searchProducts = new Autonomous.Tool({
   name: 'searchProducts',
   description:
-    "MTS Kimya ürün kataloğunda (511 ürün) hibrit arama. Semantic similarity + " +
+    "MTS Kimya ürün kataloğunda hibrit arama. Semantic similarity + " +
     "kategori/marka pre-filter + exactMatch post-filter. " +
     "Parametre detayları her alanın description'ında — oraları oku.",
   input: z.object({
