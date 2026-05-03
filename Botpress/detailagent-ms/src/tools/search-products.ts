@@ -162,37 +162,21 @@ export const searchProducts = new Autonomous.Tool({
       .nullable()
       .optional()
       .describe(
-        "Microservice meta EAV filtresi. SADECE KULLANICI AÇIKÇA ÖZELLİK " +
-          "SORDUĞUNDA kullan. Phase 1 canonical key listesi (2026-04-25):\n" +
+        "Microservice meta EAV filtresi. SADECE kullanıcı AÇIKÇA özellik sorduğunda kullan; " +
+          "generic sorgularda BOŞ BIRAK.\n\n" +
+          "**Operatör kuralı:**\n" +
+          "- ARRAY key (target_surfaces, compatibility) → op:'regex' (op:'contains' DESTEKLENMİYOR)\n" +
+          "- SCALAR key (product_type, purpose, ph_level, ph_category, durability_months/km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance, silicone_free, contains_sio2 vb.) → op:'eq'|'gte'|'lte'|'gt'|'lt'\n\n" +
+          "**Kanonik 5 örnek (en sık):**\n" +
           "- 'silikonsuz' → [{key:'silicone_free', op:'eq', value:true}]\n" +
-          "- 'pH nötr şampuan' → templateSubType='ph_neutral_shampoo' (SSOT, ph_level numeric EKLEME — Phase 1.1.10 kararı, Bathe/Camper dahil)\n" +
-          "- 'asidik / nötr / alkali ürün' → [{key:'ph_category', op:'eq', value:'asidik'}] (veya 'nötr'/'alkali') — enum filter, parse-safe (Phase 1.1.13C)\n" +
-          "- 'pH 7 olan' / 'pH 6-8 arası' → [{key:'ph_level', op:'eq', value:7}] veya range gte/lte — numeric filter, sadece sayısal istekler\n" +
-          "- '3 yıl dayanıklı seramik' / '36 ay' → [{key:'durability_months', op:'gte', value:36}]\n" +
-          "- '30000 km dayanıklı' → [{key:'durability_km', op:'gte', value:30000}]\n" +
-          "- 'SiO2 içerikli' → [{key:'contains_sio2', op:'eq', value:true}]\n" +
-          "- '25 kg / 5 lt şampuan' → [{key:'volume_ml', op:'eq', value:25000}] (kg→ml ×1000, 1:1 yaklaşım)\n" +
-          "- '1.5 L sprayer tankı' → [{key:'capacity_ml', op:'gte', value:1500}]\n" +
-          "- 'PPF üzerinde güvenli / PPF için şampuan' → [{key:'target_surfaces', op:'regex', value:'ppf'}] (ARRAY key, 'regex' kullan — 'contains' DESTEKLENMİYOR)\n" +
-          "- 'seramik kaplama üzerinde güvenli şampuan' → [{key:'compatibility', op:'regex', value:'seramik kaplama'}]\n" +
-          "- 'PPF folyo üzerinde güvenli' → [{key:'compatibility', op:'regex', value:'ppf'}]\n" +
-          "- 'mat boya güvenli' → [{key:'compatibility', op:'regex', value:'mat boya'}]\n" +
-          "- 'boyahane güvenli pasta (silikonsuz)' → [{key:'compatibility', op:'regex', value:'boyahane güvenli'}]\n" +
-          "- 'rotary/orbital makine uyumlu pad' → [{key:'compatibility', op:'regex', value:'rotary'}] (veya 'orbital')\n" +
-          "- 'Karcher K serisi uyumlu foam lance' → [{key:'compatibility', op:'regex', value:'Karcher'}]\n" +
-          "- 'FLEX PXE 80 backing plate' → [{key:'compatibility', op:'regex', value:'FLEX'}]\n" +
-          "- 'alüminyum jant için (alüminyum yüzey)' → [{key:'target_surfaces', op:'regex', value:'alüminyum'}] (Phase 1.1.13D: substrate_safe deprecated, target_surfaces tutuyor)\n" +
-          "- 'deri yüzey için' → [{key:'target_surfaces', op:'regex', value:'deri'}]\n" +
-          "- 'alüminyum/krom/paslanmaz katı pasta' → templateSubType='solid_compound' + [{key:'target_surfaces', op:'regex', value:'alüminyum'}]\n" +
-          "- 'heavy cut katı pasta' → templateSubType='solid_compound' + [{key:'purpose', op:'eq', value:'heavy_cut'}]\n" +
-          "- 'polisaj makinesi (aksesuar değil)' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'machine'}]\n" +
-          "- 'polisaj tabanlığı' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'accessory'}]\n\n" +
-          "**ARRAY key listesi (op:'regex' kullan):** target_surfaces, compatibility\n" +
-          "**SCALAR key (op:'eq'/'gte'/'lte'):** product_type, purpose, ph_level, ph_category (enum 'asidik'|'nötr'|'alkali'), durability_months, durability_km, volume_ml, capacity_ml, consumption_per_car_ml, cut_level, hardness, ph_tolerance\n\n" +
-          "**NOT (Phase 1.1.13E):** target_surfaces SADECE kimyasal/dokunucu ürünlerde anlamlı. fragrance/sprayers_bottles/polisher_machine/storage_accessories/air_equipment/product_sets/wash_tools(bucket+foam_tool+towel_wash)/ppf_tools(consumable+positioning_tool) gruplarında target_surfaces YOK → bu kategorilerde target_surfaces filter koyma, templateGroup yeterli.\n\n" +
-          "Generic sorgularda BOŞ BIRAK — gereksiz filter bot'u yavaşlatır.\n" +
-          "Array key'lerde (target_surfaces, compatibility) " +
-          "op:'regex' kullan ('contains' DESTEKLENMİYOR — schema reject eder).",
+          "- 'asidik/nötr/alkali ürün' → [{key:'ph_category', op:'eq', value:'asidik'}] (Phase 1.1.13C enum SSOT)\n" +
+          "- 'PPF/seramik/mat boya üzerinde güvenli' → [{key:'compatibility', op:'regex', value:'seramik kaplama'}] (veya 'ppf'/'mat boya')\n" +
+          "- 'alüminyum jant / deri yüzey için' → [{key:'target_surfaces', op:'regex', value:'alüminyum'}] (Phase 1.1.13D: substrate_safe deprecated)\n" +
+          "- 'polisaj makinesi (aksesuar değil)' → templateGroup='polisher_machine' + [{key:'product_type', op:'eq', value:'machine'}]\n\n" +
+          "**SSOT istisnaları:**\n" +
+          "- 'pH nötr şampuan' → templateSubType='ph_neutral_shampoo' KULLAN (ph_level numeric EKLEME — Phase 1.1.10 SSOT kararı)\n" +
+          "- 'pH 7 olan' / 'pH 6-8 arası' (gerçek sayısal istek) → ph_level numeric (eq veya gte/lte)\n" +
+          "- target_surfaces SADECE kimyasal/dokunucu gruplarda anlamlı; fragrance/sprayers_bottles/polisher_machine/storage_accessories/air_equipment/product_sets/wash_tools(bucket+foam_tool+towel_wash)/ppf_tools(consumable+positioning_tool) gruplarında YOK (Phase 1.1.13E).",
       ),
   }),
   output: z.object({
