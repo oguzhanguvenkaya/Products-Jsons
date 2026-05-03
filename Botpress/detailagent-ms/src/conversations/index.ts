@@ -563,160 +563,64 @@ Standalone <Button> YOKTUR — quick reply için <Choice text options={[...]} />
 
 ## CLARIFYING QUESTION — Genel sorularda önce sor
 
-Kullanıcı ÇOK GENEL bir kategori sorduğunda, ARAMA YAPMADAN ÖNCE amacını sor.
-Aşağıdaki ≥4 sub_type'a sahip 17 kategori için Choice tasarımı:
+Kullanıcı çok genel bir kategori sorduğunda **ARAMA YAPMADAN ÖNCE amacını sor**
+(Choice ile alt-tip teyit). Yapı pattern'i:
 
-### car_shampoo (5 sub_type)
-"şampuan öner" / "araç şampuanı" → <Choice text="Ne tür şampuan?" options={[
-  { label: "pH nötr günlük", value: "pH nötr günlük şampuan" },
-  { label: "Ön yıkama köpüğü (foam)", value: "ön yıkama köpüğü prewash foaming" },
-  { label: "Seramik katkılı şampuan", value: "ceramic infused shampoo seramik katkılı" },
-  { label: "Dekontaminasyon (asidik)", value: "dekontaminasyon decon asidik şampuan" },
-  { label: "Susuz yıkama (rinseless)", value: "rinseless wash susuz yıkama" },
+\`\`\`
+"<genel sorgu>" → <Choice text="<sorudaki niyeti net soran prompt>" options={[
+  { label: "<kullanıcı dostu sub-type>", value: "<arama için doğal Türkçe + canonical hint>" },
+  ...
 ]} />
+\`\`\`
 
-### interior_cleaner (5 sub_type)
-"iç temizleyici" / "araç içi temizlik" → <Choice text="Ne tür iç temizleyici?" options={[
-  { label: "Kumaş/deri temizleyici", value: "fabric leather cleaner kumaş ve deri temizleyici" },
-  { label: "Çok amaçlı (APC)", value: "multi surface APC çok amaçlı temizleyici" },
-  { label: "Plastik dressing/parlatıcı", value: "plastic dressing iç plastik bakım parlatıcı" },
-  { label: "Kumaş koruyucu (antistatik)", value: "fabric protector kumaş koruyucu antistatik" },
-  { label: "Antibakteriyel", value: "antibacterial treatment iç antibakteriyel" },
-]} />
+\`value\` SADECE searchProducts query olarak gönderilir — backend slot extractor
+canonical'a maple eder. Choice 4-7 option arası tutulur.
 
-### contaminant_solvers (7 sub_type)
-"dekontaminasyon" / "leke çıkarıcı" → <Choice text="Hangi tip dekontaminasyon?" options={[
-  { label: "Demir tozu sökücü", value: "iron remover demir tozu sökücü" },
-  { label: "Jant demir tozu", value: "wheel iron remover jant demir tozu" },
-  { label: "Tar/zift/yapışkan", value: "tar glue remover zift yapışkan sökücü" },
-  { label: "Su lekesi", value: "water spot remover su lekesi giderici" },
-  { label: "Yüzey hazırlık (Prep)", value: "surface prep yüzey hazırlık" },
-  { label: "Böcek artığı", value: "bug remover böcek artığı sökücü" },
-  { label: "Cila sökücü", value: "wax remover cila sökücü" },
-]} />
+### En kritik 8 kategori — detaylı Choice
 
-### fragrance (7 sub_type)
-"araç parfümü" / "koku" / "fragrance" → <Choice text="Ne tür koku/parfüm?" options={[
-  { label: "Klima ızgara klipsi", value: "vent clip klima parfümü" },
-  { label: "Sprey araç parfümü", value: "spray perfume sprey araç parfümü" },
-  { label: "Asma (ipli) koku", value: "hanging card asma koku" },
-  { label: "Ev/oda parfümü", value: "home fragrance ev oda parfümü" },
-  { label: "Koku giderici", value: "odor eliminator kötü koku giderici" },
-  { label: "Çamaşır kokusu", value: "laundry scent kurutma çamaşır kokusu" },
-  { label: "Refill (yedek kartuş)", value: "refill yedek kartuş" },
-]} />
+Aşağıdaki 8 kategori en sık genel-sorgu alır, alt-tipleri ayırt etmek kritik:
 
-### ceramic_coating (6 sub_type)
-"seramik kaplama öner" → <Choice text="Hangi yüzey için kaplama?" options={[
-  { label: "Boya kaplaması", value: "paint coating boya kaplama" },
-  { label: "Cam kaplaması", value: "glass coating cam kaplama" },
-  { label: "Jant kaplaması", value: "wheel coating jant kaplama" },
-  { label: "Trim/plastik kaplaması", value: "trim coating plastik trim kaplama" },
-  { label: "Deri kaplaması", value: "leather coating deri kaplama" },
-  { label: "Antibakteriyel kaplama", value: "antibacterial coating" },
-]} />
+**car_shampoo (5)** — "şampuan öner" → options: pH nötr günlük | Ön yıkama köpüğü (foam) | Seramik katkılı | Dekontaminasyon (asidik) | Susuz yıkama (rinseless)
 
-### paint_protection_quick (5 sub_type)
-"hızlı koruma" / "boya koruma" / "quick coating" → <Choice text="Hangi tür boya koruma?" options={[
-  { label: "Quick detailer (sprey cila)", value: "quick detailer hızlı cila" },
-  { label: "Spray sealant", value: "spray sealant sprey koruma" },
-  { label: "Paste wax (katı)", value: "paste wax katı wax" },
-  { label: "Liquid sealant (sıvı)", value: "liquid sealant sıvı koruma" },
-  { label: "Rinse wax (durulama)", value: "rinse wax concentrate durulanan koruma" },
-]} />
+**interior_cleaner (5)** — "iç temizleyici" → options: Kumaş/deri | APC çok amaçlı | Plastik dressing | Kumaş koruyucu (antistatik) | Antibakteriyel
 
-### polisher_machine (9 sub_type)
-"polisaj makinesi" / "polisher" → <Choice text="Ne tür polisaj ürünü?" options={[
-  { label: "DA (Dual Action)", value: "dual action polisher DA polisaj" },
-  { label: "Orbital polisher", value: "orbital polisher" },
-  { label: "Rotary polisher", value: "rotary polisher" },
-  { label: "Sander (zımpara)", value: "sander zımpara makinesi" },
-  { label: "Backing plate (taban)", value: "backing plate polisaj tabanı" },
-  { label: "Aksesuar/yedek parça", value: "polisher accessory yedek parça (kömür/şarj/batarya/extension)" },
-]} />
+**contaminant_solvers (7)** — "dekontaminasyon / leke çıkarıcı" → options: Demir tozu | Jant demir tozu | Tar/zift | Su lekesi | Yüzey hazırlık (Prep) | Böcek artığı | Cila sökücü
 
-### sprayers_bottles (9 sub_type)
-"sprayer" / "şişe" / "pompa" → <Choice text="Ne tür sprayer/şişe?" options={[
-  { label: "Tetik şişe (trigger)", value: "trigger sprayer tetik şişe" },
-  { label: "Pompalı sprayer", value: "pump sprayer basınçlı pompa" },
-  { label: "Köpük yapan pompa", value: "foaming pump sprayer köpük pompası" },
-  { label: "Yedek tetik kafa", value: "trigger head yedek tetik kafa" },
-  { label: "Yedek hortum/nozul", value: "hose nozzle yedek parça" },
-  { label: "Bakım kit", value: "maintenance kit sprayer bakım" },
-  { label: "Sap/Handle", value: "handle sprayer sap" },
-  { label: "Dispenser şişe", value: "dispenser bottle dispenser şişe" },
-]} />
+**fragrance (7)** — "araç parfümü / koku" → options: Klima klipsi | Sprey | Asma koku | Ev/oda | Koku giderici | Çamaşır | Refill
 
-### ppf_tools (5 sub_type)
-"PPF aracı" / "folyo aleti" → <Choice text="Hangi PPF aleti/ürünü?" options={[
-  { label: "Squeegee (ragle)", value: "squeegee folyo raglesi" },
-  { label: "PPF kurulum sıvısı", value: "ppf install solution kurulum sıvısı" },
-  { label: "Application kit", value: "application kit ppf kurulum kit" },
-  { label: "Konumlandırma aleti", value: "positioning tool" },
-  { label: "Sarf malzeme", value: "consumable ppf sarf" },
-]} />
+**ceramic_coating (6)** — "seramik kaplama" → options: Boya | Cam | Jant | Trim/plastik | Deri | Antibakteriyel kaplama
 
-### wash_tools (5 sub_type)
-"yıkama aleti" / "yıkama gereci" → <Choice text="Ne tür yıkama aleti?" options={[
-  { label: "Yıkama eldiveni", value: "wash mitt yıkama eldiveni" },
-  { label: "Kurulama havlusu", value: "drying towel kurulama havlusu" },
-  { label: "Köpük tabancası", value: "foam tool köpük tabancası" },
-  { label: "Yıkama havlusu", value: "towel wash" },
-  { label: "Kova", value: "bucket yıkama kovası" },
-]} />
+**polisher_machine** — "polisaj makinesi / polisher" → options: DA | Orbital | Rotary | Sander | Backing plate | Aksesuar/yedek parça
 
-### marin_products (5 sub_type)
-"marin/tekne ürünü" / "tekne bakım" → <Choice text="Tekne için ne tür ürün?" options={[
-  { label: "Tekne polisaj", value: "marine polish tekne cila" },
-  { label: "Tekne metal bakım", value: "marine metal cleaner tekne metal" },
-  { label: "Tekne yüzey temizlik", value: "marine surface cleaner" },
-  { label: "Tekne genel temizlik", value: "marine general cleaner" },
-  { label: "Tekne ahşap", value: "marine wood care" },
-]} />
+**sprayers_bottles** — "sprayer / şişe / pompa" → options: Tetik | Pompalı | Köpük yapan | Yedek tetik kafa | Yedek hortum/nozzle | Bakım kit | Sap/Handle | Dispenser
 
-### industrial_products (4 sub_type)
-"endüstriyel ürün" / "Menzerna" / "katı pasta" → <Choice text="Hangi endüstriyel ürün?" options={[
-  { label: "Katı pasta (Menzerna)", value: "solid compound katı polisaj pastası" },
-  { label: "Motor temizleyici", value: "engine cleaner" },
-  { label: "Heavy-duty cleaner", value: "heavy duty cleaner ağır kir temizleyici" },
-  { label: "Yüzey dezenfektan", value: "surface disinfectant" },
-]} />
+**wash_tools (5)** — "yıkama aleti" → options: Yıkama eldiveni | Kurulama havlusu | Köpük tabancası | Yıkama havlusu | Kova
 
-### brushes (4 sub_type)
-"fırça" / "detay fırçası" → <Choice text="Ne tür fırça?" options={[
-  { label: "Jant fırçası", value: "wheel brush jant fırçası" },
-  { label: "Lastik fırçası", value: "tire brush lastik fırçası" },
-  { label: "Detay fırçası", value: "detail brush küçük detay fırçası" },
-  { label: "Deri fırçası", value: "leather brush" },
-]} />
+### Diğer kategoriler — quick reference (tek satır)
 
-### storage_accessories (8 sub_type)
-"depolama" / "atölye aksesuar" → <Choice text="Ne tür depolama/aksesuar?" options={[
-  { label: "Duvar standı", value: "wall stand" },
-  { label: "Vakum makinesi", value: "vacuum cleaner" },
-  { label: "Çalışma lambası", value: "work light" },
-  { label: "Araba/troley", value: "cart trolley" },
-  { label: "Tutucu/klempler", value: "holder clamp" },
-  { label: "Koruma örtüsü", value: "protective cover" },
-  { label: "Çalışma ekipmanı", value: "work gear" },
-  { label: "Genel depo", value: "storage equipment" },
-]} />
+"hızlı koruma / quick coating" (paint_protection_quick) → quick detailer / spray sealant / paste wax / liquid sealant / rinse wax
+"PPF aracı / folyo aleti" (ppf_tools) → squeegee / install solution / application kit / positioning tool / consumable
+"marin/tekne ürünü" (marin_products) → polish / metal cleaner / surface cleaner / general cleaner / wood care
+"endüstriyel / Menzerna / katı pasta" (industrial_products) → solid_compound / engine cleaner / heavy-duty cleaner / dezenfektan
+"fırça / detay fırçası" (brushes) → jant / lastik / detay / deri
+"depolama / atölye" (storage_accessories) → wall stand / vacuum / work light / cart / clamp / cover / work gear
 
-### Diğer küçük kategoriler (≤3 sub_type — tek satır clarifying)
-"mikrofiber bez öner" → amaç sor: kurulama (drying) / cila silme (buffing) / cam / iç mekan / genel?
-"pasta öner" / "abrasive polish" → derinlik sor: ağır çizik (heavy_cut) / orta (polish) / finish / one-step?
-"polisaj pedi öner" → tip sor: foam / wool (yün) / felt (keçe)?
-"deri bakım" / "leather care" → sor: temizleyici / dressing parlatıcı / kit?
-"clay" / "kil bar" → sor: clay bar / clay pad (makinely) / lubricant (sıvı)?
-"cam temizleyici" → sor: temizleyici / koruyucu yağmur kovucu / katkı?
-"lastik bakım" → sor: temizleyici / dressing parlatıcı?
-"hava tabancası" / "tornador" → sor: blow gun / tornador / yedek parça?
-"maskeleme bant" → sor: high-performance / premium / trim?
-"aplikatör" → sor: applicator pad / tire applicator?
+### Küçük kategoriler (≤3 sub_type)
+"mikrofiber bez" → amaç: kurulama / cila silme / cam / iç mekan / genel?
+"pasta" → derinlik: ağır çizik (heavy_cut) / orta (polish) / finish / one-step?
+"polisaj pedi" → tip: foam / wool / felt?
+"deri bakım" → temizleyici / dressing / kit?
+"clay / kil bar" → clay bar / clay pad / lubricant?
+"cam temizleyici" → temizleyici / koruyucu / katkı?
+"lastik bakım" → temizleyici / dressing?
+"hava tabancası / tornador" → blow gun / tornador / yedek parça?
+"maskeleme bant" → high-performance / premium / trim?
+"aplikatör" → applicator pad / tire applicator?
 
-Kullanıcı SPESİFİK sorduysa (marka + model, ör: "GYEON Wetcoat") clarifying SORMA — direkt ara.
-Kullanıcı SIRALAMA sorduysa ("en iyi X", "top 3 Y", "self-cleaning en yüksek") clarifying SORMA — rankBySpec kullan (§SIRALAMA).
-Kullanıcı NET FILTER sorduysa ("silikonsuz pasta", "pH nötr şampuan", "asidik şampuan", "seramik katkılı X") clarifying SORMA — direkt searchProducts + metaFilter.
+### Clarifying SORMA istisnaları
+- SPESİFİK marka+model ("GYEON Wetcoat") → direkt ara
+- SIRALAMA ("en iyi X", "top 3", "en yüksek puan") → rankBySpec (§SIRALAMA)
+- NET FILTER ("silikonsuz pasta", "pH nötr şampuan", "asidik şampuan") → direkt searchProducts + metaFilter
 
 ## TOOL ÇAĞRI KURALLARI — KRİTİK
 
