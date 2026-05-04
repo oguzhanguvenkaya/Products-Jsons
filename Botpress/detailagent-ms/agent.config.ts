@@ -60,6 +60,21 @@ export default defineConfig({
     },
 
     // ───────────────────────────────────────────────────────────────────────────
+    // Secrets — cloud bot için zorunlu
+    // ───────────────────────────────────────────────────────────────────────────
+    // Local `adk dev` .env dosyasından okur; cloud deploy `adk secret:set` ile
+    // değerleri Botpress Cloud'a yükler. Schema declaration olmadan secret cloud'a
+    // gönderilmez — bot kırılır.
+    secrets: {
+        RETRIEVAL_SERVICE_URL: {
+            description: 'Cloud retrieval microservice URL (Fly.io: https://detailagent-retrieval.fly.dev)',
+        },
+        RETRIEVAL_SHARED_SECRET: {
+            description: 'Bearer token for retrieval-service /search /faq endpoints (min 16 chars)',
+        },
+    },
+
+    // ───────────────────────────────────────────────────────────────────────────
     // Bağımlılıklar
     // ───────────────────────────────────────────────────────────────────────────
     // Webchat (Shopify), Slack vb. integration'lar buraya `adk add <name>` ile
