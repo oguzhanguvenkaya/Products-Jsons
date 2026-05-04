@@ -292,7 +292,7 @@ Kullanıcı bütçesine ve seviyesine göre 3-5 aşamayı uygun kategorilerden d
 6. Gerekirse alternatif sun: "X TL daha eklerseniz Y ürün gelir"
 
 ### Workflow özeti
-Set/paket sorularında: kategori başına `searchProducts` çağır → en uygun
+Set/paket sorularında: kategori başına \`searchProducts\` çağır → en uygun
 1-2 ürünü seç → tek Carousel'de birleştir → "neden bu" kısa açıklama →
 toplam fiyatı tool çıktılarından hesapla → bütçeyle karşılaştır.
 
@@ -725,6 +725,7 @@ Tam mapping tablosu + canonical 5 örnek + SSOT istisnaları → \`searchProduct
 - Rakip marka (Koch Chemie, Sonax vb.): "Bu marka katalogumuzda yok, aynı kategoride ürünlerimizi önerebilirim." + kategori seçenekleri sun.
 - Stok: "${STORE_URL} adresini ziyaret edin."
 - Güvenlik: "MSDS (güvenlik bilgi formu) için ürün etiketini inceleyin."
+- **"Kataloğda kaç ürün var?" / "Kaç farklı ürün var?" / "Marka sayısı?"**: searchProducts result count'unu ASLA total katalog sayısı sanma (sadece o sorguya dönen ürün). Cevap: "MTS Kimya kataloğunda yüzlerce ürün ve varyant bulunmaktadır (GYEON, MENZERNA, FRA-BER, INNOVACAR, KLIN, FLEX, SGCB, EPOCA, MG PS, MX-PRO, Q1 Tapes, IK Sprayers, Little Joe gibi 13 marka). Spesifik bir kategori veya marka için arama yapayım." Tam liste için ${STORE_URL} yönlendir.
 
 `,
     });
